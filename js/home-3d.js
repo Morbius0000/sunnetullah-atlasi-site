@@ -15,6 +15,7 @@
   var active = null; // şu an mount edilmiş sahnenin dispose() referansı
   var lastArgs = null; // { stage2dEl, stage3dEl, wrapEl } — canlı uygunluk kontrolü için saklanır
   var mountGeneration = 0; // her mount()/teardown()/uygunsuzluk ile artar; bekleyen (pending) yüklemeleri geçersiz kılar
+  var activeKind = null; // "3d" | "2d" (canvas fallback)
   var mountPending = false; // o anki generation için bekleyen (THREE.js yükleniyor) bir mount var mı
 
   function supportsWebGL() {
@@ -465,7 +466,7 @@
       if (renderer.domElement && renderer.domElement.parentNode) {
         renderer.domElement.parentNode.removeChild(renderer.domElement);
       }
-      if (wrapEl) wrapEl.classList.remove("mode-3d");
+      if (wrapEl) { wrapEl.classList.remove("mode-3d"); wrapEl.removeAttribute("data-hero-mode"); }
     }
 
     return { dispose: dispose };
@@ -477,7 +478,157 @@
     if (active) {
       active.dispose(); // .mode-3d sınıfını da kaldırır
       active = null;
+      activeKind = null;
     }
+  }
+
+  // ---- Canvas 2D fallback: telefon / dar ekran / reduced-motion / WebGL yok /
+  // three.js yüklenemedi durumlarında hero'da canvas HİÇ kaybolmaz. Hafif:
+  // tek 2D canvas, ~30 fps, görünmezken durur; reduced-motion'da tek statik kare. ----
+  var FALLBACK_IMG = "assets/home/quran/A02_hero_quran_open.webp";
+  var fallbackImgPromise = null;
+  function loadFallbackImage() {
+    if (fallbackImgPromise) return fallbackImgPromise;
+    fallbackImgPromise = new Promise(function (resolve, reject) {
+      var im = new Image();
+      im.onload = function () { resolve(im); };
+      im.onerror = function () { fallbackImgPromise = null; reject(new Error("img")); };
+      im.src = FALLBACK_IMG;
+    });
+    return fallbackImgPromise;
+  }
+  function prefersReducedMotion() {
+    return !!(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches);
+  }
+
+  function buildFallback(container, wrapEl, img) {
+    var canvas = document.createElement("canvas");
+    canvas.setAttribute("data-hero-canvas", "2d");
+    wrapEl.classList.add("mode-3d"); // 2D CSS sahnesini gizler, canvas kutusunu gösterir
+    wrapEl.setAttribute("data-hero-mode", "canvas2d");
+    container.appendChild(canvas);
+    var ctx = canvas.getContext("2d");
+    var w = 1, h = 1, rafId = 0, running = false, lastT = 0;
+    var visible = true, tabVisible = !document.hidden, io = null;
+    var t0 = performance.now();
+    var parts = [];
+    for (var i = 0; i < 26; i++) {
+      parts.push({ a: Math.random() * 6.283, r: 0.22 + Math.random() * 0.24, v: 0.00015 + Math.random() * 0.00035, ph: Math.random() * 6.283 });
+    }
+
+    function resize() {
+      var rect = container.getBoundingClientRect();
+      w = Math.max(1, Math.round(rect.width));
+      h = Math.max(1, Math.round(rect.height));
+      var dpr = Math.min(window.devicePixelRatio || 1, 2);
+      canvas.width = Math.round(w * dpr);
+      canvas.height = Math.round(h * dpr);
+      if (ctx) ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    }
+
+    function draw(t) {
+      if (!ctx) return;
+      ctx.clearRect(0, 0, w, h);
+      var cx = w / 2, cy = h * 0.52;
+      var breathe = 0.5 + 0.5 * Math.sin(t * 0.0011);
+      var g = ctx.createRadialGradient(cx, cy, 0, cx, cy, w * 0.48);
+      g.addColorStop(0, "rgba(82,217,255," + (0.30 + 0.10 * breathe).toFixed(3) + ")");
+      g.addColorStop(0.55, "rgba(216,177,106,0.10)");
+      g.addColorStop(1, "rgba(82,217,255,0)");
+      ctx.fillStyle = g;
+      ctx.fillRect(0, 0, w, h);
+
+      // holografik halkalar
+      ctx.lineWidth = Math.max(1, w * 0.004);
+      [[0.40, 0.14, 0.00035, "rgba(216,177,106,0.40)"], [0.46, 0.18, -0.00025, "rgba(82,217,255,0.30)"]].forEach(function (r) {
+        ctx.save();
+        ctx.translate(cx, cy + h * 0.2);
+        ctx.rotate(t * r[2]);
+        ctx.strokeStyle = r[3];
+        ctx.beginPath();
+        ctx.ellipse(0, 0, w * r[0], h * r[1], 0, 0, 6.283);
+        ctx.stroke();
+        ctx.restore();
+      });
+
+      // sayfa ışığı
+      var pl = ctx.createLinearGradient(0, cy - h * 0.34, 0, cy);
+      pl.addColorStop(0, "rgba(255,241,208,0)");
+      pl.addColorStop(1, "rgba(255,241,208," + (0.22 + 0.10 * breathe).toFixed(3) + ")");
+      ctx.fillStyle = pl;
+      ctx.fillRect(cx - w * 0.06, cy - h * 0.34, w * 0.12, h * 0.34);
+
+      // kitap (A02) hafif süzülme
+      var dy = Math.sin(t * 0.0013) * h * 0.012;
+      if (img && img.naturalWidth) {
+        var sc = Math.min((w * 0.74) / img.naturalWidth, (h * 0.62) / img.naturalHeight);
+        var dw = img.naturalWidth * sc, dh = img.naturalHeight * sc;
+        ctx.drawImage(img, cx - dw / 2, cy - dh / 2 + dy, dw, dh);
+      }
+
+      // parçacıklar
+      ctx.fillStyle = "rgba(255,241,208,0.85)";
+      for (var k = 0; k < parts.length; k++) {
+        var p = parts[k];
+        var ang = p.a + t * p.v;
+        var px = cx + Math.cos(ang) * w * p.r * 1.6;
+        var py = cy - h * 0.05 + Math.sin(ang * 1.3) * h * p.r * 0.9;
+        ctx.globalAlpha = 0.25 + 0.45 * (0.5 + 0.5 * Math.sin(t * 0.002 + p.ph));
+        ctx.beginPath();
+        ctx.arc(px, py, Math.max(1, w * 0.004), 0, 6.283);
+        ctx.fill();
+      }
+      ctx.globalAlpha = 1;
+    }
+
+    function frame(now) {
+      if (!running) return;
+      rafId = requestAnimationFrame(frame);
+      if (now - lastT < 33) return; // ~30 fps
+      lastT = now;
+      draw(now - t0);
+    }
+    function syncRunning() {
+      var want = !prefersReducedMotion() && visible && tabVisible;
+      if (want && !running) { running = true; rafId = requestAnimationFrame(frame); }
+      else if (!want && running) { running = false; cancelAnimationFrame(rafId); }
+    }
+    function onVisibility() { tabVisible = !document.hidden; syncRunning(); }
+    document.addEventListener("visibilitychange", onVisibility);
+    if ("IntersectionObserver" in window) {
+      io = new IntersectionObserver(function (entries) {
+        visible = entries[entries.length - 1].isIntersecting; syncRunning();
+      });
+      io.observe(container);
+    }
+
+    resize();
+    draw(0);
+    syncRunning();
+
+    return {
+      kind: "2d",
+      refresh: function () { resize(); draw(running ? performance.now() - t0 : 0); syncRunning(); },
+      dispose: function () {
+        running = false; cancelAnimationFrame(rafId);
+        document.removeEventListener("visibilitychange", onVisibility);
+        if (io) io.disconnect();
+        if (canvas.parentNode) canvas.parentNode.removeChild(canvas);
+        wrapEl.classList.remove("mode-3d");
+        wrapEl.removeAttribute("data-hero-mode");
+      }
+    };
+  }
+
+  function startFallback(args) {
+    var gen = mountGeneration;
+    function build(img) {
+      if (gen !== mountGeneration || lastArgs !== args || active) return;
+      if (!document.body.contains(args.stage3dEl)) return;
+      active = buildFallback(args.stage3dEl, args.wrapEl, img);
+      activeKind = "2d";
+    }
+    loadFallbackImage().then(build, function () { build(null); });
   }
 
   // Bekleyen (THREE.js hâlâ yükleniyor) bir mount varsa geçersiz kılar:
@@ -515,16 +666,20 @@
         mountPending = false;
         if (lastArgs !== args) return; // ekstra güvenlik: args artık güncel değil
         if (!document.body.contains(args.stage3dEl)) return;
-        if (!shouldAttempt()) return;
+        if (!shouldAttempt()) { startFallback(args); return; }
         if (active) return; // aynı anda başka bir yol zaten mount etmiş olabilir
         active = buildScene(THREE, args.stage3dEl, args.wrapEl);
+        activeKind = "3d";
         args.wrapEl.classList.add("mode-3d");
+        args.wrapEl.setAttribute("data-hero-mode", "3d");
       })
       .catch(function () {
-        // Başarısız yükleme sonrası tekrar deneme mümkün olsun diye yalnızca
-        // hâlâ güncel generation'daysak bayrağı sıfırla.
-        if (myGeneration === mountGeneration) mountPending = false;
-        // Sessizce Level 2 2D fallback'te kal.
+        // Yükleme/sahne kurulumu başarısız: canvas 2D fallback'e geç (hero'da
+        // canvas kaybolmaz). Yalnızca hâlâ güncel generation'daysak.
+        if (myGeneration === mountGeneration) {
+          mountPending = false;
+          if (lastArgs === args && !active) startFallback(args);
+        }
       });
   }
 
@@ -533,7 +688,7 @@
     disposeActive();
     if (!stage3dEl || !wrapEl) { lastArgs = null; return; }
     lastArgs = { stage2dEl: stage2dEl, stage3dEl: stage3dEl, wrapEl: wrapEl };
-    if (!shouldAttempt()) return;
+    if (!shouldAttempt()) { startFallback(lastArgs); return; }
     attemptMount(lastArgs);
   }
 
@@ -547,12 +702,15 @@
     if (!document.body.contains(lastArgs.stage3dEl)) { lastArgs = null; return; }
     var eligible = shouldAttempt();
     if (!eligible) {
-      if (active || mountPending) {
+      if (activeKind === "3d" || mountPending) {
         invalidatePending();
         disposeActive();
       }
+      if (!active) startFallback(lastArgs);
+      else if (active.refresh) active.refresh();
       return;
     }
+    if (activeKind === "2d") disposeActive(); // 3D'ye geçilebilir
     if (!active && !mountPending) {
       attemptMount(lastArgs);
     }
@@ -573,5 +731,5 @@
     eligibilityResizeTimer = setTimeout(evaluateEligibility, 150);
   });
 
-  window.AtlasHome3D = { mount: mount, teardown: teardown, shouldAttempt: shouldAttempt };
+  window.AtlasHome3D = { mount: mount, teardown: teardown, shouldAttempt: shouldAttempt, mode: function () { return activeKind; } };
 })();
