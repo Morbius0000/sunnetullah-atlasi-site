@@ -314,6 +314,10 @@ button { font: inherit; }
 .verse-translation-source {
   font-size: 11px; color: var(--ink-faint); margin-top: 4px;
 }
+/* Tamlık kuralı: ayet metni (Arapça + meal) ASLA kırpılmaz/kısaltılmaz; kart uzar. */
+.verse-arabic, .verse-translation {
+  overflow: visible; max-height: none; text-overflow: clip; overflow-wrap: anywhere;
+}
 
 details.collapse {
   border: 1px solid var(--line-soft); border-radius: var(--radius-sm);
