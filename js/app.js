@@ -768,6 +768,54 @@
     return '<span class="pill gold">' + esc(hit.id) + '</span>' + (hit.review_pending ? reviewBadge() : '');
   }
 
+  function verseKey(v) {
+    return v.sure_no + ":" + v.ayet_no;
+  }
+
+  function completeVerse(v) {
+    var full = AYETLER[verseKey(v)] || {};
+    return {
+      sure_no: v.sure_no,
+      ayet_no: v.ayet_no,
+      arapca: full.arapca || v.arapca || "",
+      meal_tr: full.meal_tr || v.meal_tr || "",
+      meal_kaynagi: full.meal_kaynagi || v.meal_kaynagi || "Yaşar Nuri Öztürk",
+    };
+  }
+
+  function uniqueCompleteVerses(verses) {
+    var seen = {};
+    var out = [];
+    (verses || []).forEach(function (v) {
+      var key = verseKey(v);
+      if (seen[key]) return;
+      seen[key] = true;
+      out.push(completeVerse(v));
+    });
+    return out;
+  }
+
+  function outcomeEventHtml(o, opts) {
+    opts = opts || {};
+    var verses = uniqueCompleteVerses(o.verses || []);
+    var html = '<div class="outcome-event">';
+    html += '<div class="outcome-event-title">• ' + esc(o.baslik) +
+      (o.review_pending ? ' <span class="badge-review" style="margin-left:4px;">İnceleme bekliyor</span>' : '') +
+      '</div>';
+    if (opts.reason && o.ayette_belirtilen_sebep) {
+      html += '<div class="event-body"><strong>Ayette belirtilen sebep:</strong> ' +
+        esc(o.ayette_belirtilen_sebep) + '</div>';
+    }
+    if (verses.length) {
+      html += '<div class="outcome-verses-title">Tam ayet metni ve meal</div>';
+      html += verses.map(function (v) { return verseItemHtml(v, null, null); }).join('');
+    } else {
+      html += '<div class="outcome-empty">Bu sonuç maddesi için bağlı tam ayet kaydı bulunmuyor.</div>';
+    }
+    html += '</div>';
+    return html;
+  }
+
   function panelOlaylar(t) {
     if (!t.olaylar.length) {
       return '<div class="outcome-empty">Atlas veri setinde bu topluluğa bağlı olay kaydı bulunmuyor.</div>';
@@ -799,6 +847,7 @@
   function panelSonuc(t) {
     var html = '';
     var any = false;
+    html += '<div class="outcome-note">Bu sekmede kısa sınıflandırma metinleriyle birlikte bağlı ayetler tam Arapça metin ve tam Türkçe meal olarak gösterilir.</div>';
     OUTCOME_BUCKETS.forEach(function (b) {
       var matches = t.olaylar.filter(function (o) {
         return o.olay_tipi === b.key || (o.ek_tipler || []).indexOf(b.key) !== -1;
@@ -806,10 +855,7 @@
       html += '<div class="outcome-block"><div class="outcome-label">' + esc(b.label) + '</div>';
       if (matches.length) {
         any = true;
-        html += matches.map(function (o) {
-          return '<div class="event-body">• ' + esc(o.baslik) +
-            (o.review_pending ? ' <span class="badge-review" style="margin-left:4px;">İnceleme bekliyor</span>' : '') + '</div>';
-        }).join('');
+        html += matches.map(function (o) { return outcomeEventHtml(o); }).join('');
       } else {
         html += '<div class="outcome-empty">Atlas veri setinde bu alan için kayıt bulunmuyor.</div>';
       }
@@ -819,15 +865,11 @@
     html += '<div class="outcome-block"><div class="outcome-label">Ayette Belirtilen Sebep</div>';
     if (sebepler.length) {
       any = true;
-      html += sebepler.map(function (o) {
-        return '<div class="event-body">• ' + esc(o.ayette_belirtilen_sebep) + ' (' + esc(o.baslik) + ')</div>';
-      }).join('');
+      html += sebepler.map(function (o) { return outcomeEventHtml(o, { reason: true }); }).join('');
     } else {
       html += '<div class="outcome-empty">Atlas veri setinde bu alan için kayıt bulunmuyor.</div>';
     }
     html += '</div>';
-    html += '<div class="outcome-block"><div class="outcome-label">Türkçe Anlam</div>' +
-      '<div class="outcome-empty" data-field="turkce_anlam_ozet">Türkçe mealler Ayetler sekmesinde, Yaşar Nuri Öztürk kaynağıyla gösterilmektedir.</div></div>';
     return html;
   }
 
