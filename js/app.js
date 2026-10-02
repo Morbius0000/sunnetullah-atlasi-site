@@ -857,7 +857,7 @@
         any = true;
         html += matches.map(function (o) { return outcomeEventHtml(o); }).join('');
       } else {
-        html += '<div class="outcome-empty">Atlas veri setinde bu alan için kayıt bulunmuyor.</div>';
+        html += '<div class="outcome-empty">Bu sonuç kategorisinde kayıt yok; bu kayıt Kur\'an\'da geçmiyor anlamına gelmez.</div>';
       }
       html += '</div>';
     });
@@ -867,7 +867,7 @@
       any = true;
       html += sebepler.map(function (o) { return outcomeEventHtml(o, { reason: true }); }).join('');
     } else {
-      html += '<div class="outcome-empty">Atlas veri setinde bu alan için kayıt bulunmuyor.</div>';
+      html += '<div class="outcome-empty">Bu sonuç kategorisinde kayıt yok; bu kayıt Kur\'an\'da geçmiyor anlamına gelmez.</div>';
     }
     html += '</div>';
     return html;
