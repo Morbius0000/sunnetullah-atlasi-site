@@ -22,14 +22,14 @@ jobs:
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg
-          python -m pip install --disable-pip-version-check -q faster-whisper==1.2.0 edlib
+          python -m pip install --disable-pip-version-check -q faster-whisper==1.2.0 rapidfuzz
 
       - name: Transcribe official Mazlum Kiper cüz 1 and align monotonically against exact Diyanet text
         run: |
           set -euo pipefail
           python - <<'PY'
           import json,re,urllib.request,pathlib,unicodedata,statistics,math,subprocess
-          import edlib
+          from rapidfuzz.distance import Levenshtein
           from faster_whisper import WhisperModel
 
           node=r"""
@@ -91,35 +91,17 @@ jobs:
           asr_tokens=[x["n"] for x in asr]
           print("ASR_SEGMENTS",seg_count,"ASR_WORDS",len(asr_tokens))
 
-          # Global edit-distance alignment is strictly monotonic. Unlike SequenceMatcher,
-          # it cannot jump a repeated phrase to a later verse and then pull timestamps forward.
-          vocab={}
-          def enc(tokens):
-              out=[]
-              for tok in tokens:
-                  if tok not in vocab:
-                      idx=len(vocab)
-                      cp=0x1000+idx
-                      if 0xD800 <= cp <= 0xDFFF:
-                          cp=0xE000+(cp-0xD800)
-                      vocab[tok]=chr(cp)
-                  out.append(vocab[tok])
-              return "".join(out)
-
-          q=enc(exp_tokens)
-          t=enc(asr_tokens)
-          result=edlib.align(q,t,mode="NW",task="path")
-          nice=edlib.getNiceAlignment(result,q,t)
-          qa=nice["query_aligned"]
-          ta=nice["target_aligned"]
+          # Global Levenshtein alignment is strictly monotonic and works directly
+          # on arbitrary token sequences; repeated phrases cannot jump to later verses.
+          opcodes=Levenshtein.opcodes(exp_tokens,asr_tokens)
           mapping={}
-          qi=ti=0
-          for qc,tc in zip(qa,ta):
-              if qc!="-" and tc!="-":
-                  if qc==tc:
-                      mapping[qi]=ti
-              if qc!="-": qi+=1
-              if tc!="-": ti+=1
+          for op in opcodes:
+              tag=op.tag
+              if tag=="equal":
+                  for j in range(op.src_end-op.src_start):
+                      mapping[op.src_start+j]=op.dest_start+j
+
+          edit_distance=Levenshtein.distance(exp_tokens,asr_tokens)
 
           matched=len(mapping)
           coverage=matched/max(1,len(exp_tokens))
@@ -193,7 +175,7 @@ jobs:
               return x[min(len(x)-1,max(0,math.ceil(p*len(x))-1))]
 
           metrics={
-              "algorithm":"edlib-global-monotonic-token-alignment-v1",
+              "algorithm":"rapidfuzz-levenshtein-global-monotonic-token-alignment-v1",
               "global_edit_distance":edit_distance,
               "global_edit_similarity":edit_similarity,
               "expected_token_match_coverage":coverage,
