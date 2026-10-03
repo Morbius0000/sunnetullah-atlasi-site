@@ -18,8 +18,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install faster-whisper
-        run: python -m pip install --disable-pip-version-check -q faster-whisper==1.2.0
+      - name: Install audio + ASR dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check -q faster-whisper==1.2.0
 
       - name: Transcribe official Mazlum Kiper cüz 1 and align against exact Diyanet text
         run: |
