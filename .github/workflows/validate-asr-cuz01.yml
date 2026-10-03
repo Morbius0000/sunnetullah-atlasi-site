@@ -105,7 +105,6 @@ jobs:
 
           matched=len(mapping)
           coverage=matched/max(1,len(exp_tokens))
-          edit_distance=result["editDistance"]
           edit_similarity=1-(edit_distance/max(len(exp_tokens),len(asr_tokens),1))
           print("GLOBAL_EDIT_DISTANCE",edit_distance)
           print("GLOBAL_EDIT_SIMILARITY",round(edit_similarity,6))
