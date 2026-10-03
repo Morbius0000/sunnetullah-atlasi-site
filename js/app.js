@@ -8,7 +8,6 @@
   var TOP = DATA.topluluklar || [];
   var META = DATA.meta || {};
   var AYETLER = DATA.ayetler || {};
-  var AUDIO = window.ATLAS_AUDIO || { videos: {}, verses: {} };
 
   var CATEGORY_LABELS = {
     A_tarihi: "Tarihî Kavimler",
@@ -719,21 +718,6 @@
       '<div class="verse-translation-source">Meal: ' + esc(v.meal_kaynagi || 'Yaşar Nuri Öztürk') + '</div>';
   }
 
-  function verseAudioHtml(v) {
-    var key = v.sure_no + ':' + v.ayet_no;
-    var timing = AUDIO.verses && AUDIO.verses[key];
-    if (!timing) return '';
-    var low = timing[3] === 'low';
-    return '<div class="verse-audio" data-audio-key="' + esc(key) + '">' +
-      '<button class="verse-audio-btn" type="button" data-audio-play="' + esc(key) + '" aria-expanded="false">' +
-        '<span aria-hidden="true">▶</span> Sesli meal' +
-      '</button>' +
-      '<span class="verse-audio-source">Mazlum Kiper · Diyanet meali</span>' +
-      (low ? '<span class="verse-audio-warning" title="Zaman aralığı otomatik hizalandı">Düşük güvenli zamanlama</span>' : '') +
-      '<div class="verse-audio-slot" aria-live="polite"></div>' +
-    '</div>';
-  }
-
   function verseItemHtml(v, clsLabel, extraBadges) {
     return '<div class="verse-item">' +
       '<div class="verse-ref"><span>' + v.sure_no + ':' + v.ayet_no + '</span>' +
@@ -741,50 +725,8 @@
       (extraBadges || '') + '</div>' +
       '<div class="verse-arabic" lang="ar" dir="rtl">' + esc(v.arapca) + '</div>' +
       verseTranslationHtml(v) +
-      verseAudioHtml(v) +
     '</div>';
   }
-
-  function stopAudioPlayers(except) {
-    Array.prototype.forEach.call(document.querySelectorAll('.verse-audio.is-playing'), function (box) {
-      if (box === except) return;
-      box.classList.remove('is-playing');
-      var slot = box.querySelector('.verse-audio-slot');
-      var button = box.querySelector('.verse-audio-btn');
-      if (slot) slot.innerHTML = '';
-      if (button) {
-        button.setAttribute('aria-expanded', 'false');
-        button.innerHTML = '<span aria-hidden="true">▶</span> Sesli meal';
-      }
-    });
-  }
-
-  document.addEventListener('click', function (event) {
-    var button = event.target.closest && event.target.closest('[data-audio-play]');
-    if (!button) return;
-    var key = button.getAttribute('data-audio-play');
-    var timing = AUDIO.verses && AUDIO.verses[key];
-    var video = timing && AUDIO.videos && AUDIO.videos[String(timing[0])];
-    if (!timing || !video) return;
-    var box = button.closest('.verse-audio');
-    var slot = box.querySelector('.verse-audio-slot');
-    if (box.classList.contains('is-playing')) {
-      stopAudioPlayers(null);
-      return;
-    }
-    stopAudioPlayers(box);
-    var start = Math.max(0, Math.floor(timing[1]));
-    var end = Math.max(start + 1, Math.ceil(timing[2]));
-    var title = key + ' sesli meal — Mazlum Kiper';
-    slot.innerHTML = '<div class="verse-audio-frame"><iframe title="' + esc(title) + '" ' +
-      'src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(video[0]) +
-      '?start=' + start + '&end=' + end + '&autoplay=1&playsinline=1&rel=0" ' +
-      'allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe></div>' +
-      (timing[3] === 'low' ? '<p class="verse-audio-note">Bu ayetin başlangıç ve bitiş noktası otomatik hizalanmıştır; oynatma çubuğundan ileri–geri alınabilir.</p>' : '');
-    box.classList.add('is-playing');
-    button.setAttribute('aria-expanded', 'true');
-    button.innerHTML = '<span aria-hidden="true">■</span> Sesi kapat';
-  });
 
   function panelAyetler(t) {
     var html = '';
