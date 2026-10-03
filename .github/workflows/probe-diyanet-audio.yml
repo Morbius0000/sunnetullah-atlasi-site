@@ -1,0 +1,54 @@
+name: Probe Diyanet ayet audio source
+
+on:
+  push:
+    branches:
+      - chatgpt/cuz01-full-v1
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe Diyanet page and linked scripts
+        shell: bash
+        run: |
+          python - <<'PY'
+          import html, re, urllib.request, urllib.parse
+          url="https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/bakara-suresi-2/ayet-30/diyanet-isleri-baskanligi-meali-1"
+          def get(u):
+              req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
+              return urllib.request.urlopen(req,timeout=30).read().decode("utf-8","replace")
+          raw=get(url)
+          dec=html.unescape(raw).replace("\\/","/")
+          print("PAGE_BYTES",len(raw.encode()))
+          for needle in [".mp3",".m4a","audio","seslend","sound","voice","ayet"]:
+              print("====",needle)
+              pos=0; n=0
+              while n<20:
+                  i=dec.lower().find(needle.lower(),pos)
+                  if i<0: break
+                  print(dec[max(0,i-400):i+900].replace("\n"," ")[:1500])
+                  pos=i+len(needle); n+=1
+          scripts=re.findall(r'<script[^>]+src=["\']([^"\']+)["\']',raw,re.I)
+          print("SCRIPT_COUNT",len(scripts))
+          base="https://kuran.diyanet.gov.tr"
+          for s in scripts:
+              u=urllib.parse.urljoin(base,s)
+              if any(k in u.lower() for k in ["mushaf","kuran","site","main","app","audio","script"]):
+                  print("SCRIPT",u)
+                  try:
+                      txt=get(u)
+                  except Exception as e:
+                      print("SCRIPT_ERR",e); continue
+                  low=txt.lower()
+                  if any(k in low for k in [".mp3","audio","seslend","voice"]):
+                      print("SCRIPT_MATCH_BYTES",len(txt))
+                      for needle in [".mp3","audio","seslend","voice"]:
+                          p=low.find(needle)
+                          if p>=0: print("SCRIPT_SNIP",needle,txt[max(0,p-500):p+1500].replace("\n"," ")[:2200])
+          PY
