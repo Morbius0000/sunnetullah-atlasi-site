@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "official_quran_raw_unique": 6221,
+  "official_meal_raw_unique": 6221,
+  "official_meal_expanded_unique": 6224,
+  "atlas_target_count": 5246,
+  "atlas_target_missing": 0,
+  "atlas_target_empty": 0,
+  "atlas_target_grouped_range_keys": 624,
+  "cuz01_exact_match": 141,
+  "cuz01_expected": 141,
+  "invisible_meal_entries": 426,
+  "range_number_entries": 319,
+  "empty_raw_meal_entries": 5,
+  "expansion_conflicts": 0
+}
