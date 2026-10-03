@@ -122,6 +122,44 @@ jobs:
                         "QURAN_RAW_KEYS",len(quran_keys))
               time.sleep(0.02)
 
+          # The pagedata reader currently omits Nâs 114:4-6 from its final page.
+          # Fill only still-missing target verses from Diyanet's own canonical HTML meal page;
+          # no third-party translation or generated wording is permitted.
+          missing_after_api=sorted(target_keys-set(meals))
+          if missing_after_api:
+              if not set(missing_after_api).issubset({"114:4","114:5","114:6"}):
+                  raise SystemExit("Unexpected target keys missing from pagedata: "+repr(missing_after_api[:50]))
+              nas_url="https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/nas-suresi-114/ayet-1/diyanet-isleri-baskanligi-meali-1"
+              req=urllib.request.Request(nas_url,headers=UA)
+              with urllib.request.urlopen(req,timeout=45) as rr:
+                  raw=rr.read().decode("utf-8","replace")
+              pat=re.compile(r'<h3[^>]*class=["\\\']spH3["\\\'][^>]*>\\s*(\\d+)\\s*\\.\\s*Meal\\s*</h3>.*?<span[^>]*class=["\\\']mealViewFullText["\\\'][^>]*>(.*?)</span>',re.I|re.S)
+              nas={}
+              for no,body in pat.findall(raw):
+                  no=int(no)
+                  txt=html.unescape(re.sub(r'<[^>]+>',' ',body))
+                  txt=re.sub(r'\\s+',' ',txt).strip()
+                  if 1<=no<=6 and txt:
+                      nas[no]=txt
+              print("NAS_HTML_VERSES",sorted(nas))
+              for ay in (4,5,6):
+                  k=f"114:{ay}"
+                  if k in target_keys and k not in meals:
+                      txt=nas.get(ay)
+                      if not txt:
+                          raise SystemExit(f"Official Diyanet HTML fallback missing {k}")
+                      meals[k]={
+                          "text":txt,
+                          "range":str(ay),
+                          "range_start":ay,
+                          "range_end":ay,
+                          "page":604,
+                          "source_override":"official-diyanet-html"
+                      }
+              still_missing=sorted(target_keys-set(meals))
+              if still_missing:
+                  raise SystemExit("Target keys still missing after official fallback: "+repr(still_missing))
+
           print("QURAN_RAW_UNIQUE",len(quran_keys))
           print("MEAL_RAW_UNIQUE",len(raw_meal_keys))
           print("MEAL_EXPANDED_UNIQUE",len(meals))
