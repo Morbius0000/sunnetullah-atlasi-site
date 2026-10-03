@@ -14,50 +14,37 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Probe Diyanet audio implementation
+      - name: Probe Diyanet verse DOM and sound naming
         shell: bash
         run: |
           python - <<'PY'
-          import re, urllib.request
-          base="https://kuran.diyanet.gov.tr"
-          scripts=[
-            "/mushaf/js/quran/models/AyetDm.js",
-            "/mushaf/js/quran/models/Constants.js",
-            "/mushaf/js/quran/models/PortalConfig.js",
-            "/mushaf/js/quran/models/PageData.js",
-            "/mushaf/js/quran/models/QuranDm.js",
-            "/mushaf/js/quran/views/reader/core/ayet/AyetViewBase.js",
-            "/mushaf/js/quran/views/reader/core/ReaderPanelViewBase.js",
-            "/mushaf/js/quran/com/StFunctions.js",
+          import html,re,urllib.request
+          u="https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/bakara-suresi-2/ayet-30/diyanet-isleri-baskanligi-meali-1"
+          req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
+          raw=urllib.request.urlopen(req,timeout=30).read().decode("utf-8","replace")
+          phrase='Hani, Rabbin meleklere'
+          i=html.unescape(raw).find(phrase)
+          print("PHRASE_POS",i)
+          if i>=0: print("DOM_SNIP",html.unescape(raw)[max(0,i-1800):i+3500].replace("\n"," ")[:6000])
+          # print complete speaker JSON object containing Turkish meal voice
+          dec=html.unescape(raw).replace("\\/","/")
+          for name in ["tr_mehmeteminay","Seyfullah Kartal","Seslendiren Seçimi"]:
+              p=dec.find(name)
+              print("NAME",name,"POS",p)
+              if p>=0: print(dec[max(0,p-2500):p+3500].replace("\n"," ")[:6500])
+          # Probe likely Diyanet filename patterns for 2:30
+          bases=[
+            "https://webdosya.diyanet.gov.tr/kuran/kuranikerim/Sound/tr_mehmeteminay/",
+            "http://webdosya.diyanet.gov.tr/kuran/kuranikerim/Sound/tr_mehmeteminay/"
           ]
-          def get(u):
-            req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
-            return urllib.request.urlopen(req,timeout=30).read().decode("utf-8","replace")
-          needles=["mp3","audio","sound","voice","ses","play","media","qari","reader","reciter"]
-          for path in scripts:
-            u=base+path
-            try: txt=get(u)
-            except Exception as e:
-              print("ERR",u,e); continue
-            print("\n===== SCRIPT",u,"BYTES",len(txt),"=====")
-            low=txt.lower()
-            for needle in needles:
-              poss=[m.start() for m in re.finditer(re.escape(needle),low)]
-              if not poss: continue
-              print("--",needle,"count",len(poss))
-              for p in poss[:12]:
-                print(txt[max(0,p-700):p+1800].replace("\n"," ")[:2600])
-          # Search page itself for model/config data likely holding sound base URLs.
-          page=get(base+"/mushaf/kuran-meal-1/bakara-suresi-2/ayet-30/diyanet-isleri-baskanligi-meali-1")
-          print("\n===== PAGE AUDIO ATTRS =====")
-          for pat in [
-            r'[^"\'<> ]+\.mp3[^"\'<> ]*',
-            r'[^"\'<> ]+\.m4a[^"\'<> ]*',
-            r'(?:audio|sound|ses|voice)[^\n<>]{0,600}',
-            r'data-[^=]*(?:audio|sound|ses|voice)[^>]{0,600}',
-          ]:
-            vals=re.findall(pat,page,flags=re.I)
-            print("PAT",pat,"COUNT",len(vals))
-            for v in vals[:30]:
-              print("VAL",v if isinstance(v,str) else repr(v))
+          names=["002030.mp3","2_30.mp3","2-30.mp3","002030.MP3","002030.wav","2_030.mp3","2/30.mp3"]
+          for b in bases:
+            for n in names:
+              url=b+n
+              try:
+                rq=urllib.request.Request(url,method="HEAD",headers={"User-Agent":"Mozilla/5.0"})
+                resp=urllib.request.urlopen(rq,timeout=10)
+                print("HEAD",resp.status,resp.geturl(),resp.headers.get("content-length"),url)
+              except Exception as e:
+                print("HEAD_ERR",url,type(e).__name__,e)
           PY
