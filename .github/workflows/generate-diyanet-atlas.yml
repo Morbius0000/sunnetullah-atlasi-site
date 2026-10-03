@@ -22,17 +22,22 @@ jobs:
         run: |
           set -euo pipefail
           python - <<'PY'
-          import urllib.request, urllib.error, json, pathlib, time, html, re
+          import urllib.request, json, pathlib, time, html, re, subprocess
 
           BASE="https://kuran.diyanet.gov.tr/mushaf_v2/qurandm/pagedata"
-          UA={"User-Agent":"Mozilla/5.0 AtlasVerifier/1.0","Referer":"https://kuran.diyanet.gov.tr/mushaf_v2"}
+          UA={"User-Agent":"Mozilla/5.0 AtlasVerifier/1.1","Referer":"https://kuran.diyanet.gov.tr/mushaf_v2"}
           target=json.loads(pathlib.Path("data/atlas_target_keys.json").read_text(encoding="utf-8"))
           target_keys=set(target["keys"])
           assert len(target_keys)==5246
 
+          # Diyanet's reader intentionally groups some translations (for example 2-4).
+          # Therefore raw MealAyats are NOT a 6,236-row one-verse-per-row corpus.
+          # We preserve each official visible meal unit and expand only its declared
+          # AyetNumber range to verse keys. Grouped text is never split or rewritten.
+          raw_meal_keys=set()
+          quran_keys=set()
           meals={}
-          quran={}
-          duplicates=[]
+          conflicts=[]
           invisible=[]
           ranges=[]
           empty=[]
@@ -47,8 +52,22 @@ jobs:
                           return json.loads(r.read().decode("utf-8"))
                   except Exception as e:
                       last=e
-                      time.sleep(0.5*(i+1))
+                      time.sleep(0.6*(i+1))
               raise last
+
+          def parse_unit(a):
+              sure=int(a["SureId"])
+              ayet_id=int(a["AyetId"])
+              number=str(a.get("AyetNumber") or ayet_id).strip()
+              m=re.fullmatch(r"(\d+)\s*-\s*(\d+)",number)
+              if m:
+                  start,end=map(int,m.groups())
+              else:
+                  m2=re.search(r"\d+",number)
+                  start=end=int(m2.group(0)) if m2 else ayet_id
+              if start>end:
+                  raise SystemExit(f"Bad Diyanet range {sure}:{number}")
+              return sure,start,end,number
 
           for pid in range(604):
               url=BASE+f"?id={pid}&itf=0&iml=1&iqr=1&ml=1&ql=7&iar=0"
@@ -59,47 +78,65 @@ jobs:
               ma=j.get("MealAyats") or []
               qa=j.get("QuranAyats") or []
               page_counts.append((page_no,len(ma),len(qa)))
+
               for a in qa:
-                  k=f'{a["SureId"]}:{a["AyetId"]}'
-                  txt=(a.get("AyetText") or "").strip()
-                  if k in quran and quran[k]!=txt:
-                      duplicates.append(("quran",k,quran[k],txt))
-                  quran[k]=txt
+                  quran_keys.add(f'{a["SureId"]}:{a["AyetId"]}')
+
               for a in ma:
-                  k=f'{a["SureId"]}:{a["AyetId"]}'
+                  raw_key=f'{a["SureId"]}:{a["AyetId"]}'
+                  raw_meal_keys.add(raw_key)
                   txt=html.unescape(re.sub(r'\s+',' ',(a.get("AyetText") or ""))).strip()
-                  if not a.get("AyetVisible",True):
-                      invisible.append(k)
-                  if "-" in str(a.get("AyetNumber","")):
-                      ranges.append((k,str(a.get("AyetNumber")),txt))
+                  visible=a.get("AyetVisible",True)
+                  if not visible:
+                      invisible.append(raw_key)
                   if not txt:
-                      empty.append(k)
-                  if k in meals and meals[k]!=txt:
-                      duplicates.append(("meal",k,meals[k],txt))
-                  meals[k]=txt
+                      empty.append(raw_key)
+                  sure,start,end,number=parse_unit(a)
+                  if start!=end:
+                      ranges.append((raw_key,number,txt,visible))
+
+                  # Only the visible row is the official displayed meal unit.
+                  # Invisible continuation rows belong to that visible range.
+                  if not visible or not txt:
+                      continue
+
+                  unit={
+                      "text":txt,
+                      "range":number,
+                      "range_start":start,
+                      "range_end":end,
+                      "page":page_no
+                  }
+                  for ay in range(start,end+1):
+                      k=f"{sure}:{ay}"
+                      old=meals.get(k)
+                      if old and old["text"]!=txt:
+                          conflicts.append((k,old,unit))
+                      else:
+                          meals[k]=unit
+
               if pid % 50 == 0 or pid==603:
-                  print("PAGE_PROGRESS",pid+1,"MEAL_UNIQUE",len(meals),"QURAN_UNIQUE",len(quran))
+                  print("PAGE_PROGRESS",pid+1,
+                        "RAW_MEAL_KEYS",len(raw_meal_keys),
+                        "EXPANDED_MEAL_KEYS",len(meals),
+                        "QURAN_RAW_KEYS",len(quran_keys))
               time.sleep(0.02)
 
-          print("QURAN_UNIQUE",len(quran))
-          print("MEAL_UNIQUE",len(meals))
+          print("QURAN_RAW_UNIQUE",len(quran_keys))
+          print("MEAL_RAW_UNIQUE",len(raw_meal_keys))
+          print("MEAL_EXPANDED_UNIQUE",len(meals))
           print("INVISIBLE_COUNT",len(set(invisible)))
           print("RANGE_COUNT",len(ranges))
           print("EMPTY_COUNT",len(set(empty)))
-          print("DUPLICATE_MISMATCH_COUNT",len(duplicates))
+          print("EXPANSION_CONFLICT_COUNT",len(conflicts))
           print("RANGE_SAMPLE",json.dumps(ranges[:30],ensure_ascii=False))
           print("EMPTY_SAMPLE",sorted(set(empty))[:50])
 
-          if len(quran)!=6236:
-              raise SystemExit(f"Expected 6236 Quran keys, got {len(quran)}")
-          if len(meals)!=6236:
-              raise SystemExit(f"Expected 6236 meal keys, got {len(meals)}")
-          if duplicates:
-              raise SystemExit(f"Duplicate mismatches: {duplicates[:5]}")
+          if conflicts:
+              print("CONFLICT_SAMPLE",json.dumps(conflicts[:10],ensure_ascii=False))
+              raise SystemExit("Conflicting official Diyanet visible meal units")
 
-          # Cross-check current official API against the already independently scraped cüz-1 layer.
-          # Only Bakara 2:1-141 is checked; no legacy corpus is used.
-          import subprocess, tempfile
+          # Cross-check current official source against the independently verified cüz-1 layer.
           node_script=r"""
           global.window={};
           require('./data/verse_enrichment_cuz01.js');
@@ -111,40 +148,52 @@ jobs:
           mismatch=[]
           for ay in range(1,142):
               k=f"2:{ay}"
-              if norm(meals.get(k)) != norm(official_cuz1[k]["diyanet_tr"]):
-                  mismatch.append((k,official_cuz1[k]["diyanet_tr"],meals.get(k)))
+              current=(meals.get(k) or {}).get("text")
+              if norm(current) != norm(official_cuz1[k]["diyanet_tr"]):
+                  mismatch.append((k,official_cuz1[k]["diyanet_tr"],current))
           print("CUZ1_EXACT_MATCH",141-len(mismatch),"/141")
           print("CUZ1_MISMATCH_COUNT",len(mismatch))
           if mismatch:
               print("CUZ1_MISMATCH_SAMPLE",json.dumps(mismatch[:20],ensure_ascii=False))
-              raise SystemExit("Current official Diyanet API disagrees with independently scraped cüz 1")
+              raise SystemExit("Current official Diyanet source disagrees with independently verified cüz 1")
 
+          # This is the hard project lock: only the pre-existing 5,246 Atlas keys matter.
           target_missing=sorted(target_keys-set(meals))
-          target_empty=sorted(k for k in target_keys if not meals.get(k))
-          extra=set(meals)-target_keys
+          target_empty=sorted(k for k in target_keys if not (meals.get(k) or {}).get("text"))
           print("ATLAS_TARGET_COUNT",len(target_keys))
           print("ATLAS_TARGET_MISSING",len(target_missing))
           print("ATLAS_TARGET_EMPTY",len(target_empty))
-          print("NON_TARGET_OFFICIAL_KEYS",len(extra))
+          if target_missing:
+              print("TARGET_MISSING_SAMPLE",target_missing[:50])
+          if target_empty:
+              print("TARGET_EMPTY_SAMPLE",target_empty[:50])
           if target_missing or target_empty:
-              print("TARGET_MISSING_SAMPLE",target_missing[:30])
-              print("TARGET_EMPTY_SAMPLE",target_empty[:30])
               raise SystemExit("Atlas target Diyanet coverage incomplete")
 
-          atlas={k:{
-              "diyanet_tr":meals[k],
-              "diyanet_kaynagi":"Diyanet İşleri Başkanlığı Meali",
-              "meal_source_id":"diyanet-isleri-baskanligi-meali-1"
-          } for k in target["keys"]}
+          atlas={}
+          grouped_target_count=0
+          for k in target["keys"]:
+              unit=meals[k]
+              if unit["range_start"]!=unit["range_end"]:
+                  grouped_target_count+=1
+              atlas[k]={
+                  "diyanet_tr":unit["text"],
+                  "diyanet_kaynagi":"Diyanet İşleri Başkanlığı Meali",
+                  "meal_source_id":"diyanet-isleri-baskanligi-meali-1",
+                  "diyanet_ayet_araligi":unit["range"],
+                  "diyanet_source_page":unit["page"]
+              }
 
           out={
-              "version":"diyanet-current-official-2026-10-03-v1",
+              "version":"diyanet-current-official-2026-10-03-v2-range-aware",
               "source":"https://kuran.diyanet.gov.tr/mushaf_v2/qurandm/pagedata",
               "meal_source_id":"diyanet-isleri-baskanligi-meali-1",
-              "official_total_unique":len(meals),
+              "official_raw_meal_unique":len(raw_meal_keys),
+              "official_expanded_meal_unique":len(meals),
               "atlas_target_count":len(atlas),
               "atlas_target_source_blob_sha":target["source_blob_sha"],
               "cuz01_crosscheck":"141/141 PASS",
+              "range_policy":"Official grouped Diyanet meal text is preserved intact and mapped to every verse key declared by AyetNumber.",
               "verses":atlas
           }
           pathlib.Path("data/diyanet_atlas_5246.json").write_text(
@@ -152,16 +201,19 @@ jobs:
           )
           qa={
               "status":"PASS",
-              "official_quran_unique":len(quran),
-              "official_meal_unique":len(meals),
+              "official_quran_raw_unique":len(quran_keys),
+              "official_meal_raw_unique":len(raw_meal_keys),
+              "official_meal_expanded_unique":len(meals),
               "atlas_target_count":len(atlas),
               "atlas_target_missing":len(target_missing),
               "atlas_target_empty":len(target_empty),
+              "atlas_target_grouped_range_keys":grouped_target_count,
               "cuz01_exact_match":141,
               "cuz01_expected":141,
               "invisible_meal_entries":len(set(invisible)),
               "range_number_entries":len(ranges),
-              "empty_official_meal_entries":len(set(empty))
+              "empty_raw_meal_entries":len(set(empty)),
+              "expansion_conflicts":len(conflicts)
           }
           pathlib.Path("data/diyanet_atlas_5246_qa.json").write_text(
               json.dumps(qa,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"
@@ -178,14 +230,15 @@ jobs:
           d=json.load(open("data/diyanet_atlas_5246.json",encoding="utf-8"))
           q=json.load(open("data/diyanet_atlas_5246_qa.json",encoding="utf-8"))
           assert q["status"]=="PASS"
-          assert q["official_quran_unique"]==6236
-          assert q["official_meal_unique"]==6236
           assert q["atlas_target_count"]==5246
           assert q["atlas_target_missing"]==0
           assert q["atlas_target_empty"]==0
           assert q["cuz01_exact_match"]==141
+          assert q["expansion_conflicts"]==0
           assert list(d["verses"].keys())==t["keys"]
+          assert len(d["verses"])==5246
           assert all(v["diyanet_tr"].strip() for v in d["verses"].values())
+          assert all(v["meal_source_id"]=="diyanet-isleri-baskanligi-meali-1" for v in d["verses"].values())
           print("DIYANET_STATIC_KEYSET_LOCK_PASS")
           PY
 
