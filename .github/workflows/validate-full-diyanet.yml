@@ -19,6 +19,7 @@ jobs:
         run: |
           set -euo pipefail
           node - <<'JS'
+          (async () => {
           global.window = {};
           require('./data/verse_enrichment_cuz01.js');
           const official = window.ATLAS_VERSE_ENRICHMENT.verses;
@@ -50,4 +51,5 @@ jobs:
           if(Object.keys(api).length !== 6236) throw new Error('Expected 6236 API verses');
           if(mismatches.length) process.exit(2);
           console.log('FULL_DIYANET_SOURCE_VALIDATED_PASS');
+          })().catch(e => { console.error(e); process.exit(1); });
           JS
