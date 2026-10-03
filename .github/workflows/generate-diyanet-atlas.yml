@@ -289,4 +289,5 @@ jobs:
           git add data/diyanet_atlas_5246.json data/diyanet_atlas_5246_qa.json
           git diff --cached --quiet && exit 0
           git commit -m "Add current official Diyanet meal for exact 5,246 Atlas keys [generated]"
+          git pull --rebase origin chatgpt/atlas-30cuz-source-locked-v1
           git push
