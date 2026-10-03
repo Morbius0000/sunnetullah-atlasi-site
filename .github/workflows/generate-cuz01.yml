@@ -174,7 +174,11 @@ jobs:
           assert q["first_juz_total_with_fatiha"]==148
           assert q["meal_audio_source_lock"] is True
           js=open("data/verse_enrichment_cuz01.js",encoding="utf-8").read()
-          assert len(re.findall(r'"2:\\d+"',js))==141
+          m=re.search(r'var layer = (\\{.*\\});\\n',js,re.S)
+          assert m, "generated layer JSON not found"
+          layer=json.loads(m.group(1))
+          assert len(layer["verses"])==141
+          assert set(layer["verses"])=={f"2:{i}" for i in range(1,142)}
           print("CUZ01_STATIC_QA_PASS")
           PY
 
