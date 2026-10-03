@@ -53,22 +53,14 @@ jobs:
           if miss:
               raise SystemExit("Missing official Diyanet verses: "+repr(miss))
 
-          # 2) User-approved Yaşar Nuri source and canonical Arabic from the matrix source repo.
-          yn_url="https://raw.githubusercontent.com/Morbius0000/sunnetullah-matrisi/main/data/turkce_anlam/kaynaklar/yasar_nuri_ozturk_meal.json"
-          yn=json.loads(fetch(yn_url))
-          yn_map={r["ayet_ref"]:r["meal_tr"] for r in yn["kayitlar"]}
-          if len(yn_map)!=6236:
-              raise SystemExit(f"Yaşar Nuri source not 6236: {len(yn_map)}")
-
-          q_url="https://raw.githubusercontent.com/Morbius0000/sunnetullah-matrisi/main/data/kaynak_metin/quran-uthmani.txt"
-          q=fetch(q_url)
-          ar={}
-          for line in q.splitlines():
-              if not line.strip(): continue
-              s,a,t=line.split("|",2)
-              ar[f"{int(s)}:{int(a)}"]=t
-          if len(ar)!=6236:
-              raise SystemExit(f"Arabic source not 6236: {len(ar)}")
+          # 2) User-approved Yaşar Nuri + canonical Arabic snapshot.
+          # The snapshot was copied byte-for-byte from the project's matrix source via the
+          # authenticated GitHub connector; no translation or Arabic text is regenerated here.
+          snap=json.loads(pathlib.Path("data/cuz01_text_sources.json").read_text(encoding="utf-8"))
+          if snap.get("verse_count")!=148 or len(snap.get("verses",{}))!=148:
+              raise SystemExit("Bad cüz 1 source snapshot")
+          yn_map={k:v["meal_tr"] for k,v in snap["verses"].items()}
+          ar={k:v["arapca"] for k,v in snap["verses"].items()}
 
           # 3) Confirm the public Mazlum Kiper cüz source is reachable and has the same full-cüz duration.
           audio_path=pathlib.Path("/tmp/cuz01.mp3")
