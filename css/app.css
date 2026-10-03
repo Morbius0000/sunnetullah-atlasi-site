@@ -314,6 +314,27 @@ button { font: inherit; }
 .verse-translation-source {
   font-size: 11px; color: var(--ink-faint); margin-top: 4px;
 }
+.verse-audio {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-top: 10px;
+}
+.verse-audio-btn {
+  appearance: none; border: 1px solid rgba(82,217,255,.35); border-radius: 999px;
+  padding: 7px 11px; background: rgba(82,217,255,.09); color: var(--teal-ink);
+  font: inherit; font-size: 12px; font-weight: 800; cursor: pointer;
+}
+.verse-audio-btn:hover { background: rgba(82,217,255,.16); border-color: rgba(82,217,255,.55); }
+.verse-audio-source { font-size: 10.5px; color: var(--ink-faint); }
+.verse-audio-warning {
+  font-size: 10px; color: #f2c879; border: 1px solid rgba(242,200,121,.3);
+  border-radius: 999px; padding: 3px 7px;
+}
+.verse-audio-slot { flex-basis: 100%; min-width: 0; }
+.verse-audio-frame {
+  position: relative; width: 100%; max-width: 560px; aspect-ratio: 16 / 9;
+  overflow: hidden; border-radius: 10px; border: 1px solid var(--line-soft); background: #02070c;
+}
+.verse-audio-frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.verse-audio-note { margin: 6px 0 0; font-size: 10.5px; line-height: 1.4; color: var(--ink-faint); }
 /* Tamlık kuralı: ayet metni (Arapça + meal) ASLA kırpılmaz/kısaltılmaz; kart uzar. */
 .verse-arabic, .verse-translation {
   overflow: visible; max-height: none; text-overflow: clip; overflow-wrap: anywhere;
