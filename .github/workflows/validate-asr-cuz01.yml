@@ -222,4 +222,5 @@ jobs:
           git add data/cuz01_asr_alignment_qa.json
           git diff --cached --quiet && exit 0
           git commit -m "Validate monotonic ASR alignment against verified cüz 1 boundaries"
+          git pull --rebase origin chatgpt/atlas-30cuz-source-locked-v1
           git push
