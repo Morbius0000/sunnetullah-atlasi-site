@@ -1,0 +1,53 @@
+name: Validate full Diyanet source against official cüz 1
+
+on:
+  push:
+    branches: [chatgpt/atlas-30cuz-source-locked-v1]
+    paths: [.github/workflows/validate-full-diyanet.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare AlQuranCloud tr.diyanet with 141 officially scraped Diyanet Bakara verses
+        run: |
+          set -euo pipefail
+          node - <<'JS'
+          global.window = {};
+          require('./data/verse_enrichment_cuz01.js');
+          const official = window.ATLAS_VERSE_ENRICHMENT.verses;
+          const res = await fetch('https://api.alquran.cloud/v1/quran/tr.diyanet');
+          if (!res.ok) throw new Error('API HTTP '+res.status);
+          const body = await res.json();
+          if (body.code !== 200 || !body.data?.surahs) throw new Error('Bad API payload');
+          const api = {};
+          for (const s of body.data.surahs) {
+            for (const a of s.ayahs) api[String(s.number)+':'+String(a.numberInSurah)] = a.text;
+          }
+          const norm = s => String(s||'')
+            .normalize('NFC')
+            .replace(/[’‘]/g,"'")
+            .replace(/\s+/g,' ')
+            .trim();
+          const keys = Object.keys(official).filter(k=>/^2:\d+$/.test(k)).sort((a,b)=>+a.split(':')[1]-+b.split(':')[1]);
+          const mismatches=[];
+          for(const k of keys){
+            const a=norm(official[k].diyanet_tr);
+            const b=norm(api[k]);
+            if(a!==b) mismatches.push({k,official:a,api:b});
+          }
+          console.log('OFFICIAL_CUZ1_KEYS',keys.length);
+          console.log('API_TOTAL_KEYS',Object.keys(api).length);
+          console.log('EXACT_NORMALIZED_MATCH',keys.length-mismatches.length);
+          console.log('MISMATCH_COUNT',mismatches.length);
+          for(const m of mismatches.slice(0,30)) console.log('MISMATCH',JSON.stringify(m));
+          if(Object.keys(api).length !== 6236) throw new Error('Expected 6236 API verses');
+          if(mismatches.length) process.exit(2);
+          console.log('FULL_DIYANET_SOURCE_VALIDATED_PASS');
+          JS
