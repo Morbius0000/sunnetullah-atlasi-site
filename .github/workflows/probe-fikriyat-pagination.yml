@@ -38,4 +38,21 @@ jobs:
           for x in sorted(set(re.findall(r'["\']([^"\']*(?:playlist|song|audio)[^"\']*)["\']',raw,re.I))):
               if len(x)<500:
                   print("STRING",x)
+          bundles=re.findall(r'<script[^>]+src="([^"]*bundles/table/js[^"]*)"',raw,re.I)
+          for src in bundles:
+              if src.startswith("/"):
+                  src="https://www.fikriyat.com"+src.replace("&amp;","&")
+              print("BUNDLE",src)
+              js=urllib.request.urlopen(urllib.request.Request(src,headers={"User-Agent":"Mozilla/5.0"}),timeout=30).read().decode("utf-8","replace")
+              print("BUNDLE_BYTES",len(js))
+              for needle in ["AddMoreSong","playlistid","pageIndex","pageSize","GetSong","LoadMore","get-more","more-song","songlist"]:
+                  pos=0; count=0
+                  while True:
+                      i=js.lower().find(needle.lower(),pos)
+                      if i<0: break
+                      count+=1
+                      print("\nJS_NEEDLE",needle,"#",count)
+                      print(js[max(0,i-1400):min(len(js),i+3200)].replace("\n"," ")[:4600])
+                      pos=i+len(needle)
+                      if count>=8: break
           PY
