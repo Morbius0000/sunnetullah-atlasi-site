@@ -786,3 +786,25 @@ body.view-inner .pill.subgroup { border-color: var(--line); }
 
 /* 360px gibi dar ekranlarda 4 sekme yatay kaymadan sığsın. */
 @media (max-width: 380px) { .tab-btn { padding: 10px 9px; } }
+
+
+/* Fâtiha Diyanet + Mazlum Kiper doğrulanmış pilot katmanı.
+   Canonical Atlas veri/stil kurallarını değiştirmez. */
+.verse-translation-diyanet {
+  margin-top: 10px;
+  border-top-style: solid;
+  border-top-color: rgba(82, 217, 255, .20);
+}
+.verse-translation-source-diyanet { color: var(--teal-ink); }
+.verse-enrichment-note {
+  margin-top: 6px; font-size: 10.5px; line-height: 1.45; color: var(--ink-faint);
+}
+.verse-audio {
+  margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line-soft);
+}
+.verse-audio-head {
+  display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 7px;
+  font-size: 11px; color: var(--ink-faint);
+}
+.verse-audio-head strong { color: var(--teal-ink); font-size: 12px; }
+.verse-audio-player { display: block; width: 100%; max-width: 560px; height: 42px; }
