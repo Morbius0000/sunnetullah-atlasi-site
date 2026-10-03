@@ -8,6 +8,7 @@
   var TOP = DATA.topluluklar || [];
   var META = DATA.meta || {};
   var AYETLER = DATA.ayetler || {};
+  var VERSE_ENRICHMENT = window.ATLAS_VERSE_ENRICHMENT || { verses: {} };
 
   var CATEGORY_LABELS = {
     A_tarihi: "Tarihî Kavimler",
@@ -177,7 +178,7 @@
       hits.topluluklar.sort(function (a, b) {
         return (a.topluluk.ust_topluluk_id ? 1 : 0) - (b.topluluk.ust_topluluk_id ? 1 : 0);
       });
-      var verseInfo = AYETLER[sureNo + ":" + ayetNo] || null;
+      var verseInfo = AYETLER[sureNo + ":" + ayetNo] || (VERSE_ENRICHMENT.verses && VERSE_ENRICHMENT.verses[sureNo + ":" + ayetNo]) || null;
       return {
         verse: { sure_no: sureNo, ayet_no: ayetNo },
         verseInfo: verseInfo,
@@ -617,7 +618,7 @@
         ? '<p>İnceleme bekleyen olay-topluluk bağlantısı: <strong>' + (META.review_bekleyen_topluluk_sayisi || 0) +
           '</strong> topluluk kaydında, toplam <strong>' + (META.review_queue_toplam || 0) + '</strong> bağlantı.</p>'
         : '') +
-      '<p>Atlas\'ta gösterilen Türkçe ayet mealleri Prof. Dr. Yaşar Nuri Öztürk mealinden alınmaktadır.</p>' +
+      '<p>Atlas\'ın birincil Türkçe ayet meali Prof. Dr. Yaşar Nuri Öztürk mealidir. Doğrulanmış ses pilotunda Diyanet İşleri Başkanlığı meali ikinci meal olarak ayrıca gösterilir.</p>' +
     '</div>';
     app.innerHTML = html;
   }
@@ -710,12 +711,42 @@
     return html;
   }
 
+  function verseEnrichment(v) {
+    var key = v.sure_no + ":" + v.ayet_no;
+    return (VERSE_ENRICHMENT.verses && VERSE_ENRICHMENT.verses[key]) || null;
+  }
+
   function verseTranslationHtml(v) {
+    var e = verseEnrichment(v);
+    var html = '';
     if (!v.meal_tr) {
-      return '<div class="verse-tr-slot" data-field="turkce_anlam">Türkçe meal bulunamadı.</div>';
+      html += '<div class="verse-tr-slot" data-field="turkce_anlam">Türkçe meal bulunamadı.</div>';
+    } else {
+      html += '<div class="verse-translation" data-field="turkce_anlam">' + esc(v.meal_tr) + '</div>' +
+        '<div class="verse-translation-source">Meal: ' + esc(v.meal_kaynagi || 'Yaşar Nuri Öztürk') + '</div>';
     }
-    return '<div class="verse-translation" data-field="turkce_anlam">' + esc(v.meal_tr) + '</div>' +
-      '<div class="verse-translation-source">Meal: ' + esc(v.meal_kaynagi || 'Yaşar Nuri Öztürk') + '</div>';
+    if (e && e.diyanet_tr) {
+      html += '<div class="verse-translation verse-translation-diyanet" data-field="diyanet_meal">' + esc(e.diyanet_tr) + '</div>' +
+        '<div class="verse-translation-source verse-translation-source-diyanet">Meal: ' + esc(e.diyanet_kaynagi || 'Diyanet İşleri Başkanlığı Meali') +
+        (e.diyanet_grup ? ' · Ayet grubu ' + esc(e.diyanet_grup) : '') + '</div>';
+      if (e.diyanet_grup && e.diyanet_grup.indexOf('-') !== -1) {
+        html += '<div class="verse-enrichment-note">Diyanet metni bu ayet grubunu birleşik verir; metin yapay biçimde bölünmemiştir.</div>';
+      }
+    }
+    return html;
+  }
+
+  function verseAudioHtml(v) {
+    var e = verseEnrichment(v);
+    if (!e || !e.audio_src || !e.audio_verified) return '';
+    return '<div class="verse-audio">' +
+      '<div class="verse-audio-head"><strong>Sesli meal</strong><span>Mazlum Kiper · Diyanet meali' +
+        (e.audio_grup ? ' · ' + esc(e.audio_grup) : '') + '</span></div>' +
+      '<audio class="verse-audio-player" controls preload="metadata" src="' + esc(e.audio_src) + '"></audio>' +
+      (e.audio_grup && e.audio_grup.indexOf('-') !== -1
+        ? '<div class="verse-enrichment-note">Kayıt ' + esc(e.audio_grup) + ' ayetlerini doğrulanmış tek blok halinde okur; yanlış eşleşme üretmemek için bölünmemiştir.</div>'
+        : '') +
+    '</div>';
   }
 
   function verseItemHtml(v, clsLabel, extraBadges) {
@@ -725,6 +756,7 @@
       (extraBadges || '') + '</div>' +
       '<div class="verse-arabic" lang="ar" dir="rtl">' + esc(v.arapca) + '</div>' +
       verseTranslationHtml(v) +
+      verseAudioHtml(v) +
     '</div>';
   }
 
