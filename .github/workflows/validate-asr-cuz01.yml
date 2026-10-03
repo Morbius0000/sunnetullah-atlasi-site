@@ -67,9 +67,18 @@ jobs:
               verse_spans[k]=(start,len(exp_tokens))
 
           print("EXPECTED_TOKENS",len(exp_tokens))
+          # Decode with system ffmpeg to avoid PyAV ABI/version differences on hosted runners.
+          import numpy as np
+          pcm=pathlib.Path("/tmp/cuz01.f32")
+          subprocess.run([
+              "ffmpeg","-nostdin","-loglevel","error","-y",
+              "-i",str(mp3),"-ac","1","-ar","16000","-f","f32le",str(pcm)
+          ],check=True)
+          audio_samples=np.fromfile(pcm,dtype=np.float32)
+          print("PCM_SAMPLES",len(audio_samples),"PCM_SECONDS",round(len(audio_samples)/16000,3))
           model=WhisperModel("small",device="cpu",compute_type="int8",cpu_threads=4)
           segs,info=model.transcribe(
-              str(mp3),language="tr",beam_size=5,word_timestamps=True,
+              audio_samples,language="tr",beam_size=5,word_timestamps=True,
               vad_filter=True,condition_on_previous_text=True
           )
           asr=[]
