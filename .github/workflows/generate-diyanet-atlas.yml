@@ -1,0 +1,200 @@
+name: Generate current official Diyanet Atlas corpus
+
+on:
+  push:
+    branches: [chatgpt/atlas-30cuz-source-locked-v1]
+    paths: [.github/workflows/generate-diyanet-atlas.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Crawl all 604 official Diyanet Mushaf pages
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import urllib.request, urllib.error, json, pathlib, time, html, re
+
+          BASE="https://kuran.diyanet.gov.tr/mushaf_v2/qurandm/pagedata"
+          UA={"User-Agent":"Mozilla/5.0 AtlasVerifier/1.0","Referer":"https://kuran.diyanet.gov.tr/mushaf_v2"}
+          target=json.loads(pathlib.Path("data/atlas_target_keys.json").read_text(encoding="utf-8"))
+          target_keys=set(target["keys"])
+          assert len(target_keys)==5246
+
+          meals={}
+          quran={}
+          duplicates=[]
+          invisible=[]
+          ranges=[]
+          empty=[]
+          page_counts=[]
+
+          def fetch_json(url, attempts=5):
+              last=None
+              for i in range(attempts):
+                  try:
+                      req=urllib.request.Request(url,headers=UA)
+                      with urllib.request.urlopen(req,timeout=40) as r:
+                          return json.loads(r.read().decode("utf-8"))
+                  except Exception as e:
+                      last=e
+                      time.sleep(0.5*(i+1))
+              raise last
+
+          for pid in range(604):
+              url=BASE+f"?id={pid}&itf=0&iml=1&iqr=1&ml=1&ql=7&iar=0"
+              j=fetch_json(url)
+              page_no=j.get("PageNo")
+              if page_no != pid+1:
+                  raise SystemExit(f"page mismatch id={pid}: PageNo={page_no}")
+              ma=j.get("MealAyats") or []
+              qa=j.get("QuranAyats") or []
+              page_counts.append((page_no,len(ma),len(qa)))
+              for a in qa:
+                  k=f'{a["SureId"]}:{a["AyetId"]}'
+                  txt=(a.get("AyetText") or "").strip()
+                  if k in quran and quran[k]!=txt:
+                      duplicates.append(("quran",k,quran[k],txt))
+                  quran[k]=txt
+              for a in ma:
+                  k=f'{a["SureId"]}:{a["AyetId"]}'
+                  txt=html.unescape(re.sub(r'\s+',' ',(a.get("AyetText") or ""))).strip()
+                  if not a.get("AyetVisible",True):
+                      invisible.append(k)
+                  if "-" in str(a.get("AyetNumber","")):
+                      ranges.append((k,str(a.get("AyetNumber")),txt))
+                  if not txt:
+                      empty.append(k)
+                  if k in meals and meals[k]!=txt:
+                      duplicates.append(("meal",k,meals[k],txt))
+                  meals[k]=txt
+              if pid % 50 == 0 or pid==603:
+                  print("PAGE_PROGRESS",pid+1,"MEAL_UNIQUE",len(meals),"QURAN_UNIQUE",len(quran))
+              time.sleep(0.02)
+
+          print("QURAN_UNIQUE",len(quran))
+          print("MEAL_UNIQUE",len(meals))
+          print("INVISIBLE_COUNT",len(set(invisible)))
+          print("RANGE_COUNT",len(ranges))
+          print("EMPTY_COUNT",len(set(empty)))
+          print("DUPLICATE_MISMATCH_COUNT",len(duplicates))
+          print("RANGE_SAMPLE",json.dumps(ranges[:30],ensure_ascii=False))
+          print("EMPTY_SAMPLE",sorted(set(empty))[:50])
+
+          if len(quran)!=6236:
+              raise SystemExit(f"Expected 6236 Quran keys, got {len(quran)}")
+          if len(meals)!=6236:
+              raise SystemExit(f"Expected 6236 meal keys, got {len(meals)}")
+          if duplicates:
+              raise SystemExit(f"Duplicate mismatches: {duplicates[:5]}")
+
+          # Cross-check current official API against the already independently scraped cüz-1 layer.
+          # Only Bakara 2:1-141 is checked; no legacy corpus is used.
+          import subprocess, tempfile
+          node_script=r"""
+          global.window={};
+          require('./data/verse_enrichment_cuz01.js');
+          process.stdout.write(JSON.stringify(window.ATLAS_VERSE_ENRICHMENT.verses));
+          """
+          official_cuz1=json.loads(subprocess.check_output(["node","-e",node_script],text=True))
+          def norm(s):
+              return re.sub(r'\s+',' ',str(s or "")).strip()
+          mismatch=[]
+          for ay in range(1,142):
+              k=f"2:{ay}"
+              if norm(meals.get(k)) != norm(official_cuz1[k]["diyanet_tr"]):
+                  mismatch.append((k,official_cuz1[k]["diyanet_tr"],meals.get(k)))
+          print("CUZ1_EXACT_MATCH",141-len(mismatch),"/141")
+          print("CUZ1_MISMATCH_COUNT",len(mismatch))
+          if mismatch:
+              print("CUZ1_MISMATCH_SAMPLE",json.dumps(mismatch[:20],ensure_ascii=False))
+              raise SystemExit("Current official Diyanet API disagrees with independently scraped cüz 1")
+
+          target_missing=sorted(target_keys-set(meals))
+          target_empty=sorted(k for k in target_keys if not meals.get(k))
+          extra=set(meals)-target_keys
+          print("ATLAS_TARGET_COUNT",len(target_keys))
+          print("ATLAS_TARGET_MISSING",len(target_missing))
+          print("ATLAS_TARGET_EMPTY",len(target_empty))
+          print("NON_TARGET_OFFICIAL_KEYS",len(extra))
+          if target_missing or target_empty:
+              print("TARGET_MISSING_SAMPLE",target_missing[:30])
+              print("TARGET_EMPTY_SAMPLE",target_empty[:30])
+              raise SystemExit("Atlas target Diyanet coverage incomplete")
+
+          atlas={k:{
+              "diyanet_tr":meals[k],
+              "diyanet_kaynagi":"Diyanet İşleri Başkanlığı Meali",
+              "meal_source_id":"diyanet-isleri-baskanligi-meali-1"
+          } for k in target["keys"]}
+
+          out={
+              "version":"diyanet-current-official-2026-10-03-v1",
+              "source":"https://kuran.diyanet.gov.tr/mushaf_v2/qurandm/pagedata",
+              "meal_source_id":"diyanet-isleri-baskanligi-meali-1",
+              "official_total_unique":len(meals),
+              "atlas_target_count":len(atlas),
+              "atlas_target_source_blob_sha":target["source_blob_sha"],
+              "cuz01_crosscheck":"141/141 PASS",
+              "verses":atlas
+          }
+          pathlib.Path("data/diyanet_atlas_5246.json").write_text(
+              json.dumps(out,ensure_ascii=False,separators=(',',':'))+"\n",encoding="utf-8"
+          )
+          qa={
+              "status":"PASS",
+              "official_quran_unique":len(quran),
+              "official_meal_unique":len(meals),
+              "atlas_target_count":len(atlas),
+              "atlas_target_missing":len(target_missing),
+              "atlas_target_empty":len(target_empty),
+              "cuz01_exact_match":141,
+              "cuz01_expected":141,
+              "invisible_meal_entries":len(set(invisible)),
+              "range_number_entries":len(ranges),
+              "empty_official_meal_entries":len(set(empty))
+          }
+          pathlib.Path("data/diyanet_atlas_5246_qa.json").write_text(
+              json.dumps(qa,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"
+          )
+          print("DIYANET_ATLAS_5246_PASS")
+          print(json.dumps(qa,ensure_ascii=False,indent=2))
+          PY
+
+      - name: Static coverage lock
+        run: |
+          python - <<'PY'
+          import json
+          t=json.load(open("data/atlas_target_keys.json",encoding="utf-8"))
+          d=json.load(open("data/diyanet_atlas_5246.json",encoding="utf-8"))
+          q=json.load(open("data/diyanet_atlas_5246_qa.json",encoding="utf-8"))
+          assert q["status"]=="PASS"
+          assert q["official_quran_unique"]==6236
+          assert q["official_meal_unique"]==6236
+          assert q["atlas_target_count"]==5246
+          assert q["atlas_target_missing"]==0
+          assert q["atlas_target_empty"]==0
+          assert q["cuz01_exact_match"]==141
+          assert list(d["verses"].keys())==t["keys"]
+          assert all(v["diyanet_tr"].strip() for v in d["verses"].values())
+          print("DIYANET_STATIC_KEYSET_LOCK_PASS")
+          PY
+
+      - name: Commit generated current Diyanet corpus
+        run: |
+          set -euo pipefail
+          git config user.name "Atlas QA Bot"
+          git config user.email "atlas-qa-bot@users.noreply.github.com"
+          git add data/diyanet_atlas_5246.json data/diyanet_atlas_5246_qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Add current official Diyanet meal for exact 5,246 Atlas keys [generated]"
+          git push
