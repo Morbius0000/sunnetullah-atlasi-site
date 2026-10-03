@@ -133,12 +133,12 @@ jobs:
               req=urllib.request.Request(nas_url,headers=UA)
               with urllib.request.urlopen(req,timeout=45) as rr:
                   raw=rr.read().decode("utf-8","replace")
-              pat=re.compile(r'<h3[^>]*class=["\\\']spH3["\\\'][^>]*>\\s*(\\d+)\\s*\\.\\s*Meal\\s*</h3>.*?<span[^>]*class=["\\\']mealViewFullText["\\\'][^>]*>(.*?)</span>',re.I|re.S)
+              pat=re.compile(r"""<h3[^>]*class=["']spH3["'][^>]*>\s*(\d+)\s*\.\s*Meal\s*</h3>.*?<span[^>]*class=["']mealViewFullText["'][^>]*>(.*?)</span>""",re.I|re.S)
               nas={}
               for no,body in pat.findall(raw):
                   no=int(no)
                   txt=html.unescape(re.sub(r'<[^>]+>',' ',body))
-                  txt=re.sub(r'\\s+',' ',txt).strip()
+                  txt=re.sub(r'\s+',' ',txt).strip()
                   if 1<=no<=6 and txt:
                       nas[no]=txt
               print("NAS_HTML_VERSES",sorted(nas))
