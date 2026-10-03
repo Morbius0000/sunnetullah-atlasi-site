@@ -179,7 +179,7 @@ jobs:
           global.window = { ATLAS_VERSE_ENRICHMENT: { verses: {} } };
           require('./data/verse_enrichment_cuz01.js');
           const verses = window.ATLAS_VERSE_ENRICHMENT.verses;
-          const keys = Object.keys(verses).filter(k => /^2:\\d+$/.test(k));
+          const keys = Object.keys(verses).filter(k => /^2:\d+$/.test(k));
           if (keys.length !== 141) throw new Error('Bakara count '+keys.length);
           for (let i=1;i<=141;i++) {
             const v=verses['2:'+i];
