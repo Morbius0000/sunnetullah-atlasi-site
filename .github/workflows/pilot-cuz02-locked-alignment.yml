@@ -1,0 +1,84 @@
+name: Pilot locked Atlas audio alignment - Cuz 02
+
+on:
+  push:
+    branches:
+      - codex/atlas-all-verses-v1
+    paths:
+      - .github/workflows/pilot-cuz02-locked-alignment.yml
+      - scripts/align_cuz_audio.py
+      - scripts/build_locked_target_alignment_manifest.py
+      - data/all30_alignment_manifest.json
+      - data/atlas_target_keys.json
+      - data/diyanet_atlas_5246.json
+      - data/mazlum_kiper_cuz_sources.json
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  align-cuz02:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CUZ: "2"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify locked Atlas target manifest
+        run: |
+          set -euo pipefail
+          python scripts/build_locked_target_alignment_manifest.py
+          python - <<'PY'
+          import json
+          target=json.load(open("data/atlas_target_keys.json",encoding="utf-8"))
+          manifest=json.load(open("data/all30_alignment_manifest.json",encoding="utf-8"))
+          assert len(target["keys"]) == 5246
+          assert manifest["target_count"] == 5246
+          assert set(manifest["key_to_unit"]) == set(target["keys"])
+          assert manifest["target_counts_by_cuz"]["2"] == 75
+          print("LOCKED_TARGET_GATE_PASS target=5246 cuz02=75 additions=0 removals=0")
+          PY
+
+      - name: Install isolated speech alignment dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check -q \
+            faster-whisper==1.2.0 rapidfuzz==3.14.1 requests socksio
+
+      - name: Align Cuz 02 against locked Diyanet targets
+        run: |
+          set -euo pipefail
+          python scripts/align_cuz_audio.py
+
+      - name: Enforce Cuz 02 quality gate
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          report=json.load(open("out/cuz02.json",encoding="utf-8"))
+          assert report["status"] == "PASS"
+          assert report["cuz"] == 2
+          assert report["target_key_count"] == 75
+          assert not report["unresolved_target_units"]
+          print("CUZ02_PILOT_PASS", json.dumps({
+              "target_keys": report["target_key_count"],
+              "global_exact": report["global_exact_token_coverage"],
+              "global_similarity": report["global_edit_similarity"],
+              "low_confidence_units": len(report["low_confidence_target_units"]),
+              "unresolved_units": len(report["unresolved_target_units"]),
+          }, ensure_ascii=False))
+          PY
+
+      - name: Upload QA report only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-cuz02-locked-alignment-qa
+          path: out/cuz02.json
+          if-no-files-found: warn
+          retention-days: 7
