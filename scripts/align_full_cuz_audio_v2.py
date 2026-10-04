@@ -329,6 +329,14 @@ def window_tokens(start,end):
             out.append(w["n"])
     return out
 
+def window_raw_words(start,end):
+    out=[]
+    for w in asr:
+        mid=(w["s"]+w["e"])/2.0
+        if start <= mid < end:
+            out.append(str(w["raw"]).strip())
+    return out
+
 unit_records={}
 low=[]
 invalid=[]
@@ -338,6 +346,17 @@ for i,u in enumerate(units):
     uid=u["id"]
     start=first_start if i==0 else boundaries[i-1]
     end=last_end if i==len(units)-1 else boundaries[i]
+
+    # Sûre adı/anonsu, sonraki sûrenin ilk ayetine ait değildir. Global
+    # midpoint sınırı anonsu ayete katarsa başlangıcı doğrudan ilk ayet
+    # kelimesinin anchor'ına çek.
+    is_surah_start=(i==0 or units[i-1]["sure_no"]!=u["sure_no"])
+    is_surah_end=(i==len(units)-1 or units[i+1]["sure_no"]!=u["sure_no"])
+    if is_surah_start and raw[uid].get("raw_start") is not None:
+        start=max(start,max(0.0,float(raw[uid]["raw_start"])-0.10))
+    if is_surah_end and raw[uid].get("raw_end") is not None:
+        end=min(end,min(duration,float(raw[uid]["raw_end"])+0.12))
+
     if end<=start:
         invalid.append(uid)
         end=start+0.02
@@ -377,6 +396,7 @@ for i,u in enumerate(units):
         "keys":u["keys"],
         "range":u["range"],
         "text":u["text"],
+        "asr_window_raw":" ".join(window_raw_words(start,end)) if status!="VERIFIED" else "",
     }
 
 verse_records={}
@@ -468,6 +488,16 @@ out={
     "reverse_time_count":len(reverse),
     "unresolved_units":unresolved,
     "low_or_unresolved_units":low,
+    "low_unit_diagnostics":{
+        uid:{
+            "expected_text":unit_records[uid]["text"],
+            "spoken_asr":unit_records[uid]["asr_window_raw"],
+            "exact_coverage":unit_records[uid]["exact_coverage"],
+            "window_similarity":unit_records[uid]["window_similarity"],
+            "audio_start":unit_records[uid]["audio_start"],
+            "audio_end":unit_records[uid]["audio_end"],
+        } for uid in low
+    },
     "calibration":calibration,
     "units":unit_records,
     "verses":verse_records,
