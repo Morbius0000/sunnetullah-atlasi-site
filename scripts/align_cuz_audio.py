@@ -175,6 +175,29 @@ for u in units:
 
 target_units=[u for u in units if u["target_keys"]]
 target_keys=sum(len(u["target_keys"]) for u in target_units)
+
+# Low-energy snapping can occasionally expand two otherwise sane adjacent
+# boundaries into a >1 s overlap. Repair only those cases where the raw
+# (pre-snap) overlap was <=1 s; this never invents a verse or moves the
+# sequence out of monotonic order.
+repaired_overlap_units=[]
+for previous_u,current_u in zip(target_units,target_units[1:]):
+    previous=aligned[previous_u["id"]]
+    current=aligned[current_u["id"]]
+    if previous.get("status")=="UNRESOLVED" or current.get("status")=="UNRESOLVED":
+        continue
+    overlap=float(previous["audio_end"])-float(current["audio_start"])
+    raw_overlap=float(previous["raw_end"])-float(current["raw_start"])
+    if overlap>1.0 and 0.0 <= raw_overlap <= 1.0:
+        midpoint=(float(previous["raw_end"])+float(current["raw_start"]))/2.0
+        boundary=snap_low_energy(midpoint,0.20)
+        lo=float(current["audio_start"])
+        hi=float(previous["audio_end"])
+        boundary=max(lo,min(hi,boundary))
+        previous["audio_end"]=round(boundary,3)
+        current["audio_start"]=round(boundary,3)
+        repaired_overlap_units.append(current_u["id"])
+
 ordered_target_alignments=[]
 invalid_time_units=[]
 for u in target_units:
@@ -235,7 +258,9 @@ out={
     "invalid_time_units":invalid_time_units,
     "reverse_time_units":reverse_time_units,
     "severe_overlap_units":severe_overlap_units,
+    "repaired_overlap_units":repaired_overlap_units,
     "max_adjacent_overlap_sec":round(max_overlap,3),
+    "diagnostic_asr_head": asr[:80] if (low_target or unresolved_target) else [],
     "units":aligned
 }
 outdir=root/"out"
