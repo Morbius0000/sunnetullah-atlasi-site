@@ -1,0 +1,151 @@
+name: Generate locked Atlas alignment - Cuz 02 to 30
+
+on:
+  push:
+    branches:
+      - codex/atlas-all-verses-v1
+    paths:
+      - .github/workflows/generate-locked-all30-alignment.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        cuz: [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+    env:
+      CUZ: ${{ matrix.cuz }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and verify locked target manifest
+        run: |
+          set -euo pipefail
+          python scripts/build_locked_target_alignment_manifest.py
+          python - <<'PY'
+          import json
+          target=json.load(open("data/atlas_target_keys.json",encoding="utf-8"))
+          manifest=json.load(open("data/all30_alignment_manifest.json",encoding="utf-8"))
+          assert len(target["keys"]) == 5246
+          assert manifest["target_count"] == 5246
+          assert set(manifest["key_to_unit"]) == set(target["keys"])
+          print("LOCKED_TARGET_GATE_PASS target=5246 additions=0 removals=0")
+          PY
+
+      - name: Cache speech recognition model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: faster-whisper-small-int8-v1
+
+      - name: Install isolated alignment dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check -q \
+            faster-whisper==1.2.0 rapidfuzz==3.14.1 requests socksio
+
+      - name: Align locked Atlas targets
+        run: |
+          set -euo pipefail
+          python scripts/align_cuz_audio.py
+
+      - name: Enforce per-cuz quality gate
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, os
+          cuz=int(os.environ["CUZ"])
+          report=json.load(open(f"out/cuz{cuz:02d}.json",encoding="utf-8"))
+          manifest=json.load(open("data/all30_alignment_manifest.json",encoding="utf-8"))
+          assert report["status"] == "PASS"
+          assert report["cuz"] == cuz
+          assert report["target_key_count"] == manifest["target_counts_by_cuz"][str(cuz)]
+          assert report["gate_policy"] == "locked-target-exact-v1"
+          assert report["global_exact_token_coverage"] >= 0.85
+          assert not report["low_confidence_target_units"]
+          assert not report["unresolved_target_units"]
+          assert not report["invalid_time_units"]
+          assert not report["reverse_time_units"]
+          assert not report["severe_overlap_units"]
+          print("CUZ_GATE_PASS", json.dumps({
+              "cuz": cuz,
+              "target_keys": report["target_key_count"],
+              "global_exact": report["global_exact_token_coverage"],
+              "max_adjacent_overlap_sec": report["max_adjacent_overlap_sec"],
+          }, ensure_ascii=False))
+          PY
+
+      - name: Upload per-cuz QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-locked-cuz-${{ matrix.cuz }}
+          path: out/cuz*.json
+          if-no-files-found: warn
+          retention-days: 7
+
+  aggregate:
+    needs: align
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download passing per-cuz reports
+        uses: actions/download-artifact@v4
+        with:
+          pattern: atlas-locked-cuz-*
+          path: artifacts
+          merge-multiple: true
+
+      - name: Build all-30 enrichment and final QA
+        run: |
+          set -euo pipefail
+          python scripts/build_locked_target_alignment_manifest.py
+          python scripts/aggregate_all30_enrichment.py
+          python - <<'PY'
+          import json, pathlib
+          target=json.load(open("data/atlas_target_keys.json",encoding="utf-8"))
+          qa=json.load(open("data/all30_audio_qa.json",encoding="utf-8"))
+          reports=list(pathlib.Path("artifacts").glob("cuz*.json"))
+          assert len(reports) == 29
+          assert qa["status"] == "PASS"
+          assert qa["target_count"] == 5246
+          assert qa["cuz1_preserved_target_count"] == 131
+          assert qa["generated_cuz2_30_target_count"] == 5115
+          assert qa["missing_target_count"] == 0
+          assert qa["low_confidence_target_count"] == 0
+          assert qa["source_lock_fail_count"] == 0
+          assert len(target["keys"]) == 5246
+          print("ALL30_FINAL_GATE_PASS target=5246 additions=0 removals=0")
+          PY
+          git diff --exit-code -- \
+            data/atlas_public.js data/atlas_public.boot.js data/atlas_public.part01.js \
+            data/atlas_public.part02.js data/atlas_public.part03.js \
+            data/atlas_public.part04.js data/atlas_public.part05.js \
+            data/atlas_public.part06.js
+
+      - name: Commit generated enrichment to work branch only
+        run: |
+          set -euo pipefail
+          git config user.name "Atlas QA Bot"
+          git config user.email "atlas-qa-bot@users.noreply.github.com"
+          git add data/verse_enrichment_all30.js data/all30_audio_qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Generate verified locked audio layer for Atlas targets"
+          git pull --rebase origin codex/atlas-all-verses-v1
+          git push origin HEAD:codex/atlas-all-verses-v1
