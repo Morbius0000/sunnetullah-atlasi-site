@@ -1,0 +1,60 @@
+name: Calibrate full-cuz audio alignment v2
+
+on:
+  push:
+    branches:
+      - fix/full-cuz-audio-v2
+    paths:
+      - scripts/align_full_cuz_audio_v2.py
+      - .github/workflows/calibrate-full-cuz-audio-v2.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  calibrate-cuz1:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    env:
+      CUZ: "1"
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install alignment dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check -q \
+            faster-whisper==1.2.0 rapidfuzz==3.14.1
+
+      - name: Run full-cüz calibration against known-good cüz 1
+        run: |
+          set -euo pipefail
+          python scripts/align_full_cuz_audio_v2.py
+
+      - name: Structural calibration gate
+        run: |
+          python - <<'PY'
+          import json
+          q=json.load(open("out/full-cuz-v2-01.json",encoding="utf-8"))
+          assert q["diyanet_full_key_count"]==6236
+          assert q["cuz_verse_count"]==148
+          assert q["cuz_first_key"]=="1:1"
+          assert q["cuz_last_key"]=="2:141"
+          assert q["invalid_time_count"]==0
+          assert q["reverse_time_count"]==0
+          assert q["calibration"]["available"] is True
+          assert q["calibration"]["count"] >= 100
+          print("STRUCTURAL_CALIBRATION_PASS")
+          print(json.dumps(q["calibration"],ensure_ascii=False,indent=2))
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: full-cuz-v2-calibration-cuz01
+          path: out/full-cuz-v2-01.json
+          retention-days: 7
