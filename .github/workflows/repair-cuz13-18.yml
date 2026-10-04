@@ -1,0 +1,89 @@
+name: Repair locked Atlas alignment - Cuz 13 and 18
+
+on:
+  push:
+    branches:
+      - codex/atlas-all-verses-v1
+    paths:
+      - scripts/align_cuz_audio.py
+      - .github/workflows/repair-cuz13-18.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        cuz: [13, 18]
+    env:
+      CUZ: ${{ matrix.cuz }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build and verify locked target manifest
+        run: |
+          set -euo pipefail
+          python scripts/build_locked_target_alignment_manifest.py
+          python - <<'PY'
+          import json
+          target=json.load(open("data/atlas_target_keys.json",encoding="utf-8"))
+          manifest=json.load(open("data/all30_alignment_manifest.json",encoding="utf-8"))
+          assert len(target["keys"]) == 5246
+          assert manifest["target_count"] == 5246
+          assert set(manifest["key_to_unit"]) == set(target["keys"])
+          print("LOCKED_TARGET_GATE_PASS target=5246 additions=0 removals=0")
+          PY
+
+      - name: Cache speech recognition model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: faster-whisper-small-int8-v1
+
+      - name: Install isolated alignment dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check -q \
+            faster-whisper==1.2.0 rapidfuzz==3.14.1 requests socksio
+
+      - name: Align locked Atlas targets
+        run: |
+          set -euo pipefail
+          python scripts/align_cuz_audio.py
+
+      - name: Enforce per-cuz quality gate
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, os
+          cuz=int(os.environ["CUZ"])
+          report=json.load(open(f"out/cuz{cuz:02d}.json",encoding="utf-8"))
+          manifest=json.load(open("data/all30_alignment_manifest.json",encoding="utf-8"))
+          assert report["status"] == "PASS"
+          assert report["target_key_count"] == manifest["target_counts_by_cuz"][str(cuz)]
+          assert report["global_exact_token_coverage"] >= 0.85
+          assert not report["low_confidence_target_units"]
+          assert not report["unresolved_target_units"]
+          assert not report["invalid_time_units"]
+          assert not report["reverse_time_units"]
+          assert not report["severe_overlap_units"]
+          print("REPAIR_GATE_PASS", cuz)
+          PY
+
+      - name: Upload repair QA report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: atlas-repair-cuz-${{ matrix.cuz }}
+          path: out/cuz*.json
+          if-no-files-found: warn
+          retention-days: 7
