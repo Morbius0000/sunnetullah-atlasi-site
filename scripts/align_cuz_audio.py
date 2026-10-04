@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import os, json, re, urllib.request, pathlib, unicodedata, subprocess
+import os, json, re, urllib.request, pathlib, unicodedata, subprocess, shutil
 import numpy as np
 from rapidfuzz.distance import Levenshtein
 from faster_whisper import WhisperModel
@@ -22,13 +22,20 @@ def norm_word(s):
     s=s.replace("ı","i").replace("ş","s").replace("ç","c").replace("ğ","g").replace("ö","o").replace("ü","u")
     return re.sub(r"[^a-z0-9]+","",s)
 
-mp3=pathlib.Path(f"/tmp/cuz{CUZ:02d}.mp3")
-req=urllib.request.Request(audio_url,headers={"User-Agent":"Mozilla/5.0 AtlasAll30/1.0"})
-with urllib.request.urlopen(req,timeout=90) as r, mp3.open("wb") as f:
-    while True:
-        b=r.read(1024*1024)
-        if not b: break
-        f.write(b)
+mp3=pathlib.Path(f"/tmp/cuz{CUZ:02d}.source")
+local_audio=os.environ.get("AUDIO_FILE")
+if local_audio:
+    source_path=pathlib.Path(local_audio)
+    if not source_path.is_file():
+        raise SystemExit(f"local audio not found: {source_path}")
+    shutil.copyfile(source_path,mp3)
+else:
+    req=urllib.request.Request(audio_url,headers={"User-Agent":"Mozilla/5.0 AtlasAll30/1.0"})
+    with urllib.request.urlopen(req,timeout=90) as r, mp3.open("wb") as f:
+        while True:
+            b=r.read(1024*1024)
+            if not b: break
+            f.write(b)
 if mp3.stat().st_size < 5_000_000:
     raise SystemExit(f"audio unexpectedly small cüz {CUZ}: {mp3.stat().st_size}")
 
@@ -168,8 +175,40 @@ for u in units:
 
 target_units=[u for u in units if u["target_keys"]]
 target_keys=sum(len(u["target_keys"]) for u in target_units)
+ordered_target_alignments=[]
+invalid_time_units=[]
+for u in target_units:
+    rec=aligned[u["id"]]
+    if rec.get("status")=="UNRESOLVED":
+        continue
+    start=float(rec["audio_start"]); end=float(rec["audio_end"])
+    if not (end>start>=0 and end<=duration+0.5):
+        invalid_time_units.append(u["id"])
+    ordered_target_alignments.append((u["id"],start,end))
+
+reverse_time_units=[]
+severe_overlap_units=[]
+max_overlap=0.0
+for previous,current in zip(ordered_target_alignments,ordered_target_alignments[1:]):
+    if current[1] < previous[1]:
+        reverse_time_units.append(current[0])
+    overlap=max(0.0,previous[2]-current[1])
+    max_overlap=max(max_overlap,overlap)
+    if overlap>1.0:
+        severe_overlap_units.append(current[0])
+
+locked_target_policy=str(manifest.get("source_policy") or "").startswith("locked Atlas targets only")
+gate_policy="locked-target-exact-v1" if locked_target_policy else "full-cuz-similarity-v1"
 status="PASS"
-if global_exact < 0.68 or global_similarity < 0.65 or unresolved_target:
+if locked_target_policy:
+    # The source audio contains the full cüz while the expected sequence contains
+    # only the locked Atlas subset. Inserted non-target verses legitimately lower
+    # global edit similarity, so exact target coverage and per-unit gates are the
+    # valid measures here.
+    if (global_exact < 0.85 or low_target or unresolved_target or
+            invalid_time_units or reverse_time_units or severe_overlap_units):
+        status="FAIL"
+elif global_exact < 0.68 or global_similarity < 0.65 or unresolved_target:
     status="FAIL"
 
 out={
@@ -181,6 +220,7 @@ out={
     "audio_duration_sec":round(duration,3),
     "model":"faster-whisper-small-int8",
     "algorithm":"rapidfuzz-global-monotonic-v1+edge-extrapolation+low-energy-snap",
+    "gate_policy":gate_policy,
     "expected_tokens":len(exp_tokens),
     "asr_words":len(asr_tokens),
     "asr_segments":seg_count,
@@ -192,6 +232,10 @@ out={
     "target_key_count":target_keys,
     "low_confidence_target_units":low_target,
     "unresolved_target_units":unresolved_target,
+    "invalid_time_units":invalid_time_units,
+    "reverse_time_units":reverse_time_units,
+    "severe_overlap_units":severe_overlap_units,
+    "max_adjacent_overlap_sec":round(max_overlap,3),
     "units":aligned
 }
 outdir=root/"out"
