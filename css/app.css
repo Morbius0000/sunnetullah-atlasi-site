@@ -788,8 +788,7 @@ body.view-inner .pill.subgroup { border-color: var(--line); }
 @media (max-width: 380px) { .tab-btn { padding: 10px 9px; } }
 
 
-/* Fâtiha Diyanet + Mazlum Kiper doğrulanmış pilot katmanı.
-   Canonical Atlas veri/stil kurallarını değiştirmez. */
+/* Diyanet ikinci meal katmanı. Canonical Atlas araştırma verisini değiştirmez. */
 .verse-translation-diyanet {
   margin-top: 10px;
   border-top-style: solid;
@@ -798,29 +797,4 @@ body.view-inner .pill.subgroup { border-color: var(--line); }
 .verse-translation-source-diyanet { color: var(--teal-ink); }
 .verse-enrichment-note {
   margin-top: 6px; font-size: 10.5px; line-height: 1.45; color: var(--ink-faint);
-}
-.verse-audio {
-  margin-top: 12px; padding-top: 10px; border-top: 1px dashed var(--line-soft);
-}
-.verse-audio-head {
-  display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; margin-bottom: 7px;
-  font-size: 11px; color: var(--ink-faint);
-}
-.verse-audio-head strong { color: var(--teal-ink); font-size: 12px; }
-.verse-audio-player { display: block; width: 100%; max-width: 560px; height: 42px; }
-
-.verse-segment-controls {
-  display: grid; grid-template-columns: auto minmax(110px, 1fr) auto;
-  gap: 8px; align-items: center; max-width: 620px;
-}
-.verse-segment-play {
-  border: 1px solid var(--line-soft); border-radius: 999px; padding: 7px 11px;
-  background: var(--bg); color: var(--teal-ink); font: inherit; font-size: 12px; font-weight: 700;
-  cursor: pointer; white-space: nowrap;
-}
-.verse-segment-progress { width: 100%; min-width: 90px; }
-.verse-segment-time { font-size: 11px; color: var(--ink-faint); white-space: nowrap; }
-@media (max-width: 480px) {
-  .verse-segment-controls { grid-template-columns: auto 1fr; }
-  .verse-segment-time { grid-column: 1 / -1; text-align: right; }
 }

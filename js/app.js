@@ -8,7 +8,24 @@
   var TOP = DATA.topluluklar || [];
   var META = DATA.meta || {};
   var AYETLER = DATA.ayetler || {};
-  var VERSE_ENRICHMENT = window.ATLAS_VERSE_ENRICHMENT || { verses: {} };
+  var VERSE_ENRICHMENT = { verses: {} };
+  var DIYANET_MEAL_URL = "data/diyanet_atlas_5246.json";
+
+  function loadDiyanetMeal() {
+    if (!window.fetch) return;
+    fetch(DIYANET_MEAL_URL, { cache: "force-cache" })
+      .then(function (res) {
+        if (!res.ok) throw new Error("Diyanet meal HTTP " + res.status);
+        return res.json();
+      })
+      .then(function (payload) {
+        VERSE_ENRICHMENT = { verses: (payload && payload.verses) || {} };
+        if (document.readyState !== "loading") route();
+      })
+      .catch(function (err) {
+        if (window.console && console.warn) console.warn("Diyanet meal yüklenemedi:", err);
+      });
+  }
 
   var CATEGORY_LABELS = {
     A_tarihi: "Tarihî Kavimler",
@@ -178,7 +195,7 @@
       hits.topluluklar.sort(function (a, b) {
         return (a.topluluk.ust_topluluk_id ? 1 : 0) - (b.topluluk.ust_topluluk_id ? 1 : 0);
       });
-      var verseInfo = AYETLER[sureNo + ":" + ayetNo] || (VERSE_ENRICHMENT.verses && VERSE_ENRICHMENT.verses[sureNo + ":" + ayetNo]) || null;
+      var verseInfo = AYETLER[sureNo + ":" + ayetNo] || null;
       return {
         verse: { sure_no: sureNo, ayet_no: ayetNo },
         verseInfo: verseInfo,
@@ -618,7 +635,7 @@
         ? '<p>İnceleme bekleyen olay-topluluk bağlantısı: <strong>' + (META.review_bekleyen_topluluk_sayisi || 0) +
           '</strong> topluluk kaydında, toplam <strong>' + (META.review_queue_toplam || 0) + '</strong> bağlantı.</p>'
         : '') +
-      '<p>Atlas\'ın birincil Türkçe ayet meali Prof. Dr. Yaşar Nuri Öztürk mealidir. Doğrulanmış ses pilotunda Diyanet İşleri Başkanlığı meali ikinci meal olarak ayrıca gösterilir.</p>' +
+      '<p>Atlas\'ın birincil Türkçe ayet meali Prof. Dr. Yaşar Nuri Öztürk mealidir. Diyanet İşleri Başkanlığı meali ikinci meal olarak ayrıca gösterilir.</p>' +
     '</div>';
     app.innerHTML = html;
   }
@@ -736,160 +753,6 @@
     return html;
   }
 
-  function verseAudioHtml(v) {
-    // HOTFIX: automatic verse/audio timing is temporarily disabled.
-    // Text meals remain available; audio will return only after full-cüz
-    // transcript alignment is independently re-verified.
-    return '';
-    var e = verseEnrichment(v);
-    if (!e || !e.audio_src || !e.audio_verified) return '';
-
-    // KAYNAK KİLİDİ: Ekrandaki Diyanet mealinin kaynak kimliği ile ses kaydının
-    // meal kaynak kimliği birebir aynı değilse oynatıcı HİÇ gösterilmez.
-    var sourceLocked = !!e.meal_source_id && !!e.audio_meal_source_id &&
-      e.meal_source_id === e.audio_meal_source_id;
-    if (!sourceLocked) return '';
-
-    var head = '<div class="verse-audio-head"><strong>Sesli meal</strong><span>Mazlum Kiper · Diyanet meali' +
-      (e.audio_grup ? ' · ' + esc(e.audio_grup) : '') + '</span></div>';
-
-    if (typeof e.audio_start === 'number' && typeof e.audio_end === 'number' && e.audio_end > e.audio_start) {
-      var dur = e.audio_end - e.audio_start;
-      return '<div class="verse-audio verse-segment-audio" data-src="' + esc(e.audio_src) +
-        '" data-start="' + e.audio_start.toFixed(3) + '" data-end="' + e.audio_end.toFixed(3) + '">' +
-        head +
-        '<div class="verse-segment-controls">' +
-          '<button type="button" class="verse-segment-play" aria-label="' + v.sure_no + ':' + v.ayet_no + ' Mazlum Kiper sesli mealini oynat">▶ Dinle</button>' +
-          '<input class="verse-segment-progress" type="range" min="0" max="100" value="0" step="0.1" aria-label="' + v.sure_no + ':' + v.ayet_no + ' ses kaydında ilerle">' +
-          '<span class="verse-segment-time">0:00 / ' + formatAudioTime(dur) + '</span>' +
-        '</div>' +
-      '</div>';
-    }
-
-    return '<div class="verse-audio">' + head +
-      '<audio class="verse-audio-player" controls preload="metadata" src="' + esc(e.audio_src) + '"></audio>' +
-      (e.audio_grup && e.audio_grup.indexOf('-') !== -1
-        ? '<div class="verse-enrichment-note">Kayıt ' + esc(e.audio_grup) + ' ayetlerini doğrulanmış tek blok halinde okur; yanlış eşleşme üretmemek için bölünmemiştir.</div>'
-        : '') +
-    '</div>';
-  }
-
-  function formatAudioTime(sec) {
-    sec = Math.max(0, Number(sec) || 0);
-    var m = Math.floor(sec / 60);
-    var s = Math.floor(sec % 60);
-    return m + ':' + (s < 10 ? '0' : '') + s;
-  }
-
-  var segmentAudio = null;
-  var activeSegment = null;
-
-  function ensureSegmentAudio() {
-    if (segmentAudio) return segmentAudio;
-    segmentAudio = new Audio();
-    segmentAudio.preload = 'metadata';
-
-    segmentAudio.addEventListener('timeupdate', function () {
-      if (!activeSegment) return;
-      var start = activeSegment.start, end = activeSegment.end;
-      if (segmentAudio.currentTime >= end - 0.025) {
-        try { segmentAudio.currentTime = end; } catch (ignore) {}
-        segmentAudio.pause();
-      }
-      paintActiveSegment();
-    });
-    segmentAudio.addEventListener('play', paintActiveSegment);
-    segmentAudio.addEventListener('pause', paintActiveSegment);
-    segmentAudio.addEventListener('ended', paintActiveSegment);
-    return segmentAudio;
-  }
-
-  function paintActiveSegment() {
-    Array.prototype.forEach.call(document.querySelectorAll('.verse-segment-audio'), function (wrap) {
-      var btn = wrap.querySelector('.verse-segment-play');
-      var range = wrap.querySelector('.verse-segment-progress');
-      var time = wrap.querySelector('.verse-segment-time');
-      var start = Number(wrap.getAttribute('data-start'));
-      var end = Number(wrap.getAttribute('data-end'));
-      var dur = Math.max(0, end - start);
-      var isActive = !!activeSegment && activeSegment.wrap === wrap;
-      var current = 0;
-      if (isActive && segmentAudio) current = Math.max(0, Math.min(dur, segmentAudio.currentTime - start));
-      if (btn) {
-        var playing = isActive && segmentAudio && !segmentAudio.paused;
-        btn.textContent = playing ? '❚❚ Duraklat' : '▶ Dinle';
-        btn.setAttribute('aria-pressed', playing ? 'true' : 'false');
-      }
-      if (range) range.value = dur ? String((current / dur) * 100) : '0';
-      if (time) time.textContent = formatAudioTime(current) + ' / ' + formatAudioTime(dur);
-    });
-  }
-
-  document.addEventListener('click', function (ev) {
-    var btn = ev.target && ev.target.closest ? ev.target.closest('.verse-segment-play') : null;
-    if (!btn) return;
-    var wrap = btn.closest('.verse-segment-audio');
-    if (!wrap) return;
-
-    var src = wrap.getAttribute('data-src');
-    var start = Number(wrap.getAttribute('data-start'));
-    var end = Number(wrap.getAttribute('data-end'));
-    if (!src || !isFinite(start) || !isFinite(end) || end <= start) return;
-
-    var audio = ensureSegmentAudio();
-    if (activeSegment && activeSegment.wrap === wrap && !audio.paused) {
-      audio.pause();
-      return;
-    }
-
-    activeSegment = { wrap: wrap, src: src, start: start, end: end };
-    var startAndPlay = function () {
-      try { audio.currentTime = start; } catch (ignore) {}
-      var p = audio.play();
-      if (p && typeof p.catch === 'function') p.catch(function () { paintActiveSegment(); });
-      paintActiveSegment();
-    };
-
-    if (audio.src !== new URL(src, document.baseURI).href) {
-      audio.pause();
-      audio.src = src;
-      audio.load();
-      audio.addEventListener('loadedmetadata', startAndPlay, { once: true });
-    } else {
-      if (audio.currentTime < start || audio.currentTime >= end - 0.05 || !activeSegment) {
-        try { audio.currentTime = start; } catch (ignore2) {}
-      }
-      startAndPlay();
-    }
-  });
-
-  document.addEventListener('input', function (ev) {
-    var range = ev.target && ev.target.closest ? ev.target.closest('.verse-segment-progress') : null;
-    if (!range) return;
-    var wrap = range.closest('.verse-segment-audio');
-    if (!wrap) return;
-    var src = wrap.getAttribute('data-src');
-    var start = Number(wrap.getAttribute('data-start'));
-    var end = Number(wrap.getAttribute('data-end'));
-    var pct = Number(range.value) / 100;
-    if (!src || !isFinite(start) || !isFinite(end) || end <= start || !isFinite(pct)) return;
-
-    var audio = ensureSegmentAudio();
-    activeSegment = { wrap: wrap, src: src, start: start, end: end };
-    var seek = function () {
-      try { audio.currentTime = start + Math.max(0, Math.min(1, pct)) * (end - start); } catch (ignore) {}
-      paintActiveSegment();
-    };
-    if (audio.src !== new URL(src, document.baseURI).href) {
-      audio.pause();
-      audio.src = src;
-      audio.load();
-      audio.addEventListener('loadedmetadata', seek, { once: true });
-    } else {
-      seek();
-    }
-  });
-
   function verseItemHtml(v, clsLabel, extraBadges) {
     return '<div class="verse-item">' +
       '<div class="verse-ref"><span>' + v.sure_no + ':' + v.ayet_no + '</span>' +
@@ -897,7 +760,6 @@
       (extraBadges || '') + '</div>' +
       '<div class="verse-arabic" lang="ar" dir="rtl">' + esc(v.arapca) + '</div>' +
       verseTranslationHtml(v) +
-      verseAudioHtml(v) +
     '</div>';
   }
 
@@ -1098,8 +960,6 @@
   function safeDecode(x) { try { return decodeURIComponent(x); } catch (e) { return x; } }
 
   function route() {
-    if (segmentAudio && !segmentAudio.paused) segmentAudio.pause();
-    activeSegment = null;
     var hash = location.hash.replace(/^#\/?/, "");
     var parts = hash.split("/").filter(Boolean);
     var view = parts[0] || "home";
@@ -1122,6 +982,8 @@
     if (view === "topluluk") { setActiveNav(""); renderDetail(parts[1] || ''); return; }
     setActiveNav("home"); renderHome();
   }
+
+  loadDiyanetMeal();
 
   window.addEventListener("hashchange", route);
   document.addEventListener("DOMContentLoaded", route);

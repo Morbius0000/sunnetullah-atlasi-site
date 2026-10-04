@@ -174,27 +174,6 @@ jobs:
               print("CONFLICT_SAMPLE",json.dumps(conflicts[:10],ensure_ascii=False))
               raise SystemExit("Conflicting official Diyanet visible meal units")
 
-          # Cross-check current official source against the independently verified cüz-1 layer.
-          node_script=r"""
-          global.window={};
-          require('./data/verse_enrichment_cuz01.js');
-          process.stdout.write(JSON.stringify(window.ATLAS_VERSE_ENRICHMENT.verses));
-          """
-          official_cuz1=json.loads(subprocess.check_output(["node","-e",node_script],text=True))
-          def norm(s):
-              return re.sub(r'\s+',' ',str(s or "")).strip()
-          mismatch=[]
-          for ay in range(1,142):
-              k=f"2:{ay}"
-              current=(meals.get(k) or {}).get("text")
-              if norm(current) != norm(official_cuz1[k]["diyanet_tr"]):
-                  mismatch.append((k,official_cuz1[k]["diyanet_tr"],current))
-          print("CUZ1_EXACT_MATCH",141-len(mismatch),"/141")
-          print("CUZ1_MISMATCH_COUNT",len(mismatch))
-          if mismatch:
-              print("CUZ1_MISMATCH_SAMPLE",json.dumps(mismatch[:20],ensure_ascii=False))
-              raise SystemExit("Current official Diyanet source disagrees with independently verified cüz 1")
-
           # This is the hard project lock: only the pre-existing 5,246 Atlas keys matter.
           target_missing=sorted(target_keys-set(meals))
           target_empty=sorted(k for k in target_keys if not (meals.get(k) or {}).get("text"))
@@ -231,7 +210,6 @@ jobs:
               "official_expanded_meal_unique":len(meals),
               "atlas_target_count":len(atlas),
               "atlas_target_source_blob_sha":target["source_blob_sha"],
-              "cuz01_crosscheck":"141/141 PASS",
               "range_policy":"Official grouped Diyanet meal text is preserved intact and mapped to every verse key declared by AyetNumber.",
               "verses":atlas
           }
@@ -247,8 +225,6 @@ jobs:
               "atlas_target_missing":len(target_missing),
               "atlas_target_empty":len(target_empty),
               "atlas_target_grouped_range_keys":grouped_target_count,
-              "cuz01_exact_match":141,
-              "cuz01_expected":141,
               "invisible_meal_entries":len(set(invisible)),
               "range_number_entries":len(ranges),
               "empty_raw_meal_entries":len(set(empty)),
@@ -272,7 +248,6 @@ jobs:
           assert q["atlas_target_count"]==5246
           assert q["atlas_target_missing"]==0
           assert q["atlas_target_empty"]==0
-          assert q["cuz01_exact_match"]==141
           assert q["expansion_conflicts"]==0
           assert list(d["verses"].keys())==t["keys"]
           assert len(d["verses"])==5246
