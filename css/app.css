@@ -808,3 +808,19 @@ body.view-inner .pill.subgroup { border-color: var(--line); }
 }
 .verse-audio-head strong { color: var(--teal-ink); font-size: 12px; }
 .verse-audio-player { display: block; width: 100%; max-width: 560px; height: 42px; }
+
+.verse-segment-controls {
+  display: grid; grid-template-columns: auto minmax(110px, 1fr) auto;
+  gap: 8px; align-items: center; max-width: 620px;
+}
+.verse-segment-play {
+  border: 1px solid var(--line-soft); border-radius: 999px; padding: 7px 11px;
+  background: var(--bg); color: var(--teal-ink); font: inherit; font-size: 12px; font-weight: 700;
+  cursor: pointer; white-space: nowrap;
+}
+.verse-segment-progress { width: 100%; min-width: 90px; }
+.verse-segment-time { font-size: 11px; color: var(--ink-faint); white-space: nowrap; }
+@media (max-width: 480px) {
+  .verse-segment-controls { grid-template-columns: auto 1fr; }
+  .verse-segment-time { grid-column: 1 / -1; text-align: right; }
+}

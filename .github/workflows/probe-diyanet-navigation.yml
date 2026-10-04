@@ -1,0 +1,38 @@
+name: Probe Diyanet navigation data
+
+on:
+  push:
+    branches: [chatgpt/atlas-30cuz-source-locked-v1]
+    paths: [.github/workflows/probe-diyanet-navigation.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect official Diyanet Mushaf navigation
+        run: |
+          python - <<'PY'
+          import re,urllib.request,html
+          u="https://kuran.diyanet.gov.tr/mushaf_v2"
+          raw=urllib.request.urlopen(urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"}),timeout=40).read().decode("utf-8","replace")
+          print("BYTES",len(raw))
+          for needle in ["sure","surah","page","sayfa","mushaf","ayet","mealId","meal-id","selectedSure","sureId"]:
+              hits=[m.start() for m in re.finditer(needle,raw,re.I)]
+              print("NEEDLE",needle,"COUNT",len(hits))
+              for p in hits[:5]:
+                  print("CTX",needle,raw[max(0,p-600):p+1600].replace("\n"," ")[:2200])
+          # Print option/select navigation values compactly.
+          for sel in re.finditer(r'<select[^>]*>(.*?)</select>',raw,re.I|re.S):
+              block=sel.group(0)
+              if re.search(r'sure|sayfa|page|c[uü]z|ayet',block,re.I):
+                  print("SELECT",re.sub(r'\s+',' ',block)[:12000])
+          # All internal mushaf route samples.
+          routes=sorted(set(html.unescape(x) for x in re.findall(r'["\']([^"\']*mushaf[^"\']*)["\']',raw,re.I)))
+          for x in routes[:300]:
+              if len(x)<500: print("ROUTE",x)
+          PY

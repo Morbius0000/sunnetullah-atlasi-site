@@ -1,0 +1,29 @@
+name: Inspect Diyanet page-data model exactly
+
+on:
+  push:
+    branches: [chatgpt/atlas-30cuz-source-locked-v1]
+    paths: [.github/workflows/inspect-diyanet-pagedata.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Print official Diyanet PageData model source
+        run: |
+          python - <<'PY'
+          import urllib.request
+          ua={"User-Agent":"Mozilla/5.0"}
+          base="https://kuran.diyanet.gov.tr/mushaf_v2/"
+          for f in ["js/quran/models/PageData.js","js/quran/models/PageFactoryModel.js"]:
+              u=base+f
+              s=urllib.request.urlopen(urllib.request.Request(u,headers=ua),timeout=30).read().decode("utf-8","replace")
+              print("\n=====BEGIN",f,"=====\n")
+              print(s)
+              print("\n=====END",f,"=====\n")
+          PY

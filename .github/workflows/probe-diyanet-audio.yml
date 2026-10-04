@@ -1,0 +1,50 @@
+name: Probe Diyanet ayet audio source
+
+on:
+  push:
+    branches:
+      - chatgpt/cuz01-full-v1
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Probe Diyanet verse DOM and sound naming
+        shell: bash
+        run: |
+          python - <<'PY'
+          import html,re,urllib.request
+          u="https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/bakara-suresi-2/ayet-30/diyanet-isleri-baskanligi-meali-1"
+          req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0"})
+          raw=urllib.request.urlopen(req,timeout=30).read().decode("utf-8","replace")
+          phrase='Hani, Rabbin meleklere'
+          i=html.unescape(raw).find(phrase)
+          print("PHRASE_POS",i)
+          if i>=0: print("DOM_SNIP",html.unescape(raw)[max(0,i-1800):i+3500].replace("\n"," ")[:6000])
+          # print complete speaker JSON object containing Turkish meal voice
+          dec=html.unescape(raw).replace("\\/","/")
+          for name in ["tr_mehmeteminay","Seyfullah Kartal","Seslendiren Seçimi"]:
+              p=dec.find(name)
+              print("NAME",name,"POS",p)
+              if p>=0: print(dec[max(0,p-2500):p+3500].replace("\n"," ")[:6500])
+          # Probe likely Diyanet filename patterns for 2:30
+          bases=[
+            "https://webdosya.diyanet.gov.tr/kuran/kuranikerim/Sound/tr_mehmeteminay/",
+            "http://webdosya.diyanet.gov.tr/kuran/kuranikerim/Sound/tr_mehmeteminay/"
+          ]
+          names=["002030.mp3","2_30.mp3","2-30.mp3","002030.MP3","002030.wav","2_030.mp3","2/30.mp3"]
+          for b in bases:
+            for n in names:
+              url=b+n
+              try:
+                rq=urllib.request.Request(url,method="HEAD",headers={"User-Agent":"Mozilla/5.0"})
+                resp=urllib.request.urlopen(rq,timeout=10)
+                print("HEAD",resp.status,resp.geturl(),resp.headers.get("content-length"),url)
+              except Exception as e:
+                print("HEAD_ERR",url,type(e).__name__,e)
+          PY

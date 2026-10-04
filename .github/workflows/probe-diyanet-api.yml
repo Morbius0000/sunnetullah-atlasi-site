@@ -1,0 +1,52 @@
+name: Probe Diyanet Mushaf API endpoints
+
+on:
+  push:
+    branches: [chatgpt/atlas-30cuz-source-locked-v1]
+    paths: [.github/workflows/probe-diyanet-api.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect Diyanet reader JS models for data endpoints
+        run: |
+          python - <<'PY'
+          import re,urllib.request,urllib.parse
+          base="https://kuran.diyanet.gov.tr/mushaf_v2/"
+          files=[
+            "js/quran/models/PageData.js",
+            "js/quran/models/PageFactoryModel.js",
+            "js/quran/models/QuranDm.js",
+            "js/quran/models/SureDm.js",
+            "js/quran/models/KKUrl.js",
+            "js/quran/models/PortalConfig.js",
+            "js/quran/App.js",
+            "js/quran/Router.js"
+          ]
+          ua={"User-Agent":"Mozilla/5.0"}
+          for f in files:
+              u=urllib.parse.urljoin(base,f)
+              try:
+                  js=urllib.request.urlopen(urllib.request.Request(u,headers=ua),timeout=30).read().decode("utf-8","replace")
+              except Exception as e:
+                  print("FAIL",f,repr(e)); continue
+              print("\nFILE",f,"BYTES",len(js))
+              for needle in ["url","ajax","fetch","page","Page","meal","Meal","getPage","LoadPage","api","Api","SureId","AyetId"]:
+                  pos=0; count=0
+                  while True:
+                      i=js.find(needle,pos)
+                      if i<0: break
+                      count+=1
+                      if count<=8:
+                          print("CTX",needle,count,js[max(0,i-900):min(len(js),i+2200)].replace("\n"," ")[:3100])
+                      pos=i+len(needle)
+              for s in sorted(set(re.findall(r'["\']([^"\']{1,240})["\']',js))):
+                  if any(x in s.lower() for x in ["page","mushaf","meal","sure","ayet","quran","api"]):
+                      print("STR",s)
+          PY

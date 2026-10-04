@@ -1,0 +1,126 @@
+name: Verify all 30 Fikriyat cüz MP3 sources
+
+on:
+  push:
+    branches: [chatgpt/atlas-30cuz-source-locked-v1]
+    paths: [.github/workflows/verify-all30-fikriyat.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch official playlist + load-more JSON and verify 30 MP3s
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,re,urllib.request,urllib.parse,pathlib,time
+          UA={"User-Agent":"Mozilla/5.0"}
+          base="https://www.fikriyat.com"
+          page="/dinle/kuran-i-kerim-dinle/meal-cuz-dinle/mazlum-kiper-cuz/calma-listesi"
+          page_url=base+page
+          def get(url):
+              return urllib.request.urlopen(urllib.request.Request(url,headers=UA),timeout=40).read().decode("utf-8","replace")
+          raw=get(page_url)
+          # Endpoint exactly as the site's AddMoreSong handler constructs it.
+          endpoint=base+"/dinle/json"+page.replace("/dinle/","/")+"?type=Podcast&take=150"
+          # virtualPath on this site is /dinle, therefore final path is /dinle/json/...
+          try:
+              more_raw=get(endpoint)
+          except Exception:
+              # Defensive fallback if virtualPath is empty in a future bundle.
+              endpoint=base+"/json"+page.replace("/dinle/","/")+"?type=Podcast&take=150"
+              more_raw=get(endpoint)
+          print("LOAD_MORE_ENDPOINT",endpoint)
+          print("PAGE_BYTES",len(raw),"JSON_BYTES",len(more_raw))
+          try:
+              obj=json.loads(more_raw)
+              print("JSON_KEYS",sorted(obj.keys()) if isinstance(obj,dict) else type(obj).__name__)
+              html=obj.get("html","") if isinstance(obj,dict) else ""
+              extra=json.dumps(obj,ensure_ascii=False)
+          except Exception:
+              html=more_raw
+              extra=more_raw
+
+          combined=raw+"\n"+html+"\n"+extra
+          # Parse JSON-ish song objects by MP3 + index, regardless of escaped slash form.
+          combined=combined.replace("\\/","/")
+          pairs={}
+          # Search local windows around each "index":N and capture nearest MP3 before it.
+          for m in re.finditer(r'"index"\s*:\s*(\d+)',combined):
+              n=int(m.group(1))
+              win=combined[max(0,m.start()-3000):m.end()+500]
+              urls=re.findall(r'"mp3"\s*:\s*"(https://[^"]+\.mp3)"',win)
+              if urls:
+                  pairs[n]=urls[-1]
+          print("PAIR_COUNT",len(pairs),"INDICES",sorted(pairs))
+          missing=[n for n in range(1,31) if n not in pairs]
+          if missing:
+              print("MISSING",missing)
+              # Also expose titles from load-more response for diagnosis.
+              print("CUZ_TITLES",sorted(set(int(x) for x in re.findall(r'"title"\s*:\s*"(\d+)\. cüz',combined))))
+              raise SystemExit("Official playlist did not yield all 30 cüz")
+
+          sources={}
+          for n in range(1,31):
+              url=pairs[n]
+              req=urllib.request.Request(url,headers={**UA,"Range":"bytes=0-4095"})
+              resp=urllib.request.urlopen(req,timeout=40)
+              sample=resp.read(4096)
+              ctype=(resp.headers.get("Content-Type") or "").lower()
+              if len(sample)<512:
+                  raise SystemExit(f"cüz {n} audio probe too short")
+              if not (sample.startswith(b"ID3") or sample[:2] in (b"\xff\xfb",b"\xff\xf3",b"\xff\xf2") or "audio" in ctype or "octet-stream" in ctype):
+                  raise SystemExit(f"cüz {n} not audio: {ctype}")
+              sources[str(n)]={
+                  "cuz":n,
+                  "voice":"Mazlum Kiper",
+                  "meal_source":"Diyanet İşleri Başkanlığı Meali",
+                  "meal_source_id":"diyanet-isleri-baskanligi-meali-1",
+                  "playlist_id":219,
+                  "playlist_url":page_url,
+                  "audio_src":url,
+                  "content_type":ctype,
+                  "verified":True
+              }
+              print("CUZ",n,"PASS",url)
+              time.sleep(.08)
+
+          out={
+              "version":"all30-fikriyat-v1",
+              "source_site":"Fikriyat",
+              "voice":"Mazlum Kiper",
+              "meal_source_id":"diyanet-isleri-baskanligi-meali-1",
+              "playlist_id":219,
+              "count":30,
+              "sources":sources
+          }
+          pathlib.Path("data/mazlum_kiper_cuz_sources.json").write_text(
+              json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          print("ALL30_FIKRIYAT_MP3_PASS")
+          PY
+      - name: Static QA
+        run: |
+          python - <<'PY'
+          import json
+          x=json.load(open("data/mazlum_kiper_cuz_sources.json",encoding="utf-8"))
+          assert x["count"]==30 and len(x["sources"])==30
+          assert sorted(map(int,x["sources"].keys()))==list(range(1,31))
+          assert all(v["verified"] for v in x["sources"].values())
+          assert all(v["meal_source_id"]=="diyanet-isleri-baskanligi-meali-1" for v in x["sources"].values())
+          print("ALL30_SOURCE_MAP_STATIC_QA_PASS")
+          PY
+      - name: Commit verified source map
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/mazlum_kiper_cuz_sources.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Add verified Mazlum Kiper MP3 map for all 30 cüz [generated-sources]"
+          git push

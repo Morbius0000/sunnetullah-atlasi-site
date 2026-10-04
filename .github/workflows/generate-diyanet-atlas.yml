@@ -1,0 +1,293 @@
+name: Generate current official Diyanet Atlas corpus
+
+on:
+  push:
+    branches: [chatgpt/atlas-30cuz-source-locked-v1]
+    paths: [.github/workflows/generate-diyanet-atlas.yml]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Crawl all 604 official Diyanet Mushaf pages
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import urllib.request, json, pathlib, time, html, re, subprocess
+
+          BASE="https://kuran.diyanet.gov.tr/mushaf_v2/qurandm/pagedata"
+          UA={"User-Agent":"Mozilla/5.0 AtlasVerifier/1.1","Referer":"https://kuran.diyanet.gov.tr/mushaf_v2"}
+          target=json.loads(pathlib.Path("data/atlas_target_keys.json").read_text(encoding="utf-8"))
+          target_keys=set(target["keys"])
+          assert len(target_keys)==5246
+
+          # Diyanet's reader intentionally groups some translations (for example 2-4).
+          # Therefore raw MealAyats are NOT a 6,236-row one-verse-per-row corpus.
+          # We preserve each official visible meal unit and expand only its declared
+          # AyetNumber range to verse keys. Grouped text is never split or rewritten.
+          raw_meal_keys=set()
+          quran_keys=set()
+          meals={}
+          conflicts=[]
+          invisible=[]
+          ranges=[]
+          empty=[]
+          page_counts=[]
+
+          def fetch_json(url, attempts=5):
+              last=None
+              for i in range(attempts):
+                  try:
+                      req=urllib.request.Request(url,headers=UA)
+                      with urllib.request.urlopen(req,timeout=40) as r:
+                          return json.loads(r.read().decode("utf-8"))
+                  except Exception as e:
+                      last=e
+                      time.sleep(0.6*(i+1))
+              raise last
+
+          def parse_unit(a):
+              sure=int(a["SureId"])
+              ayet_id=int(a["AyetId"])
+              number=str(a.get("AyetNumber") or ayet_id).strip()
+              m=re.fullmatch(r"(\d+)\s*-\s*(\d+)",number)
+              if m:
+                  start,end=map(int,m.groups())
+              else:
+                  m2=re.search(r"\d+",number)
+                  start=end=int(m2.group(0)) if m2 else ayet_id
+              if start>end:
+                  raise SystemExit(f"Bad Diyanet range {sure}:{number}")
+              return sure,start,end,number
+
+          for pid in range(604):
+              url=BASE+f"?id={pid}&itf=0&iml=1&iqr=1&ml=1&ql=7&iar=0"
+              j=fetch_json(url)
+              page_no=j.get("PageNo")
+              if page_no != pid+1:
+                  raise SystemExit(f"page mismatch id={pid}: PageNo={page_no}")
+              ma=j.get("MealAyats") or []
+              qa=j.get("QuranAyats") or []
+              page_counts.append((page_no,len(ma),len(qa)))
+
+              for a in qa:
+                  quran_keys.add(f'{a["SureId"]}:{a["AyetId"]}')
+
+              for a in ma:
+                  raw_key=f'{a["SureId"]}:{a["AyetId"]}'
+                  raw_meal_keys.add(raw_key)
+                  txt=html.unescape(re.sub(r'\s+',' ',(a.get("AyetText") or ""))).strip()
+                  visible=a.get("AyetVisible",True)
+                  if not visible:
+                      invisible.append(raw_key)
+                  if not txt:
+                      empty.append(raw_key)
+                  sure,start,end,number=parse_unit(a)
+                  if start!=end:
+                      ranges.append((raw_key,number,txt,visible))
+
+                  # Only the visible row is the official displayed meal unit.
+                  # Invisible continuation rows belong to that visible range.
+                  if not visible or not txt:
+                      continue
+
+                  unit={
+                      "text":txt,
+                      "range":number,
+                      "range_start":start,
+                      "range_end":end,
+                      "page":page_no
+                  }
+                  for ay in range(start,end+1):
+                      k=f"{sure}:{ay}"
+                      old=meals.get(k)
+                      if old and old["text"]!=txt:
+                          conflicts.append((k,old,unit))
+                      else:
+                          meals[k]=unit
+
+              if pid % 50 == 0 or pid==603:
+                  print("PAGE_PROGRESS",pid+1,
+                        "RAW_MEAL_KEYS",len(raw_meal_keys),
+                        "EXPANDED_MEAL_KEYS",len(meals),
+                        "QURAN_RAW_KEYS",len(quran_keys))
+              time.sleep(0.02)
+
+          # The pagedata reader currently omits Nâs 114:4-6 from its final page.
+          # Fill only still-missing target verses from Diyanet's own canonical HTML meal page;
+          # no third-party translation or generated wording is permitted.
+          missing_after_api=sorted(target_keys-set(meals))
+          if missing_after_api:
+              if not set(missing_after_api).issubset({"114:4","114:5","114:6"}):
+                  raise SystemExit("Unexpected target keys missing from pagedata: "+repr(missing_after_api[:50]))
+              nas_url="https://kuran.diyanet.gov.tr/mushaf/kuran-meal-1/nas-suresi-114/ayet-1/diyanet-isleri-baskanligi-meali-1"
+              req=urllib.request.Request(nas_url,headers=UA)
+              with urllib.request.urlopen(req,timeout=45) as rr:
+                  raw=rr.read().decode("utf-8","replace")
+              pat=re.compile(r"""<h3[^>]*class=["']spH3["'][^>]*>\s*(\d+(?:\s*-\s*\d+)?)\s*\.\s*Meal\s*</h3>.*?<span[^>]*class=["']mealViewFullText["'][^>]*>(.*?)</span>""",re.I|re.S)
+              parsed=[]
+              for number,body in pat.findall(raw):
+                  txt=html.unescape(re.sub(r'<[^>]+>',' ',body))
+                  txt=re.sub(r'\s+',' ',txt).strip()
+                  parsed.append((re.sub(r'\s+','',number),txt))
+              nas_groups=[txt for number,txt in parsed if number=="1-6" and txt]
+              if not nas_groups:
+                  raise SystemExit("Official Diyanet Nâs 1-6 grouped meal not found in HTML fallback")
+              nas_text=nas_groups[-1]
+              # The official page publishes Nâs as one 1-6 meal block. Preserve that block
+              # for every Nâs key instead of fabricating verse-level splits.
+              for ay in range(1,7):
+                  k=f"114:{ay}"
+                  if k in target_keys:
+                      meals[k]={
+                          "text":nas_text,
+                          "range":"1-6",
+                          "range_start":1,
+                          "range_end":6,
+                          "page":605,
+                          "source_override":"official-diyanet-html"
+                      }
+              still_missing=sorted(target_keys-set(meals))
+              if still_missing:
+                  raise SystemExit("Target keys still missing after official fallback: "+repr(still_missing))
+
+          print("QURAN_RAW_UNIQUE",len(quran_keys))
+          print("MEAL_RAW_UNIQUE",len(raw_meal_keys))
+          print("MEAL_EXPANDED_UNIQUE",len(meals))
+          print("INVISIBLE_COUNT",len(set(invisible)))
+          print("RANGE_COUNT",len(ranges))
+          print("EMPTY_COUNT",len(set(empty)))
+          print("EXPANSION_CONFLICT_COUNT",len(conflicts))
+          print("RANGE_SAMPLE",json.dumps(ranges[:30],ensure_ascii=False))
+          print("EMPTY_SAMPLE",sorted(set(empty))[:50])
+
+          if conflicts:
+              print("CONFLICT_SAMPLE",json.dumps(conflicts[:10],ensure_ascii=False))
+              raise SystemExit("Conflicting official Diyanet visible meal units")
+
+          # Cross-check current official source against the independently verified cüz-1 layer.
+          node_script=r"""
+          global.window={};
+          require('./data/verse_enrichment_cuz01.js');
+          process.stdout.write(JSON.stringify(window.ATLAS_VERSE_ENRICHMENT.verses));
+          """
+          official_cuz1=json.loads(subprocess.check_output(["node","-e",node_script],text=True))
+          def norm(s):
+              return re.sub(r'\s+',' ',str(s or "")).strip()
+          mismatch=[]
+          for ay in range(1,142):
+              k=f"2:{ay}"
+              current=(meals.get(k) or {}).get("text")
+              if norm(current) != norm(official_cuz1[k]["diyanet_tr"]):
+                  mismatch.append((k,official_cuz1[k]["diyanet_tr"],current))
+          print("CUZ1_EXACT_MATCH",141-len(mismatch),"/141")
+          print("CUZ1_MISMATCH_COUNT",len(mismatch))
+          if mismatch:
+              print("CUZ1_MISMATCH_SAMPLE",json.dumps(mismatch[:20],ensure_ascii=False))
+              raise SystemExit("Current official Diyanet source disagrees with independently verified cüz 1")
+
+          # This is the hard project lock: only the pre-existing 5,246 Atlas keys matter.
+          target_missing=sorted(target_keys-set(meals))
+          target_empty=sorted(k for k in target_keys if not (meals.get(k) or {}).get("text"))
+          print("ATLAS_TARGET_COUNT",len(target_keys))
+          print("ATLAS_TARGET_MISSING",len(target_missing))
+          print("ATLAS_TARGET_EMPTY",len(target_empty))
+          if target_missing:
+              print("TARGET_MISSING_SAMPLE",target_missing[:50])
+          if target_empty:
+              print("TARGET_EMPTY_SAMPLE",target_empty[:50])
+          if target_missing or target_empty:
+              raise SystemExit("Atlas target Diyanet coverage incomplete")
+
+          atlas={}
+          grouped_target_count=0
+          for k in target["keys"]:
+              unit=meals[k]
+              if unit["range_start"]!=unit["range_end"]:
+                  grouped_target_count+=1
+              atlas[k]={
+                  "diyanet_tr":unit["text"],
+                  "diyanet_kaynagi":"Diyanet İşleri Başkanlığı Meali",
+                  "meal_source_id":"diyanet-isleri-baskanligi-meali-1",
+                  "diyanet_ayet_araligi":unit["range"],
+                  "diyanet_grup":unit["range"] if unit["range_start"]!=unit["range_end"] else "",
+                  "diyanet_source_page":unit["page"]
+              }
+
+          out={
+              "version":"diyanet-current-official-2026-10-03-v2-range-aware",
+              "source":"https://kuran.diyanet.gov.tr/mushaf_v2/qurandm/pagedata",
+              "meal_source_id":"diyanet-isleri-baskanligi-meali-1",
+              "official_raw_meal_unique":len(raw_meal_keys),
+              "official_expanded_meal_unique":len(meals),
+              "atlas_target_count":len(atlas),
+              "atlas_target_source_blob_sha":target["source_blob_sha"],
+              "cuz01_crosscheck":"141/141 PASS",
+              "range_policy":"Official grouped Diyanet meal text is preserved intact and mapped to every verse key declared by AyetNumber.",
+              "verses":atlas
+          }
+          pathlib.Path("data/diyanet_atlas_5246.json").write_text(
+              json.dumps(out,ensure_ascii=False,separators=(',',':'))+"\n",encoding="utf-8"
+          )
+          qa={
+              "status":"PASS",
+              "official_quran_raw_unique":len(quran_keys),
+              "official_meal_raw_unique":len(raw_meal_keys),
+              "official_meal_expanded_unique":len(meals),
+              "atlas_target_count":len(atlas),
+              "atlas_target_missing":len(target_missing),
+              "atlas_target_empty":len(target_empty),
+              "atlas_target_grouped_range_keys":grouped_target_count,
+              "cuz01_exact_match":141,
+              "cuz01_expected":141,
+              "invisible_meal_entries":len(set(invisible)),
+              "range_number_entries":len(ranges),
+              "empty_raw_meal_entries":len(set(empty)),
+              "expansion_conflicts":len(conflicts)
+          }
+          pathlib.Path("data/diyanet_atlas_5246_qa.json").write_text(
+              json.dumps(qa,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"
+          )
+          print("DIYANET_ATLAS_5246_PASS")
+          print(json.dumps(qa,ensure_ascii=False,indent=2))
+          PY
+
+      - name: Static coverage lock
+        run: |
+          python - <<'PY'
+          import json
+          t=json.load(open("data/atlas_target_keys.json",encoding="utf-8"))
+          d=json.load(open("data/diyanet_atlas_5246.json",encoding="utf-8"))
+          q=json.load(open("data/diyanet_atlas_5246_qa.json",encoding="utf-8"))
+          assert q["status"]=="PASS"
+          assert q["atlas_target_count"]==5246
+          assert q["atlas_target_missing"]==0
+          assert q["atlas_target_empty"]==0
+          assert q["cuz01_exact_match"]==141
+          assert q["expansion_conflicts"]==0
+          assert list(d["verses"].keys())==t["keys"]
+          assert len(d["verses"])==5246
+          assert all(v["diyanet_tr"].strip() for v in d["verses"].values())
+          assert all(v["meal_source_id"]=="diyanet-isleri-baskanligi-meali-1" for v in d["verses"].values())
+          print("DIYANET_STATIC_KEYSET_LOCK_PASS")
+          PY
+
+      - name: Commit generated current Diyanet corpus
+        run: |
+          set -euo pipefail
+          git config user.name "Atlas QA Bot"
+          git config user.email "atlas-qa-bot@users.noreply.github.com"
+          git add data/diyanet_atlas_5246.json data/diyanet_atlas_5246_qa.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Add current official Diyanet meal for exact 5,246 Atlas keys [generated]"
+          git pull --rebase origin chatgpt/atlas-30cuz-source-locked-v1
+          git push
