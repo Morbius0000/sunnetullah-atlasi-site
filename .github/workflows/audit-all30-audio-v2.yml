@@ -1,0 +1,141 @@
+name: Audit all 30 cüz audio against official Diyanet
+
+on:
+  push:
+    branches:
+      - fix/full-cuz-audio-v2
+    paths:
+      - .github/workflows/audit-all30-audio-v2.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        cuz: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30]
+    env:
+      CUZ: ${{ matrix.cuz }}
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cache speech recognition model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: faster-whisper-small-int8-v1
+
+      - name: Install isolated alignment dependencies
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          python -m pip install --disable-pip-version-check -q \
+            faster-whisper==1.2.0 rapidfuzz==3.14.1
+
+      - name: Audit full cüz content
+        run: |
+          set -euo pipefail
+          python scripts/align_full_cuz_audio_v2.py
+
+      - name: Structural gate only
+        run: |
+          python - <<'PY'
+          import json, os
+          cuz=int(os.environ["CUZ"])
+          q=json.load(open(f"out/full-cuz-v2-{cuz:02d}.json",encoding="utf-8"))
+          assert q["quran_key_count"] == q["expanded_meal_key_count"]
+          assert q["invalid_time_count"] == 0
+          assert q["reverse_time_count"] == 0
+          assert q["unresolved_unit_count"] == 0
+          assert q["global_exact_token_coverage"] >= 0.75
+          print("AUDIT_CUZ", json.dumps({
+              "cuz":cuz,
+              "quran_keys":q["quran_key_count"],
+              "meal_units":q["meal_unit_count"],
+              "global_exact":q["global_exact_token_coverage"],
+              "global_similarity":q["global_edit_similarity"],
+              "low_units":q["low_or_unresolved_unit_count"],
+              "low_ids":q["low_or_unresolved_units"],
+          },ensure_ascii=False))
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: full-cuz-v2-audit-${{ matrix.cuz }}
+          path: out/full-cuz-v2-*.json
+          retention-days: 7
+
+  summarize:
+    needs: audit
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: full-cuz-v2-audit-*
+          path: reports
+          merge-multiple: true
+
+      - name: Summarize compatibility
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          reports=[]
+          for p in pathlib.Path("reports").glob("full-cuz-v2-*.json"):
+              q=json.loads(p.read_text(encoding="utf-8"))
+              reports.append(q)
+          reports.sort(key=lambda x:x["cuz"])
+          rows=[]
+          low_units=[]
+          for q in reports:
+              rows.append({
+                  "cuz":q["cuz"],
+                  "quran_keys":q["quran_key_count"],
+                  "meal_units":q["meal_unit_count"],
+                  "global_exact":q["global_exact_token_coverage"],
+                  "global_similarity":q["global_edit_similarity"],
+                  "low_units":q["low_or_unresolved_unit_count"],
+              })
+              for uid in q["low_or_unresolved_units"]:
+                  d=q["low_unit_diagnostics"].get(uid,{})
+                  low_units.append({
+                      "cuz":q["cuz"],
+                      "unit_id":uid,
+                      "keys":q["units"][uid]["keys"],
+                      "expected_text":d.get("expected_text",""),
+                      "spoken_asr":d.get("spoken_asr",""),
+                      "exact_coverage":d.get("exact_coverage"),
+                      "window_similarity":d.get("window_similarity"),
+                      "audio_start":d.get("audio_start"),
+                      "audio_end":d.get("audio_end"),
+                  })
+          out={
+              "report_count":len(reports),
+              "cuz_rows":rows,
+              "low_unit_count":len(low_units),
+              "low_units":low_units,
+          }
+          pathlib.Path("all30_audio_v2_audit_summary.json").write_text(
+              json.dumps(out,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"
+          )
+          print("ALL30_AUDIT_SUMMARY",json.dumps({
+              "report_count":len(reports),
+              "low_unit_count":len(low_units),
+              "cuz_with_low":[r["cuz"] for r in rows if r["low_units"]],
+          },ensure_ascii=False))
+          PY
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: all30-audio-v2-audit-summary
+          path: all30_audio_v2_audit_summary.json
+          retention-days: 7
