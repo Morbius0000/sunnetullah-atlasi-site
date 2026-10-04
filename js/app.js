@@ -737,6 +737,10 @@
   }
 
   function verseAudioHtml(v) {
+    // HOTFIX: automatic verse/audio timing is temporarily disabled.
+    // Text meals remain available; audio will return only after full-cüz
+    // transcript alignment is independently re-verified.
+    return '';
     var e = verseEnrichment(v);
     if (!e || !e.audio_src || !e.audio_verified) return '';
 
