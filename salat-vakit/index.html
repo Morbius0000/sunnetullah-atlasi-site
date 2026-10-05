@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kur’an Salât ve Vakit Atlası — v1.9</title>
-<meta name="description" content="Yalnız Kur’an içi dil, kök, gramer ve bağlamla salât-vakit araştırması. v1.9 araştırma sürümü.">
+<title>Kur’an Salât ve Vakit Atlası — v1.9.1</title>
+<meta name="description" content="Yalnız Kur’an içi dil, kök, gramer ve bağlamla salât-vakit araştırması. v1.9.1 araştırma sürümü.">
 <style>
 :root{--bg:#071015;--panel:#0d1820;--panel2:#101f29;--text:#eef5f2;--muted:#a5b6b3;--line:#243942;--accent:#79e2b2;--accent2:#78bfff;--warn:#ffd27a;--danger:#ff9b9b;--shadow:0 18px 50px rgba(0,0,0,.28)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0,#102b2a 0,transparent 38%),radial-gradient(circle at 100% 20%,#132943 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.65}
@@ -67,37 +67,39 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
       <span class="chip"><strong>Kaynak:</strong> yalnız Kur’an</span>
       <span class="chip"><strong>Alt sınır:</strong> en az 3</span>
       <span class="chip"><strong>Kesin toplam:</strong> açık</span>
-      <span class="chip"><strong>Sürüm:</strong> v1.9</span>
+      <span class="chip"><strong>Sürüm:</strong> v1.9.1</span>
       <span class="chip"><strong>Saatler:</strong> astronomik yaklaşık model</span>
     </div>
   </div>
 </header>
+<div class="wrap" style="padding-top:14px"><div class="callout"><strong>Güncel kanonik sürüm: v1.9.1.</strong> Eski chatgpt.site v1.8 adresi teknik olarak bu yayın üzerinden yönlendirilemiyor; çelişki yaşamamak için güncel kaynak olarak bu GitHub Pages sürümünü kullan.</div></div>
 <nav><div class="wrap">
   <a href="#sonuc">Sonuç</a><a href="#yontem">Yöntem</a><a href="#cekirdek">9 çekirdek ayet</a><a href="#gunes">Güneş hareketleri</a><a href="#harita">Vakit haritası</a><a href="#diyanet">Meal denetimi</a><a href="#acik">Açık sorular</a><a href="#qa">QA</a>
 </div></nav>
 
 <main>
 <section id="sonuc"><div class="wrap">
-  <div class="section-title"><h2>Mevcut sonuç</h2><p>“Tam sürüm”, “nihai sonuç” ve “araştırma kilidi” ifadeleri kaldırıldı; çünkü iki kardinalite düğümü hâlâ açık.</p></div>
+  <div class="section-title"><h2>Mevcut sonuç</h2><p>“Tam sürüm”, “nihai sonuç” ve “araştırma kilidi” ifadeleri kaldırıldı. Günlük sayıyı kapatmayan üç mesele hâlâ açıktır.</p></div>
   <div class="grid">
-    <div class="card third"><div class="kicker">Doğrudan</div><h3>Salât vakte bağlıdır</h3><p>Nisâ 4:103 salâtı <em>kitāban mawqūtan</em> olarak niteler.</p><span class="tag">DIRECT · 4:103</span></div>
-    <div class="card third"><div class="kicker">Güçlü çıkarım</div><h3>En az 3</h3><p>Hûd 11:114’te iki gündüz tarafı + gece alanı, dağıtıcı okumada üçlü alt sınır topolojisi verir.</p><span class="tag">AT LEAST 3</span></div>
-    <div class="card third"><div class="kicker">Açık</div><h3>3 mü, 4 mü, 5 mi?</h3><p>Metin mevcut aşamada tam günlük toplamı kapatmıyor. 3, 4 veya 5 için kesin sayı hükmü verilmez.</p><span class="tag open">OPEN</span></div>
+    <div class="card third"><div class="kicker">Doğrudan lafız</div><h3>Salât vakte bağlıdır</h3><p>Nisâ 4:103 salâtı <em>kitāban mawqūtan</em> olarak niteler.</p><span class="tag">Doğrudan lafız · 4:103</span></div>
+    <div class="card third"><div class="kicker">Güçlü fakat koşullu çıkarım</div><h3>Alt sınır: en az 3</h3><p>Bu sonuç, Hûd 11:114’teki salât emrinin iki gündüz tarafına ve gece alanına <strong>ayrı tekrar eden yerleşimler olarak dağıtıldığı</strong> okumaya dayanır. Ayet “üç” sayısını söylemez.</p><span class="tag">Dağıtıcı okuma varsayımıyla</span></div>
+    <div class="card third"><div class="kicker">Açık</div><h3>Üst sınır kapatılmamış</h3><p>Kur’an içi mevcut zincir güçlü bir alt sınır verir; günlük salâtların kesin toplamına ilişkin üst sınırı metin içinde kapatmaz.</p><span class="tag open">Kesin günlük toplam: açık</span></div>
   </div>
   <div class="callout warning" style="margin-top:18px"><strong>−18° notu:</strong> Modern astronomik bir hesap/uzlaşı tercihidir. Kur’an’ın verdiği sabit bir derece değildir.</div>
 </div></section>
 
 <section id="yontem"><div class="wrap">
-  <div class="section-title"><h2>Tesbîh ≠ Salât</h2><p>v1.9’un en önemli metodolojik düzeltmesi.</p></div>
+  <div class="section-title"><h2>Tesbîh ≠ Salât</h2><p>v1.9.1’de ayrım korunur ve Nûr 24:36–37 ile güçlendirilir.</p></div>
   <div class="card full">
     <div class="kicker">Nûr 24:41</div>
     <div class="arabic">ألم تر أن الله يسبح له من في السماوات والأرض والطير صافات كل قد علم صلاته وتسبيحه والله عليم بما يفعلون</div>
     <p><strong>صلاته وتسبيحه</strong> — “salâtını ve tesbîhini” — iki ayrı isim yan yana koordine edilir. Bu, salât ile tesbîhin aynı kavram olarak sayılmaması için Kur’an içi güçlü bir ayrımdır.</p>
-    <p class="muted">Destekleyici ayrım alanları: 15:98; 50:40; 3:41; 19:11; 17:44; 13:13; 21:20; 21:79; 57:1.</p>
-    <span class="tag">STRONG QURAN-INTERNAL DISTINCTION</span>
+    <p class="muted"><strong>Nûr 24:36–37:</strong> sabah-akşam tesbîh dili hemen ardından <strong>Allah’ı anma ve salâtı ikame etme</strong> ifadesiyle ayrı olarak gelir. Aynı suredeki bu yakın bağlam, 24:41’deki ayrımı güçlendirir.</p>
+    <p class="muted">Diğer destekleyici ayrım alanları: 15:98; 50:40; 3:41; 19:11; 17:44; 13:13; 21:20; 21:79; 57:1.</p>
+    <span class="tag">Kur’an içi güçlü ayrım</span>
   </div>
   <div class="card full" style="margin-top:16px">
-    <h3>Salât kardinalitesi dışında tutulan zaman pasajları</h3>
+    <h3>Salât sayımı dışında tutulan zaman pasajları</h3>
     <p>20:130 · 50:39–40 · 30:17–18 · 76:25–26 · 40:55 · 7:205 · 33:42 · 52:48–49</p>
     <p class="muted">Bunlar zaman söz varlığını aydınlatabilir; ancak ayetin kendisi veya doğrudan Kur’an içi bağ salât kurmadıkça yeni bir salât yerleşimi oluşturamaz.</p>
   </div>
@@ -106,24 +108,26 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
 <section id="cekirdek"><div class="wrap">
 <div class="section-title"><h2>Dokuz çekirdek ayet</h2><p>Önceki görünümde eksik kalan çekirdek set artık 9/9 olarak gösterilir.</p></div>
 <div class="grid">
-  <article class="card"><div class="kicker">2:187 · Fecr olgusu</div><div class="arabic">أحل لكم ليلة الصيام الرفث إلى نسائكم هن لباس لكم وأنتم لباس لهن علم الله أنكم كنتم تختانون أنفسكم فتاب عليكم وعفا عنكم فالآن باشروهن وابتغوا ما كتب الله لكم وكلوا واشربوا حتى يتبين لكم الخيط الأبيض من الخيط الأسود من الفجر ثم أتموا الصيام إلى الليل ولا تباشروهن وأنتم عاكفون في المساجد تلك حدود الله فلا تقربوها كذلك يبين الله آياته للناس لعلهم يتقون</div><p>Fecr fenomeninin doğal sınırını destekler; ayetin kendisi salât emri değildir.</p><span class="tag open">SUPPORT · salât lafzı yok</span></article>
-  <article class="card"><div class="kicker">2:238 · Vustâ</div><div class="arabic">حافظوا على الصلوات والصلاة الوسطى وقوموا لله قانتين</div><p>Salâtlar kümesini ve <em>es-salâtü’l-vustâ</em> adını doğrudan verir. Vustâ’nın saat konumu ayette açıkça adlandırılmaz.</p><span class="tag">DIRECT NAME</span></article>
-  <article class="card"><div class="kicker">4:103 · Vakte bağlılık</div><div class="arabic">فإذا قضيتم الصلاة فاذكروا الله قياما وقعودا وعلى جنوبكم فإذا اطمأننتم فأقيموا الصلاة إن الصلاة كانت على المؤمنين كتابا موقوتا</div><p>Salâtın müminler üzerine vakitlendirilmiş bir yükümlülük olduğunu doğrudan kurar.</p><span class="tag">DIRECT · كِتَابًا مَوْقُوتًا</span></article>
-  <article class="card"><div class="kicker">5:106 · İsimsiz salât referansı</div><div class="arabic">يا أيها الذين آمنوا شهادة بينكم إذا حضر أحدكم الموت حين الوصية اثنان ذوا عدل منكم أو آخران من غيركم إن أنتم ضربتم في الأرض فأصابتكم مصيبة الموت تحبسونهما من بعد الصلاة فيقسمان بالله إن ارتبتم لا نشتري به ثمنا ولو كان ذا قربى ولا نكتم شهادة الله إنا إذا لمن الآثمين</div><p><em>min baʿdi’ṣ-ṣalāh</em> — “salâttan sonra” — ifadesi vardır; tek başına günlük salât sayısı vermez.</p><span class="tag open">REFERENCE · count yok</span></article>
-  <article class="card"><div class="kicker">11:114 · İki gündüz tarafı + gece</div><div class="arabic">وأقم الصلاة طرفي النهار وزلفا من الليل إن الحسنات يذهبن السيئات ذلك ذكرى للذاكرين</div><p><strong>طرفي النهار</strong> ikildir: gündüzün iki tarafı. <strong>زلفا من الليل</strong> çoğul/bölgesel gece ifadesidir; tek başına kaç salât olduğunu kapatmaz.</p><span class="tag">CORE LOWER-BOUND</span></article>
-  <article class="card"><div class="kicker">17:78 · Dülûk → Ğasaq</div><div class="arabic">أقم الصلاة لدلوك الشمس إلى غسق الليل وقرآن الفجر إن قرآن الفجر كان مشهودا</div><p><em>Aqimi’ṣ-ṣalāh</em> Dülûk→Ğasaq aralığıyla bağlanır. <em>Qur’ān al-fajr</em> ifadesinin içinde salât ismi yoktur; Fecr salâtı kimliği 24:58 ile çapraz çıkarımdır.</p><span class="tag open">INTERVAL COUNT · OPEN</span></article>
-  <article class="card"><div class="kicker">17:79 · Tahajjud/nâfile</div><div class="arabic">ومن الليل فتهجد به نافلة لك عسى أن يبعثك ربك مقاما محمودا</div><p><strong>فتهجد به نافلة لك</strong>: tahajjud + “sana nâfile”. Ayette salât ismi yoktur; zorunlu günlük salât sayısına eklenmez.</p><span class="tag warn">OBLIGATORY COUNT’TAN HARİÇ</span></article>
-  <article class="card"><div class="kicker">24:58 · Fecr ve İşâ adı</div><div class="arabic">يا أيها الذين آمنوا ليستأذنكم الذين ملكت أيمانكم والذين لم يبلغوا الحلم منكم ثلاث مرات من قبل صلاة الفجر وحين تضعون ثيابكم من الظهيرة ومن بعد صلاة العشاء ثلاث عورات لكم ليس عليكم ولا عليهم جناح بعدهن طوافون عليكم بعضكم على بعض كذلك يبين الله لكم الآيات والله عليم حكيم</div><p><strong>صلاة الفجر</strong> ve <strong>صلاة العشاء</strong> adlarını doğrudan verir.</p><span class="tag">DIRECT NAMES</span></article>
-  <article class="card"><div class="kicker">62:9 · Cuma çağrısı</div><div class="arabic">يا أيها الذين آمنوا إذا نودي للصلاة من يوم الجمعة فاسعوا إلى ذكر الله وذروا البيع ذلكم خير لكم إن كنتم تعلمون</div><p>Cuma günündeki salât çağrısını doğrudan verir. Bu haftalık zamanlama işaretidir; ayrı bir günlük salât slotu sayılmaz.</p><span class="tag warn">WEEKLY · daily count değil</span></article>
+  <article class="card"><div class="kicker">2:187 · Fecr olgusu</div><div class="arabic">أحل لكم ليلة الصيام الرفث إلى نسائكم هن لباس لكم وأنتم لباس لهن علم الله أنكم كنتم تختانون أنفسكم فتاب عليكم وعفا عنكم فالآن باشروهن وابتغوا ما كتب الله لكم وكلوا واشربوا حتى يتبين لكم الخيط الأبيض من الخيط الأسود من الفجر ثم أتموا الصيام إلى الليل ولا تباشروهن وأنتم عاكفون في المساجد تلك حدود الله فلا تقربوها كذلك يبين الله آياته للناس لعلهم يتقون</div><p>Fecr fenomeninin doğal sınırını destekler; ayetin kendisi salât emri değildir.</p><span class="tag open">Destek · salât lafzı yok</span></article>
+  <article class="card"><div class="kicker">2:238 · Vustâ</div><div class="arabic">حافظوا على الصلوات والصلاة الوسطى وقوموا لله قانتين</div><p>Salâtlar kümesini ve <em>es-salâtü’l-vustâ</em> adını doğrudan verir. Vustâ’nın saat konumu ayette açıkça adlandırılmaz.</p><span class="tag">Doğrudan ad</span></article>
+  <article class="card"><div class="kicker">4:103 · Vakte bağlılık</div><div class="arabic">فإذا قضيتم الصلاة فاذكروا الله قياما وقعودا وعلى جنوبكم فإذا اطمأننتم فأقيموا الصلاة إن الصلاة كانت على المؤمنين كتابا موقوتا</div><p>Salâtın müminler üzerine vakitlendirilmiş bir yükümlülük olduğunu doğrudan kurar.</p><span class="tag">Doğrudan lafız · كِتَابًا مَوْقُوتًا</span></article>
+  <article class="card"><div class="kicker">5:106 · İsimsiz salât referansı</div><div class="arabic">يا أيها الذين آمنوا شهادة بينكم إذا حضر أحدكم الموت حين الوصية اثنان ذوا عدل منكم أو آخران من غيركم إن أنتم ضربتم في الأرض فأصابتكم مصيبة الموت تحبسونهما من بعد الصلاة فيقسمان بالله إن ارتبتم لا نشتري به ثمنا ولو كان ذا قربى ولا نكتم شهادة الله إنا إذا لمن الآثمين</div><p><em>min baʿdi’ṣ-ṣalāh</em> — “salâttan sonra” — ifadesi vardır; tek başına günlük salât sayısı vermez.</p><span class="tag open">Referans · sayı vermez</span></article>
+  <article class="card"><div class="kicker">11:114 · İki gündüz tarafı + gece</div><div class="arabic">وأقم الصلاة طرفي النهار وزلفا من الليل إن الحسنات يذهبن السيئات ذلك ذكرى للذاكرين</div><p><strong>طرفي النهار</strong> ikildir: gündüzün iki tarafı. <strong>زلفا من الليل</strong> çoğul/bölgesel gece ifadesidir; tek başına kaç salât olduğunu kapatmaz.</p><span class="tag">Alt sınırın ana delili</span></article>
+  <article class="card"><div class="kicker">17:78 · Dülûk → Ğasaq</div><div class="arabic">أقم الصلاة لدلوك الشمس إلى غسق الليل وقرآن الفجر إن قرآن الفجر كان مشهودا</div><p><em>Aqimi’ṣ-ṣalāh</em> Dülûk→Ğasaq aralığıyla bağlanır. <em>Qur’ān al-fajr</em> ifadesinin içinde salât ismi yoktur; Fecr salâtı kimliği 24:58 ile çapraz çıkarımdır.</p><span class="tag open">Aralık içi sayı · açık</span></article>
+  <article class="card"><div class="kicker">17:79 · Tahajjud/nâfile</div><div class="arabic">ومن الليل فتهجد به نافلة لك عسى أن يبعثك ربك مقاما محمودا</div><p><strong>فتهجد به نافلة لك</strong>: tahajjud + “sana nâfile”. Ayette salât ismi yoktur; zorunlu günlük salât sayısına eklenmez.</p><span class="tag warn">Zorunlu günlük sayıdan hariç</span></article>
+  <article class="card"><div class="kicker">24:58 · Fecr ve İşâ adı</div><div class="arabic">يا أيها الذين آمنوا ليستأذنكم الذين ملكت أيمانكم والذين لم يبلغوا الحلم منكم ثلاث مرات من قبل صلاة الفجر وحين تضعون ثيابكم من الظهيرة ومن بعد صلاة العشاء ثلاث عورات لكم ليس عليكم ولا عليهم جناح بعدهن طوافون عليكم بعضكم على بعض كذلك يبين الله لكم الآيات والله عليم حكيم</div><p><strong>صلاة الفجر</strong> ve <strong>صلاة العشاء</strong> adlarını doğrudan verir.</p><span class="tag">Doğrudan adS</span></article>
+  <article class="card"><div class="kicker">62:9 · Cuma çağrısı</div><div class="arabic">يا أيها الذين آمنوا إذا نودي للصلاة من يوم الجمعة فاسعوا إلى ذكر الله وذروا البيع ذلكم خير لكم إن كنتم تعلمون</div><p>Cuma günündeki salât çağrısını doğrudan verir. Bu haftalık zamanlama işaretidir; ayrı bir günlük salât slotu sayılmaz.</p><span class="tag warn">Haftalık · günlük sayı değil</span></article>
 </div>
 </div></section>
 
 
 <section id="gunes"><div class="wrap">
-  <div class="section-title"><h2>Güneş hareketleri ve doğal vakit gözlemi</h2><p>Eski Atlas’taki gözlem katmanı v1.9’a geri eklendi. Güneş hareketi hesaplanır; Kur’anî isimlerle astronomik eşikler birbirine zorla eşitlenmez.</p></div>
+  <div class="section-title"><h2>Güneş hareketleri ve doğal vakit gözlemi</h2><p>Eski Atlas’taki gözlem katmanı v1.9.1’de korunuyor. Güneş hareketi hesaplanır; Kur’anî isimlerle astronomik eşikler birbirine zorla eşitlenmez.</p></div>
   <div class="obs-shell">
     <div class="obs-panel">
       <div class="obs-tools">
+        <div class="obs-field"><label for="province-select">İl · 81 il</label><select class="obs-control" id="province-select"></select></div>
+        <div class="obs-field"><label for="district-select">İlçe</label><select class="obs-control" id="district-select"><option>Buca</option></select></div>
         <div class="obs-field"><label for="obs-date">Tarih</label><input class="obs-control" id="obs-date" type="date"></div>
         <div class="obs-field"><label for="obs-lat">Enlem</label><input class="obs-control" id="obs-lat" type="number" step="0.000001" value="38.423700"></div>
         <div class="obs-field"><label for="obs-lon">Boylam</label><input class="obs-control" id="obs-lon" type="number" step="0.000001" value="27.142800"></div>
@@ -131,12 +135,13 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
         <div class="obs-field"><label for="isha-angle">Ğasaq / İşâ teknik modeli</label><select class="obs-control" id="isha-angle"><option value="-12">−12° · yoğunlaşan karanlık</option><option value="-15">−15° · ara eşik</option><option value="-18">−18° · astronomik karanlık</option></select></div>
       </div>
       <div class="obs-actions">
+        <button class="obs-btn" id="apply-district" type="button">İlçeyi uygula</button>
         <button class="obs-btn" id="use-izmir" type="button">İzmir merkez</button>
         <button class="obs-btn" id="use-gps" type="button">Konumumu kullan</button>
         <button class="obs-btn" id="obs-today" type="button">Bugün</button>
         <button class="obs-btn" id="obs-now" type="button">Şimdiki saat</button>
       </div>
-      <p class="obs-note" id="obs-location-note">Başlangıç örneği: İzmir merkez · Europe/Istanbul. GPS seçilirse tarayıcı izin ister. −12°/−15°/−18° değerleri <strong>Kur’an ayeti değil</strong>, teknik gözlem modelleridir.</p>
+      <p class="obs-note" id="obs-location-note">Başlangıç örneği: Buca, İzmir · Europe/Istanbul. 81 il ve ilçe seçimi internet üzerinden doğrulanır; GPS seçilirse tarayıcı izin ister. −12°/−15°/−18° değerleri <strong>Kur’an ayeti değil</strong>, teknik gözlem modelleridir.</p>
       <div class="solar-stage" id="solar-stage" data-phase="day">
         <div class="sky"></div><div class="stars"></div><div class="sun-path"></div><div class="sun-orb" id="sun-orb"></div><div class="horizon-line"></div><div class="landscape"></div>
         <div class="sky-hud">
@@ -148,15 +153,15 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
         <div class="scrub"><span>00:00</span><input id="time-slider" type="range" min="0" max="1439" value="720"><span>23:59</span></div>
       </div>
 
-      <div class="model-strip" aria-label="v1.9 doğal vakit modeli">
-        <div class="model-node"><strong>FECR</strong><span>24:58 doğrudan ad</span></div><div class="model-arrow">→</div>
-        <div class="model-node"><strong>D2 / VUSTÂ?</strong><span>geç gündüz · koşullu aday</span></div><div class="model-arrow">→</div>
-        <div class="model-node"><strong>İŞÂ</strong><span>24:58 doğrudan ad</span></div>
+      <div class="model-strip" aria-label="v1.9.1 doğal vakit modeli">
+        <div class="model-node"><strong>FECR</strong><span>24:58 doğrudan ad · 11:114 içindeki yeri açık</span></div><div class="model-arrow">↔</div>
+        <div class="model-node"><strong>GÜNDÜZÜN İKİ TARAFI</strong><span>11:114 doğrudan ikil yapı · Vustâ eşlemesi koşullu</span></div><div class="model-arrow">↔</div>
+        <div class="model-node"><strong>GECE / İŞÂ</strong><span>24:58 İşâ doğrudan ad · zülef içi sayı açık</span></div>
       </div>
 
       <div class="slot-grid">
         <div class="slot"><strong>Salâtü’l-Fecr · doğrudan isim</strong><small>24:58. Aşağıdaki saat aralığı seçili astronomik açıdan güneş doğuşuna kadar olan teknik gözlem penceresidir.</small><span class="time" id="range-fecr">--:-- → --:--</span></div>
-        <div class="slot"><strong>Gündüzün ikinci tarafı / D2 · model alanı</strong><small>11:114’te gündüzün iki tarafı açık; Vustâ’nın bu alana eşlenmesi yalnız koşullu adaydır. Burada meridyen→batış sadece görsel/astronomik model penceresidir.</small><span class="time" id="range-d2">--:-- → --:--</span></div>
+        <div class="slot"><strong>Gündüzün ikinci tarafı · model alanı</strong><small>11:114’te gündüzün iki tarafı açık; Vustâ’nın bu alana eşlenmesi yalnız koşullu adaydır. Burada meridyen→batış sadece görsel/astronomik model penceresidir.</small><span class="time" id="range-d2">--:-- → --:--</span></div>
         <div class="slot"><strong>Salâtü’l-İşâ · doğrudan isim</strong><small>24:58. Başlangıç saati seçilen karanlık eşiğinin modelidir; Kur’an İşâ için derece veya kesin bitiş dakikası vermez.</small><span class="time" id="range-isha">--:-- → bitiş belirtilmez</span></div>
       </div>
     </div>
@@ -191,7 +196,7 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
   <div class="card third"><div class="kicker">Fecr</div><h3>Doğrudan adlandırılmış</h3><p>24:58 → <strong>Salât al-Fajr</strong>. 2:187 Fecr fenomenini doğal ışık ayrımıyla destekler.</p></div>
   <div class="card third"><div class="kicker">Gündüz tarafları</div><h3>İki yerleşim alanı</h3><p>11:114 → <strong>tarafay al-nahār</strong>. İkil biçim iki gündüz tarafını açıkça işaretler.</p></div>
   <div class="card third"><div class="kicker">Gece</div><h3>İşâ doğrudan adlandırılmış</h3><p>24:58 → <strong>Salât al-ʿIshāʾ</strong>. 11:114’te <em>zulafan min al-layl</em> gece alanını verir.</p></div>
-  <div class="card full"><h3>Vustâ</h3><p>2:238, <strong>es-salâtü’l-vustâ</strong> adını doğrudan verir; ancak ayet kendi içinde bunun günün hangi doğal sınırına denk geldiğini belirtmez. D2 eşlemesi bu yüzden koşullu aday olmaya devam eder.</p></div>
+  <div class="card full"><h3>Vustâ</h3><p>2:238, <strong>es-salâtü’l-vustâ</strong> adını doğrudan verir; ancak ayet kendi içinde bunun günün hangi doğal sınırına denk geldiğini belirtmez. gündüzün ikinci tarafıyla eşleme bu yüzden koşullu aday olmaya devam eder.</p></div>
 </div>
 </div></section>
 
@@ -203,7 +208,7 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
 <thead><tr><th>Ayet</th><th>Denetim notu</th></tr></thead>
 <tbody>
 <tr><td>2:187</td><td>“(Ramazan gecelerinde...)” ve “(tan yeri ağarıncaya)” türü ekler meal açıklaması olarak ayrılır.</td></tr>
-<tr><td>2:238</td><td>Parantez sorunu belirgin değil; Türkçe çeviri yine de kardinalite kanıtı değildir.</td></tr>
+<tr><td>2:238</td><td>Parantez sorunu belirgin değil; Türkçe çeviri yine de günlük sayı kanıtı değildir.</td></tr>
 <tr><td>4:103</td><td>“Belirli vakitlere bağlı...” <em>kitāban mawqūtan</em> çeviri tercihidir; hüküm Arapça lafızdan kurulur.</td></tr>
 <tr><td>5:106</td><td>“(edecek olanlar)” sentaktik açıklama olarak işaretlenir.</td></tr>
 <tr><td>11:114</td><td>“Gecenin gündüze yakın zamanları” lexical yorumdur; sayı hükmü Arapça ikil/çoğul biçimden kurulur.</td></tr>
@@ -217,38 +222,107 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
 </div></section>
 
 <section id="acik"><div class="wrap">
-<div class="section-title"><h2>Kalan iki açık düğüm</h2><p>Araştırmanın kesin toplam sayıya ulaşmasını engelleyen asıl iki soru.</p></div>
+<div class="section-title"><h2>Kalan üç açık soru</h2><p>Kesin günlük toplamı kapatmadan önce çözülmesi gereken üç eşleme/sayı sorusu.</p></div>
 <div class="grid openq">
   <div class="card q"><h3>Dülûk→Ğasaq aralığı</h3><p>17:78 bu geniş aralıkta <strong>bir</strong> salât mı gerektiriyor, yoksa metin birden fazla salât yerleşimini mi içeriyor/izin veriyor?</p></div>
   <div class="card q"><h3>Zülef min el-leyl</h3><p>11:114’teki çoğul/bölgesel gece alanı tek bir tekrar eden salât yerleşimine mi, yoksa birden fazlasına mı karşılık geliyor?</p></div>
+  <div class="card q"><h3>Fecr, 11:114’te hangi alana denk geliyor?</h3><p>24:58 Fecr salâtını doğrudan adlandırır; fakat bunun 11:114’teki <strong>gündüzün ilk tarafı/kenarı</strong> mı, yoksa <strong>geceden zülef veya gece-gündüz sınır alanı</strong> mı olduğu doğrudan söylenmez. Bu eşleme kesin günlük haritayı etkiler.</p></div>
 </div>
 </div></section>
 
 <section id="qa"><div class="wrap">
 <div class="section-title"><h2>Teknik QA</h2><p>Teknik PASS/SHA bilgileri ana hükümden ayrıldı.</p></div>
-<div class="qa">v1.9 scope revision: PASS
-Qur’an corpus reference: 6236/6236
-Core cards: 9/9
-minimum: AT_LEAST_3_STRONG_INFERENCE
-exact_daily_total: OPEN
-removed from cardinality support: 20:130, 50:39
-research merge: 791b1bf74a49e90fdff35aa1053ac4df7fd77a72
-package SHA-256: f681ef1040c0793e6a556fa1ed2938d4c87ba3cde89047091ad1d2ac5e86105a</div>
+<div class="qa">v1.9.1 kapsam/eşleme düzeltmesi: GEÇTİ
+Kur’an korpusu: 6236/6236
+Çekirdek ayet kartları: 9/9
+Alt sınır: EN AZ 3 — dağıtıcı okuma varsayımıyla güçlü çıkarım
+Kesin günlük toplam: AÇIK
+Üst sınır: METİNDE KAPATILMAMIŞ
+Fecr → Hûd 11:114 eşlemesi: AÇIK
+Salât sayımından çıkarılan pasajlar:
+20:130; 50:39–40; 30:17–18; 76:25–26; 40:55; 7:205; 33:42; 52:48–49</div>
 </div></section>
 </main>
 
 <footer><div class="wrap">
-  <strong>Kur’an Salât ve Vakit Atlası · v1.9</strong>
-  <p>Bu sayfa sonuçları kapatılmış bir “nihai fetva” olarak değil, kanıt dereceleri açıkça ayrılmış yaşayan bir araştırma sürümü olarak sunar. Araştırma kaynağı: Morbius0000/sunnetullah-matrisi v1.9.</p>
+  <strong>Kur’an Salât ve Vakit Atlası · v1.9.1 · güncel kanonik sürüm</strong>
+  <p>Bu sayfa sonuçları kapatılmış bir “nihai fetva” olarak değil, kanıt dereceleri açıkça ayrılmış yaşayan bir araştırma sürümü olarak sunar. Araştırma kaynağı: Morbius0000/sunnetullah-matrisi v1.9.1. Eski chatgpt.site v1.8 sayfası güncel kaynak değildir.</p>
 </div></footer>
 
 <script>
 (function(){
   "use strict";
   const ZONE="Europe/Istanbul", RAD=Math.PI/180, DEG=180/Math.PI;
+  const PROVINCES=[[1,"Adana"],[2,"Adıyaman"],[3,"Afyonkarahisar"],[4,"Ağrı"],[5,"Amasya"],[6,"Ankara"],[7,"Antalya"],[8,"Artvin"],[9,"Aydın"],[10,"Balıkesir"],[11,"Bilecik"],[12,"Bingöl"],[13,"Bitlis"],[14,"Bolu"],[15,"Burdur"],[16,"Bursa"],[17,"Çanakkale"],[18,"Çankırı"],[19,"Çorum"],[20,"Denizli"],[21,"Diyarbakır"],[22,"Edirne"],[23,"Elazığ"],[24,"Erzincan"],[25,"Erzurum"],[26,"Eskişehir"],[27,"Gaziantep"],[28,"Giresun"],[29,"Gümüşhane"],[30,"Hakkâri"],[31,"Hatay"],[32,"Isparta"],[33,"Mersin"],[34,"İstanbul"],[35,"İzmir"],[36,"Kars"],[37,"Kastamonu"],[38,"Kayseri"],[39,"Kırklareli"],[40,"Kırşehir"],[41,"Kocaeli"],[42,"Konya"],[43,"Kütahya"],[44,"Malatya"],[45,"Manisa"],[46,"Kahramanmaraş"],[47,"Mardin"],[48,"Muğla"],[49,"Muş"],[50,"Nevşehir"],[51,"Niğde"],[52,"Ordu"],[53,"Rize"],[54,"Sakarya"],[55,"Samsun"],[56,"Siirt"],[57,"Sinop"],[58,"Sivas"],[59,"Tekirdağ"],[60,"Tokat"],[61,"Trabzon"],[62,"Tunceli"],[63,"Şanlıurfa"],[64,"Uşak"],[65,"Van"],[66,"Yozgat"],[67,"Zonguldak"],[68,"Aksaray"],[69,"Bayburt"],[70,"Karaman"],[71,"Kırıkkale"],[72,"Batman"],[73,"Şırnak"],[74,"Bartın"],[75,"Ardahan"],[76,"Iğdır"],[77,"Yalova"],[78,"Karabük"],[79,"Kilis"],[80,"Osmaniye"],[81,"Düzce"]].map(x=>({id:x[0],name:x[1]}));
   const $=id=>document.getElementById(id), finite=Number.isFinite, clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
   const pad=v=>String(Math.floor(Number(v))).padStart(2,"0");
-  const state={lat:38.4237,lon:27.1428,dateKey:"",fajrAngle:-18,ishaAngle:-12,solar:null,preview:720};
+  const state={lat:38.382575,lon:27.176056,dateKey:"",fajrAngle:-18,ishaAngle:-12,solar:null,preview:720,provinceId:35,districtId:1780,districts:[]};
+
+
+  function normalizePlace(value){return String(value||"").toLocaleLowerCase("tr-TR").replace(/ı/g,"i").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]/g,"")}
+  function provinceById(id){return PROVINCES.find(x=>x.id===Number(id))}
+  async function fetchJson(url,timeout){
+    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),timeout||12000);
+    try{const response=await fetch(url,{signal:controller.signal,headers:{Accept:"application/json"}});if(!response.ok)throw new Error("HTTP "+response.status);return await response.json()}finally{clearTimeout(timer)}
+  }
+  function populateProvinces(){
+    const select=$("province-select"),frag=document.createDocumentFragment();
+    PROVINCES.forEach(p=>{const o=document.createElement("option");o.value=String(p.id);o.textContent=pad(p.id)+" · "+p.name;frag.appendChild(o)});
+    select.replaceChildren(frag);select.value=String(state.provinceId)
+  }
+  function populateDistricts(districts,preferredId){
+    const select=$("district-select"),frag=document.createDocumentFragment();
+    districts.slice().sort((a,b)=>a.name.localeCompare(b.name,"tr")).forEach(d=>{const o=document.createElement("option");o.value=String(d.id);o.textContent=d.name;frag.appendChild(o)});
+    select.replaceChildren(frag);state.districts=districts;
+    const preferred=districts.some(d=>d.id===Number(preferredId))?Number(preferredId):(districts[0]&&districts[0].id);
+    if(preferred)select.value=String(preferred);select.disabled=!districts.length;$("apply-district").disabled=!districts.length
+  }
+  async function loadDistricts(provinceId,preferredId){
+    const province=provinceById(provinceId),select=$("district-select");select.disabled=true;$("apply-district").disabled=true;
+    $("obs-location-note").textContent=(province?province.name:"İl")+" ilçeleri yükleniyor…";
+    const cacheKey="salat-v191-districts-"+provinceId;let cached=null;try{cached=JSON.parse(localStorage.getItem(cacheKey)||"null")}catch(e){}
+    if(Array.isArray(cached)&&cached.length)populateDistricts(cached,preferredId);
+    try{
+      const payload=await fetchJson("https://api.turkiyeapi.dev/v2/provinces/"+encodeURIComponent(provinceId)+"/districts?limit=1000&fields=id,name,slug,provinceId",14000);
+      const districts=Array.isArray(payload.data)?payload.data:[];if(!districts.length)throw new Error("Boş ilçe listesi");
+      const clean=districts.map(x=>({id:Number(x.id),name:String(x.name),provinceId:Number(x.provinceId||provinceId)}));populateDistricts(clean,preferredId);
+      try{localStorage.setItem(cacheKey,JSON.stringify(clean))}catch(e){}
+      $("obs-location-note").textContent=clean.length+" ilçe yüklendi. İlçeyi seçip “İlçeyi uygula” düğmesine bas."
+    }catch(e){
+      if(!Array.isArray(cached)||!cached.length){
+        if(Number(provinceId)===35){populateDistricts([{id:1780,name:"Buca",provinceId:35}],preferredId);$("obs-location-note").textContent="Canlı ilçe listesi alınamadı; gömülü Buca kaydı kullanılabilir."}
+        else{populateDistricts([],null);const o=document.createElement("option");o.textContent="İlçeler için internet gerekli";select.appendChild(o);$("obs-location-note").textContent="İlçe listesi alınamadı. GPS veya elle koordinat kullanabilirsin."}
+      }
+    }
+  }
+  function scoreGeocode(result,province,district){
+    if(String(result.country_code||"").toUpperCase()!=="TR")return -Infinity;
+    const lat=Number(result.latitude),lon=Number(result.longitude);if(!finite(lat)||!finite(lon)||lat<35||lat>43||lon<25||lon>46)return -Infinity;
+    const target=normalizePlace(district.name==="Merkez"?province.name:district.name),name=normalizePlace(result.name);
+    if(!(name===target||name.startsWith(target)||target.startsWith(name)))return -Infinity;
+    const pn=normalizePlace(province.name),admins=[result.admin1,result.admin2,result.admin3,result.admin4].map(normalizePlace);
+    const provinceMatch=admins.some(v=>v===pn||v.includes(pn));if(!provinceMatch&&district.name!=="Merkez")return -Infinity;
+    return (name===target?100:65)+(provinceMatch?80:0)+(/^PPLA|^PPL|^ADM2/.test(String(result.feature_code||""))?20:0)
+  }
+  async function geocodeDistrict(province,district){
+    if(district.id===1780&&province.id===35)return{latitude:38.382575,longitude:27.176056,sourceName:"Buca",admin1:"İzmir"};
+    const query=district.name==="Merkez"?province.name:district.name+", "+province.name;
+    const payload=await fetchJson("https://geocoding-api.open-meteo.com/v1/search?name="+encodeURIComponent(query)+"&count=50&language=tr&format=json&countryCode=TR",14000);
+    const results=Array.isArray(payload.results)?payload.results:[];
+    const ranked=results.map(r=>({r,score:scoreGeocode(r,province,district)})).filter(x=>finite(x.score)&&x.score>-Infinity).sort((a,b)=>b.score-a.score);
+    if(!ranked.length)throw new Error("İl ve ilçe adı aynı kayıtta doğrulanamadı");return{latitude:Number(ranked[0].r.latitude),longitude:Number(ranked[0].r.longitude),sourceName:String(ranked[0].r.name||district.name),admin1:String(ranked[0].r.admin1||province.name)}
+  }
+  async function applySelectedDistrict(){
+    const province=provinceById($("province-select").value),district=state.districts.find(d=>d.id===Number($("district-select").value));
+    if(!province||!district){$("obs-location-note").textContent="Geçerli bir il ve ilçe seçilmedi.";return}
+    const btn=$("apply-district");btn.disabled=true;btn.textContent="Koordinat doğrulanıyor…";
+    try{
+      const x=await geocodeDistrict(province,district);state.lat=x.latitude;state.lon=x.longitude;state.provinceId=province.id;state.districtId=district.id;
+      $("obs-lat").value=state.lat.toFixed(6);$("obs-lon").value=state.lon.toFixed(6);recalc();
+      $("obs-location-note").textContent="Doğrulandı: "+district.name+", "+province.name+" · "+state.lat.toFixed(4)+"°, "+state.lon.toFixed(4)+"°. Saatler yeniden hesaplandı."
+    }catch(e){$("obs-location-note").textContent="Koordinat uygulanmadı: "+e.message+". GPS veya elle koordinat kullanabilirsin."}
+    finally{btn.disabled=false;btn.textContent="İlçeyi uygula"}
+  }
 
   function todayKey(){
     try{
@@ -350,6 +424,10 @@ package SHA-256: f681ef1040c0793e6a556fa1ed2938d4c87ba3cde89047091ad1d2ac5e86105
   function setToday(){state.dateKey=todayKey();$("obs-date").value=state.dateKey;recalc()}
   function init(){
     state.dateKey=todayKey();$("obs-date").value=state.dateKey;state.preview=Math.round(nowMinute());$("fajr-angle").value="-18";$("isha-angle").value="-12";
+    populateProvinces();
+    $("province-select").value="35";
+    $("province-select").addEventListener("change",e=>{state.provinceId=Number(e.target.value);loadDistricts(state.provinceId,null)});
+    $("apply-district").addEventListener("click",applySelectedDistrict);
     ["obs-date","obs-lat","obs-lon","fajr-angle","isha-angle"].forEach(id=>$(id).addEventListener("change",recalc));
     $("time-slider").addEventListener("input",e=>renderPreview(Number(e.target.value)));
     $("obs-now").addEventListener("click",()=>renderPreview(nowMinute()));
@@ -360,7 +438,8 @@ package SHA-256: f681ef1040c0793e6a556fa1ed2938d4c87ba3cde89047091ad1d2ac5e86105
       note.textContent="Konum izni bekleniyor…";
       navigator.geolocation.getCurrentPosition(pos=>{$("obs-lat").value=pos.coords.latitude.toFixed(6);$("obs-lon").value=pos.coords.longitude.toFixed(6);note.textContent="Tarayıcının verdiği koordinat uygulandı · saat dilimi Europe/Istanbul.";recalc()},()=>{note.textContent="Konum izni verilmedi veya konum alınamadı. İzmir örneği korunuyor."},{enableHighAccuracy:false,timeout:8000,maximumAge:600000})
     });
-    recalc()
+    recalc();
+    loadDistricts(35,1780);
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
 })();
