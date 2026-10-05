@@ -18,6 +18,43 @@ table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:14px}th,
 .qa{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#050b0f;border:1px solid var(--line);border-radius:14px;padding:14px;overflow:auto;color:#cce3da}.openq{counter-reset:q}.openq .q{position:relative;padding-left:50px}.openq .q:before{counter-increment:q;content:counter(q);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(120,191,255,.12);border:1px solid rgba(120,191,255,.3);color:#bcdcff;font-weight:900}
 footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);margin-top:32px}
 @media(max-width:800px){.hero{padding-top:42px}.card,.card.third{grid-column:1/-1}.section-title{display:block}.section-title p{margin-top:8px}th,td{padding:9px;font-size:.9rem}.arabic{font-size:1.5rem}}
+
+/* v1.9 — restored solar observation panel */
+.obs-shell{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);gap:16px}
+.obs-panel{background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:20px;padding:18px;box-shadow:var(--shadow)}
+.obs-tools{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-bottom:12px}
+.obs-field label{display:block;color:var(--muted);font-size:.76rem;font-weight:700;margin-bottom:5px}
+.obs-control{width:100%;min-height:42px;background:#08141c;color:var(--text);border:1px solid var(--line);border-radius:11px;padding:9px 10px;font:inherit}
+.obs-actions{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px}
+.obs-btn{appearance:none;border:1px solid var(--line);background:#10222c;color:var(--text);border-radius:11px;padding:9px 12px;font-weight:800;cursor:pointer}
+.obs-btn:hover{border-color:#557784}
+.obs-note{font-size:.82rem;color:var(--muted);margin:.5rem 0 1rem}
+.solar-stage{height:340px;position:relative;overflow:hidden;border:1px solid rgba(157,176,193,.28);border-radius:17px;background:#071124;isolation:isolate}
+.sky{position:absolute;inset:0;z-index:-4;transition:background .35s ease;background:linear-gradient(to bottom,#075ea8,#65b8dc)}
+.solar-stage[data-phase="night"] .sky,.solar-stage[data-phase="isha"] .sky{background:linear-gradient(to bottom,#01030b,#071126 65%,#221c3a)}
+.solar-stage[data-phase="fajr"] .sky{background:linear-gradient(to bottom,#10152f,#4c477a 53%,#ef8b77 82%,#ffc378)}
+.solar-stage[data-phase="day"] .sky,.solar-stage[data-phase="late"] .sky{background:linear-gradient(to bottom,#075ea8,#258fc9 57%,#8ed4ed)}
+.solar-stage[data-phase="dusk"] .sky{background:linear-gradient(to bottom,#14284f,#72506f 52%,#e87558 82%,#ffbf71)}
+.stars{position:absolute;inset:0;opacity:0;transition:opacity .35s;background-image:radial-gradient(circle at 8% 18%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 18% 42%,#fff 0 1.2px,transparent 1.8px),radial-gradient(circle at 31% 13%,#fff 0 .9px,transparent 1.5px),radial-gradient(circle at 43% 31%,#fff 0 1px,transparent 1.6px),radial-gradient(circle at 56% 11%,#fff 0 1.1px,transparent 1.7px),radial-gradient(circle at 69% 34%,#fff 0 .8px,transparent 1.4px),radial-gradient(circle at 81% 16%,#fff 0 1.2px,transparent 1.8px),radial-gradient(circle at 93% 39%,#fff 0 .9px,transparent 1.5px)}
+.solar-stage[data-phase="night"] .stars,.solar-stage[data-phase="isha"] .stars{opacity:.9}.solar-stage[data-phase="fajr"] .stars,.solar-stage[data-phase="dusk"] .stars{opacity:.25}
+.sun-path{position:absolute;left:7%;right:7%;bottom:66px;height:188px;border-top:1px dashed rgba(255,255,255,.5);border-radius:50% 50% 0 0}
+.sun-orb{position:absolute;left:var(--sun-x,50%);bottom:var(--sun-y,70%);width:48px;height:48px;border-radius:50%;transform:translate(-50%,50%);background:radial-gradient(circle at 35% 32%,#fff 0 10%,#fff8c4 29%,#ffd55e 67%,#ff9d2e);box-shadow:0 0 24px rgba(255,245,193,.95),0 0 64px rgba(251,191,36,.78);transition:left .2s ease,bottom .2s ease,opacity .3s}
+.solar-stage[data-phase="night"] .sun-orb,.solar-stage[data-phase="isha"] .sun-orb{opacity:.09}
+.horizon-line{position:absolute;left:0;right:0;bottom:58px;height:5px;background:#1c2c3a;box-shadow:0 -4px 18px rgba(255,255,255,.22)}
+.landscape{position:absolute;left:-2%;right:-2%;bottom:0;height:60px;background:linear-gradient(#152537,#030812);clip-path:polygon(0 48%,8% 35%,16% 55%,25% 29%,34% 54%,44% 31%,54% 56%,64% 26%,74% 49%,84% 23%,93% 51%,100% 35%,100% 100%,0 100%)}
+.sky-hud{position:absolute;top:10px;left:10px;right:10px;display:flex;justify-content:space-between;gap:8px}
+.hud{padding:7px 9px;border:1px solid rgba(255,255,255,.2);border-radius:10px;background:rgba(2,8,18,.62);backdrop-filter:blur(8px)}
+.hud span{display:block;color:#b6c5d3;font-size:.61rem;text-transform:uppercase}.hud strong{display:block;margin-top:2px;font:700 .82rem ui-monospace,monospace}.hud:last-child{text-align:right}
+.event-labels{position:absolute;left:9px;right:9px;bottom:74px;display:flex;justify-content:space-between;align-items:flex-end;pointer-events:none}
+.event-labels span{padding:4px 6px;border-radius:6px;background:rgba(2,8,18,.7);border:1px solid rgba(255,255,255,.18);font:700 .61rem ui-monospace,monospace}.event-labels span:nth-child(2){transform:translateY(-92px)}
+.scrub{position:absolute;left:10px;right:10px;bottom:10px;display:grid;grid-template-columns:42px 1fr 42px;align-items:center;gap:8px}.scrub span{font:700 .65rem ui-monospace,monospace}.scrub span:last-child{text-align:right}.scrub input{width:100%;accent-color:var(--accent2)}
+.obs-status{display:grid;grid-template-columns:repeat(2,1fr);gap:9px}.obs-datum{padding:11px;border:1px solid var(--line);border-radius:12px;background:rgba(0,0,0,.16)}.obs-datum span{display:block;color:var(--muted);font-size:.74rem}.obs-datum strong{display:block;margin-top:3px;font:800 .94rem ui-monospace,monospace}
+.slot-grid{display:grid;gap:9px;margin-top:14px}.slot{padding:13px;border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.025)}.slot strong{display:block}.slot small{display:block;color:var(--muted);margin-top:3px}.slot .time{display:block;color:var(--accent);font:800 .92rem ui-monospace,monospace;margin-top:7px}
+.month-wrap{overflow:auto;margin-top:12px;max-height:340px}.month-wrap table{min-width:570px}.month-wrap tr.today-row{background:rgba(121,226,178,.08)}
+.model-strip{display:grid;grid-template-columns:1fr auto 1fr auto 1fr;gap:9px;align-items:center;margin-top:16px;padding:14px;border:1px solid var(--line);border-radius:15px;background:#08141c}.model-node{text-align:center}.model-node strong{display:block}.model-node span{display:block;color:var(--muted);font-size:.75rem}.model-arrow{color:var(--accent2);font-weight:900}
+@media(max-width:900px){.obs-shell{grid-template-columns:1fr}.obs-tools{grid-template-columns:1fr 1fr}.solar-stage{height:320px}}
+@media(max-width:560px){.obs-tools{grid-template-columns:1fr}.sky-hud{gap:4px}.hud{padding:6px}.hud span{font-size:.52rem}.hud strong{font-size:.7rem}.model-strip{grid-template-columns:1fr}.model-arrow{transform:rotate(90deg);text-align:center}}
+
 </style>
 </head>
 <body>
@@ -36,7 +73,7 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
   </div>
 </header>
 <nav><div class="wrap">
-  <a href="#sonuc">Sonuç</a><a href="#yontem">Yöntem</a><a href="#cekirdek">9 çekirdek ayet</a><a href="#harita">Vakit haritası</a><a href="#diyanet">Meal denetimi</a><a href="#acik">Açık sorular</a><a href="#qa">QA</a>
+  <a href="#sonuc">Sonuç</a><a href="#yontem">Yöntem</a><a href="#cekirdek">9 çekirdek ayet</a><a href="#gunes">Güneş hareketleri</a><a href="#harita">Vakit haritası</a><a href="#diyanet">Meal denetimi</a><a href="#acik">Açık sorular</a><a href="#qa">QA</a>
 </div></nav>
 
 <main>
@@ -79,6 +116,73 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
   <article class="card"><div class="kicker">24:58 · Fecr ve İşâ adı</div><div class="arabic">يا أيها الذين آمنوا ليستأذنكم الذين ملكت أيمانكم والذين لم يبلغوا الحلم منكم ثلاث مرات من قبل صلاة الفجر وحين تضعون ثيابكم من الظهيرة ومن بعد صلاة العشاء ثلاث عورات لكم ليس عليكم ولا عليهم جناح بعدهن طوافون عليكم بعضكم على بعض كذلك يبين الله لكم الآيات والله عليم حكيم</div><p><strong>صلاة الفجر</strong> ve <strong>صلاة العشاء</strong> adlarını doğrudan verir.</p><span class="tag">DIRECT NAMES</span></article>
   <article class="card"><div class="kicker">62:9 · Cuma çağrısı</div><div class="arabic">يا أيها الذين آمنوا إذا نودي للصلاة من يوم الجمعة فاسعوا إلى ذكر الله وذروا البيع ذلكم خير لكم إن كنتم تعلمون</div><p>Cuma günündeki salât çağrısını doğrudan verir. Bu haftalık zamanlama işaretidir; ayrı bir günlük salât slotu sayılmaz.</p><span class="tag warn">WEEKLY · daily count değil</span></article>
 </div>
+</div></section>
+
+
+<section id="gunes"><div class="wrap">
+  <div class="section-title"><h2>Güneş hareketleri ve doğal vakit gözlemi</h2><p>Eski Atlas’taki gözlem katmanı v1.9’a geri eklendi. Güneş hareketi hesaplanır; Kur’anî isimlerle astronomik eşikler birbirine zorla eşitlenmez.</p></div>
+  <div class="obs-shell">
+    <div class="obs-panel">
+      <div class="obs-tools">
+        <div class="obs-field"><label for="obs-date">Tarih</label><input class="obs-control" id="obs-date" type="date"></div>
+        <div class="obs-field"><label for="obs-lat">Enlem</label><input class="obs-control" id="obs-lat" type="number" step="0.000001" value="38.423700"></div>
+        <div class="obs-field"><label for="obs-lon">Boylam</label><input class="obs-control" id="obs-lon" type="number" step="0.000001" value="27.142800"></div>
+        <div class="obs-field"><label for="fajr-angle">Fecr teknik modeli</label><select class="obs-control" id="fajr-angle"><option value="-18">−18° · astronomik tan</option><option value="-15">−15° · ara eşik</option><option value="-12">−12° · deniz tanı</option></select></div>
+        <div class="obs-field"><label for="isha-angle">Ğasaq / İşâ teknik modeli</label><select class="obs-control" id="isha-angle"><option value="-12">−12° · yoğunlaşan karanlık</option><option value="-15">−15° · ara eşik</option><option value="-18">−18° · astronomik karanlık</option></select></div>
+      </div>
+      <div class="obs-actions">
+        <button class="obs-btn" id="use-izmir" type="button">İzmir merkez</button>
+        <button class="obs-btn" id="use-gps" type="button">Konumumu kullan</button>
+        <button class="obs-btn" id="obs-today" type="button">Bugün</button>
+        <button class="obs-btn" id="obs-now" type="button">Şimdiki saat</button>
+      </div>
+      <p class="obs-note" id="obs-location-note">Başlangıç örneği: İzmir merkez · Europe/Istanbul. GPS seçilirse tarayıcı izin ister. −12°/−15°/−18° değerleri <strong>Kur’an ayeti değil</strong>, teknik gözlem modelleridir.</p>
+      <div class="solar-stage" id="solar-stage" data-phase="day">
+        <div class="sky"></div><div class="stars"></div><div class="sun-path"></div><div class="sun-orb" id="sun-orb"></div><div class="horizon-line"></div><div class="landscape"></div>
+        <div class="sky-hud">
+          <div class="hud"><span>Seçili zaman</span><strong id="preview-time">--:--</strong></div>
+          <div class="hud"><span>Güneş yüksekliği</span><strong id="altitude-label">--°</strong></div>
+          <div class="hud"><span>Gök evresi</span><strong id="phase-name">--</strong></div>
+        </div>
+        <div class="event-labels"><span id="pill-sunrise">DOĞUŞ --:--</span><span id="pill-noon">ZİRVE --:--</span><span id="pill-sunset">BATIŞ --:--</span></div>
+        <div class="scrub"><span>00:00</span><input id="time-slider" type="range" min="0" max="1439" value="720"><span>23:59</span></div>
+      </div>
+
+      <div class="model-strip" aria-label="v1.9 doğal vakit modeli">
+        <div class="model-node"><strong>FECR</strong><span>24:58 doğrudan ad</span></div><div class="model-arrow">→</div>
+        <div class="model-node"><strong>D2 / VUSTÂ?</strong><span>geç gündüz · koşullu aday</span></div><div class="model-arrow">→</div>
+        <div class="model-node"><strong>İŞÂ</strong><span>24:58 doğrudan ad</span></div>
+      </div>
+
+      <div class="slot-grid">
+        <div class="slot"><strong>Salâtü’l-Fecr · doğrudan isim</strong><small>24:58. Aşağıdaki saat aralığı seçili astronomik açıdan güneş doğuşuna kadar olan teknik gözlem penceresidir.</small><span class="time" id="range-fecr">--:-- → --:--</span></div>
+        <div class="slot"><strong>Gündüzün ikinci tarafı / D2 · model alanı</strong><small>11:114’te gündüzün iki tarafı açık; Vustâ’nın bu alana eşlenmesi yalnız koşullu adaydır. Burada meridyen→batış sadece görsel/astronomik model penceresidir.</small><span class="time" id="range-d2">--:-- → --:--</span></div>
+        <div class="slot"><strong>Salâtü’l-İşâ · doğrudan isim</strong><small>24:58. Başlangıç saati seçilen karanlık eşiğinin modelidir; Kur’an İşâ için derece veya kesin bitiş dakikası vermez.</small><span class="time" id="range-isha">--:-- → bitiş belirtilmez</span></div>
+      </div>
+    </div>
+
+    <aside class="obs-panel">
+      <div class="kicker">Astronomik olaylar</div>
+      <h3 style="margin:.25rem 0 .8rem">Seçili gün</h3>
+      <div class="obs-status">
+        <div class="obs-datum"><span>−18° sabah</span><strong id="data-a18">--:--</strong></div>
+        <div class="obs-datum"><span>−15° sabah</span><strong id="data-a15">--:--</strong></div>
+        <div class="obs-datum"><span>−12° sabah</span><strong id="data-a12">--:--</strong></div>
+        <div class="obs-datum"><span>Doğuş · −0,833°</span><strong id="data-sunrise">--:--</strong></div>
+        <div class="obs-datum"><span>Meridyen / zirve</span><strong id="data-noon">--:--</strong></div>
+        <div class="obs-datum"><span>Batış · −0,833°</span><strong id="data-sunset">--:--</strong></div>
+        <div class="obs-datum"><span>−12° akşam</span><strong id="data-e12">--:--</strong></div>
+        <div class="obs-datum"><span>−18° akşam</span><strong id="data-e18">--:--</strong></div>
+      </div>
+      <div class="callout warning" style="margin-top:14px"><strong>Önemli:</strong> Güneş meridyeni/zirvesi burada astronomik olaydır. <strong>Dülûk = zirve</strong> veya <strong>Vustâ = zirve</strong> diye Kur’anî eşitlik kurulmaz. Dülûk’un kesin astronomik noktası v1.9’da açıktır.</div>
+      <p class="obs-note">Hesap NOAA/Meeus tipi güneş geometrisi ve doğuş/batış için −0,833° standart kırılma varsayımını kullanır. Yerel ufuk, yükseklik ve atmosfer gerçek gözlem saatini birkaç dakika etkileyebilir.</p>
+    </aside>
+  </div>
+
+  <div class="obs-panel" style="margin-top:16px">
+    <div class="section-title" style="margin-bottom:8px"><h2 style="font-size:1.25rem">Aylık astronomik model</h2><p>Fecr ve İşâ sütunları seçili açı modeline göre; D2 sütunu yalnız meridyen→batış görsel penceresinin başlangıcını gösterir.</p></div>
+    <div class="month-wrap"><table><thead><tr><th>Gün</th><th>Fecr modeli</th><th>Doğuş</th><th>Zirve</th><th>Batış</th><th>İşâ modeli</th></tr></thead><tbody id="month-body"></tbody></table></div>
+  </div>
 </div></section>
 
 <section id="harita"><div class="wrap">
@@ -137,5 +241,130 @@ package SHA-256: f681ef1040c0793e6a556fa1ed2938d4c87ba3cde89047091ad1d2ac5e86105
   <strong>Kur’an Salât ve Vakit Atlası · v1.9</strong>
   <p>Bu sayfa sonuçları kapatılmış bir “nihai fetva” olarak değil, kanıt dereceleri açıkça ayrılmış yaşayan bir araştırma sürümü olarak sunar. Araştırma kaynağı: Morbius0000/sunnetullah-matrisi v1.9.</p>
 </div></footer>
+
+<script>
+(function(){
+  "use strict";
+  const ZONE="Europe/Istanbul", RAD=Math.PI/180, DEG=180/Math.PI;
+  const $=id=>document.getElementById(id), finite=Number.isFinite, clamp=(v,a,b)=>Math.max(a,Math.min(b,v));
+  const pad=v=>String(Math.floor(Number(v))).padStart(2,"0");
+  const state={lat:38.4237,lon:27.1428,dateKey:"",fajrAngle:-18,ishaAngle:-12,solar:null,preview:720};
+
+  function todayKey(){
+    try{
+      const p={}; new Intl.DateTimeFormat("en-CA",{timeZone:ZONE,year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date()).forEach(x=>{if(x.type!=="literal")p[x.type]=x.value});
+      return p.year+"-"+p.month+"-"+p.day;
+    }catch(e){return new Date(Date.now()+3*3600000).toISOString().slice(0,10)}
+  }
+  function nowMinute(){
+    try{
+      const p={}; new Intl.DateTimeFormat("en-GB",{timeZone:ZONE,hour:"2-digit",minute:"2-digit",second:"2-digit",hourCycle:"h23"}).formatToParts(new Date()).forEach(x=>{if(x.type!=="literal")p[x.type]=x.value});
+      return (Number(p.hour)%24)*60+Number(p.minute)+Number(p.second)/60;
+    }catch(e){const d=new Date(Date.now()+3*3600000);return d.getUTCHours()*60+d.getUTCMinutes()+d.getUTCSeconds()/60}
+  }
+  function zoneOffsetMinutes(dateKey){
+    try{
+      const anchor=new Date(dateKey+"T12:00:00Z"),p={};
+      new Intl.DateTimeFormat("en-CA",{timeZone:ZONE,year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit",hourCycle:"h23"}).formatToParts(anchor).forEach(x=>{if(x.type!=="literal")p[x.type]=x.value});
+      const represented=Date.UTC(+p.year,+p.month-1,+p.day,+p.hour%24,+p.minute,+p.second);
+      return Math.round((represented-anchor.getTime())/60000);
+    }catch(e){return 180}
+  }
+  function dateParts(k){const p=k.split("-").map(Number);return{year:p[0],month:p[1],day:p[2]}}
+  function julianDay(k){const p=dateParts(k);return Date.UTC(p.year,p.month-1,p.day)/86400000+2440587.5}
+  function geomMeanLongSun(t){let v=280.46646+t*(36000.76983+t*.0003032);v%=360;return v<0?v+360:v}
+  function geomMeanAnomalySun(t){return 357.52911+t*(35999.05029-.0001537*t)}
+  function eccentricityEarthOrbit(t){return .016708634-t*(.000042037+.0000001267*t)}
+  function sunEqOfCenter(t){const m=geomMeanAnomalySun(t)*RAD;return Math.sin(m)*(1.914602-t*(.004817+.000014*t))+Math.sin(2*m)*(.019993-.000101*t)+Math.sin(3*m)*.000289}
+  function sunApparentLong(t){const trueLong=geomMeanLongSun(t)+sunEqOfCenter(t),omega=125.04-1934.136*t;return trueLong-.00569-.00478*Math.sin(omega*RAD)}
+  function meanObliquityOfEcliptic(t){const sec=21.448-t*(46.815+t*(.00059-t*.001813));return 23+(26+sec/60)/60}
+  function obliquityCorrection(t){const omega=125.04-1934.136*t;return meanObliquityOfEcliptic(t)+.00256*Math.cos(omega*RAD)}
+  function solarParameters(jd){
+    const t=(jd-2451545)/36525,epsilon=obliquityCorrection(t)*RAD,lambda=sunApparentLong(t)*RAD;
+    const declination=Math.asin(Math.sin(epsilon)*Math.sin(lambda)),l0=geomMeanLongSun(t)*RAD,m=geomMeanAnomalySun(t)*RAD,e=eccentricityEarthOrbit(t),y=Math.tan(epsilon/2)**2;
+    const equation=y*Math.sin(2*l0)-2*e*Math.sin(m)+4*e*y*Math.sin(m)*Math.cos(2*l0)-.5*y*y*Math.sin(4*l0)-1.25*e*e*Math.sin(2*m);
+    return{declination,equationOfTime:4*DEG*equation}
+  }
+  function hourAngle(lat,decl,alt){
+    const la=lat*RAD,al=alt*RAD,den=Math.cos(la)*Math.cos(decl);if(Math.abs(den)<1e-12)return null;
+    const c=(Math.sin(al)-Math.sin(la)*Math.sin(decl))/den;if(c<-1||c>1)return null;return Math.acos(clamp(c,-1,1))*DEG
+  }
+  function solarNoonUtc(jd,lon){let m=720-4*lon-solarParameters(jd+.5).equationOfTime;for(let i=0;i<3;i++)m=720-4*lon-solarParameters(jd+m/1440).equationOfTime;return m}
+  function solarEventLocal(jd,lat,lon,offset,alt,morning){
+    let utc=solarNoonUtc(jd,lon);
+    for(let i=0;i<3;i++){const p=solarParameters(jd+utc/1440),a=hourAngle(lat,p.declination,alt);if(a===null)return null;utc=720-4*(lon+(morning?a:-a))-p.equationOfTime}
+    return utc+offset
+  }
+  function calculateSolar(k,lat,lon){
+    const jd=julianDay(k),offset=zoneOffsetMinutes(k),noon=solarNoonUtc(jd,lon)+offset,event=(alt,morn)=>solarEventLocal(jd,lat,lon,offset,alt,morn);
+    const r={a18Morning:event(-18,true),a15Morning:event(-15,true),a12Morning:event(-12,true),sunrise:event(-.833,true),noon,sunset:event(-.833,false),a12Evening:event(-12,false),a15Evening:event(-15,false),a18Evening:event(-18,false)};
+    r.fajr=r[state.fajrAngle===-12?"a12Morning":state.fajrAngle===-15?"a15Morning":"a18Morning"];
+    r.isha=r[state.ishaAngle===-18?"a18Evening":state.ishaAngle===-15?"a15Evening":"a12Evening"]; return r
+  }
+  function solarAltitude(k,minute,lat,lon){
+    const off=zoneOffsetMinutes(k),utc=minute-off,p=solarParameters(julianDay(k)+utc/1440);
+    let tst=minute+p.equationOfTime+4*lon-off;tst=((tst%1440)+1440)%1440;let ha=tst/4-180;if(ha<-180)ha+=360;
+    const la=lat*RAD,h=ha*RAD;return Math.asin(Math.sin(la)*Math.sin(p.declination)+Math.cos(la)*Math.cos(p.declination)*Math.cos(h))*DEG
+  }
+  function fmt(v){if(!finite(v))return "—";let m=Math.round(v)%1440;if(m<0)m+=1440;return pad(m/60)+":"+pad(m%60)}
+  function phaseAt(m,s){
+    if(!s)return{key:"night",label:"Hesaplanıyor"};
+    if(finite(s.fajr)&&finite(s.sunrise)&&m>=s.fajr&&m<s.sunrise)return{key:"fajr",label:"Fecr aydınlığı"};
+    if(finite(s.sunrise)&&m>=s.sunrise&&m<s.noon)return{key:"day",label:"Gündüz yükselişi"};
+    if(finite(s.sunset)&&m>=s.noon&&m<s.sunset)return{key:"late",label:"Geç gündüz / D2 modeli"};
+    if(finite(s.sunset)&&finite(s.isha)&&m>=s.sunset&&m<s.isha)return{key:"dusk",label:"Akşam alacası"};
+    if((finite(s.isha)&&m>=s.isha)||(finite(s.fajr)&&m<s.fajr))return{key:"isha",label:"Karanlık / İşâ modeli"};
+    return{key:"night",label:"Gece"}
+  }
+  function placeSun(m,s){
+    const orb=$("sun-orb");if(!orb||!s||!finite(s.sunrise)||!finite(s.sunset))return;const daylight=s.sunset-s.sunrise;let x,y;
+    if(m>=s.sunrise&&m<=s.sunset){const p=clamp((m-s.sunrise)/daylight,0,1);x=7+86*p;y=18+60*Math.sin(Math.PI*p)}
+    else if(m<s.sunrise){const lead=clamp((s.sunrise-m)/150,0,1);x=7-5*lead;y=17-9*lead}
+    else{const trail=clamp((m-s.sunset)/150,0,1);x=93+5*trail;y=17-9*trail}
+    orb.style.setProperty("--sun-x",x.toFixed(2)+"%");orb.style.setProperty("--sun-y",y.toFixed(2)+"%")
+  }
+  function renderPreview(m){
+    m=clamp(Math.round(m),0,1439);state.preview=m;const phase=phaseAt(m,state.solar);
+    $("solar-stage").dataset.phase=phase.key;$("preview-time").textContent=fmt(m);$("phase-name").textContent=phase.label;
+    const alt=solarAltitude(state.dateKey,m,state.lat,state.lon);$("altitude-label").textContent=finite(alt)?(alt>=0?"+":"")+alt.toFixed(1)+"°":"—";
+    $("time-slider").value=String(m);placeSun(m,state.solar)
+  }
+  function renderData(){
+    const s=state.solar;
+    $("range-fecr").textContent=fmt(s.fajr)+" → "+fmt(s.sunrise);
+    $("range-d2").textContent=fmt(s.noon)+" → "+fmt(s.sunset)+" · model";
+    $("range-isha").textContent=fmt(s.isha)+" → bitiş belirtilmez";
+    [["data-a18",s.a18Morning],["data-a15",s.a15Morning],["data-a12",s.a12Morning],["data-sunrise",s.sunrise],["data-noon",s.noon],["data-sunset",s.sunset],["data-e12",s.a12Evening],["data-e18",s.a18Evening]].forEach(x=>$(x[0]).textContent=fmt(x[1]));
+    $("pill-sunrise").textContent="DOĞUŞ "+fmt(s.sunrise);$("pill-noon").textContent="ZİRVE "+fmt(s.noon);$("pill-sunset").textContent="BATIŞ "+fmt(s.sunset)
+  }
+  function renderMonth(){
+    const p=dateParts(state.dateKey),days=new Date(Date.UTC(p.year,p.month,0)).getUTCDate(),frag=document.createDocumentFragment();
+    for(let d=1;d<=days;d++){const k=p.year+"-"+pad(p.month)+"-"+pad(d),s=calculateSolar(k,state.lat,state.lon),tr=document.createElement("tr");if(k===todayKey())tr.className="today-row";
+      [pad(d),fmt(s.fajr),fmt(s.sunrise),fmt(s.noon),fmt(s.sunset),fmt(s.isha)].forEach(v=>{const td=document.createElement("td");td.textContent=v;tr.appendChild(td)});frag.appendChild(tr)}
+    $("month-body").replaceChildren(frag)
+  }
+  function recalc(){
+    state.dateKey=$("obs-date").value||todayKey();state.lat=Number($("obs-lat").value);state.lon=Number($("obs-lon").value);state.fajrAngle=Number($("fajr-angle").value);state.ishaAngle=Number($("isha-angle").value);
+    if(!finite(state.lat)||!finite(state.lon))return;state.solar=calculateSolar(state.dateKey,state.lat,state.lon);renderData();renderPreview(state.preview);renderMonth()
+  }
+  function setToday(){state.dateKey=todayKey();$("obs-date").value=state.dateKey;recalc()}
+  function init(){
+    state.dateKey=todayKey();$("obs-date").value=state.dateKey;state.preview=Math.round(nowMinute());$("fajr-angle").value="-18";$("isha-angle").value="-12";
+    ["obs-date","obs-lat","obs-lon","fajr-angle","isha-angle"].forEach(id=>$(id).addEventListener("change",recalc));
+    $("time-slider").addEventListener("input",e=>renderPreview(Number(e.target.value)));
+    $("obs-now").addEventListener("click",()=>renderPreview(nowMinute()));
+    $("obs-today").addEventListener("click",setToday);
+    $("use-izmir").addEventListener("click",()=>{$("obs-lat").value="38.423700";$("obs-lon").value="27.142800";$("obs-location-note").innerHTML="İzmir merkez örneği · Europe/Istanbul. Teknik astronomi modeli; Kur’anî derece hükmü değildir.";recalc()});
+    $("use-gps").addEventListener("click",()=>{
+      const note=$("obs-location-note"); if(!navigator.geolocation){note.textContent="Bu tarayıcı konum özelliğini desteklemiyor.";return}
+      note.textContent="Konum izni bekleniyor…";
+      navigator.geolocation.getCurrentPosition(pos=>{$("obs-lat").value=pos.coords.latitude.toFixed(6);$("obs-lon").value=pos.coords.longitude.toFixed(6);note.textContent="Tarayıcının verdiği koordinat uygulandı · saat dilimi Europe/Istanbul.";recalc()},()=>{note.textContent="Konum izni verilmedi veya konum alınamadı. İzmir örneği korunuyor."},{enableHighAccuracy:false,timeout:8000,maximumAge:600000})
+    });
+    recalc()
+  }
+  if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
+})();
+</script>
+
 </body>
 </html>
