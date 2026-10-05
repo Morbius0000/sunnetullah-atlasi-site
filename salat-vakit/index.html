@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kur’an Salât ve Vakit Atlası — v1.9</title>
+<meta name="description" content="Yalnız Kur’an içi dil, kök, gramer ve bağlamla salât-vakit araştırması. v1.9 araştırma sürümü.">
+<style>
+:root{--bg:#071015;--panel:#0d1820;--panel2:#101f29;--text:#eef5f2;--muted:#a5b6b3;--line:#243942;--accent:#79e2b2;--accent2:#78bfff;--warn:#ffd27a;--danger:#ff9b9b;--shadow:0 18px 50px rgba(0,0,0,.28)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 20% 0,#102b2a 0,transparent 38%),radial-gradient(circle at 100% 20%,#132943 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;line-height:1.65}
+a{color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.hero{padding:64px 0 34px}.eyebrow{color:var(--accent);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.82rem}.hero h1{font-size:clamp(2.2rem,7vw,5rem);line-height:.98;margin:.55rem 0 1rem;max-width:900px}.hero p{max-width:850px;color:var(--muted);font-size:1.08rem}.chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}.chip{padding:8px 12px;border:1px solid var(--line);background:rgba(255,255,255,.035);border-radius:999px;font-size:.9rem}.chip strong{color:var(--accent)}
+nav{position:sticky;top:0;z-index:10;background:rgba(7,16,21,.82);backdrop-filter:blur(14px);border-top:1px solid rgba(255,255,255,.04);border-bottom:1px solid var(--line)}nav .wrap{display:flex;gap:18px;overflow:auto;padding:11px 0}nav a{text-decoration:none;color:var(--muted);font-size:.92rem;white-space:nowrap}nav a:hover{color:var(--text)}
+section{padding:42px 0}.section-title{display:flex;gap:16px;align-items:end;justify-content:space-between;margin-bottom:18px}.section-title h2{margin:0;font-size:clamp(1.55rem,4vw,2.3rem)}.section-title p{margin:0;color:var(--muted);max-width:560px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}.card{grid-column:span 6;background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:20px;padding:20px;box-shadow:var(--shadow)}.card.full{grid-column:1/-1}.card.third{grid-column:span 4}
+.kicker{color:var(--accent2);font-weight:800;font-size:.82rem;letter-spacing:.06em;text-transform:uppercase}.card h3{margin:.25rem 0 .6rem;font-size:1.22rem}.card p{margin:.45rem 0;color:#dbe6e3}.muted{color:var(--muted)!important}.arabic{font-family:"Noto Naskh Arabic","Amiri","Scheherazade New",serif;direction:rtl;text-align:right;font-size:clamp(1.38rem,3vw,2.02rem);line-height:2.05;padding:16px 0 8px;color:#fff}.tag{display:inline-flex;align-items:center;gap:7px;margin-top:10px;border-radius:10px;padding:7px 9px;font-size:.83rem;font-weight:700;background:rgba(121,226,178,.09);border:1px solid rgba(121,226,178,.25);color:#b7f1d6}.tag.warn{background:rgba(255,210,122,.08);border-color:rgba(255,210,122,.28);color:#ffe1a5}.tag.open{background:rgba(120,191,255,.09);border-color:rgba(120,191,255,.26);color:#afd6ff}
+.callout{padding:20px;border-left:4px solid var(--accent);background:rgba(121,226,178,.07);border-radius:0 16px 16px 0}.callout strong{color:var(--accent)}.warning{border-left-color:var(--warn);background:rgba(255,210,122,.06)}.warning strong{color:var(--warn)}
+table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:14px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.05em}
+.qa{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#050b0f;border:1px solid var(--line);border-radius:14px;padding:14px;overflow:auto;color:#cce3da}.openq{counter-reset:q}.openq .q{position:relative;padding-left:50px}.openq .q:before{counter-increment:q;content:counter(q);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:rgba(120,191,255,.12);border:1px solid rgba(120,191,255,.3);color:#bcdcff;font-weight:900}
+footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);margin-top:32px}
+@media(max-width:800px){.hero{padding-top:42px}.card,.card.third{grid-column:1/-1}.section-title{display:block}.section-title p{margin-top:8px}th,td{padding:9px;font-size:.9rem}.arabic{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Kur’an Salât ve Vakit Atlası</div>
+    <h1>v1.9 araştırma sürümü</h1>
+    <p>Bu sürüm yalnız Kur’an içi lafız, gramer, kök ve bağlam zincirine dayanır. Tesbîh/zikir pasajları salât sayısı üretmek için kullanılmaz. Mevcut kanıtın taşıdığı en güçlü hüküm <strong>en az 3 tekrar eden günlük salât yerleşimi</strong>; kesin günlük toplam ise açıktır.</p>
+    <div class="chips">
+      <span class="chip"><strong>Kaynak:</strong> yalnız Kur’an</span>
+      <span class="chip"><strong>Alt sınır:</strong> en az 3</span>
+      <span class="chip"><strong>Kesin toplam:</strong> açık</span>
+      <span class="chip"><strong>Sürüm:</strong> v1.9</span>
+      <span class="chip"><strong>Saatler:</strong> astronomik yaklaşık model</span>
+    </div>
+  </div>
+</header>
+<nav><div class="wrap">
+  <a href="#sonuc">Sonuç</a><a href="#yontem">Yöntem</a><a href="#cekirdek">9 çekirdek ayet</a><a href="#harita">Vakit haritası</a><a href="#diyanet">Meal denetimi</a><a href="#acik">Açık sorular</a><a href="#qa">QA</a>
+</div></nav>
+
+<main>
+<section id="sonuc"><div class="wrap">
+  <div class="section-title"><h2>Mevcut sonuç</h2><p>“Tam sürüm”, “nihai sonuç” ve “araştırma kilidi” ifadeleri kaldırıldı; çünkü iki kardinalite düğümü hâlâ açık.</p></div>
+  <div class="grid">
+    <div class="card third"><div class="kicker">Doğrudan</div><h3>Salât vakte bağlıdır</h3><p>Nisâ 4:103 salâtı <em>kitāban mawqūtan</em> olarak niteler.</p><span class="tag">DIRECT · 4:103</span></div>
+    <div class="card third"><div class="kicker">Güçlü çıkarım</div><h3>En az 3</h3><p>Hûd 11:114’te iki gündüz tarafı + gece alanı, dağıtıcı okumada üçlü alt sınır topolojisi verir.</p><span class="tag">AT LEAST 3</span></div>
+    <div class="card third"><div class="kicker">Açık</div><h3>3 mü, 4 mü, 5 mi?</h3><p>Metin mevcut aşamada tam günlük toplamı kapatmıyor. 3, 4 veya 5 için kesin sayı hükmü verilmez.</p><span class="tag open">OPEN</span></div>
+  </div>
+  <div class="callout warning" style="margin-top:18px"><strong>−18° notu:</strong> Modern astronomik bir hesap/uzlaşı tercihidir. Kur’an’ın verdiği sabit bir derece değildir.</div>
+</div></section>
+
+<section id="yontem"><div class="wrap">
+  <div class="section-title"><h2>Tesbîh ≠ Salât</h2><p>v1.9’un en önemli metodolojik düzeltmesi.</p></div>
+  <div class="card full">
+    <div class="kicker">Nûr 24:41</div>
+    <div class="arabic">ألم تر أن الله يسبح له من في السماوات والأرض والطير صافات كل قد علم صلاته وتسبيحه والله عليم بما يفعلون</div>
+    <p><strong>صلاته وتسبيحه</strong> — “salâtını ve tesbîhini” — iki ayrı isim yan yana koordine edilir. Bu, salât ile tesbîhin aynı kavram olarak sayılmaması için Kur’an içi güçlü bir ayrımdır.</p>
+    <p class="muted">Destekleyici ayrım alanları: 15:98; 50:40; 3:41; 19:11; 17:44; 13:13; 21:20; 21:79; 57:1.</p>
+    <span class="tag">STRONG QURAN-INTERNAL DISTINCTION</span>
+  </div>
+  <div class="card full" style="margin-top:16px">
+    <h3>Salât kardinalitesi dışında tutulan zaman pasajları</h3>
+    <p>20:130 · 50:39–40 · 30:17–18 · 76:25–26 · 40:55 · 7:205 · 33:42 · 52:48–49</p>
+    <p class="muted">Bunlar zaman söz varlığını aydınlatabilir; ancak ayetin kendisi veya doğrudan Kur’an içi bağ salât kurmadıkça yeni bir salât yerleşimi oluşturamaz.</p>
+  </div>
+</div></section>
+
+<section id="cekirdek"><div class="wrap">
+<div class="section-title"><h2>Dokuz çekirdek ayet</h2><p>Önceki görünümde eksik kalan çekirdek set artık 9/9 olarak gösterilir.</p></div>
+<div class="grid">
+  <article class="card"><div class="kicker">2:187 · Fecr olgusu</div><div class="arabic">أحل لكم ليلة الصيام الرفث إلى نسائكم هن لباس لكم وأنتم لباس لهن علم الله أنكم كنتم تختانون أنفسكم فتاب عليكم وعفا عنكم فالآن باشروهن وابتغوا ما كتب الله لكم وكلوا واشربوا حتى يتبين لكم الخيط الأبيض من الخيط الأسود من الفجر ثم أتموا الصيام إلى الليل ولا تباشروهن وأنتم عاكفون في المساجد تلك حدود الله فلا تقربوها كذلك يبين الله آياته للناس لعلهم يتقون</div><p>Fecr fenomeninin doğal sınırını destekler; ayetin kendisi salât emri değildir.</p><span class="tag open">SUPPORT · salât lafzı yok</span></article>
+  <article class="card"><div class="kicker">2:238 · Vustâ</div><div class="arabic">حافظوا على الصلوات والصلاة الوسطى وقوموا لله قانتين</div><p>Salâtlar kümesini ve <em>es-salâtü’l-vustâ</em> adını doğrudan verir. Vustâ’nın saat konumu ayette açıkça adlandırılmaz.</p><span class="tag">DIRECT NAME</span></article>
+  <article class="card"><div class="kicker">4:103 · Vakte bağlılık</div><div class="arabic">فإذا قضيتم الصلاة فاذكروا الله قياما وقعودا وعلى جنوبكم فإذا اطمأننتم فأقيموا الصلاة إن الصلاة كانت على المؤمنين كتابا موقوتا</div><p>Salâtın müminler üzerine vakitlendirilmiş bir yükümlülük olduğunu doğrudan kurar.</p><span class="tag">DIRECT · كِتَابًا مَوْقُوتًا</span></article>
+  <article class="card"><div class="kicker">5:106 · İsimsiz salât referansı</div><div class="arabic">يا أيها الذين آمنوا شهادة بينكم إذا حضر أحدكم الموت حين الوصية اثنان ذوا عدل منكم أو آخران من غيركم إن أنتم ضربتم في الأرض فأصابتكم مصيبة الموت تحبسونهما من بعد الصلاة فيقسمان بالله إن ارتبتم لا نشتري به ثمنا ولو كان ذا قربى ولا نكتم شهادة الله إنا إذا لمن الآثمين</div><p><em>min baʿdi’ṣ-ṣalāh</em> — “salâttan sonra” — ifadesi vardır; tek başına günlük salât sayısı vermez.</p><span class="tag open">REFERENCE · count yok</span></article>
+  <article class="card"><div class="kicker">11:114 · İki gündüz tarafı + gece</div><div class="arabic">وأقم الصلاة طرفي النهار وزلفا من الليل إن الحسنات يذهبن السيئات ذلك ذكرى للذاكرين</div><p><strong>طرفي النهار</strong> ikildir: gündüzün iki tarafı. <strong>زلفا من الليل</strong> çoğul/bölgesel gece ifadesidir; tek başına kaç salât olduğunu kapatmaz.</p><span class="tag">CORE LOWER-BOUND</span></article>
+  <article class="card"><div class="kicker">17:78 · Dülûk → Ğasaq</div><div class="arabic">أقم الصلاة لدلوك الشمس إلى غسق الليل وقرآن الفجر إن قرآن الفجر كان مشهودا</div><p><em>Aqimi’ṣ-ṣalāh</em> Dülûk→Ğasaq aralığıyla bağlanır. <em>Qur’ān al-fajr</em> ifadesinin içinde salât ismi yoktur; Fecr salâtı kimliği 24:58 ile çapraz çıkarımdır.</p><span class="tag open">INTERVAL COUNT · OPEN</span></article>
+  <article class="card"><div class="kicker">17:79 · Tahajjud/nâfile</div><div class="arabic">ومن الليل فتهجد به نافلة لك عسى أن يبعثك ربك مقاما محمودا</div><p><strong>فتهجد به نافلة لك</strong>: tahajjud + “sana nâfile”. Ayette salât ismi yoktur; zorunlu günlük salât sayısına eklenmez.</p><span class="tag warn">OBLIGATORY COUNT’TAN HARİÇ</span></article>
+  <article class="card"><div class="kicker">24:58 · Fecr ve İşâ adı</div><div class="arabic">يا أيها الذين آمنوا ليستأذنكم الذين ملكت أيمانكم والذين لم يبلغوا الحلم منكم ثلاث مرات من قبل صلاة الفجر وحين تضعون ثيابكم من الظهيرة ومن بعد صلاة العشاء ثلاث عورات لكم ليس عليكم ولا عليهم جناح بعدهن طوافون عليكم بعضكم على بعض كذلك يبين الله لكم الآيات والله عليم حكيم</div><p><strong>صلاة الفجر</strong> ve <strong>صلاة العشاء</strong> adlarını doğrudan verir.</p><span class="tag">DIRECT NAMES</span></article>
+  <article class="card"><div class="kicker">62:9 · Cuma çağrısı</div><div class="arabic">يا أيها الذين آمنوا إذا نودي للصلاة من يوم الجمعة فاسعوا إلى ذكر الله وذروا البيع ذلكم خير لكم إن كنتم تعلمون</div><p>Cuma günündeki salât çağrısını doğrudan verir. Bu haftalık zamanlama işaretidir; ayrı bir günlük salât slotu sayılmaz.</p><span class="tag warn">WEEKLY · daily count değil</span></article>
+</div>
+</div></section>
+
+<section id="harita"><div class="wrap">
+<div class="section-title"><h2>Kur’anî vakit topolojisi</h2><p>Saat değil doğal zaman alanları. Saat karşılıkları ancak yaklaşık astronomik model olabilir.</p></div>
+<div class="grid">
+  <div class="card third"><div class="kicker">Fecr</div><h3>Doğrudan adlandırılmış</h3><p>24:58 → <strong>Salât al-Fajr</strong>. 2:187 Fecr fenomenini doğal ışık ayrımıyla destekler.</p></div>
+  <div class="card third"><div class="kicker">Gündüz tarafları</div><h3>İki yerleşim alanı</h3><p>11:114 → <strong>tarafay al-nahār</strong>. İkil biçim iki gündüz tarafını açıkça işaretler.</p></div>
+  <div class="card third"><div class="kicker">Gece</div><h3>İşâ doğrudan adlandırılmış</h3><p>24:58 → <strong>Salât al-ʿIshāʾ</strong>. 11:114’te <em>zulafan min al-layl</em> gece alanını verir.</p></div>
+  <div class="card full"><h3>Vustâ</h3><p>2:238, <strong>es-salâtü’l-vustâ</strong> adını doğrudan verir; ancak ayet kendi içinde bunun günün hangi doğal sınırına denk geldiğini belirtmez. D2 eşlemesi bu yüzden koşullu aday olmaya devam eder.</p></div>
+</div>
+</div></section>
+
+<section id="diyanet"><div class="wrap">
+<div class="section-title"><h2>Diyanet meal katmanı — yorum etiketi</h2><p>Türkçe meal yardımcı katmandır; Arapça lafız kanıt zincirinin kaynağıdır.</p></div>
+<div class="callout"><strong>Görünür etiket:</strong> “Meal açıklaması — Arapça lafızda yok.”</div>
+<div class="card full" style="margin-top:16px">
+<table>
+<thead><tr><th>Ayet</th><th>Denetim notu</th></tr></thead>
+<tbody>
+<tr><td>2:187</td><td>“(Ramazan gecelerinde...)” ve “(tan yeri ağarıncaya)” türü ekler meal açıklaması olarak ayrılır.</td></tr>
+<tr><td>2:238</td><td>Parantez sorunu belirgin değil; Türkçe çeviri yine de kardinalite kanıtı değildir.</td></tr>
+<tr><td>4:103</td><td>“Belirli vakitlere bağlı...” <em>kitāban mawqūtan</em> çeviri tercihidir; hüküm Arapça lafızdan kurulur.</td></tr>
+<tr><td>5:106</td><td>“(edecek olanlar)” sentaktik açıklama olarak işaretlenir.</td></tr>
+<tr><td>11:114</td><td>“Gecenin gündüze yakın zamanları” lexical yorumdur; sayı hükmü Arapça ikil/çoğul biçimden kurulur.</td></tr>
+<tr><td>17:78</td><td>“zeval/öğle”, “(belli vakitlerde)” ve “sabah namazını kıl” gibi genişletmeler Dülûk veya Fecr kimliğini tek başına kanıtlamaz.</td></tr>
+<tr><td>17:79</td><td>“teheccüd namazı kıl” ifadesindeki “namaz” isim olarak Arapça ayette yoktur; zorunlu günlük sayı üretmez.</td></tr>
+<tr><td>24:58</td><td>Mahremiyetle ilgili parantezli açıklamalar ayrı meal yorumu olarak görünür.</td></tr>
+<tr><td>62:9</td><td>Cuma günü salât çağrısı Arapçada doğrudur; ayrı günlük slot sayımı yapılmaz.</td></tr>
+</tbody>
+</table>
+</div>
+</div></section>
+
+<section id="acik"><div class="wrap">
+<div class="section-title"><h2>Kalan iki açık düğüm</h2><p>Araştırmanın kesin toplam sayıya ulaşmasını engelleyen asıl iki soru.</p></div>
+<div class="grid openq">
+  <div class="card q"><h3>Dülûk→Ğasaq aralığı</h3><p>17:78 bu geniş aralıkta <strong>bir</strong> salât mı gerektiriyor, yoksa metin birden fazla salât yerleşimini mi içeriyor/izin veriyor?</p></div>
+  <div class="card q"><h3>Zülef min el-leyl</h3><p>11:114’teki çoğul/bölgesel gece alanı tek bir tekrar eden salât yerleşimine mi, yoksa birden fazlasına mı karşılık geliyor?</p></div>
+</div>
+</div></section>
+
+<section id="qa"><div class="wrap">
+<div class="section-title"><h2>Teknik QA</h2><p>Teknik PASS/SHA bilgileri ana hükümden ayrıldı.</p></div>
+<div class="qa">v1.9 scope revision: PASS
+Qur’an corpus reference: 6236/6236
+Core cards: 9/9
+minimum: AT_LEAST_3_STRONG_INFERENCE
+exact_daily_total: OPEN
+removed from cardinality support: 20:130, 50:39
+research merge: 791b1bf74a49e90fdff35aa1053ac4df7fd77a72
+package SHA-256: f681ef1040c0793e6a556fa1ed2938d4c87ba3cde89047091ad1d2ac5e86105a</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <strong>Kur’an Salât ve Vakit Atlası · v1.9</strong>
+  <p>Bu sayfa sonuçları kapatılmış bir “nihai fetva” olarak değil, kanıt dereceleri açıkça ayrılmış yaşayan bir araştırma sürümü olarak sunar. Araştırma kaynağı: Morbius0000/sunnetullah-matrisi v1.9.</p>
+</div></footer>
+</body>
+</html>
