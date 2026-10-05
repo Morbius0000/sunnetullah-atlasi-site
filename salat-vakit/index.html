@@ -385,7 +385,7 @@ Salât sayımından çıkarılan pasajlar:
     if(!s)return{key:"night",label:"Hesaplanıyor"};
     if(finite(s.fajr)&&finite(s.sunrise)&&m>=s.fajr&&m<s.sunrise)return{key:"fajr",label:"Fecr aydınlığı"};
     if(finite(s.sunrise)&&m>=s.sunrise&&m<s.noon)return{key:"day",label:"Gündüz yükselişi"};
-    if(finite(s.sunset)&&m>=s.noon&&m<s.sunset)return{key:"late",label:"Geç gündüz / D2 modeli"};
+    if(finite(s.sunset)&&m>=s.noon&&m<s.sunset)return{key:"late",label:"Gündüzün ikinci tarafı · astronomik model"};
     if(finite(s.sunset)&&finite(s.isha)&&m>=s.sunset&&m<s.isha)return{key:"dusk",label:"Akşam alacası"};
     if((finite(s.isha)&&m>=s.isha)||(finite(s.fajr)&&m<s.fajr))return{key:"isha",label:"Karanlık / İşâ modeli"};
     return{key:"night",label:"Gece"}
