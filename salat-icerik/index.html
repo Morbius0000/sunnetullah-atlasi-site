@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kur'ân'da Salâtın İçeriği Atlası v0.1</title>
+<meta name="description" content="Kur'ân metni içinde salâtın içeriği: taharet, kıyam, rükû, secde, okuma, zikir, kıble, cemaat ve açık kalan alanlar.">
+<link rel="icon" href="data:,">
+<style>
+  :root {
+    --bg: #f7f4ec;
+    --paper: #fffdf7;
+    --ink: #1d1b17;
+    --muted: #6f6758;
+    --line: #ded3bf;
+    --accent: #1f6f62;
+    --accent-2: #7b4a18;
+    --soft: #ede4d2;
+    --good: #dff3e8;
+    --warn: #f8ead1;
+    --open: #e7ebf7;
+    --shadow: 0 16px 36px rgba(54, 43, 25, .12);
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    margin: 0;
+    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    color: var(--ink);
+    background:
+      radial-gradient(circle at top left, rgba(31, 111, 98, .12), transparent 34rem),
+      linear-gradient(180deg, #fbf8f0 0%, var(--bg) 48%, #f2eadc 100%);
+    line-height: 1.6;
+  }
+
+  a { color: inherit; }
+
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    border-bottom: 1px solid rgba(222, 211, 191, .9);
+    background: rgba(255, 253, 247, .92);
+    backdrop-filter: blur(14px);
+  }
+
+  .nav {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: .02em;
+  }
+
+  .brand-mark {
+    width: 34px;
+    height: 34px;
+    border-radius: 8px;
+    display: grid;
+    place-items: center;
+    color: #fff;
+    background: var(--accent);
+    box-shadow: 0 8px 20px rgba(31, 111, 98, .22);
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+
+  .nav-links a {
+    padding: 8px 10px;
+    border-radius: 8px;
+    color: var(--muted);
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .nav-links a:hover,
+  .nav-links a:focus {
+    color: var(--ink);
+    background: var(--soft);
+    outline: none;
+  }
+
+  .hero {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 58px 20px 30px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr);
+    gap: 28px;
+    align-items: end;
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0 0 14px;
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--accent-2);
+    background: rgba(255, 253, 247, .72);
+    font-size: 13px;
+    font-weight: 700;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(34px, 5vw, 62px);
+    line-height: 1.02;
+    letter-spacing: 0;
+  }
+
+  .lead {
+    max-width: 780px;
+    margin: 18px 0 0;
+    color: #484137;
+    font-size: clamp(17px, 2vw, 20px);
+  }
+
+  .hero-panel {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 18px;
+    background: rgba(255, 253, 247, .82);
+    box-shadow: var(--shadow);
+  }
+
+  .hero-panel h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+  }
+
+  .mini-list {
+    display: grid;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .mini-list strong { color: var(--ink); }
+
+  main {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 20px 70px;
+  }
+
+  section {
+    padding: 34px 0;
+    border-top: 1px solid rgba(222, 211, 191, .8);
+  }
+
+  h2 {
+    margin: 0 0 14px;
+    font-size: clamp(24px, 3vw, 34px);
+    line-height: 1.15;
+  }
+
+  h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+    line-height: 1.25;
+  }
+
+  p { margin: 0 0 14px; }
+
+  .muted { color: var(--muted); }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 18px;
+    background: var(--paper);
+    box-shadow: 0 8px 20px rgba(54, 43, 25, .06);
+  }
+
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 6px 8px 0;
+    padding: 4px 8px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: #fffaf0;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .tag.direct { background: var(--good); color: #15513f; border-color: #b7dbc9; }
+  .tag.infer { background: var(--warn); color: #684312; border-color: #dfc18c; }
+  .tag.open { background: var(--open); color: #38476a; border-color: #cbd3e7; }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--paper);
+  }
+
+  th, td {
+    padding: 12px 12px;
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+  }
+
+  th {
+    color: #574d3e;
+    background: #f1e8d8;
+    font-size: 13px;
+  }
+
+  tr:last-child td { border-bottom: 0; }
+
+  .arabic {
+    direction: rtl;
+    text-align: right;
+    font-family: "Amiri", "Scheherazade New", "Noto Naskh Arabic", serif;
+    font-size: 22px;
+    line-height: 2;
+    color: #17130f;
+  }
+
+  .verse-card {
+    display: grid;
+    gap: 12px;
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 16px;
+    background: var(--paper);
+  }
+
+  .verse-ref {
+    display: inline-flex;
+    width: fit-content;
+    padding: 4px 8px;
+    border-radius: 6px;
+    background: #1f6f62;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 800;
+  }
+
+  .verse-grid {
+    display: grid;
+    gap: 14px;
+  }
+
+  .toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 16px 0;
+  }
+
+  button {
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 9px 12px;
+    color: var(--ink);
+    background: var(--paper);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  button[aria-pressed="true"] {
+    color: #fff;
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+
+  .hidden { display: none; }
+
+  .footer {
+    color: var(--muted);
+    font-size: 13px;
+  }
+
+  @media (max-width: 860px) {
+    .hero,
+    .grid,
+    .grid.two {
+      grid-template-columns: 1fr;
+    }
+
+    .nav {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .nav-links { justify-content: flex-start; }
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav" aria-label="Ana gezinme">
+    <a class="brand" href="./">
+      <span class="brand-mark" aria-hidden="true">ص</span>
+      <span>Salât İçeriği Atlası</span>
+    </a>
+    <div class="nav-links">
+      <a href="#sonuc">Kısa Sonuç</a>
+      <a href="#unsurlar">Unsurlar</a>
+      <a href="#ayetler">Ayetler</a>
+      <a href="#kokler">Kök Taraması</a>
+      <a href="../salat-vakit/">Vakit Atlası</a>
+    </div>
+  </nav>
+</header>
+
+<div class="hero">
+  <div>
+    <p class="eyebrow">v0.1 denetimlik taslak · Kur'ân içi okuma</p>
+    <h1>Kur'ân'da Salâtın İçeriği Atlası</h1>
+    <p class="lead">Bu sayfa, salâtın nasıl bir eylem olarak tarif edildiğini Kur'ân metni içinde ayırır: doğrudan lafızla sabit görünen unsurlar, ayetlerin birlikte okunmasıyla çıkan çıkarımlar ve metnin açık bıraktığı ayrıntılar.</p>
+  </div>
+  <aside class="hero-panel">
+    <h2>Çalışma kilidi</h2>
+    <ul class="mini-list">
+      <li><strong>Kaynak:</strong> Tanzil tabanlı 6236 ayetlik Kur'ân metni.</li>
+      <li><strong>Yöntem:</strong> hadis, mezhep, tefsir ve geleneksel uygulama katmanı yok.</li>
+      <li><strong>Etiketler:</strong> doğrudan lafız, dil çıkarımı, bağlam çıkarımı, açık.</li>
+      <li><strong>Durum:</strong> 6.1 Sol denetimi öncesi ilk araştırma iskeleti.</li>
+    </ul>
+  </aside>
+</div>
+
+<main>
+  <section id="sonuc">
+    <h2>Kısa Sonuç</h2>
+    <div class="grid">
+      <article class="card">
+        <span class="tag direct">Doğrudan lafız</span>
+        <h3>Salât şekilsiz bir niyet değildir</h3>
+        <p>4:43 ve 5:6 salâta yaklaşma/kalkma öncesinde bilinç ve taharet şartını kurar. 4:102 salât içinde topluluk düzeni ve secdeyi birlikte gösterir. 17:110 salâtın ses boyutuna sınır koyar.</p>
+      </article>
+      <article class="card">
+        <span class="tag infer">Bağlam çıkarımı</span>
+        <h3>Omurga unsurlar görünüyor</h3>
+        <p>Kıyam, rükû, secde, okuma/zikir, kıbleye yöneliş ve belirlenmiş vakit fikri aynı salât alanında birleşiyor. Bu, salâtın Kur'ân içinde düzenli bir ibadet eylemi olduğunu gösterir.</p>
+      </article>
+      <article class="card">
+        <span class="tag open">Açık</span>
+        <h3>Teknik ayrıntılar kapanmıyor</h3>
+        <p>Rekât sayısı, tam hareket sırası, oturuş biçimi, el konumu ve sabit okunacak metin Kur'ân içinde doğrudan kapatılmış görünmüyor. Bunlar bu atlasın “açık alan” hanesinde kalır.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="unsurlar">
+    <h2>Unsur Matrisi</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Unsur</th>
+          <th>Ana ayetler</th>
+          <th>Kanıt derecesi</th>
+          <th>İlk okuma sonucu</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Taharet / hazırlık</td>
+          <td>4:43, 5:6</td>
+          <td><span class="tag direct">Doğrudan lafız</span></td>
+          <td>Salâta yaklaşma/kalkma bağlamında suyla temizlik, cünüplükte arınma ve su yoksa teyemmüm açıkça geçer.</td>
+        </tr>
+        <tr>
+          <td>Bilinç ve söz farkındalığı</td>
+          <td>4:43</td>
+          <td><span class="tag direct">Doğrudan lafız</span></td>
+          <td>“Ne söylediğinizi bilinceye kadar” ifadesi salât içinde söz/okuma/idrak boyutunu doğrudan gösterir.</td>
+        </tr>
+        <tr>
+          <td>Kıyam / ayakta duruş</td>
+          <td>2:238, 4:102, 73:20</td>
+          <td><span class="tag infer">Bağlam çıkarımı</span></td>
+          <td>2:238'de salâtlar bağlamında “Allah için kânitîn olarak kıyam” emri vardır. 4:102'de salât kurulumunda bir grubun kalkması geçer.</td>
+        </tr>
+        <tr>
+          <td>Rükû</td>
+          <td>2:43, 2:125, 3:43, 22:26, 22:77</td>
+          <td><span class="tag infer">Bağlam çıkarımı</span></td>
+          <td>Rükû, salât ve mescid/ev temizliği bağlamlarında secde ile aynı ibadet alanına yerleşir.</td>
+        </tr>
+        <tr>
+          <td>Secde</td>
+          <td>3:43, 4:102, 22:26, 22:77, 48:29</td>
+          <td><span class="tag direct">Doğrudan lafız + bağlam</span></td>
+          <td>4:102'de salât sahnesinin içinde “secde ettiklerinde” ifadesi yer alır; secde salât içi eylem olarak güçlüdür.</td>
+        </tr>
+        <tr>
+          <td>Kur'ân okuma</td>
+          <td>17:78, 73:20</td>
+          <td><span class="tag infer">Bağlam çıkarımı</span></td>
+          <td>Kur'ân'el-fecr özel olarak geçer. 73:20 “Kur'ân'dan kolay geleni okuyun” ile salâtı aynı sonuç dizisinde verir.</td>
+        </tr>
+        <tr>
+          <td>Zikir</td>
+          <td>2:239, 4:103, 29:45, 62:9-10</td>
+          <td><span class="tag infer">Bağlam çıkarımı</span></td>
+          <td>Zikir salâtla aynı değildir; ama salât bittikten sonra, cuma çağrısında ve salâtın amacı bağlamında merkezi bir unsur olarak görünür.</td>
+        </tr>
+        <tr>
+          <td>Ses seviyesi</td>
+          <td>17:110</td>
+          <td><span class="tag direct">Doğrudan lafız</span></td>
+          <td>Salâtta ne tamamen yüksek ses ne de tamamen kısık ses; ikisi arasında bir yol emredilir.</td>
+        </tr>
+        <tr>
+          <td>Kıble / yöneliş</td>
+          <td>2:144-150, 2:115</td>
+          <td><span class="tag infer">Bağlam çıkarımı</span></td>
+          <td>Yüzün Mescid-i Harâm yönüne çevrilmesi tekrar edilir. Bunun salâtın yön düzeniyle ilişkisi güçlüdür; ama 2:115 genel yöneliş alanını açık tutar.</td>
+        </tr>
+        <tr>
+          <td>Cemaat ve cuma</td>
+          <td>2:43, 4:102, 62:9-10</td>
+          <td><span class="tag direct">Doğrudan lafız + bağlam</span></td>
+          <td>“Rükû edenlerle rükû edin”, korku salâtında grup düzeni ve cuma günü salâta çağrı toplu boyutu gösterir.</td>
+        </tr>
+        <tr>
+          <td>Sefer/korku esnemesi</td>
+          <td>2:239, 4:101-103</td>
+          <td><span class="tag direct">Doğrudan lafız</span></td>
+          <td>Salât olağan formdan kısaltılabilir veya korku hâlinde yaya/binek üzerinde yürütülebilir; güven durumunda ikame düzenine dönülür.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="acik">
+    <h2>Açık Bırakılan Alanlar</h2>
+    <div class="grid two">
+      <article class="card">
+        <span class="tag open">Açık</span>
+        <h3>Rekât ve tam sıra</h3>
+        <p>Kur'ân içinde rükû, secde, kıyam ve okuma/zikir alanı görünür; fakat bunların kaç döngü olacağı ve her salâtta aynı sıra ile mi uygulanacağı doğrudan kapanmaz.</p>
+      </article>
+      <article class="card">
+        <span class="tag open">Açık</span>
+        <h3>Sabit metin ve oturuş ayrıntıları</h3>
+        <p>17:110 salâtın ses düzeyini, 73:20 Kur'ân'dan kolay geleni okumayı gösterir. Fakat belirli bir sabit metin, oturuş formu veya el/kol pozisyonu doğrudan verilmez.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="ayetler">
+    <h2>Ayet Çekirdeği</h2>
+    <p class="muted">Bu bölüm ilk çekirdektir. 6.1 Sol denetiminde her kökün tüm geçişleriyle genişletilecek; burada yalnız salât içeriği için en yüksek bağlantılı ayetler yer alır.</p>
+    <div class="toolbar" role="toolbar" aria-label="Ayet filtreleri">
+      <button type="button" data-filter="all" aria-pressed="true">Hepsi</button>
+      <button type="button" data-filter="hazirlik">Hazırlık</button>
+      <button type="button" data-filter="beden">Beden</button>
+      <button type="button" data-filter="okuma">Okuma/Zikir</button>
+      <button type="button" data-filter="topluluk">Topluluk</button>
+    </div>
+    <div class="verse-grid">
+      <article class="verse-card" data-group="beden topluluk">
+        <span class="verse-ref">2:43</span>
+        <div class="arabic">وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Salâtın ikamesi, zekât ve “rükû edenlerle rükû” aynı emir dizisindedir.</p>
+      </article>
+      <article class="verse-card" data-group="beden">
+        <span class="verse-ref">2:238</span>
+        <div class="arabic">حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ وَقُومُوا لِلَّهِ قَانِتِينَ</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Salâtların korunması ve Allah için kânitîn olarak kıyam emri aynı ayettedir.</p>
+      </article>
+      <article class="verse-card" data-group="hazirlik okuma">
+        <span class="verse-ref">4:43</span>
+        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَقْرَبُوا الصَّلَاةَ وَأَنتُمْ سُكَارَىٰ حَتَّىٰ تَعْلَمُوا مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِي سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا ۚ وَإِن كُنتُم مَّرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِّنكُم مِّنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ اللَّهَ كَانَ عَفُوًّا غَفُورًا</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Salâta yaklaşma yasağı bilinç ve temizlik şartlarıyla bağlanır.</p>
+      </article>
+      <article class="verse-card" data-group="topluluk beden">
+        <span class="verse-ref">4:102</span>
+        <div class="arabic">وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ الصَّلَاةَ فَلْتَقُمْ طَائِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوا أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا فَلْيَكُونُوا مِن وَرَائِكُمْ وَلْتَأْتِ طَائِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا فَلْيُصَلُّوا مَعَكَ وَلْيَأْخُذُوا حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ الَّذِينَ كَفَرُوا لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةً وَاحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰ أَن تَضَعُوا أَسْلِحَتَكُمْ ۖ وَخُذُوا حِذْرَكُمْ ۗ إِنَّ اللَّهَ أَعَدَّ لِلْكَافِرِينَ عَذَابًا مُّهِينًا</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Salât sahnesinde grup, imamlık/beraberlik, kalkma ve secde ifadeleri bulunur.</p>
+      </article>
+      <article class="verse-card" data-group="hazirlik">
+        <span class="verse-ref">5:6</span>
+        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَاطَّهَّرُوا ۚ وَإِن كُنتُم مَّرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِّنكُم مِّنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ اللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَـٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Salâta kalkış bağlamında yüz, eller, baş ve ayaklar için temizlik/mesh düzeni verilir.</p>
+      </article>
+      <article class="verse-card" data-group="okuma">
+        <span class="verse-ref">17:78</span>
+        <div class="arabic">أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ غَسَقِ اللَّيْلِ وَقُرْآنَ الْفَجْرِ ۖ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا</div>
+        <p><span class="tag infer">Bağlam çıkarımı</span> Salât emri ve Kur'ân'el-fecr aynı vakit pasajında yer alır; okuma boyutu güçlüdür.</p>
+      </article>
+      <article class="verse-card" data-group="okuma">
+        <span class="verse-ref">17:110</span>
+        <div class="arabic">قُلِ ادْعُوا اللَّهَ أَوِ ادْعُوا الرَّحْمَـٰنَ ۖ أَيًّا مَّا تَدْعُوا فَلَهُ الْأَسْمَاءُ الْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Salât için ses seviyesinde orta yol verilir.</p>
+      </article>
+      <article class="verse-card" data-group="beden">
+        <span class="verse-ref">22:77</span>
+        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Rükû ve secde müminlere doğrudan emir olarak gelir.</p>
+      </article>
+      <article class="verse-card" data-group="okuma topluluk">
+        <span class="verse-ref">62:9-10</span>
+        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا نُودِيَ لِلصَّلَاةِ مِن يَوْمِ الْجُمُعَةِ فَاسْعَوْا إِلَىٰ ذِكْرِ اللَّهِ وَذَرُوا الْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ<br>فَإِذَا قُضِيَتِ الصَّلَاةُ فَانتَشِرُوا فِي الْأَرْضِ وَابْتَغُوا مِن فَضْلِ اللَّهِ وَاذْكُرُوا اللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ</div>
+        <p><span class="tag direct">Doğrudan lafız</span> Cuma günü salâta çağrı, Allah'ın zikrine yönelme, alışverişi bırakma ve salât bitince dağılma açıkça geçer.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="kokler">
+    <h2>Kök Taraması İçin İlk Sepet</h2>
+    <p class="muted">Aşağıdaki sayılar, morfolojik etiketli tarama dosyasından teknik ön sayımdır. Anlam hükmü değildir; 6.1 Sol denetiminde her geçiş Kur'ân içi bağlamla tek tek ayrılmalıdır.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Alan</th>
+          <th>Kök etiketi</th>
+          <th>Teknik geçiş</th>
+          <th>Ayet sayısı</th>
+          <th>Bu projedeki işlev</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Salât</td><td>ص ل و</td><td>99</td><td>90</td><td>Salât kullanımlarını ibadet, destek/dua ve Allah/melek salâtı diye ayırmak.</td></tr>
+        <tr><td>Kıyam</td><td>ق و م</td><td>660</td><td>597</td><td>Genel “kalkmak/ikame” alanından salât bağlamını izole etmek.</td></tr>
+        <tr><td>Rükû</td><td>ر ك ع</td><td>13</td><td>10</td><td>Rükûnun salât, mescid ve mümin emri bağlamlarını ayırmak.</td></tr>
+        <tr><td>Secde</td><td>س ج د</td><td>92</td><td>81</td><td>Secdeyi genel kozmik/itaat kullanımlarından salât içi kullanıma ayırmak.</td></tr>
+        <tr><td>Okuma</td><td>ق ر أ</td><td>88</td><td>79</td><td>Kur'ân okuma ve Kur'ân'el-fecr bağlantısını test etmek.</td></tr>
+        <tr><td>Zikir</td><td>ذ ك ر</td><td>292</td><td>264</td><td>Zikir ile salâtı eşitlemeden, bağlantı noktalarını çıkarmak.</td></tr>
+        <tr><td>Taharet</td><td>ط ه ر</td><td>31</td><td>26</td><td>Temizlik, arınma ve salât hazırlığı ilişkisini ayırmak.</td></tr>
+        <tr><td>Gusül</td><td>غ س ل</td><td>4</td><td>4</td><td>4:43 ve 5:6'daki cünüplük/arınma alanını netleştirmek.</td></tr>
+        <tr><td>Mesh</td><td>م س ح</td><td>4</td><td>3</td><td>4:43 ve 5:6'daki yüz/el/baş/ayak temasını incelemek.</td></tr>
+        <tr><td>Teyemmüm</td><td>ي م م</td><td>11</td><td>10</td><td>Su yokluğu ve temiz zemin yönelimi bağlamını ayırmak.</td></tr>
+        <tr><td>Kıble/yön</td><td>ق ب ل + و ج ه</td><td>372</td><td>353</td><td>Yüzü/yönü çevirmek ile salât yön düzeni arasındaki ilişkiyi test etmek.</td></tr>
+        <tr><td>Çağrı/toplanma</td><td>ن د و + ج م ع</td><td>182</td><td>173</td><td>Cuma salâtı, çağrı ve topluluk düzenini ayırmak.</td></tr>
+        <tr><td>Korku/sefer</td><td>خ و ف + ض ر ب + س ف ر</td><td>194</td><td>178</td><td>Salâtın olağan ve olağan dışı koşullardaki esnemesini test etmek.</td></tr>
+        <tr><td>Vakit</td><td>و ق ت</td><td>13</td><td>13</td><td>4:103'teki “kitâben mevkûtâ” ifadesini genel vakit alanıyla karşılaştırmak.</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="denetim">
+    <h2>Denetim Soruları</h2>
+    <div class="grid two">
+      <article class="card">
+        <h3>İlk 6.1 Sol turu</h3>
+        <p>Her kökün tüm geçişleri listelenecek. Salât ile doğrudan bağlantılı, dolaylı bağlantılı ve bağlantısız kullanımlar ayrı işaretlenecek.</p>
+      </article>
+      <article class="card">
+        <h3>Beklenen çıktı</h3>
+        <p>“Kur'ân salâtın şu unsurlarını zorunlu tutuyor; şu unsurlarını çıkarım olarak taşıyor; şu teknik ayrıntıları açık bırakıyor” şeklinde kilitlenebilir bir tablo.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>Not: Bu sayfa hüküm kilidi değil, araştırma iskeletidir. Nihai dil, tam kök listesi ve karşı okuma turundan sonra sıkılaştırılmalıdır.</p>
+  </section>
+</main>
+
+<script>
+  const buttons = Array.from(document.querySelectorAll('[data-filter]'));
+  const cards = Array.from(document.querySelectorAll('.verse-card'));
+
+  buttons.forEach((button) => {
+    button.addEventListener('click', () => {
+      const filter = button.dataset.filter;
+      buttons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
+      cards.forEach((card) => {
+        const show = filter === 'all' || card.dataset.group.split(' ').includes(filter);
+        card.classList.toggle('hidden', !show);
+      });
+    });
+  });
+</script>
+</body>
+</html>
