@@ -1,0 +1,58 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+
+const input = JSON.parse(fs.readFileSync(0, 'utf8'));
+const element = properties => ({ hidden: false, value: '', textContent: '', events: {}, addEventListener(type, fn) { this.events[type] = fn; }, focus() { this.focused = true; }, scrollIntoView() { this.scrolled = true; }, ...properties });
+const cards = [];
+const nodes = {};
+const topics = input.topics.map(topic => {
+  const children = topic.cards.map(card => {
+    const node = element({ id: card.id, dataset: {key: card.key}, textContent: card.text, matches: selector => selector === '.verse-card' });
+    cards.push(node);
+    nodes[node.id] = node;
+    return node;
+  });
+  const node = element({ id: topic.id, querySelectorAll: () => children, querySelector: () => ({textContent: topic.title}), matches: selector => selector === '.topic' });
+  nodes[node.id] = node;
+  return node;
+});
+for (const id of ['search','topic','reset','count','empty']) nodes[id] = element({id});
+nodes.topic.value = 'all';
+const anchors = input.anchors.map(href => element({getAttribute: () => href}));
+const window = element({});
+const location = {hash:''};
+const document = {getElementById: id => nodes[id], querySelectorAll(selector) {
+  if (selector === '.topic') return topics;
+  if (selector === '.verse-card') return cards;
+  if (selector === 'a[href^="#"]') return anchors;
+  throw new Error(selector);
+}};
+const context = vm.createContext({document, window, location});
+vm.runInContext(input.script, context);
+const visible = () => cards.filter(card => !card.hidden);
+const search = value => { nodes.search.value = value; nodes.search.events.input(); };
+assert.equal(visible().length, 114);
+search('Nisa 43');
+assert.deepEqual(visible().map(c=>c.dataset.key), ['4:43']);
+search('5:6');
+assert.deepEqual(visible().map(c=>c.dataset.key), ['5:6']);
+search('ZZZX-bulunamaz');
+assert.equal(visible().length, 0);
+assert.equal(nodes.empty.hidden, false);
+nodes.reset.events.click();
+assert.equal(visible().length, 114);
+assert.equal(nodes.search.focused, true);
+nodes.topic.value='hazirlik';nodes.topic.events.change();
+assert.equal(visible().length, 3);
+assert.equal(topics.filter(t=>!t.hidden).length, 1);
+search('Bakara');
+assert.equal(visible().length, 0);
+location.hash='#ayet-4-103';window.events.hashchange();
+assert.equal(visible().length, 114);
+assert.equal(nodes['ayet-4-103'].scrolled, true);
+assert.equal(nodes.search.value, '');
+nodes.topic.value='hazirlik';nodes.topic.events.change();
+anchors.find(a=>a.getAttribute()==='#beden').events.click();
+assert.equal(visible().length, 114);
+console.log(JSON.stringify(['arama','Türkçe harf normalleştirme','konu filtresi','boş sonuç','temizleme','filtreli ayete bağlantı','konu bağlantısı']));

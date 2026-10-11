@@ -1,650 +1,858 @@
 <!doctype html>
-<html lang="tr">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kur'ân'da Salâtın İçeriği Atlası v0.1</title>
-<meta name="description" content="Kur'ân metni içinde salâtın içeriği: taharet, kıyam, rükû, secde, okuma, zikir, kıble, cemaat ve açık kalan alanlar.">
-<link rel="icon" href="data:,">
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kur'ân'da Salâtın İçeriği Atlası v0.2</title>
+<meta name="description" content="Salâtın amacı, hazırlığı, kıblesi, hareketleri, okuması, toplu düzeni ve açık ayrıntıları: tam ayetler ve tam çalışma mealleri."><link rel="icon" href="data:,">
 <style>
-  :root {
-    --bg: #f7f4ec;
-    --paper: #fffdf7;
-    --ink: #1d1b17;
-    --muted: #6f6758;
-    --line: #ded3bf;
-    --accent: #1f6f62;
-    --accent-2: #7b4a18;
-    --soft: #ede4d2;
-    --good: #dff3e8;
-    --warn: #f8ead1;
-    --open: #e7ebf7;
-    --shadow: 0 16px 36px rgba(54, 43, 25, .12);
-  }
+:root{--bg:#f5f7f8;--paper:#fff;--ink:#192723;--muted:#53625d;--line:#d5ded9;--green:#176249;--soft:#edf5f0;--amber:#784800;--warn:#fff5df}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;color:var(--ink);background:var(--bg);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.7;letter-spacing:0}a{color:var(--green);text-underline-offset:3px}button,input,select{font:inherit}button,select,input{border:1px solid var(--line);border-radius:6px;background:var(--paper);color:var(--ink);padding:10px 12px}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #30966b;outline-offset:3px}.site-header{background:var(--paper);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}.nav{max-width:1080px;margin:auto;padding:12px 24px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:16px;font-weight:750;text-decoration:none}.nav-links{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:14px}main{max-width:1080px;margin:auto;padding:30px 24px 70px}h1{font-size:36px;line-height:1.2;margin:8px 0 16px}h2{font-size:26px;line-height:1.3;margin:0 0 12px}h3{font-size:20px;line-height:1.4;margin:0 0 12px}p{margin:0 0 16px}.muted,.source-link{color:var(--muted)}.version{font-size:13px;font-weight:700;color:var(--green)}.intro{max-width:880px}.notice{padding:14px 18px;border-left:4px solid var(--green);background:var(--soft);margin:20px 0}.warning{border-color:#b47e21;background:var(--warn)}section{padding:30px 0;border-top:1px solid var(--line);scroll-margin-top:12px}.summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin-top:20px}.summary article{border-top:3px solid var(--green);padding-top:12px}.summary h3{font-size:18px}.tag{display:inline-block;font-size:12px;font-weight:700;padding:3px 8px;background:var(--soft);color:var(--green);border-radius:4px;margin-bottom:12px}.map{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px;list-style:none;padding:0;counter-reset:topic}.map li{counter-increment:topic;border-bottom:1px solid var(--line);padding:10px 0}.map a{text-decoration:none;font-weight:650}.map a::before{content:counter(topic) ". ";color:var(--muted)}.controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(200px,.65fr) auto;gap:12px;align-items:end}.controls label{display:grid;gap:6px;font-size:14px;font-weight:650}.controls input,.controls select{width:100%;min-width:0}#count{font-size:14px;color:var(--muted);margin:12px 0}.topic-head{max-width:900px}.topic-note{border-left:3px solid var(--line);padding:8px 16px;color:var(--muted);font-size:15px}.verse-list{display:grid;gap:16px;margin-top:24px}.verse-card{border:1px solid var(--line);border-radius:8px;background:var(--paper);padding:24px;scroll-margin-top:95px;min-width:0}.verse-card h3{color:var(--green);font-size:22px;font-weight:800}.arabic{font-family:"Noto Naskh Arabic","Amiri","Traditional Arabic",serif;font-size:27px;line-height:2.1;text-align:right;overflow-wrap:anywhere;margin:12px 0 20px}.meal{font-size:17px}.meal strong{display:block;font-size:12px;color:var(--muted);margin-bottom:8px}.reading-note{padding-top:12px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}.source-link{font-size:13px}.plain-list{padding-left:22px}.plain-list li{margin-bottom:12px}.table-wrap{overflow:auto}table{width:100%;border-collapse:collapse;font-size:15px}th,td{text-align:left;padding:12px;border-bottom:1px solid var(--line);vertical-align:top}th{background:var(--soft)}.technical{overflow-wrap:anywhere;font-size:13px}.empty{padding:24px;background:var(--paper);border:1px solid var(--line);border-radius:8px}.footer{font-size:14px;color:var(--muted);margin-top:30px}details summary{cursor:pointer;font-weight:700}pre{white-space:pre-wrap;font-size:12px}[hidden]{display:none!important}
+@media(max-width:760px){.nav{padding:12px 18px;align-items:flex-start;flex-direction:column;gap:8px}.site-header{position:static}main{padding:24px 18px 50px}h1{font-size:29px}h2{font-size:23px}.summary,.map,.controls{grid-template-columns:1fr}.controls{gap:10px}.verse-card{padding:18px}.arabic{font-size:25px}.nav-links{gap:6px 14px}.verse-card{scroll-margin-top:16px}html{scroll-padding-top:16px}.meal{font-size:16px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style></head><body>
+<header class="site-header"><nav class="nav" aria-label="Ana gezinme"><a class="brand" href="./">Salâtın İçeriği Atlası</a><div class="nav-links"><a href="#sonuc">Özet</a><a href="#konular">Konular</a><a href="#ayetler">Tam Ayetler</a><a href="#acik">Açık Sorular</a><a href="#denetim">Denetim</a><a href="../salat-vakit/">Vakit Atlası</a></div></nav></header>
+<main><div class="intro"><p class="version">v0.2 · İçerik denetimi yapılmış araştırma taslağı</p><h1>Kur'ân'da Salâtın İçeriği Atlası</h1><p>Kur'ân salâtın amacı, hazırlığı ve uygulanışı hakkında ne söylüyor? Hangi ayrıntılar açık kalıyor? Konular, tam ayetler ve araştırma notları burada ayrı ayrı gösterilir.</p></div>
+<div class="notice"><strong>Kaynak ve yöntem:</strong> Arapça metin, Tanzil Uthmani v1.1'in 6236 ayetlik dosyasından değiştirilmeden alınır. Hadis, tefsir, mezhep, gelenek veya dış sözlük anlamı kanıt olarak kullanılmaz. Türkçe metinler bu proje için hazırlanmış <strong>çalışma mealleridir</strong>; yayımlanmış bir mealden alıntı değildir. Köşeli ayraçlar çevirmenin ekini veya açık bırakılan iki okumayı gösterir.</div>
+<section id="sonuc"><h2>Kısaca ne çıkıyor?</h2><p>Kur'ân'da salât yalnız içten geçirilen bir niyet olarak anlatılmaz; hazırlık, söz, duruş, secde ve toplu uygulama sahneleri vardır. Bununla birlikte bu ayetler tek bir ayrıntılı uygulama tarifine dönüştürülemez.</p><div class="summary"><article><h3>Açıkça söylenenler</h3><p>Bilinç ve temizlik: <a href="#ayet-4-43">Nisâ 43</a>, <a href="#ayet-5-6">Mâide 6</a>. Ayakta salât: <a href="#ayet-3-39">Âl-i İmrân 39</a>. Salât içinde secde: <a href="#ayet-4-102">Nisâ 102</a>. Ses için orta yol: <a href="#ayet-17-110">İsrâ 110</a>. Cuma çağrısı: <a href="#ayet-62-9">Cuma 9</a>. Bu ayetlerin muhatap ve koşulları aşağıda korunur.</p></article><article><h3>Birlikte okunarak çıkarılanlar</h3><p>Rükûnun salâtla bağlantısı: <a href="#ayet-2-43">Bakara 43</a>. Kıblenin salât düzeniyle bağlantısı: <a href="#ayet-2-144">Bakara 144</a>, <a href="#ayet-2-149">Bakara 149</a>, <a href="#ayet-2-150">Bakara 150</a>. Okumanın salâtla ilişkisi: <a href="#ayet-17-78">İsrâ 78</a>, <a href="#ayet-73-20">Müzzemmil 20</a>. Bağlantı, her ayrıntının ayrıca emredildiği anlamına gelmez.</p></article><article><h3>Açık kalan ayrıntılar</h3><p>İncelenen ayetler rekât sayısını, bütün hareketlerin tek ve zorunlu sırasını, sabit okunacak metin listesini, el konumunu ve oturuş biçimini belirtmez. Bu, bütün Kur'ân için tamamlanmış bir yokluk ispatı değildir.</p></article></div></section>
+<section id="konular"><h2>Konular</h2><ol class="map"><li><a href="#amac">Salâtın amacı</a></li><li><a href="#hazirlik">Bilinç ve temizlik</a></li><li><a href="#yonelis">Kıble ve yöneliş</a></li><li><a href="#beden">Ayakta duruş, rükû ve secde</a></li><li><a href="#okuma">Okuma, zikir ve ses</a></li><li><a href="#topluluk">Aile, birlikte salât ve cuma</a></li><li><a href="#korku">Yolculuk, korku ve salât sonrası</a></li><li><a href="#ahlak">Huşû, süreklilik ve ahlâk</a></li><li><a href="#ayrim">Her salât kullanımı aynı değildir</a></li><li><a href="#vakit-bagi">Vakit ayetleriyle bağlantı</a></li></ol><p class="muted">Her konuda önce kısa değerlendirme, sonra dayanak ayetlerin tamamı bulunur. Bir konuda bulunan ayete başka konudan bağlantı verilir; ayet kırpılarak tekrarlanmaz.</p></section>
+<section id="ayetler"><h2>Tam ayetler ve tam çalışma mealleri</h2><p>114 ayrı ayet, 10 konu. Bu seçki, içerik araştırmasının genişletilmiş dayanak listesidir; bütün köklerin bütün kullanımlarının tamamlanmış dökümü değildir.</p><div class="controls"><label for="search">Ayet veya sözcük ara<input id="search" type="search" placeholder="Bakara 238, temizlik, secde" autocomplete="off"></label><label for="topic">Konu seç<select id="topic"><option value="all">Bütün konular</option><option value="amac">Salâtın amacı</option><option value="hazirlik">Bilinç ve temizlik</option><option value="yonelis">Kıble ve yöneliş</option><option value="beden">Ayakta duruş, rükû ve secde</option><option value="okuma">Okuma, zikir ve ses</option><option value="topluluk">Aile, birlikte salât ve cuma</option><option value="korku">Yolculuk, korku ve salât sonrası</option><option value="ahlak">Huşû, süreklilik ve ahlâk</option><option value="ayrim">Her salât kullanımı aynı değildir</option><option value="vakit-bagi">Vakit ayetleriyle bağlantı</option></select></label><button type="button" id="reset">Temizle</button></div><p id="count" role="status" aria-live="polite">114 ayet gösteriliyor.</p><div id="empty" class="empty" hidden>Aramanıza uygun ayet bulunamadı.</div><noscript><p>Arama için JavaScript gerekir; bütün ayetler aşağıda tam olarak okunabilir.</p></noscript></section>
+<section class="topic" id="amac"><div class="topic-head"><h2>1. Salâtın amacı</h2><span class="tag">Doğrudan lafız</span><p>Allah'ı anmak, kötülükten uzaklaşmak ve sabırla yardım istemek. Bunlar salâtın amacı ve hayatla bağlantısıdır; hareket sırası değildir.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Tâhâ 14, Mûsâ'ya hitaptır; Ankebût 45 ve En'âm 162–163 elçiye hitaptır. Bu hitaplardan bütün müminler için ortak amaç çıkarmak bağlam çıkarımıdır. Ankebût 45'te okuma ve salât ayrı emirlerdir; yan yana bulunmaları, okumanın her salâtın içinde aynı biçimde zorunlu olduğunu tek başına kanıtlamaz.</p></div><div class="verse-list"><article class="verse-card" id="ayet-20-14" data-key="20:14">
+<h3>Tâhâ 14</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّنِىٓ أَنَا ٱللَّهُ لَآ إِلَـٰهَ إِلَّآ أَنَا۠ فَٱعْبُدْنِى وَأَقِمِ ٱلصَّلَوٰةَ لِذِكْرِىٓ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Şüphesiz ben Allah'ım. Benden başka ilâh yoktur. Bana kulluk et ve beni anmak için salâtı ikame et.</p>
 
-  * { box-sizing: border-box; }
+<a class="source-link" href="https://tanzil.net/#20:14" target="_blank" rel="noopener">Tâhâ 14 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-29-45" data-key="29:45">
+<h3>Ankebût 45</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَـٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kitaptan sana vahyedileni oku ve salâtı ikame et. Şüphesiz salât, hayasızlıktan ve kötülükten alıkoyar. Allah'ı anmak ise daha büyüktür. Allah yaptıklarınızı bilir.</p>
 
-  html { scroll-behavior: smooth; }
+<a class="source-link" href="https://tanzil.net/#29:45" target="_blank" rel="noopener">Ankebût 45 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-45" data-key="2:45">
+<h3>Bakara 45</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ وَإِنَّهَا لَكَبِيرَةٌ إِلَّا عَلَى ٱلْخَـٰشِعِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Sabır ve salât ile yardım isteyin. Şüphesiz bu, huşû duyanlar dışında ağır gelir.</p>
 
-  body {
-    margin: 0;
-    font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: var(--ink);
-    background:
-      radial-gradient(circle at top left, rgba(31, 111, 98, .12), transparent 34rem),
-      linear-gradient(180deg, #fbf8f0 0%, var(--bg) 48%, #f2eadc 100%);
-    line-height: 1.6;
-  }
+<a class="source-link" href="https://tanzil.net/#2:45" target="_blank" rel="noopener">Bakara 45 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-46" data-key="2:46">
+<h3>Bakara 46</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ يَظُنُّونَ أَنَّهُم مُّلَـٰقُوا۟ رَبِّهِمْ وَأَنَّهُمْ إِلَيْهِ رَٰجِعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, Rableriyle karşılaşacaklarını ve O'na döneceklerini düşünenlerdir.</p>
 
-  a { color: inherit; }
+<a class="source-link" href="https://tanzil.net/#2:46" target="_blank" rel="noopener">Bakara 46 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-6-162" data-key="6:162">
+<h3>En'âm 162</h3>
+<p class="arabic" lang="ar" dir="rtl">قُلْ إِنَّ صَلَاتِى وَنُسُكِى وَمَحْيَاىَ وَمَمَاتِى لِلَّهِ رَبِّ ٱلْعَـٰلَمِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>De ki: Benim salâtım, ibadetim, hayatım ve ölümüm âlemlerin Rabbi Allah içindir.</p>
 
-  .site-header {
-    position: sticky;
-    top: 0;
-    z-index: 20;
-    border-bottom: 1px solid rgba(222, 211, 191, .9);
-    background: rgba(255, 253, 247, .92);
-    backdrop-filter: blur(14px);
-  }
+<a class="source-link" href="https://tanzil.net/#6:162" target="_blank" rel="noopener">En'âm 162 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-6-163" data-key="6:163">
+<h3>En'âm 163</h3>
+<p class="arabic" lang="ar" dir="rtl">لَا شَرِيكَ لَهُۥ ۖ وَبِذَٰلِكَ أُمِرْتُ وَأَنَا۠ أَوَّلُ ٱلْمُسْلِمِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>O'nun ortağı yoktur. Bununla emrolundum ve ben teslim olanların ilkiyim.</p>
 
-  .nav {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 12px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 18px;
-  }
+<a class="source-link" href="https://tanzil.net/#6:163" target="_blank" rel="noopener">En'âm 163 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="hazirlik"><div class="topic-head"><h2>2. Bilinç ve temizlik</h2><span class="tag">Doğrudan lafız</span><p>Ne söylediğini bilme, suyla temizlik ve su bulunamadığında teyemmüm salâtla açıkça ilişkilidir. Genel mescit adabı ayrı değerlendirilir.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Nisâ 43'ün &quot;yol geçicileri&quot; istisnası ile &quot;kadınlarla temas&quot; ifadesinin kapsamı bu çalışmada kesinleştirilmedi. Mâide 6'daki ayak lafzının yıkama veya mesh emrine bağlanması da açıktır. A'râf 31 mescit adabıdır; salâtın her ayrıntısı için tek başına bir kıyafet yönetmeliği vermez.</p></div><div class="verse-list"><article class="verse-card" id="ayet-4-43" data-key="4:43">
+<h3>Nisâ 43</h3>
+<p class="arabic" lang="ar" dir="rtl">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَـٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَـٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ey iman edenler! Sarhoşken ne söylediğinizi bilinceye kadar salâta yaklaşmayın; cünüpken de, yol geçicileri olmanız dışında, yıkanıncaya kadar yaklaşmayın. Eğer hasta olur veya yolculukta bulunursanız yahut sizden biri tuvaletten gelirse veya kadınlarla temas etmişseniz ve su bulamazsanız, temiz bir zemine yönelin; yüzlerinizi ve ellerinizi meshedin. Şüphesiz Allah çok affedici, çok bağışlayıcıdır.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Bilinç sınırı, ne söylendiğini bilmekle ifade edilir. Bu ayet, okunacak sabit bir metin listesi vermez. &quot;Kadınlarla temas&quot; ve &quot;yol geçicileri&quot; ifadelerinin ayrıntılı anlamı açıktır.</p>
+<a class="source-link" href="https://tanzil.net/#4:43" target="_blank" rel="noopener">Nisâ 43 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-5-6" data-key="5:6">
+<h3>Mâide 6</h3>
+<p class="arabic" lang="ar" dir="rtl">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا قُمْتُمْ إِلَى ٱلصَّلَوٰةِ فَٱغْسِلُوا۟ وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى ٱلْمَرَافِقِ وَٱمْسَحُوا۟ بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى ٱلْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَٱطَّهَّرُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَـٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ ٱللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَـٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُۥ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ey iman edenler! Salâta kalktığınız zaman yüzlerinizi ve dirseklere kadar ellerinizi yıkayın; başlarınızı meshedin; ayaklarınızı da iki topuğa kadar [yıkayın / meshedin]. Eğer cünüp iseniz arının. Eğer hasta veya yolculukta iseniz yahut sizden biri tuvaletten gelirse veya kadınlarla temas etmişseniz ve su bulamazsanız, temiz bir zemine yönelin; ondan yüzlerinizi ve ellerinizi meshedin. Allah size bir güçlük çıkarmak istemez; fakat sizi arındırmak ve üzerinizdeki nimetini tamamlamak ister; umulur ki şükredersiniz.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Önceki &quot;ayaklarınızı temizleyin&quot; ifadesi, yıkama/mesh bağlantısını gizliyordu. Köşeli ayraçta iki olası bağlantı gösterildi; ayet lafzının yerine belirsiz bir genel temizlik fiili konulmadı. Bu atlas iki okumadan birini kesinleştirmez.</p>
+<a class="source-link" href="https://tanzil.net/#5:6" target="_blank" rel="noopener">Mâide 6 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-7-31" data-key="7:31">
+<h3>A'râf 31</h3>
+<p class="arabic" lang="ar" dir="rtl">يَـٰبَنِىٓ ءَادَمَ خُذُوا۟ زِينَتَكُمْ عِندَ كُلِّ مَسْجِدٍ وَكُلُوا۟ وَٱشْرَبُوا۟ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ey Âdemoğulları! Her mescitte ziynetinizi alın. Yiyin, için; fakat israf etmeyin. Şüphesiz O, israf edenleri sevmez.</p>
 
-  .brand {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    text-decoration: none;
-    font-weight: 800;
-    letter-spacing: .02em;
-  }
+<a class="source-link" href="https://tanzil.net/#7:31" target="_blank" rel="noopener">A'râf 31 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="yonelis"><div class="topic-head"><h2>3. Kıble ve yöneliş</h2><span class="tag">Bağlam çıkarımı</span><p>Mescid-i Harâm yönüne dönme emri açıktır. Bu emrin salâtın yön düzeniyle ilişkisi, kıble pasajının bağlamından çıkarılır.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Bakara 142–150 tam bir pasaj olarak verildi. Bakara 115, bütün yönlerin Allah'a ait olduğunu söyler; bunu Bakara 144, 149 ve 150'deki yön emrini kaldıran bir hüküm gibi kullanmıyoruz. Bakara 143'teki &quot;imanınızı&quot; sözcüğünü mealde &quot;namazınızı&quot; diye değiştirmiyoruz. Bakara 146'daki &quot;onu&quot; zamirinin göndergesi, lafızda ayrıca adlandırılmadığı için mealde tamamlanmadı.</p></div><div class="verse-list"><article class="verse-card" id="ayet-2-115" data-key="2:115">
+<h3>Bakara 115</h3>
+<p class="arabic" lang="ar" dir="rtl">وَلِلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ فَأَيْنَمَا تُوَلُّوا۟ فَثَمَّ وَجْهُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٌ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Doğu da batı da Allah'ındır. Nereye yönelirseniz Allah'ın vechi oradadır. Şüphesiz Allah geniş imkân sahibidir, bilendir.</p>
 
-  .brand-mark {
-    width: 34px;
-    height: 34px;
-    border-radius: 8px;
-    display: grid;
-    place-items: center;
-    color: #fff;
-    background: var(--accent);
-    box-shadow: 0 8px 20px rgba(31, 111, 98, .22);
-  }
+<a class="source-link" href="https://tanzil.net/#2:115" target="_blank" rel="noopener">Bakara 115 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-142" data-key="2:142">
+<h3>Bakara 142</h3>
+<p class="arabic" lang="ar" dir="rtl">سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا ۚ قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>İnsanlardan aklı kıt olanlar, &quot;Onları üzerinde bulundukları kıblelerinden ne çevirdi?&quot; diyecekler. De ki: Doğu da batı da Allah'ındır. O, dilediğini dosdoğru bir yola iletir.</p>
 
-  .nav-links {
-    display: flex;
-    gap: 6px;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-  }
+<a class="source-link" href="https://tanzil.net/#2:142" target="_blank" rel="noopener">Bakara 142 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-143" data-key="2:143">
+<h3>Bakara 143</h3>
+<p class="arabic" lang="ar" dir="rtl">وَكَذَٰلِكَ جَعَلْنَـٰكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَـٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Böylece sizi orta bir topluluk kıldık ki insanlar üzerine tanıklar olasınız ve elçi de sizin üzerinize tanık olsun. Üzerinde bulunduğun kıbleyi, elçiye uyanı gerisin geri dönenden ayırt etmek için belirledik. Bu, Allah'ın yol gösterdiği kimseler dışında gerçekten ağırdı. Allah imanınızı boşa çıkaracak değildir. Şüphesiz Allah insanlara çok şefkatli, çok merhametlidir.</p>
 
-  .nav-links a {
-    padding: 8px 10px;
-    border-radius: 8px;
-    color: var(--muted);
-    text-decoration: none;
-    font-size: 14px;
-  }
+<a class="source-link" href="https://tanzil.net/#2:143" target="_blank" rel="noopener">Bakara 143 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-144" data-key="2:144">
+<h3>Bakara 144</h3>
+<p class="arabic" lang="ar" dir="rtl">قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةً تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ ۗ وَإِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ لَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا يَعْمَلُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Yüzünü göğe çevirip durduğunu görüyoruz. Seni hoşnut olacağın bir kıbleye yönelteceğiz. Yüzünü Mescid-i Harâm yönüne çevir. Nerede olursanız olun yüzlerinizi onun yönüne çevirin. Kendilerine kitap verilenler bunun Rablerinden gelen gerçek olduğunu bilirler. Allah onların yaptıklarından habersiz değildir.</p>
 
-  .nav-links a:hover,
-  .nav-links a:focus {
-    color: var(--ink);
-    background: var(--soft);
-    outline: none;
-  }
+<a class="source-link" href="https://tanzil.net/#2:144" target="_blank" rel="noopener">Bakara 144 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-145" data-key="2:145">
+<h3>Bakara 145</h3>
+<p class="arabic" lang="ar" dir="rtl">وَلَئِنْ أَتَيْتَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ بِكُلِّ ءَايَةٍ مَّا تَبِعُوا۟ قِبْلَتَكَ ۚ وَمَآ أَنتَ بِتَابِعٍ قِبْلَتَهُمْ ۚ وَمَا بَعْضُهُم بِتَابِعٍ قِبْلَةَ بَعْضٍ ۚ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم مِّنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ ۙ إِنَّكَ إِذًا لَّمِنَ ٱلظَّـٰلِمِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kendilerine kitap verilenlere her türlü ayeti getirsen de senin kıblene uymazlar. Sen de onların kıblesine uyacak değilsin. Onların bir kısmı da diğerinin kıblesine uymaz. Sana gelen bilgiden sonra onların arzularına uyarsan, o zaman kesinlikle zalimlerden olursun.</p>
 
-  .hero {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 58px 20px 30px;
-    display: grid;
-    grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr);
-    gap: 28px;
-    align-items: end;
-  }
+<a class="source-link" href="https://tanzil.net/#2:145" target="_blank" rel="noopener">Bakara 145 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-146" data-key="2:146">
+<h3>Bakara 146</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يَعْرِفُونَهُۥ كَمَا يَعْرِفُونَ أَبْنَآءَهُمْ ۖ وَإِنَّ فَرِيقًا مِّنْهُمْ لَيَكْتُمُونَ ٱلْحَقَّ وَهُمْ يَعْلَمُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kendilerine kitap verdiklerimiz onu, oğullarını tanıdıkları gibi tanırlar. Onlardan bir topluluk, bile bile gerçeği gizler.</p>
 
-  .eyebrow {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    margin: 0 0 14px;
-    padding: 6px 10px;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    color: var(--accent-2);
-    background: rgba(255, 253, 247, .72);
-    font-size: 13px;
-    font-weight: 700;
-  }
+<a class="source-link" href="https://tanzil.net/#2:146" target="_blank" rel="noopener">Bakara 146 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-147" data-key="2:147">
+<h3>Bakara 147</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Gerçek, Rabbindendir. Öyleyse kuşku duyanlardan olma.</p>
 
-  h1 {
-    margin: 0;
-    font-size: clamp(34px, 5vw, 62px);
-    line-height: 1.02;
-    letter-spacing: 0;
-  }
+<a class="source-link" href="https://tanzil.net/#2:147" target="_blank" rel="noopener">Bakara 147 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-148" data-key="2:148">
+<h3>Bakara 148</h3>
+<p class="arabic" lang="ar" dir="rtl">وَلِكُلٍّ وِجْهَةٌ هُوَ مُوَلِّيهَا ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ أَيْنَ مَا تَكُونُوا۟ يَأْتِ بِكُمُ ٱللَّهُ جَمِيعًا ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Herkesin yöneldiği bir yön vardır. Öyleyse hayırlarda yarışın. Nerede olursanız olun Allah sizi bir araya getirecektir. Şüphesiz Allah her şeye güç yetirendir.</p>
 
-  .lead {
-    max-width: 780px;
-    margin: 18px 0 0;
-    color: #484137;
-    font-size: clamp(17px, 2vw, 20px);
-  }
+<a class="source-link" href="https://tanzil.net/#2:148" target="_blank" rel="noopener">Bakara 148 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-149" data-key="2:149">
+<h3>Bakara 149</h3>
+<p class="arabic" lang="ar" dir="rtl">وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۖ وَإِنَّهُۥ لَلْحَقُّ مِن رَّبِّكَ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Nereden çıkarsan çık yüzünü Mescid-i Harâm yönüne çevir. Şüphesiz bu, Rabbinden gelen gerçektir. Allah yaptıklarınızdan habersiz değildir.</p>
 
-  .hero-panel {
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 18px;
-    background: rgba(255, 253, 247, .82);
-    box-shadow: var(--shadow);
-  }
+<a class="source-link" href="https://tanzil.net/#2:149" target="_blank" rel="noopener">Bakara 149 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-150" data-key="2:150">
+<h3>Bakara 150</h3>
+<p class="arabic" lang="ar" dir="rtl">وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِى وَلِأُتِمَّ نِعْمَتِى عَلَيْكُمْ وَلَعَلَّكُمْ تَهْتَدُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Nereden çıkarsan çık yüzünü Mescid-i Harâm yönüne çevir. Nerede olursanız olun yüzlerinizi onun yönüne çevirin ki, içlerinden zulmedenler dışında insanların size karşı bir gerekçesi olmasın. Onlardan korkmayın, benden korkun. Üzerinizdeki nimetimi tamamlayayım ve yol bulasınız.</p>
 
-  .hero-panel h2 {
-    margin: 0 0 10px;
-    font-size: 18px;
-  }
+<a class="source-link" href="https://tanzil.net/#2:150" target="_blank" rel="noopener">Bakara 150 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="beden"><div class="topic-head"><h2>4. Ayakta duruş, rükû ve secde</h2><span class="tag">Doğrudan lafız / bağlam çıkarımı</span><p>Ayakta salât eden bir kişi açıkça anlatılır. Secde, korku salâtı sahnesinde yer alır. Rükû emirleri salât ve ibadet bağlamıyla ilişkilidir; tam hareket sırası ve tekrar sayısı ayrıca kanıt ister.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Âl-i İmrân 39 ayakta salâtı doğrudan anlatır; Nisâ 102 salât içinde secdeyi gösterir. Hac 77 genel ibadet emridir ve salât kelimesini içermez. Âl-i İmrân 43'te secde rükûdan önce anılır; buradan zorunlu hareket sırası çıkarmıyoruz. Hac 26 ve Fetih 29'un salât bağlantısı bağlam çıkarımıdır. Alak 9–19'da salât edenin engellenmesi ve secde emri aynı sahnededir; yine ayrıntılı hareket tarifi verilmez. İlgili sahne: <a href="#ayet-4-102">Nisâ 102</a>.</p></div><div class="verse-list"><article class="verse-card" id="ayet-2-43" data-key="2:43">
+<h3>Bakara 43</h3>
+<p class="arabic" lang="ar" dir="rtl">وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Salâtı ikame edin, zekâtı verin ve rükû edenlerle birlikte rükû edin.</p>
 
-  .mini-list {
-    display: grid;
-    gap: 10px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    color: var(--muted);
-    font-size: 14px;
-  }
+<a class="source-link" href="https://tanzil.net/#2:43" target="_blank" rel="noopener">Bakara 43 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-238" data-key="2:238">
+<h3>Bakara 238</h3>
+<p class="arabic" lang="ar" dir="rtl">حَـٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَـٰنِتِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Salâtları ve Salâtü'l-Vustâ'yı koruyun; Allah için gönülden boyun eğerek ayakta durun.</p>
 
-  .mini-list strong { color: var(--ink); }
+<a class="source-link" href="https://tanzil.net/#2:238" target="_blank" rel="noopener">Bakara 238 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-3-39" data-key="3:39">
+<h3>Âl-i İmrân 39</h3>
+<p class="arabic" lang="ar" dir="rtl">فَنَادَتْهُ ٱلْمَلَـٰٓئِكَةُ وَهُوَ قَآئِمٌ يُصَلِّى فِى ٱلْمِحْرَابِ أَنَّ ٱللَّهَ يُبَشِّرُكَ بِيَحْيَىٰ مُصَدِّقًۢا بِكَلِمَةٍ مِّنَ ٱللَّهِ وَسَيِّدًا وَحَصُورًا وَنَبِيًّا مِّنَ ٱلصَّـٰلِحِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>O, mihrapta ayakta salât ederken melekler ona seslendiler: Allah sana, Allah'tan bir kelimeyi doğrulayan, bir önder, hasûr ve iyilerden bir peygamber olan Yahyâ'yı müjdeliyor.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Ayakta olma ile salât aynı sahnede doğrudan anlatılır. &quot;Hasûr&quot; için bu denetimde yeterli Kur'ân içi anlam kanıtı kurulmadığından kelime korunmuştur; dış sözlük anlamı kanıt yapılmaz.</p>
+<a class="source-link" href="https://tanzil.net/#3:39" target="_blank" rel="noopener">Âl-i İmrân 39 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-3-43" data-key="3:43">
+<h3>Âl-i İmrân 43</h3>
+<p class="arabic" lang="ar" dir="rtl">يَـٰمَرْيَمُ ٱقْنُتِى لِرَبِّكِ وَٱسْجُدِى وَٱرْكَعِى مَعَ ٱلرَّٰكِعِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ey Meryem! Rabbine gönülden boyun eğ; secde et ve rükû edenlerle birlikte rükû et.</p>
 
-  main {
-    max-width: 1160px;
-    margin: 0 auto;
-    padding: 0 20px 70px;
-  }
+<a class="source-link" href="https://tanzil.net/#3:43" target="_blank" rel="noopener">Âl-i İmrân 43 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-125" data-key="2:125">
+<h3>Bakara 125</h3>
+<p class="arabic" lang="ar" dir="rtl">وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةً لِّلنَّاسِ وَأَمْنًا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِـۧمَ مُصَلًّى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِـۧمَ وَإِسْمَـٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَـٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Hani evi insanlar için bir dönüş yeri ve güven yeri kılmıştık. İbrâhim'in makamından bir salât yeri edinin. İbrâhim ve İsmâil'e, &quot;Evimi tavaf edenler, orada kalanlar, rükû ve secde edenler için temiz tutun&quot; diye ahit verdik.</p>
 
-  section {
-    padding: 34px 0;
-    border-top: 1px solid rgba(222, 211, 191, .8);
-  }
+<a class="source-link" href="https://tanzil.net/#2:125" target="_blank" rel="noopener">Bakara 125 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-5-55" data-key="5:55">
+<h3>Mâide 55</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ ءَامَنُوا۟ ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ رَٰكِعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Sizin veliniz ancak Allah, elçisi ve iman edenlerdir; onlar salâtı ikame eder, zekâtı verir ve rükû ederler.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> &quot;Ve hüm râkiûn&quot; ifadesi, çalışma mealinde &quot;ve rükû ederler&quot; diye karşılandı; &quot;rükû hâlindeyken&quot; bağlantısı da ayrıca dil incelemesi ister. Bu ayetten zekâtın belli bir bedensel duruşta verilmesi zorunluluğunu çıkarmıyoruz.</p>
+<a class="source-link" href="https://tanzil.net/#5:55" target="_blank" rel="noopener">Mâide 55 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-22-26" data-key="22:26">
+<h3>Hac 26</h3>
+<p class="arabic" lang="ar" dir="rtl">وَإِذْ بَوَّأْنَا لِإِبْرَٰهِيمَ مَكَانَ ٱلْبَيْتِ أَن لَّا تُشْرِكْ بِى شَيْـًٔا وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ وَٱلْقَآئِمِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Hani İbrâhim'e evin yerini belirlemiştik: Bana hiçbir şeyi ortak koşma; evimi tavaf edenler, ayakta duranlar, rükû ve secde edenler için temiz tut.</p>
 
-  h2 {
-    margin: 0 0 14px;
-    font-size: clamp(24px, 3vw, 34px);
-    line-height: 1.15;
-  }
+<a class="source-link" href="https://tanzil.net/#22:26" target="_blank" rel="noopener">Hac 26 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-22-77" data-key="22:77">
+<h3>Hac 77</h3>
+<p class="arabic" lang="ar" dir="rtl">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱرْكَعُوا۟ وَٱسْجُدُوا۟ وَٱعْبُدُوا۟ رَبَّكُمْ وَٱفْعَلُوا۟ ٱلْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ey iman edenler! Rükû edin, secde edin, Rabbinize kulluk edin ve hayır işleyin; umulur ki kurtuluşa erersiniz.</p>
 
-  h3 {
-    margin: 0 0 10px;
-    font-size: 20px;
-    line-height: 1.25;
-  }
+<a class="source-link" href="https://tanzil.net/#22:77" target="_blank" rel="noopener">Hac 77 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-48-29" data-key="48:29">
+<h3>Fetih 29</h3>
+<p class="arabic" lang="ar" dir="rtl">مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Muhammed Allah'ın elçisidir. Onunla birlikte olanlar inkâr edenlere karşı çetin, kendi aralarında merhametlidirler. Onları, Allah'tan lütuf ve hoşnutluk isteyerek rükû ve secde ederken görürsün. Belirtileri yüzlerinde secdenin etkisindendir. Bu, onların Tevrat'taki tasviridir. İncil'deki tasvirleri ise filizini çıkarıp onu güçlendiren, sonra kalınlaşarak gövdesi üzerinde duran ve ekicilerin hoşuna giden bir ekin gibidir; onlarla inkâr edenleri öfkelendirmek için. Allah, içlerinden iman eden ve iyi işler yapanlara bağışlanma ve büyük bir ödül vaat etmiştir.</p>
 
-  p { margin: 0 0 14px; }
+<a class="source-link" href="https://tanzil.net/#48:29" target="_blank" rel="noopener">Fetih 29 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-9" data-key="96:9">
+<h3>Alak 9</h3>
+<p class="arabic" lang="ar" dir="rtl">أَرَءَيْتَ ٱلَّذِى يَنْهَىٰ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Engelleyeni gördün mü?</p>
 
-  .muted { color: var(--muted); }
+<a class="source-link" href="https://tanzil.net/#96:9" target="_blank" rel="noopener">Alak 9 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-10" data-key="96:10">
+<h3>Alak 10</h3>
+<p class="arabic" lang="ar" dir="rtl">عَبْدًا إِذَا صَلَّىٰٓ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Bir kulu, salât ettiği zaman.</p>
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 14px;
-  }
+<a class="source-link" href="https://tanzil.net/#96:10" target="_blank" rel="noopener">Alak 10 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-11" data-key="96:11">
+<h3>Alak 11</h3>
+<p class="arabic" lang="ar" dir="rtl">أَرَءَيْتَ إِن كَانَ عَلَى ٱلْهُدَىٰٓ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Gördün mü, ya o doğru yol üzerindeyse?</p>
 
-  .grid.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+<a class="source-link" href="https://tanzil.net/#96:11" target="_blank" rel="noopener">Alak 11 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-12" data-key="96:12">
+<h3>Alak 12</h3>
+<p class="arabic" lang="ar" dir="rtl">أَوْ أَمَرَ بِٱلتَّقْوَىٰٓ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Veya sakınmayı emrediyorsa?</p>
 
-  .card {
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 18px;
-    background: var(--paper);
-    box-shadow: 0 8px 20px rgba(54, 43, 25, .06);
-  }
+<a class="source-link" href="https://tanzil.net/#96:12" target="_blank" rel="noopener">Alak 12 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-13" data-key="96:13">
+<h3>Alak 13</h3>
+<p class="arabic" lang="ar" dir="rtl">أَرَءَيْتَ إِن كَذَّبَ وَتَوَلَّىٰٓ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Gördün mü, ya o yalanlıyor ve yüz çeviriyorsa?</p>
 
-  .tag {
-    display: inline-flex;
-    align-items: center;
-    margin: 0 6px 8px 0;
-    padding: 4px 8px;
-    border-radius: 999px;
-    border: 1px solid var(--line);
-    background: #fffaf0;
-    color: var(--muted);
-    font-size: 12px;
-    font-weight: 700;
-  }
+<a class="source-link" href="https://tanzil.net/#96:13" target="_blank" rel="noopener">Alak 13 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-14" data-key="96:14">
+<h3>Alak 14</h3>
+<p class="arabic" lang="ar" dir="rtl">أَلَمْ يَعْلَم بِأَنَّ ٱللَّهَ يَرَىٰ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Allah'ın gördüğünü bilmedi mi?</p>
 
-  .tag.direct { background: var(--good); color: #15513f; border-color: #b7dbc9; }
-  .tag.infer { background: var(--warn); color: #684312; border-color: #dfc18c; }
-  .tag.open { background: var(--open); color: #38476a; border-color: #cbd3e7; }
+<a class="source-link" href="https://tanzil.net/#96:14" target="_blank" rel="noopener">Alak 14 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-15" data-key="96:15">
+<h3>Alak 15</h3>
+<p class="arabic" lang="ar" dir="rtl">كَلَّا لَئِن لَّمْ يَنتَهِ لَنَسْفَعًۢا بِٱلنَّاصِيَةِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Hayır! Vazgeçmezse onu mutlaka perçeminden yakalayıp sürükleyeceğiz.</p>
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--paper);
-  }
+<a class="source-link" href="https://tanzil.net/#96:15" target="_blank" rel="noopener">Alak 15 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-16" data-key="96:16">
+<h3>Alak 16</h3>
+<p class="arabic" lang="ar" dir="rtl">نَاصِيَةٍ كَـٰذِبَةٍ خَاطِئَةٍ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Yalancı, günahkâr bir perçemden.</p>
 
-  th, td {
-    padding: 12px 12px;
-    border-bottom: 1px solid var(--line);
-    text-align: left;
-    vertical-align: top;
-  }
+<a class="source-link" href="https://tanzil.net/#96:16" target="_blank" rel="noopener">Alak 16 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-17" data-key="96:17">
+<h3>Alak 17</h3>
+<p class="arabic" lang="ar" dir="rtl">فَلْيَدْعُ نَادِيَهُۥ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Haydi, kendi meclisini çağırsın.</p>
 
-  th {
-    color: #574d3e;
-    background: #f1e8d8;
-    font-size: 13px;
-  }
+<a class="source-link" href="https://tanzil.net/#96:17" target="_blank" rel="noopener">Alak 17 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-18" data-key="96:18">
+<h3>Alak 18</h3>
+<p class="arabic" lang="ar" dir="rtl">سَنَدْعُ ٱلزَّبَانِيَةَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Biz de zebânileri çağıracağız.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Zebâniye lafzı çalışma mealinde korunmuştur. Kimlerin kastedildiğine ilişkin yeterli Kur'ân içi kanıt bu bölümde kurulmadığından dış kaynakla tamamlanmaz.</p>
+<a class="source-link" href="https://tanzil.net/#96:18" target="_blank" rel="noopener">Alak 18 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-96-19" data-key="96:19">
+<h3>Alak 19</h3>
+<p class="arabic" lang="ar" dir="rtl">كَلَّا لَا تُطِعْهُ وَٱسْجُدْ وَٱقْتَرِب ۩</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Hayır! Ona itaat etme; secde et ve yaklaş.</p>
 
-  tr:last-child td { border-bottom: 0; }
+<a class="source-link" href="https://tanzil.net/#96:19" target="_blank" rel="noopener">Alak 19 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="okuma"><div class="topic-head"><h2>5. Okuma, zikir ve ses</h2><span class="tag">Doğrudan lafız / bağlam çıkarımı</span><p>Salât bağlamında söylenen söz ve ses düzeyi bulunur. Kur'ân'el-fecr ve gece okuması ayrıca geçer. Hangi metnin her salâtta kaç kez okunacağı bu ayetlerde belirlenmez.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> İsrâ 110'daki ses emri tekil muhataba yöneliktir; bütün salâtlara aynı ses kuralını genellemek bağlam çıkarımıdır. Müzzemmil 1–8 gece kalkışı ve okuma bağlamını gösterir. Müzzemmil 20'de okuma ve salât ayrı emirlerdir; aynı ayette bulunmaları her salâta sabit bir okuma listesi veya miktarı eklemez. İsrâ 79'daki &quot;senin için&quot; hitabını herkese zorunlu ek vakit saymıyoruz.</p></div><div class="verse-list"><article class="verse-card" id="ayet-17-78" data-key="17:78">
+<h3>İsrâ 78</h3>
+<p class="arabic" lang="ar" dir="rtl">أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Güneşin dülûkünden gecenin ğasaqına kadar salâtı ikame et; bir de Kur'ân'el-fecr'i. Şüphesiz Kur'ân'el-fecr tanık olunandır.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Kur'ân'el-fecr, fecr okuması olarak karşılanabilir; salât emriyle ilişkisi bağlam çıkarımıdır. Dülûk ve ğasaqın kesin astronomik sınırları burada kapatılmaz.</p>
+<a class="source-link" href="https://tanzil.net/#17:78" target="_blank" rel="noopener">İsrâ 78 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-17-79" data-key="17:79">
+<h3>İsrâ 79</h3>
+<p class="arabic" lang="ar" dir="rtl">وَمِنَ ٱلَّيْلِ فَتَهَجَّدْ بِهِۦ نَافِلَةً لَّكَ عَسَىٰٓ أَن يَبْعَثَكَ رَبُّكَ مَقَامًا مَّحْمُودًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Gecenin bir bölümünde onunla teheccüd et; senin için ek bir [ibadet] olarak. Umulur ki Rabbin seni övülmüş bir makama yükseltir.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> &quot;Onunla&quot; zamiri Arapça metinde ayrıca bir adla açılmadığı için mealde korunmuştur. &quot;Teheccüd&quot;ün tam uygulama biçimi için bu bölümde yeterli Kur'ân içi kanıt yoktur.</p>
+<a class="source-link" href="https://tanzil.net/#17:79" target="_blank" rel="noopener">İsrâ 79 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-17-110" data-key="17:110">
+<h3>İsrâ 110</h3>
+<p class="arabic" lang="ar" dir="rtl">قُلِ ٱدْعُوا۟ ٱللَّهَ أَوِ ٱدْعُوا۟ ٱلرَّحْمَـٰنَ ۖ أَيًّا مَّا تَدْعُوا۟ فَلَهُ ٱلْأَسْمَآءُ ٱلْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَٱبْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>De ki: Allah diye çağırın veya Rahmân diye çağırın; hangisiyle çağırırsanız, en güzel isimler O'nundur. Salâtında sesini yükseltme, onu kısma da; ikisi arasında bir yol ara.</p>
 
-  .arabic {
-    direction: rtl;
-    text-align: right;
-    font-family: "Amiri", "Scheherazade New", "Noto Naskh Arabic", serif;
-    font-size: 22px;
-    line-height: 2;
-    color: #17130f;
-  }
+<a class="source-link" href="https://tanzil.net/#17:110" target="_blank" rel="noopener">İsrâ 110 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-1" data-key="73:1">
+<h3>Müzzemmil 1</h3>
+<p class="arabic" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ يَـٰٓأَيُّهَا ٱلْمُزَّمِّلُ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Rahmân ve Rahîm Allah'ın adıyla. Ey örtüsüne bürünen!</p>
 
-  .meal {
-    margin: 0;
-    padding: 12px;
-    border-right: 4px solid var(--accent);
-    border-radius: 8px;
-    background: #f5eddd;
-    color: #252018;
-    font-size: 16px;
-  }
+<a class="source-link" href="https://tanzil.net/#73:1" target="_blank" rel="noopener">Müzzemmil 1 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-2" data-key="73:2">
+<h3>Müzzemmil 2</h3>
+<p class="arabic" lang="ar" dir="rtl">قُمِ ٱلَّيْلَ إِلَّا قَلِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Gecenin az bir bölümü dışında kalk.</p>
 
-  .meal-source {
-    margin: -4px 0 0;
-    color: var(--muted);
-    font-size: 12px;
-    font-weight: 700;
-  }
+<a class="source-link" href="https://tanzil.net/#73:2" target="_blank" rel="noopener">Müzzemmil 2 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-3" data-key="73:3">
+<h3>Müzzemmil 3</h3>
+<p class="arabic" lang="ar" dir="rtl">نِّصْفَهُۥٓ أَوِ ٱنقُصْ مِنْهُ قَلِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Yarısını, yahut ondan biraz azalt.</p>
 
-  .evidence-note {
-    margin-top: 2px;
-  }
+<a class="source-link" href="https://tanzil.net/#73:3" target="_blank" rel="noopener">Müzzemmil 3 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-4" data-key="73:4">
+<h3>Müzzemmil 4</h3>
+<p class="arabic" lang="ar" dir="rtl">أَوْ زِدْ عَلَيْهِ وَرَتِّلِ ٱلْقُرْءَانَ تَرْتِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Yahut ona biraz ekle; Kur'ân'ı düzenli ve tane tane oku.</p>
 
-  .verse-card {
-    display: grid;
-    gap: 12px;
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 16px;
-    background: var(--paper);
-  }
+<a class="source-link" href="https://tanzil.net/#73:4" target="_blank" rel="noopener">Müzzemmil 4 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-5" data-key="73:5">
+<h3>Müzzemmil 5</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّا سَنُلْقِى عَلَيْكَ قَوْلًا ثَقِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Şüphesiz biz sana ağır bir söz bırakacağız.</p>
 
-  .verse-ref {
-    display: inline-flex;
-    width: fit-content;
-    padding: 4px 8px;
-    border-radius: 6px;
-    background: #1f6f62;
-    color: #fff;
-    font-size: 13px;
-    font-weight: 800;
-  }
+<a class="source-link" href="https://tanzil.net/#73:5" target="_blank" rel="noopener">Müzzemmil 5 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-6" data-key="73:6">
+<h3>Müzzemmil 6</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّ نَاشِئَةَ ٱلَّيْلِ هِىَ أَشَدُّ وَطْـًٔا وَأَقْوَمُ قِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Şüphesiz gece kalkışı, etki bakımından daha güçlü ve söz bakımından daha düzgündür.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> &quot;Gece kalkışı&quot; ve &quot;etki&quot; karşılıkları çalışma çevirisinin anlam tercihleridir. Nâşie ve vat'an ifadelerinin tam anlamı için burada eksiksiz Kur'ân içi sözlükbilim kurulmuş değildir; bunlardan teknik salât kuralı çıkarmıyoruz.</p>
+<a class="source-link" href="https://tanzil.net/#73:6" target="_blank" rel="noopener">Müzzemmil 6 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-7" data-key="73:7">
+<h3>Müzzemmil 7</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّ لَكَ فِى ٱلنَّهَارِ سَبْحًا طَوِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Şüphesiz gündüz senin için uzun bir uğraş vardır.</p>
 
-  .verse-grid {
-    display: grid;
-    gap: 14px;
-  }
+<a class="source-link" href="https://tanzil.net/#73:7" target="_blank" rel="noopener">Müzzemmil 7 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-8" data-key="73:8">
+<h3>Müzzemmil 8</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱذْكُرِ ٱسْمَ رَبِّكَ وَتَبَتَّلْ إِلَيْهِ تَبْتِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Rabbinin adını an ve bütün yönelişinle O'na yönel.</p>
 
-  .toolbar {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin: 16px 0;
-  }
+<a class="source-link" href="https://tanzil.net/#73:8" target="_blank" rel="noopener">Müzzemmil 8 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-73-20" data-key="73:20">
+<h3>Müzzemmil 20</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَـٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Şüphesiz Rabbin, senin ve beraberindekilerden bir grubun gecenin üçte ikisine yakınını, yarısını ve üçte birini ayakta geçirdiğinizi bilir. Geceyi ve gündüzü Allah ölçüp belirler. Sizin bunu sayıp kuşatamayacağınızı bildi ve size yöneldi. Öyleyse Kur'ân'dan kolayınıza geleni okuyun. İçinizden hastalar olacağını, başkalarının Allah'ın lütfundan aramak üzere yeryüzünde yolculuk edeceğini ve başkalarının Allah yolunda savaşacağını bildi. Öyleyse ondan kolayınıza geleni okuyun; salâtı ikame edin, zekâtı verin ve Allah'a güzel bir borç verin. Kendiniz için önden gönderdiğiniz her hayrı Allah'ın katında daha hayırlı ve ödülce daha büyük bulursunuz. Allah'tan bağışlanma dileyin. Şüphesiz Allah çok bağışlayıcı, çok merhametlidir.</p>
 
-  button {
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    padding: 9px 12px;
-    color: var(--ink);
-    background: var(--paper);
-    font: inherit;
-    cursor: pointer;
-  }
+<a class="source-link" href="https://tanzil.net/#73:20" target="_blank" rel="noopener">Müzzemmil 20 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="topluluk"><div class="topic-head"><h2>6. Aile, birlikte salât ve cuma</h2><span class="tag">Doğrudan lafız</span><p>Aileye salâtı emretme, salâta çağrı, cuma günü alışverişi bırakma ve salât bitince dağılma açıkça geçer. Korku salâtında iki grubun düzeni de toplu salâtı gösterir.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Cuma 9–11 kesilmeden verildi. Çağrı vardır; çağrının sabit sözleri, minare, hutbenin metni veya bütün günlük salâtların yalnız cemaatle geçerli olduğu bu pasajda yazmaz. Cuma 11'de &quot;ayakta&quot; bulunmayı tek başına ayrıntılı bir hutbe düzeni diye sunmuyoruz. Meryem 54–55'te İsmâil'in ailesine salâtı emretmesi, Tâhâ 132'de elçinin ailesine salâtı emretmesi ve kendisinin sabrı anlatılır. İlgili sahne: <a href="#ayet-4-102">Nisâ 102</a>.</p></div><div class="verse-list"><article class="verse-card" id="ayet-19-54" data-key="19:54">
+<h3>Meryem 54</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱذْكُرْ فِى ٱلْكِتَـٰبِ إِسْمَـٰعِيلَ ۚ إِنَّهُۥ كَانَ صَادِقَ ٱلْوَعْدِ وَكَانَ رَسُولًا نَّبِيًّا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kitapta İsmâil'i de an. O, sözünde doğruydu; bir elçi ve peygamberdi.</p>
 
-  button[aria-pressed="true"] {
-    color: #fff;
-    background: var(--accent);
-    border-color: var(--accent);
-  }
+<a class="source-link" href="https://tanzil.net/#19:54" target="_blank" rel="noopener">Meryem 54 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-19-55" data-key="19:55">
+<h3>Meryem 55</h3>
+<p class="arabic" lang="ar" dir="rtl">وَكَانَ يَأْمُرُ أَهْلَهُۥ بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ وَكَانَ عِندَ رَبِّهِۦ مَرْضِيًّا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ailesine salâtı ve zekâtı emrederdi; Rabbinin katında hoşnut olunan biriydi.</p>
 
-  .hidden { display: none; }
+<a class="source-link" href="https://tanzil.net/#19:55" target="_blank" rel="noopener">Meryem 55 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-20-132" data-key="20:132">
+<h3>Tâhâ 132</h3>
+<p class="arabic" lang="ar" dir="rtl">وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَـٰقِبَةُ لِلتَّقْوَىٰ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ailene salâtı emret ve onda sabırlı ol. Senden rızık istemiyoruz; biz seni rızıklandırıyoruz. Sonuç, sakınma bilinci içindir.</p>
 
-  .footer {
-    color: var(--muted);
-    font-size: 13px;
-  }
+<a class="source-link" href="https://tanzil.net/#20:132" target="_blank" rel="noopener">Tâhâ 132 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-5-58" data-key="5:58">
+<h3>Mâide 58</h3>
+<p class="arabic" lang="ar" dir="rtl">وَإِذَا نَادَيْتُمْ إِلَى ٱلصَّلَوٰةِ ٱتَّخَذُوهَا هُزُوًا وَلَعِبًا ۚ ذَٰلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْقِلُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Salâta çağırdığınızda onu alay ve oyun konusu edinirler. Bu, onların aklını kullanmayan bir topluluk olmalarındandır.</p>
 
-  @media (max-width: 860px) {
-    .hero,
-    .grid,
-    .grid.two {
-      grid-template-columns: 1fr;
-    }
+<a class="source-link" href="https://tanzil.net/#5:58" target="_blank" rel="noopener">Mâide 58 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-62-9" data-key="62:9">
+<h3>Cuma 9</h3>
+<p class="arabic" lang="ar" dir="rtl">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نُودِىَ لِلصَّلَوٰةِ مِن يَوْمِ ٱلْجُمُعَةِ فَٱسْعَوْا۟ إِلَىٰ ذِكْرِ ٱللَّهِ وَذَرُوا۟ ٱلْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ey iman edenler! Cuma günü salât için çağrıldığında Allah'ı anmaya yönelin ve alışverişi bırakın. Eğer bilirseniz bu sizin için daha hayırlıdır.</p>
 
-    .nav {
-      align-items: flex-start;
-      flex-direction: column;
-    }
+<a class="source-link" href="https://tanzil.net/#62:9" target="_blank" rel="noopener">Cuma 9 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-62-10" data-key="62:10">
+<h3>Cuma 10</h3>
+<p class="arabic" lang="ar" dir="rtl">فَإِذَا قُضِيَتِ ٱلصَّلَوٰةُ فَٱنتَشِرُوا۟ فِى ٱلْأَرْضِ وَٱبْتَغُوا۟ مِن فَضْلِ ٱللَّهِ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Salât tamamlandığında yeryüzüne dağılın, Allah'ın lütfundan arayın ve Allah'ı çok anın; umulur ki kurtuluşa erersiniz.</p>
 
-    .nav-links { justify-content: flex-start; }
-  }
-</style>
-</head>
-<body>
-<header class="site-header">
-  <nav class="nav" aria-label="Ana gezinme">
-    <a class="brand" href="./">
-      <span class="brand-mark" aria-hidden="true">ص</span>
-      <span>Salât İçeriği Atlası</span>
-    </a>
-    <div class="nav-links">
-      <a href="#sonuc">Özet</a>
-      <a href="#konular">Konu Haritası</a>
-      <a href="#ayetler">Ayetler</a>
-      <a href="#acik">Açık Alanlar</a>
-      <a href="#kokler">Kök Taraması</a>
-      <a href="../salat-vakit/">Vakit Atlası</a>
-    </div>
-  </nav>
-</header>
+<a class="source-link" href="https://tanzil.net/#62:10" target="_blank" rel="noopener">Cuma 10 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-62-11" data-key="62:11">
+<h3>Cuma 11</h3>
+<p class="arabic" lang="ar" dir="rtl">وَإِذَا رَأَوْا۟ تِجَـٰرَةً أَوْ لَهْوًا ٱنفَضُّوٓا۟ إِلَيْهَا وَتَرَكُوكَ قَآئِمًا ۚ قُلْ مَا عِندَ ٱللَّهِ خَيْرٌ مِّنَ ٱللَّهْوِ وَمِنَ ٱلتِّجَـٰرَةِ ۚ وَٱللَّهُ خَيْرُ ٱلرَّٰزِقِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Bir ticaret veya eğlence gördüklerinde ona yönelip dağıldılar ve seni ayakta bıraktılar. De ki: Allah'ın katındaki, eğlenceden de ticaretten de daha hayırlıdır. Allah rızık verenlerin en hayırlısıdır.</p>
 
-<div class="hero">
-  <div>
-    <p class="eyebrow">v0.1 denetimlik taslak · Kur'ân içi okuma</p>
-    <h1>Kur'ân'da Salâtın İçeriği Atlası</h1>
-    <p class="lead">Bu sayfa, salâtın nasıl bir eylem olarak tarif edildiğini Kur'ân metni içinde toplar: hazırlık, beden hareketleri, okuma/zikir, ses, yöneliş, cemaat ve açık kalan teknik ayrıntılar.</p>
-  </div>
-  <aside class="hero-panel">
-    <h2>Çalışma kilidi</h2>
-    <ul class="mini-list">
-      <li><strong>Kaynak:</strong> Tanzil tabanlı 6236 ayetlik Kur'ân metni.</li>
-      <li><strong>Yöntem:</strong> hadis, mezhep, tefsir ve geleneksel uygulama katmanı yok.</li>
-      <li><strong>Etiketler:</strong> doğrudan lafız, dil çıkarımı, bağlam çıkarımı, açık.</li>
-      <li><strong>Durum:</strong> 6.1 Sol denetimi öncesi ilk araştırma iskeleti.</li>
-    </ul>
-  </aside>
-</div>
+<a class="source-link" href="https://tanzil.net/#62:11" target="_blank" rel="noopener">Cuma 11 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="korku"><div class="topic-head"><h2>7. Yolculuk, korku ve salât sonrası</h2><span class="tag">Doğrudan lafız</span><p>Korku hâlinde yaya veya binek üzerinde uygulama, yolculukla birlikte korku koşulunda kısaltma ve güvenlik için grupların yer değiştirmesi anlatılır. Salât sonrası zikir, salâtın içindeki duruşlarla karıştırılmaz.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Nisâ 101'de yolculukla birlikte &quot;korkarsanız&quot; koşulu da vardır. Bu ayetten her yolculukta koşulsuz kısaltma sonucu çıkarmıyoruz; kısaltmanın miktarı da belirtilmez. Nisâ 102'de grup değişimi anlatılır, rekât sayısı verilmez. Nisâ 103'te ayakta, oturarak ve yanlar üzerinde zikir, salât tamamlandıktan sonradır; bu üç duruşu normal salâtın zorunlu sırası yapmıyoruz.</p></div><div class="verse-list"><article class="verse-card" id="ayet-2-239" data-key="2:239">
+<h3>Bakara 239</h3>
+<p class="arabic" lang="ar" dir="rtl">فَإِنْ خِفْتُمْ فَرِجَالًا أَوْ رُكْبَانًا ۖ فَإِذَآ أَمِنتُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَمَا عَلَّمَكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Eğer korkarsanız yaya olarak veya binek üzerinde [salâtı yerine getirin]. Güvene kavuştuğunuzda, bilmediğiniz şeyleri size öğrettiği gibi Allah'ı anın.</p>
 
-<main>
-  <section id="sonuc">
-    <h2>Özet: Kur'ân Salâtın İçinde Ne Söylüyor?</h2>
-    <div class="grid">
-      <article class="card">
-        <span class="tag direct">Doğrudan lafız</span>
-        <h3>Salât şekilsiz bir niyet değildir</h3>
-        <p>4:43 ve 5:6 salâta yaklaşma/kalkma öncesinde bilinç ve taharet şartını kurar. 4:102 salât içinde topluluk düzeni ve secdeyi birlikte gösterir. 17:110 salâtın ses boyutuna sınır koyar.</p>
-      </article>
-      <article class="card">
-        <span class="tag infer">Bağlam çıkarımı</span>
-        <h3>Omurga unsurlar görünüyor</h3>
-        <p>Kıyam, rükû, secde, okuma/zikir, kıbleye yöneliş ve belirlenmiş vakit fikri aynı salât alanında birleşiyor. Bu, salâtın Kur'ân içinde düzenli bir ibadet eylemi olduğunu gösterir.</p>
-      </article>
-      <article class="card">
-        <span class="tag open">Açık</span>
-        <h3>Teknik ayrıntılar kapanmıyor</h3>
-        <p>Rekât sayısı, tam hareket sırası, oturuş biçimi, el konumu ve sabit okunacak metin Kur'ân içinde doğrudan kapatılmış görünmüyor. Bunlar bu atlasın “açık alan” hanesinde kalır.</p>
-      </article>
-    </div>
-  </section>
+<a class="source-link" href="https://tanzil.net/#2:239" target="_blank" rel="noopener">Bakara 239 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-4-101" data-key="4:101">
+<h3>Nisâ 101</h3>
+<p class="arabic" lang="ar" dir="rtl">وَإِذَا ضَرَبْتُمْ فِى ٱلْأَرْضِ فَلَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَقْصُرُوا۟ مِنَ ٱلصَّلَوٰةِ إِنْ خِفْتُمْ أَن يَفْتِنَكُمُ ٱلَّذِينَ كَفَرُوٓا۟ ۚ إِنَّ ٱلْكَـٰفِرِينَ كَانُوا۟ لَكُمْ عَدُوًّا مُّبِينًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Yeryüzünde yolculuğa çıktığınızda, inkâr edenlerin size kötülük etmesinden korkarsanız salâtı kısaltmanızda sizin için bir günah yoktur. Şüphesiz inkâr edenler sizin için apaçık bir düşmandır.</p>
 
-  <section id="konular">
-    <h2>Konu Haritası: Salâtın İçerik Başlıkları</h2>
-    <p class="muted">Başlıklar araştırma kolaylığı için toplandı. Her satırda ayetin söylediği ile bizim çıkardığımız not ayrı tutulur.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Unsur</th>
-          <th>Ana ayetler</th>
-          <th>Kanıt derecesi</th>
-          <th>İlk okuma sonucu</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Taharet / hazırlık</td>
-          <td>4:43, 5:6</td>
-          <td><span class="tag direct">Doğrudan lafız</span></td>
-          <td>Salâta yaklaşma/kalkma bağlamında suyla temizlik, cünüplükte arınma ve su yoksa teyemmüm açıkça geçer.</td>
-        </tr>
-        <tr>
-          <td>Bilinç ve söz farkındalığı</td>
-          <td>4:43</td>
-          <td><span class="tag direct">Doğrudan lafız</span></td>
-          <td>“Ne söylediğinizi bilinceye kadar” ifadesi salât içinde söz/okuma/idrak boyutunu doğrudan gösterir.</td>
-        </tr>
-        <tr>
-          <td>Kıyam / ayakta duruş</td>
-          <td>2:238, 4:102, 73:20</td>
-          <td><span class="tag infer">Bağlam çıkarımı</span></td>
-          <td>2:238'de salâtlar bağlamında “Allah için kânitîn olarak kıyam” emri vardır. 4:102'de salât kurulumunda bir grubun kalkması geçer.</td>
-        </tr>
-        <tr>
-          <td>Rükû</td>
-          <td>2:43, 2:125, 3:43, 22:26, 22:77</td>
-          <td><span class="tag infer">Bağlam çıkarımı</span></td>
-          <td>Rükû, salât ve mescid/ev temizliği bağlamlarında secde ile aynı ibadet alanına yerleşir.</td>
-        </tr>
-        <tr>
-          <td>Secde</td>
-          <td>3:43, 4:102, 22:26, 22:77, 48:29</td>
-          <td><span class="tag direct">Doğrudan lafız + bağlam</span></td>
-          <td>4:102'de salât sahnesinin içinde “secde ettiklerinde” ifadesi yer alır; secde salât içi eylem olarak güçlüdür.</td>
-        </tr>
-        <tr>
-          <td>Kur'ân okuma</td>
-          <td>17:78, 73:20</td>
-          <td><span class="tag infer">Bağlam çıkarımı</span></td>
-          <td>Kur'ân'el-fecr özel olarak geçer. 73:20 “Kur'ân'dan kolay geleni okuyun” ile salâtı aynı sonuç dizisinde verir.</td>
-        </tr>
-        <tr>
-          <td>Zikir</td>
-          <td>2:239, 4:103, 29:45, 62:9-10</td>
-          <td><span class="tag infer">Bağlam çıkarımı</span></td>
-          <td>Zikir salâtla aynı değildir; ama salât bittikten sonra, cuma çağrısında ve salâtın amacı bağlamında merkezi bir unsur olarak görünür.</td>
-        </tr>
-        <tr>
-          <td>Ses seviyesi</td>
-          <td>17:110</td>
-          <td><span class="tag direct">Doğrudan lafız</span></td>
-          <td>Salâtta ne tamamen yüksek ses ne de tamamen kısık ses; ikisi arasında bir yol emredilir.</td>
-        </tr>
-        <tr>
-          <td>Kıble / yöneliş</td>
-          <td>2:144-150, 2:115</td>
-          <td><span class="tag infer">Bağlam çıkarımı</span></td>
-          <td>Yüzün Mescid-i Harâm yönüne çevrilmesi tekrar edilir. Bunun salâtın yön düzeniyle ilişkisi güçlüdür; ama 2:115 genel yöneliş alanını açık tutar.</td>
-        </tr>
-        <tr>
-          <td>Cemaat ve cuma</td>
-          <td>2:43, 4:102, 62:9-10</td>
-          <td><span class="tag direct">Doğrudan lafız + bağlam</span></td>
-          <td>“Rükû edenlerle rükû edin”, korku salâtında grup düzeni ve cuma günü salâta çağrı toplu boyutu gösterir.</td>
-        </tr>
-        <tr>
-          <td>Sefer/korku esnemesi</td>
-          <td>2:239, 4:101-103</td>
-          <td><span class="tag direct">Doğrudan lafız</span></td>
-          <td>Salât olağan formdan kısaltılabilir veya korku hâlinde yaya/binek üzerinde yürütülebilir; güven durumunda ikame düzenine dönülür.</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
+<a class="source-link" href="https://tanzil.net/#4:101" target="_blank" rel="noopener">Nisâ 101 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-4-102" data-key="4:102">
+<h3>Nisâ 102</h3>
+<p class="arabic" lang="ar" dir="rtl">وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ ٱلصَّلَوٰةَ فَلْتَقُمْ طَآئِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوٓا۟ أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا۟ فَلْيَكُونُوا۟ مِن وَرَآئِكُمْ وَلْتَأْتِ طَآئِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا۟ فَلْيُصَلُّوا۟ مَعَكَ وَلْيَأْخُذُوا۟ حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ ٱلَّذِينَ كَفَرُوا۟ لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةً وَٰحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰٓ أَن تَضَعُوٓا۟ أَسْلِحَتَكُمْ ۖ وَخُذُوا۟ حِذْرَكُمْ ۗ إِنَّ ٱللَّهَ أَعَدَّ لِلْكَـٰفِرِينَ عَذَابًا مُّهِينًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Sen onların içinde olup onlar için salâtı ikame ettiğinde, onlardan bir grup seninle birlikte kalksın ve silahlarını alsınlar. Secde ettiklerinde arkanızda olsunlar. Salât etmemiş diğer grup gelsin; seninle birlikte salât etsinler; tedbirlerini ve silahlarını alsınlar. İnkâr edenler, silahlarınızdan ve eşyalarınızdan habersiz kalmanızı ve üzerinize tek bir hamleyle yüklenmeyi isterler. Yağmurdan bir eziyetiniz varsa veya hasta iseniz silahlarınızı bırakmanızda size günah yoktur; yine de tedbirinizi alın. Şüphesiz Allah inkâr edenler için alçaltıcı bir azap hazırlamıştır.</p>
 
-  <section id="acik">
-    <h2>Açık Bırakılan Alanlar</h2>
-    <div class="grid two">
-      <article class="card">
-        <span class="tag open">Açık</span>
-        <h3>Rekât ve tam sıra</h3>
-        <p>Kur'ân içinde rükû, secde, kıyam ve okuma/zikir alanı görünür; fakat bunların kaç döngü olacağı ve her salâtta aynı sıra ile mi uygulanacağı doğrudan kapanmaz.</p>
-      </article>
-      <article class="card">
-        <span class="tag open">Açık</span>
-        <h3>Sabit metin ve oturuş ayrıntıları</h3>
-        <p>17:110 salâtın ses düzeyini, 73:20 Kur'ân'dan kolay geleni okumayı gösterir. Fakat belirli bir sabit metin, oturuş formu veya el/kol pozisyonu doğrudan verilmez.</p>
-      </article>
-    </div>
-  </section>
+<a class="source-link" href="https://tanzil.net/#4:102" target="_blank" rel="noopener">Nisâ 102 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-4-103" data-key="4:103">
+<h3>Nisâ 103</h3>
+<p class="arabic" lang="ar" dir="rtl">فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَـٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَـٰبًا مَّوْقُوتًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Salâtı tamamladığınızda ayakta, oturarak ve yanlarınız üzerinde Allah'ı anın. Güvene kavuştuğunuzda salâtı ikame edin. Şüphesiz salât, müminler üzerine vakitleri belirlenmiş bir yükümlülüktür.</p>
 
-  <section id="ayetler">
-    <h2>Tam Ayetler ve Tam Türkçe Anlam</h2>
-    <p class="muted">Bu bölüm ilk çekirdektir. Ayetler kesilmeden verildi; Türkçe anlam da cümle seçilerek değil, ayetin tamamını karşılayacak biçimde kondu. Türkçe anlam yardımcı katmandır; kanıt Arapça lafızdır.</p>
-    <div class="toolbar" role="toolbar" aria-label="Ayet filtreleri">
-      <button type="button" data-filter="all" aria-pressed="true">Hepsi</button>
-      <button type="button" data-filter="hazirlik">Hazırlık</button>
-      <button type="button" data-filter="beden">Beden</button>
-      <button type="button" data-filter="okuma">Okuma/Zikir</button>
-      <button type="button" data-filter="topluluk">Topluluk</button>
-    </div>
-    <div class="verse-grid">
-      <article class="verse-card" data-group="beden topluluk">
-        <span class="verse-ref">2:43</span>
-        <div class="arabic">وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Salâtı ikame edin, zekâtı verin ve rükû edenlerle birlikte rükû edin.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâtın ikamesi, zekât ve “rükû edenlerle rükû” aynı emir dizisindedir.</p>
-      </article>
-      <article class="verse-card" data-group="beden">
-        <span class="verse-ref">2:238</span>
-        <div class="arabic">حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ وَقُومُوا لِلَّهِ قَانِتِينَ</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Salâtları ve Salâtü'l-Vustâ'yı koruyun; Allah için gönülden boyun eğenler olarak kıyam edin.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâtların korunması ve Allah için kânitîn olarak kıyam emri aynı ayettedir.</p>
-      </article>
-      <article class="verse-card" data-group="hazirlik okuma">
-        <span class="verse-ref">4:43</span>
-        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَقْرَبُوا الصَّلَاةَ وَأَنتُمْ سُكَارَىٰ حَتَّىٰ تَعْلَمُوا مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِي سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا ۚ وَإِن كُنتُم مَّرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِّنكُم مِّنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ اللَّهَ كَانَ عَفُوًّا غَفُورًا</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Sarhoşken, ne söylediğinizi bilinceye kadar salâta yaklaşmayın; cünüpken de, yol geçicileri olmanız dışında, yıkanıncaya kadar yaklaşmayın. Eğer hasta olur veya yolculukta bulunursanız yahut sizden biri tuvaletten gelirse veya kadınlarla temas etmişseniz ve su bulamazsanız, temiz bir yüzeye yönelin; yüzlerinizi ve ellerinizi meshedin. Şüphesiz Allah çok affedici, çok bağışlayıcıdır.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâta yaklaşma yasağı bilinç ve temizlik şartlarıyla bağlanır.</p>
-      </article>
-      <article class="verse-card" data-group="topluluk beden">
-        <span class="verse-ref">4:102</span>
-        <div class="arabic">وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ الصَّلَاةَ فَلْتَقُمْ طَائِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوا أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا فَلْيَكُونُوا مِن وَرَائِكُمْ وَلْتَأْتِ طَائِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا فَلْيُصَلُّوا مَعَكَ وَلْيَأْخُذُوا حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ الَّذِينَ كَفَرُوا لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةً وَاحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰ أَن تَضَعُوا أَسْلِحَتَكُمْ ۖ وَخُذُوا حِذْرَكُمْ ۗ إِنَّ اللَّهَ أَعَدَّ لِلْكَافِرِينَ عَذَابًا مُّهِينًا</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Sen onların içinde olup onlar için salâtı ikame ettiğinde, onlardan bir grup seninle birlikte kalksın ve silahlarını alsınlar. Secde ettiklerinde arkanızda olsunlar. Salât etmemiş diğer grup gelsin; seninle birlikte salât etsinler; tedbirlerini ve silahlarını alsınlar. Küfre sapanlar isterler ki silahlarınızdan ve eşyalarınızdan habersiz kalasınız da üzerinize tek bir hamleyle yüklensinler. Yağmurdan bir eziyetiniz varsa veya hasta iseniz silahlarınızı bırakmanızda size günah yoktur; yine de tedbirinizi alın. Şüphesiz Allah kâfirler için alçaltıcı bir azap hazırlamıştır.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salât sahnesinde grup, beraberlik, kalkma ve secde ifadeleri bulunur.</p>
-      </article>
-      <article class="verse-card" data-group="hazirlik">
-        <span class="verse-ref">5:6</span>
-        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَاطَّهَّرُوا ۚ وَإِن كُنتُم مَّرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِّنكُم مِّنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ اللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَـٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Salâta kalktığınız zaman yüzlerinizi ve dirseklere kadar ellerinizi yıkayın; başlarınızı mesh edin; ayaklarınızı da iki topuğa kadar temizleyin. Eğer cünüp iseniz temizlenin. Eğer hasta veya yolculukta iseniz yahut sizden biri tuvaletten gelirse veya kadınlarla temas etmişseniz ve su bulamazsanız, temiz bir yüzeye yönelin; ondan yüzlerinizi ve ellerinizi meshedin. Allah size bir güçlük kılmak istemez; fakat sizi temizlemek ve üzerinizdeki nimetini tamamlamak ister; umulur ki şükredersiniz.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâta kalkış bağlamında yüz, eller, baş ve ayaklar için temizlik/mesh düzeni verilir. Ayak ifadesinin ayrıntılı dilbilgisi ayrıca denetlenecek açık alt başlıktır.</p>
-      </article>
-      <article class="verse-card" data-group="okuma">
-        <span class="verse-ref">17:78</span>
-        <div class="arabic">أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ غَسَقِ اللَّيْلِ وَقُرْآنَ الْفَجْرِ ۖ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Güneşin dülûkünden gecenin ğasaqına kadar salâtı ikame et; bir de Kur'ân'el-fecr'i. Şüphesiz Kur'ân'el-fecr tanıklıdır.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag infer">Bağlam çıkarımı</span> Salât emri ve Kur'ân'el-fecr aynı vakit pasajında yer alır; okuma boyutu güçlüdür.</p>
-      </article>
-      <article class="verse-card" data-group="okuma">
-        <span class="verse-ref">17:110</span>
-        <div class="arabic">قُلِ ادْعُوا اللَّهَ أَوِ ادْعُوا الرَّحْمَـٰنَ ۖ أَيًّا مَّا تَدْعُوا فَلَهُ الْأَسْمَاءُ الْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> De ki: Allah diye çağırın veya Rahmân diye çağırın; hangisiyle çağırırsanız, en güzel isimler O'nundur. Salâtında sesini yükseltme, onu tamamen kısma da; ikisi arasında bir yol ara.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salât için ses seviyesinde orta yol verilir.</p>
-      </article>
-      <article class="verse-card" data-group="beden">
-        <span class="verse-ref">22:77</span>
-        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Rükû edin, secde edin, Rabbinize kulluk edin ve hayır işleyin; umulur ki kurtuluşa erersiniz.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Rükû ve secde müminlere doğrudan emir olarak gelir.</p>
-      </article>
-      <article class="verse-card" data-group="okuma topluluk">
-        <span class="verse-ref">62:9-10</span>
-        <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا نُودِيَ لِلصَّلَاةِ مِن يَوْمِ الْجُمُعَةِ فَاسْعَوْا إِلَىٰ ذِكْرِ اللَّهِ وَذَرُوا الْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ<br>فَإِذَا قُضِيَتِ الصَّلَاةُ فَانتَشِرُوا فِي الْأَرْضِ وَابْتَغُوا مِن فَضْلِ اللَّهِ وَاذْكُرُوا اللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ</div>
-        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Cuma günü salât için çağrıldığında Allah'ın zikrine koşun ve alışverişi bırakın. Eğer bilirseniz bu sizin için daha hayırlıdır. Salât tamamlandığında yeryüzüne dağılın, Allah'ın lütfundan arayın ve Allah'ı çok zikredin; umulur ki kurtuluşa erersiniz.</p>
-        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
-        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Cuma günü salâta çağrı, Allah'ın zikrine yönelme, alışverişi bırakma ve salât bitince dağılma açıkça geçer.</p>
-      </article>
-    </div>
-  </section>
+<a class="source-link" href="https://tanzil.net/#4:103" target="_blank" rel="noopener">Nisâ 103 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="ahlak"><div class="topic-head"><h2>8. Huşû, süreklilik ve ahlâk</h2><span class="tag">Doğrudan lafız / bağlam çıkarımı</span><p>Salâtı koruma ve sürdürme, huşû, gösterişten kaçınma ve başkalarının hakkını gözetme birlikte görünür. Salâtın dış biçimini, ahlâkî bağlamından koparmıyoruz.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Mü'minûn 1–11, Mâûn 1–7 ve Meâric 19–35 bütün pasaj olarak verildi. Böylece salâtla birlikte anılan yetim, yoksul, emanet, ahit ve tanıklık konuları dışarıda bırakılmadı. Meryem 59'daki eleştiri, Meryem 60'taki tövbe istisnasıyla birlikte verildi. Mâûn 5'te eleştiri &quot;salâtlarından&quot; gaflettir; bunu yalnız salât sırasında akla gelen düşünceler diye daraltmıyoruz. Meâric 23'te süreklilik vardır; kesintisiz fiziksel hareket veya belirli vakit sayısı sonucu çıkarmıyoruz.</p></div><div class="verse-list"><article class="verse-card" id="ayet-23-1" data-key="23:1">
+<h3>Mü'minûn 1</h3>
+<p class="arabic" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ قَدْ أَفْلَحَ ٱلْمُؤْمِنُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Rahmân ve Rahîm Allah'ın adıyla. Müminler gerçekten kurtuluşa ermiştir.</p>
 
-  <section id="kokler">
-    <h2>Kök Taraması İçin İlk Sepet</h2>
-    <p class="muted">Aşağıdaki sayılar, morfolojik etiketli tarama dosyasından teknik ön sayımdır. Anlam hükmü değildir; 6.1 Sol denetiminde her geçiş Kur'ân içi bağlamla tek tek ayrılmalıdır.</p>
-    <table>
-      <thead>
-        <tr>
-          <th>Alan</th>
-          <th>Kök etiketi</th>
-          <th>Teknik geçiş</th>
-          <th>Ayet sayısı</th>
-          <th>Bu projedeki işlev</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td>Salât</td><td>ص ل و</td><td>99</td><td>90</td><td>Salât kullanımlarını ibadet, destek/dua ve Allah/melek salâtı diye ayırmak.</td></tr>
-        <tr><td>Kıyam</td><td>ق و م</td><td>660</td><td>597</td><td>Genel “kalkmak/ikame” alanından salât bağlamını izole etmek.</td></tr>
-        <tr><td>Rükû</td><td>ر ك ع</td><td>13</td><td>10</td><td>Rükûnun salât, mescid ve mümin emri bağlamlarını ayırmak.</td></tr>
-        <tr><td>Secde</td><td>س ج د</td><td>92</td><td>81</td><td>Secdeyi genel kozmik/itaat kullanımlarından salât içi kullanıma ayırmak.</td></tr>
-        <tr><td>Okuma</td><td>ق ر أ</td><td>88</td><td>79</td><td>Kur'ân okuma ve Kur'ân'el-fecr bağlantısını test etmek.</td></tr>
-        <tr><td>Zikir</td><td>ذ ك ر</td><td>292</td><td>264</td><td>Zikir ile salâtı eşitlemeden, bağlantı noktalarını çıkarmak.</td></tr>
-        <tr><td>Taharet</td><td>ط ه ر</td><td>31</td><td>26</td><td>Temizlik, arınma ve salât hazırlığı ilişkisini ayırmak.</td></tr>
-        <tr><td>Gusül</td><td>غ س ل</td><td>4</td><td>4</td><td>4:43 ve 5:6'daki cünüplük/arınma alanını netleştirmek.</td></tr>
-        <tr><td>Mesh</td><td>م س ح</td><td>4</td><td>3</td><td>4:43 ve 5:6'daki yüz/el/baş/ayak temasını incelemek.</td></tr>
-        <tr><td>Teyemmüm</td><td>ي م م</td><td>11</td><td>10</td><td>Su yokluğu ve temiz zemin yönelimi bağlamını ayırmak.</td></tr>
-        <tr><td>Kıble/yön</td><td>ق ب ل + و ج ه</td><td>372</td><td>353</td><td>Yüzü/yönü çevirmek ile salât yön düzeni arasındaki ilişkiyi test etmek.</td></tr>
-        <tr><td>Çağrı/toplanma</td><td>ن د و + ج م ع</td><td>182</td><td>173</td><td>Cuma salâtı, çağrı ve topluluk düzenini ayırmak.</td></tr>
-        <tr><td>Korku/sefer</td><td>خ و ف + ض ر ب + س ف ر</td><td>194</td><td>178</td><td>Salâtın olağan ve olağan dışı koşullardaki esnemesini test etmek.</td></tr>
-        <tr><td>Vakit</td><td>و ق ت</td><td>13</td><td>13</td><td>4:103'teki “kitâben mevkûtâ” ifadesini genel vakit alanıyla karşılaştırmak.</td></tr>
-      </tbody>
-    </table>
-  </section>
+<a class="source-link" href="https://tanzil.net/#23:1" target="_blank" rel="noopener">Mü'minûn 1 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-2" data-key="23:2">
+<h3>Mü'minûn 2</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ هُمْ فِى صَلَاتِهِمْ خَـٰشِعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, salâtlarında huşû duyanlardır.</p>
 
-  <section id="denetim">
-    <h2>Denetim Soruları</h2>
-    <div class="grid two">
-      <article class="card">
-        <h3>İlk 6.1 Sol turu</h3>
-        <p>Her kökün tüm geçişleri listelenecek. Salât ile doğrudan bağlantılı, dolaylı bağlantılı ve bağlantısız kullanımlar ayrı işaretlenecek.</p>
-      </article>
-      <article class="card">
-        <h3>Beklenen çıktı</h3>
-        <p>“Kur'ân salâtın şu unsurlarını zorunlu tutuyor; şu unsurlarını çıkarım olarak taşıyor; şu teknik ayrıntıları açık bırakıyor” şeklinde kilitlenebilir bir tablo.</p>
-      </article>
-    </div>
-  </section>
+<a class="source-link" href="https://tanzil.net/#23:2" target="_blank" rel="noopener">Mü'minûn 2 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-3" data-key="23:3">
+<h3>Mü'minûn 3</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ عَنِ ٱللَّغْوِ مُعْرِضُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, boş söz ve işten yüz çevirenlerdir.</p>
 
-  <section class="footer">
-    <p>Not: Bu sayfa hüküm kilidi değil, araştırma iskeletidir. Nihai dil, tam kök listesi ve karşı okuma turundan sonra sıkılaştırılmalıdır.</p>
-  </section>
-</main>
+<a class="source-link" href="https://tanzil.net/#23:3" target="_blank" rel="noopener">Mü'minûn 3 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-4" data-key="23:4">
+<h3>Mü'minûn 4</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ لِلزَّكَوٰةِ فَـٰعِلُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, zekât için çalışanlardır.</p>
 
+<a class="source-link" href="https://tanzil.net/#23:4" target="_blank" rel="noopener">Mü'minûn 4 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-5" data-key="23:5">
+<h3>Mü'minûn 5</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, mahrem yerlerini koruyanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#23:5" target="_blank" rel="noopener">Mü'minûn 5 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-6" data-key="23:6">
+<h3>Mü'minûn 6</h3>
+<p class="arabic" lang="ar" dir="rtl">إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Eşleri veya sağ ellerinin sahip oldukları dışında; çünkü onlar [bu durumda] kınanmazlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#23:6" target="_blank" rel="noopener">Mü'minûn 6 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-7" data-key="23:7">
+<h3>Mü'minûn 7</h3>
+<p class="arabic" lang="ar" dir="rtl">فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kim bunun ötesini isterse, işte onlar sınırı aşanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#23:7" target="_blank" rel="noopener">Mü'minûn 7 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-8" data-key="23:8">
+<h3>Mü'minûn 8</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, emanetlerine ve ahitlerine riayet edenlerdir.</p>
+
+<a class="source-link" href="https://tanzil.net/#23:8" target="_blank" rel="noopener">Mü'minûn 8 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-9" data-key="23:9">
+<h3>Mü'minûn 9</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ عَلَىٰ صَلَوَٰتِهِمْ يُحَافِظُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, salâtlarını koruyanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#23:9" target="_blank" rel="noopener">Mü'minûn 9 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-10" data-key="23:10">
+<h3>Mü'minûn 10</h3>
+<p class="arabic" lang="ar" dir="rtl">أُو۟لَـٰٓئِكَ هُمُ ٱلْوَٰرِثُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>İşte onlar mirasçılardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#23:10" target="_blank" rel="noopener">Mü'minûn 10 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-23-11" data-key="23:11">
+<h3>Mü'minûn 11</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ يَرِثُونَ ٱلْفِرْدَوْسَ هُمْ فِيهَا خَـٰلِدُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Firdevs'e mirasçı olanlar; onlar orada kalıcıdırlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#23:11" target="_blank" rel="noopener">Mü'minûn 11 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-4-142" data-key="4:142">
+<h3>Nisâ 142</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّ ٱلْمُنَـٰفِقِينَ يُخَـٰدِعُونَ ٱللَّهَ وَهُوَ خَـٰدِعُهُمْ وَإِذَا قَامُوٓا۟ إِلَى ٱلصَّلَوٰةِ قَامُوا۟ كُسَالَىٰ يُرَآءُونَ ٱلنَّاسَ وَلَا يَذْكُرُونَ ٱللَّهَ إِلَّا قَلِيلًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Münafıklar Allah'ı aldatmaya çalışırlar; O da onları aldatandır. Salâta kalktıklarında üşenerek kalkarlar, insanlara gösteriş yaparlar ve Allah'ı pek az anarlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#4:142" target="_blank" rel="noopener">Nisâ 142 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-9-54" data-key="9:54">
+<h3>Tevbe 54</h3>
+<p class="arabic" lang="ar" dir="rtl">وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَـٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَـٰرِهُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Harcamalarının onlardan kabul edilmesini engelleyen, Allah'ı ve elçisini inkâr etmeleri, salâta ancak üşenerek gelmeleri ve ancak istemeye istemeye harcamalarıdır.</p>
+
+<a class="source-link" href="https://tanzil.net/#9:54" target="_blank" rel="noopener">Tevbe 54 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-19-59" data-key="19:59">
+<h3>Meryem 59</h3>
+<p class="arabic" lang="ar" dir="rtl">فَخَلَفَ مِنۢ بَعْدِهِمْ خَلْفٌ أَضَاعُوا۟ ٱلصَّلَوٰةَ وَٱتَّبَعُوا۟ ٱلشَّهَوَٰتِ ۖ فَسَوْفَ يَلْقَوْنَ غَيًّا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlardan sonra salâtı zayi eden ve arzularına uyan bir nesil geldi. Onlar sapmanın karşılığıyla karşılaşacaklar.</p>
+
+<a class="source-link" href="https://tanzil.net/#19:59" target="_blank" rel="noopener">Meryem 59 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-19-60" data-key="19:60">
+<h3>Meryem 60</h3>
+<p class="arabic" lang="ar" dir="rtl">إِلَّا مَن تَابَ وَءَامَنَ وَعَمِلَ صَـٰلِحًا فَأُو۟لَـٰٓئِكَ يَدْخُلُونَ ٱلْجَنَّةَ وَلَا يُظْلَمُونَ شَيْـًٔا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ancak tövbe eden, iman eden ve iyi iş yapanlar başka; işte onlar cennete girerler ve hiçbir haksızlığa uğratılmazlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#19:60" target="_blank" rel="noopener">Meryem 60 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-107-1" data-key="107:1">
+<h3>Mâûn 1</h3>
+<p class="arabic" lang="ar" dir="rtl">بِسْمِ ٱللَّهِ ٱلرَّحْمَـٰنِ ٱلرَّحِيمِ أَرَءَيْتَ ٱلَّذِى يُكَذِّبُ بِٱلدِّينِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Rahmân ve Rahîm Allah'ın adıyla. Dini [hesap ve karşılığı] yalanlayanı gördün mü?</p>
+
+<a class="source-link" href="https://tanzil.net/#107:1" target="_blank" rel="noopener">Mâûn 1 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-107-2" data-key="107:2">
+<h3>Mâûn 2</h3>
+<p class="arabic" lang="ar" dir="rtl">فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>İşte o, yetimi itip kakandır.</p>
+
+<a class="source-link" href="https://tanzil.net/#107:2" target="_blank" rel="noopener">Mâûn 2 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-107-3" data-key="107:3">
+<h3>Mâûn 3</h3>
+<p class="arabic" lang="ar" dir="rtl">وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Yoksulu doyurmaya teşvik etmez.</p>
+
+<a class="source-link" href="https://tanzil.net/#107:3" target="_blank" rel="noopener">Mâûn 3 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-107-4" data-key="107:4">
+<h3>Mâûn 4</h3>
+<p class="arabic" lang="ar" dir="rtl">فَوَيْلٌ لِّلْمُصَلِّينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Yazıklar olsun o salât edenlere!</p>
+
+<a class="source-link" href="https://tanzil.net/#107:4" target="_blank" rel="noopener">Mâûn 4 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-107-5" data-key="107:5">
+<h3>Mâûn 5</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ هُمْ عَن صَلَاتِهِمْ سَاهُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, salâtlarından gaflet içindedirler.</p>
+
+<a class="source-link" href="https://tanzil.net/#107:5" target="_blank" rel="noopener">Mâûn 5 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-107-6" data-key="107:6">
+<h3>Mâûn 6</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ هُمْ يُرَآءُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, gösteriş yaparlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#107:6" target="_blank" rel="noopener">Mâûn 6 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-107-7" data-key="107:7">
+<h3>Mâûn 7</h3>
+<p class="arabic" lang="ar" dir="rtl">وَيَمْنَعُونَ ٱلْمَاعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ve yardımı esirgerler.</p>
+
+<a class="source-link" href="https://tanzil.net/#107:7" target="_blank" rel="noopener">Mâûn 7 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-19" data-key="70:19">
+<h3>Meâric 19</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّ ٱلْإِنسَـٰنَ خُلِقَ هَلُوعًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Şüphesiz insan çok sabırsız yaratılmıştır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:19" target="_blank" rel="noopener">Meâric 19 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-20" data-key="70:20">
+<h3>Meâric 20</h3>
+<p class="arabic" lang="ar" dir="rtl">إِذَا مَسَّهُ ٱلشَّرُّ جَزُوعًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kendisine kötülük dokunduğunda sızlanır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:20" target="_blank" rel="noopener">Meâric 20 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-21" data-key="70:21">
+<h3>Meâric 21</h3>
+<p class="arabic" lang="ar" dir="rtl">وَإِذَا مَسَّهُ ٱلْخَيْرُ مَنُوعًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kendisine iyilik dokunduğunda onu esirger.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:21" target="_blank" rel="noopener">Meâric 21 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-22" data-key="70:22">
+<h3>Meâric 22</h3>
+<p class="arabic" lang="ar" dir="rtl">إِلَّا ٱلْمُصَلِّينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Salât edenler dışında.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:22" target="_blank" rel="noopener">Meâric 22 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-23" data-key="70:23">
+<h3>Meâric 23</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ دَآئِمُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, salâtlarını sürdürenlerdir.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:23" target="_blank" rel="noopener">Meâric 23 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-24" data-key="70:24">
+<h3>Meâric 24</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ فِىٓ أَمْوَٰلِهِمْ حَقٌّ مَّعْلُومٌ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onların mallarında belirli bir hak vardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:24" target="_blank" rel="noopener">Meâric 24 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-25" data-key="70:25">
+<h3>Meâric 25</h3>
+<p class="arabic" lang="ar" dir="rtl">لِّلسَّآئِلِ وَٱلْمَحْرُومِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>İsteyen ve yoksun kalan için.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:25" target="_blank" rel="noopener">Meâric 25 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-26" data-key="70:26">
+<h3>Meâric 26</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ يُصَدِّقُونَ بِيَوْمِ ٱلدِّينِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, hesap gününü doğrulayanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:26" target="_blank" rel="noopener">Meâric 26 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-27" data-key="70:27">
+<h3>Meâric 27</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, Rablerinin azabından kaygı duyanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:27" target="_blank" rel="noopener">Meâric 27 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-28" data-key="70:28">
+<h3>Meâric 28</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّ عَذَابَ رَبِّهِمْ غَيْرُ مَأْمُونٍ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Çünkü Rablerinin azabından güvende olunmaz.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:28" target="_blank" rel="noopener">Meâric 28 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-29" data-key="70:29">
+<h3>Meâric 29</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, mahrem yerlerini koruyanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:29" target="_blank" rel="noopener">Meâric 29 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-30" data-key="70:30">
+<h3>Meâric 30</h3>
+<p class="arabic" lang="ar" dir="rtl">إِلَّا عَلَىٰٓ أَزْوَٰجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Eşleri veya sağ ellerinin sahip oldukları dışında; çünkü onlar [bu durumda] kınanmazlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:30" target="_blank" rel="noopener">Meâric 30 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-31" data-key="70:31">
+<h3>Meâric 31</h3>
+<p class="arabic" lang="ar" dir="rtl">فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Kim bunun ötesini isterse, işte onlar sınırı aşanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:31" target="_blank" rel="noopener">Meâric 31 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-32" data-key="70:32">
+<h3>Meâric 32</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ لِأَمَـٰنَـٰتِهِمْ وَعَهْدِهِمْ رَٰعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, emanetlerine ve ahitlerine riayet edenlerdir.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:32" target="_blank" rel="noopener">Meâric 32 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-33" data-key="70:33">
+<h3>Meâric 33</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُم بِشَهَـٰدَٰتِهِمْ قَآئِمُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, tanıklıklarını yerine getirenlerdir.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:33" target="_blank" rel="noopener">Meâric 33 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-34" data-key="70:34">
+<h3>Meâric 34</h3>
+<p class="arabic" lang="ar" dir="rtl">وَٱلَّذِينَ هُمْ عَلَىٰ صَلَاتِهِمْ يُحَافِظُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, salâtlarını koruyanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:34" target="_blank" rel="noopener">Meâric 34 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-70-35" data-key="70:35">
+<h3>Meâric 35</h3>
+<p class="arabic" lang="ar" dir="rtl">أُو۟لَـٰٓئِكَ فِى جَنَّـٰتٍ مُّكْرَمُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>İşte onlar, cennetlerde ağırlanırlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#70:35" target="_blank" rel="noopener">Meâric 35 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="ayrim"><div class="topic-head"><h2>9. Her salât kullanımı aynı değildir</h2><span class="tag">Bağlam çıkarımı</span><p>Allah'ın ve meleklerin salâtı, bir kişinin başkaları üzerine salâtı ve insanın ikame ettiği salât aynı biçimde tarif edilmez. Tesbîh ve zikir de otomatik olarak salâtla eşitlenmez.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Bakara 155–157, Tevbe 103 ve Ahzâb 43, 56'daki &quot;üzerine salât&quot; kullanımlarını hareketli ibadet biçimine dönüştürmüyoruz. Bu ifadeleri mealde doğrudan &quot;destek&quot; diye değiştirip anlamı kapatmıyoruz. Tevbe 83–84 belirli bir grup ve ölenler üzerine salât bağlamıdır; buradan günlük salât veya ayrıntılı cenaze uygulaması tarifi çıkarmıyoruz. Nûr 36–37 tesbîh, zikir ve salâtı ayrı ifadelerle verir; özdeşlik kurulmaz ama ilişkileri de reddedilmez. Enfâl 35'te eleştirilen uygulamayı olumlu bir salât tarifi saymıyoruz.</p></div><div class="verse-list"><article class="verse-card" id="ayet-2-155" data-key="2:155">
+<h3>Bakara 155</h3>
+<p class="arabic" lang="ar" dir="rtl">وَلَنَبْلُوَنَّكُم بِشَىْءٍ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّـٰبِرِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Sizi biraz korku, açlık, mallardan, canlardan ve ürünlerden eksiltmeyle mutlaka sınayacağız. Sabredenleri müjdele.</p>
+
+<a class="source-link" href="https://tanzil.net/#2:155" target="_blank" rel="noopener">Bakara 155 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-156" data-key="2:156">
+<h3>Bakara 156</h3>
+<p class="arabic" lang="ar" dir="rtl">ٱلَّذِينَ إِذَآ أَصَـٰبَتْهُم مُّصِيبَةٌ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlar, kendilerine bir musibet geldiğinde, &quot;Biz Allah'a aidiz ve O'na döneceğiz&quot; derler.</p>
+
+<a class="source-link" href="https://tanzil.net/#2:156" target="_blank" rel="noopener">Bakara 156 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-2-157" data-key="2:157">
+<h3>Bakara 157</h3>
+<p class="arabic" lang="ar" dir="rtl">أُو۟لَـٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌ مِّن رَّبِّهِمْ وَرَحْمَةٌ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>İşte onların üzerine Rablerinden salâtlar ve rahmet vardır. İşte onlar yol bulanlardır.</p>
+
+<a class="source-link" href="https://tanzil.net/#2:157" target="_blank" rel="noopener">Bakara 157 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-9-103" data-key="9:103">
+<h3>Tevbe 103</h3>
+<p class="arabic" lang="ar" dir="rtl">خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌ لَّهُمْ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onların mallarından, kendilerini arındıracağın ve temizleyeceğin bir sadaka al; üzerlerine salât et. Şüphesiz senin salâtın onlar için huzurdur. Allah işitendir, bilendir.</p>
+
+<a class="source-link" href="https://tanzil.net/#9:103" target="_blank" rel="noopener">Tevbe 103 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-33-43" data-key="33:43">
+<h3>Ahzâb 43</h3>
+<p class="arabic" lang="ar" dir="rtl">هُوَ ٱلَّذِى يُصَلِّى عَلَيْكُمْ وَمَلَـٰٓئِكَتُهُۥ لِيُخْرِجَكُم مِّنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَكَانَ بِٱلْمُؤْمِنِينَ رَحِيمًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Sizi karanlıklardan aydınlığa çıkarmak için üzerinize salât eden, O ve melekleridir. O, müminlere karşı merhametlidir.</p>
+
+<a class="source-link" href="https://tanzil.net/#33:43" target="_blank" rel="noopener">Ahzâb 43 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-33-56" data-key="33:56">
+<h3>Ahzâb 56</h3>
+<p class="arabic" lang="ar" dir="rtl">إِنَّ ٱللَّهَ وَمَلَـٰٓئِكَتَهُۥ يُصَلُّونَ عَلَى ٱلنَّبِىِّ ۚ يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ صَلُّوا۟ عَلَيْهِ وَسَلِّمُوا۟ تَسْلِيمًا</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Şüphesiz Allah ve melekleri peygambere salât ederler. Ey iman edenler! Siz de ona salât edin ve tam bir selâmla selâm verin.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Salât ve selâm emirleri vardır. Selâm/teslimiyet alanının ayrıntılı anlam ilişkisi ayrı bir Kur'ân içi inceleme ister; buradan sabit bir salât içi formül çıkarmıyoruz.</p>
+<a class="source-link" href="https://tanzil.net/#33:56" target="_blank" rel="noopener">Ahzâb 56 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-9-83" data-key="9:83">
+<h3>Tevbe 83</h3>
+<p class="arabic" lang="ar" dir="rtl">فَإِن رَّجَعَكَ ٱللَّهُ إِلَىٰ طَآئِفَةٍ مِّنْهُمْ فَٱسْتَـْٔذَنُوكَ لِلْخُرُوجِ فَقُل لَّن تَخْرُجُوا۟ مَعِىَ أَبَدًا وَلَن تُقَـٰتِلُوا۟ مَعِىَ عَدُوًّا ۖ إِنَّكُمْ رَضِيتُم بِٱلْقُعُودِ أَوَّلَ مَرَّةٍ فَٱقْعُدُوا۟ مَعَ ٱلْخَـٰلِفِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Allah seni onlardan bir topluluğun yanına döndürür de onlar [seninle] çıkmak için izin isterlerse de ki: Benimle asla çıkmayacaksınız ve benimle bir düşmana karşı savaşmayacaksınız. Çünkü ilk seferinde oturup kalmaya razı oldunuz. Öyleyse geride kalanlarla birlikte oturun.</p>
+
+<a class="source-link" href="https://tanzil.net/#9:83" target="_blank" rel="noopener">Tevbe 83 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-9-84" data-key="9:84">
+<h3>Tevbe 84</h3>
+<p class="arabic" lang="ar" dir="rtl">وَلَا تُصَلِّ عَلَىٰٓ أَحَدٍ مِّنْهُم مَّاتَ أَبَدًا وَلَا تَقُمْ عَلَىٰ قَبْرِهِۦٓ ۖ إِنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَمَاتُوا۟ وَهُمْ فَـٰسِقُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onlardan ölen hiçbirinin üzerine asla salât etme ve kabrinin başında durma. Çünkü onlar Allah'ı ve elçisini inkâr ettiler ve yoldan çıkmış olarak öldüler.</p>
+
+<a class="source-link" href="https://tanzil.net/#9:84" target="_blank" rel="noopener">Tevbe 84 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-24-36" data-key="24:36">
+<h3>Nûr 36</h3>
+<p class="arabic" lang="ar" dir="rtl">فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْـَٔاصَالِ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Allah'ın yükseltilmesine ve içlerinde adının anılmasına izin verdiği evlerde, sabah ve akşam O'nu tesbîh ederler.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Tesbîh zamanı dil verisidir; bu ayetteki sabah/akşam ifadeleri bağımsız bir salât sayımına katılmaz.</p>
+<a class="source-link" href="https://tanzil.net/#24:36" target="_blank" rel="noopener">Nûr 36 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-24-37" data-key="24:37">
+<h3>Nûr 37</h3>
+<p class="arabic" lang="ar" dir="rtl">رِجَالٌ لَّا تُلْهِيهِمْ تِجَـٰرَةٌ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَـٰرُ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Öyle erkekler ki ne ticaret ne alışveriş onları Allah'ı anmaktan, salâtı ikame etmekten ve zekât vermekten alıkoyar. Kalplerin ve gözlerin altüst olacağı bir günden korkarlar.</p>
+
+<a class="source-link" href="https://tanzil.net/#24:37" target="_blank" rel="noopener">Nûr 37 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-8-35" data-key="8:35">
+<h3>Enfâl 35</h3>
+<p class="arabic" lang="ar" dir="rtl">وَمَا كَانَ صَلَاتُهُمْ عِندَ ٱلْبَيْتِ إِلَّا مُكَآءً وَتَصْدِيَةً ۚ فَذُوقُوا۟ ٱلْعَذَابَ بِمَا كُنتُمْ تَكْفُرُونَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Onların evin yanındaki salâtı, mükâ ve tasdiyeden başka bir şey değildi. İnkâr etmekte olduğunuz için azabı tadın.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Mükâ ve tasdiye lafızları korunmuştur. Bu iki lafza &quot;ıslık&quot; ve &quot;el çırpma&quot; anlamı verecek yeterli Kur'ân içi karşılaştırma bu çalışmada yoktur; dış sözlük karşılığı kanıt yapılmaz.</p>
+<a class="source-link" href="https://tanzil.net/#8:35" target="_blank" rel="noopener">Enfâl 35 · Kaynak metni aç</a>
+</article></div></section>
+<section class="topic" id="vakit-bagi"><div class="topic-head"><h2>10. Vakit ayetleriyle bağlantı</h2><span class="tag">Doğrudan lafız / açık</span><p>Bu sayfa salâtın içeriğine odaklanır. Vakit ayetleriyle bağ korunur; burada yeni bir vakit sayımı veya saat hesabı yapılmaz.</p><p class="topic-note"><strong>Kanıtın sınırı:</strong> Hûd 114'te tarafeyi'n-nehâr ve zülefen mine'l-leyl vardır. Nûr 58'de Salâtü'l-Fecr ve Salâtü'l-İşâ adları geçer; aynı ayetteki üç izin/mahremiyet aralığını üç salât adı diye sunmuyoruz. Fecr eşlemesi, dülûk, ğasaq ve saat sınırları için önceki Vakit Atlası ayrı kalır; onun ana sonucu bu güncellemeyle değiştirilmedi. Diğer dayanaklar: <a href="#ayet-17-78">İsrâ 78</a>, <a href="#ayet-4-103">Nisâ 103</a>.</p></div><div class="verse-list"><article class="verse-card" id="ayet-11-114" data-key="11:114">
+<h3>Hûd 114</h3>
+<p class="arabic" lang="ar" dir="rtl">وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًا مِّنَ ٱلَّيْلِ ۚ إِنَّ ٱلْحَسَنَـٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ۚ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Gündüzün iki tarafında ve gecenin yakın kesimlerinde salâtı ikame et. Şüphesiz iyilikler kötülükleri giderir. Bu, hatırlayanlar için bir hatırlatmadır.</p>
+
+<a class="source-link" href="https://tanzil.net/#11:114" target="_blank" rel="noopener">Hûd 114 · Kaynak metni aç</a>
+</article>
+<article class="verse-card" id="ayet-24-58" data-key="24:58">
+<h3>Nûr 58</h3>
+<p class="arabic" lang="ar" dir="rtl">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَـٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَـٰثَ مَرَّٰتٍ ۚ مِّن قَبْلِ صَلَوٰةِ ٱلْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ ٱلْعِشَآءِ ۚ ثَلَـٰثُ عَوْرَٰتٍ لَّكُمْ ۚ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ ۚ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ</p>
+<p class="meal"><strong>Tam çalışma meali</strong>Ey iman edenler! Sağ ellerinizin sahip oldukları ve sizden henüz ergenliğe ulaşmamış olanlar, üç kez sizden izin istesinler: Salâtü'l-Fecr'den önce, öğle sıcağında giysilerinizi çıkardığınızda ve Salâtü'l-İşâ'dan sonra. Bunlar sizin için üç mahremiyet vaktidir. Bunların dışında size de onlara da bir günah yoktur; birbirinizin yanında dolaşır durursunuz. Allah ayetleri size böyle açıklar. Allah bilendir, hikmet sahibidir.</p>
+<p class="reading-note"><strong>Okuma notu:</strong> Üç sayısı izin istenecek mahremiyet zamanlarına aittir. Öğle aralığı burada bir salât adıyla verilmemiştir.</p>
+<a class="source-link" href="https://tanzil.net/#24:58" target="_blank" rel="noopener">Nûr 58 · Kaynak metni aç</a>
+</article></div></section>
+<section id="acik"><h2>Henüz cevaplanmayan sorular</h2><ul class="plain-list"><li><strong>Hareket sırası ve tekrar:</strong> Nisâ 102 bir grup düzeni anlatır; iki grup, iki rekât demek değildir. Âl-i İmrân 43 ve Hac 77'deki emir dizilerini doğrudan tek bir zorunlu sıraya çevirmiyoruz.</li><li><strong>Sabit okunacak metin:</strong> Müzzemmil 20 kolay geleni okumayı söyler; bunu her salâtta belirli bir sure veya formülün zorunlu olduğunun kanıtı yapmıyoruz. Fâtiha'nın ya da başka bir metnin zorunluluğu konusunda burada sonuç kurulmadı.</li><li><strong>Temizlikte ayrıntılar:</strong> Mâide 6'da ayakların bağlı olduğu emir, Nisâ 43'te yol geçicileri istisnası ve iki ayetteki kadınlarla temas ifadesinin kapsamı ayrıca Kur'ân içi dil incelemesi ister.</li><li><strong>Genelleme sınırı:</strong> Mûsâ'ya, Meryem'e veya elçiye yönelmiş bir hitabı bütün salâtların aynı biçimde yapılması kuralına dönüştürmek ayrıca gerekçe ister.</li><li><strong>Cemaat ve çağrı:</strong> Toplu uygulama ve çağrı vardır; bütün salâtlar için cemaat zorunluluğu, çağrının sabit sözleri ve ayrıntılı cuma düzeni bu seçkiden tek başına kapanmaz.</li><li><strong>Tam tarama:</strong> Salât, kıyam, rükû, secde, okuma, zikir, taharet ve yöneliş kullanımlarının tamamı henüz tek tek sınıflandırılmadı. Dolayısıyla "Kur'ân hiçbir yerde söylemez" biçiminde mutlak yokluk hükmü vermiyoruz.</li></ul></section>
+<section id="denetim"><h2>Bu denetimde neler düzeltildi?</h2><div class="table-wrap"><table><thead><tr><th>Önce</th><th>Şimdi</th></tr></thead><tbody><tr><td>Çıplak sure ve ayet numaraları; dokuz kartta on ayet.</td><td>Bakara 43 gibi belirgin sure adları; 114 ayetin her biri ayrı tam metin ve tam çalışma meali.</td></tr><tr><td>Tabloda anılan bazı ayetlerin tam metni yoktu.</td><td>Önceki tablonun dayanakları eklendi; amaç için Tâhâ 14, ayakta salât için Âl-i İmrân 39 ve ahlâk pasajları da tamamlandı.</td></tr><tr><td>Sefer ve korku, koşulları ayrılmadan özetleniyordu.</td><td>Nisâ 101'in korku koşulu korundu; kısaltmanın miktarı açık bırakıldı.</td></tr><tr><td>Salât içi eylem, genel ibadet ve salât sonrası zikir birbirine yaklaşıyordu.</td><td>Doğrudan bağ, bağlam çıkarımı ve salât sonrası ayrı gösterildi; Nisâ 103'teki üç duruş normal salât sırası sayılmadı.</td></tr><tr><td>Mâide 6'da ayaklar için genel "temizleyin" karşılığı vardı.</td><td>Yıkama/mesh bağlantısındaki iki okuma görünür kılındı; tartışma sonuçlandırılmadı.</td></tr><tr><td>"Tamamen kısma" ve "koşun" karşılıkları vardı.</td><td>İsrâ 110'da "kısma", Cuma 9'da "yönelin" kullanıldı; teknik desibel veya fiziksel koşma kuralı üretilmedi.</td></tr><tr><td>Tüm geçişleri sunulmayan teknik kök sayıları öne çıkıyordu.</td><td>Bu sayılar kaldırıldı; seçkinin kapsamı ve tamamlanmamış kök araştırması açıkça belirtildi.</td></tr></tbody></table></div><p class="notice warning"><strong>Denetimin sınırı:</strong> Arapça tamlığı ve referans eşleşmesi otomatik olarak kontrol edilir. Çalışma meallerinin tam cümle kapsamı ve yorumların sınırı ayrıca okunarak gözden geçirilmiştir; otomatik testler bir çevirinin anlamını kesin doğrulamaz. Bütün kökler için eksiksiz Kur'ân içi sözlükbilim denetimi tamamlanmış değildir.</p></section>
+<section id="kokler"><h2>Kaynak ve araştırmanın kapsamı</h2><p>Arapça kaynak: <a href="https://tanzil.net/" target="_blank" rel="noopener">Tanzil Kur'ân metni</a>, Uthmani v1.1. Toplam 6236 ayet. Kartlardaki Arapça, kaynak dosyadaki ayet dizgesinin tamamıdır; hareke veya yazım değiştirilmedi. Kaynakta bazı surelerin ilk ayetiyle birlikte bulunan besmele de korundu ve çalışma mealine eklendi.</p><p><strong>Kanıt dereceleri:</strong> <strong>Doğrudan lafız</strong>: ayette açıkça bulunan ifade. <strong>Dil çıkarımı</strong>: dil yapısından çıkarılan sonuç. <strong>Bağlam çıkarımı</strong>: ayetleri ve muhataplarını birlikte okuyarak kurulan bağlantı. <strong>Açık</strong>: bu araştırmada yeterli kanıtla kapanmayan konu. Etiketler başlığın altındaki iddiaya aittir; bütün ayetin her çeviri tercihini kesinleştirmez.</p><p>Türkçe çalışma meali yardımcıdır; Arapça metnin yerine geçmez. Tekil veya tartışmalı kelimeler için yeterli Kur'ân içi kanıt kurulmadığında bu eksik okuma notunda belirtilir. Bu sayfa bir fetva veya tamamlanmış bir uygulama kılavuzu değildir.</p><p class="technical"><strong>Arapça kaynak dosyası SHA-256:</strong> 6933e133dd56db778c801bf738848454e43648105a151e8d84d86a7cae39ec5f<br><strong>Kapsam kontrolü:</strong> 114 benzersiz ayet; 114 tam Arapça metin; 114 tam çalışma meali. Güncelleme: 12 Ekim 2026.</p><details><summary>Tanzil kaynak bildirimi</summary><pre># PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK
+#====================================================================
+#
+#  Tanzil Quran Text (Uthmani, Version 1.1)
+#  Copyright (C) 2007-2026 Tanzil Project
+#  License: Creative Commons Attribution 3.0
+#
+#  This copy of the Quran text is carefully produced, highly
+#  verified and continuously monitored by a group of specialists
+#  at Tanzil Project.
+#
+#  TERMS OF USE:
+#
+#  - Permission is granted to copy and distribute verbatim copies
+#    of this text, but CHANGING IT IS NOT ALLOWED.
+#
+#  - This Quran text can be used in any website or application,
+#    provided that its source (Tanzil Project) is clearly indicated,
+#    and a link is made to tanzil.net to enable users to keep
+#    track of changes.
+#
+#  - This copyright notice shall be included in all verbatim copies
+#    of the text, and shall be reproduced appropriately in all files
+#    derived from or containing substantial portion of this text.
+#
+#  Please check updates at: http://tanzil.net/updates/
+#
+#====================================================================
+</pre></details></section>
+<footer class="footer"><p><a href="../salat-vakit/">Kur'ân Salât ve Vakit Atlası</a> ayrı araştırma olarak korunmuştur. Bu güncelleme yalnız Salâtın İçeriği Atlası'na aittir.</p></footer></main>
 <script>
-  const buttons = Array.from(document.querySelectorAll('[data-filter]'));
-  const cards = Array.from(document.querySelectorAll('.verse-card'));
-
-  buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const filter = button.dataset.filter;
-      buttons.forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
-      cards.forEach((card) => {
-        const show = filter === 'all' || card.dataset.group.split(' ').includes(filter);
-        card.classList.toggle('hidden', !show);
-      });
-    });
-  });
-</script>
-</body>
-</html>
+const topics=Array.from(document.querySelectorAll('.topic'));
+const cards=Array.from(document.querySelectorAll('.verse-card'));
+const search=document.getElementById('search');
+const select=document.getElementById('topic');
+const fold=value=>value.toLocaleLowerCase('tr').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replaceAll('ı','i').replaceAll('’',"'");
+function filter(){const query=fold(search.value.trim());let count=0;topics.forEach(topic=>{const match=select.value==='all'||select.value===topic.id;let visible=0;topic.querySelectorAll('.verse-card').forEach(card=>{const shown=match&&(!query||fold(card.textContent+' '+card.dataset.key+' '+topic.querySelector('h2').textContent).includes(query));card.hidden=!shown;if(shown)visible++;});topic.hidden=!visible;count+=visible;});document.getElementById('count').textContent=count+' / '+cards.length+' ayet gösteriliyor.';document.getElementById('empty').hidden=count!==0;}
+function reset(){search.value='';select.value='all';filter();}
+search.addEventListener('input',filter);select.addEventListener('change',filter);document.getElementById('reset').addEventListener('click',()=>{reset();search.focus();});
+function revealHash(){let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}const target=document.getElementById(id);if(target&&(target.matches('.verse-card')||target.matches('.topic'))){reset();target.scrollIntoView();}}
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',()=>{const target=document.getElementById(a.getAttribute('href').slice(1));if(target&&(target.matches('.verse-card')||target.matches('.topic')))reset();}));window.addEventListener('hashchange',revealHash);if(location.hash)revealHash();
+</script></body></html>
