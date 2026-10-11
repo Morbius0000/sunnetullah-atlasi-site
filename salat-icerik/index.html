@@ -255,6 +255,27 @@
     color: #17130f;
   }
 
+  .meal {
+    margin: 0;
+    padding: 12px;
+    border-right: 4px solid var(--accent);
+    border-radius: 8px;
+    background: #f5eddd;
+    color: #252018;
+    font-size: 16px;
+  }
+
+  .meal-source {
+    margin: -4px 0 0;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .evidence-note {
+    margin-top: 2px;
+  }
+
   .verse-card {
     display: grid;
     gap: 12px;
@@ -334,9 +355,10 @@
       <span>Salât İçeriği Atlası</span>
     </a>
     <div class="nav-links">
-      <a href="#sonuc">Kısa Sonuç</a>
-      <a href="#unsurlar">Unsurlar</a>
+      <a href="#sonuc">Özet</a>
+      <a href="#konular">Konu Haritası</a>
       <a href="#ayetler">Ayetler</a>
+      <a href="#acik">Açık Alanlar</a>
       <a href="#kokler">Kök Taraması</a>
       <a href="../salat-vakit/">Vakit Atlası</a>
     </div>
@@ -347,7 +369,7 @@
   <div>
     <p class="eyebrow">v0.1 denetimlik taslak · Kur'ân içi okuma</p>
     <h1>Kur'ân'da Salâtın İçeriği Atlası</h1>
-    <p class="lead">Bu sayfa, salâtın nasıl bir eylem olarak tarif edildiğini Kur'ân metni içinde ayırır: doğrudan lafızla sabit görünen unsurlar, ayetlerin birlikte okunmasıyla çıkan çıkarımlar ve metnin açık bıraktığı ayrıntılar.</p>
+    <p class="lead">Bu sayfa, salâtın nasıl bir eylem olarak tarif edildiğini Kur'ân metni içinde toplar: hazırlık, beden hareketleri, okuma/zikir, ses, yöneliş, cemaat ve açık kalan teknik ayrıntılar.</p>
   </div>
   <aside class="hero-panel">
     <h2>Çalışma kilidi</h2>
@@ -362,7 +384,7 @@
 
 <main>
   <section id="sonuc">
-    <h2>Kısa Sonuç</h2>
+    <h2>Özet: Kur'ân Salâtın İçinde Ne Söylüyor?</h2>
     <div class="grid">
       <article class="card">
         <span class="tag direct">Doğrudan lafız</span>
@@ -382,8 +404,9 @@
     </div>
   </section>
 
-  <section id="unsurlar">
-    <h2>Unsur Matrisi</h2>
+  <section id="konular">
+    <h2>Konu Haritası: Salâtın İçerik Başlıkları</h2>
+    <p class="muted">Başlıklar araştırma kolaylığı için toplandı. Her satırda ayetin söylediği ile bizim çıkardığımız not ayrı tutulur.</p>
     <table>
       <thead>
         <tr>
@@ -481,8 +504,8 @@
   </section>
 
   <section id="ayetler">
-    <h2>Ayet Çekirdeği</h2>
-    <p class="muted">Bu bölüm ilk çekirdektir. 6.1 Sol denetiminde her kökün tüm geçişleriyle genişletilecek; burada yalnız salât içeriği için en yüksek bağlantılı ayetler yer alır.</p>
+    <h2>Tam Ayetler ve Tam Türkçe Anlam</h2>
+    <p class="muted">Bu bölüm ilk çekirdektir. Ayetler kesilmeden verildi; Türkçe anlam da cümle seçilerek değil, ayetin tamamını karşılayacak biçimde kondu. Türkçe anlam yardımcı katmandır; kanıt Arapça lafızdır.</p>
     <div class="toolbar" role="toolbar" aria-label="Ayet filtreleri">
       <button type="button" data-filter="all" aria-pressed="true">Hepsi</button>
       <button type="button" data-filter="hazirlik">Hazırlık</button>
@@ -494,47 +517,65 @@
       <article class="verse-card" data-group="beden topluluk">
         <span class="verse-ref">2:43</span>
         <div class="arabic">وَأَقِيمُوا الصَّلَاةَ وَآتُوا الزَّكَاةَ وَارْكَعُوا مَعَ الرَّاكِعِينَ</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Salâtın ikamesi, zekât ve “rükû edenlerle rükû” aynı emir dizisindedir.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Salâtı ikame edin, zekâtı verin ve rükû edenlerle birlikte rükû edin.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâtın ikamesi, zekât ve “rükû edenlerle rükû” aynı emir dizisindedir.</p>
       </article>
       <article class="verse-card" data-group="beden">
         <span class="verse-ref">2:238</span>
         <div class="arabic">حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ وَقُومُوا لِلَّهِ قَانِتِينَ</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Salâtların korunması ve Allah için kânitîn olarak kıyam emri aynı ayettedir.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Salâtları ve Salâtü'l-Vustâ'yı koruyun; Allah için gönülden boyun eğenler olarak kıyam edin.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâtların korunması ve Allah için kânitîn olarak kıyam emri aynı ayettedir.</p>
       </article>
       <article class="verse-card" data-group="hazirlik okuma">
         <span class="verse-ref">4:43</span>
         <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تَقْرَبُوا الصَّلَاةَ وَأَنتُمْ سُكَارَىٰ حَتَّىٰ تَعْلَمُوا مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِي سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا ۚ وَإِن كُنتُم مَّرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِّنكُم مِّنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ اللَّهَ كَانَ عَفُوًّا غَفُورًا</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Salâta yaklaşma yasağı bilinç ve temizlik şartlarıyla bağlanır.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Sarhoşken, ne söylediğinizi bilinceye kadar salâta yaklaşmayın; cünüpken de, yol geçicileri olmanız dışında, yıkanıncaya kadar yaklaşmayın. Eğer hasta olur veya yolculukta bulunursanız yahut sizden biri tuvaletten gelirse veya kadınlarla temas etmişseniz ve su bulamazsanız, temiz bir yüzeye yönelin; yüzlerinizi ve ellerinizi meshedin. Şüphesiz Allah çok affedici, çok bağışlayıcıdır.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâta yaklaşma yasağı bilinç ve temizlik şartlarıyla bağlanır.</p>
       </article>
       <article class="verse-card" data-group="topluluk beden">
         <span class="verse-ref">4:102</span>
         <div class="arabic">وَإِذَا كُنتَ فِيهِمْ فَأَقَمْتَ لَهُمُ الصَّلَاةَ فَلْتَقُمْ طَائِفَةٌ مِّنْهُم مَّعَكَ وَلْيَأْخُذُوا أَسْلِحَتَهُمْ فَإِذَا سَجَدُوا فَلْيَكُونُوا مِن وَرَائِكُمْ وَلْتَأْتِ طَائِفَةٌ أُخْرَىٰ لَمْ يُصَلُّوا فَلْيُصَلُّوا مَعَكَ وَلْيَأْخُذُوا حِذْرَهُمْ وَأَسْلِحَتَهُمْ ۗ وَدَّ الَّذِينَ كَفَرُوا لَوْ تَغْفُلُونَ عَنْ أَسْلِحَتِكُمْ وَأَمْتِعَتِكُمْ فَيَمِيلُونَ عَلَيْكُم مَّيْلَةً وَاحِدَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ إِن كَانَ بِكُمْ أَذًى مِّن مَّطَرٍ أَوْ كُنتُم مَّرْضَىٰ أَن تَضَعُوا أَسْلِحَتَكُمْ ۖ وَخُذُوا حِذْرَكُمْ ۗ إِنَّ اللَّهَ أَعَدَّ لِلْكَافِرِينَ عَذَابًا مُّهِينًا</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Salât sahnesinde grup, imamlık/beraberlik, kalkma ve secde ifadeleri bulunur.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Sen onların içinde olup onlar için salâtı ikame ettiğinde, onlardan bir grup seninle birlikte kalksın ve silahlarını alsınlar. Secde ettiklerinde arkanızda olsunlar. Salât etmemiş diğer grup gelsin; seninle birlikte salât etsinler; tedbirlerini ve silahlarını alsınlar. Küfre sapanlar isterler ki silahlarınızdan ve eşyalarınızdan habersiz kalasınız da üzerinize tek bir hamleyle yüklensinler. Yağmurdan bir eziyetiniz varsa veya hasta iseniz silahlarınızı bırakmanızda size günah yoktur; yine de tedbirinizi alın. Şüphesiz Allah kâfirler için alçaltıcı bir azap hazırlamıştır.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salât sahnesinde grup, beraberlik, kalkma ve secde ifadeleri bulunur.</p>
       </article>
       <article class="verse-card" data-group="hazirlik">
         <span class="verse-ref">5:6</span>
         <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا قُمْتُمْ إِلَى الصَّلَاةِ فَاغْسِلُوا وُجُوهَكُمْ وَأَيْدِيَكُمْ إِلَى الْمَرَافِقِ وَامْسَحُوا بِرُءُوسِكُمْ وَأَرْجُلَكُمْ إِلَى الْكَعْبَيْنِ ۚ وَإِن كُنتُمْ جُنُبًا فَاطَّهَّرُوا ۚ وَإِن كُنتُم مَّرْضَىٰ أَوْ عَلَىٰ سَفَرٍ أَوْ جَاءَ أَحَدٌ مِّنكُم مِّنَ الْغَائِطِ أَوْ لَامَسْتُمُ النِّسَاءَ فَلَمْ تَجِدُوا مَاءً فَتَيَمَّمُوا صَعِيدًا طَيِّبًا فَامْسَحُوا بِوُجُوهِكُمْ وَأَيْدِيكُم مِّنْهُ ۚ مَا يُرِيدُ اللَّهُ لِيَجْعَلَ عَلَيْكُم مِّنْ حَرَجٍ وَلَـٰكِن يُرِيدُ لِيُطَهِّرَكُمْ وَلِيُتِمَّ نِعْمَتَهُ عَلَيْكُمْ لَعَلَّكُمْ تَشْكُرُونَ</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Salâta kalkış bağlamında yüz, eller, baş ve ayaklar için temizlik/mesh düzeni verilir.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Salâta kalktığınız zaman yüzlerinizi ve dirseklere kadar ellerinizi yıkayın; başlarınızı mesh edin; ayaklarınızı da iki topuğa kadar temizleyin. Eğer cünüp iseniz temizlenin. Eğer hasta veya yolculukta iseniz yahut sizden biri tuvaletten gelirse veya kadınlarla temas etmişseniz ve su bulamazsanız, temiz bir yüzeye yönelin; ondan yüzlerinizi ve ellerinizi meshedin. Allah size bir güçlük kılmak istemez; fakat sizi temizlemek ve üzerinizdeki nimetini tamamlamak ister; umulur ki şükredersiniz.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salâta kalkış bağlamında yüz, eller, baş ve ayaklar için temizlik/mesh düzeni verilir. Ayak ifadesinin ayrıntılı dilbilgisi ayrıca denetlenecek açık alt başlıktır.</p>
       </article>
       <article class="verse-card" data-group="okuma">
         <span class="verse-ref">17:78</span>
         <div class="arabic">أَقِمِ الصَّلَاةَ لِدُلُوكِ الشَّمْسِ إِلَىٰ غَسَقِ اللَّيْلِ وَقُرْآنَ الْفَجْرِ ۖ إِنَّ قُرْآنَ الْفَجْرِ كَانَ مَشْهُودًا</div>
-        <p><span class="tag infer">Bağlam çıkarımı</span> Salât emri ve Kur'ân'el-fecr aynı vakit pasajında yer alır; okuma boyutu güçlüdür.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Güneşin dülûkünden gecenin ğasaqına kadar salâtı ikame et; bir de Kur'ân'el-fecr'i. Şüphesiz Kur'ân'el-fecr tanıklıdır.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag infer">Bağlam çıkarımı</span> Salât emri ve Kur'ân'el-fecr aynı vakit pasajında yer alır; okuma boyutu güçlüdür.</p>
       </article>
       <article class="verse-card" data-group="okuma">
         <span class="verse-ref">17:110</span>
         <div class="arabic">قُلِ ادْعُوا اللَّهَ أَوِ ادْعُوا الرَّحْمَـٰنَ ۖ أَيًّا مَّا تَدْعُوا فَلَهُ الْأَسْمَاءُ الْحُسْنَىٰ ۚ وَلَا تَجْهَرْ بِصَلَاتِكَ وَلَا تُخَافِتْ بِهَا وَابْتَغِ بَيْنَ ذَٰلِكَ سَبِيلًا</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Salât için ses seviyesinde orta yol verilir.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> De ki: Allah diye çağırın veya Rahmân diye çağırın; hangisiyle çağırırsanız, en güzel isimler O'nundur. Salâtında sesini yükseltme, onu tamamen kısma da; ikisi arasında bir yol ara.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Salât için ses seviyesinde orta yol verilir.</p>
       </article>
       <article class="verse-card" data-group="beden">
         <span class="verse-ref">22:77</span>
         <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا ارْكَعُوا وَاسْجُدُوا وَاعْبُدُوا رَبَّكُمْ وَافْعَلُوا الْخَيْرَ لَعَلَّكُمْ تُفْلِحُونَ ۩</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Rükû ve secde müminlere doğrudan emir olarak gelir.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Rükû edin, secde edin, Rabbinize kulluk edin ve hayır işleyin; umulur ki kurtuluşa erersiniz.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Rükû ve secde müminlere doğrudan emir olarak gelir.</p>
       </article>
       <article class="verse-card" data-group="okuma topluluk">
         <span class="verse-ref">62:9-10</span>
         <div class="arabic">يَا أَيُّهَا الَّذِينَ آمَنُوا إِذَا نُودِيَ لِلصَّلَاةِ مِن يَوْمِ الْجُمُعَةِ فَاسْعَوْا إِلَىٰ ذِكْرِ اللَّهِ وَذَرُوا الْبَيْعَ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ<br>فَإِذَا قُضِيَتِ الصَّلَاةُ فَانتَشِرُوا فِي الْأَرْضِ وَابْتَغُوا مِن فَضْلِ اللَّهِ وَاذْكُرُوا اللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ</div>
-        <p><span class="tag direct">Doğrudan lafız</span> Cuma günü salâta çağrı, Allah'ın zikrine yönelme, alışverişi bırakma ve salât bitince dağılma açıkça geçer.</p>
+        <p class="meal"><strong>Tam Türkçe anlam:</strong> Ey iman edenler! Cuma günü salât için çağrıldığında Allah'ın zikrine koşun ve alışverişi bırakın. Eğer bilirseniz bu sizin için daha hayırlıdır. Salât tamamlandığında yeryüzüne dağılın, Allah'ın lütfundan arayın ve Allah'ı çok zikredin; umulur ki kurtuluşa erersiniz.</p>
+        <p class="meal-source">Çalışma meali; kanıt Arapça metindir.</p>
+        <p class="evidence-note"><span class="tag direct">Doğrudan lafız</span> Cuma günü salâta çağrı, Allah'ın zikrine yönelme, alışverişi bırakma ve salât bitince dağılma açıkça geçer.</p>
       </article>
     </div>
   </section>
