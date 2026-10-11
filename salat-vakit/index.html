@@ -3,6 +3,8 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="build-revision" content="v2.0-final-tabs-20261011">
 <title>Kur’an Salât ve Vakit Atlası — Final v2.0</title>
+<meta property="og:title" content="Kur’an’da kaç vakit namaz var?"><meta property="og:description" content="Yalnız Kur’an metnine dayanan çalışma: namaz ayetleri tam mealiyle, 3 vakit kanıtı ve Kur’an’ın söylemedikleri."><meta property="og:type" content="website"><meta name="theme-color" content="#071015">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2710%27 fill=%27%23ffd27a%27/%3E%3C/svg%3E">
 <meta name="description" content="Kur’an’da kaç vakit namaz var? Yalnız Kur’an metnine dayanan, ayetlerin tam mealini gösteren, kanıt derecelerini ayıran final çalışma.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
@@ -58,274 +60,6 @@ footer{padding:42px 0 70px;color:var(--muted);border-top:1px solid var(--line);m
 @media(max-width:560px){.obs-tools{grid-template-columns:1fr}.sky-hud{gap:4px}.hud{padding:6px}.hud span{font-size:.52rem}.hud strong{font-size:.7rem}.model-strip{grid-template-columns:1fr}.model-arrow{transform:rotate(90deg);text-align:center}}
 
 
-/* ===== v2.0 tabbed layout ===== */
-:root{--g-d:#79e2b2;--g-g:#78bfff;--g-z:#ffd27a;--g-a:#ff9b9b;--g-i:#b9c6d6;--meal-size:1.08rem}
-html{scroll-padding-top:86px}
-body{font-feature-settings:"liga","calt";-webkit-font-smoothing:antialiased}
-.topbar{padding:46px 0 22px}
-.topbar .eyebrow{display:inline-flex;align-items:center;gap:8px}
-.topbar .eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 rgba(121,226,178,.6);animation:pulse 2.4s infinite}
-.topbar h1{font-size:clamp(2rem,5.4vw,3.6rem);line-height:1.08;margin:.35rem 0 .6rem;letter-spacing:-.02em;background:linear-gradient(100deg,#fff 10%,#9fe9c9 45%,#8fc8ff 90%);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% 100%;animation:shine 9s ease-in-out infinite alternate}
-.topbar .lead{max-width:760px;color:#cfe0dc;font-size:1.08rem;margin:0 0 14px}
-@keyframes shine{to{background-position:100% 0}}
-@keyframes pulse{70%{box-shadow:0 0 0 12px rgba(121,226,178,0)}100%{box-shadow:0 0 0 0 rgba(121,226,178,0)}}
-.tabbar{position:sticky;top:0;z-index:60;background:rgba(7,16,21,.86);backdrop-filter:blur(14px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.tabbar .wrap{display:flex;align-items:center;gap:12px}
-.tablist{display:flex;gap:8px;overflow-x:auto;padding:10px 2px;scroll-snap-type:x proximity;scrollbar-width:thin;flex:1}
-.tab{appearance:none;flex:0 0 auto;scroll-snap-align:start;display:flex;align-items:center;gap:9px;border:1.5px solid var(--line);background:#0e1d26;color:#d7e5e1;font:700 .93rem/1.1 inherit;font-family:inherit;padding:10px 15px 10px 10px;border-radius:14px;cursor:pointer;transition:transform .18s,background .2s,border-color .2s,color .2s,box-shadow .2s;white-space:nowrap}
-.tab .n{display:grid;place-items:center;width:26px;height:26px;border-radius:9px;background:#16303d;color:var(--accent2);font-size:.82rem;transition:inherit}
-.tab:hover{transform:translateY(-2px);border-color:#5a8294}
-.tab:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
-.tab[aria-selected="true"]{background:linear-gradient(135deg,#79e2b2,#78d4e8);color:#04141a;border-color:transparent;box-shadow:0 8px 26px rgba(121,226,178,.28)}
-.tab[aria-selected="true"] .n{background:#04141a;color:var(--accent)}
-.fsctl{display:flex;gap:6px;flex:0 0 auto}
-.fsctl button{appearance:none;border:1px solid var(--line);background:#0e1d26;color:var(--text);border-radius:10px;width:36px;height:36px;font-weight:800;cursor:pointer}
-.fsctl button:hover{border-color:#5a8294}
-.tabhint{color:var(--muted);font-size:.84rem;margin:10px 0 0}
-.tabhint b{color:var(--accent)}
-.tabpanel{padding:30px 0 20px;animation:panelIn .45s cubic-bezier(.2,.7,.2,1)}
-.tabpanel[hidden]{display:none}
-@keyframes panelIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-.ph{margin:0 0 22px}.ph h2{font-size:clamp(1.5rem,3.6vw,2.2rem);margin:0 0 6px;letter-spacing:-.01em}.ph p{color:#b9cbc8;margin:0;max-width:820px}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}.reveal.in{opacity:1;transform:none}
-.sec{margin:34px 0 0}.sec>h3{font-size:1.25rem;margin:0 0 4px;display:flex;align-items:center;gap:10px}
-.sec>h3 .bar{width:5px;height:22px;border-radius:3px;background:var(--accent)}
-.sec>p.sub{color:var(--muted);margin:0 0 14px}
-.grade{display:inline-flex;align-items:center;gap:6px;font:800 .72rem/1 inherit;font-family:inherit;padding:5px 9px;border-radius:99px;border:1px solid currentColor;letter-spacing:.02em;white-space:nowrap}
-.grade::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
-.g-d{color:var(--g-d);background:rgba(121,226,178,.09)}.g-g{color:var(--g-g);background:rgba(120,191,255,.09)}.g-z{color:var(--g-z);background:rgba(255,210,122,.09)}.g-a{color:var(--g-a);background:rgba(255,155,155,.09)}.g-i{color:var(--g-i);background:rgba(185,198,214,.08)}
-.legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}
-/* ayet kartı */
-.ayet{background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));border:1px solid var(--line);border-left:5px solid var(--g-i);border-radius:18px;padding:18px 20px;margin:14px 0}
-.ayet.gb-g-d{border-left-color:var(--g-d)}.ayet.gb-g-g{border-left-color:var(--g-g)}.ayet.gb-g-z{border-left-color:var(--g-z)}.ayet.gb-g-a{border-left-color:var(--g-a)}
-.ayet header{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:10px}
-.refbadge{font-weight:800;color:#04141a;background:var(--accent2);padding:5px 11px;border-radius:9px;font-size:.88rem}
-.copybtn{margin-left:auto;appearance:none;border:1px solid var(--line);background:#0c1a22;color:var(--muted);border-radius:9px;padding:5px 10px;font:700 .74rem inherit;font-family:inherit;cursor:pointer}
-.copybtn:hover{color:var(--text);border-color:#5a8294}.copybtn.ok{color:var(--accent);border-color:var(--accent)}
-.ayet .ar{font-family:"Amiri","Noto Naskh Arabic","Scheherazade New","Traditional Arabic",serif;font-size:clamp(1.35rem,2.6vw,1.75rem);line-height:2.05;margin:.2rem 0 .7rem;color:#e7f1ee;text-align:right}
-.ayet .meal{margin:.2rem 0 .3rem;font-size:var(--meal-size);line-height:1.7;color:#fff}
-.ayet .meal strong{font-weight:800;letter-spacing:.003em}
-.ayet .msrc{margin:0 0 6px;color:#7f9794;font-size:.72rem}
-.ayet .vnote{margin:8px 0 0;padding:10px 12px;border-radius:12px;background:rgba(121,226,178,.07);color:#cfe6dc;font-size:.92rem}
-.ayet .vnote::before{content:"Bu ayet ne söylüyor? ";font-weight:800;color:var(--accent)}
-.ayet.compact{padding:14px 16px}.ayet.compact .ar{font-size:1.25rem;line-height:1.9}
-.ayet.flash{animation:flash 1.6s ease}@keyframes flash{0%,60%{box-shadow:0 0 0 3px var(--accent2),0 0 40px rgba(120,191,255,.35)}100%{box-shadow:none}}
-.vgrid{display:grid;gap:14px}.vgrid.cols2{grid-template-columns:repeat(2,minmax(0,1fr))}.vgrid .ayet{margin:0}
-.vchip{display:inline-block;padding:3px 9px;border-radius:8px;background:rgba(120,191,255,.14);color:var(--accent2);font-weight:800;font-size:.84rem;text-decoration:none;border:1px solid rgba(120,191,255,.3)}
-.vchip:hover{background:rgba(120,191,255,.26)}
-/* özet */
-.answer{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;padding:26px;border:1px solid #2d5a5a;border-radius:24px;background:radial-gradient(circle at 0 0,rgba(121,226,178,.16),transparent 55%),linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02))}
-.bignum{font-size:clamp(5rem,14vw,8.5rem);font-weight:900;line-height:.9;background:linear-gradient(180deg,#b6ffe0,#38c996);-webkit-background-clip:text;background-clip:text;color:transparent;min-width:1.1ch;text-align:center}
-.answer h2{margin:0 0 6px;font-size:clamp(1.5rem,3.4vw,2.2rem)}.answer p{margin:.3rem 0;color:#cfe0dc}
-.pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-.pill3{display:flex;align-items:center;gap:9px;padding:10px 14px;border-radius:14px;border:1px solid var(--line);background:#0c1a22;font-weight:800}
-.pill3 i{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;font-style:normal;font-size:.8rem;color:#04141a}
-.p1 i{background:#ffb067}.p2 i{background:#78bfff}.p3 i{background:#a99cff}
-.sunbox{margin-top:18px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#071124}
-.sunbox svg{display:block;width:100%;height:auto}
-.sunbox figcaption{padding:10px 16px;color:var(--muted);font-size:.84rem;background:#08111c;border-top:1px solid var(--line)}
-.sun-glow{animation:glow 2.8s ease-in-out infinite}@keyframes glow{50%{opacity:.45}}
-.mk{animation:mk 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes mk{50%{transform:scale(1.35);opacity:.65}}
-.twin{twinkle:1}.star{animation:tw 3s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
-.funnel{display:grid;gap:10px;margin-top:6px}
-.frow{display:grid;grid-template-columns:minmax(170px,.55fr) 1fr;gap:14px;align-items:center}
-.frow .lab{font-size:.92rem;color:#d7e5e1}.frow .lab b{color:#fff}
-.fbar{height:38px;border-radius:11px;background:#0b1820;border:1px solid var(--line);overflow:hidden}
-.fbar span{display:flex;align-items:center;justify-content:flex-end;height:100%;width:0;padding-right:12px;font-weight:900;color:#04141a;border-radius:10px;background:linear-gradient(90deg,#3fb98d,#79e2b2);transition:width 1.3s cubic-bezier(.2,.7,.2,1)}
-.on .fbar span{width:var(--w)}
-.tri{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-.tcard{padding:18px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
-.tcard h3{margin:6px 0 8px;font-size:1.1rem}.tcard p{margin:.3rem 0;color:#c4d6d2;font-size:.95rem}
-.tcard .cnt{font-size:2.4rem;font-weight:900;line-height:1}
-.btnrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-.gobtn{appearance:none;cursor:pointer;border:1.5px solid var(--accent2);background:rgba(120,191,255,.1);color:var(--accent2);font:800 .9rem inherit;font-family:inherit;padding:10px 15px;border-radius:12px;transition:.2s}
-.gobtn:hover{background:var(--accent2);color:#04141a}
-/* kanıt zinciri */
-.chain{position:relative;margin:10px 0 0;padding-left:34px}
-.chain::before{content:"";position:absolute;left:13px;top:8px;bottom:8px;width:3px;border-radius:2px;background:linear-gradient(var(--g-d),var(--g-g),var(--g-z))}
-.step{position:relative;margin:0 0 26px}
-.step .dot{position:absolute;left:-34px;top:2px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:.85rem;color:#04141a;background:var(--accent);box-shadow:0 0 0 5px rgba(121,226,178,.16)}
-.step h3{margin:0 0 6px;font-size:1.22rem;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.step p{margin:.3rem 0 .6rem;color:#d3e2de}
-.verdict{margin-top:6px;padding:24px;border-radius:22px;border:1px solid #2d5a5a;background:radial-gradient(circle at 100% 0,rgba(120,191,255,.14),transparent 55%),rgba(255,255,255,.03)}
-.verdict h3{margin:0 0 8px;font-size:1.5rem}
-.disjoint{margin:12px 0 4px;display:grid;gap:8px}
-.drow{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center;font-size:.85rem;color:#c7d8d4}
-.dtrack{position:relative;height:26px;border-radius:9px;background:#0b1820;border:1px solid var(--line);overflow:hidden}
-.dtrack i{position:absolute;top:3px;bottom:3px;border-radius:6px;transform:scaleX(0);transform-origin:left;transition:transform .9s .2s cubic-bezier(.2,.7,.2,1)}
-.on .dtrack i{transform:scaleX(1)}
-/* belirsiz kartlar */
-.unc{padding:20px;border-radius:20px;border:1px solid var(--line);background:rgba(255,255,255,.03);margin:0 0 18px}
-.unc h3{margin:0 0 6px;font-size:1.2rem;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.unc p{margin:.3rem 0 .6rem;color:#d3e2de}
-.dots{display:flex;gap:6px;align-items:center}.dots i{width:18px;height:18px;border-radius:50%;display:inline-block}
-.dA{background:#79e2b2}.dB{background:#78bfff}.dC{background:#a99cff}.dX{background:#ffb067}
-.reads{display:grid;gap:10px;margin:10px 0}
-.read{display:grid;grid-template-columns:90px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:#0b1820}
-.read b{font-size:1.05rem;color:#fff}
-.meter{display:grid;gap:9px}
-.mrow{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:14px;align-items:center;padding:9px 0;border-bottom:1px solid #16303a}
-.mrow .t{font-size:.95rem;color:#e0ece9}
-.segs{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
-.segs i{height:10px;border-radius:5px;background:#16303a;transition:background .5s}
-.on .segs i.f{background:var(--c)}
-/* eşit olmayan */
-.neq{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;margin:0 0 10px}
-.neq .side{padding:16px 18px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.035)}
-.neq .side h4{margin:0 0 4px;font-size:1.1rem}.neq .side p{margin:0;color:#b9cbc8;font-size:.92rem}
-.neq .sym{display:grid;place-items:center;font-size:2.6rem;font-weight:900;color:var(--g-a);padding:0 4px}
-.neqwhy{margin:0 0 6px;padding:12px 16px;border-radius:14px;background:rgba(255,155,155,.07);border:1px solid rgba(255,155,155,.25);color:#f0dede}
-.neqwhy b{color:var(--g-a)}
-.block{margin:0 0 54px}
-.block>h3{font-size:1.4rem;margin:0 0 6px}
-/* yöntem */
-.steps4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-.steps4 .tcard .no{font-weight:900;color:var(--accent);font-size:1.6rem}
-.rtab{width:100%}.rtab td:nth-child(2),.rtab th:nth-child(2){text-align:right}
-.gloss{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.gloss .tcard h3{color:var(--accent)}
-.foot2{padding:34px 0 60px;color:var(--muted);border-top:1px solid var(--line);margin-top:40px}
-details.more{border:1px solid var(--line);border-radius:16px;padding:6px 16px;background:rgba(255,255,255,.025);margin:10px 0}
-details.more>summary{cursor:pointer;font-weight:800;padding:10px 0;color:var(--accent2)}
-@media(max-width:900px){.vgrid.cols2,.tri,.steps4,.gloss{grid-template-columns:1fr}.answer{grid-template-columns:1fr;text-align:center}.pills{justify-content:center}.frow{grid-template-columns:1fr}.neq{grid-template-columns:1fr}.neq .sym{font-size:2rem;padding:0}.mrow{grid-template-columns:1fr}.read{grid-template-columns:70px 1fr}.read .dots{grid-column:1/-1}.drow{grid-template-columns:1fr}}
-@media(max-width:560px){.topbar{padding-top:30px}.tab{font-size:.86rem;padding:9px 12px 9px 9px}.fsctl{display:none}.ayet{padding:15px 14px}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}.fbar span{width:var(--w)}.dtrack i{transform:none}}
-@media print{.tabbar,.copybtn,.fsctl{display:none}.tabpanel[hidden]{display:block}.reveal{opacity:1;transform:none}body{background:#fff;color:#000}}
-
-/* ===== v2.0 tabbed layout ===== */
-:root{--g-d:#79e2b2;--g-g:#78bfff;--g-z:#ffd27a;--g-a:#ff9b9b;--g-i:#b9c6d6;--meal-size:1.08rem}
-html{scroll-padding-top:86px}
-body{font-feature-settings:"liga","calt";-webkit-font-smoothing:antialiased}
-.topbar{padding:46px 0 22px}
-.topbar .eyebrow{display:inline-flex;align-items:center;gap:8px}
-.topbar .eyebrow::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 0 rgba(121,226,178,.6);animation:pulse 2.4s infinite}
-.topbar h1{font-size:clamp(2rem,5.4vw,3.6rem);line-height:1.08;margin:.35rem 0 .6rem;letter-spacing:-.02em;background:linear-gradient(100deg,#fff 10%,#9fe9c9 45%,#8fc8ff 90%);-webkit-background-clip:text;background-clip:text;color:transparent;background-size:200% 100%;animation:shine 9s ease-in-out infinite alternate}
-.topbar .lead{max-width:760px;color:#cfe0dc;font-size:1.08rem;margin:0 0 14px}
-@keyframes shine{to{background-position:100% 0}}
-@keyframes pulse{70%{box-shadow:0 0 0 12px rgba(121,226,178,0)}100%{box-shadow:0 0 0 0 rgba(121,226,178,0)}}
-.tabbar{position:sticky;top:0;z-index:60;background:rgba(7,16,21,.86);backdrop-filter:blur(14px);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.tabbar .wrap{display:flex;align-items:center;gap:12px}
-.tablist{display:flex;gap:8px;overflow-x:auto;padding:10px 2px;scroll-snap-type:x proximity;scrollbar-width:thin;flex:1}
-.tab{appearance:none;flex:0 0 auto;scroll-snap-align:start;display:flex;align-items:center;gap:9px;border:1.5px solid var(--line);background:#0e1d26;color:#d7e5e1;font:700 .93rem/1.1 inherit;font-family:inherit;padding:10px 15px 10px 10px;border-radius:14px;cursor:pointer;transition:transform .18s,background .2s,border-color .2s,color .2s,box-shadow .2s;white-space:nowrap}
-.tab .n{display:grid;place-items:center;width:26px;height:26px;border-radius:9px;background:#16303d;color:var(--accent2);font-size:.82rem;transition:inherit}
-.tab:hover{transform:translateY(-2px);border-color:#5a8294}
-.tab:focus-visible{outline:3px solid var(--accent2);outline-offset:2px}
-.tab[aria-selected="true"]{background:linear-gradient(135deg,#79e2b2,#78d4e8);color:#04141a;border-color:transparent;box-shadow:0 8px 26px rgba(121,226,178,.28)}
-.tab[aria-selected="true"] .n{background:#04141a;color:var(--accent)}
-.fsctl{display:flex;gap:6px;flex:0 0 auto}
-.fsctl button{appearance:none;border:1px solid var(--line);background:#0e1d26;color:var(--text);border-radius:10px;width:34px;height:32px;font-weight:800;cursor:pointer}
-.fsctl button:hover{border-color:#5a8294}
-.tabhint{color:var(--muted);font-size:.84rem;margin:0;flex:1}.hintrow{display:flex;align-items:center;gap:14px;padding-top:10px}.fsctl span{align-self:center;color:var(--muted);font-size:.78rem;margin-right:2px}
-.tabhint b{color:var(--accent)}
-.tabpanel{padding:30px 0 20px;animation:panelIn .45s cubic-bezier(.2,.7,.2,1)}
-.tabpanel[hidden]{display:none}
-@keyframes panelIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
-.ph{margin:0 0 22px}.ph h2{font-size:clamp(1.5rem,3.6vw,2.2rem);margin:0 0 6px;letter-spacing:-.01em}.ph p{color:#b9cbc8;margin:0;max-width:820px}
-.reveal{opacity:0;transform:translateY(18px);transition:opacity .6s ease,transform .6s ease}.reveal.in{opacity:1;transform:none}
-.sec{margin:34px 0 0}.sec>h3{font-size:1.25rem;margin:0 0 4px;display:flex;align-items:center;gap:10px}
-.sec>h3 .bar{width:5px;height:22px;border-radius:3px;background:var(--accent)}
-.sec>p.sub{color:var(--muted);margin:0 0 14px}
-.grade{display:inline-flex;align-items:center;gap:6px;font:800 .72rem/1 inherit;font-family:inherit;padding:5px 9px;border-radius:99px;border:1px solid currentColor;letter-spacing:.02em;white-space:nowrap}
-.grade::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
-.g-d{color:var(--g-d);background:rgba(121,226,178,.09)}.g-g{color:var(--g-g);background:rgba(120,191,255,.09)}.g-z{color:var(--g-z);background:rgba(255,210,122,.09)}.g-a{color:var(--g-a);background:rgba(255,155,155,.09)}.g-i{color:var(--g-i);background:rgba(185,198,214,.08)}
-.legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px}
-/* ayet kartı */
-.ayet{background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));border:1px solid var(--line);border-left:5px solid var(--g-i);border-radius:18px;padding:18px 20px;margin:14px 0}
-.ayet.gb-g-d{border-left-color:var(--g-d)}.ayet.gb-g-g{border-left-color:var(--g-g)}.ayet.gb-g-z{border-left-color:var(--g-z)}.ayet.gb-g-a{border-left-color:var(--g-a)}
-.ayet header{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin-bottom:10px}
-.refbadge{font-weight:800;color:#04141a;background:var(--accent2);padding:5px 11px;border-radius:9px;font-size:.88rem}
-.copybtn{margin-left:auto;appearance:none;border:1px solid var(--line);background:#0c1a22;color:var(--muted);border-radius:9px;padding:5px 10px;font:700 .74rem inherit;font-family:inherit;cursor:pointer}
-.copybtn:hover{color:var(--text);border-color:#5a8294}.copybtn.ok{color:var(--accent);border-color:var(--accent)}
-.ayet .ar{font-family:"Amiri","Noto Naskh Arabic","Scheherazade New","Traditional Arabic",serif;font-size:clamp(1.35rem,2.6vw,1.75rem);line-height:2.05;margin:.2rem 0 .7rem;color:#e7f1ee;text-align:right}
-.ayet .meal{margin:.2rem 0 .3rem;font-size:var(--meal-size);line-height:1.7;color:#fff}
-.ayet .meal strong{font-weight:800;letter-spacing:.003em}
-.ayet .msrc{margin:0 0 6px;color:#7f9794;font-size:.72rem}
-.ayet .vnote{margin:8px 0 0;padding:10px 12px;border-radius:12px;background:rgba(121,226,178,.07);color:#cfe6dc;font-size:.92rem}
-.ayet .vnote::before{content:"Bu ayet ne söylüyor? ";font-weight:800;color:var(--accent)}
-.ayet.compact{padding:14px 16px}.ayet.compact .ar{font-size:1.25rem;line-height:1.9}
-.ayet.flash{animation:flash 1.6s ease}@keyframes flash{0%,60%{box-shadow:0 0 0 3px var(--accent2),0 0 40px rgba(120,191,255,.35)}100%{box-shadow:none}}
-.vgrid{display:grid;gap:14px}.vgrid.cols2{grid-template-columns:repeat(2,minmax(0,1fr))}.vgrid .ayet{margin:0}
-.vchip{display:inline-block;padding:3px 9px;border-radius:8px;background:rgba(120,191,255,.14);color:var(--accent2);font-weight:800;font-size:.84rem;text-decoration:none;border:1px solid rgba(120,191,255,.3)}
-.vchip:hover{background:rgba(120,191,255,.26)}
-/* özet */
-.answer{display:grid;grid-template-columns:auto 1fr;gap:26px;align-items:center;padding:26px;border:1px solid #2d5a5a;border-radius:24px;background:radial-gradient(circle at 0 0,rgba(121,226,178,.16),transparent 55%),linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.02))}
-.bignum{font-size:clamp(5rem,14vw,8.5rem);font-weight:900;line-height:.9;background:linear-gradient(180deg,#b6ffe0,#38c996);-webkit-background-clip:text;background-clip:text;color:transparent;min-width:1.1ch;text-align:center}
-.answer h2{margin:0 0 6px;font-size:clamp(1.5rem,3.4vw,2.2rem)}.answer p{margin:.3rem 0;color:#cfe0dc}
-.pills{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
-.pill3{display:flex;align-items:center;gap:9px;padding:10px 14px;border-radius:14px;border:1px solid var(--line);background:#0c1a22;font-weight:800}
-.pill3 i{display:grid;place-items:center;width:24px;height:24px;border-radius:50%;font-style:normal;font-size:.8rem;color:#04141a}
-.p1 i{background:#ffb067}.p2 i{background:#78bfff}.p3 i{background:#a99cff}
-.sunbox{margin-top:18px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#071124}
-.sunbox svg{display:block;width:100%;height:auto}
-.sunbox figcaption{padding:10px 16px;color:var(--muted);font-size:.84rem;background:#08111c;border-top:1px solid var(--line)}
-.sun-glow{animation:glow 2.8s ease-in-out infinite}@keyframes glow{50%{opacity:.45}}
-.mk{animation:mk 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes mk{50%{transform:scale(1.35);opacity:.65}}
-.twin{twinkle:1}.star{animation:tw 3s ease-in-out infinite}@keyframes tw{50%{opacity:.25}}
-.funnel{display:grid;gap:10px;margin-top:6px}
-.frow{display:grid;grid-template-columns:minmax(170px,.55fr) 1fr;gap:14px;align-items:center}
-.frow .lab{font-size:.92rem;color:#d7e5e1}.frow .lab b{color:#fff}
-.fbar{height:38px;border-radius:11px;background:#0b1820;border:1px solid var(--line);overflow:hidden}
-.fbar span{display:flex;align-items:center;justify-content:flex-end;height:100%;width:0;padding-right:12px;font-weight:900;color:#04141a;border-radius:10px;background:linear-gradient(90deg,#3fb98d,#79e2b2);transition:width 1.3s cubic-bezier(.2,.7,.2,1)}
-.on .fbar span{width:var(--w)}
-.tri{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
-.tcard{padding:18px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.03)}
-.tcard h3{margin:6px 0 8px;font-size:1.1rem}.tcard p{margin:.3rem 0;color:#c4d6d2;font-size:.95rem}
-.tcard .cnt{font-size:2.4rem;font-weight:900;line-height:1}
-.btnrow{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}
-.gobtn{appearance:none;cursor:pointer;border:1.5px solid var(--accent2);background:rgba(120,191,255,.1);color:var(--accent2);font:800 .9rem inherit;font-family:inherit;padding:10px 15px;border-radius:12px;transition:.2s}
-.gobtn:hover{background:var(--accent2);color:#04141a}
-/* kanıt zinciri */
-.chain{position:relative;margin:10px 0 0;padding-left:34px}
-.chain::before{content:"";position:absolute;left:13px;top:8px;bottom:8px;width:3px;border-radius:2px;background:linear-gradient(var(--g-d),var(--g-g),var(--g-z))}
-.step{position:relative;margin:0 0 26px}
-.step .dot{position:absolute;left:-34px;top:2px;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;font-weight:900;font-size:.85rem;color:#04141a;background:var(--accent);box-shadow:0 0 0 5px rgba(121,226,178,.16)}
-.step h3{margin:0 0 6px;font-size:1.22rem;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.step p{margin:.3rem 0 .6rem;color:#d3e2de}
-.verdict{margin-top:6px;padding:24px;border-radius:22px;border:1px solid #2d5a5a;background:radial-gradient(circle at 100% 0,rgba(120,191,255,.14),transparent 55%),rgba(255,255,255,.03)}
-.verdict h3{margin:0 0 8px;font-size:1.5rem}
-.disjoint{margin:12px 0 4px;display:grid;gap:8px}
-.drow{display:grid;grid-template-columns:150px 1fr;gap:10px;align-items:center;font-size:.85rem;color:#c7d8d4}
-.dtrack{position:relative;height:26px;border-radius:9px;background:#0b1820;border:1px solid var(--line);overflow:hidden}
-.dtrack i{position:absolute;top:3px;bottom:3px;border-radius:6px;transform:scaleX(0);transform-origin:left;transition:transform .9s .2s cubic-bezier(.2,.7,.2,1)}
-.on .dtrack i{transform:scaleX(1)}
-/* belirsiz kartlar */
-.unc{padding:20px;border-radius:20px;border:1px solid var(--line);background:rgba(255,255,255,.03);margin:0 0 18px}
-.unc h3{margin:0 0 6px;font-size:1.2rem;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
-.unc p{margin:.3rem 0 .6rem;color:#d3e2de}
-.dots{display:flex;gap:6px;align-items:center}.dots i{width:18px;height:18px;border-radius:50%;display:inline-block}
-.dA{background:#79e2b2}.dB{background:#78bfff}.dC{background:#a99cff}.dX{background:#ffb067}
-.reads{display:grid;gap:10px;margin:10px 0}
-.read{display:grid;grid-template-columns:90px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:#0b1820}
-.read b{font-size:1.05rem;color:#fff}
-.meter{display:grid;gap:9px}
-.mrow{display:grid;grid-template-columns:minmax(0,1fr) 150px;gap:14px;align-items:center;padding:9px 0;border-bottom:1px solid #16303a}
-.mrow .t{font-size:.95rem;color:#e0ece9}
-.segs{display:grid;grid-template-columns:repeat(4,1fr);gap:4px}
-.segs i{height:10px;border-radius:5px;background:#16303a;transition:background .5s}
-.on .segs i.f{background:var(--c)}
-/* eşit olmayan */
-.neq{display:grid;grid-template-columns:1fr auto 1fr;gap:14px;align-items:stretch;margin:0 0 10px}
-.neq .side{padding:16px 18px;border-radius:18px;border:1px solid var(--line);background:rgba(255,255,255,.035)}
-.neq .side h4{margin:0 0 4px;font-size:1.1rem}.neq .side p{margin:0;color:#b9cbc8;font-size:.92rem}
-.neq .sym{display:grid;place-items:center;font-size:2.6rem;font-weight:900;color:var(--g-a);padding:0 4px}
-.neqwhy{margin:0 0 6px;padding:12px 16px;border-radius:14px;background:rgba(255,155,155,.07);border:1px solid rgba(255,155,155,.25);color:#f0dede}
-.neqwhy b{color:var(--g-a)}
-.block{margin:0 0 54px}
-.block>h3{font-size:1.4rem;margin:0 0 6px}
-/* yöntem */
-.steps4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
-.steps4 .tcard .no{font-weight:900;color:var(--accent);font-size:1.6rem}
-.rtab{width:100%}.rtab td:nth-child(2),.rtab th:nth-child(2){text-align:right}
-.gloss{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
-.gloss .tcard h3{color:var(--accent)}
-.foot2{padding:34px 0 60px;color:var(--muted);border-top:1px solid var(--line);margin-top:40px}
-details.more{border:1px solid var(--line);border-radius:16px;padding:6px 16px;background:rgba(255,255,255,.025);margin:10px 0}
-details.more>summary{cursor:pointer;font-weight:800;padding:10px 0;color:var(--accent2)}
-@media(min-width:901px){.tablist{flex-wrap:wrap;overflow:visible}}
-@media(max-width:900px){.vgrid.cols2,.tri,.steps4,.gloss{grid-template-columns:1fr}.answer{grid-template-columns:1fr;text-align:center}.pills{justify-content:center}.frow{grid-template-columns:1fr}.neq{grid-template-columns:1fr}.neq .sym{font-size:2rem;padding:0}.mrow{grid-template-columns:1fr}.read{grid-template-columns:70px 1fr}.read .dots{grid-column:1/-1}.drow{grid-template-columns:1fr}}
-@media(max-width:560px){.topbar{padding-top:30px}.tab{font-size:.86rem;padding:9px 12px 9px 9px}.fsctl{display:none}.hintrow{display:block}.ayet{padding:15px 14px}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}.fbar span{width:var(--w)}.dtrack i{transform:none}}
-@media print{.tabbar,.copybtn,.fsctl{display:none}.tabpanel[hidden]{display:block}.reveal{opacity:1;transform:none}body{background:#fff;color:#000}}
 
 /* ===== v2.0 tabbed layout ===== */
 :root{--g-d:#79e2b2;--g-g:#78bfff;--g-z:#ffd27a;--g-a:#ff9b9b;--g-i:#b9c6d6;--meal-size:1.08rem}
@@ -485,8 +219,8 @@ details.more>summary{cursor:pointer;font-weight:800;padding:10px 0;color:var(--a
 <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.06;.94;1" dur="18s" repeatCount="indefinite"/></g>
 <g><circle class="mk" cx="110" cy="250" r="11" fill="#ffb067" fill-opacity=".35"/><circle cx="110" cy="250" r="6" fill="#ffb067"/></g>
 <text x="24" y="292" fill="#ffd2a1" font-size="19" font-weight="800">1 · Sabah — Fecr</text><text x="24" y="314" fill="#b8c4dc" font-size="13">Nûr 24:58 · adıyla yazılıdır</text>
-<line x1="744" y1="143" x2="800" y2="104" stroke="#9fd0ff" stroke-width="1.5"/>
-<g><circle class="mk" cx="744" cy="143" r="11" fill="#78bfff" fill-opacity=".35"/><circle cx="744" cy="143" r="6" fill="#78bfff"/></g>
+<line x1="782" y1="205" x2="830" y2="122" stroke="#9fd0ff" stroke-width="1.5"/>
+<g><circle class="mk" cx="782" cy="205" r="11" fill="#78bfff" fill-opacity=".35"/><circle cx="782" cy="205" r="6" fill="#78bfff"/></g>
 <text x="880" y="92" text-anchor="end" fill="#cfe8ff" font-size="19" font-weight="800">2 · Gündüzün sonu</text><text x="880" y="113" text-anchor="end" fill="#d6e6f7" font-size="13">Hûd 11:114 · gündüzün ikinci ucu</text>
 <g><circle class="mk" cx="690" cy="302" r="12" fill="#a99cff" fill-opacity=".3"/><circle cx="690" cy="302" r="8" fill="#e9e6ff"/><circle cx="694" cy="299" r="7" fill="#050b18"/></g>
 <text x="880" y="300" text-anchor="end" fill="#cfc8ff" font-size="19" font-weight="800">3 · Gece — İşâ</text><text x="880" y="322" text-anchor="end" fill="#b8c4dc" font-size="13">Nûr 24:58 · adıyla yazılıdır</text>
@@ -518,14 +252,14 @@ details.more>summary{cursor:pointer;font-weight:800;padding:10px 0;color:var(--a
 <div class="chain">
 <div class="step reveal"><span class="dot">1</span><h3>Namaz vakitlidir <span class="grade g-d">Doğrudan lafız</span></h3><p>Kur’an namazı “vakti belirlenmiş bir farz” diye tanımlar. Yani namaz keyfi bir zamanda değil, belirli zamanlarda kılınır.</p><article class="ayet compact reveal" id="k-v-4-103" data-ref="Nisâ 4:103"><header><span class="refbadge">Nisâ 4:103</span><button class="copybtn" type="button" aria-label="Nisâ 4:103 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">فَإِذَا قَضَيْتُمُ ٱلصَّلَوٰةَ فَٱذْكُرُوا۟ ٱللَّهَ قِيَـٰمًا وَقُعُودًا وَعَلَىٰ جُنُوبِكُمْ ۚ فَإِذَا ٱطْمَأْنَنتُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ ۚ إِنَّ ٱلصَّلَوٰةَ كَانَتْ عَلَى ٱلْمُؤْمِنِينَ كِتَـٰبًا مَّوْقُوتًا</p><p class="meal"><strong>Korku halindeki namazı tamamlayınca, artık Allah&#x27;ı ayakta, oturarak, yan yatmışken anın. Sükûnet bulduğunuzda, namazı tam bir biçimde yerine getirin. Namaz, müminler üzerine vakti belirlenmiş bir farz olmuştur.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p></article></div>
 <div class="step reveal"><span class="dot">2</span><h3>Sabah: Fecr namazı <span class="grade g-d">Doğrudan lafız</span></h3><p>Nûr suresi 24:58, “sabah namazı”nı (Fecr) adıyla anar. Bakara 2:187 ise Fecr’in ne olduğunu verir: gecenin sonunda beyaz ipliğin siyah iplikten seçildiği an.</p><div class="vgrid cols1"><article class="ayet compact gb-g-d reveal" id="k-v-24-58" data-ref="Nûr 24:58"><header><span class="refbadge">Nûr 24:58</span><span class="grade g-d">Doğrudan lafız</span><button class="copybtn" type="button" aria-label="Nûr 24:58 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لِيَسْتَـْٔذِنكُمُ ٱلَّذِينَ مَلَكَتْ أَيْمَـٰنُكُمْ وَٱلَّذِينَ لَمْ يَبْلُغُوا۟ ٱلْحُلُمَ مِنكُمْ ثَلَـٰثَ مَرَّٰتٍ ۚ مِّن قَبْلِ صَلَوٰةِ ٱلْفَجْرِ وَحِينَ تَضَعُونَ ثِيَابَكُم مِّنَ ٱلظَّهِيرَةِ وَمِنۢ بَعْدِ صَلَوٰةِ ٱلْعِشَآءِ ۚ ثَلَـٰثُ عَوْرَٰتٍ لَّكُمْ ۚ لَيْسَ عَلَيْكُمْ وَلَا عَلَيْهِمْ جُنَاحٌۢ بَعْدَهُنَّ ۚ طَوَّٰفُونَ عَلَيْكُم بَعْضُكُمْ عَلَىٰ بَعْضٍ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ</p><p class="meal"><strong>Ey iman edenler! Ellerinizin altında bulunanlarla, ergenlik yaşına gelmemiş olanlarınız sizden üç durumda izin istesinler: Sabah namazından önce, öğlen vaktinde elbiselerinizi çıkardığınızda, akşam kılınan namazdan sonra... Kaygılanacağınız üç vakittir bunlar. Bunlar dışında size de onlara da bir günah yoktur. Aranızda dolaşırlar, birbirinize bakabilirsiniz. Allah, ayetleri size işte böyle açıklıyor. Allah Alîm&#x27;dir, Hakîm&#x27;dir.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Sabah namazı ve akşam/gece namazı aynı ayette adıyla geçer.</p></article><article class="ayet compact gb-g-i reveal" id="k-v-2-187" data-ref="Bakara 2:187"><header><span class="refbadge">Bakara 2:187</span><span class="grade g-i">Bilgi</span><button class="copybtn" type="button" aria-label="Bakara 2:187 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٔـٰنَ بَـٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَـٰشِرُوهُنَّ وَأَنتُمْ عَـٰكِفُونَ فِى ٱلْمَسَـٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَـٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ</p><p class="meal"><strong>Oruç gecesi kadınlarınıza yaklaşmak size helal kılınmıştır. Onlar sizin için giysidir, siz de onlar için giysisiniz. Allah sizin öz benliklerinize yazık etmekte olduğunuzu bilmiş, tövbelerinizi kabul edip sizi affetmiştir. Artık şimdi onlara yaklaşın ve Allah&#x27;ın sizin için yazdığı şeyi arayın. Tan yerinin beyaz ipliği siyah ipliğinden sizce seçilinceye kadar yiyin için; sonra da orucu gece oluncaya değin tamamlayın. Mescitlerde itikâfta bulunduğunuz sırada zevcelerinizle cinsel temas kurmayın. İşte bunlar Allah&#x27;ın yasaklarıdır, bunlara yaklaşmayın. Allah, ayetlerini insanlara işte böyle açıklar ki korunabilsinler.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Fecr’in tarifi. Namaz ayeti değil, zaman bilgisidir.</p></article></div></div>
-<div class="step reveal"><span class="dot">3</span><h3>Gece: İşâ namazı <span class="grade g-d">Doğrudan lafız</span></h3><p>Aynı ayette (yukarıdaki <a class="vchip" href="#k-v-24-58" data-jump="k-v-24-58">Nûr 24:58</a>) gece namazı da adıyla yazılıdır; mealde “akşam kılınan namaz” diye çevrilmiştir. Hûd 11:114 de “geceye yakın saatlerde” namaz kılmayı emreder.</p></div>
+<div class="step reveal"><span class="dot">3</span><h3>Gece: İşâ namazı <span class="grade g-d">Doğrudan lafız</span></h3><p>Aynı ayette (yukarıdaki <a class="vchip" href="#k-v-24-58" data-jump="k-v-24-58">Nûr 24:58</a>) gece namazı da adıyla yazılıdır; mealde “akşam kılınan namaz” diye çevrilmiştir. Hûd 11:114 de gecenin bölümlerinde namaz kılmayı emreder. Arapçada “zülefen mine’l-leyl”, yani “geceden bölümler” yazar; bölümler gecenin içindedir (meal “geceye yakın saatler” diye çevirir).</p></div>
 <div class="step reveal"><span class="dot">4</span><h3>Gündüzün ikinci ucu <span class="grade g-d">Doğrudan lafız</span></h3><p>Hûd 11:114 “gündüzün iki tarafı”nı sayar. Arapçada bu bir <em>ikil</em>dir: tam iki uç. Birinci uç sabah çevresidir, ikincisi gündüzün sonudur. İsrâ 17:78 de güneşin kaymasından gecenin kararmasına uzanan bir aralık kurar.</p><div class="vgrid cols1"><article class="ayet compact gb-g-d reveal" id="k-v-11-114" data-ref="Hûd 11:114"><header><span class="refbadge">Hûd 11:114</span><span class="grade g-d">Doğrudan lafız</span><button class="copybtn" type="button" aria-label="Hûd 11:114 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">وَأَقِمِ ٱلصَّلَوٰةَ طَرَفَىِ ٱلنَّهَارِ وَزُلَفًا مِّنَ ٱلَّيْلِ ۚ إِنَّ ٱلْحَسَنَـٰتِ يُذْهِبْنَ ٱلسَّيِّـَٔاتِ ۚ ذَٰلِكَ ذِكْرَىٰ لِلذَّٰكِرِينَ</p><p class="meal"><strong>Gündüzün iki tarafında ve geceye yakın saatlerde namaz kıl! Güzellikler kötülükleri silip süpürür. İşte bu, Allah&#x27;ı ananlara bir öğüttür.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Gündüzün iki ucu + gecenin bölümleri. Rakam yazmaz.</p></article><article class="ayet compact gb-g-d reveal" id="k-v-17-78" data-ref="İsrâ 17:78"><header><span class="refbadge">İsrâ 17:78</span><span class="grade g-d">Doğrudan lafız</span><button class="copybtn" type="button" aria-label="İsrâ 17:78 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">أَقِمِ ٱلصَّلَوٰةَ لِدُلُوكِ ٱلشَّمْسِ إِلَىٰ غَسَقِ ٱلَّيْلِ وَقُرْءَانَ ٱلْفَجْرِ ۖ إِنَّ قُرْءَانَ ٱلْفَجْرِ كَانَ مَشْهُودًا</p><p class="meal"><strong>Güneşin kaymasından/aşağı sarkmasından, gecenin kararmasına kadar namazı kıl. Sabah Kur&#x27;an&#x27;ını da gözet. Çünkü sabah Kur&#x27;an&#x27;ı tanıklarca izlenmektedir.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Güneşin kaymasından gecenin kararmasına kadar bir aralık.</p></article></div></div>
 <div class="step reveal"><span class="dot">5</span><h3>Neden “en az 3”? <span class="grade g-g">Güçlü çıkarım</span></h3><p>Hûd 11:114’te sayılan zamanlar birbirinden ayrıktır: gündüzün iki ucu ve gecenin bölümleri. Tek bir namaz bu ayrık zamanların hepsini kapsayamaz. Her zaman için ayrı namaz en doğal okumadır. Bu yüzden <strong>en az üç ayrı vakit</strong> çıkar.</p><div class="disjoint reveal"><div class="drow"><span>Gündüzün 1. ucu</span><div class="dtrack"><i style="left:6%;width:20%;background:#ffb067"></i></div></div>
 <div class="drow"><span>Gündüzün 2. ucu</span><div class="dtrack"><i style="left:62%;width:20%;background:#78bfff"></i></div></div>
 <div class="drow"><span>Gecenin bölümleri</span><div class="dtrack"><i style="left:84%;width:14%;background:#a99cff"></i></div></div>
 <div class="drow"><span><b>Tek bir namaz?</b></span><div class="dtrack" style="border-style:dashed"><i style="left:6%;width:92%;background:repeating-linear-gradient(90deg,#ff9b9b55 0 10px,transparent 10px 18px)"></i></div></div></div>
 <p class="sub" style="color:var(--muted);font-size:.85rem;margin:2px 0 0">Şematik: renkli şeritler birbirinin üstüne binmez. Kesikli şerit, tek bir namazın üçünü de kapsaması gerektiğini gösterir; bu mümkün değildir.</p></div>
-<div class="step reveal"><span class="dot">6</span><h3>Neden dördüncüsü yok? <span class="grade g-g">Güçlü çıkarım</span></h3><p>Kur’an’da “salât” ismi 77 ayette geçer. Bunların yalnız 6’sında aynı ayette zaman sözcüğü vardır. Bu 6 ayetin hiçbiri dördüncü bir günlük vakit adlandırmaz veya tarif etmez. Tesbîh ayetleri namaz sayımına katılmaz (bkz. “Eşit olmayan kavramlar”).</p><div class="funnel reveal"><div class="frow"><div class="lab"><b>Kur’an’daki ayet</b></div><div class="fbar"><span style="--w:100%">6236</span></div></div><div class="frow"><div class="lab"><b>“Salât” ismi geçen ayet</b></div><div class="fbar"><span style="--w:62%">77</span></div></div><div class="frow"><div class="lab"><b>Aynı ayette zaman sözcüğü olan</b></div><div class="fbar"><span style="--w:34%">6</span></div></div><div class="frow"><div class="lab"><b>Günlük vakit bildiren</b></div><div class="fbar"><span style="--w:20%">3</span></div></div></div></div>
+<div class="step reveal"><span class="dot">6</span><h3>Neden dördüncüsü yok? <span class="grade g-g">Güçlü çıkarım</span></h3><p>Kur’an’da “salât” ismi 77 ayette geçer. Bunların yalnız 6’sında aynı ayette zaman sözcüğü vardır. Bu 6 ayetin hiçbiri dördüncü bir günlük vakit adlandırmaz veya tarif etmez. “Namaz kılmak” fiilinin geçtiği ayetlerde de zaman sözcüğü yoktur. Tesbîh ayetleri namaz sayımına katılmaz (bkz. “Eşit olmayan kavramlar”).</p><div class="funnel reveal"><div class="frow"><div class="lab"><b>Kur’an’daki ayet</b></div><div class="fbar"><span style="--w:100%">6236</span></div></div><div class="frow"><div class="lab"><b>“Salât” ismi geçen ayet</b></div><div class="fbar"><span style="--w:62%">77</span></div></div><div class="frow"><div class="lab"><b>Aynı ayette zaman sözcüğü olan</b></div><div class="fbar"><span style="--w:34%">6</span></div></div><div class="frow"><div class="lab"><b>Günlük vakit bildiren</b></div><div class="fbar"><span style="--w:20%">3</span></div></div></div></div>
 </div>
 <div class="verdict reveal"><span class="grade g-g">Sonuç</span><h3>Kur’an 3 namaz vakti gösterir</h3><p><strong>Sabah (Fecr), gündüzün sonu ve gece (İşâ).</strong> Adıyla yazılı olanlar Fecr ve İşâ’dır. Gündüzün ikinci ucu, Hûd 11:114’teki “iki uç”tan çıkar. Kur’an “yalnız üç” demez; ama dördüncü bir günlük vakti ne adlandırır ne tarif eder. Üçten fazlası ancak ayette yazmayan bir varsayımla çıkar; bu varsayımlar “Belirsiz” sekmesinde tek tek gösterilmiştir.</p>
 <div class="btnrow"><button class="gobtn" data-goto="belirsiz">Neler belirsiz? →</button><button class="gobtn" data-goto="kavramlar">Eşit olmayan kavramlar →</button></div></div></div></div><div class="tabpanel" role="tabpanel" id="panel-belirsiz" aria-labelledby="tab-belirsiz" hidden><div class="wrap"><div class="ph"><h2>Kanıtlanamayan veya belirsiz olanlar</h2><p>Kur’an’ın söylemediği ya da net söylemediği şeyler. Bunlar “3 vakit” sonucunu bozmaz; ama üçten fazlası için bunlardan birinde ayette yazmayan bir varsayım gerekir.</p><div class="legend"><span class="grade g-d">Doğrudan lafız</span><span class="grade g-g">Güçlü çıkarım</span><span class="grade g-z">Zayıf destek</span><span class="grade g-a">Açık / belirsiz</span></div></div>
@@ -542,7 +276,7 @@ details.more>summary{cursor:pointer;font-weight:800;padding:10px 0;color:var(--a
 <div class="unc reveal"><h3>6 · “Orta namaz” nerede ve ne demek? <span class="grade g-z">Zayıf destek</span></h3><p>“Orta” (<em>vasat</em>) kelimesinin Kur’an’daki bütün kullanımlarına baktık (5 geçiş). Yalnız 100:5 saf konumdur (“ortasına dalmak”). 2:143 (“orta yolu izleyen”), 5:89 (“orta derece”) ve 68:28 (“ortancaları/ılımlı olanı”) nitelik anlamındadır. “Orta” her zaman “iki yanı olan, ortada duran” demek olmadığından, “orta namaz en az üç namaz gerektirir” çıkarımı kesin değildir. Ana sonuç buna dayanmaz.</p><div class="vgrid cols2"><article class="ayet compact gb-g-d reveal" id="b-v-2-238" data-ref="Bakara 2:238"><header><span class="refbadge">Bakara 2:238</span><span class="grade g-d">Doğrudan lafız</span><button class="copybtn" type="button" aria-label="Bakara 2:238 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">حَـٰفِظُوا۟ عَلَى ٱلصَّلَوَٰتِ وَٱلصَّلَوٰةِ ٱلْوُسْطَىٰ وَقُومُوا۟ لِلَّهِ قَـٰنِتِينَ</p><p class="meal"><strong>Namazları ve orta namazı koruyun. Tam bir saygıyla Allah&#x27;ın huzurunda kıyam edin.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">“Orta namaz” adı.</p></article><article class="ayet compact gb-g-z reveal" id="b-v-2-143" data-ref="Bakara 2:143"><header><span class="refbadge">Bakara 2:143</span><span class="grade g-z">Zayıf destek</span><button class="copybtn" type="button" aria-label="Bakara 2:143 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">وَكَذَٰلِكَ جَعَلْنَـٰكُمْ أُمَّةً وَسَطًا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَـٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌ رَّحِيمٌ</p><p class="meal"><strong>İşte böyle! Biz sizi, insanlar üstüne tanık olasınız, resul de sizin üstünüze tanık olsun diye, orta yolu izleyen bir ümmet yaptık. Biz, eskiden üzerinde olduğunu kıble haline getirdik ki resule uyanı, ökçesi üstüne gerisin geri dönenden ayıralım. Bu, Allah&#x27;ın kılavuzluk ettikleri dışındakilere gerçekten zor gelecektir. Ama Allah imanınızı işe yaramaz hale getirmeyecektir. Şu da bir gerçek ki, Allah öncelikle insanlara karşı çok acıyıcı, çok merhametlidir.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">“Orta yolu izleyen ümmet”: nitelik.</p></article><article class="ayet compact gb-g-z reveal" id="b-v-5-89" data-ref="Mâide 5:89"><header><span class="refbadge">Mâide 5:89</span><span class="grade g-z">Zayıf destek</span><button class="copybtn" type="button" aria-label="Mâide 5:89 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَـٰنِكُمْ وَلَـٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَـٰنَ ۖ فَكَفَّـٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَـٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَـٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّـٰرَةُ أَيْمَـٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَـٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَـٰتِهِۦ لَعَلَّكُمْ تَشْكُرُونَ</p><p class="meal"><strong>Allah sizi yeminlerinizdeki boş lakırdıdan ötürü hesaba çekmez, ama bilinçli olarak gerçekleştirdiğiniz yeminlerden sizi sorumlu tutar. Böyle bir yeminin keffâreti, ailenize yedirmekte olduğunuzun orta derecesinden on yoksulu doyurmak, yahut onları giydirmek, yahut da özgürlüğünden yoksun kalmış bir benliği özgürlüğüne kavuşturmaktır. Bunlara imkân bulamayan üç gün oruç tutar. Yemin ettiğinizde yeminlerinizin keffâreti işte budur. Yeminlerinizi koruyun. Allah size ayetlerini böyle açıklar ki şükredebilesiniz.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">“Orta derecesinden”: nitelik.</p></article><article class="ayet compact gb-g-z reveal" id="b-v-68-28" data-ref="Kalem 68:28"><header><span class="refbadge">Kalem 68:28</span><span class="grade g-z">Zayıf destek</span><button class="copybtn" type="button" aria-label="Kalem 68:28 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">قَالَ أَوْسَطُهُمْ أَلَمْ أَقُل لَّكُمْ لَوْلَا تُسَبِّحُونَ</p><p class="meal"><strong>Ortancaları/ılımlı olanı şöyle dedi: &quot;Ben size söylemedim mi? Tespih etseydiniz ya!&quot;</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">“Ortancaları/ılımlı olanı”: nitelik.</p></article><article class="ayet compact gb-g-z reveal" id="b-v-100-5" data-ref="Âdiyât 100:5"><header><span class="refbadge">Âdiyât 100:5</span><span class="grade g-z">Zayıf destek</span><button class="copybtn" type="button" aria-label="Âdiyât 100:5 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">فَوَسَطْنَ بِهِۦ جَمْعًا</p><p class="meal"><strong>Derken, onunla bir topluluğun ortasına dalanlara ki,</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">“Ortasına dalmak”: konum.</p></article></div></div>
 <div class="unc reveal"><h3>7 · Dakika ve derece sınırları <span class="grade g-a">Açık</span></h3><p>Kur’an saat, dakika ya da güneş açısı vermez. −18° gibi değerler modern tercihlerdir. “Saat aracı” sekmesindeki saatler bu yüzden yalnız astronomik gözlemdir, Kur’an hükmü değildir.</p></div>
 <div class="unc reveal"><h3>8 · Dördüncü günlük vakit için gereken varsayımlar <span class="grade g-a">Açık</span></h3><p>Üçten fazla vakit ancak şunlardan birini kabul edersek çıkar. Hiçbirini bir ayet adlandırmaz:</p>
-<ul><li><b>Fecr’i</b> Hûd 11:114’teki iki uçtan ayrı saymak (B veya C okuması).</li><li><b>17:78’deki aralığı</b> ikiye bölmek.</li><li><b>Gecenin bölümlerini</b> (zülef) birden çok namaz saymak.</li></ul></div></div></div><div class="tabpanel" role="tabpanel" id="panel-kavramlar" aria-labelledby="tab-kavramlar" hidden><div class="wrap"><div class="ph"><h2>Eşit olmayan kavramlar</h2><p>Birbirine benzeyen ama Kur’an’da aynı olmayan kavramlar. Karıştırılınca vakit sayısı yanlış çıkar. Her kavram çiftinin altında dayandığı ayetlerin tam meali var.</p></div>
+<ul><li><b>Fecr’i</b> Hûd 11:114’teki iki uçtan ayrı saymak (B veya C okuması).</li><li><b>17:78’deki aralığı</b> ikiye bölmek.</li><li><b>Gecenin bölümlerini</b> (zülef) birden çok namaz saymak.</li><li><b>Orta namazı</b> (Vustâ) gündüzün sonundan ayrı bir vakit saymak, örneğin öğle. Bakara 2:238 Vustâ’nın gündüzün neresinde olduğunu yazmaz.</li></ul></div></div></div><div class="tabpanel" role="tabpanel" id="panel-kavramlar" aria-labelledby="tab-kavramlar" hidden><div class="wrap"><div class="ph"><h2>Eşit olmayan kavramlar</h2><p>Birbirine benzeyen ama Kur’an’da aynı olmayan kavramlar. Karıştırılınca vakit sayısı yanlış çıkar. Her kavram çiftinin altında dayandığı ayetlerin tam meali var.</p></div>
 <div class="block"><h3>1 · Tesbîh ≠ Salât</h3>
 <div class="neq reveal"><div class="side"><h4>Tesbîh</h4><p>Allah’ı anmak, yüceltmek. Kuşlar, dağlar, melekler, gök gürültüsü de yapar.</p></div><div class="sym" aria-label="eşit değildir">≠</div><div class="side"><h4>Salât</h4><p>Vakti belirlenmiş, “ikame edilen” yükümlülük.</p></div></div><p class="neqwhy"><b>Neden eşit değil?</b> Nûr 24:41 “salâtehû” ve “tesbîhehû” sözcüklerini ayrı ayrı sayar (mealde salât “dua” diye çevrilmiştir; Arapçada iki ayrı kelimedir). 24:36–37’de sabah-akşam tesbîh ayrı, “namazı ikame etmek” ayrı anılır. Bu yüzden tesbîh ayetleri namaz vakti sayımına katılmaz.</p>
 <h3 class="sec">Ayrımı gösteren ayetler</h3><div class="vgrid cols2"><article class="ayet compact gb-g-d reveal" id="c-v-24-41" data-ref="Nûr 24:41"><header><span class="refbadge">Nûr 24:41</span><span class="grade g-d">Doğrudan lafız</span><button class="copybtn" type="button" aria-label="Nûr 24:41 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">أَلَمْ تَرَ أَنَّ ٱللَّهَ يُسَبِّحُ لَهُۥ مَن فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَٱلطَّيْرُ صَـٰٓفَّـٰتٍ ۖ كُلٌّ قَدْ عَلِمَ صَلَاتَهُۥ وَتَسْبِيحَهُۥ ۗ وَٱللَّهُ عَلِيمٌۢ بِمَا يَفْعَلُونَ</p><p class="meal"><strong>Görmedin mi, göklerdeki ve yerdeki şuurlular da bölük bölük olmuş kuşlar da Allah&#x27;ı tespih etmektedir. Her biri kendine özgü duasını, kendine özgü tespihini bilmiştir. Allah, onların yapmakta olduklarını çok iyi bilmektedir.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Salât ve tesbîh ayrı sözcüklerdir.</p></article><article class="ayet compact gb-g-d reveal" id="c-v-24-36-37" data-ref="Nûr 24:36–37"><header><span class="refbadge">Nûr 24:36–37</span><span class="grade g-d">Doğrudan lafız</span><button class="copybtn" type="button" aria-label="Nûr 24:36–37 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">فِى بُيُوتٍ أَذِنَ ٱللَّهُ أَن تُرْفَعَ وَيُذْكَرَ فِيهَا ٱسْمُهُۥ يُسَبِّحُ لَهُۥ فِيهَا بِٱلْغُدُوِّ وَٱلْـَٔاصَالِ رِجَالٌ لَّا تُلْهِيهِمْ تِجَـٰرَةٌ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَـٰرُ</p><p class="meal"><strong>Kandil, Allah&#x27;ın yükseltilmesine ve içinde adının anılmasına izin verdiği evlerdedir. Orada sabah akşam O&#x27;nu tespih eder. Öyle erler vardır ki, bir ticaret de bir alışveriş de onları Allah&#x27;ın zikrinden/Kur&#x27;an&#x27;ından, namaz kılmaktan, zekât vermekten alıkoyamaz. Onlar, kalplerle gözlerin döneceği/yer değiştireceği günden korkarlar.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Sabah-akşam tesbîh ile namazın ikamesi ayrı anılır.</p></article><article class="ayet compact gb-g-i reveal" id="c-v-15-98" data-ref="Hicr 15:98"><header><span class="refbadge">Hicr 15:98</span><span class="grade g-i">Bilgi</span><button class="copybtn" type="button" aria-label="Hicr 15:98 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">فَسَبِّحْ بِحَمْدِ رَبِّكَ وَكُن مِّنَ ٱلسَّـٰجِدِينَ</p><p class="meal"><strong>Şimdi sen, Rabbine hamd ile tespih et ve secde edenlerden ol!</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">“Tesbih et ve secde edenlerden ol”: iki ayrı eylem.</p></article><article class="ayet compact gb-g-i reveal" id="c-v-50-40" data-ref="Kâf 50:40"><header><span class="refbadge">Kâf 50:40</span><span class="grade g-i">Bilgi</span><button class="copybtn" type="button" aria-label="Kâf 50:40 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">وَمِنَ ٱلَّيْلِ فَسَبِّحْهُ وَأَدْبَـٰرَ ٱلسُّجُودِ</p><p class="meal"><strong>Gecenin bir kısmında ve secdelerin arkalarından O&#x27;nu tespih et!</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Tesbîh, secdelerin arkasından yapılır.</p></article><article class="ayet compact gb-g-i reveal" id="c-v-3-41" data-ref="Âl-i İmrân 3:41"><header><span class="refbadge">Âl-i İmrân 3:41</span><span class="grade g-i">Bilgi</span><button class="copybtn" type="button" aria-label="Âl-i İmrân 3:41 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">قَالَ رَبِّ ٱجْعَل لِّىٓ ءَايَةً ۖ قَالَ ءَايَتُكَ أَلَّا تُكَلِّمَ ٱلنَّاسَ ثَلَـٰثَةَ أَيَّامٍ إِلَّا رَمْزًا ۗ وَٱذْكُر رَّبَّكَ كَثِيرًا وَسَبِّحْ بِٱلْعَشِىِّ وَٱلْإِبْكَـٰرِ</p><p class="meal"><strong>Zekeriyya dedi: &quot;Rabbim, bana bir belirti ver.&quot; Allah buyurdu: &quot;Sana belirti şudur: &quot;İnsanlarla üç gün, işaretleşme dışında konuşmayacaksın. Rabbini çok an. Akşam-sabah tespih et.&quot;</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Zekeriyya konuşamazken “akşam-sabah tespih et” emri alır.</p></article><article class="ayet compact gb-g-i reveal" id="c-v-19-11" data-ref="Meryem 19:11"><header><span class="refbadge">Meryem 19:11</span><span class="grade g-i">Bilgi</span><button class="copybtn" type="button" aria-label="Meryem 19:11 ayetini kopyala">Kopyala</button></header><p class="ar" lang="ar" dir="rtl">فَخَرَجَ عَلَىٰ قَوْمِهِۦ مِنَ ٱلْمِحْرَابِ فَأَوْحَىٰٓ إِلَيْهِمْ أَن سَبِّحُوا۟ بُكْرَةً وَعَشِيًّا</p><p class="meal"><strong>Bunun üzerine Zekeriyya, yakarış yerinden ayrılıp halkının karşısına geçti ve onlara &quot;sabah akşam tespih edin&quot; diye işaret verdi.</strong></p><p class="msrc">Meal: Yaşar Nuri Öztürk</p><p class="vnote">Konuşamayan Zekeriyya işaretle “tespih edin” der.</p></article></div>
@@ -641,7 +375,7 @@ details.more>summary{cursor:pointer;font-weight:800;padding:10px 0;color:var(--a
 <div style="margin-top:14px"><div class="legend"><span class="grade g-d">Doğrudan lafız</span><span class="grade g-g">Güçlü çıkarım</span><span class="grade g-z">Zayıf destek</span><span class="grade g-a">Açık / belirsiz</span></div><p class="sub" style="color:var(--muted);margin:6px 0 0"><b>Doğrudan lafız</b>: ayette yazılı. <b>Güçlü çıkarım</b>: ayetlerden zorunlu denecek kadar güçlü çıkan. <b>Zayıf destek</b>: olası ama kesin olmayan. <b>Açık / belirsiz</b>: Kur’an söylemiyor.</p></div></div>
 <div class="sec"><h3><span class="bar"></span>Kök taramaları</h3><p class="sub">Küçük kökler Tanzil metniyle yeniden sayılıp doğrulandı. Büyük kökler önceki taramadan alındı; sonuç bu sayılara dayanmaz.</p>
 <div class="card full" style="grid-column:auto"><table class="rtab"><thead><tr><th>Kök</th><th>Geçiş</th><th>Durum</th></tr></thead><tbody><tr><td>Salât ismi (isim biçimleri)</td><td>77</td><td>Tanzil ile doğrulandı</td></tr><tr><td>ز-ل-ف · zülef / yakınlık</td><td>10</td><td>Tanzil ile doğrulandı</td></tr><tr><td>ط-ر-ف · taraf</td><td>11</td><td>Tanzil ile doğrulandı</td></tr><tr><td>غ-س-ق · ğasaq</td><td>4</td><td>Tanzil ile doğrulandı</td></tr><tr><td>د-ل-ك · dülûk</td><td>1</td><td>Tanzil ile doğrulandı</td></tr><tr><td>و-س-ط · orta (vasat)</td><td>5</td><td>Tanzil ile doğrulandı</td></tr><tr><td>ف-ج-ر · fecr ve türevleri</td><td>24</td><td>Önceki tarama; gevşek yeniden sayım 26 buldu, fark biçim tanımından</td></tr><tr><td>ن-ه-ر · nehâr / nehir</td><td>113</td><td>Önceki tarama; yeniden sayılmadı</td></tr><tr><td>ل-ي-ل · leyl</td><td>92</td><td>Önceki tarama; yeniden sayılmadı</td></tr><tr><td>ص-ب-ح · subh</td><td>45</td><td>Önceki tarama; yeniden sayılmadı</td></tr><tr><td>غ-د-و · ğudüv</td><td>16</td><td>Önceki tarama; yeniden sayılmadı</td></tr><tr><td>ا-ص-ل · âsâl</td><td>10</td><td>Önceki tarama; yeniden sayılmadı</td></tr><tr><td>ظ-ه-ر · zahîre ve türevleri</td><td>59</td><td>Önceki tarama; yeniden sayılmadı</td></tr><tr><td>ش-م-س · şems</td><td>33</td><td>Önceki tarama; yeniden sayılmadı</td></tr></tbody></table></div>
-<p class="sub" style="color:var(--muted);margin-top:10px">“Salât” taraması isim biçimlerini kapsar; fiil biçimleri dışarıdadır. Ayrıca sayfada atıf yapılan 19 ayet, Tanzil metniyle karşılaştırılıp doğrulandı.</p></div>
+<p class="sub" style="color:var(--muted);margin-top:10px">“Salât” isim biçimlerinin yanında “namaz kılmak” fiil biçimleri de tarandı; fiil geçen ayetlerin hiçbirinde zaman sözcüğü yok. Ayrıca sayfada atıf yapılan 19 ayet, Tanzil metniyle karşılaştırılıp doğrulandı.</p></div>
 <div class="sec"><h3><span class="bar"></span>Kısa sözlük</h3><div class="gloss"><div class="tcard reveal"><h3>Fecr</h3><p>Gecenin sonunda beyaz ipliğin siyah iplikten seçildiği an (Bakara 2:187).</p></div><div class="tcard reveal"><h3>Nehâr / Leyl</h3><p>Nehâr gündüz, leyl gecedir.</p></div><div class="tcard reveal"><h3>Tarafeyn (iki uç)</h3><p>“Gündüzün iki ucu”: gündüzün başı ve sonu çevresindeki iki bölge (Hûd 11:114).</p></div><div class="tcard reveal"><h3>Zülef</h3><p>“Yakınlık” kökünden gelir: gecenin bölümleri. Neye yakın olduğu ayette yazmaz.</p></div><div class="tcard reveal"><h3>Dülûk ve Ğasaq</h3><p>İsrâ 17:78’deki aralığın başı (güneşle ilgili bir an) ve sonu (gecenin kararması). Kesin anları tanımlı değildir.</p></div><div class="tcard reveal"><h3>Vustâ</h3><p>“Orta namaz” (Bakara 2:238). “Orta” hem konum hem nitelik anlamına gelebilir.</p></div><div class="tcard reveal"><h3>İşâ</h3><p>Nûr 24:58’de adıyla geçen gece namazı.</p></div><div class="tcard reveal"><h3>Tesbîh</h3><p>Allah’ı anmak ve yüceltmek. Namazdan ayrı bir kavramdır (Nûr 24:41).</p></div><div class="tcard reveal"><h3>A, B, C okumaları</h3><p>Fecr’in Hûd 11:114’teki yeri için üç olası okuma: A gündüzün ilk ucu, B gecenin gündüze yakın bölümü, C ayrı bir eşik.</p></div></div></div>
 <div class="sec"><h3><span class="bar"></span>Bağımsız saat doğrulaması</h3><div class="card full" style="margin-top:16px">
   <div class="kicker">11 Ekim 2026 · bağımsız astronomi doğrulaması</div>
