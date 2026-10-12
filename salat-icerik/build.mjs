@@ -22,7 +22,7 @@ const copyright = corpus.slice(copyrightStart).split('\n').map(line => line.trim
 
 const css = fs.readFileSync(path.join(dir, 'src/style.css'), 'utf8');
 const js = fs.readFileSync(path.join(dir, 'src/app.js'), 'utf8');
-const VERSION = 'v0.5';
+const VERSION = 'v0.5.1';
 const DATE = '12 Ekim 2026';
 const BASMALA = verses.get('1:1'); // Fâtiha 1: besmelenin kaynak metindeki harfi harfine yazımı
 
@@ -251,7 +251,13 @@ ${row('2. grup', cell('guard', 'Nöbette, silahlı', ''), cell('pray', 'Gelir, e
 <div class="tl-foot">
 <p class="sec-foot y">${mk('y')}<span><b>Ayette yazılı:</b> grupların sırası; “secde edince arkanızda olsunlar” emri; ikinci grubun “salât etmemiş” diye anılması. ${refs(['4:102'])}</span></p>
 <p class="sec-foot">${mk('c')}<span><b>Dil yapısı:</b> “Arkanızda olsunlar” fiilinin öznesi en doğal okumada secde eden gruptur: secde eden grup arkaya geçer.</span></p>
-<p class="sec-foot">${mk('c')}<span><b>Araştırma notu:</b> Elçinin salâtı en az iki bölüm, kişi başına bir bölüm; “salâttan kısaltma” ile birlikte olağan salât en az iki bölüm (rekât). Üç varsayıma dayanır: elçi aynı salâtı sürdürür; her grubun bölümü secdeyle biter; birinci grup bu bölümle salâtını tamamlamış sayılır. ${refs(['4:102', '4:101'])}</span></p>
+<p class="sec-foot">${mk('c')}<span><b>Hitap:</b> Nisâ 102'de elçiye tekil (“sen”, “seninle”), Nisâ 101 ve 103'te müminlere çoğul hitap edilir. Çoğul hitap elçiyi dışarıda bırakmaz. ${refs(['4:101', '4:103'])}</span></p>
+<div class="branch" aria-label="Araştırma notu: elçi kısaltmadıysa ya da kısalttıysa olağan salât">
+<p class="branch-lab">${mk('c')}<span><b>Araştırma notu:</b> elçinin salâtı en az iki bölümse, olağan salât için iki durum vardır</span></p>
+<div class="branch-row"><div class="branch-box"><b>Elçi kısaltmadıysa</b><span>olağan salât = iki bölüm</span></div><div class="branch-box"><b>Elçi kısalttıysa</b><span>olağan salât = ikiden fazla bölüm</span></div></div>
+<div class="branch-result"><b>İki durumda da: olağan salât en az iki bölüm.</b> <span>Dayandığı iki varsayım: elçi iki grupla aynı salâtı sürdürür; her grubun katıldığı kısım bir bölümdür. Korku için anılan tek değişiklik kısaltmadır. ${refs(['4:102', '4:101'])}</span></div>
+<p class="branch-weak"><b>Daha zayıf kısım:</b> korkuda kişi başına bir bölüm. Birinci grubun o bölümle salâtını tamamlamış sayılmasına dayanır; ayette açıkça yazmaz.</p>
+</div>
 <p class="sec-foot a">${mk('a')}<span><b>Açık:</b> Ayette “rekât” kelimesi ve bir sayı geçmez; birinci grubun kalanı sonradan tamamlayıp tamamlamadığı yazmaz. Bu yüzden araştırma notu kesin değildir.</span></p>
 </div>
 </figure>`;
@@ -417,6 +423,7 @@ ${topics.map(topicSection).join('\n')}
 <li>Nûr 41: “ve” bağlacından iki kavramın özdeş olmadığı çıkarıldı; aralarında ortak alan bulunup bulunmadığı açık bırakıldı.</li>
 <li>İsrâ 78: sabah okumasının “ikame et” emrine bağlanması ile salâtın içinde yapılması ayrıldı; ikincisi yorum olarak işaretlendi.</li>
 <li>Meal ile Arapça: tek “fark var” etiketi yerine dört tür (uyumlu, açıklayıcı ekleme, çeviri tercihi, anlam farkı).</li>
+<li>v0.5.1: Nisâ 102 araştırma notu iki kısma ayrıldı. “Olağan salât en az iki bölüm” kısmının elçinin kısaltıp kısaltmadığına bağlı olmadığı gösterildi; Nisâ 101–103'teki tekil ve çoğul hitap eklendi.</li>
 </ul>
 <p><strong>v0.4</strong></p><ul>
 <li>Yaşar Nuri Öztürk meali eklendi; her ayete “Meal ile Arapça” karşılaştırması yazıldı.</li>
