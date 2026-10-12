@@ -22,7 +22,7 @@ const copyright = corpus.slice(copyrightStart).split('\n').map(line => line.trim
 
 const css = fs.readFileSync(path.join(dir, 'src/style.css'), 'utf8');
 const js = fs.readFileSync(path.join(dir, 'src/app.js'), 'utf8');
-const VERSION = 'v0.4';
+const VERSION = 'v0.5';
 const DATE = '12 Ekim 2026';
 const BASMALA = verses.get('1:1'); // Fâtiha 1: besmelenin kaynak metindeki harfi harfine yazımı
 
@@ -51,11 +51,10 @@ const ynDoc = JSON.parse(fs.readFileSync(path.join(dir, 'yasar-nuri-meal.json'),
 const yn = ynDoc.ayetler;
 for (const key of allKeys) {
   if (!yn[key] || !yn[key].trim()) throw new Error(`Yaşar Nuri meali yok: ${key}`);
-  if (!ynNotes[key] || !['u', 'f'].includes(ynNotes[key][0])) throw new Error(`Meal ile Arapça notu yok: ${key}`);
+  if (!Array.isArray(ynNotes[key]) || !ynNotes[key].length) throw new Error(`Meal ile Arapça notu yok: ${key}`);
 }
 for (const key of Object.keys(yn)) if (!keySet.has(key)) throw new Error(`Kullanılmayan Yaşar Nuri meali: ${key}`);
 for (const key of Object.keys(ynNotes)) if (!keySet.has(key)) throw new Error(`Kullanılmayan karşılaştırma notu: ${key}`);
-const ynDiff = allKeys.filter(k => ynNotes[k][0] === 'f').length;
 const topicOf = new Map();
 topics.forEach(t => t.keys.forEach(k => topicOf.set(k, t)));
 const N = allKeys.length;
@@ -81,16 +80,27 @@ const mk = level => `<span class="mk ${level}" role="img" aria-label="${MK[level
 const legend = () => `<p class="legend">${['y', 'c', 'a'].map(l => `<span>${mk(l)} ${MK[l][1]}</span>`).join('')}</p>`;
 
 // Yaşar Nuri meali ve karşılaştırma satırı
-const U_TEXT = 'Arapçayla uyumlu.';
+const CMP = {
+  u: ['✓', 'Uyumlu'],
+  e: ['+', 'Açıklayıcı ekleme'],
+  t: ['≈', 'Çeviri tercihi'],
+  f: ['≠', 'Anlam farkı']
+};
+const cmpChip = type => `<span class="cmp-chip c-${type}"><span aria-hidden="true">${CMP[type][0]}</span> ${CMP[type][1]}</span>`;
 function ynBlock(key) {
-  const [status, text] = ynNotes[key];
-  const chip = status === 'u'
-    ? '<span class="cmp-chip ok"><span aria-hidden="true">✓</span> Uyumlu</span>'
-    : '<span class="cmp-chip diff"><span aria-hidden="true">≠</span> Fark var</span>';
-  const body = status === 'u' ? text.replace(U_TEXT, '').trim() : text;
+  const items = ynNotes[key];
+  for (const [type] of items) if (!CMP[type]) throw new Error(`Bilinmeyen karşılaştırma türü: ${key} ${type}`);
+  let body;
+  if (items.length === 1 && items[0][0] === 'u') {
+    body = `<p class="cmp cmp-u"><span class="cmp-label">Meal ile Arapça:</span> ${cmpChip('u')}${items[0][1] ? ' ' + rich(items[0][1]) : ''}</p>`;
+  } else {
+    if (items.some(([type]) => type === 'u')) throw new Error(`“Uyumlu” başka türlerle karışık olamaz: ${key}`);
+    body = `<div class="cmp cmp-list"><p class="cmp-label">Meal ile Arapça:</p><ul>${items.map(([type, text]) => `<li>${cmpChip(type)} ${rich(text)}</li>`).join('')}</ul></div>`;
+  }
   return `<div class="yn m-yn"><p class="meal-yn"><span class="meal-label">Yaşar Nuri Öztürk meali</span><span class="yn-text">${esc(yn[key])}</span></p>
-<p class="cmp ${status === 'u' ? 'cmp-ok' : 'cmp-diff'}"><span class="cmp-label">Meal ile Arapça:</span> ${chip}${body ? ' ' + rich(body) : ''}</p></div>`;
+${body}</div>`;
 }
+const cmpCount = type => allKeys.filter(k => ynNotes[k].some(([t]) => t === type)).length;
 
 // Ayet kartı
 function card(key) {
@@ -132,7 +142,7 @@ ${sbox('y', 'Ayakta durma', 'salât ederken ayakta', ['3:39', '2:238'])}
 ${sbox('y', 'Secde', 'salât sahnesinde', ['4:102'])}
 ${sbox('c', 'Rükû', 'salât emriyle yan yana', ['2:43', '5:55'])}
 ${sbox('y', 'Ses', 'ne yüksek ne gizli', ['17:110'])}
-${sbox('c', 'Okuma', 'sabah okuması', ['17:78', '73:20'])}
+${sbox('c', 'Söz', 'ne söylediğini bilmek', ['4:43'])}
 ${sbox('c', 'Yön', 'Mescid-i Harâm', ['2:144', '10:87'])}
 ${sbox('y', 'Huşû', 'salâtın içinde', ['23:2'])}
 </div></div>
@@ -144,9 +154,9 @@ ${sbox('y', 'Cumada dağılma', "Allah'ın lütfunu arama", ['62:10'])}
 </div>
 <div class="band">
 ${sbox('y', 'Zor koşulda kolaylık', 'yaya ya da binek üzerinde; salâttan kısaltma', ['2:239', '4:101'])}
-${sbox('y', 'Okuma: kolayınıza gelen', 'sabit bir okuma ya da dua kalıbı verilmez', ['73:20', '17:110'])}
-${sbox('c', 'Bölüm (rekât) sayısı', 'olası okuma: olağanda en az iki, korkuda kişi başına bir', ['4:102', '4:101'])}
-${sbox('a', 'Ayetlerde yazmayanlar', 'kesin rekât sayısı · hareketlerin sırası · el ve oturuş biçimi')}
+${sbox('y', 'Okumada ölçü: kolayınıza gelen', '“Kur\'an\'dan kolayınıza geleni okuyun”', ['73:20'])}
+${sbox('a', 'Bölüm (rekât) sayısı', 'ayette yazmaz; Nisâ 102 için araştırma notu Konular sekmesinde', ['4:102'])}
+${sbox('a', 'Ayetlerde yazmayanlar', 'hareketlerin sırası · el ve oturuş biçimi · salât içindeki dua metni')}
 </div>
 ${legend()}
 </figure>`;
@@ -163,17 +173,17 @@ function wuduFig() {
   const w = (ar, tr, cls = '', kase = '') => `<span class="w ${cls}" style="--i:${stagger++}"><span class="ar" lang="ar" dir="rtl">${esc(ar)}</span><span class="tr">${esc(tr)}</span>${kase ? `<span class="case ${kase}">${kase === 'ustun' ? 'üstün' : 'esre'}</span>` : ''}</span>`;
   const arr = '<span class="arr" aria-hidden="true">→</span>';
   return `<figure class="fig reveal" aria-labelledby="mesh-h">
-<div class="fig-head"><h3 id="mesh-h">Mâide 6: Ayaklar hangi emre bağlı?</h3><p class="fig-sub">Kelimenin son harekesi, hangi kelimelerle birlikte sayıldığını gösterir.</p></div>
+<div class="fig-head"><h3 id="mesh-h">Mâide 6: Ayaklar hangi emre bağlı?</h3><p class="fig-sub">Kelimenin son harekesi ve cümledeki yeri iki ayrı okumaya imkân verir.</p></div>
 <div class="wudu">
 <div class="sent">${w(W.wash, 'Yıkayın', 'verb')}${arr}${w(W.faces, 'yüzlerinizi', '', 'ustun')}${w(W.hands, 've ellerinizi', '', 'ustun')}${w(W.elbows, 'dirseklere kadar')}</div>
 <div class="sent">${w(W.wipe, 'Meshedin', 'verb')}${arr}${w(W.heads, 'başlarınızı', '', 'esre')}</div>
 <div class="sent"><span class="w q" style="--i:${stagger++}"><span class="tr">Hangi emir?</span></span>${arr}${w(W.feet, 've ayaklarınızı', '', 'ustun')}${w(W.ankles, 'topuklara kadar')}</div>
 </div>
 <div class="opts">
-<div class="opt"><h4>${mk('c')} Ayaklar → yıkayın <span class="str">Daha güçlü okuma</span></h4><p>“Ayaklarınızı” kelimesi, “yüzlerinizi” ve “ellerinizi” gibi üstünle biter: aynı listede sayılır. Eller için “dirseklere kadar”, ayaklar için “topuklara kadar” sınırı verilir; meshedilen baş için sınır verilmez.</p></div>
-<div class="opt weak"><h4>${mk('c')} Ayaklar → meshedin <span class="str">Mümkün, daha zayıf</span></h4><p>Dayanağı: ayaklar, başlardan hemen sonra gelir. Zayıf yanı: “başlarınızı” esreyle, “ayaklarınızı” üstünle biter; bağlamak için ek bir dil açıklaması gerekir.</p></div>
+<div class="opt"><h4>${mk('c')} Okuma A: ayaklar → yıkayın</h4><p>Dayanağı: “ayaklarınızı” kelimesi, “yüzlerinizi” ve “ellerinizi” gibi üstünle biter; eller ve ayaklar için benzer sınırlar verilir (dirseklere kadar, topuklara kadar).</p></div>
+<div class="opt"><h4>${mk('c')} Okuma B: ayaklar → meshedin</h4><p>Dayanağı: ayaklar, başlardan hemen sonra gelir. “Başlarınızı” esreyle bitse de cümlede nesne yerindedir; üstünlü bir kelime bu yere bağlanabilir (Arapçada bilinen bir yapı).</p></div>
 </div>
-<p class="fig-foot">Su bulunamazsa yalnız yüz ve eller meshedilir; ayaklar anılmaz. ${refs(['4:43', '5:6'])}</p>
+<p class="fig-foot"><b>Sonuç:</b> İki okuma da dilce mümkündür; bu sayfa birini seçmez. Su bulunamazsa yalnız yüz ve eller meshedilir; ayaklar anılmaz. ${refs(['4:43', '5:6'])}</p>
 </figure>`;
 }
 
@@ -221,7 +231,7 @@ ${u('Elçi', 'insanlar için', 'Üzerlerine salât et; senin salâtın onlar iç
 ${u('Her varlık', 'kendi salâtı', 'Her biri kendi salâtını ve tesbîhini bilmiştir.', ['24:41'])}
 ${u('Bir yapının adı', 'salavât', "Savâmi', biya', salavât ve mescitler yıkılırdı.", ['22:40'])}
 ${u('Eleştirilen uygulama', 'evin yanında', 'Onların evin yanındaki salâtı, mükâ ve tasdiyeden başka bir şey değildi.', ['8:35'])}
-<div class="u-strip">${mk('c')}<span><b>Çıkarım (dil yapısı):</b> Salât ile tesbîh aynı şey değildir; Nûr 41'de “ve” ile ayrı ayrı sayılır. ${refs(['24:41', '24:36'])}</span></div>
+<div class="u-strip">${mk('c')}<span><b>Çıkarım (dil yapısı):</b> Nûr 41'de salât ile tesbîh “ve” ile ayrı ayrı anılır; en doğal okumada ayet ikisini özdeş saymaz. Aralarında ortak bir alan olup olmadığı ayrı bir sorudur. ${refs(['24:41', '24:36'])}</span></div>
 </div>
 </figure>`;
 }
@@ -231,7 +241,7 @@ function rekatFig() {
   const cell = (cls, text, quote) => `<span class="tl-cell ${cls}" role="cell" style="--i:${stagger++}">${esc(text)}${quote ? `<small>“${esc(quote)}”</small>` : ''}</span>`;
   const row = (who, a, b) => `<div class="tl-row" role="row"><span class="tl-who" role="rowheader">${esc(who)}</span>${a}${b}</div>`;
   return `<figure class="fig reveal" aria-labelledby="rekat-h">
-<div class="fig-head"><h3 id="rekat-h">Nisâ 102: Korku salâtı nasıl işler?</h3><p class="fig-sub">Sıra ayette yazılıdır; bölümleri saymak çıkarımdır.</p></div>
+<div class="fig-head"><h3 id="rekat-h">Nisâ 102: Korku salâtında sıra</h3><p class="fig-sub">Sıra ayette yazılıdır; bölümleri saymak bir araştırma notudur.</p></div>
 <div class="tl" role="table" aria-label="Nisâ 102'ye göre korku salâtında elçinin ve iki grubun sırası">
 <div class="tl-row tl-head" role="row"><span role="columnheader"><span class="sr">Kim</span></span><span role="columnheader">1. bölüm <em>(çıkarım)</em></span><span role="columnheader">2. bölüm <em>(çıkarım)</em></span></div>
 ${row('Elçi', cell('pray', 'Onlar için salâtı ikame eder', ''), cell('pray', 'Salâta devam eder', ''))}
@@ -239,9 +249,10 @@ ${row('1. grup', cell('pray', 'Elçiyle kalkar, secde eder', 'Secde edince arkan
 ${row('2. grup', cell('guard', 'Nöbette, silahlı', ''), cell('pray', 'Gelir, elçiyle salât eder', 'Salât etmemiş diğer grup gelsin'))}
 </div>
 <div class="tl-foot">
-<p class="sec-foot y">${mk('y')}<span><b>Ayette yazılı:</b> grupların sırası; secde eden grubun arkaya geçmesi; ikinci grubun “salât etmemiş” diye anılması. ${refs(['4:102'])}</span></p>
-<p class="sec-foot">${mk('c')}<span><b>Olası okuma:</b> Her grup elçiyle bir bölüm kılar; elçinin salâtı en az iki bölümdür. “Salâttan kısaltma” ile birlikte okununca: olağan salât en az iki bölüm (rekât), korku ve savaş anında kişi başına bir bölüm. ${refs(['4:102', '4:101'])}</span></p>
-<p class="sec-foot a">${mk('a')}<span><b>Açık:</b> Ayette “rekât” kelimesi ve bir sayı geçmez; birinci grubun kalanı sonradan tamamlayıp tamamlamadığı yazmaz.</span></p>
+<p class="sec-foot y">${mk('y')}<span><b>Ayette yazılı:</b> grupların sırası; “secde edince arkanızda olsunlar” emri; ikinci grubun “salât etmemiş” diye anılması. ${refs(['4:102'])}</span></p>
+<p class="sec-foot">${mk('c')}<span><b>Dil yapısı:</b> “Arkanızda olsunlar” fiilinin öznesi en doğal okumada secde eden gruptur: secde eden grup arkaya geçer.</span></p>
+<p class="sec-foot">${mk('c')}<span><b>Araştırma notu:</b> Elçinin salâtı en az iki bölüm, kişi başına bir bölüm; “salâttan kısaltma” ile birlikte olağan salât en az iki bölüm (rekât). Üç varsayıma dayanır: elçi aynı salâtı sürdürür; her grubun bölümü secdeyle biter; birinci grup bu bölümle salâtını tamamlamış sayılır. ${refs(['4:102', '4:101'])}</span></p>
+<p class="sec-foot a">${mk('a')}<span><b>Açık:</b> Ayette “rekât” kelimesi ve bir sayı geçmez; birinci grubun kalanı sonradan tamamlayıp tamamlamadığı yazmaz. Bu yüzden araştırma notu kesin değildir.</span></p>
 </div>
 </figure>`;
 }
@@ -251,16 +262,16 @@ function esneklikFig() {
   const edge = (text, key) => `<span class="edge-chip" style="--i:${stagger++}">${esc(text)} <span class="refs">${refs([key])}</span></span>`;
   const item = (level, text, keys) => `<li style="--i:${stagger++}">${mk(level)}<span>${esc(text)} <span class="refs">${refs(keys)}</span></span></li>`;
   return `<figure class="fig reveal" aria-labelledby="esneklik-h">
-<div class="fig-head"><h3 id="esneklik-h">Sınırlar yazılı, içi serbest</h3><p class="fig-sub">Dış çerçeve ayette yazılı sınırlardır; iç alan kişinin kendi sözleridir.</p></div>
+<div class="fig-head"><h3 id="esneklik-h">Yazılı sınırlar ve metni verilmeyen alan</h3><p class="fig-sub">Dış çerçeve ayette yazılı sınırlardır; iç alanda sabit bir metin verilmez.</p></div>
 <div class="frame">
 <p class="frame-lab">${mk('y')} Ayette yazılı sınırlar</p>
 <div class="frame-edge">${edge('Ne söylediğini bilmek', '4:43')}${edge('Orta ses', '17:110')}${edge('Huşû', '23:2')}${edge('Allah\'ı anmak', '20:14')}</div>
 <div class="frame-core">
-<p class="frame-lab">Serbest bırakılan alan</p>
+<p class="frame-lab">Sabit metni verilmeyen alan</p>
 <ul class="core-list">
-${item('y', 'Okunacak metin: “kolayınıza gelen”', ['73:20'])}
+${item('y', 'Kur\'an\'dan okunacak kısım: “kolayınıza gelen”', ['73:20'])}
 ${item('y', 'Allah\'a hangi güzel isimle çağrılacağı', ['17:110'])}
-${item('c', 'Dua ve övgü: kişinin kendi sözleriyle', ['2:186', '5:101'])}
+${item('c', 'Dua ve övgü: kişinin kendi sözleriyle (araştırma notu)', ['2:186', '17:110'])}
 </ul>
 </div>
 </div>
@@ -272,7 +283,7 @@ const graphics = { hazirlik: wuduFig, kelime: secdeFig, korku: () => rekatFig() 
 
 function levels(t) {
   const li = s => `<li>${rich(s)}</li>`;
-  const TAG = { dil: 'dil yapısı', baglam: 'birlikte okuma', olasi: 'olası okuma' };
+  const TAG = { dil: 'dil yapısı', baglam: 'birlikte okuma', olasi: 'araştırma notu' };
   const cli = ([kind, s]) => { if (!TAG[kind]) throw new Error('Bilinmeyen çıkarım türü: ' + kind); return `<li><span class="tag ${kind}">${TAG[kind]}</span>${rich(s)}</li>`; };
   return `<div class="levels">
 <div class="lv y"><h3>${mk('y')} Ayette yazılı</h3><ul>${t.y.map(li).join('')}</ul></div>
@@ -303,7 +314,7 @@ ${t.keys.map(card).join('\n')}
 const ilist = items => `<ul class="ilist">${items.map(x => `<li>${rich(x)}</li>`).join('')}</ul>`;
 const answerBox = `<section class="answer reveal" aria-labelledby="cevap-h">
 <h2 id="cevap-h">Kısa cevap</h2>
-<p class="big">Kur'an salâtın <strong>neden</strong> kılındığını ve <strong>nasıl hazırlanılacağını</strong> anlatır; <strong>ayakta durma, secde ve ses ölçüsünü</strong> salât sahnelerinde açıkça verir. Rükû ve kıble, salâtla birlikte okunarak bağlanır. <strong>Okunacak dua ve övgü için sabit bir kalıp koymaz;</strong> “kolayınıza geleni okuyun” der: kişi Allah'ı kendi sözleriyle anabilir, övebilir ve O'na dua edebilir. <strong>Rekât sayısını ve hareketlerin sırasını ayrıntılı bir tarif olarak vermez;</strong> korku salâtının anlatımından olağan salâtın en az iki bölüm olduğu çıkarılabilir.</p>
+<p class="big">Kur'an salâtın <strong>neden</strong> kılındığını ve <strong>nasıl hazırlanılacağını</strong> anlatır; <strong>ayakta durma, secde ve ses ölçüsünü</strong> salât sahnelerinde açıkça verir. Rükû ve kıble, salâtla birlikte okunarak bağlanır. Okumada ölçü <strong>“Kur'an'dan kolayınıza geleni okuyun”</strong> sözüdür. <strong>Rekât sayısını, hareketlerin sırasını ve salât içinde söylenecek sabit bir dua metnini ayrıntılı bir tarif olarak vermez.</strong> Bu boşluklar hakkındaki olası okumalar (bölüm sayısı, dua ve övgüde serbestlik) Konular sekmesinde varsayımlarıyla birlikte araştırma notu olarak verilir.</p>
 <div class="rows">
 <div class="row y"><span class="lab">${mk('y')} Ayette yazılı</span>${ilist(answer.y)}</div>
 <div class="row c"><span class="lab">${mk('c')} Çıkarım</span>${ilist(answer.c)}</div>
@@ -375,8 +386,8 @@ ${topics.map(topicSection).join('\n')}
 <h3>Kanıt dereceleri</h3>
 <div class="grades">
 <div class="grade y"><b>${mk('y')} Ayette yazılı</b><span>Ayetin kendi sözlerinde açıkça bulunan bilgi. Örnek: “Secde ettiklerinde arkanızda olsunlar.” ${link('4:102')}</span></div>
-<div class="grade c"><b>${mk('c')} Çıkarım · dil yapısı</b><span>Arapça kelimenin son harekesinden, bağlaçtan ya da cümle yapısından çıkan sonuç. Örnek: ayakların hangi emre bağlandığı. ${link('5:6')}</span></div>
-<div class="grade c"><b>${mk('c')} Çıkarım · olası okuma</b><span>Ayetlerden makul biçimde çıkan ama başka okumalara da açık sonuç. Örnek: olağan salâtın en az iki bölüm olması. ${link('4:102')}</span></div>
+<div class="grade c"><b>${mk('c')} Çıkarım · dil yapısı</b><span>Arapça kelimenin son harekesinden, bağlaçtan ya da cümle yapısından çıkan sonuç. Örnek: anmanın ardından salâtın gelmesi (“fe” bağlacı). ${link('87:15')}</span></div>
+<div class="grade c"><b>${mk('c')} Çıkarım · araştırma notu</b><span>Birden çok varsayıma dayanan, başka okumalara da açık sonuç. Varsayımları yanında yazılır; ana sonuç olarak sunulmaz. Örnek: Nisâ 102'den bölüm sayısı. ${link('4:102')}</span></div>
 <div class="grade c"><b>${mk('c')} Çıkarım · birlikte okuma</b><span>Birden çok ayeti ve kime söylendiklerini birlikte okuyarak kurulan bağlantı. Örnek: rükûnun salâtın içindeki yeri. ${link('2:43')}</span></div>
 <div class="grade a"><b>${mk('a')} Açık</b><span>Bu çalışmada ayetlerle kapanmayan konu. Örnek: rekât sayısı.</span></div>
 </div>
@@ -386,7 +397,7 @@ ${topics.map(topicSection).join('\n')}
 <li><strong>Arapça metin.</strong> Tanzil'in Resm-i Osmânî imlâsıyla (Hz. Osman mushafının yazımı; Uthmani) yazılmış metninden harfi harfine alınır; değiştirilmez.</li>
 <li><strong>Besmele.</strong> Bazı surelerin başındaki besmele, kaynak dosyada o surenin ilk ayetiyle aynı satırdadır. Burada sure başlığı olarak ayrı gösterilir; ayet numarasına dahil değildir.</li>
 <li><strong>Türkçe mealler.</strong> Her ayette iki meal vardır. <em>Tam çalışma meali</em>: bu proje için yapay zekâ yardımıyla (ChatGPT ve Claude) hazırlanmış, Arapçaya yakın tutulmuş meal; yayımlanmış bir mealden alınmadı ve bir Arapça uzmanı tarafından ayrıca okunmadı. <em>Yaşar Nuri Öztürk meali</em>: ${esc(ynDoc.kaynak)}. Metin olduğu gibi alınır; yalnız iki PDF aktarım hatası düzeltildi (Fetih 29, Nisâ 102). Konular sekmesinde hangi mealin gösterileceği seçilebilir.</li>
-<li><strong>Meal ile Arapça.</strong> Yaşar Nuri mealinin Arapçadan ayrıldığı yerler her ayette ayrıca yazılır: ${ynDiff} ayette fark, ${N - ynDiff} ayette uyumlu. Mealin genel tercihleri her ayette tekrar edilmez: ibadet anlamındaki “salât” için “namaz”, “ikame et” için “kıl”, “sâlihât” için “hayra ve barışa yönelik işler” der ve Allah'ın isimlerine kısa açıklamalar ekler. Salâtın başka anlamlarda “dua” ya da “destek” diye çevrildiği yerler ise ayet ayet gösterilir.</li>
+<li><strong>Meal ile Arapça.</strong> Yaşar Nuri mealinin her ayetteki durumu dört türle gösterilir; bir ayette birden çok tür olabilir. <em>✓ Uyumlu</em>: meal Arapçanın anlamını korur (${cmpCount('u')} ayet). <em>+ Açıklayıcı ekleme</em>: meal Arapçada olmayan bir söz ekler (${cmpCount('e')} ayet). <em>≈ Çeviri tercihi</em>: Arapça kelime birden çok anlama gelebilir; meal birini ya da yorum içeren bir karşılığı seçer (${cmpCount('t')} ayet). <em>≠ Anlam farkı</em>: meal ayetin söylediğini değiştirir; özne ya da kapsam değişir veya Arapçada olmayan bir biçim eklenir (${cmpCount('f')} ayet). Mealin genel tercihleri her ayette tekrar edilmez: ibadet anlamındaki “salât” için “namaz”, “ikame et” için “kıl”, “sâlih/sâlihât” için “hayra ve barışa yönelik” der ve Allah'ın isimlerine kısa açıklamalar ekler.</li>
 <li><strong>Köşeli ayraç [ ].</strong> Çevirmenin eklediği kelime ya da açık bırakılan iki okuma.</li>
 <li><strong>“İkame etmek”.</strong> Salâtı ayakta tutmak, dosdoğru yerine getirmek. Mealde Arapçadaki gibi bırakıldı.</li>
 <li><strong>Ayet gösterimi.</strong> “Bakara 43”: Bakara suresinin 43. ayeti.</li>
@@ -399,10 +410,18 @@ ${topics.map(topicSection).join('\n')}
 <p>Otomatik denetim: ${N} ayetin her birinde Arapça metin kaynak dosyayla harfi harfine karşılaştırılır; her ayetin tam meali vardır; sayfadaki bütün iç bağlantıların hedefi vardır.</p>
 <details><summary>Tanzil kaynak bildirimi</summary><pre>${esc(copyright)}</pre></details>
 </details>
-<details><summary>Sürüm notları</summary><p><strong>${VERSION}</strong></p><ul>
-<li>Yaşar Nuri Öztürk meali eklendi; her ayete “Meal ile Arapça” karşılaştırması yazıldı (${ynDiff} ayette fark, ${N - ynDiff} ayette uyumlu).</li>
+<details><summary>Sürüm notları</summary><p><strong>${VERSION}</strong> (bağımsız denetimden sonra)</p><ul>
+<li>Dua ve övgüde serbestlik, ayette yazılı bir sonuç olarak değil, varsayımları yazılı bir araştırma notu olarak verildi; Kısa cevaptan çıkarıldı.</li>
+<li>Nisâ 102'den bölüm sayısı okuması Kısa cevaptan çıkarıldı; üç varsayımıyla birlikte araştırma notu oldu.</li>
+<li>Mâide 6: yıkama ve mesh okumaları eşit biçimde, dil çözümlemeleriyle verildi; tercih açık bırakıldı.</li>
+<li>Nûr 41: “ve” bağlacından iki kavramın özdeş olmadığı çıkarıldı; aralarında ortak alan bulunup bulunmadığı açık bırakıldı.</li>
+<li>İsrâ 78: sabah okumasının “ikame et” emrine bağlanması ile salâtın içinde yapılması ayrıldı; ikincisi yorum olarak işaretlendi.</li>
+<li>Meal ile Arapça: tek “fark var” etiketi yerine dört tür (uyumlu, açıklayıcı ekleme, çeviri tercihi, anlam farkı).</li>
+</ul>
+<p><strong>v0.4</strong></p><ul>
+<li>Yaşar Nuri Öztürk meali eklendi; her ayete “Meal ile Arapça” karşılaştırması yazıldı.</li>
 <li>Konular sekmesinde meal seçimi: ikisi de, çalışma meali, Yaşar Nuri.</li>
-<li>Nisâ 102 çizimi ve olası okuma: olağan salât en az iki bölüm, korkuda kişi başına bir.</li>
+<li>Nisâ 102 çizimi eklendi.</li>
 <li>Yeni konu: Verilmeyen ayrıntılar ve esneklik. Mâide 101, Bakara 186 ve Hac 78 eklendi.</li>
 </ul>
 <p><strong>v0.3</strong></p><ul>

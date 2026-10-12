@@ -61,7 +61,7 @@ for card in cards:
     assert card.xpath('.//a[contains(@class, "source-link")]')[0].get("href") == f"https://tanzil.net/#{key}", key
     yn_text = card.xpath('.//span[@class="yn-text"]')
     assert len(yn_text) == 1 and yn_text[0].text_content() == yn[key], f"Yaşar Nuri meali kaynakla aynı değil: {key}"
-    cmp = card.xpath('.//p[contains(concat(" ", normalize-space(@class), " "), " cmp ")]')
+    cmp = card.xpath('.//*[contains(concat(" ", normalize-space(@class), " "), " cmp ")]')
     assert len(cmp) == 1 and "Meal ile Arapça" in cmp[0].text_content(), f"Meal ile Arapça satırı yok: {key}"
 
 for anchor in document.xpath('//a[starts-with(@href, "#")]'):
