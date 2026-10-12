@@ -280,7 +280,7 @@ export const topics = [
   {
     id: "beden", title: "Salâtta ayakta durma, rükû ve secde",
     short: "Ayakta durma ve secde salât sahnelerinde açıkça geçer.",
-    summary: "Salât bedenle yapılan bir eylemdir: ayakta durma ve secde salât sahnelerinde açıkça geçer. Hareketlerin sırası ve sayısı yazmaz.",
+    summary: "Salât bedenle yapılan bir eylemdir: ayakta durma ve secde salât sahnelerinde açıkça geçer. Hareketlerin sırası ve sayısı incelenen ayetlerde yazmaz.",
     y: [
       "Zekeriyyâ “mihrapta ayakta salât ederken.” [[3:39]]",
       "“Salâtları koruyun” ve aynı ayette “Allah için gönülden boyun eğerek ayakta durun.” [[2:238]]",
@@ -302,7 +302,7 @@ export const topics = [
   {
     id: "kelime", title: "Secde, rükû ve kıyam kelimeleri",
     short: "Secde hem bedenle kapanma hem bütün varlıkların boyun eğişi.",
-    summary: "Secde Kur'an'da hem yere kapanan bir beden hareketi hem de bütün varlıkların boyun eğişi için kullanılır. Rükûnun tam biçimi tarif edilmez.",
+    summary: "Secde Kur'an'da hem yere kapanan bir beden hareketi hem de bütün varlıkların boyun eğişi için kullanılır. Rükûnun tam biçimi incelenen ayetlerde tarif edilmez.",
     y: [
       "Secde bedensel bir kapanmadır: “çeneleri üzerine secde ederek kapanırlar.” [[17:107,17:109]]",
       "Secde bütün varlıklar için de söylenir: güneş, ay, yıldızlar, dağlar, ağaçlar Allah'a secde eder. [[22:18]]",
@@ -322,7 +322,7 @@ export const topics = [
   {
     id: "okuma", title: "Okuma, anma ve ses",
     short: "Salâtta söz söylenir; ses için orta yol.",
-    summary: "Salâtta söz söylenir ve ses için orta yol istenir. Okumada ölçü “Kur'an'dan kolayınıza gelen”dir; salât içinde söylenecek sabit bir metin verilmez.",
+    summary: "Salâtta söz söylenir ve ses için orta yol istenir. Okumada ölçü “Kur'an'dan kolayınıza gelen”dir; salât içinde söylenecek sabit bir metin incelenen ayetlerde verilmez.",
     y: [
       "“Ne söylediğinizi bilinceye kadar” salâta yaklaşmayın. [[4:43]]",
       "“Salâtında [sesini] yükseltme, onu kısma da; ikisi arasında bir yol ara.” Elçiye söylenir. [[17:110]]",
@@ -344,7 +344,7 @@ export const topics = [
   },
   {
     id: "esneklik", title: "Verilmeyen ayrıntılar ve esneklik",
-    short: "Okumada ölçü “kolayınıza gelen”; dua metni verilmez.",
+    short: "Okumada ölçü “kolayınıza gelen”; incelenen ayetlerde dua metni verilmez.",
     summary: "Kur'an okumada “Kur'an'dan kolayınıza geleni okuyun” der ve Allah'a hangi güzel isimle çağrılırsa çağrılsın en güzel isimlerin O'nun olduğunu söyler. İncelenen ayetler salât içinde söylenecek sabit bir dua ya da övgü metni vermez. Kişinin Allah'ı kendi sözleriyle anabileceği, övebileceği ve O'na dua edebileceği ise ayette doğrudan söylenmez; aşağıda varsayımlarıyla birlikte bir araştırma notu olarak verilir.",
     y: [
       "“Kur'ân'dan kolayınıza geleni okuyun.” Aynı ayette iki kez söylenir. Okunan Kur'an'dır; kısmı ve miktarı kolaya bırakılır. [[73:20]]",
@@ -396,7 +396,7 @@ export const topics = [
       "“Salâtı tamamladığınızda ayakta, oturarak ve yanlarınız üzerinde Allah'ı anın. Güvene kavuştuğunuzda salâtı ikame edin.” [[4:103]]"
     ],
     c: [
-      ["olasi", "Bölüm sayısı hakkında araştırma notu. Daha sağlam kısım: olağan salât en az iki bölümdür. Dayanağı: elçi iki grupla aynı salâtı sürdürür (“seninle salât etsinler”) ve her grubun katıldığı kısım bir bölümdür; korku için anılan tek değişiklik de kısaltmadır. Bu sonuç elçinin kısaltıp kısaltmadığına bağlı değildir: kısaltmadıysa olağan salât iki bölüm, kısalttıysa ikiden fazladır; iki durumda da en az ikidir. Daha zayıf kısım: korkuda kişi başına bir bölüm. Bu, birinci grubun o bölümle salâtını tamamlamış sayılmasına dayanır (ikinci grup için “salât etmemiş” denmesinden) ve ayette açıkça yazmaz. Ayette “rekât” kelimesi ve bir sayı geçmez. [[4:102,4:101]]"],
+      ["olasi", "Bölüm sayısı hakkında araştırma notu. Daha sağlam kısım: olağan salât en az iki bölümdür. Hesap iki adımdır. (1) Elçinin korkudaki salâtı en az iki bölümdür: elçi iki grupla aynı salâtı sürdürür (“seninle salât etsinler”) ve her grup en az bir bölüm kılar. Çizimdeki iki sütun, her grubun bir bölüm kıldığı en sade okumadır. (2) Olağan salât korkudakinden az bölüm olamaz: korkuda anılan değişiklikler kısaltma, silah ve tedbir, yaya ya da binek üzerinde kılmadır [[4:101,4:102,2:239]] ve hiçbiri bölüm eklemez. Kısaltmanın neyi azalttığı yazmaz: bölüm sayısını azalttıysa olağan salât korkudakinden fazla bölümdür; elçi kısaltmadıysa ya da kısaltma başka bir şeyi (örneğin uzunluğu) azalttıysa bölüm sayısı aynıdır. Her durumda olağan salât en az iki bölümdür. Varsayımlar: elçi iki grupla aynı salâtı sürdürür; her grup en az bir bölüm kılar; korkuda anılanlar dışında bir değişiklik yapılmaz. Daha zayıf kısım: korkuda kişi başına bir bölüm. Bu, her grubun tam bir bölüm kılmasına ve birinci grubun o bölümle salâtını tamamlamış sayılmasına dayanır (ikinci grup için “salât etmemiş” denmesinden) ve ayette açıkça yazmaz. Ayette “rekât” kelimesi ve bir sayı geçmez. [[4:102,4:101]]"],
       ["dil", "Hitap: Nisâ 102'de elçiye tekil hitap vardır (“sen içlerinde olunca”, “onlara salâtı ikame edince”, “seninle salât etsinler”); kısaltma izni ve “güvene kavuşunca salâtı ikame edin” emri ise çoğuldur. Çoğul hitap müminlere topluca söylenir ve elçiyi dışarıda bırakmaz; bu yüzden “elçinin iki bölümü tek başına tam bir salâttı” demek ek bir varsayım ister. [[4:102,4:101,4:103]]"],
       ["baglam", "Zor koşulda salât bırakılmaz, hafifletilir; güven gelince olağan salâta dönülür. [[2:239,4:101,4:103]]"]
     ],
@@ -479,7 +479,7 @@ export const answer = {
 export const openNote = "Salât içinde söylenecek dua ve övgü için incelenen ayetlerde sabit bir metin verilmez. Kur'an okumada “Kur'an'dan kolayınıza geleni okuyun” der; dua ve övgüde serbestlik ise varsayımları yazılı bir araştırma notudur: [[#esneklik]]";
 
 export const openQuestions = [
-  { t: "Rekât sayısı ve hareketlerin sırası", d: "Ayette “rekât” kelimesi ve sayı geçmez. Korku salâtının anlatımından bir araştırma notu çıkar: olağan salâtın en az iki bölüm olduğu kısmı daha sağlamdır ve elçinin kısaltıp kısaltmadığına bağlı değildir; korkuda kişi başına bir bölüm kısmı ise ayette açıkça yazmayan bir varsayıma dayanır. Hareketlerin sırası da yazmaz; Âl-i İmrân 43'te secdenin rükûdan önce anılması zorunlu bir sıra vermez. [[4:102,4:101,3:43]]" },
+  { t: "Rekât sayısı ve hareketlerin sırası", d: "Ayette “rekât” kelimesi ve sayı geçmez. Korku salâtının anlatımından bir araştırma notu çıkar: olağan salâtın en az iki bölüm olduğu kısmı daha sağlamdır ve elçinin kısaltıp kısaltmadığına ya da kısaltmanın neyi azalttığına bağlı değildir; korkuda kişi başına bir bölüm kısmı ise ayette açıkça yazmayan bir varsayıma dayanır. Hareketlerin sırası da yazmaz; Âl-i İmrân 43'te secdenin rükûdan önce anılması zorunlu bir sıra vermez. [[4:102,4:101,3:43]]" },
   { t: "Rükûnun beden biçimi", d: "Rükû bir ayette “yere kapandı” fiiliyle birlikte gelir; eğilme mi, kapanma mı olduğu tarif edilmez. [[38:24]]" },
   { t: "Temizlikteki ayrıntılar", d: "Ayakların hangi emre (yıkayın / meshedin) bağlandığı: iki okuma da dilce mümkündür; bu sayfa birini seçmez. “Yol geçicileri” ve “kadınlarla temas” ifadelerinin kapsamı da açıktır. [[5:6,4:43]]" },
   { t: "Kısaltmanın miktarı ve koşulu", d: "“Salâttan kısaltmak” denir, miktar verilmez. Ayette yolculuk ve korku birlikte geçer; yalnız yolculuğun yetip yetmediği yazmaz. [[4:101]]" },

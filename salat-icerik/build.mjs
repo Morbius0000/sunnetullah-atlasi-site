@@ -22,7 +22,7 @@ const copyright = corpus.slice(copyrightStart).split('\n').map(line => line.trim
 
 const css = fs.readFileSync(path.join(dir, 'src/style.css'), 'utf8');
 const js = fs.readFileSync(path.join(dir, 'src/app.js'), 'utf8');
-const VERSION = 'v0.5.1';
+const VERSION = 'v0.5.2';
 const DATE = '12 Ekim 2026';
 const BASMALA = verses.get('1:1'); // Fâtiha 1: besmelenin kaynak metindeki harfi harfine yazımı
 
@@ -136,7 +136,7 @@ ${sbox('y', 'Su yoksa', 'temiz zemin; yüz ve eller', ['4:43', '5:6'])}
 ${sbox('y', 'Çağrı', 'salâta ve cumaya çağrı', ['5:58', '62:9'])}
 </div>
 <div class="flow" aria-hidden="true">→</div>
-<div class="phase mid"><h3><span class="pn">2</span> İçinde</h3><p class="ph-note">Bu kutuların sırası ayetlerde verilmez.</p>
+<div class="phase mid"><h3><span class="pn">2</span> İçinde</h3><p class="ph-note">Bu kutuların sırası incelenen ayetlerde verilmez.</p>
 <div class="mid-grid">
 ${sbox('y', 'Ayakta durma', 'salât ederken ayakta', ['3:39', '2:238'])}
 ${sbox('y', 'Secde', 'salât sahnesinde', ['4:102'])}
@@ -199,7 +199,7 @@ function secdeFig() {
 <div class="col"><h4>${mk('y')} Rükû: yere kapanarak</h4><ul>
 <li>Dâvûd “rükû ederek yere kapandı.” ${refs(['38:24'])}</li></ul></div>
 <p class="sec-foot">${mk('c')}<span><b>Çıkarım:</b> Salât sahnesindeki secde, bedenle yere kapanma anlamıyla uyumludur: grup secde eder, sonra arkaya geçer. ${refs(['4:102'])}</span></p>
-<p class="sec-foot a">${mk('a')}<span><b>Açık:</b> Rükûnun tam beden biçimi (eğilmek mi, yere kapanmak mı) ayetlerde tarif edilmez.</span></p>
+<p class="sec-foot a">${mk('a')}<span><b>Açık:</b> Rükûnun tam beden biçimi (eğilmek mi, yere kapanmak mı) incelenen ayetlerde tarif edilmez.</span></p>
 </div>
 </figure>`;
 }
@@ -252,11 +252,11 @@ ${row('2. grup', cell('guard', 'Nöbette, silahlı', ''), cell('pray', 'Gelir, e
 <p class="sec-foot y">${mk('y')}<span><b>Ayette yazılı:</b> grupların sırası; “secde edince arkanızda olsunlar” emri; ikinci grubun “salât etmemiş” diye anılması. ${refs(['4:102'])}</span></p>
 <p class="sec-foot">${mk('c')}<span><b>Dil yapısı:</b> “Arkanızda olsunlar” fiilinin öznesi en doğal okumada secde eden gruptur: secde eden grup arkaya geçer.</span></p>
 <p class="sec-foot">${mk('c')}<span><b>Hitap:</b> Nisâ 102'de elçiye tekil (“sen”, “seninle”), Nisâ 101 ve 103'te müminlere çoğul hitap edilir. Çoğul hitap elçiyi dışarıda bırakmaz. ${refs(['4:101', '4:103'])}</span></p>
-<div class="branch" aria-label="Araştırma notu: elçi kısaltmadıysa ya da kısalttıysa olağan salât">
-<p class="branch-lab">${mk('c')}<span><b>Araştırma notu:</b> elçinin salâtı en az iki bölümse, olağan salât için iki durum vardır</span></p>
-<div class="branch-row"><div class="branch-box"><b>Elçi kısaltmadıysa</b><span>olağan salât = iki bölüm</span></div><div class="branch-box"><b>Elçi kısalttıysa</b><span>olağan salât = ikiden fazla bölüm</span></div></div>
-<div class="branch-result"><b>İki durumda da: olağan salât en az iki bölüm.</b> <span>Dayandığı iki varsayım: elçi iki grupla aynı salâtı sürdürür; her grubun katıldığı kısım bir bölümdür. Korku için anılan tek değişiklik kısaltmadır. ${refs(['4:102', '4:101'])}</span></div>
-<p class="branch-weak"><b>Daha zayıf kısım:</b> korkuda kişi başına bir bölüm. Birinci grubun o bölümle salâtını tamamlamış sayılmasına dayanır; ayette açıkça yazmaz.</p>
+<div class="branch" aria-label="Araştırma notu: olağan salâtın bölüm sayısı">
+<p class="branch-lab">${mk('c')}<span><b>Araştırma notu:</b> elçinin korkudaki salâtı en az iki bölümdür, çünkü her grup onunla en az bir bölüm kılar. Kısaltmanın neyi azalttığı ayette yazmaz; olağan salât için iki durum vardır:</span></p>
+<div class="branch-row"><div class="branch-box"><b>Bölüm sayısı azaltılmadıysa</b><span>elçi kısaltmadı ya da kısaltma başka bir şeyi (örneğin uzunluğu) azalttı: olağan salât = korkudaki kadar bölüm</span></div><div class="branch-box"><b>Bölüm sayısı azaltıldıysa</b><span>olağan salât = korkudakinden fazla bölüm</span></div></div>
+<div class="branch-result"><b>İki durumda da: olağan salât en az iki bölüm.</b> <span>Varsayımlar: elçi iki grupla aynı salâtı sürdürür; her grup en az bir bölüm kılar; korkuda anılanlar (kısaltma, silah ve tedbir, yaya ya da binek üzerinde kılma) dışında bir değişiklik yapılmaz ve bunların hiçbiri bölüm eklemez. ${refs(['4:102', '4:101', '2:239'])}</span></div>
+<p class="branch-weak"><b>Daha zayıf kısım:</b> korkuda kişi başına bir bölüm. Her grubun tam bir bölüm kılmasına ve birinci grubun o bölümle salâtını tamamlamış sayılmasına dayanır; ayette açıkça yazmaz.</p>
 </div>
 <p class="sec-foot a">${mk('a')}<span><b>Açık:</b> Ayette “rekât” kelimesi ve bir sayı geçmez; birinci grubun kalanı sonradan tamamlayıp tamamlamadığı yazmaz. Bu yüzden araştırma notu kesin değildir.</span></p>
 </div>
@@ -268,7 +268,7 @@ function esneklikFig() {
   const edge = (text, key) => `<span class="edge-chip" style="--i:${stagger++}">${esc(text)} <span class="refs">${refs([key])}</span></span>`;
   const item = (level, text, keys) => `<li style="--i:${stagger++}">${mk(level)}<span>${esc(text)} <span class="refs">${refs(keys)}</span></span></li>`;
   return `<figure class="fig reveal" aria-labelledby="esneklik-h">
-<div class="fig-head"><h3 id="esneklik-h">Yazılı sınırlar ve metni verilmeyen alan</h3><p class="fig-sub">Dış çerçeve ayette yazılı sınırlardır; iç alanda sabit bir metin verilmez.</p></div>
+<div class="fig-head"><h3 id="esneklik-h">Yazılı sınırlar ve metni verilmeyen alan</h3><p class="fig-sub">Dış çerçeve ayette yazılı sınırlardır; iç alan için incelenen ayetlerde sabit bir metin verilmez.</p></div>
 <div class="frame">
 <p class="frame-lab">${mk('y')} Ayette yazılı sınırlar</p>
 <div class="frame-edge">${edge('Ne söylediğini bilmek', '4:43')}${edge('Orta ses', '17:110')}${edge('Huşû', '23:2')}${edge('Allah\'ı anmak', '20:14')}</div>
@@ -320,7 +320,7 @@ ${t.keys.map(card).join('\n')}
 const ilist = items => `<ul class="ilist">${items.map(x => `<li>${rich(x)}</li>`).join('')}</ul>`;
 const answerBox = `<section class="answer reveal" aria-labelledby="cevap-h">
 <h2 id="cevap-h">Kısa cevap</h2>
-<p class="big">Kur'an salâtın <strong>neden</strong> kılındığını ve <strong>nasıl hazırlanılacağını</strong> anlatır; <strong>ayakta durma, secde ve ses ölçüsünü</strong> salât sahnelerinde açıkça verir. Rükû ve kıble, salâtla birlikte okunarak bağlanır. Okumada ölçü <strong>“Kur'an'dan kolayınıza geleni okuyun”</strong> sözüdür. <strong>Rekât sayısını, hareketlerin sırasını ve salât içinde söylenecek sabit bir dua metnini ayrıntılı bir tarif olarak vermez.</strong> Bu boşluklar hakkındaki olası okumalar (bölüm sayısı, dua ve övgüde serbestlik) Konular sekmesinde varsayımlarıyla birlikte araştırma notu olarak verilir.</p>
+<p class="big">Kur'an salâtın <strong>neden</strong> kılındığını ve <strong>nasıl hazırlanılacağını</strong> anlatır; <strong>ayakta durma, secde ve ses ölçüsünü</strong> salât sahnelerinde açıkça verir. Rükû ve kıble, salâtla birlikte okunarak bağlanır. Okumada ölçü <strong>“Kur'an'dan kolayınıza geleni okuyun”</strong> sözüdür. <strong>İncelenen ayetler rekât sayısını, hareketlerin sırasını ve salât içinde söylenecek sabit bir dua metnini ayrıntılı bir tarif olarak vermez.</strong> Bu boşluklar hakkındaki olası okumalar (bölüm sayısı, dua ve övgüde serbestlik) Konular sekmesinde varsayımlarıyla birlikte araştırma notu olarak verilir.</p>
 <div class="rows">
 <div class="row y"><span class="lab">${mk('y')} Ayette yazılı</span>${ilist(answer.y)}</div>
 <div class="row c"><span class="lab">${mk('c')} Çıkarım</span>${ilist(answer.c)}</div>
@@ -423,6 +423,7 @@ ${topics.map(topicSection).join('\n')}
 <li>Nûr 41: “ve” bağlacından iki kavramın özdeş olmadığı çıkarıldı; aralarında ortak alan bulunup bulunmadığı açık bırakıldı.</li>
 <li>İsrâ 78: sabah okumasının “ikame et” emrine bağlanması ile salâtın içinde yapılması ayrıldı; ikincisi yorum olarak işaretlendi.</li>
 <li>Meal ile Arapça: tek “fark var” etiketi yerine dört tür (uyumlu, açıklayıcı ekleme, çeviri tercihi, anlam farkı).</li>
+<li>v0.5.2: Nisâ 102 hesabı netleştirildi: öncül “en az iki bölüm” ile tutarlı yazıldı; kısaltmanın bölüm sayısını mı yoksa başka bir şeyi mi azalttığı ayrı durum olarak gösterildi; “korkuda anılan tek değişiklik kısaltmadır” cümlesi Bakara 239'a göre düzeltildi. Özetteki ve konu özetlerindeki olumsuz hükümler “incelenen ayetlerde” diye sınırlandı.</li>
 <li>v0.5.1: Nisâ 102 araştırma notu iki kısma ayrıldı. “Olağan salât en az iki bölüm” kısmının elçinin kısaltıp kısaltmadığına bağlı olmadığı gösterildi; Nisâ 101–103'teki tekil ve çoğul hitap eklendi.</li>
 </ul>
 <p><strong>v0.4</strong></p><ul>
