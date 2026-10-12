@@ -25,3 +25,19 @@ export const konu08 = {
     'Bilinen sınırlar: kıssalardaki dünyevî kurtuluşlar ayrı ödül türüyle işaretlendi ama ahiret ödülüyle karıştırılmadı. Kelime bazlı taramanın kaçırdığı ayet olabilir. Örnekleme tahminine göre ilgili ayetlerin yaklaşık yüzde 3-5\'i taramanın dışında kalmış olabilir.',
   ],
 };
+export const konu09 = {
+  giris: 'Bu bölüm, Kur\'an\'ın ateşe, azaba, helâke, gazaba ya da kayba bağladığı tutum ve davranışları toplar. Karşılık yalnız cehennem değildir: dünyada gelen helâk ve cezalar, mühür vurulması, amellerin boşa çıkması gibi karşılıklar da dahildir ve türüyle işaretlenmiştir. Yalnız ateşe bağlananları görmek için "Yalnız cehennem/ateş" düğmesini kullanın. Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Karşılığa en sık bağlanan tutum küfür ve inkârdır ({kufur} ayet). Ardından ayetleri ve resulleri yalanlamak gelir ({yalan} ayet). Zulüm ({zulum}), şirk ({sirk}), ayetlerden yüz çevirme ({yuz}) ve kibir ({kibir}) bunları izler.',
+    'Bazı ayetler davranışı adlandırmadan yalnızca "günah", "kötülük", "fısk" gibi genel adlarla karşılığı bağlar ({genel} ayet). Bunlar "Davranışı adlandırılmayanlar" başlığında ayrı gösterilir.',
+    'Davranışı içeren {nar} ayette karşılık açıkça ateş ya da cehennemdir. Kalanlar azap, helâk, gazap, lanet, mühür, amellerin boşa gitmesi gibi başka karşılıklara bağlanır.',
+    'Bir davranış birden çok başlığa girebilir (örneğin hem yalanlama hem kibir). Böyle bir ayet her başlıkta ayrı sayılır; başlıkların ayet sayıları toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: karşılık bildiren {hedef} ayet. Kullanılan Arapça işaretler: nâr, cehennem ve adları (sakar, saîr, cahîm, hutame, hâviye, siccîn), azap ve ıkâb, ceza kalıpları, yakılma, zakkûm, gislîn, hamîm, hızy, hüsran, helâk, bi\'se. Gazap, lanet ve mühür gibi karşılıklar bu listede yoktur; bunlar yalnızca bağlam okumasında rastlandıkça kayda alındı, bu yüzden bu türde eksik kalmış olabilir.',
+    'Her hedef ayet, önceki 4 ve sonraki 3 ayetle birlikte okundu: {blok} pasaj, {okunan} ayet. Bunlara ek olarak, güçlü işaretleri bulunmadığı için bu pasajların dışında kalan 70 zayıf işaretli ayet ayrıca okundu.',
+    'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse bir önceki ya da sonraki ayette) mekanik olarak arandı. Bulunamayanlar tek tek yeniden okundu; birkaç kaydın başlığı düzeltildi, dört kayıt "→ Çıkarım" derecesine indirildi (Tevbe 95, Hicr 31, Tâhâ 96, Kamer 44). Karşılık ayetinde sözcük listesine girmeyen ifadeler (ör. "yakaladık", "kökünü kestik") elle okunarak doğrulandı.',
+    'Hedef listesinde olup hiçbir kayda girmeyen ayetler gözden geçirildi: çoğu karşılığı anlatan ama davranışı söylemeyen ya da dua ve kıssa anlatısı olan ayetlerdir. Bu geçişte iki eksik bulunup eklendi (Şuarâ 156, Haşr 11-15).',
+    'Bilinen sınırlar: Kur\'an bazen davranışı hiç adlandırmaz; bu durumda kayıt genel başlıkta ya da "? Açık" derecesiyle durur. Dünyadaki helâk ile âhiret karşılığı ayrı türlerle işaretlendi, ama bir ayet bazen ikisini birden anar. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Tövbe, bağışlanma ve "dilerse" ifadeleri ayrı bir konuya (Konu 10) bırakılmıştır; burada bir davranışa bağlanan karşılık kesin ve genel bir hüküm olarak okunmamalıdır.',
+  ],
+};

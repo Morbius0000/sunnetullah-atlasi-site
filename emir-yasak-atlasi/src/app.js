@@ -47,17 +47,19 @@
   }
 
   function render(k, d) {
-    const T = M.metin[k.no], O = M.ozet[k.no];
+    const T = M.metin[k.no], O = M.ozet[k.no], V = k.vurgu;
+    const hit = r => V.alan === 'tur' ? M.odulTur[r.odul] === V.deger : r.odul === V.deger;
+    const neg = k.no === 9;
     const grps = [...new Set(d.nitelikler.map(n => n.grup))];
     const max = Math.max(...d.nitelikler.map(n => n.ayet_sayisi));
     host.innerHTML = `<section class="panel">
       <p class="kicker">Konu ${k.no}</p><h2>${esc(k.ad)}</h2><p class="lead">${esc(T.giris)}</p>
       <div class="card answer"><h3 style="margin-bottom:10px">Kısa cevap</h3><ul>${T.kisa.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
-        <div class="stats"><div class="stat"><b>${O.nitelik}</b><span>nitelik başlığı</span></div><div class="stat"><b>${O.kayit}</b><span>okuma kaydı</span></div><div class="stat"><b>${O.ayet}</b><span>gösterilen ayet</span></div><div class="stat"><b>${O.derece['✓']}</b><span>✓ ayette yazılı</span></div><div class="stat"><b>${O.derece['→'] + O.derece['?']}</b><span>→ çıkarım / ? açık</span></div></div>
+        <div class="stats"><div class="stat"><b>${O.nitelik}</b><span>${neg ? 'davranış başlığı' : 'nitelik başlığı'}</span></div><div class="stat"><b>${O.kayit}</b><span>okuma kaydı</span></div><div class="stat"><b>${O.ayet}</b><span>gösterilen ayet</span></div><div class="stat"><b>${O.derece['✓']}</b><span>✓ ayette yazılı</span></div><div class="stat"><b>${O.derece['→'] + O.derece['?']}</b><span>→ çıkarım / ? açık</span></div></div>
         <div class="legend">${Object.values(MK).map(([c, s, t]) => `<span><i class="mk ${c}">${s}</i>${t}</span>`).join('')}</div></div>
-      <div class="finder"><label>Nitelik ya da ayet ara<input id="q" type="search" placeholder="ör. sabır, infak, 23:5, Furkân" autocomplete="off"></label><button class="btn" id="clr" type="button">Temizle</button></div>
+      <div class="finder"><label>${neg ? 'Davranış' : 'Nitelik'} ya da ayet ara<input id="q" type="search" placeholder="${neg ? 'ör. kibir, zulüm, 2:6, Hûd' : 'ör. sabır, infak, 23:5, Furkân'}" autocomplete="off"></label><button class="btn" id="clr" type="button">Temizle</button></div>
       <div class="chips" id="gchips"><button class="chip" aria-pressed="true" data-g="">Tümü</button>${grps.map(g => `<button class="chip" aria-pressed="false" data-g="${esc(g)}">${esc(g)} <span class="k">${d.nitelikler.filter(n => n.grup === g).length}</span></button>`).join('')}</div>
-      <div class="chips"><button class="chip gold" id="onlyc" aria-pressed="false">Yalnız cennet</button><button class="chip" id="onlyy" aria-pressed="false">Yalnız ✓ ayette yazılı</button><button class="chip" id="openall" aria-pressed="false">Hepsini aç</button></div>
+      <div class="chips"><button class="chip gold" id="onlyc" aria-pressed="false">${esc(V.ad)}</button><button class="chip" id="onlyy" aria-pressed="false">Yalnız ✓ ayette yazılı</button><button class="chip" id="openall" aria-pressed="false">Hepsini aç</button></div>
       <p id="count" role="status"></p><div id="list"></div>
       <details class="card scope"><summary><b>Kapsam, yöntem ve sınırlar</b></summary><ul style="margin-top:10px">${T.kapsam.map(s => `<li>${esc(s)}</li>`).join('')}</ul></details>
     </section>`;
@@ -69,21 +71,21 @@
       let shown = 0, recs = 0, html = '', lastG = null;
       for (const n of d.nitelikler) {
         if (st.g && n.grup !== st.g) continue;
-        let rs = n.kayitlar.filter(r => (!st.c || r.odul === 'cennet') && (!st.y || r.derece === '✓'));
+        let rs = n.kayitlar.filter(r => (!st.c || hit(r)) && (!st.y || r.derece === '✓'));
         if (q) {
           const hitN = norm(n.etiket + ' ' + n.id).includes(q);
-          rs = rs.filter(r => hitN || [r.nitelik_ayet, r.odul_ayet, refAd(r.nitelik_ayet), refAd(r.odul_ayet), r.not_, r.ham].some(x => norm(x || '').includes(q)));
+          rs = rs.filter(r => hitN || [r.nitelik_ayet, r.odul_ayet, refAd(r.nitelik_ayet), refAd(r.odul_ayet), M.odulAdi[r.odul], r.not_, r.ham].some(x => norm(x || '').includes(q)));
         }
         if (!rs.length) continue;
         shown++; recs += rs.length;
         if (n.grup !== lastG) { html += `<p class="grp">${esc(n.grup)}</p>`; lastG = n.grup; }
-        const ay = new Set(rs.map(r => r.nitelik_ayet)).size, cn = new Set(rs.filter(r => r.odul === 'cennet').map(r => r.nitelik_ayet)).size;
-        html += `<details class="nit${n.id === 'red' ? ' red' : ''}"${q || st.open ? ' open' : ''}><summary><h3>${esc(n.etiket)}</h3><span class="cnt"><b>${ay}</b> ayet · ${cn} doğrudan cennet</span><span class="bar"><i style="width:${Math.max(3, Math.round(100 * n.ayet_sayisi / max))}%"></i></span></summary><ul class="rec">` +
+        const ay = new Set(rs.map(r => r.nitelik_ayet)).size, cn = new Set(rs.filter(hit).map(r => r.nitelik_ayet)).size;
+        html += `<details class="nit${n.id === 'red' ? ' red' : ''}"${q || st.open ? ' open' : ''}><summary><h3>${esc(n.etiket)}</h3><span class="cnt"><b>${ay}</b> ayet · ${cn} ${esc(V.sayim)}</span><span class="bar"><i style="width:${Math.max(3, Math.round(100 * n.ayet_sayisi / max))}%"></i></span></summary><ul class="rec">` +
           rs.map(r => { const [mc, ms, mt] = MK[r.derece]; const same = r.nitelik_ayet === r.odul_ayet;
-            return `<li><i class="mk ${mc}" title="${mt}">${ms}</i><div><span class="refs"><button class="ref" data-r="${r.nitelik_ayet}" aria-expanded="false">${esc(refAd(r.nitelik_ayet))}</button>${same ? '' : `<span class="arrow">→</span><button class="ref" data-r="${r.odul_ayet}" aria-expanded="false">${esc(refAd(r.odul_ayet))}</button>`}<span class="odul${r.odul === 'cennet' ? ' cennet' : ''}${NEG.has(r.odul) ? ' neg' : ''}">${esc(M.odulAdi[r.odul] || r.odul)}</span></span>${r.not_ ? `<span class="not">${esc(r.not_)}</span>` : ''}<span class="ham">${r.blok.startsWith('EK') ? '<b>Ek okuma</b> · ' : ''}kayıt: ${esc(r.ham)} · ${esc(r.blok)}</span></div></li>`; }).join('') + '</ul></details>';
+            return `<li><i class="mk ${mc}" title="${mt}">${ms}</i><div><span class="refs"><button class="ref" data-r="${r.nitelik_ayet}" aria-expanded="false">${esc(refAd(r.nitelik_ayet))}</button>${same ? '' : `<span class="arrow">→</span><button class="ref" data-r="${r.odul_ayet}" aria-expanded="false">${esc(refAd(r.odul_ayet))}</button>`}<span class="odul${!neg && r.odul === 'cennet' ? ' cennet' : ''}${neg || NEG.has(r.odul) ? ' neg' : ''}${neg && hit(r) ? ' nar' : ''}"${neg ? ` title="${esc(M.turAdi[M.odulTur[r.odul]] || '')}"` : ''}>${esc(M.odulAdi[r.odul] || r.odul)}</span></span>${r.not_ ? `<span class="not">${esc(r.not_)}</span>` : ''}<span class="ham">${r.blok.startsWith('EK') ? '<b>Ek okuma</b> · ' : ''}kayıt: ${esc(r.ham)} · ${esc(r.blok)}</span></div></li>`; }).join('') + '</ul></details>';
       }
       list.innerHTML = html || '<p class="empty">Bu süzgeçle eşleşen kayıt yok.</p>';
-      $('#count').textContent = `${shown} nitelik, ${recs} kayıt gösteriliyor.`;
+      $('#count').textContent = `${shown} ${neg ? 'davranış' : 'nitelik'}, ${recs} kayıt gösteriliyor.`;
     }
     list.addEventListener('click', e => {
       const b = e.target.closest('.ref'); if (!b) return;
