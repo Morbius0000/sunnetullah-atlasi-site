@@ -29,6 +29,7 @@ export const meals = {
   "2:155": "Sizi biraz korku, açlık, mallardan, canlardan ve ürünlerden eksiltmeyle mutlaka sınayacağız. Sabredenleri müjdele.",
   "2:156": "Onlar, kendilerine bir musibet geldiğinde, “Biz Allah'a aidiz ve O'na döneceğiz” derler.",
   "2:157": "İşte onların üzerine Rablerinden salâtlar ve rahmet vardır. İşte onlar yol bulanlardır.",
+  "2:186": "Kullarım sana beni sorduklarında, şüphesiz ben yakınım. Bana dua ettiğinde dua edenin çağrısına karşılık veririm. Öyleyse onlar da bana karşılık versinler ve bana inansınlar; umulur ki doğru yolu bulurlar.",
   "2:177": "İyilik, yüzlerinizi doğu ve batı yönüne çevirmeniz değildir. Asıl iyilik; Allah'a, ahiret gününe, meleklere, kitaba ve peygamberlere inanan; malı sevmesine rağmen onu yakınlara, yetimlere, yoksullara, yolda kalmışa, isteyenlere ve boyunduruk altındakilerin kurtulmasına veren; salâtı ikame eden ve zekâtı veren kimsenin iyiliğidir. Söz verdiklerinde sözlerini yerine getirenler, darlıkta, sıkıntıda ve savaş anında sabredenler; işte doğru olanlar onlardır, sakınanlar da onlardır.",
   "2:238": "Salâtları ve Salâtü'l-Vustâ'yı koruyun; Allah için gönülden boyun eğerek ayakta durun.",
   "2:239": "Eğer korkarsanız yaya olarak veya binek üzerinde [salâtı yerine getirin]. Güvene kavuştuğunuzda, bilmediğiniz şeyleri size öğrettiği gibi Allah'ı anın.",
@@ -41,6 +42,7 @@ export const meals = {
   "4:103": "Salâtı tamamladığınızda ayakta, oturarak ve yanlarınız üzerinde Allah'ı anın. Güvene kavuştuğunuzda salâtı ikame edin. Şüphesiz salât, müminler üzerine vakitleri belirlenmiş bir yükümlülüktür.",
   "4:142": "Münafıklar Allah'ı aldatmaya çalışırlar; O da onları aldatandır. Salâta kalktıklarında üşenerek kalkarlar, insanlara gösteriş yaparlar ve Allah'ı pek az anarlar.",
   "5:6": "Ey iman edenler! Salâta kalktığınız zaman yüzlerinizi ve dirseklere kadar ellerinizi yıkayın; başlarınızı meshedin; ayaklarınızı da iki topuğa kadar [yıkayın / meshedin]. Eğer cünüp iseniz arının. Eğer hasta veya yolculukta iseniz yahut sizden biri tuvaletten gelirse veya kadınlarla temas etmişseniz ve su bulamazsanız, temiz bir zemine yönelin; ondan yüzlerinizi ve ellerinizi meshedin. Allah size bir güçlük çıkarmak istemez; fakat sizi arındırmak ve üzerinizdeki nimetini tamamlamak ister; umulur ki şükredersiniz.",
+  "5:101": "Ey iman edenler! Size açıklanınca hoşunuza gitmeyecek şeyleri sormayın. Kur'ân indirilirken onları sorarsanız size açıklanır. Allah onlardan geçmiştir. Allah çok bağışlayıcıdır, yumuşak davranandır.",
   "5:55": "Sizin veliniz ancak Allah, elçisi ve iman edenlerdir; onlar salâtı ikame eder, zekâtı verir ve rükû ederler.",
   "5:58": "Salâta çağırdığınızda onu alay ve oyun konusu edinirler. Bu, onların aklını kullanmayan bir topluluk olmalarındandır.",
   "6:162": "De ki: Benim salâtım, ibadetim, hayatım ve ölümüm âlemlerin Rabbi Allah içindir.",
@@ -73,6 +75,7 @@ export const meals = {
   "22:18": "Görmedin mi ki göklerde olanlar, yerde olanlar, güneş, ay, yıldızlar, dağlar, ağaçlar, canlılar ve insanlardan birçoğu Allah'a secde eder? Birçoğu üzerine de azap hak olmuştur. Allah kimi alçaltırsa artık onu onurlandıracak yoktur. Şüphesiz Allah dilediğini yapar.",
   "22:26": "Hani İbrâhim'e evin yerini belirlemiştik: Bana hiçbir şeyi ortak koşma; evimi tavaf edenler, ayakta duranlar, rükû ve secde edenler için temiz tut.",
   "22:40": "Onlar, yalnızca “Rabbimiz Allah'tır” dedikleri için haksız yere yurtlarından çıkarılanlardır. Allah insanların bir kısmını bir kısmıyla savmasaydı, içlerinde Allah'ın adı çokça anılan savâmi', biya', salavât ve mescitler yıkılırdı. Allah, kendisine yardım edene mutlaka yardım eder. Şüphesiz Allah güçlüdür, üstündür.",
+  "22:78": "Allah yolunda, O'na yaraşır bir çabayla çaba gösterin. O sizi seçti ve dinde üzerinize hiçbir güçlük yüklemedi; atanız İbrâhim'in yolu [budur]. O, sizi daha önce de bu [Kitap]ta da “müslümanlar” diye adlandırdı ki elçi sizin üzerinize tanık olsun, siz de insanlar üzerine tanıklar olasınız. Öyleyse salâtı ikame edin, zekâtı verin ve Allah'a sımsıkı sarılın. O sizin velinizdir; ne güzel veli, ne güzel yardımcıdır!",
   "22:77": "Ey iman edenler! Rükû edin, secde edin, Rabbinize kulluk edin ve hayır işleyin; umulur ki kurtuluşa erersiniz.",
   "23:1": "Müminler gerçekten kurtuluşa ermiştir.",
   "23:2": "Onlar, salâtlarında huşû duyanlardır.",
@@ -155,6 +158,7 @@ export const notes = {
   "2:143": "Ayetteki “imanınızı” kelimesi mealde “namazınızı” diye değiştirilmedi; Arapçada iman (îmân) kelimesi geçer.",
   "2:146": "“Onu” sözünün kimi ya da neyi gösterdiği ayette ayrıca adlandırılmaz; mealde tamamlanmadı.",
   "2:177": "Ayet, yönü çevirmenin tek başına iyilik olmadığını söyler; salâtı ise iman, paylaşma, söz tutma ve sabırla birlikte sayar. Kıble emrini kaldırmaz; yönün tek başına bir iyilik ölçüsü olmadığını gösterir.",
+  "2:186": "Dua için bir aracı, belirli bir yer ya da kalıp anılmaz: “dua ettiğinde” karşılık verilir. Ayet oruç ayetlerinin arasındadır; salâta özgü değildir.",
   "2:238": "“Ayakta durun” emri, salâtları koruma emriyle aynı ayettedir. Salâtü'l-Vustâ'nın hangi salât olduğu bu sayfanın konusu değildir; [[vakit]] içinde ele alınır.",
   "2:239": "Köşeli ayraçtaki söz çevirmenin tamamlamasıdır; ayet, bir önceki ayetteki salât emrinin devamıdır.",
   "3:39": "Ayakta durma ile salât aynı sahnede, Zekeriyyâ için anlatılır. “Hasûr” kelimesi Kur'an'da yalnız bu ayette geçer; anlamı ayetlerden kesinleşmediği için Arapçası korundu.",
@@ -162,9 +166,10 @@ export const notes = {
   "3:113": "“Kâime” kelimesi “ayakta duran” ya da “dosdoğru duran” diye okunabilir. Ayette salât kelimesi geçmez; gece okuma ile secde aynı sahnede anılır.",
   "4:43": "Salâta yaklaşmanın şartı “ne söylediğinizi bilmek”tir; bu, salâtta söz söylendiğini gösterir, ama hangi sözlerin söyleneceğini söylemez. “Temiz bir zemine yönelin” (teyemmemû) fiili, Türkçedeki “teyemmüm” kelimesinin kaynağıdır. “Yol geçicileri” istisnası ile “kadınlarla temas” ifadesinin tam kapsamı açık bırakıldı.",
   "4:101": "Arapçada “salâttan” (mine's-salâ) denir: kısaltma salâtın bir kısmından yapılır; ne kadar kısaltılacağı yazmaz. Ayette iki durum birlikte geçer: yolculuk ve inkâr edenlerin kötülüğünden korkmak. Bu yüzden her yolculukta koşulsuz kısaltma sonucu çıkarmıyoruz.",
-  "4:102": "Bir grubun secde ettikten sonra arkaya geçtiği, diğer grubun gelip salât ettiği anlatılır. Bu, secdenin salâtın içinde yapılan bir hareket olduğunu doğrudan gösterir. Grupların kaç rekât kıldığı yazmaz.",
+  "4:102": "Bir grubun secde ettikten sonra arkaya geçtiği, diğer grubun gelip salât ettiği anlatılır. Bu, secdenin salâtın içinde yapılan bir hareket olduğunu doğrudan gösterir. İkinci grup için “salât etmemiş” denmesi, birinci grubun elçiyle secdeye kadar kıldığı kısımla salât etmiş sayıldığını düşündürür. Ayette “rekât” kelimesi ve bir sayı geçmez; bölümleri saymak çıkarımdır (konunun başındaki çizime bakın).",
   "4:103": "“Ayakta, oturarak ve yanlarınız üzerinde” anma, salât tamamlandıktan sonradır; salâtın içindeki duruşlar değildir. “Vakitleri belirlenmiş” (mevkût) sözü vakit konusunun temel ayetlerindendir; vakitler [[vakit]] içinde incelenir.",
   "5:6": "Arapçada “ayaklarınızı” kelimesi (ercülekum) üstünle biter; “yüzlerinizi” ve “ellerinizi” kelimeleri de üstünle biter. Bu uyum, ayakları “yıkayın” emrine bağlamayı dil bakımından daha doğrudan kılar. “Meshedin” okumasının dayanağı, ayakların “başlarınızı” sözünden hemen sonra gelmesidir; ama “başlarınızı” esreyle biter, bu yüzden bu bağlantı ek bir dil açıklaması ister. Sonuç: “yıkayın” daha güçlü okuma, “meshedin” mümkün ama daha zayıf. Su bulunamazsa yalnız yüz ve eller meshedilir; ayaklar anılmaz.",
+  "5:101": "“Allah onlardan geçmiştir” (afâllâhu anhâ) sözündeki zamir en doğal okumada sorulan şeyleri gösterir: Allah bunları açıklamayıp bırakmıştır. Zamirin soruları gösterdiği okuma da vardır. Ayet salât hakkında değildir; açıklanmayan ayrıntılara nasıl bakılacağına dair genel bir ilke verir.",
   "5:55": "“Ve hüm râkiûn” sözü “ve onlar rükû edenlerdir” ya da “rükû hâlindeyken” diye okunabilir. Bu ayetten zekâtın rükû hâlinde verilmesi gerektiği sonucunu çıkarmıyoruz.",
   "6:162": "Bu söz elçiye söyletilir (“De ki”); salât, ibadet, hayat ve ölümle birlikte Allah'a adanır.",
   "7:31": "Genel bir mescit adabıdır; salât için ayrıntılı bir giyim kuralı vermez.",
@@ -187,6 +192,7 @@ export const notes = {
   "22:18": "Secde kelimesi burada güneş, ay, dağlar ve ağaçlar için de kullanılır; yani yalnız insan bedeninin hareketi anlamında değildir. Arapça metindeki ۩ işareti secde ayetini gösterir.",
   "22:26": "Bu söz İbrâhim'e söylenir. Ayakta duranlar, rükû ve secde edenler birlikte anılır.",
   "22:40": "Dört kelime de “yıkılırdı” fiiline bağlıdır; yani yıkılabilen yapılardır. Burada “salavât” (salâtın çoğulu) bir ibadet yapısının adıdır. Savâmi' ve biya' kelimelerinin hangi topluluğun yapıları olduğu ayette söylenmediği için Arapçaları korundu.",
+  "22:78": "“Dinde üzerinize hiçbir güçlük yüklemedi” cümlesi ile “salâtı ikame edin” emri aynı ayettedir. “O sizi adlandırdı” cümlesindeki “O”nun Allah mı İbrâhim mi olduğu ayette ayrıca belirtilmez.",
   "22:77": "Rükû ve secde emri genel bir ibadet emridir; ayette salât kelimesi geçmez.",
   "24:36": "Sabah ve akşam burada tesbîhin zamanıdır. Bir sonraki ayette Allah'ı anmak ve salât ayrı ayrı sayılır; bu yüzden bu iki zamanı salât vakti sayımına katmıyoruz.",
   "24:41": "Salât ile tesbîh “ve” bağlacıyla ayrı ayrı sayılır; ayet ikisini ayrı şeyler olarak anar. Kuşların da bir salâtı vardır: salât kelimesi, insanın kıldığı ibadetten daha geniş bir alanda kullanılır. “Bilmiştir” fiilinin öznesi “her biri” ya da “Allah” olabilir; iki okumada da salât ile tesbîh ayrıdır.",
@@ -315,7 +321,7 @@ export const topics = [
   {
     id: "okuma", title: "Okuma, anma ve ses",
     short: "Salâtta söz söylenir; ses için orta yol.",
-    summary: "Salâtta söz söylenir ve ses için orta yol istenir. Hangi metnin ne kadar okunacağı yazmaz.",
+    summary: "Salâtta söz söylenir ve ses için orta yol istenir. Okunacak metin için sabit bir kalıp yoktur: “kolayınıza geleni okuyun.”",
     y: [
       "“Ne söylediğinizi bilinceye kadar” salâta yaklaşmayın. [[4:43]]",
       "“Salâtında [sesini] yükseltme, onu kısma da; ikisi arasında bir yol ara.” Elçiye söylenir. [[17:110]]",
@@ -327,12 +333,35 @@ export const topics = [
     c: [
       ["dil", "Salâtta söz söylenir: yaklaşmanın şartı, söyleneni bilmektir. [[4:43]]"],
       ["dil", "Kur'ân'el-fecr, en doğal okumada Arapça cümle yapısı gereği “ikame et” emrine bağlanır: sabah okuması salâtın içinde sayılır. [[17:78]]"],
-      ["baglam", "Salât ve anma için aynı ses ölçüsü verilir: ne yüksek ne gizli. Ses ölçüsü elçiye söylendiği için bütün salâtlara genellemek çıkarımdır. [[17:110,7:205]]"]
+      ["baglam", "Salât ve anma için aynı ses ölçüsü verilir: ne yüksek ne gizli. Ses ölçüsü elçiye söylendiği için bütün salâtlara genellemek çıkarımdır. [[17:110,7:205]]"],
+      ["baglam", "Okunacak metin ve dua için sabit bir kalıp verilmez; okuma ile salât ayrı emirlerdir ve “kolayınıza gelen” okunur [[73:20,29:45]]. Bu bir boşluk değil, bırakılmış bir alandır; ayrıntısı: [[#esneklik]]."]
     ],
     a: [
-      "Her salâtta hangi metnin, ne kadar ve hangi sırayla okunacağı. Okuma ile salât ayrı emirlerdir; yan yana gelmeleri sabit bir okuma listesi vermez. [[73:20,29:45]]"
+      "Sabah okumasının (Kur'ân'el-fecr) içeriği ve uzunluğu yazmaz; genel ölçü “kolayınıza gelen”dir. [[17:78,73:20]]"
     ],
     keys: ["17:78", "17:79", "17:110", "7:204", "7:205", "7:206", ...range(73, 1, 8), "73:20"]
+  },
+  {
+    id: "esneklik", title: "Verilmeyen ayrıntılar ve esneklik",
+    short: "Okuma ve dua için kalıp yok: kolayınıza geleni okuyun.",
+    summary: "Kur'an salâtta okunacak metni ve duayı sabit bir kalıba bağlamaz: “Kur'an'dan kolayınıza geleni okuyun” der; Allah'a hangi güzel isimle çağrılırsa çağrılsın en güzel isimlerin O'nun olduğunu söyler. Açıklanmayan şeyler için “Allah onlardan geçmiştir” denir. Bu, kişinin Allah'ı kendi sözleriyle anmasına, övmesine ve O'na dua etmesine alan bırakır.",
+    y: [
+      "“Kur'ân'dan kolayınıza geleni okuyun.” Aynı ayette iki kez söylenir. [[73:20]]",
+      "“Allah diye çağırın veya Rahmân diye çağırın; hangisiyle çağırırsanız, en güzel isimler O'nundur.” [[17:110]]",
+      "“Ben yakınım; bana dua ettiğinde dua edenin çağrısına karşılık veririm.” [[2:186]]",
+      "Açıklanınca hoşunuza gitmeyecek şeyleri sormayın; “Allah onlardan geçmiştir.” [[5:101]]",
+      "“Dinde üzerinize hiçbir güçlük yüklemedi”; aynı ayette “salâtı ikame edin.” [[22:78]]",
+      "“Allah size bir güçlük çıkarmak istemez.” [[5:6]]"
+    ],
+    c: [
+      ["baglam", "Salâtta söylenecek dua, övgü ve okuma için sabit bir kalıp verilmemesi bir eksiklik değil, bırakılmış bir alandır: kişi Allah'ı kendi sözleriyle anabilir, övebilir ve O'na dua edebilir. [[73:20,17:110,5:101]]"],
+      ["baglam", "Bu alanın sınırları ayette yazılıdır: ne söylediğini bilmek [[4:43]], orta ses [[17:110]], huşû [[23:2]], Allah'ı anmak [[20:14]]."]
+    ],
+    a: [
+      "Esneklik ilkesinin, sayısı ve sırası verilmeyen beden hareketlerine nasıl uygulanacağı: okuma için açık bir “kolayınıza gelen” sözü vardır, hareketler için böyle bir söz yoktur.",
+      "“Allah onlardan geçmiştir” sözünün sorulan şeyleri mi, soruları mı gösterdiği. [[5:101]]"
+    ],
+    keys: ["5:101", "2:186", "22:78"]
   },
   {
     id: "topluluk", title: "Aile, birlikte salât ve cuma",
@@ -357,18 +386,19 @@ export const topics = [
   {
     id: "korku", title: "Yolculuk, korku ve salâttan sonra",
     short: "Zor koşulda salât bırakılmaz, hafifletilir.",
-    summary: "Zor koşullarda salât bırakılmaz, kolaylaştırılır: yürürken ya da binek üzerinde kılınabilir, kısaltılabilir. Salâttan sonra Allah anılır.",
+    summary: "Zor koşullarda salât bırakılmaz, kolaylaştırılır: yürürken ya da binek üzerinde kılınabilir, kısaltılabilir. Korku salâtının anlatımı, salâtın bölümlerden oluştuğunu da gösterir. Salâttan sonra Allah anılır.",
     y: [
       "“Korkarsanız yaya olarak veya binek üzerinde.” [[2:239]]",
       "Yolculukta, inkâr edenlerin kötülüğünden korkarsanız “salâttan kısaltmanızda” günah yoktur. [[4:101]]",
-      "İki grup nöbetleşerek salât eder; silahlar ve tedbir alınır. [[4:102]]",
+      "Bir grup elçiyle kalkar ve secde edince arkaya geçer; “salât etmemiş” diğer grup gelip elçiyle salât eder. Silahlar ve tedbir alınır. [[4:102]]",
       "“Salâtı tamamladığınızda ayakta, oturarak ve yanlarınız üzerinde Allah'ı anın. Güvene kavuştuğunuzda salâtı ikame edin.” [[4:103]]"
     ],
     c: [
+      ["olasi", "Her grup elçiyle secdeye kadar bir bölüm kılar; ikinci grup için “salât etmemiş” denmesi, birinci grubun bu bölümle salâtını kılmış sayıldığını düşündürür. Elçi iki grupla da kıldığına göre onun salâtı en az iki bölümdür. “Salâttan kısaltma” ile birlikte okununca: olağan salât en az iki bölüm (rekât), korku ve savaş anında kişi başına bir bölüm. [[4:102,4:101]]"],
       ["baglam", "Zor koşulda salât bırakılmaz, hafifletilir; güven gelince olağan salâta dönülür. [[2:239,4:101,4:103]]"]
     ],
     a: [
-      "Kısaltmanın miktarı. [[4:101]]",
+      "Ayette “rekât” kelimesi ve bir sayı geçmez; iki bölüm okuması bir çıkarımdır. Birinci grubun kalan kısmı sonradan tek başına tamamlayıp tamamlamadığı da yazmaz. [[4:102]]",
       "Korku olmadan, yalnız yolculukta kısaltma: ayette iki durum birlikte geçer. [[4:101]]"
     ],
     keys: ["2:239", "4:101", "4:102", "4:103"]
@@ -437,15 +467,16 @@ export const topics = [
 
 // Özet sekmesindeki kısa cevap.
 export const answer = {
-  y: ["Amaç: Allah'ı anmak, kötülükten alıkoymak [[20:14,29:45]]", "Bilinç ve temizlik [[4:43,5:6]]", "Mescid-i Harâm yönü [[2:144]]", "Ayakta durma ve secde [[3:39,4:102]]", "Orta ses [[17:110]]", "Çağrı ve cuma [[62:9]]", "Korkuda ve yolculukta kolaylık [[2:239,4:101]]", "Salâttan sonra anma [[4:103]]"],
-  c: ["Rükûnun salâtın içindeki yeri [[2:43]]", "Kıble emrinin salâtla bağı [[10:87]]", "Sabah okumasının salâtın içinde sayılması [[17:78]]", "Salât ile tesbîhin ayrı oluşu [[24:41]]"],
-  a: ["Rekât sayısı", "Hareketlerin sırası", "El ve oturuş biçimi", "Sabit okuma metni", "Çağrının sözleri"]
+  y: ["Amaç: Allah'ı anmak, kötülükten alıkoymak [[20:14,29:45]]", "Bilinç ve temizlik [[4:43,5:6]]", "Mescid-i Harâm yönü [[2:144]]", "Ayakta durma ve secde [[3:39,4:102]]", "Orta ses [[17:110]]", "Okuma için kalıp yok: “kolayınıza geleni okuyun” [[73:20]]", "Çağrı ve cuma [[62:9]]", "Korkuda ve yolculukta kolaylık [[2:239,4:101]]", "Salâttan sonra anma [[4:103]]"],
+  c: ["Rükûnun salâtın içindeki yeri [[2:43]]", "Kıble emrinin salâtla bağı [[10:87]]", "Sabah okumasının salâtın içinde sayılması [[17:78]]", "Salât ile tesbîhin ayrı oluşu [[24:41]]", "Olası okuma: olağan salât en az iki bölüm, korkuda kişi başına bir [[4:102,4:101]]"],
+  a: ["Kesin rekât sayısı", "Hareketlerin sırası", "El ve oturuş biçimi", "Çağrının sözleri"]
 };
 
 // Açık sorular sekmesi.
+export const openNote = "Okunacak dua, övgü ve okuma için sabit bir kalıp verilmemesi bir açık soru değildir: Kur'an bunu “kolayınıza geleni okuyun” diyerek serbest bırakır. Ayrıntısı: [[#esneklik]]";
+
 export const openQuestions = [
-  { t: "Rekât sayısı ve hareketlerin sırası", d: "Korku salâtında iki grubun nöbetleşmesi anlatılır, ama kaç rekât kılındığı söylenmez. Âl-i İmrân 43'te secde rükûdan önce anılır; bu, zorunlu bir sıra vermez. [[4:102,3:43]]" },
-  { t: "Okunacak sabit metin", d: "“Kolayınıza geleni okuyun” denir; belirli bir sure ya da söz listesi verilmez. Fâtiha'nın ya da başka bir metnin her salâtta zorunlu olduğu bu ayetlerden kurulamaz. [[73:20,17:78]]" },
+  { t: "Kesin rekât sayısı ve hareketlerin sırası", d: "Ayette “rekât” kelimesi ve sayı geçmez. Korku salâtının anlatımından olası bir okuma çıkar: olağan salât en az iki bölüm, korkuda kişi başına bir bölüm. Kesin sayı ve hareketlerin sırası ise yazmaz; Âl-i İmrân 43'te secdenin rükûdan önce anılması zorunlu bir sıra vermez. [[4:102,4:101,3:43]]" },
   { t: "Rükûnun beden biçimi", d: "Rükû bir ayette “yere kapandı” fiiliyle birlikte gelir; eğilme mi, kapanma mı olduğu tarif edilmez. [[38:24]]" },
   { t: "Temizlikteki ayrıntılar", d: "Ayakların hangi emre bağlandığında dil yapısı “yıkayın” okumasını güçlendirir, ama tartışma tamamen kapanmaz. “Yol geçicileri” ve “kadınlarla temas” ifadelerinin kapsamı açıktır. [[5:6,4:43]]" },
   { t: "Kısaltmanın miktarı ve koşulu", d: "“Salâttan kısaltmak” denir, miktar verilmez. Ayette yolculuk ve korku birlikte geçer; yalnız yolculuğun yetip yetmediği yazmaz. [[4:101]]" },
@@ -453,3 +484,121 @@ export const openQuestions = [
   { t: "Kime söylendiği", d: "Bazı sözler Mûsâ'ya, Meryem'e, İsrâiloğullarına ya da elçiye söylenir. Bunları bütün müminler için aynı uygulama kuralına çevirmek ayrıca gerekçe ister. [[20:14,3:43,2:43,17:110]]" },
   { t: "Tam tarama", d: "Salât, rükû, secde, okuma ve temizlikle ilgili bütün kullanımlar henüz tek tek sınıflandırılmadı. Bu yüzden “Kur'an hiçbir yerde söylemez” demiyoruz; “incelenen ayetlerde yazmaz” diyoruz." }
 ];
+
+// Yaşar Nuri Öztürk meali ile Arapça metnin karşılaştırması.
+// "u": Arapçayla uyumlu (varsa küçük not); "f": Arapçadan ayrılan yer var.
+// Mealin genel tercihleri (salât → namaz, ikame et → kıl, sâlihât → hayra ve barışa yönelik işler,
+// Allah'ın isimlerine kısa açıklama eklemek) her ayette tekrar yazılmaz; Yöntem sekmesinde bir kez anlatılır.
+const U = "Arapçayla uyumlu.";
+export const ynNotes = {
+  "20:14": ["u", "Arapçayla uyumlu. “Hiç kuşkulanma ki” Arapçadaki pekiştirmenin karşılığıdır; “beni hatırlayıp anmak için” (li-zikrî) doğru çevrilmiştir."],
+  "29:45": ["f", "“Zikrullah” mealde “Allah'ın zikri/Kur'an'ı” diye iki karşılıkla verilmiştir; “Kur'an” karşılığı mealin yorumudur, Arapçada “Allah'ın zikri” yazar."],
+  "2:153": ["u", "Arapçayla uyumlu. “Sarılarak” sözü “ile” (bi) edatının serbest karşılığıdır."],
+  "2:45": ["u", "Arapçayla uyumlu. “Hâşiîn” mealde “kalbi ürperti duyanlar” olmuştur."],
+  "2:46": ["u", "Arapçayla uyumlu. Baştaki “O ürperti duyanlar” bir önceki ayete bağlamak için eklenmiştir."],
+  "6:162": ["u", "Arapçayla uyumlu. “Nüsük” için meal iki karşılık verir: kulluk ve bağış."],
+  "6:163": ["u", "Arapçayla uyumlu. “Müslimîn” burada “teslim olanlar” anlamındadır; meal “Müslümanlar” der."],
+  "87:14": ["f", "“Tezekkâ” arınmak demektir; meal ikinci karşılık olarak “zekât veren”i ekler. Bu ikinci karşılık bir yorumdur."],
+  "87:15": ["f", "Arapçada tek fiil vardır: “fe-sallâ” (ardından salât etti). Meal bunu hem “namaz kılıp” hem “dua etmiştir” diye iki fiille verir; “fe” bağlacının bildirdiği sıra (önce anma, sonra salât) mealde zayıflar."],
+  "4:43": ["f", "“İllâ âbirî sebîl” mealde “yolculuk halinde olmanız müstesna” olmuştur; Arapça “yoldan geçenler” der, yolculuk (sefer) kelimesi aynı ayette ayrıca geçer. “Hattâ tağtesilû” “yıkanıncaya kadar” demektir; meal sonraki dönemin terimiyle “boy abdesti” der. Sondaki açıklamalar (“günahları affeder”, “hataları bağışlar”) mealin eklemesidir."],
+  "5:6": ["f", "Meal ayaklar için önce “meshedin”, sonra “yahut yıkayın” der. Arapçadaki üstün hareke “yıkayın” bağlantısını daha doğrudan kılar; konunun başındaki çizime bakın. “Fettahharû” mealde “iyice temizlenin” olmuştur: uyumlu."],
+  "7:31": ["f", "“Zînet” süs, güzellik demektir; meal bunu “süslü, güzel giysiler” diye giysiye bağlar."],
+  "2:115": ["u", "Arapçayla uyumlu. “Vâsi” ve “Alîm” isimlerine eklenen açıklamalar (“varlığı sürekli genişletip büyütür”) mealin eklemesidir."],
+  "2:142": ["u", U],
+  "2:143": ["f", "Arapçadaki kısıtlama (“ancak … ayırt edelim diye belirledik”) mealde “ki” ile verilmiş, “ancak” anlamı düşmüştür. “Ümmeten vasaten” “orta yolu izleyen ümmet” olmuştur: nitelik anlamı korunmuştur. Sondaki “öncelikle” vurgu için eklenmiştir. “İmanınızı” korunmuştur."],
+  "2:144": ["u", U],
+  "2:145": ["f", "“Âyet” işaret, delil demektir; meal “mucize” der. “Ehvâ” (arzular) mealde “boş ve iğreti arzular” olmuştur; “boş ve iğreti” mealin eklemesidir."],
+  "2:146": ["u", U],
+  "2:147": ["u", U],
+  "2:148": ["u", U],
+  "2:149": ["u", "Arapçayla uyumlu. “Şatra” (yönüne) mealde kısaltılarak “Mescid-i Haram'a” olmuştur."],
+  "2:150": ["f", "Meal “Yüzünüzü Mescid-i Haram'a dönün ki” cümlesini ikinci kez ekler; Arapçada “ve nimetimi tamamlayayım diye” yazar, emir tekrarlanmaz. “Tehtedûn” (yol bulasınız) mealde “güzeli ve iyiyi bulmanız” olmuştur."],
+  "2:177": ["f", "“Birr” iyilik, erdem demektir; meal “zafer ve mutluluğa ermek” der. “El-kitâb” tekildir; meal “kitaplar” der. “Es-sâilîn” (isteyenler) mealde “yoksullar”, “fi'r-rikâb” “özgürlüğüne kavuşmak gayretinde olanlar” olmuştur. “Bolluk ve bereket zamanı kadar” sözü Arapçada yoktur; ayet “darlıkta, sıkıntıda ve savaş anında” der."],
+  "10:87": ["u", "Arapçayla uyumlu. “Kıble” için meal iki okuma verir: “kıble yapın/karşılıklı yapın”."],
+  "2:43": ["u", U],
+  "2:238": ["u", "Arapçayla uyumlu. “Kânitîn” (gönülden boyun eğerek) mealde “tam bir saygıyla”, “kûmû” (ayakta durun) “kıyam edin” olmuştur."],
+  "3:39": ["f", "“Hasûr” Kur'an'da yalnız burada geçer; meal “nefsine egemen bir benlik” diye bir anlam seçer. “Sâlihîn” (iyiler) mealde “hayır ve barışı sevenler” olmuştur. “Durmuş namaz kılarken” (kâimun yusallî) doğru çevrilmiştir."],
+  "3:43": ["f", "Önemli fark: “Uknutî” gönülden boyun eğ demektir; meal “saygıyla el bağla” der. “El bağlamak” Arapçada yoktur; ellerin konumu ayetlerde tarif edilmez."],
+  "2:125": ["f", "“Musallâ” salât yeri demektir (salât kökünden); meal “dua yeri” der. “Mesâbe” dönülecek yer demektir; meal “sevap kazanmaya yönelik bir toplantı yeri” der."],
+  "5:55": ["f", "“Ve hüm râkiûn” mealde “rükû eder bir halde” diye hâl olarak okunmuştur; Arapça “ve onlar rükû edenlerdir” diye de okunabilir. “Veliyy” mealde “gönül dostu” olmuştur."],
+  "22:26": ["u", U],
+  "22:77": ["u", U],
+  "48:29": ["u", "Arapçayla uyumlu. “Amilü's-sâlihât” mealde “hayra ve barışa yönelik işler yapanlar” olmuştur."],
+  "96:9": ["u", U], "96:10": ["u", U],
+  "96:11": ["u", "Arapçayla uyumlu. “El-hüdâ” (doğru yol) mealde “iyilik ve doğruluk” olmuştur."],
+  "96:12": ["u", U], "96:13": ["u", U], "96:14": ["u", U],
+  "96:15": ["u", "Arapçayla uyumlu. “Nâsiye” (perçem) mealde “alın” olmuştur."],
+  "96:16": ["u", U],
+  "96:17": ["u", "Arapçayla uyumlu. “Nâdî” (meclis) mealde “derneğini/kurultayını” olmuştur."],
+  "96:18": ["u", U],
+  "96:19": ["u", "Arapçayla uyumlu. “Lâ tutı'hu” (ona itaat etme) mealde “ona boyun eğme” olmuştur."],
+  "17:107": ["u", U],
+  "17:108": ["u", "Arapçayla uyumlu. “Subhâne rabbinâ” mealde “Rabbimizin şanı yücedir” olmuştur."],
+  "17:109": ["u", U],
+  "38:24": ["f", "“Harra” düştü, yere kapandı demektir; meal “yerlere eğildi” der. Rükûnun biçimi tartışmasında bu fark önemlidir. “Sâlihât” mealde “hakka ve barışa yönelik işler” olmuştur."],
+  "22:18": ["u", U],
+  "3:113": ["f", "“Kâime” için meal dört karşılık verir; bunlardan “el bağlayan” Arapçada yoktur. “Ve hüm yescudûn” mealde “secdelere kapanmış olarak okurlar” diye bağlanmıştır; Arapça “okurlar ve secde ederler” diye de okunabilir."],
+  "25:64": ["u", U],
+  "39:9": ["u", "Arapçayla uyumlu. “Kânit” (gönülden boyun eğen) mealde “ibadet eden” olmuştur."],
+  "17:78": ["f", "“Dülûk” için meal iki anlam verir (kayma / aşağı sarkma); Arapça kelime tek başına birini seçmez. “Li-dülûk” mealde “-dan” diye çevrilmiştir; “li-” vakit bildirir. Meal “Sabah Kur'an'ını da gözet” diyerek “gözet” fiilini ekler; Arapçada ayrı fiil yoktur ve “Kur'âne” kelimesi en doğal okumada “ikame et” emrine bağlanır. “Fecr” mealde “sabah” olmuştur."],
+  "17:79": ["f", "“Nâfileten lek” “senin için ek olarak” demektir; meal “sana özgü bir davranış olarak” der ve “ek” anlamını kaybeder. “Bihî” (onunla) mealde “o Kur'an'la” diye açılmıştır."],
+  "17:110": ["u", "Arapçayla uyumlu. “Sesini” sözü burada da eklenmiştir; Arapçada “salâtınla yüksek sesli olma” denir."],
+  "7:204": ["u", U],
+  "7:205": ["u", "Arapçayla uyumlu. Fiil “zikret”tir (vezkür); tesbîh ya da salât değildir."],
+  "7:206": ["u", U],
+  "73:1": ["u", "Arapçayla uyumlu. “Yatan” sözü mealin eklemesidir; Arapçada “örtüsüne bürünen” yazar."],
+  "73:2": ["u", U], "73:3": ["u", U],
+  "73:4": ["u", "Arapçayla uyumlu. “Rattil” mealde “ağır ağır, düşüne düşüne oku” olmuştur."],
+  "73:5": ["u", U],
+  "73:6": ["f", "“Nâşiete'l-leyl” (gece kalkışı) için meal “yeni bir oluşa koyulmak üzere geceleyin kalkan” diye geniş bir yorum verir."],
+  "73:7": ["u", U], "73:8": ["u", U],
+  "73:20": ["u", "Arapçayla uyumlu. “Kur'an'dan kolay geleni okuyun” ile “namazı kılın” Arapçada da ayrı emirlerdir. “Fe-tâbe aleyküm” mealde “size tövbe nasip etti” olmuştur."],
+  "5:101": ["u", "Arapçayla uyumlu. “Afâllâhu anhâ” mealde “Allah onlardan vazgeçmiştir” olmuştur."],
+  "2:186": ["u", "Arapçayla uyumlu. “Karîb” ismi korunup açıklanmıştır."],
+  "22:78": ["u", "Arapçayla uyumlu. “Millete ebîküm” mealde fiil eklenerek “Babanız İbrahim'in milletini esas alın” diye verilmiştir."],
+  "19:54": ["u", U], "19:55": ["u", U], "20:132": ["u", U],
+  "5:58": ["f", "“Huzuv” alay demektir; meal “oyun ve eğlence” der ve alay anlamını kaybeder."],
+  "62:9": ["u", "Arapçayla uyumlu. “Fes'av” mealde “koşun” olmuştur."],
+  "62:10": ["u", U], "62:11": ["u", U],
+  "2:239": ["u", "Arapçayla uyumlu. “Kılın” sözü eklenmiştir; Arapçada fiil yoktur, bağlamdan anlaşılır."],
+  "4:101": ["f", "Arapçada “salâttan kısaltmak” (mine's-salâ) yazar: kısaltma salâtın bir kısmından yapılır; meal “namazı kısaltmanızda” der. “Yeftineküm” (sizi belaya sokmaları) mealde “size tedirginlik vermesi” diye hafifletilmiştir."],
+  "4:102": ["f", "Önemli fark: Arapçada “secde edince arkanızda olsunlar” (fe'l-yekûnû min verâiküm) yazar; fiilin öznesi secde eden gruptur ve onlar arkaya geçer. Meal “diğerleri arkalarında beklesinler” diyerek özneyi değiştirir; “arkanızda” da “arkalarında” olmuştur. “Yaralı” sözü mealin eklemesidir."],
+  "4:103": ["f", "Meal başa “Korku halindeki” ekler; Arapçada yalnız “salâtı tamamladığınızda” yazar, bu bağlam bir önceki ayetten gelir. “Tam bir biçimde” sözü de mealin eklemesidir; Arapçada “salâtı ikame edin” yazar. “Kitâben mevkûten” doğru çevrilmiştir."],
+  "23:1": ["u", U], "23:2": ["u", U], "23:3": ["u", U], "23:4": ["u", U], "23:5": ["u", U],
+  "23:6": ["f", "“Mâ meleket eymânühüm” “sağ ellerinin sahip oldukları” demektir; meal “akitleri aracılığıyla sahip bulundukları” diye yorumlar."],
+  "23:7": ["u", U], "23:8": ["u", U], "23:9": ["u", U], "23:10": ["u", U], "23:11": ["u", U],
+  "4:142": ["u", U],
+  "9:54": ["u", "Arapçayla uyumlu. “Keferû” (inkâr ettiler) mealde “nankörlük ettiler” olmuştur."],
+  "19:59": ["u", "Arapçayla uyumlu. “Ğayy” mealde “azgınlıklarının cezası” olmuştur."],
+  "19:60": ["u", U],
+  "11:87": ["u", U],
+  "107:1": ["u", U], "107:2": ["u", U], "107:3": ["u", U], "107:4": ["u", U], "107:5": ["u", U], "107:6": ["u", U],
+  "107:7": ["u", "Arapçayla uyumlu. “Mâûn” için meal birden çok karşılık verir: kamu hakkı, yardım, zekât, iyilik."],
+  "70:19": ["u", "Arapçayla uyumlu. “Helû” için meal birden çok karşılık verir."],
+  "70:20": ["u", U], "70:21": ["u", U],
+  "70:22": ["f", "“El-musallîn” tek kelimedir (salât edenler); meal “namaz kılıp dua edenler” diye iki fiille verir."],
+  "70:23": ["u", U], "70:24": ["u", U],
+  "70:25": ["f", "“Sâil” isteyen demektir; meal “yoksul” der."],
+  "70:26": ["u", U],
+  "70:27": ["f", "“Yalnız” sözü mealin eklemesidir; Arapçada “Rablerinin azabından kaygı duyarlar” yazar."],
+  "70:28": ["u", U], "70:29": ["u", U],
+  "70:30": ["f", "“Mâ meleket eymânühüm” “sağ ellerinin sahip oldukları” demektir; meal “imkânlarının sahip olduğu şeyler” diye yorumlar."],
+  "70:31": ["u", U], "70:32": ["u", U], "70:33": ["u", U],
+  "70:34": ["u", "Arapçayla uyumlu. Meal “namazlarını/dualarını” diye iki karşılık verir."],
+  "70:35": ["u", U],
+  "33:43": ["f", "Önemli fark: Arapçada “yusallî aleyküm” (üzerinize salât eder) yazar; meal bunu “acıyor/destek veriyor” diye yorumlar. Arapçadaki kelimenin “salât” olduğu mealde görünmez."],
+  "33:56": ["f", "Arapçada “yusallûne ale'n-nebî” ve “sallû aleyhi” (ona salât edin) yazar; meal “destek verirler/şanını yüceltirler” ve “destek olun/şanını yüceltin” der. “Salât” kelimesi mealde görünmez."],
+  "2:155": ["u", U], "2:156": ["u", U],
+  "2:157": ["f", "Arapçada “salavât” (salâtlar) yazar; meal “selamlar, bereketler” der."],
+  "9:99": ["f", "Arapçada “salavâtü'r-resûl” (elçinin salâtları) yazar; meal “resulün duaları” der."],
+  "9:103": ["f", "Arapçada “salli aleyhim” (üzerlerine salât et) ve “salâteke” (senin salâtın) yazar; meal “dua et” ve “duan” der."],
+  "9:83": ["u", U],
+  "9:84": ["f", "Arapçada “lâ tusalli alâ” (üzerine salât etme) yazar; meal “dua etme” der."],
+  "24:41": ["f", "Önemli fark: Arapçada “salâtehû ve tesbîhahû” yazar; meal salâtı “duasını” diye çevirir. İki kelimenin ayrı sayılması değişmez, ama mealde “salât” kelimesi görünmez. “Men” (kimseler) mealde “şuurlular” olmuştur."],
+  "24:36": ["f", "Baştaki “Kandil” Arapçada yoktur; bir önceki ayetten (Nûr 35) eklenmiştir."],
+  "24:37": ["f", "“Zikrullah” mealde “Allah'ın zikri/Kur'an'ı” olmuştur; “Kur'an” mealin eklediği bir karşılıktır."],
+  "22:40": ["f", "Arapçada “salavât” yazar; meal bunu “havralar” diye belirli bir topluluğun yapısı olarak çevirir. Ayette yapıların hangi topluluğa ait olduğu söylenmez."],
+  "8:35": ["f", "“Mükâ” ve “tasdiye” Kur'an'da yalnız burada geçer; meal sözlük anlamlarıyla “ıslık çalmak, el çırpmak/engel olmak” der. Bu anlamlar ayetlerle doğrulanamaz. “İnde'l-beyt” (evin yanında) mealde “o evdeki” olmuştur."],
+  "11:114": ["f", "“Zülefen mine'l-leyl” “geceden bölümler” demektir; bölümler gecenin içindedir. Meal “geceye yakın saatler” der ve gece başlamadan önceki saatler gibi okunabilir. Sondaki “Allah'ı ananlara”da “Allah'ı” mealin eklemesidir; Arapçada yalnız “ananlara” (li'z-zâkirîn) yazar."],
+  "24:58": ["f", "“Salâti'l-işâ” mealde “akşam kılınan namaz” olmuştur; Arapçadaki ad “İşâ”dır. “Fecr” mealde “sabah” olmuştur. “Selâsü avrâtin” “üç mahremiyet vakti” demektir; meal “kaygılanacağınız üç vakit” der. Sondaki “birbirinize bakabilirsiniz” Arapçada yoktur; ayet “birbirinizin yanında dolaşırsınız” der."]
+};

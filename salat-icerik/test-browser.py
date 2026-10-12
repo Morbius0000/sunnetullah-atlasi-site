@@ -50,9 +50,19 @@ with sync_playwright() as pw:
         page.fill("#search", "ZZZX")
         assert page.evaluate("!document.getElementById('empty').hidden")
         page.click("#reset")
+        # Meal seçimi
+        visible_meals = lambda: page.evaluate("""(() => { const c = document.getElementById('ayet-5-6');
+            return [getComputedStyle(c.querySelector('.m-cal')).display !== 'none', getComputedStyle(c.querySelector('.m-yn')).display !== 'none']; })()""")
+        assert visible_meals() == [True, True]
+        page.click('.ms[data-meal="yn"]')
+        assert visible_meals() == [False, True]
+        page.click('.ms[data-meal="cal"]')
+        assert visible_meals() == [True, False]
+        page.click('.ms[data-meal="both"]')
+        assert "3 ayet" in page.inner_text("#count"), "Meal seçimi konu seçimini bozmamalı"
         page.click("#tab-ozet")
         page.click('.answer a[href="#ayet-4-103"]')
-        page.wait_for_timeout(700)
+        page.wait_for_timeout(1500)
         jump = page.evaluate("""(() => { const c = document.getElementById('ayet-4-103'); const r = c.getBoundingClientRect();
             return [!c.hidden, !document.getElementById('konular').hidden, r.top >= 0 && r.top < innerHeight]; })()""")
         assert jump == [True, True, True], jump
@@ -70,7 +80,7 @@ with sync_playwright() as pw:
         page.wait_for_timeout(700)
         assert page.evaluate("document.querySelector('.chip[aria-pressed=true]').dataset.topic") == "ayrim"
         page.goto(URL + "#konu-korku")
-        page.wait_for_timeout(700)
+        page.wait_for_timeout(1500)  # yumuşak kaydırmanın bitmesi için
         top = page.evaluate("Math.round(document.getElementById('konu-korku').getBoundingClientRect().top)")
         bar = page.evaluate("Math.round(document.querySelector('.tabbar').getBoundingClientRect().bottom)")
         assert top >= bar - 8, f"{width}: konu başlığı sekme çubuğunun altında kalıyor ({top} < {bar})"
@@ -82,8 +92,8 @@ with sync_playwright() as pw:
     page.route("**/*", local_only)
     page.goto(URL)
     shown = page.evaluate("[...document.querySelectorAll('.verse-card')].filter(c => getComputedStyle(c).display !== 'none').length")
-    assert shown == 134, f"JavaScript kapalıyken görünen ayet: {shown}"
-    results["javascript_kapali"] = "134 ayet görünür"
+    assert shown == 137, f"JavaScript kapalıyken görünen ayet: {shown}"
+    results["javascript_kapali"] = "137 ayet görünür"
     browser.close()
 
 print(json.dumps(results, ensure_ascii=False))

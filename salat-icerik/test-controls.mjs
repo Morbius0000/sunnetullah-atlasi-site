@@ -38,6 +38,7 @@ check('ezan = çağrı', () => assert.ok(find('ezan').includes('62:9')));
 check('kıble', () => assert.ok(find('kıble').includes('10:87')));
 check('Kur\'an yazımı', () => assert.ok(find('kuran').includes('7:204')));
 check('secde', () => { const r = find('secde'); assert.ok(r.includes('17:107') && r.includes('4:102')); });
-check('iki kelime birlikte', () => { const r = find('secde gece'); assert.ok(r.includes('25:64') && !r.includes('4:102')); });
+check('iki kelime birlikte', () => { const r = find('secde gece'); assert.ok(r.includes('25:64') && r.includes('3:113') && r.length < find('secde').length); });
+check('Yaşar Nuri metninde arama', () => assert.ok(find('el bağla').includes('3:43')));
 
 console.log(JSON.stringify(passed));

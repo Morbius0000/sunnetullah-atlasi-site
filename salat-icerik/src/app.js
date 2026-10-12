@@ -85,7 +85,7 @@
   // Konular ve arama
   const list = $('#topic-list');
   const sections = list ? $$('.topic', list) : [];
-  const chips = $$('.chip');
+  const chips = $$('.chip[data-topic]');
   const search = $('#search');
   const count = $('#count');
   const empty = $('#empty');
@@ -177,7 +177,7 @@
       if (search) search.value = '';
       current = el.closest('.topic').dataset.topic; render(); showTab('konular');
       el.classList.add('in');
-      scrollToEl(el, 'center'); flash(el); return;
+      scrollToEl(el, 'start'); flash(el); return;
     }
     const panel = el.closest('.panel');
     if (panel) showTab(panel.id);
@@ -202,13 +202,28 @@
   function copyCard(btn) {
     const card = btn.closest('.verse-card');
     if (!card) return;
-    const text = [$('h3', card).textContent, $('.arabic', card).textContent, $('.meal-text', card).textContent].join('\n');
+    const mode = list ? list.dataset.meal : 'both';
+    const parts = [$('h3', card).textContent, $('.arabic', card).textContent];
+    if (mode !== 'yn') parts.push('Çalışma meali: ' + $('.meal-text', card).textContent);
+    if (mode !== 'cal' && $('.yn-text', card)) parts.push('Yaşar Nuri Öztürk meali: ' + $('.yn-text', card).textContent);
+    const text = parts.join('\n');
     const label = btn.dataset.label || btn.textContent;
     btn.dataset.label = label;
     const done = ok => { btn.textContent = ok ? 'Kopyalandı' : 'Kopyalanamadı'; setTimeout(() => { btn.textContent = label; }, 1600); };
     if (navigator.clipboard && window.isSecureContext) navigator.clipboard.writeText(text).then(() => done(true), () => done(fallbackCopy(text)));
     else done(fallbackCopy(text));
   }
+
+  // Meal seçimi: ikisi de, çalışma meali, Yaşar Nuri
+  const mealButtons = $$('.ms[data-meal]');
+  function setMeal(mode, save) {
+    if (!list || !['both', 'cal', 'yn'].includes(mode)) return;
+    list.dataset.meal = mode;
+    mealButtons.forEach(b => b.setAttribute('aria-pressed', String(b.dataset.meal === mode)));
+    if (save) { try { localStorage.setItem('salat-icerik-meal', mode); } catch (e) { /* tarayıcı depolamaya izin vermiyor */ } }
+  }
+  mealButtons.forEach(b => b.addEventListener('click', () => setMeal(b.dataset.meal, true)));
+  try { const m = localStorage.getItem('salat-icerik-meal'); if (m) setMeal(m, false); } catch (e) { /* tarayıcı depolamaya izin vermiyor */ }
 
   // Yazı boyutu
   const sizes = [0.9, 1, 1.12, 1.25, 1.4];
