@@ -1,0 +1,100 @@
+// Emir, Yasak ve Karşılık Atlası sayfasını üretir: node emir-yasak-atlasi/build.mjs
+// Sayfa elle düzenlenmez. Konu verisi veri/konuNN.json dosyalarından gelir ve tarayıcıda açılan konuya göre yüklenir.
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { konular, gruplar, odulAdi } from './konular.mjs';
+import { genel, konu08 } from './metin.mjs';
+import { sureAdlari } from './sure-adlari.mjs';
+
+const dir = path.dirname(fileURLToPath(import.meta.url));
+const VERSION = 'v0.1.0';
+const DATE = '12 Ekim 2026';
+const esc = s => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
+
+// --- Veri denetimi ---
+const hazir = konular.filter(k => k.hazir);
+const ozet = {};
+for (const k of hazir) {
+  const file = path.join(dir, `veri/konu${String(k.no).padStart(2, '0')}.json`);
+  const d = JSON.parse(fs.readFileSync(file, 'utf8'));
+  for (const n of d.nitelikler) {
+    if (!n.kayitlar.length) throw new Error(`Boş nitelik: ${n.id}`);
+    for (const r of n.kayitlar) {
+      for (const ref of [r.nitelik_ayet, r.odul_ayet]) {
+        if (!/^\d+:\d+$/.test(ref)) throw new Error(`Geçersiz ayet: ${ref}`);
+        if (!d.ayetler[ref] || !d.ayetler[ref].ar || !d.ayetler[ref].tr) throw new Error(`Metin eksik: ${ref}`);
+        if (!sureAdlari[Number(ref.split(':')[0])]) throw new Error(`Sure adı yok: ${ref}`);
+      }
+      if (!['✓', '→', '?'].includes(r.derece)) throw new Error(`Derece: ${r.derece}`);
+      if (!(r.odul in odulAdi)) throw new Error(`Ödül adı yok: ${r.odul}`);
+    }
+  }
+  const by = Object.fromEntries(d.nitelikler.map(n => [n.id, n]));
+  const set = id => new Set((by[id]?.kayitlar || []).map(r => r.nitelik_ayet));
+  const iman = set('iman'), salih = set('salih_amel');
+  ozet[k.no] = {
+    imanSalih: [...iman].filter(x => salih.has(x)).length, iman: by.iman.ayet_sayisi, salih: by.salih_amel.ayet_sayisi,
+    takva: by.takva.ayet_sayisi, sabir: by.sabir.ayet_sayisi, ihsan: by.ihsan.ayet_sayisi,
+    namaz: by.namaz.ayet_sayisi, infak: by.infak.ayet_sayisi,
+    nitelik: d.nitelikler.filter(n => !['red', 'sonuc_tanimi'].includes(n.id)).length,
+    kayit: d.istatistik.kayit, ayet: d.istatistik.ayet, derece: d.istatistik.derece,
+  };
+}
+const hedef = Object.keys(JSON.parse(fs.readFileSync(path.join(dir, 'tarama/out/hedef_odul.json'), 'utf8'))).length;
+const bloklar = JSON.parse(fs.readFileSync(path.join(dir, 'okuma/k08_bloklar.txt.json'), 'utf8'));
+const corpus = fs.readFileSync(path.join(dir, '../data/quran-uthmani-tanzil-v1.1.txt'), 'utf8');
+const cs = corpus.indexOf('# PLEASE DO NOT REMOVE');
+if (cs < 0) throw new Error('Tanzil telif bildirimi bulunamadı.');
+const telif = corpus.slice(cs).split('\n').map(l => l.trimEnd()).join('\n').trim();
+const doldur = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => { if (!(k in v)) throw new Error('Yer tutucu: ' + k); return v[k]; });
+const v8 = { ...ozet[8], hedef, blok: bloklar.length, okunan: bloklar.reduce((t, b) => t + b[2] - b[1] + 1, 0) };
+
+const meta = { konular, gruplar, odulAdi, sure: sureAdlari, metin: { 8: { ...konu08, kisa: konu08.kisa.map(s => doldur(s, v8)), kapsam: konu08.kapsam.map(s => doldur(s, v8)) } }, ozet };
+const css = fs.readFileSync(path.join(dir, 'src/style.css'), 'utf8');
+const js = fs.readFileSync(path.join(dir, 'src/app.js'), 'utf8');
+const logo = `<svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M9 22V10h8M9 16h6M19 10l4 6-4 6" fill="none" stroke="var(--on-accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+
+const html = `<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${esc(genel.baslik)}</title>
+<meta name="description" content="${esc(genel.altbaslik)}">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>${css}</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#ana">İçeriğe geç</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./">${logo}<span>${esc(genel.baslik)}</span></a>
+  <div class="tools">
+    <span class="fs"><button class="btn" data-fs="-1" aria-label="Yazıyı küçült">A−</button><span class="fs-val" id="fsval">100%</span><button class="btn" data-fs="1" aria-label="Yazıyı büyüt">A+</button></span>
+    <a class="btn" href="../">Atlas ana sayfa</a>
+  </div>
+</div></header>
+<nav class="tabbar" aria-label="Konular"><div class="wrap"><div class="tablist" id="tabs" role="tablist"></div></div></nav>
+<main id="ana" class="wrap">
+  <section class="hero">
+    <p class="kicker">${esc(VERSION)} · ${esc(DATE)}</p>
+    <h1>${esc(genel.baslik)}</h1>
+    <p class="lead">${esc(genel.altbaslik)}</p>
+    <details class="method"><summary>Yöntem ve kanıt dereceleri</summary><ul>${genel.yontem.map(s => `<li>${esc(s)}</li>`).join('')}</ul></details>
+  </section>
+  <div id="konu" aria-live="polite"><noscript><p class="notice">Bu sayfanın konu içerikleri JavaScript ile yüklenir. Ham veriye <a href="veri/konu08.json">veri/konu08.json</a> dosyasından ulaşabilirsiniz.</p></noscript></div>
+</main>
+<footer class="foot"><div class="wrap">
+  <p><b>Kaynaklar.</b> Arapça metin: Tanzil Projesi, Uthmani metni v1.1 (Hafs), tanzil.net, Creative Commons Attribution 3.0. Metin değiştirilmeden kullanılmıştır. Türkçe meal: Prof. Dr. Yaşar Nuri Öztürk, <i>Kur'an Meali</i>. Yalnız sayfada gösterilen ayetlerin meali kullanılmıştır.</p>
+  <details class="lic"><summary>Tanzil telif bildirimi</summary><pre>${esc(telif)}</pre></details>
+  <p class="muted">Tarama ve okuma betikleri: <code>emir-yasak-atlasi/tarama/</code> ve <code>okuma/</code>. Kayıtların tamamı <code>okuma/k08_kayit.tsv</code> dosyasındadır; her satır kendi ayet numarasıyla doğrulanabilir.</p>
+</div></footer>
+<script id="meta" type="application/json">${JSON.stringify(meta).replaceAll('<', '\\u003c')}</script>
+<script>${js}</script>
+</body>
+</html>
+`;
+fs.writeFileSync(path.join(dir, 'index.html'), html);
+console.log('index.html yazıldı:', (html.length / 1024).toFixed(1), 'KB; konu 8 özeti:', JSON.stringify(ozet[8]));

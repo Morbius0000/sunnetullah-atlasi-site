@@ -1,0 +1,48 @@
+// Atlasın 12 konusu. "hazir: true" olanların verisi veri/konuNN.json dosyasındadır.
+export const gruplar = [
+  { id: 'A', ad: 'Emirler' },
+  { id: 'B', ad: 'Yasaklar' },
+  { id: 'C', ad: 'Karşılık' },
+  { id: 'D', ad: 'Sınıflar' },
+];
+export const konular = [
+  { no: 1, grup: 'A', ad: 'Temel emirler', ozet: 'Kulluk, adalet ve ihsan, ahde vefa, emanet, doğruluk.' },
+  { no: 2, grup: 'A', ad: 'Aile ve toplum emirleri', ozet: 'Anne-baba, akraba, yetim, yoksul, komşu.' },
+  { no: 3, grup: 'A', ad: 'Mal ve infak', ozet: 'İnfak, zekât, sadaka.' },
+  { no: 4, grup: 'B', ad: 'Şirk ve ayetleri yalanlama', ozet: 'Allah\'a ortak koşmak ve ayetleri yalanlamak.' },
+  { no: 5, grup: 'B', ad: 'Can, namus ve mal yasakları', ozet: 'Öldürme, zina, hırsızlık, yetim malı, ribâ, ölçüde hile.' },
+  { no: 6, grup: 'B', ad: 'Söz ve davranış yasakları', ozet: 'Yalan, iftira, alay, gıybet, kibir, israf.' },
+  { no: 7, grup: 'B', ad: 'Helal ve haram', ozet: 'Yiyecek-içecek ve evlilikte haram kılınanlar.' },
+  { no: 8, grup: 'C', ad: 'Cennete götüren nitelikler', ozet: 'Kur\'an\'ın cennete ve Allah\'ın ödülüne bağladığı nitelik ve davranışlar.', hazir: true },
+  { no: 9, grup: 'C', ad: 'Cehenneme götüren davranışlar', ozet: 'Kur\'an\'ın ateşe ve azaba bağladığı tutum ve davranışlar.' },
+  { no: 10, grup: 'C', ad: 'Karşılığın kuralları', ozet: 'Zerre ağırlığı, tevbe ve bağışlanma, bağışlanmayacak günah, derece farkları.' },
+  { no: 11, grup: 'D', ad: 'Allah\'ın sevdikleri ve sevmedikleri', ozet: '"Yuhibbu" ve "lâ yuhibbu" ifadeleri.' },
+  { no: 12, grup: 'D', ad: 'Günah sınıfları', ozet: 'Kebâir, fahşâ, lemem, ism, zulüm, fısk.' },
+];
+// Ödül türlerinin görünen adları (okuma kayıtlarındaki "odul" alanı).
+export const odulAdi = {
+  cennet: 'Cennet', ecir: 'Ecir (ödül)', felah: 'Felah (kurtuluş)', magfiret: 'Mağfiret', magfiret_ecir: 'Mağfiret ve ecir',
+  rahmet: 'Rahmet', korku_yok: 'Korku ve hüzün yok', sevap: 'Sevap', karsilik: 'Karşılık', ovgu: 'Övgü (ödül adı yok)',
+  kat_kat: 'Kat kat artırma', artirma: 'Artırma', husna: 'Hüsnâ (en güzel)', derece: 'Derece', mujde: 'Müjde',
+  hayir: 'Hayır (daha hayırlı)', fevz: 'Fevz (büyük kurtuluş)', ahiret_ecri: 'Ahiret ecri', ahiret_sevabi: 'Ahiret sevabı',
+  ahiret_hayirli: 'Ahiret daha hayırlı', ecir_iki_kat: 'İki kat ecir', hesapsiz_ecir: 'Hesapsız ecir', gunah_ortme: 'Günahların örtülmesi',
+  gunah_silme: 'Kötülüklerin silinmesi', tam_karsilik: 'Tam karşılık', kabul: 'Kabul', hidayet: 'Hidayet', emniyet: 'Güven',
+  ustunluk: 'Kıyamette üstünlük', fazl: 'Fazl (lütuf)', rizik: 'Rızık', beraberlik: 'Seçkinlerle beraberlik', pay: 'Pay',
+  kurtulus: 'Kurtuluş', akibet: 'Güzel son (âkıbet)', 'rıza': 'Rıza', selam: 'Selam', tuba: 'Tûbâ', likaullah: 'Rabbe kavuşma',
+  sukranla_karsilanma: 'Çabanın şükranla karşılanması', seytandan_korunma: 'Şeytandan korunma', hayat_tayyibe_ecir: 'Güzel hayat ve ecir',
+  kendi_lehine: 'Kendi lehine', yukselme: 'Yükselme', yerine_konma: 'Yerine konma', diledikleri: 'Dilediği her şey',
+  allah_katindaki: 'Allah katındaki (daha hayırlı)', goz_aydinligi: 'Gizlenmiş göz aydınlığı', dua_kabulu: 'Duanın kabulü',
+  esitsizlik: 'Kötülerle bir tutulmama', velayet: 'Allah\'ın dostluğu', yardim: 'Yardım', yardim_sebat: 'Yardım ve sebat',
+  hidayet_artisi: 'Hidayetin artması', hidayet_artisi_takva: 'Hidayet artışı ve takva', kifayet: 'Allah\'ın yetmesi',
+  cikis_rizik: 'Çıkış yolu ve rızık', kolaylik: 'Kolaylık', seyyiat_ortme_ecir: 'Kötülüklerin örtülmesi ve büyük ecir',
+  rahmet_iki_pay: 'Rahmetten iki pay', ecir_nur: 'Ecir ve nur', kavusma: 'Soyuna kavuşma', azaptan_korunma: 'Azaptan korunma',
+  ashab_meymene: 'Sağın ehli', rizaya_ermek: 'Hoşnutluğa ermek', hosnut_yasam: 'Hoşnut bir yaşayış', husrandan_istisna: 'Hüsrandan istisna',
+  hayirda_yarisma: 'Hayırda öne geçenler', ecir_sukran: 'Ecir ve şükran', cennet_haram: 'Cennet haram', cennete_giremez: 'Cennete giremez',
+  dunyevi_kurtulus: 'Dünyada kurtuluş (kıssa)', dunyevi_bereket: 'Dünyada bereket', dunyevi_yerlesme: 'Yurda yerleşme (kıssa)',
+  helaktan_korunma: 'Helâktan korunma', yeryuzune_varislik: 'Yeryüzüne vârislik', cehennemden_uzaklik: 'Cehennemden uzak tutulma',
+  sapmamak_bedbaht_olmamak: 'Sapmamak, bedbaht olmamak', ahirette_salihlerle: 'Ahirette salihlerle', kadem_sidk: 'Doğruluk makamı',
+  arinma: 'Arınma', ahiret_yurdu: 'Ahiret yurdu', daha_hayirlisi: 'Daha hayırlısı', ahiret: 'Ahiret', salih_amel_yazilir: 'Salih amel yazılır',
+  seyyiatin_hasenata_donmesi: 'Kötülüklerin iyiliğe çevrilmesi', kolay_hesap: 'Kolay hesap', sevgi: 'Allah\'ın sevgisi',
+  furkan_ortme: 'Furkan ve kötülüklerin örtülmesi', karsitlik: 'Karşıtıyla bir olmamak',
+  hayat: 'Hayat', '-': '—', azap: 'Azap', vaat: 'Vaat', gunah_yok: 'Günah yok', hasene: 'Güzellik (hasene)',
+};

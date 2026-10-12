@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emir, Yasak ve Karşılık Atlası</title>
+<meta name="description" content="Kur'an'da Allah'ın emrettikleri, yasakladıkları ve bunların karşılığı: yalnızca Kur'an metnine dayanan, ayet ayet kaynak gösteren bir çalışma.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>:root{
+  --bg:#f3f6f4;--paper:#fff;--paper2:#f8faf9;--ink:#15211d;--ink2:#2b3a35;--muted:#56645f;--line:#d5dfda;--line2:#e5ebe8;
+  --accent:#17604a;--on-accent:#fff;--soft:#e9f3ee;
+  --y:#16855a;--c:#3366cc;--a:#c2410c;--on-mk:#fff;--y-bg:#eaf5ef;--c-bg:#edf2fc;--a-bg:#fcf0e8;
+  --gold:#a16207;--gold-bg:#fdf6e3;--red:#b42318;--red-bg:#fdecea;
+  --shadow:0 1px 2px rgba(15,30,25,.05),0 6px 20px rgba(15,30,25,.06);
+  --arabic:"Amiri Quran","Amiri","Scheherazade New","Noto Naskh Arabic","Traditional Arabic",serif;
+  --fs:1;color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0d1315;--paper:#141c1f;--paper2:#182226;--ink:#e7efec;--ink2:#cfdbd6;--muted:#9fb0aa;--line:#2a3a3f;--line2:#223035;
+  --accent:#62c59d;--on-accent:#0d1315;--soft:#16262a;--y:#2fa877;--c:#5a8ce6;--a:#d9702a;--on-mk:#0d1315;
+  --y-bg:#132820;--c-bg:#151f36;--a-bg:#2a1b11;--gold:#e0b04a;--gold-bg:#2a2210;--red:#f2827a;--red-bg:#2c1513;--shadow:none;color-scheme:dark}}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:76px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:calc(16px * var(--fs));line-height:1.65}
+a{color:var(--accent);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--c);outline-offset:2px}
+p{margin:0 0 12px}
+code{font-size:.9em;background:var(--soft);padding:1px 5px;border-radius:5px;overflow-wrap:anywhere}
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+.skip{position:absolute;left:-9999px;top:8px}
+.skip:focus{left:12px;z-index:99;background:var(--paper);padding:8px 12px;border-radius:8px}
+.top{background:var(--paper);border-bottom:1px solid var(--line)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:10px 16px;flex-wrap:wrap;padding-top:12px;padding-bottom:12px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;color:var(--ink);text-decoration:none}
+.tools{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.fs{display:inline-flex;align-items:center;gap:4px}
+.fs-val{font-size:13px;color:var(--muted);min-width:42px;text-align:center}
+.btn{appearance:none;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:8px;padding:7px 12px;font:inherit;font-size:14px;font-weight:600;line-height:1.2;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{border-color:var(--accent)}
+.tabbar{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.tablist{display:flex;gap:6px;padding:8px 0;overflow-x:auto;scrollbar-width:thin}
+.tab{appearance:none;flex:0 0 auto;border:1.5px solid var(--line);background:var(--paper);color:var(--ink2);border-radius:10px;padding:6px 12px 6px 6px;font:inherit;font-size:14px;font-weight:700;line-height:1.1;cursor:pointer;display:inline-flex;align-items:center;gap:8px}
+.tab .n{display:inline-grid;place-items:center;width:24px;height:24px;border-radius:7px;background:var(--soft);color:var(--accent);font-size:12px}
+.tab.off{color:var(--muted);border-style:dashed}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.tab[aria-selected="true"] .n{background:rgba(255,255,255,.22);color:var(--on-accent)}
+.hero{padding:26px 0 8px}
+h1{font-size:clamp(26px,4vw,38px);line-height:1.15;margin:4px 0 10px;letter-spacing:-.01em}
+h2{font-size:clamp(21px,3vw,27px);line-height:1.25;margin:0 0 10px}
+h3{font-size:17px;line-height:1.35;margin:0}
+.kicker{font-size:13px;font-weight:700;color:var(--accent);margin:0}
+.lead{font-size:calc(17.5px * var(--fs));color:var(--ink2);max-width:860px}
+.muted{color:var(--muted)}
+.notice{padding:12px 16px;border-left:4px solid var(--accent);background:var(--soft);border-radius:8px;font-size:15px}
+details.method{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:10px 16px;margin:6px 0 4px;max-width:860px}
+details.method summary{cursor:pointer;font-weight:700}
+details.method ul{margin:10px 0 4px;padding-left:20px}
+.mk{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--y);color:var(--on-mk);font-size:13px;font-weight:800;line-height:1;flex:0 0 22px}
+.mk.c{background:var(--c)}.mk.a{background:var(--a)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;margin:10px 0 0;font-size:13px;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:6px}
+.panel{padding:18px 0 56px}
+.js .panel{animation:panelIn .3s ease both}
+@keyframes panelIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:20px 22px;box-shadow:var(--shadow);margin:16px 0}
+.answer ul{margin:0;padding-left:20px}
+.answer li{margin:0 0 8px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:14px 0 0}
+.stat{background:var(--paper2);border:1px solid var(--line2);border-radius:12px;padding:10px 12px}
+.stat b{display:block;font-size:22px;line-height:1.1;color:var(--accent)}
+.stat span{font-size:13px;color:var(--muted)}
+.finder{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:end;margin:18px 0 8px}
+.finder label{display:grid;gap:6px;font-weight:700;font-size:14px}
+.finder input{width:100%;min-width:0;border:1.5px solid var(--line);background:var(--paper);color:var(--ink);border-radius:10px;padding:10px 14px;font:inherit;font-size:16px}
+.finder input:focus{border-color:var(--accent);outline:none}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0}
+.chip{appearance:none;border:1.5px solid var(--line);background:var(--paper);color:var(--ink2);border-radius:999px;padding:6px 12px;font:inherit;font-size:14px;font-weight:600;line-height:1.2;cursor:pointer;display:inline-flex;gap:6px;align-items:center}
+.chip .k{font-size:12px;color:var(--muted);font-weight:700}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.chip[aria-pressed="true"] .k{color:inherit}
+.chip.gold[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#fff}
+#count{font-size:14px;color:var(--muted);margin:4px 0 14px;min-height:1.4em}
+.grp{margin:22px 0 6px;font-size:14px;font-weight:800;color:var(--muted);letter-spacing:.02em;text-transform:uppercase}
+.nit{background:var(--paper);border:1px solid var(--line);border-radius:14px;margin:0 0 10px;overflow:hidden}
+.nit > summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px 14px;align-items:center;padding:12px 16px}
+.nit > summary::-webkit-details-marker{display:none}
+.nit > summary h3::before{content:"▸";display:inline-block;width:1em;color:var(--accent);transition:transform .2s}
+.nit[open] > summary h3::before{transform:rotate(90deg)}
+.nit .bar{grid-column:1 / -1;height:6px;background:var(--line2);border-radius:99px;overflow:hidden}
+.nit .bar i{display:block;height:100%;background:var(--accent);border-radius:99px}
+.nit .cnt{font-size:13px;color:var(--muted);text-align:right;white-space:nowrap}
+.nit .cnt b{color:var(--ink)}
+.nit.red{border-color:var(--red)}
+.nit.red > summary{background:var(--red-bg)}
+.rec{list-style:none;margin:0;padding:0 16px 14px}
+.rec li{display:grid;grid-template-columns:22px minmax(0,1fr);gap:10px;align-items:start;padding:9px 0;border-top:1px solid var(--line2);font-size:15px}
+.rec .refs{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ref{appearance:none;border:1px solid var(--line);background:var(--paper2);color:var(--accent);border-radius:7px;padding:2px 8px;font:inherit;font-size:14px;font-weight:700;cursor:pointer}
+.ref[aria-expanded="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.arrow{color:var(--muted)}
+.odul{display:inline-block;font-size:12.5px;font-weight:700;padding:2px 8px;border-radius:99px;background:var(--y-bg);color:var(--y)}
+.odul.cennet{background:var(--gold-bg);color:var(--gold)}
+.odul.neg{background:var(--red-bg);color:var(--red)}
+.not{display:block;color:var(--muted);font-size:13.5px;margin-top:3px}
+.ham{font-size:12px;color:var(--muted)}
+.ayet{grid-column:2;background:var(--paper2);border:1px solid var(--line2);border-radius:10px;padding:10px 12px;margin-top:6px}
+.ayet .ar{font-family:var(--arabic);direction:rtl;text-align:right;font-size:calc(24px * var(--fs));line-height:2;margin:0 0 6px}
+.ayet .tr{margin:0;font-size:15px}
+.ayet .src{font-size:12.5px;color:var(--muted);margin:4px 0 0}
+.empty{padding:18px;background:var(--paper);border:1.5px dashed var(--line);border-radius:12px}
+.soon{padding:28px 0}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin-top:12px}
+.tcard{appearance:none;text-align:left;font:inherit;display:flex;flex-direction:column;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:12px 14px;color:var(--ink);cursor:pointer}
+.tcard:hover{border-color:var(--accent)}
+.tcard .tn{font-size:12px;font-weight:800;color:var(--accent)}
+.tcard .s{color:var(--muted);font-size:13.5px;line-height:1.45}
+.tcard .st{font-size:12px;font-weight:700;color:var(--muted)}
+.tcard.ok .st{color:var(--y)}
+.scope li{margin:0 0 8px}
+.foot{border-top:1px solid var(--line);background:var(--paper);padding:20px 0 30px;font-size:14px}
+.lic pre{white-space:pre-wrap;font-size:12px;color:var(--muted)}
+@media (max-width:640px){
+  .finder{grid-template-columns:1fr}
+  .nit > summary{grid-template-columns:1fr}
+  .nit .cnt{text-align:left}
+  .card{padding:16px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#ana">İçeriğe geç</a>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M9 22V10h8M9 16h6M19 10l4 6-4 6" fill="none" stroke="var(--on-accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Emir, Yasak ve Karşılık Atlası</span></a>
+  <div class="tools">
+    <span class="fs"><button class="btn" data-fs="-1" aria-label="Yazıyı küçült">A−</button><span class="fs-val" id="fsval">100%</span><button class="btn" data-fs="1" aria-label="Yazıyı büyüt">A+</button></span>
+    <a class="btn" href="../">Atlas ana sayfa</a>
+  </div>
+</div></header>
+<nav class="tabbar" aria-label="Konular"><div class="wrap"><div class="tablist" id="tabs" role="tablist"></div></div></nav>
+<main id="ana" class="wrap">
+  <section class="hero">
+    <p class="kicker">v0.1.0 · 12 Ekim 2026</p>
+    <h1>Emir, Yasak ve Karşılık Atlası</h1>
+    <p class="lead">Kur'an'da Allah'ın emrettikleri, yasakladıkları ve bunların karşılığı: yalnızca Kur'an metnine dayanan, ayet ayet kaynak gösteren bir çalışma.</p>
+    <details class="method"><summary>Yöntem ve kanıt dereceleri</summary><ul><li>Kaynak yalnızca Kur'an'dır. Hadis, rivayet, mezhep görüşü ve tefsir kanıt olarak kullanılmaz.</li><li>Arapça metin: Tanzil Uthmani (Hafs), 6236 ayet. Türkçe meal: Yaşar Nuri Öztürk.</li><li>Her kayıt, niteliğin geçtiği ayeti ve ödülün söylendiği ayeti ayrı ayrı gösterir. Bunlar aynı ayet de olabilir, aynı pasajda art arda gelen ayetler de.</li><li>Kanıt derecesi: ✓ Ayette yazılı (bağ cümlede ya da &quot;işte onlar&quot; gibi bir gönderme ile açıkça kurulur), → Çıkarım (bağ bağlamdan çıkarılır), ? Açık (nitelik ya da bağ metinden belirlenemez).</li></ul></details>
+  </section>
+  <div id="konu" aria-live="polite"><noscript><p class="notice">Bu sayfanın konu içerikleri JavaScript ile yüklenir. Ham veriye <a href="veri/konu08.json">veri/konu08.json</a> dosyasından ulaşabilirsiniz.</p></noscript></div>
+</main>
+<footer class="foot"><div class="wrap">
+  <p><b>Kaynaklar.</b> Arapça metin: Tanzil Projesi, Uthmani metni v1.1 (Hafs), tanzil.net, Creative Commons Attribution 3.0. Metin değiştirilmeden kullanılmıştır. Türkçe meal: Prof. Dr. Yaşar Nuri Öztürk, <i>Kur'an Meali</i>. Yalnız sayfada gösterilen ayetlerin meali kullanılmıştır.</p>
+  <details class="lic"><summary>Tanzil telif bildirimi</summary><pre># PLEASE DO NOT REMOVE OR CHANGE THIS COPYRIGHT BLOCK
+#====================================================================
+#
+#  Tanzil Quran Text (Uthmani, Version 1.1)
+#  Copyright (C) 2007-2026 Tanzil Project
+#  License: Creative Commons Attribution 3.0
+#
+#  This copy of the Quran text is carefully produced, highly
+#  verified and continuously monitored by a group of specialists
+#  at Tanzil Project.
+#
+#  TERMS OF USE:
+#
+#  - Permission is granted to copy and distribute verbatim copies
+#    of this text, but CHANGING IT IS NOT ALLOWED.
+#
+#  - This Quran text can be used in any website or application,
+#    provided that its source (Tanzil Project) is clearly indicated,
+#    and a link is made to tanzil.net to enable users to keep
+#    track of changes.
+#
+#  - This copyright notice shall be included in all verbatim copies
+#    of the text, and shall be reproduced appropriately in all files
+#    derived from or containing substantial portion of this text.
+#
+#  Please check updates at: http://tanzil.net/updates/
+#
+#====================================================================</pre></details>
+  <p class="muted">Tarama ve okuma betikleri: <code>emir-yasak-atlasi/tarama/</code> ve <code>okuma/</code>. Kayıtların tamamı <code>okuma/k08_kayit.tsv</code> dosyasındadır; her satır kendi ayet numarasıyla doğrulanabilir.</p>
+</div></footer>
+<script id="meta" type="application/json">{"konular":[{"no":1,"grup":"A","ad":"Temel emirler","ozet":"Kulluk, adalet ve ihsan, ahde vefa, emanet, doğruluk."},{"no":2,"grup":"A","ad":"Aile ve toplum emirleri","ozet":"Anne-baba, akraba, yetim, yoksul, komşu."},{"no":3,"grup":"A","ad":"Mal ve infak","ozet":"İnfak, zekât, sadaka."},{"no":4,"grup":"B","ad":"Şirk ve ayetleri yalanlama","ozet":"Allah'a ortak koşmak ve ayetleri yalanlamak."},{"no":5,"grup":"B","ad":"Can, namus ve mal yasakları","ozet":"Öldürme, zina, hırsızlık, yetim malı, ribâ, ölçüde hile."},{"no":6,"grup":"B","ad":"Söz ve davranış yasakları","ozet":"Yalan, iftira, alay, gıybet, kibir, israf."},{"no":7,"grup":"B","ad":"Helal ve haram","ozet":"Yiyecek-içecek ve evlilikte haram kılınanlar."},{"no":8,"grup":"C","ad":"Cennete götüren nitelikler","ozet":"Kur'an'ın cennete ve Allah'ın ödülüne bağladığı nitelik ve davranışlar.","hazir":true},{"no":9,"grup":"C","ad":"Cehenneme götüren davranışlar","ozet":"Kur'an'ın ateşe ve azaba bağladığı tutum ve davranışlar."},{"no":10,"grup":"C","ad":"Karşılığın kuralları","ozet":"Zerre ağırlığı, tevbe ve bağışlanma, bağışlanmayacak günah, derece farkları."},{"no":11,"grup":"D","ad":"Allah'ın sevdikleri ve sevmedikleri","ozet":"\"Yuhibbu\" ve \"lâ yuhibbu\" ifadeleri."},{"no":12,"grup":"D","ad":"Günah sınıfları","ozet":"Kebâir, fahşâ, lemem, ism, zulüm, fısk."}],"gruplar":[{"id":"A","ad":"Emirler"},{"id":"B","ad":"Yasaklar"},{"id":"C","ad":"Karşılık"},{"id":"D","ad":"Sınıflar"}],"odulAdi":{"cennet":"Cennet","ecir":"Ecir (ödül)","felah":"Felah (kurtuluş)","magfiret":"Mağfiret","magfiret_ecir":"Mağfiret ve ecir","rahmet":"Rahmet","korku_yok":"Korku ve hüzün yok","sevap":"Sevap","karsilik":"Karşılık","ovgu":"Övgü (ödül adı yok)","kat_kat":"Kat kat artırma","artirma":"Artırma","husna":"Hüsnâ (en güzel)","derece":"Derece","mujde":"Müjde","hayir":"Hayır (daha hayırlı)","fevz":"Fevz (büyük kurtuluş)","ahiret_ecri":"Ahiret ecri","ahiret_sevabi":"Ahiret sevabı","ahiret_hayirli":"Ahiret daha hayırlı","ecir_iki_kat":"İki kat ecir","hesapsiz_ecir":"Hesapsız ecir","gunah_ortme":"Günahların örtülmesi","gunah_silme":"Kötülüklerin silinmesi","tam_karsilik":"Tam karşılık","kabul":"Kabul","hidayet":"Hidayet","emniyet":"Güven","ustunluk":"Kıyamette üstünlük","fazl":"Fazl (lütuf)","rizik":"Rızık","beraberlik":"Seçkinlerle beraberlik","pay":"Pay","kurtulus":"Kurtuluş","akibet":"Güzel son (âkıbet)","rıza":"Rıza","selam":"Selam","tuba":"Tûbâ","likaullah":"Rabbe kavuşma","sukranla_karsilanma":"Çabanın şükranla karşılanması","seytandan_korunma":"Şeytandan korunma","hayat_tayyibe_ecir":"Güzel hayat ve ecir","kendi_lehine":"Kendi lehine","yukselme":"Yükselme","yerine_konma":"Yerine konma","diledikleri":"Dilediği her şey","allah_katindaki":"Allah katındaki (daha hayırlı)","goz_aydinligi":"Gizlenmiş göz aydınlığı","dua_kabulu":"Duanın kabulü","esitsizlik":"Kötülerle bir tutulmama","velayet":"Allah'ın dostluğu","yardim":"Yardım","yardim_sebat":"Yardım ve sebat","hidayet_artisi":"Hidayetin artması","hidayet_artisi_takva":"Hidayet artışı ve takva","kifayet":"Allah'ın yetmesi","cikis_rizik":"Çıkış yolu ve rızık","kolaylik":"Kolaylık","seyyiat_ortme_ecir":"Kötülüklerin örtülmesi ve büyük ecir","rahmet_iki_pay":"Rahmetten iki pay","ecir_nur":"Ecir ve nur","kavusma":"Soyuna kavuşma","azaptan_korunma":"Azaptan korunma","ashab_meymene":"Sağın ehli","rizaya_ermek":"Hoşnutluğa ermek","hosnut_yasam":"Hoşnut bir yaşayış","husrandan_istisna":"Hüsrandan istisna","hayirda_yarisma":"Hayırda öne geçenler","ecir_sukran":"Ecir ve şükran","cennet_haram":"Cennet haram","cennete_giremez":"Cennete giremez","dunyevi_kurtulus":"Dünyada kurtuluş (kıssa)","dunyevi_bereket":"Dünyada bereket","dunyevi_yerlesme":"Yurda yerleşme (kıssa)","helaktan_korunma":"Helâktan korunma","yeryuzune_varislik":"Yeryüzüne vârislik","cehennemden_uzaklik":"Cehennemden uzak tutulma","sapmamak_bedbaht_olmamak":"Sapmamak, bedbaht olmamak","ahirette_salihlerle":"Ahirette salihlerle","kadem_sidk":"Doğruluk makamı","arinma":"Arınma","ahiret_yurdu":"Ahiret yurdu","daha_hayirlisi":"Daha hayırlısı","ahiret":"Ahiret","salih_amel_yazilir":"Salih amel yazılır","seyyiatin_hasenata_donmesi":"Kötülüklerin iyiliğe çevrilmesi","kolay_hesap":"Kolay hesap","sevgi":"Allah'ın sevgisi","furkan_ortme":"Furkan ve kötülüklerin örtülmesi","karsitlik":"Karşıtıyla bir olmamak","hayat":"Hayat","-":"—","azap":"Azap","vaat":"Vaat","gunah_yok":"Günah yok","hasene":"Güzellik (hasene)"},"sure":[null,"Fâtiha","Bakara","Âl-i İmrân","Nisâ","Mâide","En'âm","A'râf","Enfâl","Tevbe","Yûnus","Hûd","Yûsuf","Ra'd","İbrâhîm","Hicr","Nahl","İsrâ","Kehf","Meryem","Tâhâ","Enbiyâ","Hac","Mü'minûn","Nûr","Furkân","Şuarâ","Neml","Kasas","Ankebût","Rûm","Lokmân","Secde","Ahzâb","Sebe'","Fâtır","Yâsîn","Sâffât","Sâd","Zümer","Mü'min","Fussilet","Şûrâ","Zuhruf","Duhân","Câsiye","Ahkâf","Muhammed","Fetih","Hucurât","Kâf","Zâriyât","Tûr","Necm","Kamer","Rahmân","Vâkıa","Hadîd","Mücâdele","Haşr","Mümtehine","Saf","Cuma","Münâfikûn","Teğâbün","Talâk","Tahrîm","Mülk","Kalem","Hâkka","Meâric","Nûh","Cin","Müzzemmil","Müddessir","Kıyâme","İnsân","Mürselât","Nebe'","Nâziât","Abese","Tekvîr","İnfitâr","Mutaffifîn","İnşikâk","Bürûc","Târık","A'lâ","Gâşiye","Fecr","Beled","Şems","Leyl","Duhâ","İnşirâh","Tîn","Alak","Kadir","Beyyine","Zilzâl","Âdiyât","Kâria","Tekâsür","Asr","Hümeze","Fîl","Kureyş","Mâûn","Kevser","Kâfirûn","Nasr","Tebbet","İhlâs","Felak","Nâs"],"metin":{"8":{"giris":"Bu bölüm, Kur'an'ın cennete, ecre, felaha, mağfirete ya da rahmete bağladığı nitelikleri toplar. \"Cennete götüren\" ifadesi geniş tutulmuştur: ödül adı cennet olmasa da (ecir, felah, rahmet, mağfiret) Allah'ın vaat ettiği karşılık sayılmıştır. Yalnız cenneti görmek için \"Yalnız cennet\" düğmesini kullanın.","kisa":["İncelenen ayetlerde ödüle en sık bağlanan nitelik imandır (108 ayet). İkinci sırada salih amel gelir (76 ayet). İkisi 54 ayette aynı cümlede birlikte geçer.","Bunları takva (62 ayet), namaz (34), infak (30), sabır (29) ve ihsan (20) izler.","Kur'an bazı dayanakları açıkça geçersiz sayar: soy ya da grup aidiyeti (Bakara 111-112, Mâide 18), kuruntu (Nisâ 123, Meâric 38), mal ve evlat (Sebe' 37). Allah'a ortak koşana cennetin haram kılındığı da açıkça söylenir (Mâide 72).","Bazı ayetler nitelik vermeden yalnız sonucu adlandırır: mizanı ağır basan, kitabı sağından verilen, \"mutluluğa erdirilenler\". Bunlar \"Sonuç tanımları\" başlığında ayrıca gösterilmiştir."],"kapsam":["Hedef ayetler: ödülü adlandıran 530 ayet. Kullanılan Arapça işaretler: cennet ve çoğulu, firdevs, adn, rıdvân, fevz, gurfe, derecât, hüsnâ, me'vâ, naîm, illiyyûn, zülfâ, tûbâ, felah kalıpları, idhâl (\"sokar/girin\"), ecir, ecr, sevap, mağfiret, rahmet, büşrâ.","Her hedef ayet, önceki 4 ve sonraki 3 ayetle birlikte okundu: 237 pasaj, 2852 ayet. Nitelikleri daha önce başlayan uzun pasajlar (Furkân 63-76, Meâric 19-35, İnsân 5-22, Zâriyât 15-19) ayrıca tam okundu.","Hedef listesinde olmayan, sonradan eklenen pasajlar: Beled 11-18, Leyl 5-7 ve 17-21, Kâria 6-7, Asr 1-3, Mü'minûn 57-61, İnsân 22. Bunların kayıtları \"Ek okuma\" etiketiyle gösterilir.","İkinci kontrol: her kayıtta niteliğin Arapça kökü nitelik ayetinde aranır. Kökü bulunmayan kayıtlar tek tek yeniden okundu. İkisi \"→ Çıkarım\" derecesine indirildi: sınanmaya katlanmayı sabır sayan Bakara 214 ve \"tayyib\" kelimesini iffet olarak okuyan Nûr 26.","Bilinen sınırlar: kıssalardaki dünyevî kurtuluşlar ayrı ödül türüyle işaretlendi ama ahiret ödülüyle karıştırılmadı. Kelime bazlı taramanın kaçırdığı ayet olabilir. Örnekleme tahminine göre ilgili ayetlerin yaklaşık yüzde 3-5'i taramanın dışında kalmış olabilir."]}},"ozet":{"8":{"imanSalih":54,"iman":108,"salih":76,"takva":62,"sabir":29,"ihsan":20,"namaz":34,"infak":30,"nitelik":44,"kayit":643,"ayet":499,"derece":{"✓":611,"→":26,"?":6}}}}</script>
+<script>(() => {
+  'use strict';
+  const M = JSON.parse(document.getElementById('meta').textContent);
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } }, set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+  const refAd = r => { const [s, a] = r.split(':'); return `${M.sure[+s]} ${a}`; };
+  const MK = { '✓': ['', '✓', 'Ayette yazılı'], '→': ['c', '→', 'Çıkarım'], '?': ['a', '?', 'Açık'] };
+  const NEG = new Set(['cennet_haram', 'cennete_giremez', 'azap', '-']);
+  const cache = {};
+
+  // Yazı boyutu
+  let fs = parseFloat(store.get('eya-fs')) || 1;
+  const setFs = v => { fs = Math.min(1.4, Math.max(0.85, Math.round(v * 20) / 20)); document.documentElement.style.setProperty('--fs', fs); $('#fsval').textContent = Math.round(fs * 100) + '%'; store.set('eya-fs', fs); };
+  setFs(fs);
+  document.querySelectorAll('[data-fs]').forEach(b => b.addEventListener('click', () => setFs(fs + 0.05 * +b.dataset.fs)));
+
+  // Sekmeler: 0 = genel bakış, 1..12 konular
+  const tabs = $('#tabs');
+  const tabBtn = (id, n, ad, off) => `<button class="tab${off ? ' off' : ''}" role="tab" id="tab-${id}" data-k="${id}" aria-selected="false"><span class="n">${n}</span>${esc(ad)}</button>`;
+  tabs.innerHTML = tabBtn(0, '◎', 'Genel bakış') + M.konular.map(k => tabBtn(k.no, k.no, k.ad, !k.hazir)).join('');
+  tabs.addEventListener('click', e => { const b = e.target.closest('.tab'); if (b) go(+b.dataset.k); });
+
+  const host = $('#konu');
+  function go(no, push = true) {
+    tabs.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', String(+t.dataset.k === no)));
+    $(`#tab-${no}`)?.scrollIntoView({ block: 'nearest', inline: 'nearest' });
+    if (push) history.replaceState(null, '', no ? `#konu-${no}` : '#');
+    if (!no) return overview();
+    const k = M.konular.find(x => x.no === no);
+    if (!k.hazir) return soon(k);
+    host.innerHTML = '<p class="muted panel">Yükleniyor…</p>';
+    const f = `veri/konu${String(no).padStart(2, '0')}.json`;
+    (cache[no] ? Promise.resolve(cache[no]) : fetch(f).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }))
+      .then(d => { cache[no] = d; render(k, d); })
+      .catch(err => { host.innerHTML = `<div class="panel"><p class="notice">Veri yüklenemedi (${esc(err.message)}). Sayfayı yenileyin ya da <a href="${f}">${f}</a> dosyasını açın.</p></div>`; });
+  }
+
+  function overview() {
+    host.innerHTML = `<section class="panel"><h2>Konular</h2><p class="muted">12 konunun durumu. Hazır olanlar açılır; diğerleri sırayla eklenecek.</p>` +
+      M.gruplar.map(g => `<p class="grp">${esc(g.ad)}</p><div class="tgrid">` + M.konular.filter(k => k.grup === g.id).map(k =>
+        `<button class="tcard${k.hazir ? ' ok' : ''}" data-k="${k.no}"><span class="tn">Konu ${k.no}</span><b>${esc(k.ad)}</b><span class="s">${esc(k.ozet)}</span><span class="st">${k.hazir ? 'Hazır' : 'Hazırlanıyor'}</span></button>`).join('') + '</div>').join('') + '</section>';
+    host.querySelectorAll('.tcard').forEach(c => c.addEventListener('click', () => go(+c.dataset.k)));
+  }
+  function soon(k) {
+    host.innerHTML = `<section class="panel soon"><p class="kicker">Konu ${k.no}</p><h2>${esc(k.ad)}</h2><p class="lead">${esc(k.ozet)}</p><p class="notice">Bu konu henüz hazırlanıyor. Tarama tamamlandı; ayetler okunup sınıflandırıldıkça burada yayımlanacak.</p></section>`;
+  }
+
+  function render(k, d) {
+    const T = M.metin[k.no], O = M.ozet[k.no];
+    const grps = [...new Set(d.nitelikler.map(n => n.grup))];
+    const max = Math.max(...d.nitelikler.map(n => n.ayet_sayisi));
+    host.innerHTML = `<section class="panel">
+      <p class="kicker">Konu ${k.no}</p><h2>${esc(k.ad)}</h2><p class="lead">${esc(T.giris)}</p>
+      <div class="card answer"><h3 style="margin-bottom:10px">Kısa cevap</h3><ul>${T.kisa.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
+        <div class="stats"><div class="stat"><b>${O.nitelik}</b><span>nitelik başlığı</span></div><div class="stat"><b>${O.kayit}</b><span>okuma kaydı</span></div><div class="stat"><b>${O.ayet}</b><span>gösterilen ayet</span></div><div class="stat"><b>${O.derece['✓']}</b><span>✓ ayette yazılı</span></div><div class="stat"><b>${O.derece['→'] + O.derece['?']}</b><span>→ çıkarım / ? açık</span></div></div>
+        <div class="legend">${Object.values(MK).map(([c, s, t]) => `<span><i class="mk ${c}">${s}</i>${t}</span>`).join('')}</div></div>
+      <div class="finder"><label>Nitelik ya da ayet ara<input id="q" type="search" placeholder="ör. sabır, infak, 23:5, Furkân" autocomplete="off"></label><button class="btn" id="clr" type="button">Temizle</button></div>
+      <div class="chips" id="gchips"><button class="chip" aria-pressed="true" data-g="">Tümü</button>${grps.map(g => `<button class="chip" aria-pressed="false" data-g="${esc(g)}">${esc(g)} <span class="k">${d.nitelikler.filter(n => n.grup === g).length}</span></button>`).join('')}</div>
+      <div class="chips"><button class="chip gold" id="onlyc" aria-pressed="false">Yalnız cennet</button><button class="chip" id="onlyy" aria-pressed="false">Yalnız ✓ ayette yazılı</button><button class="chip" id="openall" aria-pressed="false">Hepsini aç</button></div>
+      <p id="count" role="status"></p><div id="list"></div>
+      <details class="card scope"><summary><b>Kapsam, yöntem ve sınırlar</b></summary><ul style="margin-top:10px">${T.kapsam.map(s => `<li>${esc(s)}</li>`).join('')}</ul></details>
+    </section>`;
+    const st = { q: '', g: '', c: false, y: false };
+    const list = $('#list');
+    const norm = s => s.toLocaleLowerCase('tr').normalize('NFD').replace(/[̀-ͯ]/g, '');
+    function draw() {
+      const q = norm(st.q.trim());
+      let shown = 0, recs = 0, html = '', lastG = null;
+      for (const n of d.nitelikler) {
+        if (st.g && n.grup !== st.g) continue;
+        let rs = n.kayitlar.filter(r => (!st.c || r.odul === 'cennet') && (!st.y || r.derece === '✓'));
+        if (q) {
+          const hitN = norm(n.etiket + ' ' + n.id).includes(q);
+          rs = rs.filter(r => hitN || [r.nitelik_ayet, r.odul_ayet, refAd(r.nitelik_ayet), refAd(r.odul_ayet), r.not_, r.ham].some(x => norm(x || '').includes(q)));
+        }
+        if (!rs.length) continue;
+        shown++; recs += rs.length;
+        if (n.grup !== lastG) { html += `<p class="grp">${esc(n.grup)}</p>`; lastG = n.grup; }
+        const ay = new Set(rs.map(r => r.nitelik_ayet)).size, cn = new Set(rs.filter(r => r.odul === 'cennet').map(r => r.nitelik_ayet)).size;
+        html += `<details class="nit${n.id === 'red' ? ' red' : ''}"${q || st.open ? ' open' : ''}><summary><h3>${esc(n.etiket)}</h3><span class="cnt"><b>${ay}</b> ayet · ${cn} doğrudan cennet</span><span class="bar"><i style="width:${Math.max(3, Math.round(100 * n.ayet_sayisi / max))}%"></i></span></summary><ul class="rec">` +
+          rs.map(r => { const [mc, ms, mt] = MK[r.derece]; const same = r.nitelik_ayet === r.odul_ayet;
+            return `<li><i class="mk ${mc}" title="${mt}">${ms}</i><div><span class="refs"><button class="ref" data-r="${r.nitelik_ayet}" aria-expanded="false">${esc(refAd(r.nitelik_ayet))}</button>${same ? '' : `<span class="arrow">→</span><button class="ref" data-r="${r.odul_ayet}" aria-expanded="false">${esc(refAd(r.odul_ayet))}</button>`}<span class="odul${r.odul === 'cennet' ? ' cennet' : ''}${NEG.has(r.odul) ? ' neg' : ''}">${esc(M.odulAdi[r.odul] || r.odul)}</span></span>${r.not_ ? `<span class="not">${esc(r.not_)}</span>` : ''}<span class="ham">${r.blok.startsWith('EK') ? '<b>Ek okuma</b> · ' : ''}kayıt: ${esc(r.ham)} · ${esc(r.blok)}</span></div></li>`; }).join('') + '</ul></details>';
+      }
+      list.innerHTML = html || '<p class="empty">Bu süzgeçle eşleşen kayıt yok.</p>';
+      $('#count').textContent = `${shown} nitelik, ${recs} kayıt gösteriliyor.`;
+    }
+    list.addEventListener('click', e => {
+      const b = e.target.closest('.ref'); if (!b) return;
+      const li = b.closest('li'), r = b.dataset.r, open = b.getAttribute('aria-expanded') === 'true';
+      li.querySelectorAll('.ref').forEach(x => x.setAttribute('aria-expanded', 'false'));
+      li.querySelector('.ayet')?.remove();
+      if (open) return;
+      b.setAttribute('aria-expanded', 'true');
+      const a = d.ayetler[r];
+      li.insertAdjacentHTML('beforeend', `<div class="ayet"><p class="ar" lang="ar">${esc(a.ar)}</p><p class="tr">${esc(a.tr)}</p><p class="src">${esc(refAd(r))} (${r}) · Yaşar Nuri Öztürk meali</p></div>`);
+    });
+    let t; $('#q').addEventListener('input', e => { clearTimeout(t); t = setTimeout(() => { st.q = e.target.value; draw(); }, 120); });
+    $('#clr').addEventListener('click', () => { $('#q').value = ''; st.q = ''; draw(); });
+    $('#gchips').addEventListener('click', e => { const b = e.target.closest('.chip'); if (!b) return; st.g = b.dataset.g; $('#gchips').querySelectorAll('.chip').forEach(c => c.setAttribute('aria-pressed', String(c === b))); draw(); });
+    const tog = (id, key) => $(id).addEventListener('click', e => { st[key] = !st[key]; e.currentTarget.setAttribute('aria-pressed', String(st[key])); draw(); });
+    tog('#onlyc', 'c'); tog('#onlyy', 'y'); tog('#openall', 'open');
+    draw();
+  }
+
+  const m = location.hash.match(/konu-(\d+)/);
+  go(m ? +m[1] : 8, false);
+})();
+</script>
+</body>
+</html>
