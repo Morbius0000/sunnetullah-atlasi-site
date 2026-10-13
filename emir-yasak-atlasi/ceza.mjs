@@ -75,6 +75,9 @@ const L = [
   ['hesaba_cekilme', 'Hesaba çekilme', 'azap'], ['kahretme', 'Kahrolma', 'gazab'], ['korku_salma', 'Kalplere korku salınması', 'ruhsal'],
   ['kotu_son', 'Kötü son', 'dunya'], ['musrik_sayilma', 'Müşrik sayılma', 'husran'], ['sapiklik_donussuz', 'Dönüşü olmayan sapıklık', 'ruhsal'],
   ['yalniz_horlanmis', 'Yalnız bırakılıp horlanma', 'husran'],
+  // Konu 6
+  ['sevilmeme', 'Allah\'ın sevmemesi', 'gazab'],
+  ['maskaraya_cevirme', 'Maskaraya çevrilme', 'azap'], ['seytanin_kardesi', 'Şeytanların kardeşi olma', 'ruhsal'],
 ];
 export const cezaAdi = Object.fromEntries(L.map(([k, a]) => [k, a]));
 export const cezaTur = Object.fromEntries(L.map(([k, , t]) => [k, t]));

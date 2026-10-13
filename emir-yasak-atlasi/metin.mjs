@@ -75,3 +75,20 @@ export const konu05 = {
     'Bilinen sınırlar: Bakara 188, Nisâ 29 gibi ayetlerde "mallarınızı aranızda bâtıl yolla yemeyin" ifadesindeki malın kime ait olduğu (kendi malınız ya da birbirinizin mallarınız) lafızdan kesin ayrılmaz. Nisâ 29\'daki "lâ taktulû enfüsekum" kendinizi ya da birbirinizi öldürmeyin anlamına gelebilir; sayfadaki Yaşar Nuri meali bunu "kendi canlarınıza kıymayın" ve 30. ayette "intihar" diye vermiştir, Arapça lafız bunu tek anlamlı yapmaz. Nisâ 15\'teki "el-fâhişe" lafzı için meal yorumlu bir karşılık kullanır; kayıt Arapça lafza dayanır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
   ],
 };
+
+export const konu06 = {
+  giris: 'Bu bölüm, Kur\'an\'ın söz ve davranış yasaklarını (yalan ve iftira, alay ve çekiştirme, kibir ve övünme, israf) ve söz edebine dair emirleri toplar. Her kaydın türü işaretlidir: Yasak (doğrudan nehiy), Emir (doğrudan buyruk), Sonuç (davranış ve karşılığı birlikte) ve Tanım (davranışın nasıl adlandırıldığı ya da kimlerin nitelendiği). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Doğrudan yasak olarak yazılanlar {yasak} ayettedir; doğrudan emir olarak yazılanlar {emir} ayettedir. Başlıca yasaklar: Allah\'a iftira etmemek ve bilmediğini Allah hakkında söylememek, tanıklığı gizlememek, alay etmemek, lakap takmamak, gıybet etmemek, kötü zan ve casusluktan sakınmak, kasılıp yürümemek, şımarmamak ve israf etmemek.',
+    'Başlıklar: yalan ve iftira {yalan} ayette, alay ve çekiştirme {alay} ayette, kibir ve övünme {kibir} ayette, israf {israf} ayette, söz ve ses edebi {soz} ayette işlenir.',
+    'Ayette karşılığı da bildirilen kayıtlar {karsilikli} ayettedir; bunların {nar} ayetinde karşılık açıkça ateştir. "Allah sevmez" ifadesi (sevilmeme) {sevilmeme} ayette ayrı bir karşılık olarak yazıldı: böbürlenenler, şımaranlar, israf edenler. Ayet karşılık yazmıyorsa bu sayfa da karşılık yazmaz.',
+    'Bu bölüm Konu 9 ile (yalanlama, iftira, kibir, alay) ve Konu 5 ile (kazf, fahşâ) kısmen örtüşür. Sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: Arapça metinde şu kalıplar arandı: zûr, ifk ve iftirâ, buht, lemz ve hemz, tenâbüz, sühriye ve istihzâ, gıybet, tecessüs, kibir ve kasılıp yürümek (merah, tasa\'ur, ihtiyâl, fahr), isrâf ve tebzîr, ayrıca "demeyin", "söylemeyin", "yükseltmeyin", "sesinizi", "zandan sakının" gibi söz yasağı kalıpları. Tarama {hedef} ayet verdi.',
+    'Hedef ayetler önceki 1 ve sonraki 2 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). İkinci kontrolde Arapça kök (isrâf, sühriye, lağv) bütün Kur\'an\'da ayrıca arandı; bu kontrol Furkân 67, Şuarâ 151, Mâide 57 ve alay sonucunu bildiren birkaç ayeti ortaya çıkardı, bunlar okunup eklendi. Hedef listesinde olup hiçbir kayda girmeyen 55 ayet gözden geçirildi; çoğu kıssa, şirk ya da Kur\'an\'a "uydurdu" denmesi ile ilgili ayetlerdir.',
+    'Üçüncü kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu.',
+    'Kapsam dışı bırakılanlar: kâfirlerin Kur\'an\'a ya da peygambere "uydurdu", "şair" demesi (Konu 9), cimrilik ve infak (Konu 3), emanete hıyanet (Konu 5), yeme-içme ve evlilikte haram kılınanlar (Konu 7), kıssalarda "müsrif" kelimesinin geçtiği Lût, Firavun ve Yâsîn kavmi ayetleri (kelime orada haddi aşma anlamındadır).',
+    'Bilinen sınırlar: "el-müsrifîn" kelimesi bazı ayetlerde mal savurganlığını, bazılarında genel olarak haddi aşmayı anlatır. Şuarâ 151, Tâhâ 127 ve Mü\'min 43 bu yüzden → (çıkarım) olarak işaretlendi. Allah\'a iftira, yalanlama ve şirk ile iç içe geçtiği için Konu 4 ile de örtüşür. Gıybet tek bir ayette (Hucurât 12) ayrıca adlandırılır; bu sayfada diğer çekiştirme ayetleri "alay ve çekiştirme" başlığındadır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
+  ],
+};
