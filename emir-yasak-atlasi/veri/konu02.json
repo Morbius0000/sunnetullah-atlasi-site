@@ -174,7 +174,7 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "akraba",
-"not_": "\"Zafer ve mutluluğa erenler: akrabaya, yetimlere, çaresizlere malı seve seve verir\""
+"not_": "Erdem (el-birr; mealde \"zafer ve mutluluğa ermek\") şudur: ... malı, ona duyduğu sevgiye rağmen akrabaya, yetimlere, yoksullara verir"
 },
 {
 "blok": "K2a",
@@ -314,7 +314,7 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "akraba",
-"not_": "\"Anne tarafından akrabalar Allah'ın Kitabı'nda birbirlerine daha yakındır\""
+"not_": "\"Rahim bağı olanlar (ulu'l-erhâm) Allah'ın Kitabı'nda birbirlerine daha yakındır\" (mealdeki \"anne tarafından\" kaydı lafızda yoktur)"
 },
 {
 "blok": "K2d",
@@ -390,9 +390,9 @@
 "odul_ayet": "2:220",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "yetim",
-"not_": "\"Yetimleri işe yarar hale getirmek daha hayırlıdır; bir arada yaşarsanız kardeşlerinizdir\""
+"not_": "\"De ki: Onlar için ıslah (iyileştirme) daha hayırlıdır; onlarla bir arada yaşarsanız kardeşlerinizdir\""
 },
 {
 "blok": "K2a",
@@ -429,7 +429,7 @@
 "nitelik_ayet": "4:127",
 "odul_ayet": "4:127",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "emir",
 "ham": "yetim",
 "not_": "\"Yetimlere adaletle davranmanız (fetva)\""
@@ -780,7 +780,7 @@
 "derece": "✓",
 "tur": "yasak",
 "ham": "yoksul",
-"not_": "\"Yoksulu/dilenciyi azarlama\""
+"not_": "\"İsteyeni (es-sâil) azarlama\" (mealde \"yoksulu/dilenciyi\")"
 },
 {
 "blok": "K2d",
@@ -1139,15 +1139,15 @@
 "kayit": 85,
 "ayet": 58,
 "derece": {
-"✓": 82,
-"→": 2,
+"✓": 83,
+"→": 1,
 "?": 1
 },
 "tur": {
-"emir": 52,
+"emir": 51,
 "yasak": 6,
 "sonuc": 7,
-"tanim": 20
+"tanim": 21
 }
 }
 }

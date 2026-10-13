@@ -45,4 +45,6 @@ export const odulAdi = {
   seyyiatin_hasenata_donmesi: 'Kötülüklerin iyiliğe çevrilmesi', kolay_hesap: 'Kolay hesap', sevgi: 'Allah\'ın sevgisi',
   furkan_ortme: 'Furkan ve kötülüklerin örtülmesi', karsitlik: 'Karşıtıyla bir olmamak',
   hayat: 'Hayat', '-': '—', azap: 'Azap', vaat: 'Vaat', gunah_yok: 'Günah yok', hasene: 'Güzellik (hasene)',
+  sorumluluk_yok: 'Aleyhine yol (sorumluluk) yok', allah_beraberligi: 'Allah\'ın beraberliği', saglam_kulp: 'En sağlam kulpa tutunma',
+  allahin_ahde_vefasi: 'Allah\'ın da ahdine vefası', kolaylik: 'Güçlükten sonra kolaylık', yol_serbest: 'Yolunun serbest bırakılması', din_kardesligi: 'Dinde kardeşlik',
 };

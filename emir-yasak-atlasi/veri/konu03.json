@@ -26,17 +26,17 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "infak",
-"not_": "\"Zafer ve mutluluğa erenler malı seve seve verir\""
+"not_": "Erdem (el-birr; mealde \"zafer ve mutluluğa ermek\"): malı, ona duyduğu sevgiye rağmen vermek"
 },
 {
 "blok": "K3a",
 "nitelik_ayet": "2:195",
 "odul_ayet": "2:195",
 "odul": "sevgi",
-"derece": "✓",
+"derece": "→",
 "tur": "emir",
 "ham": "infak",
-"not_": "\"Allah yolunda harcayın; Allah güzellik sergileyenleri sever\""
+"not_": "\"Allah yolunda harcayın... güzel davranın; Allah güzel davrananları (el-muhsinîn) sever\": sevgi muhsinlere bağlanır, infak→sevgi bağı ihsan üzerinden kurulur"
 },
 {
 "blok": "K3a",
@@ -56,7 +56,7 @@
 "derece": "✓",
 "tur": "emir",
 "ham": "infak",
-"not_": "\"Helal kazancınızın size ve bakmakla yükümlü olduklarınıza yeterli olanından artanını verin\""
+"not_": "\"Ne infak edeceklerini sorarlar; de ki: el-afv (artanı/fazlası)\". Mealdeki \"helal kazanç\" ve \"bakmakla yükümlü olunanlar\" açıklaması lafızda yoktur"
 },
 {
 "blok": "K3a",
@@ -232,7 +232,7 @@
 "blok": "K3f",
 "nitelik_ayet": "9:53",
 "odul_ayet": "9:54",
-"odul": "amel_bosa",
+"odul": "infak_kabul_edilmez",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "infak",
@@ -242,7 +242,7 @@
 "blok": "K3c",
 "nitelik_ayet": "9:54",
 "odul_ayet": "9:54",
-"odul": "amel_bosa",
+"odul": "infak_kabul_edilmez",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "infak",
@@ -257,6 +257,16 @@
 "tur": "tanim",
 "ham": "infak",
 "not_": "\"Çöl Araplarından öylesi vardır ki infak ettiğini bir angarya/ceza ödeme sayar\""
+},
+{
+"blok": "K3f",
+"nitelik_ayet": "9:98",
+"odul_ayet": "9:98",
+"odul": "kotuluk_cemberi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Kötülük çemberi (dâiratu's-sev') onların üzerine\": infakı angarya sayan ve sizin başınıza felaket bekleyen bedevîler"
 },
 {
 "blok": "K3c",
@@ -323,10 +333,10 @@
 "nitelik_ayet": "28:54",
 "odul_ayet": "28:54",
 "odul": "ecir_iki_kat",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "infak",
-"not_": "\"Rızıktan infak edenlere ödülleri iki kez verilir\""
+"not_": "\"Sabretmeleri sebebiyle (bimâ sabarû) ecirleri iki kez verilir\"; rızıktan infak etmek aynı topluluğun ayrı bir niteliğidir"
 },
 {
 "blok": "K3d",
@@ -394,9 +404,9 @@
 "odul_ayet": "57:10",
 "odul": "derece",
 "derece": "✓",
-"tur": "emir",
+"tur": "sonuc",
 "ham": "infak",
-"not_": "\"Allah yolunda harcama yapmanıza engel ne var? Fetihten önce infak edenler sonradan edenlerle bir değildir; derece bakımından üstündürler\""
+"not_": "\"Fetihten önce infak edip çarpışanlar (enfaka... ve kâtele), sonradan infak edip çarpışanlarla bir değildir; derece bakımından daha büyüktürler\"; başta \"Allah yolunda harcamamanıza ne engel var?\" teşviki"
 },
 {
 "blok": "K3e",
@@ -423,10 +433,10 @@
 "nitelik_ayet": "64:16",
 "odul_ayet": "64:16",
 "odul": "felah",
-"derece": "✓",
+"derece": "→",
 "tur": "emir",
 "ham": "infak",
-"not_": "\"Benlikleriniz için bir hayır olarak infakta bulunun; nefsinin cimriliğinden korunanlar kurtuluşa erenlerdir\""
+"not_": "\"Kendi iyiliğiniz için infak edin\"; felah aynı ayette \"nefsinin cimriliğinden (şuhh) korunanlar\"a bağlanır"
 },
 {
 "blok": "K3e",
@@ -437,6 +447,16 @@
 "tur": "emir",
 "ham": "infak",
 "not_": "\"Geniş imkâna sahip olan geniş imkânından, rızkı ölçülü olan da verdiğinden infak etsin\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "65:7",
+"odul_ayet": "65:7",
+"odul": "kolaylik",
+"derece": "→",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Allah güçlükten sonra kolaylık verecektir\" (seyec'alu'llâhu ba'de usrin yusrâ): rızkı daraltılmışın infak emrinin hemen ardında, bağ bağlamsal"
 }
 ]
 },
@@ -492,7 +512,7 @@
 "odul_ayet": "2:280",
 "odul": "hayir",
 "derece": "✓",
-"tur": "emir",
+"tur": "sonuc",
 "ham": "sadaka",
 "not_": "\"Borcunu sadaka olarak ona bağışlamanız sizin için daha hayırlıdır\""
 },
@@ -575,6 +595,16 @@
 "tur": "emir",
 "ham": "sadaka",
 "not_": "\"Resulle gizlice konuşmadan önce bir sadaka verin; bu daha hayırlı ve daha temizdir\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "58:12",
+"odul_ayet": "58:12",
+"odul": "hayir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Bu sizin için daha hayırlı ve daha temizdir\" (zâlike hayrun lekum ve ethar)"
 }
 ]
 },
@@ -602,7 +632,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "karz",
-"not_": "\"Allah'a güzel bir borç verirseniz kötülüklerinizi örteceğim ve cennetlere sokacağım\""
+"not_": "İsrailoğullarından alınan söz: \"Namazı kılar, zekâtı verir, resullerime inanır, onları destekler ve Allah'a güzel bir borç verirseniz kötülüklerinizi örteceğim ve sizi cennetlere sokacağım\" (şart birleşiktir)"
 },
 {
 "blok": "K3e",
@@ -610,7 +640,7 @@
 "odul_ayet": "57:11",
 "odul": "kat_kat",
 "derece": "✓",
-"tur": "emir",
+"tur": "sonuc",
 "ham": "karz",
 "not_": "\"Allah'a kim güzel bir borç verecek ki, O verdiğini kat kat artırsın; onur verici ödül\""
 },
@@ -684,13 +714,23 @@
 },
 {
 "blok": "K3a",
+"nitelik_ayet": "2:110",
+"odul_ayet": "2:110",
+"odul": "karsilik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz\" (namaz ve zekât emrinin hemen ardından)"
+},
+{
+"blok": "K3a",
 "nitelik_ayet": "2:177",
 "odul_ayet": "2:177",
 "odul": "yok",
 "derece": "✓",
 "tur": "tanim",
 "ham": "zekat",
-"not_": "\"Zafer ve mutluluğa erenler namazı kılar, zekâtı verir\""
+"not_": "Erdem (el-birr; mealde \"zafer ve mutluluğa ermek\"): namazı kılmak, zekâtı vermek"
 },
 {
 "blok": "K3a",
@@ -730,7 +770,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zekat",
-"not_": "\"Namazı kılarsanız, zekâtı verirseniz kötülüklerinizi örteceğim ve sizi cennetlere sokacağım\""
+"not_": "İsrailoğullarından alınan söz: \"Namazı kılar, zekâtı verir, resullerime inanır, onları destekler ve Allah'a güzel bir borç verirseniz kötülüklerinizi örteceğim ve sizi cennetlere sokacağım\" (şart birleşiktir)"
 },
 {
 "blok": "K3b",
@@ -756,17 +796,17 @@
 "blok": "K3f",
 "nitelik_ayet": "9:5",
 "odul_ayet": "9:5",
-"odul": "yok",
+"odul": "yol_serbest",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "zekat",
-"not_": "\"Tövbe eder, namazı kılar, zekâtı verirlerse yollarını serbest bırakın\""
+"not_": "\"Tövbe eder, namazı kılar, zekâtı verirlerse yollarını serbest bırakın\" (savaş hâlindeki müşrikler hakkında; 9:1-6 bağlamı)"
 },
 {
 "blok": "K3c",
 "nitelik_ayet": "9:11",
 "odul_ayet": "9:11",
-"odul": "yok",
+"odul": "din_kardesligi",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zekat",
@@ -975,16 +1015,16 @@
 "nitelik_ayet": "4:37",
 "odul_ayet": "4:37",
 "odul": "azap_hizy",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "cimrilik",
-"not_": "\"Cimriliğe sapanlar, insanlara cimriliği emredenler ve Allah'ın lütfunu saklayanlar için rezil edici azap\""
+"not_": "Cimriliğe sapanlar, insanlara cimriliği emredenler ve Allah'ın lütfunu saklayanlar; azap ayette \"kâfirler için hazırlandı\" diye bildirilir, cimrilerle özdeşleştirme bağlamdandır"
 },
 {
 "blok": "K3c",
 "nitelik_ayet": "9:67",
 "odul_ayet": "9:68",
-"odul": "gazab_lanet_cehennem",
+"odul": "nar_lanet_azap",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "cimrilik",
@@ -995,10 +1035,10 @@
 "nitelik_ayet": "9:76",
 "odul_ayet": "9:77",
 "odul": "nifak_yerlestirme",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "cimrilik",
-"not_": "\"Lütfundan verilince cimrilik ederek yüz çevirdiler; Allah kalplerine ikiyüzlülük yerleştirdi\""
+"not_": "\"Lütfundan verince cimrilik edip yüz çevirdiler\" (9:76); 9:77 nifakı \"Allah'a verdikleri sözden döndükleri ve yalan söyledikleri için\" (bimâ ahlefû... ve bimâ kânû yekzibûn) bildirir"
 },
 {
 "blok": "K3c",
@@ -1500,18 +1540,18 @@
 }
 },
 "istatistik": {
-"kayit": 103,
+"kayit": 107,
 "ayet": 104,
 "derece": {
-"✓": 102,
-"→": 1,
+"✓": 100,
+"→": 7,
 "?": 0
 },
 "tur": {
-"emir": 24,
+"emir": 21,
 "yasak": 2,
-"sonuc": 44,
-"tanim": 33
+"sonuc": 52,
+"tanim": 32
 }
 }
 }

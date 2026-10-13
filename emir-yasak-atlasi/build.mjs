@@ -9,7 +9,7 @@ import { cezaAdi, cezaTur, cezaTurAdi } from './ceza.mjs';
 import { sureAdlari } from './sure-adlari.mjs';
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
-const VERSION = 'v1.1.0';
+const VERSION = 'v1.2.0';
 const DATE = '13 Ekim 2026';
 const esc = s => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 

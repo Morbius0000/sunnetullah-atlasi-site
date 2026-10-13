@@ -833,9 +833,9 @@
 "nitelik_ayet": "57:19",
 "odul_ayet": "57:19",
 "odul": "ecir_nur",
-"derece": "✓",
+"derece": "→",
 "ham": "iman_allah_resullere",
-"not_": "sıddîklar ve şehidler"
+"not_": "sıddîklar ve şahitler; \"ve'ş-şühedâu\" yeni cümle başlatırsa ecir ve nur yalnız şahitlere döner"
 },
 {
 "blok": "B202",
@@ -1778,9 +1778,9 @@
 "nitelik_ayet": "64:16",
 "odul_ayet": "64:16",
 "odul": "felah",
-"derece": "✓",
+"derece": "→",
 "ham": "gucu_yettigince_takva",
-"not_": ""
+"not_": "felah aynı ayette \"nefsinin cimriliğinden (şuhh) korunanlar\"a bağlanır"
 },
 {
 "blok": "B211",
@@ -4406,9 +4406,9 @@
 "nitelik_ayet": "64:16",
 "odul_ayet": "64:16",
 "odul": "felah",
-"derece": "✓",
+"derece": "→",
 "ham": "dinlemek_itaat",
-"not_": ""
+"not_": "felah aynı ayette \"nefsinin cimriliğinden (şuhh) korunanlar\"a bağlanır"
 }
 ]
 },
@@ -4568,9 +4568,9 @@
 "nitelik_ayet": "28:54",
 "odul_ayet": "28:54",
 "odul": "ecir_iki_kat",
-"derece": "✓",
+"derece": "→",
 "ham": "infak",
-"not_": ""
+"not_": "ecrin sebebi ayette \"bimâ sabarû\" (sabretmeleri); bu nitelik aynı topluluğun ayrı vasfı"
 },
 {
 "blok": "B145",
@@ -4658,9 +4658,9 @@
 "nitelik_ayet": "64:16",
 "odul_ayet": "64:16",
 "odul": "felah",
-"derece": "✓",
+"derece": "→",
 "ham": "infak",
-"not_": ""
+"not_": "felah aynı ayette \"nefsinin cimriliğinden (şuhh) korunanlar\"a bağlanır"
 },
 {
 "blok": "B210",
@@ -5279,9 +5279,9 @@
 "nitelik_ayet": "28:54",
 "odul_ayet": "28:54",
 "odul": "ecir_iki_kat",
-"derece": "✓",
+"derece": "→",
 "ham": "kotulugu_iyilikle_savmak",
-"not_": ""
+"not_": "ecrin sebebi ayette \"bimâ sabarû\" (sabretmeleri); bu nitelik aynı topluluğun ayrı vasfı"
 },
 {
 "blok": "B176",
@@ -5378,9 +5378,9 @@
 "nitelik_ayet": "28:55",
 "odul_ayet": "28:54",
 "odul": "ecir_iki_kat",
-"derece": "✓",
+"derece": "→",
 "ham": "bos_sozden_yuz_cevirmek",
-"not_": ""
+"not_": "ecrin sebebi 28:54'te \"bimâ sabarû\" (sabretmeleri); bu nitelik aynı topluluğun ayrı vasfı"
 }
 ]
 },
@@ -5494,7 +5494,7 @@
 "blok": "B083",
 "nitelik_ayet": "16:30",
 "odul_ayet": "16:30",
-"odul": "husna",
+"odul": "hasene",
 "derece": "✓",
 "ham": "ihsan",
 "not_": "dünyada güzellik; ahiret yurdu daha hayırlı"
@@ -8620,8 +8620,8 @@
 "kayit": 643,
 "ayet": 499,
 "derece": {
-"✓": 611,
-"→": 27,
+"✓": 604,
+"→": 34,
 "?": 5
 }
 }

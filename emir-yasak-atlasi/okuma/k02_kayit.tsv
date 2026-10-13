@@ -2,7 +2,7 @@ K2a	anne_baba	2:83	2:83	-	✓	"İsrailoğullarından söz: anne-babaya iyilik ve
 K2a	akraba	2:83	2:83	-	✓	"İsrailoğullarından söz: akrabaya iyilik ve güzellikle davranın"	emir
 K2a	yetim	2:83	2:83	-	✓	"İsrailoğullarından söz: yetimlere iyilik ve güzellikle davranın"	emir
 K2a	yoksul	2:83	2:83	-	✓	"İsrailoğullarından söz: yoksullara iyilik ve güzellikle davranın"	emir
-K2a	akraba	2:177	2:177	-	✓	"Zafer ve mutluluğa erenler: akrabaya, yetimlere, çaresizlere malı seve seve verir"	tanim
+K2a	akraba	2:177	2:177	-	✓	Erdem (el-birr; mealde "zafer ve mutluluğa ermek") şudur: ... malı, ona duyduğu sevgiye rağmen akrabaya, yetimlere, yoksullara verir	tanim
 K2a	yetim	2:177	2:177	-	✓	"Yetimlere malı seve seve verir"	tanim
 K2a	yoksul	2:177	2:177	-	✓	"Çaresizlere, yoksullara malı seve seve verir"	tanim
 K2a	yolcu	2:177	2:177	-	✓	"Yolda kalmışa malı seve seve verir"	tanim
@@ -14,7 +14,7 @@ K2a	akraba	2:215	2:215	-	✓	"İnfak edilecek mal yakınlar için olmalıdır"	e
 K2a	yetim	2:215	2:215	-	✓	"İnfak edilecek mal yetimler için olmalıdır"	emir
 K2a	yoksul	2:215	2:215	-	✓	"İnfak edilecek mal yoksul ve çaresizler için olmalıdır"	emir
 K2a	yolcu	2:215	2:215	-	✓	"İnfak edilecek mal yolda kalan için olmalıdır"	emir
-K2a	yetim	2:220	2:220	-	✓	"Yetimleri işe yarar hale getirmek daha hayırlıdır; bir arada yaşarsanız kardeşlerinizdir"	emir
+K2a	yetim	2:220	2:220	-	✓	"De ki: Onlar için ıslah (iyileştirme) daha hayırlıdır; onlarla bir arada yaşarsanız kardeşlerinizdir"	tanim
 K2a	yoksul	2:271	2:271	gunah_ortme	✓	"Sadakayı gizleyip yoksullara vermek daha hayırlıdır; günahlarınızdan bir kısmını örter"	sonuc
 K2a	yoksul	2:273	2:273	-	✓	"İnfak edilenler Allah yolunda kapanıp kalmış yoksullar içindir"	tanim
 K2a	akraba	4:1	4:1	-	→	"Rahimlerin haklarına (dikkat edin)"	emir
@@ -28,7 +28,7 @@ K2a	yetim	4:36	4:36	-	✓	"Yetim ve öksüzlere iyi ve güzel davranın"	emir
 K2a	yoksul	4:36	4:36	-	✓	"Çaresizlere iyi ve güzel davranın"	emir
 K2a	komsu	4:36	4:36	-	✓	"Yakın komşuya, uzak komşuya, yanınızdaki arkadaşa iyi ve güzel davranın"	emir
 K2a	yolcu	4:36	4:36	-	✓	"Yolda kalmışa iyi ve güzel davranın"	emir
-K2b	yetim	4:127	4:127	-	→	"Yetimlere adaletle davranmanız (fetva)"	emir
+K2b	yetim	4:127	4:127	-	✓	"Yetimlere adaletle davranmanız (fetva)"	emir
 K2b	yoksul	5:89	5:89	-	✓	"Yemin keffâreti: on yoksulu ailenize yedirdiğinizin orta derecesinden yedirmek"	emir
 K2b	yoksul	5:95	5:95	-	✓	"Av cezası: yoksulları doyurma keffâreti"	emir
 K2b	anne_baba	6:151	6:151	-	✓	"Rabbinizin haram kıldığı: ... Ana-babaya çok iyi davranın"	emir
@@ -59,7 +59,7 @@ K2c	yoksul	30:38	30:38	felah	✓	"Yoksula hakkını ver; kurtuluşa erenler"	emi
 K2c	yolcu	30:38	30:38	felah	✓	"Yolda kalmışa hakkını ver; kurtuluşa erenler"	emir
 K2c	anne_baba	31:14	31:14	-	✓	"Bana ve ana babana şükret"	emir
 K2c	anne_baba	31:15	31:15	-	✓	"Ortak koşman için zorlarlarsa onlara itaat etme; onlarla dünyada örfe uygun geç"	emir
-K2d	akraba	33:6	33:6	-	✓	"Anne tarafından akrabalar Allah'ın Kitabı'nda birbirlerine daha yakındır"	tanim
+K2d	akraba	33:6	33:6	-	✓	"Rahim bağı olanlar (ulu'l-erhâm) Allah'ın Kitabı'nda birbirlerine daha yakındır" (mealdeki "anne tarafından" kaydı lafızda yoktur)	tanim
 K2d	akraba	42:23	42:23	-	?	"Yakın akrabamı sevmeniz dışında ücret istemiyorum (ifade çok anlamlı)"	tanim
 K2d	anne_baba	46:15	46:15	-	✓	"İnsana anne babasına çok iyi davranmasını önerdik"	emir
 K2d	akraba	47:22	47:23	lanet	✓	"Ülkede fesat çıkarıp rahimleri parçalayanlara Allah lanet etmiştir"	sonuc
@@ -80,6 +80,6 @@ K2d	yoksul	89:18	89:18	-	✓	"Yoksulun doyurulmasını teşvik etmiyorsunuz"	tan
 K2d	yetim	90:15	90:15	-	✓	"Açlık gününde yakındaki yetimi doyurmak"	tanim
 K2d	yoksul	90:16	90:16	-	✓	"Açlık gününde boynu bükük yoksulu doyurmak"	tanim
 K2d	yetim	93:9	93:9	-	✓	"Yetimi örseleme"	yasak
-K2d	yoksul	93:10	93:10	-	✓	"Yoksulu/dilenciyi azarlama"	yasak
+K2d	yoksul	93:10	93:10	-	✓	"İsteyeni (es-sâil) azarlama" (mealde "yoksulu/dilenciyi")	yasak
 K2d	yetim	107:2	107:2	-	✓	"Dini yalan sayan yetimi itip kakandır"	tanim
 K2d	yoksul	107:3	107:3	-	✓	"Yoksulu doyurmayı özendirmez"	tanim

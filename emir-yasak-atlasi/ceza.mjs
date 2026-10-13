@@ -79,6 +79,9 @@ const L = [
   ['dusmanlik_salma', 'Aralarına düşmanlık ve nefret salınması', 'ruhsal'],
   ['sevilmeme', 'Allah\'ın sevmemesi', 'gazab'],
   ['maskaraya_cevirme', 'Maskaraya çevrilme', 'azap'], ['seytanin_kardesi', 'Şeytanların kardeşi olma', 'ruhsal'],
+  // Dış denetim (14 Ekim 2026) ile eklenen, lafza daha yakın kodlar
+  ['infak_kabul_edilmez', 'İnfakın kabul edilmemesi', 'husran'], ['kotuluk_cemberi', 'Kötülük çemberi üzerlerine', 'dunya'],
+  ['nar_lanet_azap', 'Cehennem ateşi, lanet ve kalıcı azap', 'nar'],
 ];
 export const cezaAdi = Object.fromEntries(L.map(([k, a]) => [k, a]));
 export const cezaTur = Object.fromEntries(L.map(([k, , t]) => [k, t]));

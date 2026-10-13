@@ -104,7 +104,7 @@
 "odul_ayet": "6:56",
 "odul": "yok",
 "derece": "✓",
-"tur": "yasak",
+"tur": "tanim",
 "ham": "kulluk",
 "not_": "\"Ben, Allah'ı bırakıp yakardıklarınıza kulluk etmekten yasaklandım\""
 },
@@ -184,7 +184,7 @@
 "odul_ayet": "10:104",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "kulluk",
 "not_": "\"Allah'a kulluk edeceğim; Bana müminlerden olmam emredildi\""
 },
@@ -573,10 +573,10 @@
 "nitelik_ayet": "53:62",
 "odul_ayet": "53:62",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "emir",
 "ham": "kulluk",
-"not_": "\"Allah için secdeye kapanın, ibadet edin\""
+"not_": "\"Allah için secdeye kapanın, ibadet edin\" (fescudû lillâhi va'budû: doğrudan emir)"
 },
 {
 "blok": "K1l",
@@ -644,7 +644,7 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "adalet",
-"not_": "\"Meleklerle ilim sahipleri adalet ölçüsüne sarılarak tanıklık etmişlerdir\""
+"not_": "Allah tanıklık eder, melekler ve ilim sahipleri de: \"kâimen bi'l-kıst\" (adaleti ayakta tutarak). Bu hâl tekildir; en yakın okumayla Allah'a döner"
 },
 {
 "blok": "K1k",
@@ -772,7 +772,7 @@
 "odul_ayet": "7:29",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "adalet",
 "not_": "\"Rabbim bana adaleti emretti\""
 },
@@ -821,10 +821,10 @@
 "nitelik_ayet": "16:76",
 "odul_ayet": "16:76",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "tanim",
 "ham": "adalet",
-"not_": "\"Dosdoğru yol üzerinde adaletle emreden kişi\""
+"not_": "Örnekleme: \"dosdoğru yol üzerinde bulunup adaleti emreden\" (ye'muru bi'l-adl) kişi, hiçbir şeye gücü yetmeyen dilsizle bir olmaz"
 },
 {
 "blok": "K1f",
@@ -1098,11 +1098,11 @@
 "blok": "K1k",
 "nitelik_ayet": "9:91",
 "odul_ayet": "9:91",
-"odul": "yok",
+"odul": "sorumluluk_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
-"not_": "\"Güzel davrananlar aleyhine bir yol yok\""
+"not_": "\"Güzel davrananların (el-muhsinîn) aleyhine bir yol yoktur\": Allah'a ve resulüne samimi kalan zayıf, hasta ve harcayacak bir şey bulamayanlar hakkında"
 },
 {
 "blok": "K1d",
@@ -1188,7 +1188,7 @@
 "blok": "K1f",
 "nitelik_ayet": "16:30",
 "odul_ayet": "16:30",
-"odul": "husna",
+"odul": "hasene",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1248,7 +1248,7 @@
 "blok": "K1g",
 "nitelik_ayet": "29:69",
 "odul_ayet": "29:69",
-"odul": "yok",
+"odul": "allah_beraberligi",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1268,7 +1268,7 @@
 "blok": "K1g",
 "nitelik_ayet": "31:22",
 "odul_ayet": "31:22",
-"odul": "yok",
+"odul": "saglam_kulp",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1278,7 +1278,7 @@
 "blok": "K1h",
 "nitelik_ayet": "37:80",
 "odul_ayet": "37:80",
-"odul": "ecir",
+"odul": "karsilik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1288,7 +1288,7 @@
 "blok": "K1h",
 "nitelik_ayet": "37:105",
 "odul_ayet": "37:105",
-"odul": "ecir",
+"odul": "karsilik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1298,7 +1298,7 @@
 "blok": "K1h",
 "nitelik_ayet": "37:110",
 "odul_ayet": "37:110",
-"odul": "ecir",
+"odul": "karsilik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1308,7 +1308,7 @@
 "blok": "K1h",
 "nitelik_ayet": "37:121",
 "odul_ayet": "37:121",
-"odul": "ecir",
+"odul": "karsilik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1318,7 +1318,7 @@
 "blok": "K1h",
 "nitelik_ayet": "37:131",
 "odul_ayet": "37:131",
-"odul": "ecir",
+"odul": "karsilik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1328,7 +1328,7 @@
 "blok": "K1h",
 "nitelik_ayet": "39:10",
 "odul_ayet": "39:10",
-"odul": "husna",
+"odul": "hasene",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1348,7 +1348,7 @@
 "blok": "K1m",
 "nitelik_ayet": "46:12",
 "odul_ayet": "46:12",
-"odul": "yok",
+"odul": "mujde",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1388,7 +1388,7 @@
 "blok": "K1j",
 "nitelik_ayet": "77:44",
 "odul_ayet": "77:44",
-"odul": "ecir",
+"odul": "karsilik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ihsan",
@@ -1421,6 +1421,16 @@
 "tur": "emir",
 "ham": "ahde_vefa",
 "not_": "\"Bana verdiğiniz söze vefalı olun ki, ben de size ahdimde vefalı olayım\""
+},
+{
+"blok": "K1a",
+"nitelik_ayet": "2:40",
+"odul_ayet": "2:40",
+"odul": "allahin_ahde_vefasi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ahde_vefa",
+"not_": "\"Ahdime vefa gösterin ki ben de ahdinize vefa göstereyim\" (evfû bi-ahdî ûfi bi-ahdikum; İsrailoğullarına)"
 },
 {
 "blok": "K1a",
@@ -1740,7 +1750,7 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "ahde_vefa",
-"not_": "\"Kim ahdi bozarsa kendi aleyhine döneklik etmiş olur; Allah'a verdiği sözde vefalı davranana büyük ecir\""
+"not_": "\"Kim ahdi bozarsa ancak kendi aleyhine bozmuş olur\" (vefanın ecri ayrı kayıtta)"
 },
 {
 "blok": "K1i",
@@ -1883,10 +1893,10 @@
 "nitelik_ayet": "4:69",
 "odul_ayet": "4:69",
 "odul": "yok",
-"derece": "✓",
-"tur": "sonuc",
+"derece": "→",
+"tur": "tanim",
 "ham": "dogruluk",
-"not_": "\"Allah'a ve resule itaat edenler peygamberlerle, hak dostlarıyla (sıddîklerle), şehitlerle beraberdir\""
+"not_": "\"Allah'a ve resule itaat edenler... sıddîklarla (es-sıddîkîn) beraberdir\": şart itaattir; sıdk burada davranış değil, beraber olunan zümrenin adıdır (itaat→beraberlik kaydı Konu 8'de)"
 },
 {
 "blok": "K1d",
@@ -1903,17 +1913,17 @@
 "nitelik_ayet": "10:2",
 "odul_ayet": "10:2",
 "odul": "yok",
-"derece": "✓",
-"tur": "sonuc",
+"derece": "→",
+"tur": "tanim",
 "ham": "dogruluk",
-"not_": "\"İman edenlere Allah katında yüksek bir doğruluk derecesi vardır\""
+"not_": "İman edenlere Rableri katında \"kademe sıdk\" (doğruluk makamı) müjdelenir: sıdk burada davranış değil, karşılığın adıdır (iman→kadem-i sıdk kaydı Konu 8'de)"
 },
 {
 "blok": "K1m",
 "nitelik_ayet": "12:46",
 "odul_ayet": "12:46",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "tanim",
 "ham": "dogruluk",
 "not_": "\"Yûsuf, ey özü sözü doğru insan (sıddîk)\""
@@ -1956,17 +1966,17 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "dogruluk",
-"not_": "\"Allah'a ve resulüne inananlar: özü sözü doğru kişiler onlardır\""
+"not_": "\"Allah'a ve resullerine (rusulihî) inananlar: özü sözü doğru kişiler (es-sıddîkûn) onlardır\""
 },
 {
 "blok": "K1j",
 "nitelik_ayet": "57:19",
 "odul_ayet": "57:19",
 "odul": "ecir",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "dogruluk",
-"not_": "\"Onların ödülleri ve ışıkları vardır\""
+"not_": "\"Onların ecirleri ve nurları vardır\": \"ve'ş-şühedâu\" ya önceki cümleye bağlanır ya da yeni cümle başlatır; ikinci okumada ecir yalnız şahitlere döner"
 }
 ]
 }
@@ -2662,18 +2672,18 @@
 }
 },
 "istatistik": {
-"kayit": 192,
+"kayit": 193,
 "ayet": 172,
 "derece": {
-"✓": 187,
+"✓": 188,
 "→": 5,
 "?": 0
 },
 "tur": {
-"emir": 69,
-"yasak": 16,
-"sonuc": 55,
-"tanim": 52
+"emir": 67,
+"yasak": 15,
+"sonuc": 54,
+"tanim": 57
 }
 }
 }

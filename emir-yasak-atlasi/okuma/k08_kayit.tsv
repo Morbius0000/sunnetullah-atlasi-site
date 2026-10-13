@@ -277,7 +277,7 @@ B079	salih_amel	14:23	14:23	cennet	✓
 B081	takva	15:45	15:45	cennet	✓
 B082	rahmetten_umit_kesmemek	15:56	15:56	-	✓	ümit kesmek dalâlet (konu 9/12)
 B083	takva	16:30	16:31	cennet	✓	Adn; Allah müttakileri böyle ödüllendirir
-B083	ihsan	16:30	16:30	husna	✓	dünyada güzellik; ahiret yurdu daha hayırlı
+B083	ihsan	16:30	16:30	hasene	✓	dünyada güzellik; ahiret yurdu daha hayırlı
 B083	temiz_olarak_olmek	16:32	16:32	cennet	✓	tayyibîn; bimâ kuntum ta'melûn
 B084	zulme_ugradiktan_sonra_hicret	16:41	16:41	ahiret_ecri	✓	dünyada güzel yurt
 B084	sabir	16:42	16:41	ahiret_ecri	✓	16:42 hicret edenlerin sıfatı
@@ -380,9 +380,9 @@ B133	ahirete_yakin	27:3	27:2	mujde	✓
 B134	sukur_ve_salih_amel	27:19	27:19	rahmet	→	Süleyman duası
 B138	onceki_kitap_ehlinden_kurana_iman	28:52	28:54	ecir_iki_kat	✓	28:52-53 nitelik; bimâ saberû
 B138	sabir	28:54	28:54	ecir_iki_kat	✓
-B138	kotulugu_iyilikle_savmak	28:54	28:54	ecir_iki_kat	✓
-B138	infak	28:54	28:54	ecir_iki_kat	✓
-B138	bos_sozden_yuz_cevirmek	28:55	28:54	ecir_iki_kat	✓
+B138	kotulugu_iyilikle_savmak	28:54	28:54	ecir_iki_kat	→	ecrin sebebi ayette "bimâ sabarû" (sabretmeleri); bu nitelik aynı topluluğun ayrı vasfı
+B138	infak	28:54	28:54	ecir_iki_kat	→	ecrin sebebi ayette "bimâ sabarû" (sabretmeleri); bu nitelik aynı topluluğun ayrı vasfı
+B138	bos_sozden_yuz_cevirmek	28:55	28:54	ecir_iki_kat	→	ecrin sebebi 28:54'te "bimâ sabarû" (sabretmeleri); bu nitelik aynı topluluğun ayrı vasfı
 B139	iman	28:80	28:80	sevap	✓	Allah'ın sevabı daha hayırlı; ancak sabredenler kavuşur
 B139	salih_amel	28:80	28:80	sevap	✓
 B139	sabir	28:80	28:80	sevap	✓
@@ -550,7 +550,7 @@ B202	iman	57:12	57:12	cennet	✓	mü'min erkek ve kadınların nuru
 B202	allah_zikrine_kalbin_urpermesi	57:16	57:16	-	→	emir sorusu
 B202	sadaka	57:18	57:18	kat_kat	✓	musaddıkîn ve musaddıkât
 B202	karz_hasen	57:18	57:18	kat_kat	✓
-B202	iman_allah_resullere	57:19	57:19	ecir_nur	✓	sıddîklar ve şehidler
+B202	iman_allah_resullere	57:19	57:19	ecir_nur	→	sıddîklar ve şahitler; "ve'ş-şühedâu" yeni cümle başlatırsa ecir ve nur yalnız şahitlere döner
 B202	iman_allah_resullere	57:21	57:21	cennet	✓	genişliği yer-gök; yarışın
 B202	iman_ihsan_ruhbanlik_RED	57:27	57:27	ecir	✓	iman edenlerine ecir; uydurulan ruhbanlık yazılmadı
 B202	takva	57:28	57:28	rahmet_iki_pay	✓	nur ve mağfiret
@@ -571,9 +571,9 @@ B208	cuma_zikre_kosmak_ve_zikir	62:10	62:10	felah	✓	le'allekum
 B210	iman_allah	64:9	64:9	cennet	✓	seyyiat örtülür
 B210	salih_amel	64:9	64:9	cennet	✓
 B210	affetmek_hosgormek	64:14	64:14	magfiret	✓
-B210	gucu_yettigince_takva	64:16	64:16	felah	✓
-B210	dinlemek_itaat	64:16	64:16	felah	✓
-B210	infak	64:16	64:16	felah	✓
+B210	gucu_yettigince_takva	64:16	64:16	felah	→	felah aynı ayette "nefsinin cimriliğinden (şuhh) korunanlar"a bağlanır
+B210	dinlemek_itaat	64:16	64:16	felah	→	felah aynı ayette "nefsinin cimriliğinden (şuhh) korunanlar"a bağlanır
+B210	infak	64:16	64:16	felah	→	felah aynı ayette "nefsinin cimriliğinden (şuhh) korunanlar"a bağlanır
 B210	nefsin_cimriliginden_korunmak	64:16	64:16	felah	✓
 B210	karz_hasen	64:17	64:17	kat_kat	✓	mağfiret
 B211	takva	65:2	65:3	cikis_rizik	✓	boşanma bağlamı: men yettekıllâhe yec'al lehû mahracâ

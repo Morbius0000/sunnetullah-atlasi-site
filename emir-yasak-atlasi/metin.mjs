@@ -24,6 +24,7 @@ export const konu08 = {
     'İkinci kontrol: her kayıtta niteliğin Arapça kökü nitelik ayetinde aranır. Kökü bulunmayan kayıtlar tek tek yeniden okundu. İkisi "→ Çıkarım" derecesine indirildi: sınanmaya katlanmayı sabır sayan Bakara 214 ve "tayyib" kelimesini iffet olarak okuyan Nûr 26.',
     'Bilinen sınırlar: kıssalardaki dünyevî kurtuluşlar ayrı ödül türüyle işaretlendi ama ahiret ödülüyle karıştırılmadı. Kelime bazlı taramanın kaçırdığı ayet olabilir. Örnekleme tahminine göre ilgili ayetlerin yaklaşık yüzde 3-5\'i taramanın dışında kalmış olabilir.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Düzeltme gerektiren kayıt çıkmadı. Konular arası tutarlılık kontrolünde En\'âm 141 "→" işaretine alındı (ödül adı yok; emir Konu 3 ve 6\'da).',
+    'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Kasas 54\'te ecrin sebebi "bimâ sabarû" olduğu için sabır dışındaki nitelikler, Teğâbün 16\'da felah "nefsin cimriliğinden korunma"ya bağlandığı için diğer nitelikler ve Hadîd 19\'daki iman bağı "→" yapıldı; Nahl 30 hasene olarak düzeltildi.',
   ],
 };
 export const konu09 = {
@@ -41,6 +42,7 @@ export const konu09 = {
     'Hedef listesinde olup hiçbir kayda girmeyen ayetler gözden geçirildi: çoğu karşılığı anlatan ama davranışı söylemeyen ya da dua ve kıssa anlatısı olan ayetlerdir. Bu geçişte iki eksik bulunup eklendi (Şuarâ 156, Haşr 11-15).',
     'Bilinen sınırlar: Kur\'an bazen davranışı hiç adlandırmaz; bu durumda kayıt genel başlıkta ya da "? Açık" derecesiyle durur. Dünyadaki helâk ile âhiret karşılığı ayrı türlerle işaretlendi, ama bir ayet bazen ikisini birden anar. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Tövbe, bağışlanma ve "dilerse" ifadeleri ayrı bir konuya (Konu 10) bırakılmıştır; burada bir davranışa bağlanan karşılık kesin ve genel bir hüküm olarak okunmamalıdır.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Yedi kayıt düzeltildi: Âl-i İmrân 61 (mübâhele daveti, bir karşılık değil) ve Mü\'minûn 74 (zamir bağı) "→ Çıkarım" yapıldı; Ankebût 65, A\'râf 37 ve Fetih 10 "✓ Açık" yapıldı; Zuhruf 76\'nın karşılık ayeti 74 olarak, Mutaffifîn 3\'ün karşılığı 1. ayetteki "veyl" olarak düzeltildi (Siccîn bağı ayrı bir çıkarım kaydı olarak kaldı).',
+    'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Nisâ 37\'nin cimrilik→azap bağı "→" yapıldı.',
   ],
 };
 
@@ -59,6 +61,7 @@ export const konu01 = {
     'Kapsam dışı bırakılanlar: ölçü ve tartıda hile (Konu 5), anne-baba, akraba, yetim ve komşuya iyilik (Konu 2), infak ve zekât (Konu 3), şükür ve sabır emirleri (Konu 8). "İhsan" kaydı yalnızca güzel davranma ve güzel davrananların karşılığını içerir.',
     'Bilinen sınırlar: Kur\'an\'da "ibadet" kelimesi yalnız Allah\'a değil, tapılan başka şeylere de kullanılır; bu sayfa yalnız Allah\'a kulluk emrini, başkasına kulluğun yasağını ve bu kulluğa dair tanım kayıtlarını verir. Yanlış anlaşılmasın diye tanım kayıtlarının türü ayrıca işaretlidir.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Beş kayıtta karşılık kodu ayetin lafzına göre düzeltildi (Yûsuf 22 ecir, Hac 37 müjde, Bakara 58 ve A\'râf 161 artırma, Rahmân 60 karşılık); Ahzâb 5\'teki adalet bağı, ayet açıkça "Allah katında adalete daha uygundur" dediği için "✓ Açık" yapıldı.',
+    'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Karşılık kodları lafza yaklaştırıldı ("kezâlike neczi" ayetlerinde ecir yerine karşılık; Nahl 30 ve Zümer 10\'da hüsnâ yerine hasene; Tevbe 91, Ankebût 69, Lokmân 22 ve Ahkâf 12\'de ayetteki sonuç kodlandı); Bakara 40\'taki "ben de ahdinize vefa göstereyim" karşılığı eklendi. Sıdk kelimesi davranış değil zümre ya da makam adı olarak geçtiği için Nisâ 69 ve Yûnus 2 "→" yapıldı. "Emredildi/yasaklandım" biçimindeki aktarılmış buyruklar bütün atlasta Tanım türüne alındı.',
   ],
 };
 
@@ -77,6 +80,7 @@ export const konu02 = {
     'Kapsam dışı bırakılanlar: yetim malı yemenin yasağı (Konu 5), miras payları (Nisâ 11-12), evlilikte haram kılınan akrabalar (Konu 7), emzirme ve çocuk bakımı (Bakara 233), Yûsuf ve Mûsâ kıssalarındaki anne-baba anlatıları, zıhar. İnfak ve zekât kalemleri (Tevbe 60, Bakara 177 gibi) yalnız bu gruplara yönelik kayıtlar olarak alındı; infakın kendisi Konu 3\'te işlenir.',
     'Bilinen sınırlar: Nisâ 1\'deki "ve\'l-erhâm" ifadesi iki biçimde okunabildiği için çıkarım (→) işaretidir. Şûrâ 23\'teki "kurbâ" ifadesi çok anlamlı olduğu için açık (?) işaretlidir. Komşu için ayrı bir ayet bulunmadığı, yalnız Nisâ 36 geçtiği için bu başlık tek kayıtlıdır; "yanındaki arkadaş" ifadesi bu ayetle birlikte alındı.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Bakara 271\'in karşılığı "günahların örtülmesi" olarak düzeltildi.',
+    'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Bakara 177, Ahzâb 6 ve Duhâ 10\'un notları mealin yorum katan ifadelerinden arındırılıp Arapça lafza (el-birr, ulu\'l-erhâm, es-sâil) bağlandı; Nisâ 127 "✓" yapıldı.',
   ],
 };
 
@@ -95,6 +99,7 @@ export const konu03 = {
     'Kapsam dışı bırakılanlar: ribâ ve ölçü (Konu 5), israf ve savurganlık (Konu 6), miras payları, yetim malı, sadaka niteliğindeki keffâretler (yoksulu doyurmak Konu 2\'de), zekât kelimesinin arınma anlamında geçtiği ayetler (Meryem 13, Kehf 81). Zekâtın miktarı, nisabı ve zamanı Kur\'an\'da bu ayetlerde bildirilmez; bu sayfa da bildirmez.',
     'Bilinen sınırlar: Tevbe 60\'taki sekiz grup "sadakalar" ibaresiyle sayılır; bu sayfa o ayeti "sadaka" başlığı altında tanım olarak kaydeder. Tevbe 34\'te "altını ve gümüşü biriktirip Allah yolunda harcamayanlar" için karşılık 35. ayette devam eder; kayıt iki ayete bağlanmıştır.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kasas 54\'ün karşılığı "iki kez ecir" olarak düzeltildi.',
+    'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Tevbe 53-54\'te karşılık "amellerin boşa çıkması" değil "infakın kabul edilmemesi" olarak kodlandı; Kasas 54\'te iki kat ecrin sebebi sabır olduğu için infak bağı "→" yapıldı; Mâide 12\'nin birleşik şartı nota tam yazıldı; Bakara 110, Mücâdele 12, Talâk 7 ve Tevbe 98\'deki karşılıklar ayrı kayıt olarak eklendi.',
   ],
 };
 
@@ -113,6 +118,7 @@ export const konu04 = {
     'Kapsam dışı bırakılanlar: müşriklerle ilişkiyi düzenleyen hükümler (müşrik kadınla evlilik, ahit ve savaş hükümleri, Mescid-i Haram\'a yaklaşma) ve Ehlikitap\'a yönelik hükümler. Bunlar şirkin tanımını değil, toplumsal hükmü anlatır ve ayrı bir konuya aittir. Küfür ve nankörlüğün genel karşılıkları da burada değil Konu 9\'dadır.',
     'Bilinen sınırlar: Kur\'an çoğu zaman ilahlık isnadını, çocuk edinmeyi ve yakarmayı aynı cümlede anar; bu yüzden bazı ayetler birden çok başlıkta sayılabilir ve başlıkların ayet sayıları toplanıp tek toplam gibi okunmamalıdır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı. Kelime ve kalıp bazlı tarama bir ayeti kaçırmış olabilir.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Düzeltme gerektiren kayıt çıkmadı.',
+    'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Aktarılmış buyruklar ("emredildi", "yasaklandım") Tanım türüne alındı; Kehf 110 ve Hac 26 yasak olarak işaretlendi; En\'âm 108 (sövme yasağı) söz edebine ait olduğu için Konu 6\'ya taşındı.',
   ],
 };
 
@@ -149,6 +155,7 @@ export const konu06 = {
     'Kapsam dışı bırakılanlar: kâfirlerin Kur\'an\'a ya da peygambere "uydurdu", "şair" demesi (Konu 9), cimrilik ve infak (Konu 3), emanete hıyanet (Konu 5), yeme-içme ve evlilikte haram kılınanlar (Konu 7), kıssalarda "müsrif" kelimesinin geçtiği Lût, Firavun ve Yâsîn kavmi ayetleri (kelime orada haddi aşma anlamındadır).',
     'Bilinen sınırlar: "el-müsrifîn" kelimesi bazı ayetlerde mal savurganlığını, bazılarında genel olarak haddi aşmayı anlatır. Şuarâ 151, Tâhâ 127 ve Mü\'min 43 bu yüzden → (çıkarım) olarak işaretlendi. Allah\'a iftira, yalanlama ve şirk ile iç içe geçtiği için Konu 4 ile de örtüşür. Gıybet tek bir ayette (Hucurât 12) ayrıca adlandırılır; bu sayfada diğer çekiştirme ayetleri "alay ve çekiştirme" başlığındadır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Nisâ 156\'nın mühürle bağı "→ Çıkarım" derecesine indirildi.',
+    'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. En\'âm 108 ("yakardıklarına sövmeyin") Konu 4\'ten bu bölüme taşındı; Nisâ 37\'nin azap bağı "→" yapıldı (azap ayette "kâfirler için" bildirilir).',
   ],
 };
 

@@ -32,7 +32,7 @@ KURAL = [
     (r'^zan_casusluk', 'gibet_zan'),
     (r'^(kibir|kulluktan_cekinip|kasilip|kendini_begenmislik)', 'kibir'),
     (r'^(karun|simarik|simarma|yapmadigiyla|gosteris|kendini_aklama|minnet)', 'simarma_ovunme'),
-    (r'^(bos_soz|guzel_soz|ana_babaya_soz|rai_na|sehit_icin|selam_verene|yarin_yapacagim|fisildasma|bilgisiz_soz|peygamber_sesinin|ses_ve_yuruyus|zihar)', 'soz_edebi'),
+    (r'^(bos_soz|guzel_soz|sovme_yasagi|ana_babaya_soz|rai_na|sehit_icin|selam_verene|yarin_yapacagim|fisildasma|bilgisiz_soz|peygamber_sesinin|ses_ve_yuruyus|zihar)', 'soz_edebi'),
 ]
 
 

@@ -6739,7 +6739,7 @@
 "nitelik_ayet": "4:37",
 "odul_ayet": "4:37",
 "odul": "azap_muhin",
-"derece": "✓",
+"derece": "→",
 "ham": "cimrilik",
 "not_": "cimrilik, cimriliği emretme, Allah'ın lütfunu saklama; \"nankörlere (kâfirîn) rezil edici azap\""
 },
@@ -10991,8 +10991,8 @@
 "kayit": 785,
 "ayet": 819,
 "derece": {
-"✓": 726,
-"→": 54,
+"✓": 725,
+"→": 55,
 "?": 5
 }
 }

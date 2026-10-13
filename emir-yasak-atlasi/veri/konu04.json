@@ -6,7 +6,7 @@
 "id": "tevhid_emri",
 "grup": "Emirler",
 "etiket": "Yalnız Allah'a kulluk etme emri (resullerin ortak çağrısı dahil)",
-"ayet_sayisi": 18,
+"ayet_sayisi": 12,
 "kayitlar": [
 {
 "blok": "K4c",
@@ -29,16 +29,6 @@
 "not_": "\"Hanîf olarak İbrahim'in milletine uyun! Müşriklerden değildi o\""
 },
 {
-"blok": "B023",
-"nitelik_ayet": "6:163",
-"odul_ayet": "6:163",
-"odul": "yok",
-"derece": "✓",
-"tur": "emir",
-"ham": "ortagi_yoktur_emri",
-"not_": "\"Ortağı yoktur O'nun. Bununla emrolundum\""
-},
-{
 "blok": "K4c",
 "nitelik_ayet": "7:59",
 "odul_ayet": "7:59",
@@ -46,7 +36,7 @@
 "derece": "✓",
 "tur": "emir",
 "ham": "kulluk_emri_nuh",
-"not_": "Nûh: \"Allah'a kulluk edin. Sizin ondan başka tanrınız yok. Üstünüze çok büyük bir azabın inmesinden korkuyorum\""
+"not_": "Nûh: \"Allah'a kulluk edin, sizin O'ndan başka ilahınız yok; sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum\" (uyarı)"
 },
 {
 "blok": "K4c",
@@ -79,26 +69,6 @@
 "not_": "Sâlih: \"Allah'a kulluk edin. Sizin O'ndan başka ilahınız yok\""
 },
 {
-"blok": "B047",
-"nitelik_ayet": "12:40",
-"odul_ayet": "12:40",
-"odul": "yok",
-"derece": "✓",
-"tur": "emir",
-"ham": "allah_disinda_isimlere_kulluk",
-"not_": "\"Allah'ın yanında adlarını sizin ve atalarınızın koyduğu isimlere kulluk ediyorsunuz; Allah hiçbir kanıt indirmemiştir. O yalnız kendisine kulluk etmenizi emretti\""
-},
-{
-"blok": "B050",
-"nitelik_ayet": "13:36",
-"odul_ayet": "13:36",
-"odul": "yok",
-"derece": "✓",
-"tur": "emir",
-"ham": "yalniz_allaha_kulluk_ortak_kosmama",
-"not_": "\"Bana, yalnız Allah'a kulluk etmem, O'na ortak koşmamam emredildi\""
-},
-{
 "blok": "B056",
 "nitelik_ayet": "16:36",
 "odul_ayet": "16:36",
@@ -119,16 +89,6 @@
 "not_": "\"Bir hanîf olarak İbrahim'in milletine uy! O, müşriklerden değildi\""
 },
 {
-"blok": "B069",
-"nitelik_ayet": "18:110",
-"odul_ayet": "18:110",
-"odul": "yok",
-"derece": "✓",
-"tur": "emir",
-"ham": "rabbe_ibadette_ortak_kosmama",
-"not_": "\"Rabbine kavuşmayı uman ... Rabbine ibadette hiç kimseyi O'na ortak koşmasın\""
-},
-{
 "blok": "K4c",
 "nitelik_ayet": "21:25",
 "odul_ayet": "21:25",
@@ -137,16 +97,6 @@
 "tur": "emir",
 "ham": "kulluk_emri_her_resul",
 "not_": "\"Senden önce hiçbir resul göndermedik ki ona şöyle vahyetmiş olmayalım: İlah yok benden başka, artık bana kulluk edin\""
-},
-{
-"blok": "B076",
-"nitelik_ayet": "22:26",
-"odul_ayet": "22:26",
-"odul": "yok",
-"derece": "✓",
-"tur": "emir",
-"ham": "sirk_yasagi_beyt",
-"not_": "İbrahim'e: \"Bana hiçbir şeyi ortak koşma, evimi temizle\""
 },
 {
 "blok": "K4c",
@@ -177,16 +127,6 @@
 "tur": "emir",
 "ham": "yalniz_allaha_kulluk_emri",
 "not_": "\"Başkasına değil, sadece Allah'a kulluk/ibadet et; şükredenlerden ol!\""
-},
-{
-"blok": "B141",
-"nitelik_ayet": "98:5",
-"odul_ayet": "98:5",
-"odul": "yok",
-"derece": "✓",
-"tur": "emir",
-"ham": "dini_yalniz_allaha_ozgule",
-"not_": "\"dini yalnız O'na özgüleyerek, sadece Allah'a ibadet etmeleri emredilmişti\""
 }
 ]
 },
@@ -194,7 +134,7 @@
 "id": "ortak_kosma_yasagi",
 "grup": "Yasaklar",
 "etiket": "Allah'a ortak koşma, O'ndan başkasına kulluk etme ve yakarma yasağı",
-"ayet_sayisi": 24,
+"ayet_sayisi": 23,
 "kayitlar": [
 {
 "blok": "K4c",
@@ -235,26 +175,6 @@
 "tur": "yasak",
 "ham": "allaha_kulluk_sirk_yasagi",
 "not_": "\"Allah'a kulluk edin. O'na hiçbir şeyi ortak koşmayın\""
-},
-{
-"blok": "K4c",
-"nitelik_ayet": "6:56",
-"odul_ayet": "6:56",
-"odul": "yok",
-"derece": "✓",
-"tur": "yasak",
-"ham": "allahtan_baskasina_kulluk_ve_yakarma_yasagi",
-"not_": "\"Allah'ı bırakıp yakardıklarınıza kulluk etmekten yasaklandım\""
-},
-{
-"blok": "B018",
-"nitelik_ayet": "6:108",
-"odul_ayet": "6:108",
-"odul": "yok",
-"derece": "✓",
-"tur": "yasak",
-"ham": "allah_disindakilere_sovme_yasagi",
-"not_": "\"Allah dışında dua ettiklerine sövmeyin; yoksa onlar da düşmanlıkla ve bilgisizce Allah'a söverler\""
 },
 {
 "blok": "B022",
@@ -347,6 +267,26 @@
 "not_": "\"Allah'ın yanına başka tanrı koyma ki, kınanmış ve kovulmuş bir halde cehenneme atılmayasın\""
 },
 {
+"blok": "B069",
+"nitelik_ayet": "18:110",
+"odul_ayet": "18:110",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "rabbe_ibadette_ortak_kosmama",
+"not_": "\"Rabbine kavuşmayı uman ... Rabbine ibadette hiç kimseyi O'na ortak koşmasın\""
+},
+{
+"blok": "B076",
+"nitelik_ayet": "22:26",
+"odul_ayet": "22:26",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirk_yasagi_beyt",
+"not_": "İbrahim'e: \"Bana hiçbir şeyi ortak koşma, evimi temizle\""
+},
+{
 "blok": "B077",
 "nitelik_ayet": "22:30",
 "odul_ayet": "22:30",
@@ -405,16 +345,6 @@
 "tur": "yasak",
 "ham": "sirk_yasagi_amel_bosa",
 "not_": "\"mutlaka hüsrana düşenlerden olursun\""
-},
-{
-"blok": "K4c",
-"nitelik_ayet": "40:66",
-"odul_ayet": "40:66",
-"odul": "yok",
-"derece": "✓",
-"tur": "yasak",
-"ham": "allahtan_baskasina_kulluk_ve_yakarma_yasagi",
-"not_": "\"sizin Allah'ın berisinden yakardıklarınıza kulluk etmekten yasaklandım\""
 },
 {
 "blok": "K4c",
@@ -600,7 +530,7 @@
 "id": "sirk",
 "grup": "Şirkin biçimleri ve sonuçları",
 "etiket": "Şirk: ortaklar koşmak, Allah'ın dışında kulluk ve sefaat umudu, sonuçları",
-"ayet_sayisi": 54,
+"ayet_sayisi": 60,
 "kayitlar": [
 {
 "blok": "K4d",
@@ -713,6 +643,16 @@
 "not_": "\"Yalnız O'na yakarırsınız ... Ve siz, ortak koştuklarınızı unutuverirsiniz\""
 },
 {
+"blok": "K4c",
+"nitelik_ayet": "6:56",
+"odul_ayet": "6:56",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahtan_baskasina_kulluk_ve_yakarma_yasagi",
+"not_": "\"Allah'ı bırakıp yakardıklarınıza kulluk etmekten yasaklandım\""
+},
+{
 "blok": "K4d",
 "nitelik_ayet": "6:81",
 "odul_ayet": "6:81",
@@ -761,6 +701,16 @@
 "tur": "tanim",
 "ham": "ortaklarin_evlat_oldurmeyi_guzel_gostermesi",
 "not_": "\"Allah'a ortak koştukları kişiler öz evlatlarını öldürmeyi güzel göstermiştir\""
+},
+{
+"blok": "B023",
+"nitelik_ayet": "6:163",
+"odul_ayet": "6:163",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortagi_yoktur_emri",
+"not_": "\"Ortağı yoktur O'nun. Bununla emrolundum\""
 },
 {
 "blok": "B031",
@@ -833,6 +783,16 @@
 "not_": "Yûsuf: \"Bizim herhangi bir şeyi Allah'a ortak tutmamız söz konusu olamaz\""
 },
 {
+"blok": "B047",
+"nitelik_ayet": "12:40",
+"odul_ayet": "12:40",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_disinda_isimlere_kulluk",
+"not_": "\"Allah'ın yanında adlarını sizin ve atalarınızın koyduğu isimlere kulluk ediyorsunuz; Allah hiçbir kanıt indirmemiştir. O yalnız kendisine kulluk etmenizi emretti\""
+},
+{
 "blok": "B048",
 "nitelik_ayet": "12:106",
 "odul_ayet": "12:106",
@@ -871,6 +831,16 @@
 "tur": "sonuc",
 "ham": "sirk_ortaklar_tanima",
 "not_": "\"Dünya hayatında bir azap var onlar için; âhiret azabı ise çok daha şiddetlidir\" (\"onlar\" 13:33'teki topluluk)"
+},
+{
+"blok": "B050",
+"nitelik_ayet": "13:36",
+"odul_ayet": "13:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yalniz_allaha_kulluk_ortak_kosmama",
+"not_": "\"Bana, yalnız Allah'a kulluk etmem, O'na ortak koşmamam emredildi\""
 },
 {
 "blok": "B053",
@@ -1103,6 +1073,16 @@
 "not_": "\"Beni, Allah'a nankörlük etmeye ve hakkında hiçbir bilgim olmayan şeyi O'na ortak koşmaya çağırıyorsunuz\"; 40:43 \"çağırdığınız şeyin ne dünyada ne âhirette çağrı hakkı yoktur\""
 },
 {
+"blok": "K4c",
+"nitelik_ayet": "40:66",
+"odul_ayet": "40:66",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahtan_baskasina_kulluk_ve_yakarma_yasagi",
+"not_": "\"sizin Allah'ın berisinden yakardıklarınıza kulluk etmekten yasaklandım\""
+},
+{
 "blok": "K4d",
 "nitelik_ayet": "40:73",
 "odul_ayet": "40:74",
@@ -1201,6 +1181,16 @@
 "tur": "tanim",
 "ham": "allahin_ortagi_ilahi_yok_sorusu",
 "not_": "\"Yoksa Allah'tan başka bir ilahları mı var? Uzaktır Allah, onların ortak koştuklarından\""
+},
+{
+"blok": "B141",
+"nitelik_ayet": "98:5",
+"odul_ayet": "98:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "dini_yalniz_allaha_ozgule",
+"not_": "\"dini yalnız O'na özgüleyerek, sadece Allah'a ibadet etmeleri emredilmişti\""
 },
 {
 "blok": "B141",
@@ -2270,10 +2260,6 @@
 "ar": "ٱتَّبِعْ مَآ أُوحِىَ إِلَيْكَ مِن رَّبِّكَ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
 "tr": "Rabbinden sana vahyedilene uy! O'ndan başka ilah yoktur. Müşriklerden yüz çevir!"
 },
-"6:108": {
-"ar": "وَلَا تَسُبُّوا۟ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ فَيَسُبُّوا۟ ٱللَّهَ عَدْوًۢا بِغَيْرِ عِلْمٍ ۗ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِم مَّرْجِعُهُمْ فَيُنَبِّئُهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
-"tr": "Onların Allah dışında dua ettiklerine/çağrıda bulunduklarına sövmeyin. Yoksa onlar da düşmanlıkla ve bilgisizce Allah'a söverler. Biz her ümmete yaptığı işi bu şekilde süslü gösterdik. Sonra hepsinin dönüşü Rablerinedir. O, onlara, yapmakta olduklarını haber verecektir."
-},
 "6:121": {
 "ar": "وَلَا تَأْكُلُوا۟ مِمَّا لَمْ يُذْكَرِ ٱسْمُ ٱللَّهِ عَلَيْهِ وَإِنَّهُۥ لَفِسْقٌ ۗ وَإِنَّ ٱلشَّيَـٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوْلِيَآئِهِمْ لِيُجَـٰدِلُوكُمْ ۖ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ",
 "tr": "Üzerine Allah'ın adı anılmayanlardan yemeyin. Böyle bir şey tam bir yoldan çıkıştır. Şeytanlar kendi evliyasına/dost ve destekçilerine sizinle mücadele etmeleri için elbetteki vahiy gönderirler. O şeytan evliyasına boyun eğerseniz kesinlikle müşrikler oldunuz demektir."
@@ -2972,18 +2958,18 @@
 }
 },
 "istatistik": {
-"kayit": 205,
-"ayet": 216,
+"kayit": 204,
+"ayet": 215,
 "derece": {
-"✓": 201,
+"✓": 200,
 "→": 4,
 "?": 0
 },
 "tur": {
-"emir": 20,
-"yasak": 40,
+"emir": 14,
+"yasak": 39,
 "sonuc": 104,
-"tanim": 41
+"tanim": 47
 }
 }
 }

@@ -8,7 +8,7 @@ K6a	sehit_icin_olu_demek	2:154	2:154	-	✓	"Allah yolunda öldürülenler için 
 K6a	allaha_iftira	3:94	3:94	zalim_sayilma	✓	"Kim yalan düzüp Allah'a iftira ederse böyleleri zalimlerin ta kendileridir"	sonuc
 K6a	yapmadigiyla_ovunme	3:188	3:188	azap_korkunc	✓	"Yapmadıkları şeylerle övünmeyi seven kişiler ... korkunç bir azap vardır onlar için"	sonuc
 K6a	kasilip_bobürlenme	4:36	4:36	sevilmeme	✓	"Allah, kasılıp böbürlenen şımarıkları sevmez"	sonuc
-K6a	kasilip_bobürlenme	4:37	4:37	azap_muhin	✓	Böbürlenenler cimriliğe sapar, saklarlar; "nankörler için rezil edici bir azap hazırladık"	sonuc
+K6a	kasilip_bobürlenme	4:37	4:37	azap_muhin	→	Böbürlenenler cimriliğe sapar, saklarlar; "nankörler için rezil edici bir azap hazırladık"	sonuc
 K6a	kendini_aklama	4:49	4:49	-	✓	"Benliklerini ak, berrak gösterip duranlara bak! ... Allah dilediğini temizleyip aklar" (kınama)	tanim
 K6a	allaha_iftira	4:50	4:50	iftira_gunah	✓	"Nasıl yalan düzüp iftira ediyorlar Allah'a! Açık günah olarak bu yeter"	sonuc
 K6a	selam_verene_mumin_degilsin_demek	4:94	4:94	-	✓	"Size selam verene 'Sen mümin değilsin!' demeyin"	yasak
@@ -53,6 +53,7 @@ K6b	guzel_soz_emri	17:28	17:28	-	✓	Yüz çevirmek zorunda kalırsan "onlara yu
 K6c	israf	17:29	17:29	-	✓	"Elini boynuna bağlama, ama onu büsbütün de salıverme" (cimrilik ile savurganlık arası denge)	yasak
 K6c	israf	17:29	17:29	hasret	✓	"Sonra kınanır, hasret içinde bir köşede büzülür kalırsın"	sonuc
 K6c	bilgisiz_soz_ve_pesine_dusme	17:36	17:36	-	✓	"Hakkında bilgin olmayan şeyin ardına düşme!"	yasak
+K6c	sovme_yasagi	6:108	6:108	-	✓	"Allah'ı bırakıp yakardıklarına sövmeyin; yoksa onlar da düşmanlıkla, bilgisizce Allah'a söverler" (Konu 4'ten taşındı)	yasak
 K6c	bilgisiz_soz_ve_pesine_dusme	17:36	17:36	hesaba_cekilme	✓	"Kulak, göz ve gönlün hepsi bundan sorumlu tutulacaktır"	sonuc
 K6c	kasilip_kabararak_yuruyus	17:37	17:37	-	✓	"Yeryüzünde kasılıp kabararak yürüme!"	yasak
 K6c	kasilip_kabararak_yuruyus	17:38	17:38	-	✓	"Bütün bu sayılanların kötü olanları Rabbin katında çirkin görülmüştür" (17:23-37 bütünü için)	tanim

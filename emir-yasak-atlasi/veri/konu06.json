@@ -871,7 +871,7 @@
 "nitelik_ayet": "4:37",
 "odul_ayet": "4:37",
 "odul": "azap_muhin",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kasilip_bobürlenme",
 "not_": "Böbürlenenler cimriliğe sapar, saklarlar; \"nankörler için rezil edici bir azap hazırladık\""
@@ -1258,7 +1258,7 @@
 "id": "soz_edebi",
 "grup": "Söz ve ses edebi",
 "etiket": "Güzel söz emri, yasak sözler ve ses edebi",
-"ayet_sayisi": 16,
+"ayet_sayisi": 17,
 "kayitlar": [
 {
 "blok": "K6a",
@@ -1319,6 +1319,16 @@
 "tur": "tanim",
 "ham": "fisildasma",
 "not_": "\"Fısıldaşmalarının çoğunda hayır yoktur\"; istisna: sadaka, iyilik, barıştırma"
+},
+{
+"blok": "K6c",
+"nitelik_ayet": "6:108",
+"odul_ayet": "6:108",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sovme_yasagi",
+"not_": "\"Allah'ı bırakıp yakardıklarına sövmeyin; yoksa onlar da düşmanlıkla, bilgisizce Allah'a söverler\" (Konu 4'ten taşındı)"
 },
 {
 "blok": "K6b",
@@ -1565,6 +1575,10 @@
 "6:93": {
 "ar": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ قَالَ أُوحِىَ إِلَىَّ وَلَمْ يُوحَ إِلَيْهِ شَىْءٌ وَمَن قَالَ سَأُنزِلُ مِثْلَ مَآ أَنزَلَ ٱللَّهُ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّـٰلِمُونَ فِى غَمَرَٰتِ ٱلْمَوْتِ وَٱلْمَلَـٰٓئِكَةُ بَاسِطُوٓا۟ أَيْدِيهِمْ أَخْرِجُوٓا۟ أَنفُسَكُمُ ۖ ٱلْيَوْمَ تُجْزَوْنَ عَذَابَ ٱلْهُونِ بِمَا كُنتُمْ تَقُولُونَ عَلَى ٱللَّهِ غَيْرَ ٱلْحَقِّ وَكُنتُمْ عَنْ ءَايَـٰتِهِۦ تَسْتَكْبِرُونَ",
 "tr": "Yalan düzüp Allah'a iftira eden veya kendine bir şey vahyedilmediği halde \"Bana vahyedildi\" diyen kişi ile, \"Allah'ın ayet indirdiği gibi ben de indireceğim\" diyen kimseden daha zalim kim vardır? Bir görsen o zalimleri ölüm dalgaları içindeyken. Melekler ellerini uzatmış, \"Çıkarın canlarınızı!\" diye! \"Bugün zillet azabıyla cezalandırılacaksınız; çünkü Allah'a karşı gerçek dışı şeyler söylüyorsunuz ve çünkü O'nun ayetlerine karşı büyüklük taslıyordunuz.\""
+},
+"6:108": {
+"ar": "وَلَا تَسُبُّوا۟ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ فَيَسُبُّوا۟ ٱللَّهَ عَدْوًۢا بِغَيْرِ عِلْمٍ ۗ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِم مَّرْجِعُهُمْ فَيُنَبِّئُهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Onların Allah dışında dua ettiklerine/çağrıda bulunduklarına sövmeyin. Yoksa onlar da düşmanlıkla ve bilgisizce Allah'a söverler. Biz her ümmete yaptığı işi bu şekilde süslü gösterdik. Sonra hepsinin dönüşü Rablerinedir. O, onlara, yapmakta olduklarını haber verecektir."
 },
 "6:138": {
 "ar": "وَقَالُوا۟ هَـٰذِهِۦٓ أَنْعَـٰمٌ وَحَرْثٌ حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَـٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَـٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
@@ -1944,16 +1958,16 @@
 }
 },
 "istatistik": {
-"kayit": 137,
-"ayet": 122,
+"kayit": 138,
+"ayet": 123,
 "derece": {
 "✓": 132,
-"→": 6,
+"→": 7,
 "?": 0
 },
 "tur": {
 "emir": 7,
-"yasak": 36,
+"yasak": 37,
 "sonuc": 67,
 "tanim": 28
 }
