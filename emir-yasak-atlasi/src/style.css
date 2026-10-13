@@ -120,3 +120,6 @@ details.method ul{margin:10px 0 4px;padding-left:20px}
   .card{padding:16px}
 }
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.tur{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:6px;margin-right:6px;background:var(--y-bg);color:var(--y)}
+.tur.t-yasak{background:var(--red-bg);color:var(--red)}
+.tur.t-emir{background:var(--gold-bg);color:var(--gold)}

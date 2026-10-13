@@ -41,3 +41,20 @@ export const konu09 = {
     'Bilinen sınırlar: Kur\'an bazen davranışı hiç adlandırmaz; bu durumda kayıt genel başlıkta ya da "? Açık" derecesiyle durur. Dünyadaki helâk ile âhiret karşılığı ayrı türlerle işaretlendi, ama bir ayet bazen ikisini birden anar. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Tövbe, bağışlanma ve "dilerse" ifadeleri ayrı bir konuya (Konu 10) bırakılmıştır; burada bir davranışa bağlanan karşılık kesin ve genel bir hüküm olarak okunmamalıdır.',
   ],
 };
+
+export const konu04 = {
+  giris: 'Bu bölüm, Allah\'a ortak koşmak ve ayetleri yalanlamak hakkında Kur\'an\'ın doğrudan emirlerini ve yasaklarını, bu iki tutumun ayette nasıl adlandırıldığını ve ayetin kendisinde bildirilen karşılıkları toplar. Her kaydın türü işaretlidir: Yasak (doğrudan nehiy), Emir (doğrudan buyruk), Sonuç (tutum ile karşılığı ya da kınama aynı yerde) ve Tanım (tutumun nasıl adlandırıldığı ya da tarif edildiği). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Doğrudan yasak olarak yazılanlar {yasak} ayettedir: Allah\'a ortak koşmama, O\'ndan başkasına kulluk etmeme ve yakarmama, iki ilah edinmeme, Şeytana kulluk etmeme gibi. Doğrudan emir olarak yazılanlar {emir} ayettedir; bunların büyük kısmı resullerin kavimlerine ortak çağrısıdır: "Allah\'a kulluk edin, sizin O\'ndan başka ilahınız yok."',
+    'Şirk başlığı {sirk} ayette, Allah\'a çocuk, kız ya da üçleme isnadı {cocuk} ayette, ayetleri ve resulleri yalanlamak {yalan} ayette işlenir. Ayette karşılığı da bildirilen kayıtlar {karsilikli} ayettedir; kalanlar yalnızca emir, yasak ya da tarif verir ve karşılık söylemez.',
+    'Şirkin ayette yazılı karşılıkları şunlardır: ateş ve azap, amellerin boşa çıkması, Allah\'ın mağfiret etmemesi, cennetin haram kılınması, kıyamette ortakların yardım edememesi. Her biri yalnızca kendi ayetinde söylendiği kadarıyla kaydedildi.',
+    'Ayetleri yalanlamanın karşılıkları Konu 9\'da çok daha geniş bir kayıtla verilir ({konu9_yalan} ayet). Bu bölümde ise yalanlamanın hangi ayetlerde bu adla ve şirkle birlikte geçtiği, ona karşı yasak ve karşılık gösterilir. İki bölümün sayıları toplanmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: şirk ve ortak koşma kökleri (şirk, şerîk, müşrik), "ilah/kulluk/yakarma" ile birlikte olumsuz emir kalıpları (lâ + tec\'al, ted\'u, ta\'bud, tettehiz ve benzerleri), ayetleri yalanlama kalıpları. Tarama {hedef} ayet verdi.',
+    'Bu ayetlerin 223\'ü önceki 1 ve sonraki 2 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Kalan 149 ayet tek tek, meâlleri ve bir sonraki ayetle okundu. Hedef listesinde olup hiçbir kayda girmeyen 214 ayetin hepsi ayrıca gözden geçirildi; çoğu miras, evlilik, savaş, kıssa ya da başka konudaki ayetlerdir ve bu bölüme alınmadı.',
+    'İkinci kontrol: her kayıtta tutumun Arapça kökü (şirk, ilah, kulluk, yakarma, yalanlama vb.) davranış ayetinde, gerekirse yanındaki ayette mekanik olarak arandı. Eksik çıkan yoktu; iki kayıtta kök yalnızca komşu ayette bulundu. Dört kayıt "→ Çıkarım" derecesinde bırakıldı (Kehf 42, Rûm 42, Nahl 35, En\'âm 64).',
+    'Kapsam dışı bırakılanlar: müşriklerle ilişkiyi düzenleyen hükümler (müşrik kadınla evlilik, ahit ve savaş hükümleri, Mescid-i Haram\'a yaklaşma) ve Ehlikitap\'a yönelik hükümler. Bunlar şirkin tanımını değil, toplumsal hükmü anlatır ve ayrı bir konuya aittir. Küfür ve nankörlüğün genel karşılıkları da burada değil Konu 9\'dadır.',
+    'Bilinen sınırlar: Kur\'an çoğu zaman ilahlık isnadını, çocuk edinmeyi ve yakarmayı aynı cümlede anar; bu yüzden bazı ayetler birden çok başlıkta sayılabilir ve başlıkların ayet sayıları toplanıp tek toplam gibi okunmamalıdır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı. Kelime ve kalıp bazlı tarama bir ayeti kaçırmış olabilir.',
+  ],
+};

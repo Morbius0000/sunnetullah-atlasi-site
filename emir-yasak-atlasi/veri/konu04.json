@@ -1,0 +1,2989 @@
+{
+"konu": 4,
+"baslik": "Şirk ve ayetleri yalanlama",
+"nitelikler": [
+{
+"id": "tevhid_emri",
+"grup": "Emirler",
+"etiket": "Yalnız Allah'a kulluk etme emri (resullerin ortak çağrısı dahil)",
+"ayet_sayisi": 18,
+"kayitlar": [
+{
+"blok": "K4c",
+"nitelik_ayet": "2:21",
+"odul_ayet": "2:21",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "rabbine_ibadet_emri",
+"not_": "\"Sizi de sizden öncekileri de yaratan Rabb'inize ibadet edin ki korunabilesiniz\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "3:95",
+"odul_ayet": "3:95",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "ibrahimin_milletine_uyma_emri",
+"not_": "\"Hanîf olarak İbrahim'in milletine uyun! Müşriklerden değildi o\""
+},
+{
+"blok": "B023",
+"nitelik_ayet": "6:163",
+"odul_ayet": "6:163",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "ortagi_yoktur_emri",
+"not_": "\"Ortağı yoktur O'nun. Bununla emrolundum\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "7:59",
+"odul_ayet": "7:59",
+"odul": "azap_buyuk",
+"derece": "✓",
+"tur": "emir",
+"ham": "kulluk_emri_nuh",
+"not_": "Nûh: \"Allah'a kulluk edin. Sizin ondan başka tanrınız yok. Üstünüze çok büyük bir azabın inmesinden korkuyorum\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "7:65",
+"odul_ayet": "7:65",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "kulluk_emri_hud",
+"not_": "Hûd: \"Allah'a kulluk edin. Sizin O'ndan başka ilahınız yok\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "7:85",
+"odul_ayet": "7:85",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "kulluk_emri_suayb",
+"not_": "Şuayb: \"Allah'a kulluk edin. Size O'ndan başka ilah yok\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "11:61",
+"odul_ayet": "11:61",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "kulluk_emri_salih",
+"not_": "Sâlih: \"Allah'a kulluk edin. Sizin O'ndan başka ilahınız yok\""
+},
+{
+"blok": "B047",
+"nitelik_ayet": "12:40",
+"odul_ayet": "12:40",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "allah_disinda_isimlere_kulluk",
+"not_": "\"Allah'ın yanında adlarını sizin ve atalarınızın koyduğu isimlere kulluk ediyorsunuz; Allah hiçbir kanıt indirmemiştir. O yalnız kendisine kulluk etmenizi emretti\""
+},
+{
+"blok": "B050",
+"nitelik_ayet": "13:36",
+"odul_ayet": "13:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yalniz_allaha_kulluk_ortak_kosmama",
+"not_": "\"Bana, yalnız Allah'a kulluk etmem, O'na ortak koşmamam emredildi\""
+},
+{
+"blok": "B056",
+"nitelik_ayet": "16:36",
+"odul_ayet": "16:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "tagutan_kacinma",
+"not_": "her ümmete resul: \"Allah'a kulluk edin, tâğuttan kaçının\""
+},
+{
+"blok": "B061",
+"nitelik_ayet": "16:123",
+"odul_ayet": "16:123",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "ibrahimin_milletine_uyma_emri",
+"not_": "\"Bir hanîf olarak İbrahim'in milletine uy! O, müşriklerden değildi\""
+},
+{
+"blok": "B069",
+"nitelik_ayet": "18:110",
+"odul_ayet": "18:110",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "rabbe_ibadette_ortak_kosmama",
+"not_": "\"Rabbine kavuşmayı uman ... Rabbine ibadette hiç kimseyi O'na ortak koşmasın\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "21:25",
+"odul_ayet": "21:25",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "kulluk_emri_her_resul",
+"not_": "\"Senden önce hiçbir resul göndermedik ki ona şöyle vahyetmiş olmayalım: İlah yok benden başka, artık bana kulluk edin\""
+},
+{
+"blok": "B076",
+"nitelik_ayet": "22:26",
+"odul_ayet": "22:26",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "sirk_yasagi_beyt",
+"not_": "İbrahim'e: \"Bana hiçbir şeyi ortak koşma, evimi temizle\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "29:16",
+"odul_ayet": "29:16",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "kulluk_emri_ibrahim",
+"not_": "İbrahim: \"Allah'a kulluk/ibadet edin, O'ndan sakının\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "39:2",
+"odul_ayet": "39:2",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "dini_yalniz_allaha_ozgule",
+"not_": "\"dini yalnız Allah'a özgüleyerek O'na kulluk/ibadet et!\""
+},
+{
+"blok": "B111",
+"nitelik_ayet": "39:66",
+"odul_ayet": "39:66",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yalniz_allaha_kulluk_emri",
+"not_": "\"Başkasına değil, sadece Allah'a kulluk/ibadet et; şükredenlerden ol!\""
+},
+{
+"blok": "B141",
+"nitelik_ayet": "98:5",
+"odul_ayet": "98:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "dini_yalniz_allaha_ozgule",
+"not_": "\"dini yalnız O'na özgüleyerek, sadece Allah'a ibadet etmeleri emredilmişti\""
+}
+]
+},
+{
+"id": "ortak_kosma_yasagi",
+"grup": "Yasaklar",
+"etiket": "Allah'a ortak koşma, O'ndan başkasına kulluk etme ve yakarma yasağı",
+"ayet_sayisi": 24,
+"kayitlar": [
+{
+"blok": "K4c",
+"nitelik_ayet": "2:22",
+"odul_ayet": "2:22",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allaha_ortak_kosma_yasagi",
+"not_": "\"Artık bilip durduğunuz halde Allah'a ortaklar koşmayın\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "2:83",
+"odul_ayet": "2:83",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahtan_baskasina_ibadet_yasagi",
+"not_": "İsrailoğullarından alınan söz: \"Allah'tan başkasına ibadet etmeyin\""
+},
+{
+"blok": "K4a",
+"nitelik_ayet": "3:64",
+"odul_ayet": "3:64",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahtan_baskasina_kulluk_ortak_kosma_rabler_edinme",
+"not_": "\"Allah'tan başkasına kulluk etmeyelim, O'na hiçbir şeyi ortak koşmayalım, birbirimizi rabler edinmeyelim\"; Ehlikitap'a çağrı"
+},
+{
+"blok": "B001",
+"nitelik_ayet": "4:36",
+"odul_ayet": "4:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allaha_kulluk_sirk_yasagi",
+"not_": "\"Allah'a kulluk edin. O'na hiçbir şeyi ortak koşmayın\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "6:56",
+"odul_ayet": "6:56",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahtan_baskasina_kulluk_ve_yakarma_yasagi",
+"not_": "\"Allah'ı bırakıp yakardıklarınıza kulluk etmekten yasaklandım\""
+},
+{
+"blok": "B018",
+"nitelik_ayet": "6:108",
+"odul_ayet": "6:108",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allah_disindakilere_sovme_yasagi",
+"not_": "\"Allah dışında dua ettiklerine sövmeyin; yoksa onlar da düşmanlıkla ve bilgisizce Allah'a söverler\""
+},
+{
+"blok": "B022",
+"nitelik_ayet": "6:151",
+"odul_ayet": "6:151",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirk_yasagi_haramlar",
+"not_": "\"Rabbinizin size haram kıldıkları: Hiçbir şeyi O'na ortak koşmayın\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "7:3",
+"odul_ayet": "7:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahtan_baska_veliler_yasagi",
+"not_": "\"O'nun berisinden bir takım velilerin ardına düşmeyin!\""
+},
+{
+"blok": "B024",
+"nitelik_ayet": "7:33",
+"odul_ayet": "7:33",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirk_delilsiz_ortak_kosma",
+"not_": "\"Rabbim ancak şunları haram kıldı: ... hakkında hiçbir kanıt indirmediği şeyi Allah'a ortak koşmayı\""
+},
+{
+"blok": "B044",
+"nitelik_ayet": "10:106",
+"odul_ayet": "10:106",
+"odul": "zalim_sayilma",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allah_disina_yararsiz_seylere_yakarma_yasagi",
+"not_": "\"Allah'ın berisinden, yarar ve zarar veremeyecek şeylere yakarma! Bunu yaparsan mutlaka zalimlerden olursun\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "11:26",
+"odul_ayet": "11:26",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahtan_baskasina_kulluk_yasagi_nuh",
+"not_": "Nûh: \"Allah'tan başkasına kulluk etmeyin. Korkunç bir günün azabına uğramanızdan korkuyorum\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "16:51",
+"odul_ayet": "16:51",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "iki_ilah_edinme_yasagi",
+"not_": "\"İki ilah edinmeyin; O sadece bir tek ilahtır\""
+},
+{
+"blok": "B062",
+"nitelik_ayet": "17:22",
+"odul_ayet": "17:22",
+"odul": "yalniz_horlanmis",
+"derece": "✓",
+"tur": "yasak",
+"ham": "baska_ilah_koyma_yasagi",
+"not_": "\"Allah'ın yanına başka bir ilah koyma ki, yapayalnız ve horlanmış olarak oturup kalmayasın\""
+},
+{
+"blok": "B062",
+"nitelik_ayet": "17:23",
+"odul_ayet": "17:23",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahtan_baskasina_kulluk_yasagi",
+"not_": "\"Rabbin şöyle hükmetti: O'ndan başkasına kulluk etmeyin\""
+},
+{
+"blok": "B064",
+"nitelik_ayet": "17:39",
+"odul_ayet": "17:39",
+"odul": "cehenneme_atilma",
+"derece": "✓",
+"tur": "yasak",
+"ham": "baska_tanri_koyma_yasagi",
+"not_": "\"Allah'ın yanına başka tanrı koyma ki, kınanmış ve kovulmuş bir halde cehenneme atılmayasın\""
+},
+{
+"blok": "B077",
+"nitelik_ayet": "22:30",
+"odul_ayet": "22:30",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "putlarin_pisliginden_uzak_durma",
+"not_": "\"Putların pisliğinden, yalan sözden uzak durun\""
+},
+{
+"blok": "B087",
+"nitelik_ayet": "26:213",
+"odul_ayet": "26:213",
+"odul": "azap",
+"derece": "✓",
+"tur": "yasak",
+"ham": "baska_ilaha_yalvarma_yasagi",
+"not_": "\"Allah'ın yanında bir başka ilaha yalvarma. Yoksa azaba uğratılanlardan olursun\""
+},
+{
+"blok": "B093",
+"nitelik_ayet": "28:88",
+"odul_ayet": "28:88",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "baska_tanriya_kulluk_yasagi",
+"not_": "\"Allah'ın yanında diğer bir tanrıya daha kulluk etme. İlah yok O'ndan başka\""
+},
+{
+"blok": "B099",
+"nitelik_ayet": "31:13",
+"odul_ayet": "31:13",
+"odul": "buyuk_zulum",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allaha_ortak_kosma_yasagi",
+"not_": "Lukman: \"Allah'a ortak koşma! Çünkü Allah'a ortak koşmak gerçekten büyük bir zulümdür\""
+},
+{
+"blok": "B111",
+"nitelik_ayet": "39:65",
+"odul_ayet": "39:65",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirk_yasagi_amel_bosa",
+"not_": "\"Eğer şirke saparsan amelin kesinlikle boşa çıkar\""
+},
+{
+"blok": "B111",
+"nitelik_ayet": "39:65",
+"odul_ayet": "39:65",
+"odul": "husran",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirk_yasagi_amel_bosa",
+"not_": "\"mutlaka hüsrana düşenlerden olursun\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "40:66",
+"odul_ayet": "40:66",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahtan_baskasina_kulluk_ve_yakarma_yasagi",
+"not_": "\"sizin Allah'ın berisinden yakardıklarınıza kulluk etmekten yasaklandım\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "51:51",
+"odul_ayet": "51:51",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "baska_ilah_koyma_yasagi",
+"not_": "\"Allah'ın yanına başka bir ilah koymayın!\""
+},
+{
+"blok": "B129",
+"nitelik_ayet": "60:12",
+"odul_ayet": "60:12",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "ortak_kosmama_biat_sarti",
+"not_": "kadınların biat şartı: \"Allah'a hiçbir şeyi ortak koşmamaları\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "72:18",
+"odul_ayet": "72:18",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allahla_birlikte_baskasina_yakarma_yasagi",
+"not_": "\"Allah ile birlikte bir başkasına yakarmayın\""
+}
+]
+},
+{
+"id": "sirklilerle_iliski",
+"grup": "Yasaklar",
+"etiket": "Şirke ve yalanlamaya sapanlara uymama, onlardan olmama, onlar için af dilememe",
+"ayet_sayisi": 14,
+"kayitlar": [
+{
+"blok": "B009",
+"nitelik_ayet": "6:14",
+"odul_ayet": "6:14",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirkten_olma_yasagi",
+"not_": "\"Sakın şirke sapanlardan olma!\"; ayrıca Allah'tan başkasını velî edinmeme"
+},
+{
+"blok": "B018",
+"nitelik_ayet": "6:106",
+"odul_ayet": "6:106",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "musriklerden_yuz_cevirme_emri",
+"not_": "\"Rabbinden sana vahyedilene uy! O'ndan başka ilah yoktur. Müşriklerden yüz çevir!\""
+},
+{
+"blok": "B022",
+"nitelik_ayet": "6:150",
+"odul_ayet": "6:150",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "ayetleri_yalanlayanlarin_keyfine_uyma_yasagi",
+"not_": "\"Ayetlerimizi yalanlayanlarla âhirete inanmayanların keyifleri ardınca gitme!\"; \"Rablerine başkalarını denk tutuyorlar\""
+},
+{
+"blok": "B029",
+"nitelik_ayet": "7:173",
+"odul_ayet": "7:173",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "atalarin_sirkini_bahane_etme",
+"not_": "\"Daha önce atalarımız şirke batmıştı, biz onların soyuyuz\" demeyin: kıyamet günü bahane olarak söylenmesi yasaklanan söz"
+},
+{
+"blok": "B037",
+"nitelik_ayet": "9:113",
+"odul_ayet": "9:113",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "musrikler_icin_af_dileme",
+"not_": "\"cehennem halkı oldukları açıkça belli olduktan sonra müşrikler için af dilemek ne peygambere yakışır ne de iman edenlere\""
+},
+{
+"blok": "B043",
+"nitelik_ayet": "10:95",
+"odul_ayet": "10:95",
+"odul": "husran",
+"derece": "✓",
+"tur": "yasak",
+"ham": "ayetleri_yalanlayanlardan_olma_yasagi",
+"not_": "\"Sakın ayetlerimizi yalanlayanlardan olma, yoksa hüsrana düşenlerden olursun\""
+},
+{
+"blok": "B044",
+"nitelik_ayet": "10:105",
+"odul_ayet": "10:105",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "musriklerden_olma_yasagi",
+"not_": "\"Sakın müşriklerden olma!\""
+},
+{
+"blok": "B053",
+"nitelik_ayet": "15:94",
+"odul_ayet": "15:94",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "sirke_bulasmislara_aldirmama_emri",
+"not_": "\"Emrolunduğun şeyi tebliğ et; şirke bulaşmışlara aldırma\""
+},
+{
+"blok": "B093",
+"nitelik_ayet": "28:87",
+"odul_ayet": "28:87",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirke_bulasanlardan_olma_yasagi",
+"not_": "\"Sakın şirke bulaşanlardan olma!\""
+},
+{
+"blok": "B094",
+"nitelik_ayet": "29:8",
+"odul_ayet": "29:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "ana_babaya_sirkte_itaat_etmeme",
+"not_": "\"hakkında hiçbir bilgin olmayan bir şeyle bana ortak koşman için seninle çekişirlerse onlara itaat etme\""
+},
+{
+"blok": "B097",
+"nitelik_ayet": "30:31",
+"odul_ayet": "30:31",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirke_sapanlardan_olma_yasagi",
+"not_": "\"namazı kılın ve sakın şirke sapanlardan olmayın\""
+},
+{
+"blok": "B099",
+"nitelik_ayet": "31:15",
+"odul_ayet": "31:15",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sirkte_ana_babaya_itaat_etmeme",
+"not_": "\"hakkında hiçbir bilgin olmayan şeyi bana ortak koşman için seni zorlarlarsa onlara itaat etme\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "60:4",
+"odul_ayet": "60:4",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ibrahim_sirklilerden_beraat",
+"not_": "İbrahim ve beraberindekiler: \"Biz sizden de Allah dışındaki kulluk ettiklerinizden de uzağız ... siz yalnız Allah'a inanıncaya kadar düşmanlık ve nefret olacaktır\""
+},
+{
+"blok": "B133",
+"nitelik_ayet": "68:8",
+"odul_ayet": "68:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yalanlayanlara_itaat_yasagi",
+"not_": "\"Yalanlayanlara itaat etme!\""
+}
+]
+},
+{
+"id": "sirk",
+"grup": "Şirkin biçimleri ve sonuçları",
+"etiket": "Şirk: ortaklar koşmak, Allah'ın dışında kulluk ve sefaat umudu, sonuçları",
+"ayet_sayisi": 54,
+"kayitlar": [
+{
+"blok": "K4d",
+"nitelik_ayet": "2:135",
+"odul_ayet": "2:135",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ibrahimin_milletine_uyma_emri",
+"not_": "\"Şirk ve yozlaşmadan uzak bir biçimde, İbrahim milletinden olalım. O, şirke bulaşanlardan değildi\""
+},
+{
+"blok": "K4a",
+"nitelik_ayet": "3:151",
+"odul_ayet": "3:151",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_delilsiz_ortak_kosma",
+"not_": "\"hiçbir delil indirmediği şeyleri Allah'a ortak koştukları için ... barınakları ateştir\""
+},
+{
+"blok": "K4a",
+"nitelik_ayet": "3:151",
+"odul_ayet": "3:151",
+"odul": "korku_salma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_delilsiz_ortak_kosma",
+"not_": "aynı ayet: \"kalplerine korku salacağız\""
+},
+{
+"blok": "B002",
+"nitelik_ayet": "4:48",
+"odul_ayet": "4:48",
+"odul": "magfiret_yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk",
+"not_": "\"Allah kendisine şirk koşulmasını affetmez\"; \"gerçekten büyük bir günah işlemiştir\""
+},
+{
+"blok": "B004",
+"nitelik_ayet": "4:116",
+"odul_ayet": "4:116",
+"odul": "magfiret_yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk",
+"not_": "\"affetmez\""
+},
+{
+"blok": "B004",
+"nitelik_ayet": "4:116",
+"odul_ayet": "4:116",
+"odul": "sapiklik_donussuz",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk",
+"not_": "\"dönüşü olmayan bir sapıklığa dalıp gitmiştir\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "4:172",
+"odul_ayet": "4:173",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allaha_kulluktan_cekinip_kibre_saplanma",
+"not_": "\"Allah'a kulluk ve ibadetten çekinerek kibre saplanan ... kulluktan çekinip büyüklük taslayanlara korkunç bir azapla azap edecektir\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "6:19",
+"odul_ayet": "6:19",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_yaninda_baska_ilah_taniklik",
+"not_": "\"Allah'ın yanında başka ilahların bulunduğuna tanıklık ediyor musunuz?\" ... \"O sadece tek bir tanrıdır! Ben ortak tuttuğunuz şeylerden uzağım\""
+},
+{
+"blok": "B010",
+"nitelik_ayet": "6:22",
+"odul_ayet": "6:24",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "haşirde \"ortaklarınız nerede?\"; 6:24 \"iftira için kullandıkları şeyler onları bırakıp kayboldu\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "6:23",
+"odul_ayet": "6:23",
+"odul": "yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_inkari_kiyamette",
+"not_": "Kıyamette bahaneleri: \"Rabbimiz Allah'a yemin olsun ki, biz ortak koşanlar değildik\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "6:41",
+"odul_ayet": "6:41",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sirk_donusu_sikintida_unutma",
+"not_": "\"Yalnız O'na yakarırsınız ... Ve siz, ortak koştuklarınızı unutuverirsiniz\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "6:81",
+"odul_ayet": "6:81",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sirk_delilsiz_ortak_kosma",
+"not_": "\"hakkında size hiçbir kanıt indirmediği şeyleri Allah'a ortak koştuğunuz halde korkmuyorsunuz\""
+},
+{
+"blok": "B015",
+"nitelik_ayet": "6:88",
+"odul_ayet": "6:88",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_amelleri_bosa_cikarir",
+"not_": "\"eğer onlar şirke bulaşsalardı yapıp ettikleri kendilerine yararsız hale gelirdi\" (peygamberler hakkında koşullu ifade)"
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "6:94",
+"odul_ayet": "6:94",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortak_sandiklari_sefaatci",
+"not_": "\"ortaklar olduklarını sandığınız şefaatçılarınızı da yanınızda görmüyorsunuz ... koptu aranızdaki tüm bağlar\""
+},
+{
+"blok": "B021",
+"nitelik_ayet": "6:136",
+"odul_ayet": "6:136",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortaklara_pay_ayirma",
+"not_": "\"Bu Allah için, bu da ortaklarımız için\" diye pay ayırdılar; \"ne kötü hüküm veriyorlar\""
+},
+{
+"blok": "B021",
+"nitelik_ayet": "6:137",
+"odul_ayet": "6:137",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortaklarin_evlat_oldurmeyi_guzel_gostermesi",
+"not_": "\"Allah'a ortak koştukları kişiler öz evlatlarını öldürmeyi güzel göstermiştir\""
+},
+{
+"blok": "B031",
+"nitelik_ayet": "7:191",
+"odul_ayet": "7:191",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortaklar_yaratamaz_yardim_edemez",
+"not_": "\"hiçbir şey yaratmayan, kendileri yaratılmış olanları mı ortak koşuyorlar?\"; 7:192-197 yardım edemezler"
+},
+{
+"blok": "B035",
+"nitelik_ayet": "9:17",
+"odul_ayet": "9:17",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_kufre_taniklik_mescit_onarma",
+"not_": "müşrikler küfürlerine tanık olurlarken mescit onaramazlar; \"tüm amelleri boşa çıkmıştır\""
+},
+{
+"blok": "B035",
+"nitelik_ayet": "9:17",
+"odul_ayet": "9:17",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_kufre_taniklik_mescit_onarma",
+"not_": "\"ateşte sürekli kalacaklardır\""
+},
+{
+"blok": "B038",
+"nitelik_ayet": "10:18",
+"odul_ayet": "10:18",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_disina_kulluk_sefaat_sanma",
+"not_": "\"zarar veremeyen, yarar sağlayamayan şeylere kulluk edip 'şefaatçılarımız' diyorlar\""
+},
+{
+"blok": "B039",
+"nitelik_ayet": "10:28",
+"odul_ayet": "10:30",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "haşirde ortaklar \"siz bize kulluk etmiyordunuz\" der; 10:30 \"iftira aracı yaptıkları şeyler kendilerini koyup gitmiştir\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "10:66",
+"odul_ayet": "10:66",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_yaninda_ortaklara_yalvarma_sani",
+"not_": "\"Allah'ın yanında ortaklara yalvaranlar ... sadece sanıya uyuyorlar ve sadece saçmalıyorlar\""
+},
+{
+"blok": "B047",
+"nitelik_ayet": "12:38",
+"odul_ayet": "12:38",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortak_kosmama",
+"not_": "Yûsuf: \"Bizim herhangi bir şeyi Allah'a ortak tutmamız söz konusu olamaz\""
+},
+{
+"blok": "B048",
+"nitelik_ayet": "12:106",
+"odul_ayet": "12:106",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "cogunun_imani_sirkle_karisik",
+"not_": "\"Onların çoğu şirke bulaşmış olmadan Allah'a iman etmez\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "13:16",
+"odul_ayet": "13:16",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_yaninda_baska_evliya_edinme",
+"not_": "\"O'nun yanında başka evliya mı edindiniz? Bunlar kendilerine bile yarar sağlayıp zarar verme gücünde değiller\""
+},
+{
+"blok": "B050",
+"nitelik_ayet": "13:33",
+"odul_ayet": "13:33",
+"odul": "saptirilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar_tanima",
+"not_": "\"Allah'a ortaklar tanıdılar ... küfre sapanlara tuzakları süslü gösterildi, yoldan döndürüldüler; Allah'ın şaşırttığına kılavuz yok\""
+},
+{
+"blok": "B050",
+"nitelik_ayet": "13:33",
+"odul_ayet": "13:34",
+"odul": "azap_dunya",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar_tanima",
+"not_": "\"Dünya hayatında bir azap var onlar için; âhiret azabı ise çok daha şiddetlidir\" (\"onlar\" 13:33'teki topluluk)"
+},
+{
+"blok": "B053",
+"nitelik_ayet": "15:96",
+"odul_ayet": "15:96",
+"odul": "tehdit",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allahla_beraber_baska_tanri_edinme",
+"not_": "\"Allah ile beraber başka tanrılar benimseyenler yakında bilecekler\""
+},
+{
+"blok": "B055",
+"nitelik_ayet": "16:27",
+"odul_ayet": "16:27",
+"odul": "hizy",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "\"Allah kıyamet günü onları rezil edecek: ortaklarım nerede?\" \"bugün rezillik ve kötülük gerçeği inkâr edenleredir\""
+},
+{
+"blok": "B057",
+"nitelik_ayet": "16:56",
+"odul_ayet": "16:56",
+"odul": "hesaba_cekilme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ortaklara_pay_ayirma",
+"not_": "\"iftira edip durduğunuz şeylerden kesinlikle hesaba çekileceksiniz\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "16:73",
+"odul_ayet": "16:73",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahi_birakip_rizik_veremeyenlere_tapma",
+"not_": "\"Allah'ı bırakıp da ... göklerden ve yerden bir parçacık rızık veremeyen şeylere mi tapıyorlar?\""
+},
+{
+"blok": "B058",
+"nitelik_ayet": "16:86",
+"odul_ayet": "16:87",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "ortakları \"siz yalancılarsınız\" der; 16:87 \"iftira aracı olarak kullandıklarının tümü onları ortada bırakıp kaybolmuştur\""
+},
+{
+"blok": "B067",
+"nitelik_ayet": "18:42",
+"odul_ayet": "18:42",
+"odul": "bela_dunya",
+"derece": "→",
+"tur": "sonuc",
+"ham": "sirk_pisman_olma",
+"not_": "bağ sahibi ürününe el konulunca: \"Ne olurdu, Rabbime hiç kimseyi ortak koşmasaydım!\"; ortak koşma kendi pişmanlık sözüdür, bağ yitirme ile bağı bağlamdan"
+},
+{
+"blok": "B068",
+"nitelik_ayet": "18:52",
+"odul_ayet": "18:52",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "\"ortaklarımı çağırın dedi; çağırdılar, onlar cevap vermedi; aralarına yıkıcı bir düşmanlık koyduk\""
+},
+{
+"blok": "B077",
+"nitelik_ayet": "22:31",
+"odul_ayet": "22:31",
+"odul": "mahvolma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allaha_ortak_kosma",
+"not_": "\"Allah'a ortak koşan, gökten düşmüş de kendisini kuşlar kapışıyor ya da rüzgâr onu uzak bir yere fırlatıyor gibidir\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "25:3",
+"odul_ayet": "25:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_disinda_ilahlar_edinme",
+"not_": "\"O'nun dışında bir takım ilahlar edindiler. Hiçbir şey yaratamaz bunlar. Kendileri yaratılmışlardır\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "27:63",
+"odul_ayet": "27:63",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_beraberinde_ilah_sorusu",
+"not_": "\"Allah'ın beraberinde bir ilah daha mı var? Allah, onların ortak tuttuklarından uzaktır\""
+},
+{
+"blok": "B091",
+"nitelik_ayet": "28:62",
+"odul_ayet": "28:64",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "\"ortaklarım nerede?\"; 28:64 \"çağırın ortak koştuklarınızı; cevap veremezler; azabı görmüşlerdir\""
+},
+{
+"blok": "B091",
+"nitelik_ayet": "28:62",
+"odul_ayet": "28:64",
+"odul": "azap",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "28:64 \"azabı görmüşlerdir. Önceden yola gelselerdi ne olurdu!\""
+},
+{
+"blok": "B092",
+"nitelik_ayet": "28:74",
+"odul_ayet": "28:75",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "\"o iftira aracı yaptıkları şeyler onları yüzüstü koyup kaybolmuşlardır\""
+},
+{
+"blok": "B096",
+"nitelik_ayet": "30:13",
+"odul_ayet": "30:13",
+"odul": "sefaatsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "\"ortak tuttukları arasından kendileri için şefaatçılar çıkmayacaktır\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "30:35",
+"odul_ayet": "30:35",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sirk_delilsiz_ortak_kosma",
+"not_": "\"Yoksa onlara kesin bir kanıt mı indirdik de onlara Allah'a ortak koşmalarını söylüyor!\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "30:40",
+"odul_ayet": "30:40",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortaklar_hicbir_sey_yapamaz",
+"not_": "\"Ortak koştuklarınızdan biri var mı, bunlardan birşeyi yapabilecek? Yücedir, arınmıştır onların ortak koştuklarından O\""
+},
+{
+"blok": "B098",
+"nitelik_ayet": "30:42",
+"odul_ayet": "30:42",
+"odul": "kotu_son",
+"derece": "→",
+"tur": "sonuc",
+"ham": "sirk_oncekilerin_sonu",
+"not_": "\"öncekilerin sonunun nasıl olduğuna bakın; onların çoğu şirke sapan insanlardı\": sonun niteliği ayette adlandırılmaz"
+},
+{
+"blok": "B103",
+"nitelik_ayet": "33:73",
+"odul_ayet": "33:73",
+"odul": "azap",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk",
+"not_": "\"Allah'ın ... şirke sapmış erkeklerle şirke sapmış kadınlara azap etmesi için\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "34:22",
+"odul_ayet": "34:22",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_disindakiler_zerreye_sahip_degil",
+"not_": "\"Allah dışındaki o bir şey sandıklarınızı çağırın. Onlar, göklerde de yerde de zerre kadar bir şeye sahip olamazlar\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "35:14",
+"odul_ayet": "35:14",
+"odul": "yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kiyamette_ortaklar_inkar_eder",
+"not_": "\"Kıyamet günü de sizin onları ortak koştuğunuzu inkâr ederler\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "39:15",
+"odul_ayet": "39:15",
+"odul": "husran",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_disina_kulluk_edin_demek",
+"not_": "\"Siz O'nun dışında dilediğinize kulluk edin.\" De ki: \"Hüsrana uğrayanlar kıyamet günü kendilerini ve ailelerini hüsrana atanlardır\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "39:29",
+"odul_ayet": "39:29",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortaklar_didisen_adam_ornegi",
+"not_": "\"Hakkında birbiriyle didişen ortakların bulunduğu bir adamla, bir tek ere teslim olan bir adam ... eşit olur mu?\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "40:42",
+"odul_ayet": "40:43",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allaha_nankorluk_ve_bilgisiz_ortak_kosmaya_cagri",
+"not_": "\"Beni, Allah'a nankörlük etmeye ve hakkında hiçbir bilgim olmayan şeyi O'na ortak koşmaya çağırıyorsunuz\"; 40:43 \"çağırdığınız şeyin ne dünyada ne âhirette çağrı hakkı yoktur\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "40:73",
+"odul_ayet": "40:74",
+"odul": "saptirilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kiyamette_ortaklar_nerede_saptirilma",
+"not_": "\"Ortak koştuklarınız nerede? Allah'ın berisinden taptıklarınız nerede?\" ... \"Allah, inkâr edenleri işte böyle saptırır\""
+},
+{
+"blok": "B116",
+"nitelik_ayet": "41:6",
+"odul_ayet": "41:6",
+"odul": "vay",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk",
+"not_": "\"Vay haline ortak koşanların!\""
+},
+{
+"blok": "B117",
+"nitelik_ayet": "41:47",
+"odul_ayet": "41:48",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_ortaklar",
+"not_": "\"ortaklarım nerede?\"; 41:48 \"yakarıp durdukları uzaklaşıp kaybolmuştur; kaçacak yerleri olmadığını anlamışlardır\""
+},
+{
+"blok": "B119",
+"nitelik_ayet": "42:21",
+"odul_ayet": "42:21",
+"odul": "azap_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "dinde_izin_verilmeyeni_yasalastiran_ortaklar",
+"not_": "\"Allah'ın izin vermediği şeyi kendileri için yasalaştıran ortakları mı var? ... O zalimler için acıklı bir azap öngörülmüştür\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "46:4",
+"odul_ayet": "46:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_berisinden_yalvarma_sapikligi",
+"not_": "\"Kıyamet gününe kadar kendisine cevap vermeyecek birilerine, Allah'ın berisinden yalvarıp durandan daha sapık kim vardır?\""
+},
+{
+"blok": "B121",
+"nitelik_ayet": "46:5",
+"odul_ayet": "46:6",
+"odul": "yardimsizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_disina_yalvarma",
+"not_": "\"kendisine cevap vermeyecek birilerine yalvarandan daha sapık kim?\"; 46:6 \"o taptıkları onlara düşman olurlar, ibadetlerini inkâr ederler\""
+},
+{
+"blok": "B122",
+"nitelik_ayet": "48:6",
+"odul_ayet": "48:6",
+"odul": "gazab",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_hakkinda_kotu_sani_putperestlik",
+"not_": "\"Allah hakkında kötü sanılar besleyen münafıklara ve putperestlere ... Allah onlara öfkelenmiş\""
+},
+{
+"blok": "B122",
+"nitelik_ayet": "48:6",
+"odul_ayet": "48:6",
+"odul": "lanet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_hakkinda_kotu_sani_putperestlik",
+"not_": "\"onları lanetlemiş\""
+},
+{
+"blok": "B122",
+"nitelik_ayet": "48:6",
+"odul_ayet": "48:6",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_hakkinda_kotu_sani_putperestlik",
+"not_": "\"kendilerine cehennem hazırlamıştır\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "52:43",
+"odul_ayet": "52:43",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_ortagi_ilahi_yok_sorusu",
+"not_": "\"Yoksa Allah'tan başka bir ilahları mı var? Uzaktır Allah, onların ortak koştuklarından\""
+},
+{
+"blok": "B141",
+"nitelik_ayet": "98:6",
+"odul_ayet": "98:6",
+"odul": "nar_ebedi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ortak_kosma_ehlikitap_musrikler",
+"not_": "\"Ehlikitap'ın küfre sapanlarıyla müşrikler, sürekli kalıcılar olarak cehennem ateşindedir\""
+},
+{
+"blok": "B141",
+"nitelik_ayet": "98:6",
+"odul_ayet": "98:6",
+"odul": "en_serli_yaratik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ortak_kosma_ehlikitap_musrikler",
+"not_": "\"işte onlardır yaratılmışların en şerlisi\""
+}
+]
+},
+{
+"id": "cocuk_isnadi",
+"grup": "Şirkin biçimleri ve sonuçları",
+"etiket": "Allah'a çocuk isnadı, üçleme, Mesih'e ve din adamlarına ilahlık/rablik pay etme, cinleri ortak koşma",
+"ayet_sayisi": 21,
+"kayitlar": [
+{
+"blok": "K4d",
+"nitelik_ayet": "2:116",
+"odul_ayet": "2:116",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allaha_cocuk_edindi_deme",
+"not_": "\"Allah çocuk edindi.\" dediler. Haşâ! ... göklerdekiler de yerdekiler de O'na aittir"
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "3:80",
+"odul_ayet": "3:80",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "melekleri_peygamberleri_rab_edinme",
+"not_": "\"Size melekleri ve peygamberleri rabler edinmenizi de emretmez\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "4:171",
+"odul_ayet": "4:171",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allah_hakkinda_gercek_disi_soyleme_uc_deme_yasagi",
+"not_": "\"Allah hakkında gerçek dışı bir şey söylemeyin ... 'Üçtür!' demeyin. Son verin\""
+},
+{
+"blok": "B007",
+"nitelik_ayet": "5:72",
+"odul_ayet": "5:72",
+"odul": "cennet_haram",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "mesihe_ilahlik_isnadi_sirk",
+"not_": "Mesih: \"Allah'a ortak koşana Allah cenneti haram kılmıştır\""
+},
+{
+"blok": "B007",
+"nitelik_ayet": "5:72",
+"odul_ayet": "5:72",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "mesihe_ilahlik_isnadi_sirk",
+"not_": "\"varacağı yer ateştir onun\""
+},
+{
+"blok": "B007",
+"nitelik_ayet": "5:73",
+"odul_ayet": "5:73",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ucun_ucuncusu_deme",
+"not_": "\"Allah üçün üçüncüsüdür diyenler küfre batmıştır ... son vermezlerse küfre sapanlarına korkunç azap gelecek\""
+},
+{
+"blok": "B017",
+"nitelik_ayet": "6:100",
+"odul_ayet": "6:100",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "cinleri_ortak_kosma_ogul_kiz_isnadi",
+"not_": "\"Allah'a cinleri ortak koştular ... bilgisizce O'na oğullar ve kızlar isnat ettiler\"; karşılık aynı ayette yok"
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "6:101",
+"odul_ayet": "6:101",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allaha_cocuk_edindi_deme",
+"not_": "\"Nasıl çocuğu olur O'nun, kendisinin bir eşi olmadı ki! Her şeyi O yarattı\""
+},
+{
+"blok": "B036",
+"nitelik_ayet": "9:30",
+"odul_ayet": "9:30",
+"odul": "kahretme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allahin_oglu_deme",
+"not_": "\"Uzeyr Allah'ın oğludur\", \"Mesih Allah'ın oğludur\" dediler; \"Allah onları kahretsin!\""
+},
+{
+"blok": "B036",
+"nitelik_ayet": "9:31",
+"odul_ayet": "9:31",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "hahamlari_ruhbanlari_mesihi_rab_edinme",
+"not_": "\"hahamlarını ve ruhbanlarını rabler edindiler ... tek olan Allah'tan başkasına kulluk etmemeleri emredilmişti\""
+},
+{
+"blok": "B041",
+"nitelik_ayet": "10:68",
+"odul_ayet": "10:68",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_cocuk_edindi_deme",
+"not_": "\"Allah çocuk edindi dediler; elinizde söylediğinize ilişkin hiçbir kanıt yok\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "17:40",
+"odul_ayet": "17:40",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allaha_kiz_edindi_deme",
+"not_": "\"Rabbiniz, oğulları seçip size özgüledi de kendisi meleklerden kızlar mı edindi? Gerçekten çok dehşet verici bir söz söylüyorsunuz!\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "17:111",
+"odul_ayet": "17:111",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_cocugu_ortagi_yoktur",
+"not_": "\"Hamt, o Allah'a özgüdür ki, çocuk edinmemiştir; mülk ve yönetiminde ortağı yoktur\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "18:4",
+"odul_ayet": "18:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_cocuk_edindi_diyenleri_uyarma",
+"not_": "\"'Allah bir çocuk edindi' diyenleri uyarsın diye indirdi\"; 18:5 \"Söz olarak ne büyüktür ağızlarından çıkıveren! Onlar bir yalandan başka şey söylemiyorlar\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "19:88",
+"odul_ayet": "19:89",
+"odul": "yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "rahman_cocuk_edindi_deme",
+"not_": "\"Rahman çocuk edindi.\" dediler. \"Yemin olsun ki siz, çok çirkin bir iddiada bulundunuz\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "21:26",
+"odul_ayet": "21:26",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "rahman_cocuk_edindi_deme",
+"not_": "\"Rahman çocuk edindi\" dediler. Hâşâ, bundan arınmıştır O! Onlar, lütuflandırılmış kullardır"
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "23:91",
+"odul_ayet": "23:91",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_cocugu_ilahi_yoktur",
+"not_": "\"Allah, çocuk filan edinmemiştir. O'nunla beraber herhangi bir ilah da yoktur\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "37:152",
+"odul_ayet": "37:152",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_doguruldu_deme_yalan",
+"not_": "\"Allah doğurdu!\" Vallahi onlar yalancıdırlar"
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "39:4",
+"odul_ayet": "39:4",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_cocuk_edinmez",
+"not_": "\"Eğer Allah bir çocuk edinmek isteseydi ... Böyle birşeyden arınmıştır O\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "43:16",
+"odul_ayet": "43:16",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_kizlari_ayirdi_deme",
+"not_": "\"Yoksa Allah, yarattıklarından kızları kendine ayırdı da oğullarla seçkinleşmeyi size mi bıraktı?\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "72:3",
+"odul_ayet": "72:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_cocugu_yoktur_cinler",
+"not_": "Cinler: \"O, ne bir dişi dost edinmiştir ne de bir çocuk\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "112:3",
+"odul_ayet": "112:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_doguran_degildir",
+"not_": "\"Ne doğurmuştur O, ne doğurulmuştur!\""
+}
+]
+},
+{
+"id": "seytana_kulluk",
+"grup": "Şirkin biçimleri ve sonuçları",
+"etiket": "Şeytana kulluk etmek, onu şirk aracı ve veli edinmek",
+"ayet_sayisi": 5,
+"kayitlar": [
+{
+"blok": "B020",
+"nitelik_ayet": "6:121",
+"odul_ayet": "6:121",
+"odul": "musrik_sayilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "seytan_evliyasina_boyun_egme",
+"not_": "\"O şeytan evliyasına boyun eğerseniz kesinlikle müşrikler oldunuz demektir\""
+},
+{
+"blok": "B051",
+"nitelik_ayet": "14:22",
+"odul_ayet": "14:22",
+"odul": "azap_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "seytani_sirk_araci_yapma",
+"not_": "şeytan: \"beni şirk aracı yapmanıza karşı çıkmıştım ... zalimler için acıklı bir azap öngörülmüştür\""
+},
+{
+"blok": "B059",
+"nitelik_ayet": "16:100",
+"odul_ayet": "16:100",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "seytani_dost_edinme_sirk",
+"not_": "\"Şeytanın sultası, onu dost edinenlerle Allah'a ortak koşanlar üstündedir\""
+},
+{
+"blok": "B071",
+"nitelik_ayet": "19:44",
+"odul_ayet": "19:45",
+"odul": "azap",
+"derece": "✓",
+"tur": "yasak",
+"ham": "seytana_kulluk_yasagi",
+"not_": "İbrahim: \"Babacığım, şeytana kulluk etme!\"; 19:45 \"Rahman'dan bir azap dokunmasından korkuyorum\""
+},
+{
+"blok": "K4c",
+"nitelik_ayet": "36:60",
+"odul_ayet": "36:63",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "yasak",
+"ham": "seytana_kulluk_yasagi",
+"not_": "\"Şeytana kulluk etmeyin demedim mi? Bana ibadet edin demedim mi?\" (36:60-61); 36:63 \"Alın size, tehdit edildiğiniz cehennem!\""
+}
+]
+},
+{
+"id": "sirk_mazeret",
+"grup": "Şirkin biçimleri ve sonuçları",
+"etiket": "Şirki kadere ve atalara bağlayarak mazeret göstermek",
+"ayet_sayisi": 2,
+"kayitlar": [
+{
+"blok": "B022",
+"nitelik_ayet": "6:148",
+"odul_ayet": "6:148",
+"odul": "azap",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_kaderi_bahane_etme",
+"not_": "\"şirke batanlar: Allah dileseydi şirke sapmazdık dediler; öncekiler de azabımızı tadıncaya kadar böyle yalanlamışlardı\""
+},
+{
+"blok": "B056",
+"nitelik_ayet": "16:35",
+"odul_ayet": "16:36",
+"odul": "helak",
+"derece": "→",
+"tur": "sonuc",
+"ham": "sirk_kaderi_bahane_etme",
+"not_": "\"Ortak koşanlar: Allah isteseydi biz kulluk etmezdik dediler; öncekiler de böyle yaptılar\" (16:35); \"yalanlayanların sonu nasıl olmuş görün\" (16:36): sonuç adı ayette açık değil"
+}
+]
+},
+{
+"id": "sirk_donusu",
+"grup": "Şirkin biçimleri ve sonuçları",
+"etiket": "Sıkıntıda Allah'a yönelip kurtulunca ya da nimet görünce ortak koşmak",
+"ayet_sayisi": 7,
+"kayitlar": [
+{
+"blok": "B013",
+"nitelik_ayet": "6:64",
+"odul_ayet": "6:65",
+"odul": "azap",
+"derece": "→",
+"tur": "sonuc",
+"ham": "sirk_kurtulunca_ortak_kosma",
+"not_": "\"Allah kurtarıyor; sonra siz O'na ortak koşuyorsunuz\" (6:64); 6:65 \"üstünüzden ya da ayaklarınızın altından azap göndermeye kaadirdir\": bağ bağlamdan"
+},
+{
+"blok": "B031",
+"nitelik_ayet": "7:190",
+"odul_ayet": "7:190",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "nimet_verilince_ortak_kosma",
+"not_": "\"kendilerine verdiği nimete ikisi birden Allah'a ortak koşmaya başladılar\"; karşılık aynı yerde yok"
+},
+{
+"blok": "B057",
+"nitelik_ayet": "16:54",
+"odul_ayet": "16:55",
+"odul": "tehdit",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "nimet_kaldirilinca_ortak_kosma",
+"not_": "zorluk kalkınca bir zümre hemen ortak koşar; 16:55 \"Hadi nimetlenin, yakında bileceksiniz\""
+},
+{
+"blok": "B095",
+"nitelik_ayet": "29:65",
+"odul_ayet": "29:66",
+"odul": "tehdit",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "gemide_ihlas_sonra_ortak_kosma",
+"not_": "\"karaya çıkarınca ortak koşuyorlar; verdiklerimize nankörlük etsinler... Yakında bilecekler\""
+},
+{
+"blok": "B097",
+"nitelik_ayet": "30:33",
+"odul_ayet": "30:34",
+"odul": "tehdit",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "rahmet_tadinca_ortak_kosma",
+"not_": "\"bir rahmet tattırınca içlerinden bir grup Rablerine ortak koşuyor ... Yakında bileceksiniz\""
+},
+{
+"blok": "B112",
+"nitelik_ayet": "40:12",
+"odul_ayet": "40:12",
+"odul": "ikinci_firsat_yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_yalniz_cagrilinca_inkar_ortak_kosulunca_iman",
+"not_": "\"Allah'a, yalnız O'na çağrıldığınızda inkâr etmiştiniz; O'na ortak koşulduğunda iman ediyordunuz\": çıkış yolu sorusuna (40:11) cevap"
+},
+{
+"blok": "B115",
+"nitelik_ayet": "40:84",
+"odul_ayet": "40:85",
+"odul": "iman_gec_fayda_yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allaha_inanip_ortaklari_inkar_hisim_gorunce",
+"not_": "hışmı görünce \"yalnız Allah'a inandık, ortak koştuklarımızı inkâr ettik\" dediler; 40:85 \"şiddetimizi gördüklerinde ettikleri iman yarar sağlamadı\""
+}
+]
+},
+{
+"id": "ayetleri_yalanlama",
+"grup": "Ayetleri yalanlama",
+"etiket": "Ayetleri, kitabı ve resulleri yalanlamak",
+"ayet_sayisi": 42,
+"kayitlar": [
+{
+"blok": "K4a",
+"nitelik_ayet": "2:39",
+"odul_ayet": "2:39",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"nankörlüğe sapıp ayetlerimizi yalanlayanlar ateşin dostudur, orada sürekli kalırlar\""
+},
+{
+"blok": "K4a",
+"nitelik_ayet": "3:11",
+"odul_ayet": "3:11",
+"odul": "yakalama",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "Firavun hanedanı ve öncekiler: ayetleri yalanladılar, \"Allah onları günahları yüzünden yakaladı\""
+},
+{
+"blok": "B005",
+"nitelik_ayet": "5:10",
+"odul_ayet": "5:10",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostlarıdır\""
+},
+{
+"blok": "B008",
+"nitelik_ayet": "5:86",
+"odul_ayet": "5:86",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostlarıdır\""
+},
+{
+"blok": "B010",
+"nitelik_ayet": "6:21",
+"odul_ayet": "6:21",
+"odul": "felah_yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_allaha_iftira",
+"not_": "\"Allah'a iftira eden yahut ayetlerini yalanlayandan daha zalim kim? Zalimler asla kurtulamaz\""
+},
+{
+"blok": "B010",
+"nitelik_ayet": "6:27",
+"odul_ayet": "6:27",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "ateşin başında durdurulanlar: \"Rabbimizin ayetlerini yalanlamasak ...\""
+},
+{
+"blok": "B011",
+"nitelik_ayet": "6:39",
+"odul_ayet": "6:39",
+"odul": "saptirilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"ayetlerimizi yalanlayanlar karanlıklara gömülmüş sağır ve dilsizlerdir; Allah dilediğini şaşırtır\""
+},
+{
+"blok": "B012",
+"nitelik_ayet": "6:49",
+"odul_ayet": "6:49",
+"odul": "azap",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"fenalığa bulaşmaları yüzünden kendilerine azap dokunacaktır\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "6:93",
+"odul_ayet": "6:93",
+"odul": "azap_muhin",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetlere_karsi_buyukluk_allaha_gercek_disi",
+"not_": "\"Bugün zillet azabıyla cezalandırılacaksınız; çünkü Allah'a karşı gerçek dışı şeyler söylüyorsunuz ve O'nun ayetlerine karşı büyüklük taslıyordunuz\""
+},
+{
+"blok": "B023",
+"nitelik_ayet": "6:157",
+"odul_ayet": "6:157",
+"odul": "azap_en_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_yuz_cevirme",
+"not_": "\"ayetlerine sırt dönenleri azabın en acıklısıyla cezalandıracağız\""
+},
+{
+"blok": "B024",
+"nitelik_ayet": "7:36",
+"odul_ayet": "7:36",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_burun_kivirma",
+"not_": "\"ateşin dostlarıdır, sürekli kalacaklardır\""
+},
+{
+"blok": "B024",
+"nitelik_ayet": "7:37",
+"odul_ayet": "7:38",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"Allah dışındaki yakardıklarınız nerede?\"; 7:38 \"girin bakalım ateşe\""
+},
+{
+"blok": "B024",
+"nitelik_ayet": "7:40",
+"odul_ayet": "7:40",
+"odul": "cennete_giremez",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_kibir",
+"not_": "\"gök kapıları açılmayacak, deve iğne deliğinden geçinceye kadar cennete giremeyecekler\""
+},
+{
+"blok": "B024",
+"nitelik_ayet": "7:40",
+"odul_ayet": "7:41",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_kibir",
+"not_": "\"cehennemden bir döşek ve üstlerinde örtüler\""
+},
+{
+"blok": "B025",
+"nitelik_ayet": "7:64",
+"odul_ayet": "7:64",
+"odul": "gark",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"onu yalanladılar ... ayetlerimizi yalanlayanları boğduk\""
+},
+{
+"blok": "B026",
+"nitelik_ayet": "7:72",
+"odul_ayet": "7:72",
+"odul": "helak",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"ayetlerimizi yalanlayanların kökünü kestik\""
+},
+{
+"blok": "B027",
+"nitelik_ayet": "7:136",
+"odul_ayet": "7:136",
+"odul": "gark",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_aldirmazlik",
+"not_": "\"ayetlerimizi yalanladıkları, onlara aldırmazlık ettikleri için hepsini suda bozduk\""
+},
+{
+"blok": "B028",
+"nitelik_ayet": "7:146",
+"odul_ayet": "7:146",
+"odul": "ayetlerden_uzak_tutma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"onlar ayetlerimizi yalanladılar ve kayıtsız kaldılar\"; büyüklük taslayanlar ayetlerden uzak tutulur, mucize görseler inanmazlar"
+},
+{
+"blok": "B028",
+"nitelik_ayet": "7:147",
+"odul_ayet": "7:147",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_ve_ahireti_yalanlama",
+"not_": "\"ayetlerimizi ve ahirete varılacağını yalan sayanların tüm yaptıkları boşa gitmiştir\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "7:177",
+"odul_ayet": "7:177",
+"odul": "yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlayan_toplum_ornegi",
+"not_": "\"Ayetlerimizi yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Onlar öz benliklerine zulmediyorlardı\""
+},
+{
+"blok": "B030",
+"nitelik_ayet": "7:182",
+"odul_ayet": "7:182",
+"odul": "istidrac",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"ayetlerimizi yalanlayanları bilemeyecekleri bir yerden ağır ağır çöküşe götüreceğiz\""
+},
+{
+"blok": "B033",
+"nitelik_ayet": "8:54",
+"odul_ayet": "8:54",
+"odul": "helak",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "Firavun hanedanı ve öncekiler: \"Rablerinin ayetlerini yalanlamışlardı, biz de onları günahları yüzünden mahvettik\""
+},
+{
+"blok": "B033",
+"nitelik_ayet": "8:54",
+"odul_ayet": "8:54",
+"odul": "gark",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"Firavun hanedanını da boğmuştuk\""
+},
+{
+"blok": "B038",
+"nitelik_ayet": "10:17",
+"odul_ayet": "10:17",
+"odul": "felah_yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_allaha_iftira",
+"not_": "\"yalan düzerek Allah'a iftira eden yahut ayetlerini yalanlayandan daha zalim kim var? Suçlular iflah etmez\""
+},
+{
+"blok": "B042",
+"nitelik_ayet": "10:73",
+"odul_ayet": "10:73",
+"odul": "gark",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"onu yalanladılar ... ayetlerimizi yalanlayanları batırıp boğduk\""
+},
+{
+"blok": "B060",
+"nitelik_ayet": "16:104",
+"odul_ayet": "16:104",
+"odul": "hidayet_edilmeme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetlere_inanmama",
+"not_": "\"Allah'ın ayetlerine inanmayanlara Allah kılavuzluk etmez\""
+},
+{
+"blok": "B060",
+"nitelik_ayet": "16:104",
+"odul_ayet": "16:104",
+"odul": "azap_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetlere_inanmama",
+"not_": "\"onlar için acıklı bir azap öngörülmüştür\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "19:77",
+"odul_ayet": "19:79",
+"odul": "azap_artisi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_inkar_edip_mal_evlat_iddiasi",
+"not_": "\"Ayetlerimizi inkâr edip 'Bana mal da evlat da verilecek' diyen ... biz onun söylediğini yazacağız ve azabı uzattıkça uzatacağız\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "20:56",
+"odul_ayet": "20:56",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "firavun_ayetleri_yalanlama",
+"not_": "\"Firavun'a ayetlerimizin tamamını gösterdik ama yalanlayıp inadını sürdürdü\""
+},
+{
+"blok": "B074",
+"nitelik_ayet": "21:77",
+"odul_ayet": "21:77",
+"odul": "gark",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"ayetlerimizi yalanlayan topluluk ... hepsini birden batırıp boğduk\""
+},
+{
+"blok": "B078",
+"nitelik_ayet": "22:57",
+"odul_ayet": "22:57",
+"odul": "azap_muhin",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"inkâr edip ayetlerimizi yalanlayanlara aşağılayıcı bir azap öngörülmüştür\""
+},
+{
+"blok": "B081",
+"nitelik_ayet": "23:105",
+"odul_ayet": "23:104",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"Ateş yüzlerini yalar\" (23:104); \"Ayetlerim size okunmadı mı? Siz onları yalanlıyordunuz\" (23:105)"
+},
+{
+"blok": "B085",
+"nitelik_ayet": "25:36",
+"odul_ayet": "25:36",
+"odul": "helak",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"ayetlerimizi yalanlayan topluluğa gidin. Biraz sonra o topluluğu yerle bir ettik\""
+},
+{
+"blok": "B085",
+"nitelik_ayet": "25:37",
+"odul_ayet": "25:37",
+"odul": "gark",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "resulleri_yalanlama",
+"not_": "\"Nûh kavmi resulleri yalanladıklarında hepsini boğup bir ibret yaptık\""
+},
+{
+"blok": "B085",
+"nitelik_ayet": "25:37",
+"odul_ayet": "25:37",
+"odul": "azap_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "resulleri_yalanlama",
+"not_": "\"zalimler için acıklı bir azap hazırladık\""
+},
+{
+"blok": "B090",
+"nitelik_ayet": "27:83",
+"odul_ayet": "27:85",
+"odul": "azap_hak_oldu",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "27:83 yalanlayanlar toplu sürülür; 27:84 \"ilminiz kuşatmadığı halde inkâr mı ettiniz?\"; 27:85 \"zulümleri yüzünden o söz tepelerine inmiştir, tek kelime söyleyemezler\""
+},
+{
+"blok": "B096",
+"nitelik_ayet": "30:10",
+"odul_ayet": "30:10",
+"odul": "kotu_son",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_alay",
+"not_": "\"çirkinlik sergileyenlerin sonu çirkinliğin en beteri oldu; çünkü ayetleri yalanlamışlardı ve onlarla alay ediyorlardı\""
+},
+{
+"blok": "B096",
+"nitelik_ayet": "30:16",
+"odul_ayet": "30:16",
+"odul": "azap_hazir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_ve_ahiret_bulusmasini_yalanlama",
+"not_": "\"ayetlerimizi ve âhiret buluşmasını yalanlayanlar azabın içinde hazır bulundurulurlar\""
+},
+{
+"blok": "K4d",
+"nitelik_ayet": "34:38",
+"odul_ayet": "34:38",
+"odul": "azap",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_hukumsuz_birakma",
+"not_": "\"Ayetlerimizi hükümsüz bırakmak için koşuşanlara gelince, onlar azabın içinde hazır bulundurulacaklardır\""
+},
+{
+"blok": "B110",
+"nitelik_ayet": "39:59",
+"odul_ayet": "39:60",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_kibir",
+"not_": "\"Ayetlerim sana geldi, hemen yalanladın, büyüklük tasladın\"; 39:60 \"Kibirliler için cehennemde bir barınak mı yok!\""
+},
+{
+"blok": "B114",
+"nitelik_ayet": "40:70",
+"odul_ayet": "40:70",
+"odul": "tehdit",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kitabi_ve_resulleri_yalanlama",
+"not_": "\"Kitap'ı ve resullerimizle gönderdiğimizi yalanlayanlar yakında bilecekler\""
+},
+{
+"blok": "B114",
+"nitelik_ayet": "40:70",
+"odul_ayet": "40:71",
+"odul": "bukagi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kitabi_ve_resulleri_yalanlama",
+"not_": "\"boyunlarında bukağılar, zincirler, sürüklenecekler\" (40:71, aynı cümlenin devamı)"
+},
+{
+"blok": "B114",
+"nitelik_ayet": "40:70",
+"odul_ayet": "40:72",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kitabi_ve_resulleri_yalanlama",
+"not_": "\"kaynar suyun içine. Sonra da ateşte yakılacaklar\" (40:72)"
+},
+{
+"blok": "B124",
+"nitelik_ayet": "54:42",
+"odul_ayet": "54:42",
+"odul": "yakalama",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "Firavun hanedanı \"ayetlerimizin tümünü yalanladılar da biz onları yakaladık\""
+},
+{
+"blok": "B126",
+"nitelik_ayet": "57:19",
+"odul_ayet": "57:19",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostu olacaklardır\""
+},
+{
+"blok": "B131",
+"nitelik_ayet": "62:5",
+"odul_ayet": "62:5",
+"odul": "hidayet_edilmeme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"Allah'ın ayetlerini yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Allah zulme sapmış topluluğu doğruya ulaştırmaz\""
+},
+{
+"blok": "B132",
+"nitelik_ayet": "64:10",
+"odul_ayet": "64:10",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"küfre sapıp ayetlerimizi yalanlayanlar ateşin dostlarıdır, sürekli kalacaklardır\""
+},
+{
+"blok": "B139",
+"nitelik_ayet": "78:28",
+"odul_ayet": "78:30",
+"odul": "azap_artisi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama",
+"not_": "\"ayetlerimizi pervasızca yalanlamışlardı\" (78:28); 78:30 \"size azaptan başka bir şey asla artırmayacağız\""
+}
+]
+}
+],
+"ayetler": {
+"2:21": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱعْبُدُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُمْ وَٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ",
+"tr": "Ey insanlar! Sizi de sizden öncekileri de yaratan Rabb'inize ibadet edin ki, korunabilesiniz."
+},
+"2:22": {
+"ar": "ٱلَّذِى جَعَلَ لَكُمُ ٱلْأَرْضَ فِرَٰشًا وَٱلسَّمَآءَ بِنَآءً وَأَنزَلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَخْرَجَ بِهِۦ مِنَ ٱلثَّمَرَٰتِ رِزْقًا لَّكُمْ ۖ فَلَا تَجْعَلُوا۟ لِلَّهِ أَندَادًا وَأَنتُمْ تَعْلَمُونَ",
+"tr": "O Rab ki, yeri sizin için bir döşek, göğü de bir bina yaptı. Ve gökten bir su indirdi de onunla sizin için meyvelerden / ürünlerden bir rızk çıkardı. Artık bilip durduğunuz halde Allah'a ortaklar koşmayın."
+},
+"2:39": {
+"ar": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
+"tr": "Nankörlüğe sapıp ayetlerimizi yalanlayanlara gelince onlar, ateşin dostu olacaklardır. Onlar orada sürekli kalacaklardır."
+},
+"2:83": {
+"ar": "وَإِذْ أَخَذْنَا مِيثَـٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ",
+"tr": "İsrailoğulları'ndan şöyle bir söz de almıştık: Allah'tan başkasına ibadet etmeyin, anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın. İnsanlara güzeli ve güzelliği söyleyin. Namazı kılın, zekâtı verin. Bütün bunlardan sonra siz, pek azınız müstesna, sırt çevirdiniz. Hâlâ da yüz çevirip duruyorsunuz."
+},
+"2:116": {
+"ar": "وَقَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا ۗ سُبْحَـٰنَهُۥ ۖ بَل لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ كُلٌّ لَّهُۥ قَـٰنِتُونَ",
+"tr": "\"Allah çocuk edindi.\" dediler. Haşâ! Böyle bir şeyden arınmıştır O! Tam aksine, göklerdekiler de yerdekiler de O'na aittir. Bunların tümü O'nun önünde boyun bükmektedir."
+},
+"2:135": {
+"ar": "وَقَالُوا۟ كُونُوا۟ هُودًا أَوْ نَصَـٰرَىٰ تَهْتَدُوا۟ ۗ قُلْ بَلْ مِلَّةَ إِبْرَٰهِـۧمَ حَنِيفًا ۖ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
+"tr": "\"Yahudi yahut Hıristiyan olun ki doğruya kılavuzlanasınız.\" dediler. De ki: \"Hayır, öyle değil. Şirk ve yozlaşmadan uzak bir biçimde, İbrahim milletinden olalım. O, şirke bulaşanlardan değildi.\""
+},
+"3:11": {
+"ar": "كَدَأْبِ ءَالِ فِرْعَوْنَ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَـٰتِنَا فَأَخَذَهُمُ ٱللَّهُ بِذُنُوبِهِمْ ۗ وَٱللَّهُ شَدِيدُ ٱلْعِقَابِ",
+"tr": "Tıpkı Firavun hanedanı ve onlardan öncekilerin durumu gibi. Ayetlerimizi yalanlamışlardı da Allah, onları günahları yüzünden yakalamıştı. Allah, cezayı çok şiddetli vermektedir."
+},
+"3:64": {
+"ar": "قُلْ يَـٰٓأَهْلَ ٱلْكِتَـٰبِ تَعَالَوْا۟ إِلَىٰ كَلِمَةٍ سَوَآءٍۭ بَيْنَنَا وَبَيْنَكُمْ أَلَّا نَعْبُدَ إِلَّا ٱللَّهَ وَلَا نُشْرِكَ بِهِۦ شَيْـًٔا وَلَا يَتَّخِذَ بَعْضُنَا بَعْضًا أَرْبَابًا مِّن دُونِ ٱللَّهِ ۚ فَإِن تَوَلَّوْا۟ فَقُولُوا۟ ٱشْهَدُوا۟ بِأَنَّا مُسْلِمُونَ",
+"tr": "De ki: \"Ey Ehlikitap! Sizin ve bizim aramızda aynı olan şu söze gelin: \"Allah'tan başkasına kulluk etmeyelim, O'na hiçbirşeyi ortak koşmayalım. Allah'ı bırakıp da birbirimizi rabler edinmeyelim.\" Eğer yüz çevirirlerse şöyle söyle: \"Tanık olun, biz müslümanlarız/Allah'a teslim olanlarız.\""
+},
+"3:80": {
+"ar": "وَلَا يَأْمُرَكُمْ أَن تَتَّخِذُوا۟ ٱلْمَلَـٰٓئِكَةَ وَٱلنَّبِيِّـۧنَ أَرْبَابًا ۗ أَيَأْمُرُكُم بِٱلْكُفْرِ بَعْدَ إِذْ أَنتُم مُّسْلِمُونَ",
+"tr": "Ve size melekleri ve peygamberleri rabler edinmenizi de emretmez. Siz, müslümanlar haline geldikten sonra inkârı mı emreder size?"
+},
+"3:95": {
+"ar": "قُلْ صَدَقَ ٱللَّهُ ۗ فَٱتَّبِعُوا۟ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
+"tr": "De ki: \"Allah, doğrusunu söylemiştir/vaadinde sadıktır. Hadi artık hanîf olarak İbrahim'in milletine uyun! Müşriklerden değildi o.\""
+},
+"3:151": {
+"ar": "سَنُلْقِى فِى قُلُوبِ ٱلَّذِينَ كَفَرُوا۟ ٱلرُّعْبَ بِمَآ أَشْرَكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا ۖ وَمَأْوَىٰهُمُ ٱلنَّارُ ۚ وَبِئْسَ مَثْوَى ٱلظَّـٰلِمِينَ",
+"tr": "Allah'ın, kendileri hakkında hiçbir delil indirmediği şeyleri Allah'a ortak koştukları için, küfre sapanların kalplerine korku salacağız. Barınakları ateştir onların. Ne kötüdür o zalimlerin varacakları yer!"
+},
+"4:36": {
+"ar": "وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَـٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا",
+"tr": "Allah'a kulluk edin. O'na hiçbir şeyi ortak koşmayın. Ana-babaya, akrabaya, yetim ve öksüzlere, çaresizlere, yakın komşuya, uzak komşuya, yanınızdaki arkadaşa, yolda kalmışa, size bağımlı olanlara iyi ve güzel davranın. Allah, kasılıp böbürlenen şımarıkları sevmez."
+},
+"4:48": {
+"ar": "إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدِ ٱفْتَرَىٰٓ إِثْمًا عَظِيمًا",
+"tr": "Şu bir gerçek ki, Allah kendisine şirk koşulmasını affetmez, bunun dışında kalanı/bundan az olanı dilediği kişi için affeder. Allah'a şirk koşan, gerçekten büyük bir günah işlemiştir."
+},
+"4:116": {
+"ar": "إِنَّ ٱللَّهَ لَا يَغْفِرُ أَن يُشْرَكَ بِهِۦ وَيَغْفِرُ مَا دُونَ ذَٰلِكَ لِمَن يَشَآءُ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَقَدْ ضَلَّ ضَلَـٰلًۢا بَعِيدًا",
+"tr": "Allah, kendisine ortak koşulmasını affetmez ama bunun dışında kalanı/bundan az olanı dilediği kişi için affeder. Allah'a şirk koşan, dönüşü olmayan bir sapıklığa dalıp gitmiştir."
+},
+"4:171": {
+"ar": "يَـٰٓأَهْلَ ٱلْكِتَـٰبِ لَا تَغْلُوا۟ فِى دِينِكُمْ وَلَا تَقُولُوا۟ عَلَى ٱللَّهِ إِلَّا ٱلْحَقَّ ۚ إِنَّمَا ٱلْمَسِيحُ عِيسَى ٱبْنُ مَرْيَمَ رَسُولُ ٱللَّهِ وَكَلِمَتُهُۥٓ أَلْقَىٰهَآ إِلَىٰ مَرْيَمَ وَرُوحٌ مِّنْهُ ۖ فَـَٔامِنُوا۟ بِٱللَّهِ وَرُسُلِهِۦ ۖ وَلَا تَقُولُوا۟ ثَلَـٰثَةٌ ۚ ٱنتَهُوا۟ خَيْرًا لَّكُمْ ۚ إِنَّمَا ٱللَّهُ إِلَـٰهٌ وَٰحِدٌ ۖ سُبْحَـٰنَهُۥٓ أَن يَكُونَ لَهُۥ وَلَدٌ ۘ لَّهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۗ وَكَفَىٰ بِٱللَّهِ وَكِيلًا",
+"tr": "Ey Ehlikitap! Dininizde aşırılığa gidip doymazlık etmeyin! Allah hakkında gerçek dışı bir şey söylemeyin! Meryem oğlu İsa Mesih, Allah'ın resulü ve kelimesidir. Onu, kendisinden bir ruhla beraber Meryem'e atmıştır. Artık Allah'a ve resullerine inanın. \"Üçtür!\" demeyin. Son verin, sizin için daha iyi olur. Allah Vâhid'dir, tek ve biricik ilahtır. Kendisi için bir çocuk olmasından arınmıştır O. Yalnız O'nundur göklerdekiler ve yerdekiler. Vekil olarak Allah yeter."
+},
+"4:172": {
+"ar": "لَّن يَسْتَنكِفَ ٱلْمَسِيحُ أَن يَكُونَ عَبْدًا لِّلَّهِ وَلَا ٱلْمَلَـٰٓئِكَةُ ٱلْمُقَرَّبُونَ ۚ وَمَن يَسْتَنكِفْ عَنْ عِبَادَتِهِۦ وَيَسْتَكْبِرْ فَسَيَحْشُرُهُمْ إِلَيْهِ جَمِيعًا",
+"tr": "Ne Mesih Allah'ın bir kulu olmaktan çekinir ne de Allah'a yakınlaştırılmış melekler. Allah'a kulluk ve ibadetten çekinerek kibre saplanan bilsin ki, Allah onların tümünü huzurunda haşredecekir."
+},
+"4:173": {
+"ar": "فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَيُوَفِّيهِمْ أُجُورَهُمْ وَيَزِيدُهُم مِّن فَضْلِهِۦ ۖ وَأَمَّا ٱلَّذِينَ ٱسْتَنكَفُوا۟ وَٱسْتَكْبَرُوا۟ فَيُعَذِّبُهُمْ عَذَابًا أَلِيمًا وَلَا يَجِدُونَ لَهُم مِّن دُونِ ٱللَّهِ وَلِيًّا وَلَا نَصِيرًا",
+"tr": "Bunun ardından da inanıp hayra ve barışa yönelik işler yapanların ödüllerini tam verecek ve lütfundan onlara fazlalıklar da bağışlayacaktır. Kulluktan çekinip büyüklük taslayanlara gelince, onlara korkunç bir azapla azap edecektir. Böyleleri, kendileri için Allah'tan başka ne bir dost bulacaklardır ne de bir yardımcı."
+},
+"5:10": {
+"ar": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَحِيمِ",
+"tr": "Küfre sapıp ayetlerimizi yalanlayanlara gelince, bunlar cehennemin dostlarıdırlar."
+},
+"5:72": {
+"ar": "لَقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ هُوَ ٱلْمَسِيحُ ٱبْنُ مَرْيَمَ ۖ وَقَالَ ٱلْمَسِيحُ يَـٰبَنِىٓ إِسْرَٰٓءِيلَ ٱعْبُدُوا۟ ٱللَّهَ رَبِّى وَرَبَّكُمْ ۖ إِنَّهُۥ مَن يُشْرِكْ بِٱللَّهِ فَقَدْ حَرَّمَ ٱللَّهُ عَلَيْهِ ٱلْجَنَّةَ وَمَأْوَىٰهُ ٱلنَّارُ ۖ وَمَا لِلظَّـٰلِمِينَ مِنْ أَنصَارٍ",
+"tr": "Yemin olsun ki, \"Allah, Meryem'in oğlu Mesih'in ta kendisidir!\" diyenler küfre batmışlardır. Mesih şöyle demişti: \"Ey İsrailoğulları, hem sizin Rabbiniz hem de benim Rabbim olan Allah'a kulluk/ibadet edin! Gerçek olan şu ki, Allah'a ortak koşana Allah, cenneti haram kılmıştır. Varacağı yer ateştir onun. Zalimlerin yardımcıları olmayacaktır.\""
+},
+"5:73": {
+"ar": "لَّقَدْ كَفَرَ ٱلَّذِينَ قَالُوٓا۟ إِنَّ ٱللَّهَ ثَالِثُ ثَلَـٰثَةٍ ۘ وَمَا مِنْ إِلَـٰهٍ إِلَّآ إِلَـٰهٌ وَٰحِدٌ ۚ وَإِن لَّمْ يَنتَهُوا۟ عَمَّا يَقُولُونَ لَيَمَسَّنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْهُمْ عَذَابٌ أَلِيمٌ",
+"tr": "Yemin olsun ki, \"Allah, üçün üçüncüsüdür!\" diyenler de küfre batmıştır. Bir tek Tanrı dışında hiçbir ilah yoktur. Bu söyleyegeldiklerine son vermezlerse, onların küfre sapanlarına korkunç bir azap mutlaka gelip çatacaktır."
+},
+"5:86": {
+"ar": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَحِيمِ",
+"tr": "Küfre sapıp ayetlerimizi yalanlayanlar da cehennemin dostlarıdır."
+},
+"6:14": {
+"ar": "قُلْ أَغَيْرَ ٱللَّهِ أَتَّخِذُ وَلِيًّا فَاطِرِ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَهُوَ يُطْعِمُ وَلَا يُطْعَمُ ۗ قُلْ إِنِّىٓ أُمِرْتُ أَنْ أَكُونَ أَوَّلَ مَنْ أَسْلَمَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
+"tr": "De ki: \"Göklerin ve yerin Fâtır'ı olan o yaratıcıdan, o yedirip doyuran ama kendisi yedirilip beslenmeyen Allah'tan başkasını mı velî edineyim?\" De ki: \"Bana, İslam'ı/Allah'a teslim olmayı seçenlerin ilki olmam emredildi.\" Ve sakın şirke sapanlardan olma!"
+},
+"6:19": {
+"ar": "قُلْ أَىُّ شَىْءٍ أَكْبَرُ شَهَـٰدَةً ۖ قُلِ ٱللَّهُ ۖ شَهِيدٌۢ بَيْنِى وَبَيْنَكُمْ ۚ وَأُوحِىَ إِلَىَّ هَـٰذَا ٱلْقُرْءَانُ لِأُنذِرَكُم بِهِۦ وَمَنۢ بَلَغَ ۚ أَئِنَّكُمْ لَتَشْهَدُونَ أَنَّ مَعَ ٱللَّهِ ءَالِهَةً أُخْرَىٰ ۚ قُل لَّآ أَشْهَدُ ۚ قُلْ إِنَّمَا هُوَ إِلَـٰهٌ وَٰحِدٌ وَإِنَّنِى بَرِىٓءٌ مِّمَّا تُشْرِكُونَ",
+"tr": "Sor: \"Tanıklık bakımından hangi şey daha büyüktür?\" De ki: \"Benimle sizin aranızda Allah tanıktır. Bu Kur'an bana vahyolundu ki, onunla sizi ve ulaştığı herkesi uyarayım. Siz gerçekten Allah'ın yanında başka ilahların bulunduğuna tanıklık ediyor musunuz?\" De ki: \"Ben buna tanıklık etmiyorum.\" De ki: \"O, sadece tek bir tanrıdır! Ve ben, sizin ortak tuttuğunuz şeylerden uzağım!\""
+},
+"6:21": {
+"ar": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَـٰتِهِۦٓ ۗ إِنَّهُۥ لَا يُفْلِحُ ٱلظَّـٰلِمُونَ",
+"tr": "Yalan düzerek Allah'a iftira eden yahut O'nun ayetlerini yalanlayandan daha zalim kim vardır? Şu da bir gerçek ki, zalimler asla kurtulamazlar!"
+},
+"6:22": {
+"ar": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوٓا۟ أَيْنَ شُرَكَآؤُكُمُ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+"tr": "Gün olur, onları bir araya toplayıp haşrederiz. Sonra, şirke batanlara sorarız: \"Nerededir o bir şey zannedip durduğunuz ortaklarınız?\""
+},
+"6:23": {
+"ar": "ثُمَّ لَمْ تَكُن فِتْنَتُهُمْ إِلَّآ أَن قَالُوا۟ وَٱللَّهِ رَبِّنَا مَا كُنَّا مُشْرِكِينَ",
+"tr": "Sonunda şunu söylemekten başka bahaneleri kalmaz: \"Rabbimiz Allah'a yemin olsun ki, biz, ortak koşanlar değildik.\""
+},
+"6:24": {
+"ar": "ٱنظُرْ كَيْفَ كَذَبُوا۟ عَلَىٰٓ أَنفُسِهِمْ ۚ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
+"tr": "Bak da gör, nasıl yalan söylediler öz benliklerine karşı! Ve iftira için kullandıkları şeyler, onları bırakıp kayboldu."
+},
+"6:27": {
+"ar": "وَلَوْ تَرَىٰٓ إِذْ وُقِفُوا۟ عَلَى ٱلنَّارِ فَقَالُوا۟ يَـٰلَيْتَنَا نُرَدُّ وَلَا نُكَذِّبَ بِـَٔايَـٰتِ رَبِّنَا وَنَكُونَ مِنَ ٱلْمُؤْمِنِينَ",
+"tr": "Ah bir görsen, ateşin başında durdurulup da şöyle dediklerini: \"Ne olurdu, geri gönderilsek, Rabbimizin ayetlerini yalanlamasak ve müminlerden oluversek.\""
+},
+"6:39": {
+"ar": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا صُمٌّ وَبُكْمٌ فِى ٱلظُّلُمَـٰتِ ۗ مَن يَشَإِ ٱللَّهُ يُضْلِلْهُ وَمَن يَشَأْ يَجْعَلْهُ عَلَىٰ صِرَٰطٍ مُّسْتَقِيمٍ",
+"tr": "Bizim ayetlerimizi yalanlayanlar, karanlıklara gömülmüş sağır ve dilsizlerdir. Allah, dilediği/dileyen kişiyi şaşırtır, dilediğini/dileyeni de dosdoğru yol üzerine koyar."
+},
+"6:41": {
+"ar": "بَلْ إِيَّاهُ تَدْعُونَ فَيَكْشِفُ مَا تَدْعُونَ إِلَيْهِ إِن شَآءَ وَتَنسَوْنَ مَا تُشْرِكُونَ",
+"tr": "Hayır, yalnız O'na yakarırsınız da O dilerse yakındığınız belayı uzaklaştırır. Ve siz, ortak koştuklarınızı unutuverirsiniz."
+},
+"6:49": {
+"ar": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا يَمَسُّهُمُ ٱلْعَذَابُ بِمَا كَانُوا۟ يَفْسُقُونَ",
+"tr": "Ayetlerimizi yalanlayanlara gelince, fenalığa bulaşmaları yüzünden kendilerine azap dokunacaktır."
+},
+"6:56": {
+"ar": "قُلْ إِنِّى نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ ۚ قُل لَّآ أَتَّبِعُ أَهْوَآءَكُمْ ۙ قَدْ ضَلَلْتُ إِذًا وَمَآ أَنَا۠ مِنَ ٱلْمُهْتَدِينَ",
+"tr": "De ki: \"Ben, Allah'ı bırakıp da yakardıklarınıza kulluk etmekten yasaklandım!\" De ki: \"Sizin keyiflerinize uymam! Çünkü bunu yaparsam sapıtmış olurum, doğruyu ve güzeli bulanlardan olmam.\""
+},
+"6:64": {
+"ar": "قُلِ ٱللَّهُ يُنَجِّيكُم مِّنْهَا وَمِن كُلِّ كَرْبٍ ثُمَّ أَنتُمْ تُشْرِكُونَ",
+"tr": "De ki: \"Ondan da tüm sıkıntılardan da sizi Allah kurtarıyor; sonra siz O'na ortak koşuyorsunuz.\""
+},
+"6:65": {
+"ar": "قُلْ هُوَ ٱلْقَادِرُ عَلَىٰٓ أَن يَبْعَثَ عَلَيْكُمْ عَذَابًا مِّن فَوْقِكُمْ أَوْ مِن تَحْتِ أَرْجُلِكُمْ أَوْ يَلْبِسَكُمْ شِيَعًا وَيُذِيقَ بَعْضَكُم بَأْسَ بَعْضٍ ۗ ٱنظُرْ كَيْفَ نُصَرِّفُ ٱلْـَٔايَـٰتِ لَعَلَّهُمْ يَفْقَهُونَ",
+"tr": "De ki: \"O size, üstünüzden yahut ayaklarınızın altından bir azap göndermeye yahut sizi fırka fırka birbirinize düşürerek/fırkalara bölüp içinden çıkılmaz durumlara düşürerek/fırkaları elbise gibi size giydirerek kiminizin şiddetini kiminize tattırmaya Kaadir'dir.\" Bak nasıl sıralıyoruz ayetleri, iyice kavrayabilsinler diye."
+},
+"6:81": {
+"ar": "وَكَيْفَ أَخَافُ مَآ أَشْرَكْتُمْ وَلَا تَخَافُونَ أَنَّكُمْ أَشْرَكْتُم بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ عَلَيْكُمْ سُلْطَـٰنًا ۚ فَأَىُّ ٱلْفَرِيقَيْنِ أَحَقُّ بِٱلْأَمْنِ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+"tr": "\"Hem siz, hakkında size hiçbir kanıt indirmediği şeyleri Allah'a ortak koştuğunuz halde korkmuyorsunuz da ben, ortak tuttuğunuz şeylerden nasıl korkarım!\" Şimdi, eğer biliyorsanız, iki gruptan hangisi güvende olmaya/güvenilmeye daha layıktır?"
+},
+"6:88": {
+"ar": "ذَٰلِكَ هُدَى ٱللَّهِ يَهْدِى بِهِۦ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۚ وَلَوْ أَشْرَكُوا۟ لَحَبِطَ عَنْهُم مَّا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Allah'ın yol göstermesidir bu. Kullarından dilediğini bununla iletir iyiye ve güzele. Eğer onlar şirke bulaşsalardı yapıp ettikleri kendilerine yararsız hale gelirdi."
+},
+"6:93": {
+"ar": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ قَالَ أُوحِىَ إِلَىَّ وَلَمْ يُوحَ إِلَيْهِ شَىْءٌ وَمَن قَالَ سَأُنزِلُ مِثْلَ مَآ أَنزَلَ ٱللَّهُ ۗ وَلَوْ تَرَىٰٓ إِذِ ٱلظَّـٰلِمُونَ فِى غَمَرَٰتِ ٱلْمَوْتِ وَٱلْمَلَـٰٓئِكَةُ بَاسِطُوٓا۟ أَيْدِيهِمْ أَخْرِجُوٓا۟ أَنفُسَكُمُ ۖ ٱلْيَوْمَ تُجْزَوْنَ عَذَابَ ٱلْهُونِ بِمَا كُنتُمْ تَقُولُونَ عَلَى ٱللَّهِ غَيْرَ ٱلْحَقِّ وَكُنتُمْ عَنْ ءَايَـٰتِهِۦ تَسْتَكْبِرُونَ",
+"tr": "Yalan düzüp Allah'a iftira eden veya kendine bir şey vahyedilmediği halde \"Bana vahyedildi\" diyen kişi ile, \"Allah'ın ayet indirdiği gibi ben de indireceğim\" diyen kimseden daha zalim kim vardır? Bir görsen o zalimleri ölüm dalgaları içindeyken. Melekler ellerini uzatmış, \"Çıkarın canlarınızı!\" diye! \"Bugün zillet azabıyla cezalandırılacaksınız; çünkü Allah'a karşı gerçek dışı şeyler söylüyorsunuz ve çünkü O'nun ayetlerine karşı büyüklük taslıyordunuz.\""
+},
+"6:94": {
+"ar": "وَلَقَدْ جِئْتُمُونَا فُرَٰدَىٰ كَمَا خَلَقْنَـٰكُمْ أَوَّلَ مَرَّةٍ وَتَرَكْتُم مَّا خَوَّلْنَـٰكُمْ وَرَآءَ ظُهُورِكُمْ ۖ وَمَا نَرَىٰ مَعَكُمْ شُفَعَآءَكُمُ ٱلَّذِينَ زَعَمْتُمْ أَنَّهُمْ فِيكُمْ شُرَكَـٰٓؤُا۟ ۚ لَقَد تَّقَطَّعَ بَيْنَكُمْ وَضَلَّ عَنكُم مَّا كُنتُمْ تَزْعُمُونَ",
+"tr": "Yemin olsun, sizi ilk yarattığımızdaki gibi yapayalnız/teker teker bize geldiniz. Size verip hayaline daldırdığımız şeyleri de sırtlarınızın arkasında bıraktınız. Sizinle ilgili hususlarda ortaklar olduklarını sandığınız şefaatçılarınızı da yanınızda görmüyorsunuz. Yemin olsun, koptu aranızdaki tüm bağlar ve uzaklaşıp kayboldu yanınızdan o bir şey sandıklarınız."
+},
+"6:100": {
+"ar": "وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ ٱلْجِنَّ وَخَلَقَهُمْ ۖ وَخَرَقُوا۟ لَهُۥ بَنِينَ وَبَنَـٰتٍۭ بِغَيْرِ عِلْمٍ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يَصِفُونَ",
+"tr": "Allah'a bir de cinleri/gözle görülmeyen yaratıkları ortak koştular. Oysaki, onları O yaratmıştır. Bilgisizce O'na oğullar ve kızlar isnat etme saçmalığını gösterdiler. Şanı yücedir O'nun! Onların nitelemelerinin ötesindedir O!"
+},
+"6:101": {
+"ar": "بَدِيعُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۖ أَنَّىٰ يَكُونُ لَهُۥ وَلَدٌ وَلَمْ تَكُن لَّهُۥ صَـٰحِبَةٌ ۖ وَخَلَقَ كُلَّ شَىْءٍ ۖ وَهُوَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+"tr": "Gökleri ve yeri yaratıp donatan Bedî' O'dur! Nasıl çocuğu olur O'nun, kendisinin bir eşi olmadı ki! Her şeyi O yarattı ve her şeyi en iyi şekilde bilen de O'dur!"
+},
+"6:106": {
+"ar": "ٱتَّبِعْ مَآ أُوحِىَ إِلَيْكَ مِن رَّبِّكَ ۖ لَآ إِلَـٰهَ إِلَّا هُوَ ۖ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
+"tr": "Rabbinden sana vahyedilene uy! O'ndan başka ilah yoktur. Müşriklerden yüz çevir!"
+},
+"6:108": {
+"ar": "وَلَا تَسُبُّوا۟ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ فَيَسُبُّوا۟ ٱللَّهَ عَدْوًۢا بِغَيْرِ عِلْمٍ ۗ كَذَٰلِكَ زَيَّنَّا لِكُلِّ أُمَّةٍ عَمَلَهُمْ ثُمَّ إِلَىٰ رَبِّهِم مَّرْجِعُهُمْ فَيُنَبِّئُهُم بِمَا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Onların Allah dışında dua ettiklerine/çağrıda bulunduklarına sövmeyin. Yoksa onlar da düşmanlıkla ve bilgisizce Allah'a söverler. Biz her ümmete yaptığı işi bu şekilde süslü gösterdik. Sonra hepsinin dönüşü Rablerinedir. O, onlara, yapmakta olduklarını haber verecektir."
+},
+"6:121": {
+"ar": "وَلَا تَأْكُلُوا۟ مِمَّا لَمْ يُذْكَرِ ٱسْمُ ٱللَّهِ عَلَيْهِ وَإِنَّهُۥ لَفِسْقٌ ۗ وَإِنَّ ٱلشَّيَـٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوْلِيَآئِهِمْ لِيُجَـٰدِلُوكُمْ ۖ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ",
+"tr": "Üzerine Allah'ın adı anılmayanlardan yemeyin. Böyle bir şey tam bir yoldan çıkıştır. Şeytanlar kendi evliyasına/dost ve destekçilerine sizinle mücadele etmeleri için elbetteki vahiy gönderirler. O şeytan evliyasına boyun eğerseniz kesinlikle müşrikler oldunuz demektir."
+},
+"6:136": {
+"ar": "وَجَعَلُوا۟ لِلَّهِ مِمَّا ذَرَأَ مِنَ ٱلْحَرْثِ وَٱلْأَنْعَـٰمِ نَصِيبًا فَقَالُوا۟ هَـٰذَا لِلَّهِ بِزَعْمِهِمْ وَهَـٰذَا لِشُرَكَآئِنَا ۖ فَمَا كَانَ لِشُرَكَآئِهِمْ فَلَا يَصِلُ إِلَى ٱللَّهِ ۖ وَمَا كَانَ لِلَّهِ فَهُوَ يَصِلُ إِلَىٰ شُرَكَآئِهِمْ ۗ سَآءَ مَا يَحْكُمُونَ",
+"tr": "Kendi döllendirip yaydığı ekinden ve hayvanlardan Allah'a bir pay ayırdılar da kendi zanlarınca şöyle dediler: \"Bu Allah için, bu da ortaklarımız için.\" ortakları için olan Allah'a ulaşmaz. Ama Allah için olan, ortaklarına ulaşıyor. Ne kötü hüküm veriyorlar!"
+},
+"6:137": {
+"ar": "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَـٰدِهِمْ شُرَكَآؤُهُمْ لِيُرْدُوهُمْ وَلِيَلْبِسُوا۟ عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
+"tr": "Aynen bunun gibi, müşriklerden birçoğuna, Allah'a ortak koştukları kişiler, öz evlatlarını öldürmeyi güzel göstermiştir ki, hem onları yok etsinler hem de dinlerini onlar aleyhine karmakarışık hale getirsinler. Allah dileseydi bunu yapamazlardı. O halde onları, düzdükleri iftiralarla baş başa bırak."
+},
+"6:148": {
+"ar": "سَيَقُولُ ٱلَّذِينَ أَشْرَكُوا۟ لَوْ شَآءَ ٱللَّهُ مَآ أَشْرَكْنَا وَلَآ ءَابَآؤُنَا وَلَا حَرَّمْنَا مِن شَىْءٍ ۚ كَذَٰلِكَ كَذَّبَ ٱلَّذِينَ مِن قَبْلِهِمْ حَتَّىٰ ذَاقُوا۟ بَأْسَنَا ۗ قُلْ هَلْ عِندَكُم مِّنْ عِلْمٍ فَتُخْرِجُوهُ لَنَآ ۖ إِن تَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ أَنتُمْ إِلَّا تَخْرُصُونَ",
+"tr": "Şirke batanlar şöyle diyecekler: \"Allah dileseydi, ne biz şirke sapardık ne de atalarımız. Hiçbir şeyi haram da yapmazdık.\" Onlardan öncekiler de azabımızı tadıncaya kadar bu şekilde yalanlamışlardı. De ki: \"Yanınızda, önümüze çıkaracağınız bir ilminiz var mı? Zandan başka bir şeye uymuyorsunuz. Sadece saçmalıyorsunuz siz.\""
+},
+"6:150": {
+"ar": "قُلْ هَلُمَّ شُهَدَآءَكُمُ ٱلَّذِينَ يَشْهَدُونَ أَنَّ ٱللَّهَ حَرَّمَ هَـٰذَا ۖ فَإِن شَهِدُوا۟ فَلَا تَشْهَدْ مَعَهُمْ ۚ وَلَا تَتَّبِعْ أَهْوَآءَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ وَهُم بِرَبِّهِمْ يَعْدِلُونَ",
+"tr": "Şunu da söyle: \"Allah şunu haram etmiştir diye tanıklık edip duran şahitlerinizi getirin.\" Eğer tanıklık ederlerse sakın onlarla birlikte tanıklık etme! Ayetlerimizi yalanlayanlarla âhirete inanmayanların keyifleri ardınca gitme! Onlar, kendi Rablerine başkalarını denk tutuyorlar."
+},
+"6:151": {
+"ar": "قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُم مِّنْ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
+"tr": "De ki onlara: \"Hadi gelin, Rabbinizin size neleri haram kıldığını yüzünüze karşı okuyayım: Hiçbir şeyi O'na ortak koşmayın. Ana-babaya çok iyi davranın. Yoksulluk endişesiyle çocuklarınızı öldürmeyin; biz sizi de onları da rızıklandırırız. Kötülüklerin görünenine de gizli kalanına da yaklaşmayın. Allah'ın saygın ve aziz kıldığı cana, bir hakkı savunmak dışında kıymayın. Allah size bunları önerdi ki, aklınızı işletebilesiniz.\""
+},
+"6:157": {
+"ar": "أَوْ تَقُولُوا۟ لَوْ أَنَّآ أُنزِلَ عَلَيْنَا ٱلْكِتَـٰبُ لَكُنَّآ أَهْدَىٰ مِنْهُمْ ۚ فَقَدْ جَآءَكُم بَيِّنَةٌ مِّن رَّبِّكُمْ وَهُدًى وَرَحْمَةٌ ۚ فَمَنْ أَظْلَمُ مِمَّن كَذَّبَ بِـَٔايَـٰتِ ٱللَّهِ وَصَدَفَ عَنْهَا ۗ سَنَجْزِى ٱلَّذِينَ يَصْدِفُونَ عَنْ ءَايَـٰتِنَا سُوٓءَ ٱلْعَذَابِ بِمَا كَانُوا۟ يَصْدِفُونَ",
+"tr": "Şunu da söylemelisiniz: \"Eğer bize Kitap indirilmiş olsaydı, onlardan daha doğru yürüyüşlü olurduk.\" Artık size Rabbinizden bir beyyine, bir kılavuz ve bir rahmet gelmiş bulunuyor. Allah'ın ayetlerini yalanlayıp onlardan yüz çevirenden daha zalim kim var? Ayetlerimize sırt dönenleri, yüz çevirmeleri yüzünden azabın en acıklısıyla cezalandıracağız."
+},
+"6:163": {
+"ar": "لَا شَرِيكَ لَهُۥ ۖ وَبِذَٰلِكَ أُمِرْتُ وَأَنَا۠ أَوَّلُ ٱلْمُسْلِمِينَ",
+"tr": "\"Ortağı yoktur O'nun. Bununla emrolundum ben. Ve Müslümanların ilkiyim ben.\""
+},
+"7:3": {
+"ar": "ٱتَّبِعُوا۟ مَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُمْ وَلَا تَتَّبِعُوا۟ مِن دُونِهِۦٓ أَوْلِيَآءَ ۗ قَلِيلًا مَّا تَذَكَّرُونَ",
+"tr": "Rabbinizden size indirilene uyun; O'nun berisinden bir takım velilerin ardına düşmeyin! Siz ne kadar da az öğüt alıyorsunuz!"
+},
+"7:33": {
+"ar": "قُلْ إِنَّمَا حَرَّمَ رَبِّىَ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَٱلْإِثْمَ وَٱلْبَغْىَ بِغَيْرِ ٱلْحَقِّ وَأَن تُشْرِكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
+"tr": "De ki: \"Rabbim, ancak şunları haram kıldı: İğrençlikleri -görünenini, gizli olanını- günahı, haksız yere saldırmayı, hakkında hiçbir kanıt indirmediği şeyi Allah'a ortak koşmayı, bir de Allah hakkında bilmediğiniz şeyler söylemeyi.\""
+},
+"7:36": {
+"ar": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
+"tr": "Ayetlerimizi yalanlayıp onlar karşısında burun kıvıranlara gelince, bunlar ateşin dostlarıdır. Sürekli kalacaklardır onun içinde."
+},
+"7:37": {
+"ar": "فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَـٰتِهِۦٓ ۚ أُو۟لَـٰٓئِكَ يَنَالُهُمْ نَصِيبُهُم مِّنَ ٱلْكِتَـٰبِ ۖ حَتَّىٰٓ إِذَا جَآءَتْهُمْ رُسُلُنَا يَتَوَفَّوْنَهُمْ قَالُوٓا۟ أَيْنَ مَا كُنتُمْ تَدْعُونَ مِن دُونِ ٱللَّهِ ۖ قَالُوا۟ ضَلُّوا۟ عَنَّا وَشَهِدُوا۟ عَلَىٰٓ أَنفُسِهِمْ أَنَّهُمْ كَانُوا۟ كَـٰفِرِينَ",
+"tr": "Yalan düzerek Allah'a iftira eden yahut O'nun ayetlerini yalanlayanlardan daha zalim kim vardır? İşte bunların Kitap'tan nasipleri kendilerine ulaşır, nihayet elçilerimiz onlara gelip canlarını alırken şöyle derler: \"Allah dışındaki yakardıklarınız nerede?\" Şu cevabı verirler: \"Bizden uzaklaşıp kayboldular.\" Böylece, öz benlikleri aleyhine kendilerinin kafir olduğuna tanıklık ettiler."
+},
+"7:38": {
+"ar": "قَالَ ٱدْخُلُوا۟ فِىٓ أُمَمٍ قَدْ خَلَتْ مِن قَبْلِكُم مِّنَ ٱلْجِنِّ وَٱلْإِنسِ فِى ٱلنَّارِ ۖ كُلَّمَا دَخَلَتْ أُمَّةٌ لَّعَنَتْ أُخْتَهَا ۖ حَتَّىٰٓ إِذَا ٱدَّارَكُوا۟ فِيهَا جَمِيعًا قَالَتْ أُخْرَىٰهُمْ لِأُولَىٰهُمْ رَبَّنَا هَـٰٓؤُلَآءِ أَضَلُّونَا فَـَٔاتِهِمْ عَذَابًا ضِعْفًا مِّنَ ٱلنَّارِ ۖ قَالَ لِكُلٍّ ضِعْفٌ وَلَـٰكِن لَّا تَعْلَمُونَ",
+"tr": "Allah buyurdu: \"Sizden önce gelip geçmiş cin ve insan topluluklarıyla içiçe, girin bakalım ateşe.\" Her ümmet girdiğinde, yoldaşına/kızkardeşine lanet eder. Nihayet, hepsi orada bir araya gelince, sonrakiler öncekiler için şöyle derler: \"Rabbimiz! Bizi bunlar saptırdılar. Ateş azabını bunlara bir kat daha fazla ver.\" Allah buyurur: \"Her biri için bir kat fazlası var, fakat siz bilmezsiniz.\""
+},
+"7:40": {
+"ar": "إِنَّ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَٱسْتَكْبَرُوا۟ عَنْهَا لَا تُفَتَّحُ لَهُمْ أَبْوَٰبُ ٱلسَّمَآءِ وَلَا يَدْخُلُونَ ٱلْجَنَّةَ حَتَّىٰ يَلِجَ ٱلْجَمَلُ فِى سَمِّ ٱلْخِيَاطِ ۚ وَكَذَٰلِكَ نَجْزِى ٱلْمُجْرِمِينَ",
+"tr": "Ayetlerimizi yalanlayan ve onlar karşısında büyüklük taslayanlar var ya, gök kapıları açılmayacaktır onlar için ve deve iğne deliğinden geçinceye kadar cennete giremeyeceklerdir onlar. Suçluları böyle cezalandırırız biz."
+},
+"7:41": {
+"ar": "لَهُم مِّن جَهَنَّمَ مِهَادٌ وَمِن فَوْقِهِمْ غَوَاشٍ ۚ وَكَذَٰلِكَ نَجْزِى ٱلظَّـٰلِمِينَ",
+"tr": "Onlar için cehennemden bir döşek ve üstlerinde örtüler vardır. Zalimleri böyle cezalandırırız biz."
+},
+"7:59": {
+"ar": "لَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ عَظِيمٍ",
+"tr": "Andolsun ki biz, Nuh'u toplumuna gönderdik de o şöyle dedi: \"Ey toplumum! Allah'a kulluk ve ibadet edin. Sizin ondan başka tanrınız yok. Üstünüze çok büyük bir azabın inmesinden korkuyorum.\""
+},
+"7:64": {
+"ar": "فَكَذَّبُوهُ فَأَنجَيْنَـٰهُ وَٱلَّذِينَ مَعَهُۥ فِى ٱلْفُلْكِ وَأَغْرَقْنَا ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا عَمِينَ",
+"tr": "Onu yalanladılar. Bunun üzerine biz onu beraberindekileri gemi içinde kurtardık, ayetlerimizi yalanlayanları boğduk. Gözleri görmez bir topluluktu onlar."
+},
+"7:65": {
+"ar": "وَإِلَىٰ عَادٍ أَخَاهُمْ هُودًا ۗ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥٓ ۚ أَفَلَا تَتَّقُونَ",
+"tr": "Ad'a da kardeşleri Hud'u gönderdik. Dedi ki: \"Ey toplumum! Allah'a kulluk edin. Sizin O'ndan başka ilahınız yok. Hala sakınmıyor musunuz?\""
+},
+"7:72": {
+"ar": "فَأَنجَيْنَـٰهُ وَٱلَّذِينَ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَقَطَعْنَا دَابِرَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا ۖ وَمَا كَانُوا۟ مُؤْمِنِينَ",
+"tr": "Nihayet, onu ve beraberindekileri bizden bir rahmetle kurtardık; ayetlerimizi yalanlayanların da kökünü kestik. İnanan kişiler değillerdi onlar."
+},
+"7:85": {
+"ar": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۗ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَـٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+"tr": "Medyen'e de kardeşleri Şuayb'ı gönderdik. Şöyle dedi: \"Ey toplumum! Allah'a kulluk edin. Size O'ndan başka ilah yok! Size Rabbinizden açık bir kanıt gelmiştir. Ölçü ve tartı da dürüst davranın. İnsanların eşyasına el koymaya tenezzül etmeyin. Yeryüzünde, orası barışa kavuştuktan sonra bozgun çıkarmayın. Eğer inanan insanlarsanız bu sizin için daha hayırlıdır.\""
+},
+"7:136": {
+"ar": "فَٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَـٰهُمْ فِى ٱلْيَمِّ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَكَانُوا۟ عَنْهَا غَـٰفِلِينَ",
+"tr": "Bunun üzerine biz de onlardan öc aldık: Ayetlerimizi yalanladıkları, onlara aldırmazlık ettikleri için hepsini suda bozduk."
+},
+"7:146": {
+"ar": "سَأَصْرِفُ عَنْ ءَايَـٰتِىَ ٱلَّذِينَ يَتَكَبَّرُونَ فِى ٱلْأَرْضِ بِغَيْرِ ٱلْحَقِّ وَإِن يَرَوْا۟ كُلَّ ءَايَةٍ لَّا يُؤْمِنُوا۟ بِهَا وَإِن يَرَوْا۟ سَبِيلَ ٱلرُّشْدِ لَا يَتَّخِذُوهُ سَبِيلًا وَإِن يَرَوْا۟ سَبِيلَ ٱلْغَىِّ يَتَّخِذُوهُ سَبِيلًا ۚ ذَٰلِكَ بِأَنَّهُمْ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَكَانُوا۟ عَنْهَا غَـٰفِلِينَ",
+"tr": "Yeryüzünde haksız yere büyüklük taslayanları ayetlerimden uzak tutacağım: Onlar hangi mucizeyi görseler ona inanmazlar. Doğruya varan yolu görseler, onu yol edinmezler. Ama azgınlık yolunu görseler onu yol edinirler. Bu böyledir. Çünkü onlar ayetlerimizi yalanladılar ve onlara karşı kayıtsız kaldılar."
+},
+"7:147": {
+"ar": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَلِقَآءِ ٱلْـَٔاخِرَةِ حَبِطَتْ أَعْمَـٰلُهُمْ ۚ هَلْ يُجْزَوْنَ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Ayetlerimizi ve ahirete varılacağını yalan sayanların tüm yaptıkları boşa gitmiştir. Bulacakları karşılık, yapıp ürettiklerinden başkası olmayacaktır."
+},
+"7:173": {
+"ar": "أَوْ تَقُولُوٓا۟ إِنَّمَآ أَشْرَكَ ءَابَآؤُنَا مِن قَبْلُ وَكُنَّا ذُرِّيَّةً مِّنۢ بَعْدِهِمْ ۖ أَفَتُهْلِكُنَا بِمَا فَعَلَ ٱلْمُبْطِلُونَ",
+"tr": "Şöyle de demeyesiniz: \"Daha önce atalarımız şirke batmıştı. Biz de onların ardından gelen bir soyuz. Gerçeği çiğneyenler yüzünden bizi helak mı edeceksin?\""
+},
+"7:177": {
+"ar": "سَآءَ مَثَلًا ٱلْقَوْمُ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَأَنفُسَهُمْ كَانُوا۟ يَظْلِمُونَ",
+"tr": "Ayetlerimizi yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Onlar öz benliklerine zulmediyorlardı."
+},
+"7:182": {
+"ar": "وَٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا سَنَسْتَدْرِجُهُم مِّنْ حَيْثُ لَا يَعْلَمُونَ",
+"tr": "Ayetlerimizi yalanlayanları, hiç bilemeyecekleri bir yerden ağır ağır çöküşe götüreceğiz."
+},
+"7:190": {
+"ar": "فَلَمَّآ ءَاتَىٰهُمَا صَـٰلِحًا جَعَلَا لَهُۥ شُرَكَآءَ فِيمَآ ءَاتَىٰهُمَا ۚ فَتَعَـٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ",
+"tr": "Allah onlara ruhta, bedende güzel bir çocuk verince, kendilerine verdiği nimete ikisi birden Allah'a ortak koşmaya başladılar. Allah onların ortak koştuğu şeylerden arınmıştır."
+},
+"7:191": {
+"ar": "أَيُشْرِكُونَ مَا لَا يَخْلُقُ شَيْـًٔا وَهُمْ يُخْلَقُونَ",
+"tr": "Hiçbir şey yaratmayan, bizzat kendileri yaratılmış olan şeyleri/kişileri mi ortak koşuyorlar?"
+},
+"8:54": {
+"ar": "كَدَأْبِ ءَالِ فِرْعَوْنَ ۙ وَٱلَّذِينَ مِن قَبْلِهِمْ ۚ كَذَّبُوا۟ بِـَٔايَـٰتِ رَبِّهِمْ فَأَهْلَكْنَـٰهُم بِذُنُوبِهِمْ وَأَغْرَقْنَآ ءَالَ فِرْعَوْنَ ۚ وَكُلٌّ كَانُوا۟ ظَـٰلِمِينَ",
+"tr": "Tıpkı Firavun hanedanı ve onlardan öncekilerin tavırları gibi. Rablerinin ayetlerini yalanlamışlardı. Biz de onları günahları yüzünden mahvettik. Firavun hanedanını da boğmuştuk. Bunların tümü zulme sapanlardı."
+},
+"9:17": {
+"ar": "مَا كَانَ لِلْمُشْرِكِينَ أَن يَعْمُرُوا۟ مَسَـٰجِدَ ٱللَّهِ شَـٰهِدِينَ عَلَىٰٓ أَنفُسِهِم بِٱلْكُفْرِ ۚ أُو۟لَـٰٓئِكَ حَبِطَتْ أَعْمَـٰلُهُمْ وَفِى ٱلنَّارِ هُمْ خَـٰلِدُونَ",
+"tr": "Müşrikler, öz benliklerinin küfre sapışına tanık olup dururlarken, Allah'ın mescitlerini onarmaya girişemezler. Tüm amelleri boşa çıkmıştır onların. Ateşte sürekli kalacaklardır onlar."
+},
+"9:30": {
+"ar": "وَقَالَتِ ٱلْيَهُودُ عُزَيْرٌ ٱبْنُ ٱللَّهِ وَقَالَتِ ٱلنَّصَـٰرَى ٱلْمَسِيحُ ٱبْنُ ٱللَّهِ ۖ ذَٰلِكَ قَوْلُهُم بِأَفْوَٰهِهِمْ ۖ يُضَـٰهِـُٔونَ قَوْلَ ٱلَّذِينَ كَفَرُوا۟ مِن قَبْلُ ۚ قَـٰتَلَهُمُ ٱللَّهُ ۚ أَنَّىٰ يُؤْفَكُونَ",
+"tr": "Yahudiler: \"Uzeyr, Allah'ın oğludur.\" dediler; Hıristiyanlar da: \"Mesih, Allah'ın oğludur.\" dediler. Kendi ağızlarının sözüdür bu. Kendilerinden önce inkâr edenlerin sözlerine benzetme yapıyorlar. Allah onları kahretsin! Nasıl da yüz geri çevriliyorlar!"
+},
+"9:31": {
+"ar": "ٱتَّخَذُوٓا۟ أَحْبَارَهُمْ وَرُهْبَـٰنَهُمْ أَرْبَابًا مِّن دُونِ ٱللَّهِ وَٱلْمَسِيحَ ٱبْنَ مَرْيَمَ وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوٓا۟ إِلَـٰهًا وَٰحِدًا ۖ لَّآ إِلَـٰهَ إِلَّا هُوَ ۚ سُبْحَـٰنَهُۥ عَمَّا يُشْرِكُونَ",
+"tr": "Allah'ın yanında hahamlarını ve ruhbanlarını da rabler edindiler. Meryem oğlu Mesih'i de öyle. Oysa kendilerine, tek olan Allah'tan başkasına ibadet/kulluk etmemeleri emredilmişti. İlah yok o tek Allah'tan başka. Onların ortak koştuklarından arınmıştır O."
+},
+"9:113": {
+"ar": "مَا كَانَ لِلنَّبِىِّ وَٱلَّذِينَ ءَامَنُوٓا۟ أَن يَسْتَغْفِرُوا۟ لِلْمُشْرِكِينَ وَلَوْ كَانُوٓا۟ أُو۟لِى قُرْبَىٰ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمْ أَنَّهُمْ أَصْحَـٰبُ ٱلْجَحِيمِ",
+"tr": "Akraba bile olsalar, cehennem halkı oldukları açıkça belli olduktan sonra müşrikler için af dilemek ne peygambere yakışır ne de iman edenlere."
+},
+"10:17": {
+"ar": "فَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِـَٔايَـٰتِهِۦٓ ۚ إِنَّهُۥ لَا يُفْلِحُ ٱلْمُجْرِمُونَ",
+"tr": "Yalan düzerek Allah'a iftira eden yahut onun ayetlerini yalanlayan kişiden daha zalim kim var? Şu bir gerçek ki, suçlular iflah etmezler."
+},
+"10:18": {
+"ar": "وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَيَقُولُونَ هَـٰٓؤُلَآءِ شُفَعَـٰٓؤُنَا عِندَ ٱللَّهِ ۚ قُلْ أَتُنَبِّـُٔونَ ٱللَّهَ بِمَا لَا يَعْلَمُ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ",
+"tr": "Allah'ın yanında bir de kendilerine zarar veremeyen, yarar sağlayamayan şeylere kulluk ediyorlar ve şöyle diyorlar: \"Bunlar bizim Allah katındaki şefaatçılarımızdır.\" De onlara: \"Allah'a, göklerde ve yerde bilmediği şeyleri mi haber veriyorsunuz?\" Şanı yücedir O'nun, ortak koştuklarından arınmıştır O."
+},
+"10:28": {
+"ar": "وَيَوْمَ نَحْشُرُهُمْ جَمِيعًا ثُمَّ نَقُولُ لِلَّذِينَ أَشْرَكُوا۟ مَكَانَكُمْ أَنتُمْ وَشُرَكَآؤُكُمْ ۚ فَزَيَّلْنَا بَيْنَهُمْ ۖ وَقَالَ شُرَكَآؤُهُم مَّا كُنتُمْ إِيَّانَا تَعْبُدُونَ",
+"tr": "Gün olur, onları bir araya toplarız; sonra şirke batmışlara sesleniriz: \"Siz ve ortak yaptıklarınız, yerlerinize!\" Aralarını ayırmışızdır. Ortak tuttukları şöyle haykırırlar: \"Siz bize kulluk etmiyordunuz.\""
+},
+"10:30": {
+"ar": "هُنَالِكَ تَبْلُوا۟ كُلُّ نَفْسٍ مَّآ أَسْلَفَتْ ۚ وَرُدُّوٓا۟ إِلَى ٱللَّهِ مَوْلَىٰهُمُ ٱلْحَقِّ ۖ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
+"tr": "İşte orada, her benlik önceden gönderdiği şeyi kendisi deneyecektir. Hepsi gerçek Mevlâ'larına döndürülmüş, iftira aracı yaptıkları şeyler kendilerini koyup gitmiştir."
+},
+"10:66": {
+"ar": "أَلَآ إِنَّ لِلَّهِ مَن فِى ٱلسَّمَـٰوَٰتِ وَمَن فِى ٱلْأَرْضِ ۗ وَمَا يَتَّبِعُ ٱلَّذِينَ يَدْعُونَ مِن دُونِ ٱللَّهِ شُرَكَآءَ ۚ إِن يَتَّبِعُونَ إِلَّا ٱلظَّنَّ وَإِنْ هُمْ إِلَّا يَخْرُصُونَ",
+"tr": "Gözünüzü açın! Göklerde kim var yerde kim varsa Allah'ındır! Allah'ın yanında başka şeylere yalvaranlar, ortak koştuklarına uymuyorlar/Allah'ın yanında ortaklara yalvaranlar neyin ardı sıra gidiyorlar? Onlar sadece sanıya uyuyorlar ve onlar sadece saçmalıyorlar."
+},
+"10:68": {
+"ar": "قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا ۗ سُبْحَـٰنَهُۥ ۖ هُوَ ٱلْغَنِىُّ ۖ لَهُۥ مَا فِى ٱلسَّمَـٰوَٰتِ وَمَا فِى ٱلْأَرْضِ ۚ إِنْ عِندَكُم مِّن سُلْطَـٰنٍۭ بِهَـٰذَآ ۚ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
+"tr": "\"Allah çocuk edindi!\" dediler. Hâşâ! Allah bundan arınmıştır! O Ganî'dir, hiçbir şeye muhtaç olmaz! Göklerdekiler de yerdekiler de O'nundur. Elinizde, söylediğinize ilişkin hiçbir kanıt yok. Allah hakkında bilmediğiniz şeyi mi söylüyorsunuz?"
+},
+"10:73": {
+"ar": "فَكَذَّبُوهُ فَنَجَّيْنَـٰهُ وَمَن مَّعَهُۥ فِى ٱلْفُلْكِ وَجَعَلْنَـٰهُمْ خَلَـٰٓئِفَ وَأَغْرَقْنَا ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُنذَرِينَ",
+"tr": "Bunun üzerine, onu yalanladılar. Biz de onu ve gemide onunla beraber bulunanları kurtardık, onları yöneticiler yaptık; ayetlerimizi yalanlayanları da batırıp boğduk. Bak da gör, önceden uyarılanların sonu nice oluyor!"
+},
+"10:95": {
+"ar": "وَلَا تَكُونَنَّ مِنَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِ ٱللَّهِ فَتَكُونَ مِنَ ٱلْخَـٰسِرِينَ",
+"tr": "Ve sakın ayetlerimizi yalanlayanlardan olma, yoksa hüsrana düşenlerden olursun."
+},
+"10:105": {
+"ar": "وَأَنْ أَقِمْ وَجْهَكَ لِلدِّينِ حَنِيفًا وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
+"tr": "Şu da emredildi: \"Yüzünü, bir hanîf olarak dine çevir. Sakın müşriklerden olma!\""
+},
+"10:106": {
+"ar": "وَلَا تَدْعُ مِن دُونِ ٱللَّهِ مَا لَا يَنفَعُكَ وَلَا يَضُرُّكَ ۖ فَإِن فَعَلْتَ فَإِنَّكَ إِذًا مِّنَ ٱلظَّـٰلِمِينَ",
+"tr": "\"Allah'ın berisinden, sana yarar sağlamayacak ve zarar veremeyecek şeylere yakarma! Eğer bunu yaparsan mutlaka zalimlerden olursun.\""
+},
+"11:26": {
+"ar": "أَن لَّا تَعْبُدُوٓا۟ إِلَّا ٱللَّهَ ۖ إِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ أَلِيمٍ",
+"tr": "\"Allah'tan başkasına kulluk etmeyin. Korkunç bir günün azabına uğramanızdan korkuyorum.\" demişti de,"
+},
+"11:61": {
+"ar": "وَإِلَىٰ ثَمُودَ أَخَاهُمْ صَـٰلِحًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ هُوَ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَٱسْتَعْمَرَكُمْ فِيهَا فَٱسْتَغْفِرُوهُ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى قَرِيبٌ مُّجِيبٌ",
+"tr": "Semûd'a da kardeşleri Sâlih'i gönderdik. Dedi ki: \"Ey toplumum! Allah'a kulluk edin. Sizin O'ndan başka ilahınız yok. Sizi topraktan oluşturan ve size orada ömür geçirten O'dur. Artık O'ndan af dileyin, O'na dönün. Rabbim Karîb'dir, bize çok yakındır; Mucîb'dir, bize cevap verir.\""
+},
+"12:38": {
+"ar": "وَٱتَّبَعْتُ مِلَّةَ ءَابَآءِىٓ إِبْرَٰهِيمَ وَإِسْحَـٰقَ وَيَعْقُوبَ ۚ مَا كَانَ لَنَآ أَن نُّشْرِكَ بِٱللَّهِ مِن شَىْءٍ ۚ ذَٰلِكَ مِن فَضْلِ ٱللَّهِ عَلَيْنَا وَعَلَى ٱلنَّاسِ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَشْكُرُونَ",
+"tr": "\"Ve atalarım İbrahim'in, İshak'ın, Yakub'un milletine uydum. Bizim herhangi birşeyi Allah'a ortak tutmamız söz konusu olamaz. İşte bu, Allah'ın bize ve diğer insanlara bir lütfudur. Ama insanların çokları şükretmiyorlar.\""
+},
+"12:40": {
+"ar": "مَا تَعْبُدُونَ مِن دُونِهِۦٓ إِلَّآ أَسْمَآءً سَمَّيْتُمُوهَآ أَنتُمْ وَءَابَآؤُكُم مَّآ أَنزَلَ ٱللَّهُ بِهَا مِن سُلْطَـٰنٍ ۚ إِنِ ٱلْحُكْمُ إِلَّا لِلَّهِ ۚ أَمَرَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ ۚ ذَٰلِكَ ٱلدِّينُ ٱلْقَيِّمُ وَلَـٰكِنَّ أَكْثَرَ ٱلنَّاسِ لَا يَعْلَمُونَ",
+"tr": "\"O'nun yanında nelere kulluk ediyorsunuz? Sadece bir takım isimlere ki, adlarını siz ve atalarınız koymuştur. Onlar hakkında Allah, hiçbir kanıt indirmemiştir. Hüküm yalnız Allah'ındır. O, yalnız ve yalnız kendisine kulluk etmenizi emretti. Eskimez ve pörsümez din işte budur. Ama insanların çokları bilmiyorlar.\""
+},
+"12:106": {
+"ar": "وَمَا يُؤْمِنُ أَكْثَرُهُم بِٱللَّهِ إِلَّا وَهُم مُّشْرِكُونَ",
+"tr": "Onların çoğu şirke bulaşmış olmadan Allah'a iman etmez."
+},
+"13:16": {
+"ar": "قُلْ مَن رَّبُّ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ قُلِ ٱللَّهُ ۚ قُلْ أَفَٱتَّخَذْتُم مِّن دُونِهِۦٓ أَوْلِيَآءَ لَا يَمْلِكُونَ لِأَنفُسِهِمْ نَفْعًا وَلَا ضَرًّا ۚ قُلْ هَلْ يَسْتَوِى ٱلْأَعْمَىٰ وَٱلْبَصِيرُ أَمْ هَلْ تَسْتَوِى ٱلظُّلُمَـٰتُ وَٱلنُّورُ ۗ أَمْ جَعَلُوا۟ لِلَّهِ شُرَكَآءَ خَلَقُوا۟ كَخَلْقِهِۦ فَتَشَـٰبَهَ ٱلْخَلْقُ عَلَيْهِمْ ۚ قُلِ ٱللَّهُ خَـٰلِقُ كُلِّ شَىْءٍ وَهُوَ ٱلْوَٰحِدُ ٱلْقَهَّـٰرُ",
+"tr": "De ki: \"Göklerin ve yerin Rabbi kim?\" De ki: \"Allah.\" De ki: \"O'nun yanında başka evliya mı/destekçiler mi edindiniz? Bunlar kendilerine bile yarar sağlayıp zarar verme gücünde değiller.\" De ki: \"Körle gören yahut karanlıklarla ışık bir olur mu? Yoksa Allah'a, tıpkı O'nun yarattığı gibi yaratan ortaklar buldular da yaratış/yaratılanlar kendileri için benzeşir hale mi geldi?\" De ki: \"Allah'tır her şeyi yaratan, O'dur Vâhid ve Kahhâr olan.\""
+},
+"13:33": {
+"ar": "أَفَمَنْ هُوَ قَآئِمٌ عَلَىٰ كُلِّ نَفْسٍۭ بِمَا كَسَبَتْ ۗ وَجَعَلُوا۟ لِلَّهِ شُرَكَآءَ قُلْ سَمُّوهُمْ ۚ أَمْ تُنَبِّـُٔونَهُۥ بِمَا لَا يَعْلَمُ فِى ٱلْأَرْضِ أَم بِظَـٰهِرٍ مِّنَ ٱلْقَوْلِ ۗ بَلْ زُيِّنَ لِلَّذِينَ كَفَرُوا۟ مَكْرُهُمْ وَصُدُّوا۟ عَنِ ٱلسَّبِيلِ ۗ وَمَن يُضْلِلِ ٱللَّهُ فَمَا لَهُۥ مِنْ هَادٍ",
+"tr": "Allah'a ortaklar tanıdılar. Peki, her benliğin yaptığı işin başında duranla bunlar bir mi? De ki: \"Onları isimlendirin. Yoksa siz Allah'a, yeryüzünde bilmediği birşey mi haber veriyorsunuz? Yoksa, anlamsız bir laf mı ediyorsunuz?\" Hayır, küfre sapanlara, tuzakları süslü gösterildi de yoldan döndürüldüler. Allah'ın şaşırttığına kılavuzluk edecek yok."
+},
+"13:34": {
+"ar": "لَّهُمْ عَذَابٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَشَقُّ ۖ وَمَا لَهُم مِّنَ ٱللَّهِ مِن وَاقٍ",
+"tr": "Dünya hayatında bir azap var onlar için; âhiret azabı ise çok daha şiddetlidir. Onları Allah'a karşı koruyacak kimse de yoktur."
+},
+"13:36": {
+"ar": "وَٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يَفْرَحُونَ بِمَآ أُنزِلَ إِلَيْكَ ۖ وَمِنَ ٱلْأَحْزَابِ مَن يُنكِرُ بَعْضَهُۥ ۚ قُلْ إِنَّمَآ أُمِرْتُ أَنْ أَعْبُدَ ٱللَّهَ وَلَآ أُشْرِكَ بِهِۦٓ ۚ إِلَيْهِ أَدْعُوا۟ وَإِلَيْهِ مَـَٔابِ",
+"tr": "Kendilerine kitap verdiklerimiz, sana indirilenle ferahlarlar. Ama hiziplerden bazıları onun bir kısmını inkâr ederler. De ki: \"Bana, yalnız Allah'a kulluk etmem, O'na ortak koşmamam emredildi. Ben O'na yakarır, O'na davet ederim. Dönüşüm de O'nadır.\""
+},
+"14:22": {
+"ar": "وَقَالَ ٱلشَّيْطَـٰنُ لَمَّا قُضِىَ ٱلْأَمْرُ إِنَّ ٱللَّهَ وَعَدَكُمْ وَعْدَ ٱلْحَقِّ وَوَعَدتُّكُمْ فَأَخْلَفْتُكُمْ ۖ وَمَا كَانَ لِىَ عَلَيْكُم مِّن سُلْطَـٰنٍ إِلَّآ أَن دَعَوْتُكُمْ فَٱسْتَجَبْتُمْ لِى ۖ فَلَا تَلُومُونِى وَلُومُوٓا۟ أَنفُسَكُم ۖ مَّآ أَنَا۠ بِمُصْرِخِكُمْ وَمَآ أَنتُم بِمُصْرِخِىَّ ۖ إِنِّى كَفَرْتُ بِمَآ أَشْرَكْتُمُونِ مِن قَبْلُ ۗ إِنَّ ٱلظَّـٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+"tr": "İş bitirilince şeytan onlara şöyle dedi: \"Allah size hak bir vaatle vaatte bulundu, ben ise vaat ettim ama vaadimden caydım. Benim sizin üzerinizde bir sultam yoktu. Sizi davet ettim, siz de bana uydunuz. Hepsi bu. Şimdi beni kınamayı bırakın da öz benliklerinizi kınayın. Ne ben sizi kurtarabilirim ne de siz beni kurtarabilirsiniz. Aslında ben sizin, daha önceden beni şirk aracı yapmanıza karşı çıkmıştım. Zalimler için acıklı bir azap öngörülmüştür.\""
+},
+"15:94": {
+"ar": "فَٱصْدَعْ بِمَا تُؤْمَرُ وَأَعْرِضْ عَنِ ٱلْمُشْرِكِينَ",
+"tr": "Emrolunduğun şeyi, kafalarını çatlatırcasına tebliğ et; şirke bulaşmışlara aldırma."
+},
+"15:96": {
+"ar": "ٱلَّذِينَ يَجْعَلُونَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۚ فَسَوْفَ يَعْلَمُونَ",
+"tr": "Allah ile beraber başka tanrılar benimseyenler yakında bilecekler."
+},
+"16:27": {
+"ar": "ثُمَّ يَوْمَ ٱلْقِيَـٰمَةِ يُخْزِيهِمْ وَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تُشَـٰٓقُّونَ فِيهِمْ ۚ قَالَ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ إِنَّ ٱلْخِزْىَ ٱلْيَوْمَ وَٱلسُّوٓءَ عَلَى ٱلْكَـٰفِرِينَ",
+"tr": "Sonra kıyamet günü onları rezil edecek ve diyecek: \"Kendileri için kavga çıkarıp ayrılığa düştüğünüz ortaklarım nerede?\" Kendilerine ilim verilmiş olanlar diyecekler ki: \"Bugün rezillik ve kötülük, gerçeği inkâr edenleredir.\""
+},
+"16:35": {
+"ar": "وَقَالَ ٱلَّذِينَ أَشْرَكُوا۟ لَوْ شَآءَ ٱللَّهُ مَا عَبَدْنَا مِن دُونِهِۦ مِن شَىْءٍ نَّحْنُ وَلَآ ءَابَآؤُنَا وَلَا حَرَّمْنَا مِن دُونِهِۦ مِن شَىْءٍ ۚ كَذَٰلِكَ فَعَلَ ٱلَّذِينَ مِن قَبْلِهِمْ ۚ فَهَلْ عَلَى ٱلرُّسُلِ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
+"tr": "Ortak koşanlar dediler ki: \"Eğer Allah isteseydi ne biz ne de atalarımız Allah dışında bir şeye kulluk/ibadet etmez, O'na rağmen hiçbir şeyi haram kılmazdık.\" Onlardan öncekiler de aynen böyle yaptılar. Resullere düşen, açık bir tebliğden başkası değildir."
+},
+"16:36": {
+"ar": "وَلَقَدْ بَعَثْنَا فِى كُلِّ أُمَّةٍ رَّسُولًا أَنِ ٱعْبُدُوا۟ ٱللَّهَ وَٱجْتَنِبُوا۟ ٱلطَّـٰغُوتَ ۖ فَمِنْهُم مَّنْ هَدَى ٱللَّهُ وَمِنْهُم مَّنْ حَقَّتْ عَلَيْهِ ٱلضَّلَـٰلَةُ ۚ فَسِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُكَذِّبِينَ",
+"tr": "Andolsun, biz her ümmette şöyle tebliğ yapan bir resul görevlendirdik: \"Allah'a kulluk/ibadet edin, tâğutttan kaçının. Sonra bunlardan kimine Allah kılavuzluk etti, kimine de sapıklık hak oldu. Şimdi yeryüzünde gezip dolaşın da yalanlayanların sonu nasıl olmuş görün."
+},
+"16:51": {
+"ar": "وَقَالَ ٱللَّهُ لَا تَتَّخِذُوٓا۟ إِلَـٰهَيْنِ ٱثْنَيْنِ ۖ إِنَّمَا هُوَ إِلَـٰهٌ وَٰحِدٌ ۖ فَإِيَّـٰىَ فَٱرْهَبُونِ",
+"tr": "Allah buyurdu ki: \"İki ilah edinmeyin; O sadece bir tek ilahtır. Yalnız benden korkun.\""
+},
+"16:54": {
+"ar": "ثُمَّ إِذَا كَشَفَ ٱلضُّرَّ عَنكُمْ إِذَا فَرِيقٌ مِّنكُم بِرَبِّهِمْ يُشْرِكُونَ",
+"tr": "Sonra da zorluk ve kederi sizden kaldırdığında, içinizden bir zümre kendi Rablerine hemen ortak koşuverir,"
+},
+"16:55": {
+"ar": "لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَـٰهُمْ ۚ فَتَمَتَّعُوا۟ ۖ فَسَوْفَ تَعْلَمُونَ",
+"tr": "Kendilerine verdiklerimize nankörlük etsinler diye. Hadi, zevklenin/nimetlenin, yakında bileceksiniz."
+},
+"16:56": {
+"ar": "وَيَجْعَلُونَ لِمَا لَا يَعْلَمُونَ نَصِيبًا مِّمَّا رَزَقْنَـٰهُمْ ۗ تَٱللَّهِ لَتُسْـَٔلُنَّ عَمَّا كُنتُمْ تَفْتَرُونَ",
+"tr": "Tutuyor, kendilerine verdiğimiz rızıklardan hiçbir şeyin farkında olmayanlara pay çıkarıyorlar. Allah'a yemin olsun ki, iftira edip durduğunuz şeylerden kesinlikle hesaba çekileceksiniz."
+},
+"16:73": {
+"ar": "وَيَعْبُدُونَ مِن دُونِ ٱللَّهِ مَا لَا يَمْلِكُ لَهُمْ رِزْقًا مِّنَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ شَيْـًٔا وَلَا يَسْتَطِيعُونَ",
+"tr": "Allah'ı bırakıp da kendilerine, göklerden ve yerden bir parçacık rızık veremeyen, buna güç yetiremeyen şeylere mi tapıyorlar?"
+},
+"16:86": {
+"ar": "وَإِذَا رَءَا ٱلَّذِينَ أَشْرَكُوا۟ شُرَكَآءَهُمْ قَالُوا۟ رَبَّنَا هَـٰٓؤُلَآءِ شُرَكَآؤُنَا ٱلَّذِينَ كُنَّا نَدْعُوا۟ مِن دُونِكَ ۖ فَأَلْقَوْا۟ إِلَيْهِمُ ٱلْقَوْلَ إِنَّكُمْ لَكَـٰذِبُونَ",
+"tr": "Şirke sapanlar, ortak tuttuklarını gördüklerinde şöyle derler: \"Rabbimiz, işte bunlar seni bırakıp da yalvarıp yakardığımız ortaklarımız.\" Bunun üzerine ortakları onlara şöyle söz dokundururlar: \"Siz, yalancılarsınız, yalancılar!\""
+},
+"16:87": {
+"ar": "وَأَلْقَوْا۟ إِلَى ٱللَّهِ يَوْمَئِذٍ ٱلسَّلَمَ ۖ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
+"tr": "O gün hepsi Allah huzurunda teslim bayrağı çekmiş, iftira aracı olarak kullandıklarının tümü onları ortada bırakıp kaybolmuştur."
+},
+"16:100": {
+"ar": "إِنَّمَا سُلْطَـٰنُهُۥ عَلَى ٱلَّذِينَ يَتَوَلَّوْنَهُۥ وَٱلَّذِينَ هُم بِهِۦ مُشْرِكُونَ",
+"tr": "Onun sultası, sadece onu dost edinenlerle Allah'a ortak koşanlar üstündedir."
+},
+"16:104": {
+"ar": "إِنَّ ٱلَّذِينَ لَا يُؤْمِنُونَ بِـَٔايَـٰتِ ٱللَّهِ لَا يَهْدِيهِمُ ٱللَّهُ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+"tr": "Allah'ın ayetlerine inanmayanlara Allah kılavuzluk etmez. Onlar için acıklı bir azap öngörülmüştür."
+},
+"16:123": {
+"ar": "ثُمَّ أَوْحَيْنَآ إِلَيْكَ أَنِ ٱتَّبِعْ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا ۖ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ",
+"tr": "Daha sonra sana şunu vahyettik: Bir hanîf olarak İbrahim'in milletine uy! O, müşriklerden değildi."
+},
+"17:22": {
+"ar": "لَّا تَجْعَلْ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَتَقْعُدَ مَذْمُومًا مَّخْذُولًا",
+"tr": "Allah'ın yanına başka bir ilah koyma ki, yapayalnız ve horlanmış olarak oturup kalmayasın."
+},
+"17:23": {
+"ar": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
+"tr": "Rabbin şöyle hükmetti: O'ndan başkasına kulluk / ibadet etmeyin, anaya babaya çok iyi davranın: Onlardan birisi yahut her ikisi senin yanında ihtiyarlık çağına gelirse sakın onlara \"Öf!\" bile deme; onları azarlama, onlara tatlı, iltifatlı söz söyle."
+},
+"17:39": {
+"ar": "ذَٰلِكَ مِمَّآ أَوْحَىٰٓ إِلَيْكَ رَبُّكَ مِنَ ٱلْحِكْمَةِ ۗ وَلَا تَجْعَلْ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَتُلْقَىٰ فِى جَهَنَّمَ مَلُومًا مَّدْحُورًا",
+"tr": "Bunlar, Rabbinin sana, hikmetten vahyetmiş olduklarıdır. Allah'ın yanına başka tanrı koyma ki, kınanmış ve kovulmuş bir halde cehenneme atılmayasın."
+},
+"17:40": {
+"ar": "أَفَأَصْفَىٰكُمْ رَبُّكُم بِٱلْبَنِينَ وَٱتَّخَذَ مِنَ ٱلْمَلَـٰٓئِكَةِ إِنَـٰثًا ۚ إِنَّكُمْ لَتَقُولُونَ قَوْلًا عَظِيمًا",
+"tr": "Rabbiniz, oğulları seçip size özgüledi de kendisi meleklerden kızlar mı edindi? Gerçekten siz çok dehşet verici bir söz söylüyorsunuz!"
+},
+"17:111": {
+"ar": "وَقُلِ ٱلْحَمْدُ لِلَّهِ ٱلَّذِى لَمْ يَتَّخِذْ وَلَدًا وَلَمْ يَكُن لَّهُۥ شَرِيكٌ فِى ٱلْمُلْكِ وَلَمْ يَكُن لَّهُۥ وَلِىٌّ مِّنَ ٱلذُّلِّ ۖ وَكَبِّرْهُ تَكْبِيرًۢا",
+"tr": "Şöyle de: \"Hamt, o Allah'a özgüdür ki, çocuk edinmemiştir; mülk ve yönetiminde ortağı yoktur; âcizlik yüzünden dost edinmemiştir.\" Ve tekbir edip yücelt O'nu!"
+},
+"18:4": {
+"ar": "وَيُنذِرَ ٱلَّذِينَ قَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًا",
+"tr": "Ve \"Allah bir çocuk edindi\" diyenleri uyarsın diye indirdi onu."
+},
+"18:5": {
+"ar": "مَّا لَهُم بِهِۦ مِنْ عِلْمٍ وَلَا لِـَٔابَآئِهِمْ ۚ كَبُرَتْ كَلِمَةً تَخْرُجُ مِنْ أَفْوَٰهِهِمْ ۚ إِن يَقُولُونَ إِلَّا كَذِبًا",
+"tr": "Ona ilişkin ne kendilerinin bir ilmi vardır ne de atalarının. Söz olarak ne büyüktür ağızlarından çıkıveren! Onlar bir yalandan başka şey söylemiyorlar."
+},
+"18:42": {
+"ar": "وَأُحِيطَ بِثَمَرِهِۦ فَأَصْبَحَ يُقَلِّبُ كَفَّيْهِ عَلَىٰ مَآ أَنفَقَ فِيهَا وَهِىَ خَاوِيَةٌ عَلَىٰ عُرُوشِهَا وَيَقُولُ يَـٰلَيْتَنِى لَمْ أُشْرِكْ بِرَبِّىٓ أَحَدًا",
+"tr": "Derken bütün ürününe el kondu. Bağ sahibi, çardakları üzerine çökmüş bulunan bağ için harcadıklarına vahlanarak avuçlarını ovuşturuyor ve şöyle diyordu: \"Ne olurdu, Rabbime hiç kimseyi ortak koşmasaydım!\""
+},
+"18:52": {
+"ar": "وَيَوْمَ يَقُولُ نَادُوا۟ شُرَكَآءِىَ ٱلَّذِينَ زَعَمْتُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَجَعَلْنَا بَيْنَهُم مَّوْبِقًا",
+"tr": "Bir gün Allah şöyle diyecektir: \"O bir şey zannettiğiniz ortaklarımı çağırın!\" Hemen çağırdılar ama onlar kendilerine cevap vermedi. Biz onların aralarına tehlikeli bir uçurum/yıkıcı bir düşmanlık koyduk."
+},
+"18:110": {
+"ar": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ ۖ فَمَن كَانَ يَرْجُوا۟ لِقَآءَ رَبِّهِۦ فَلْيَعْمَلْ عَمَلًا صَـٰلِحًا وَلَا يُشْرِكْ بِعِبَادَةِ رَبِّهِۦٓ أَحَدًۢا",
+"tr": "De ki: \"Ben de sizin gibi bir insanım. Ancak, tanrınızın bir tek tanrı olduğu bana vahyediliyor. O halde, Rabbine kavuşmayı uman, hayra ve barışa yönelik iş yapsın ve Rabbine ibadette hiç kimseyi O'na ortak koşmasın.\""
+},
+"19:44": {
+"ar": "يَـٰٓأَبَتِ لَا تَعْبُدِ ٱلشَّيْطَـٰنَ ۖ إِنَّ ٱلشَّيْطَـٰنَ كَانَ لِلرَّحْمَـٰنِ عَصِيًّا",
+"tr": "\"Babacığım, şeytana kulluk etme! Çünkü şeytan Rahman'a isyan etmişti.\""
+},
+"19:45": {
+"ar": "يَـٰٓأَبَتِ إِنِّىٓ أَخَافُ أَن يَمَسَّكَ عَذَابٌ مِّنَ ٱلرَّحْمَـٰنِ فَتَكُونَ لِلشَّيْطَـٰنِ وَلِيًّا",
+"tr": "\"Babacığım, ben sana Rahman'dan bir azap dokunmasından, böylece şeytanın dostu haline gelmenden korkuyorum!\""
+},
+"19:77": {
+"ar": "أَفَرَءَيْتَ ٱلَّذِى كَفَرَ بِـَٔايَـٰتِنَا وَقَالَ لَأُوتَيَنَّ مَالًا وَوَلَدًا",
+"tr": "Ayetlerimizi inkâr edip, \"Bana mal da evlat da kesinlikle verilecek.\" diyeni gördün mü?"
+},
+"19:79": {
+"ar": "كَلَّا ۚ سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُۥ مِنَ ٱلْعَذَابِ مَدًّا",
+"tr": "Hayır, hayır! Biz onun söylediğini yazacağız ve onun için azabı uzattıkça uzatacağız."
+},
+"19:88": {
+"ar": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَـٰنُ وَلَدًا",
+"tr": "\"Rahman çocuk edindi.\" dediler."
+},
+"19:89": {
+"ar": "لَّقَدْ جِئْتُمْ شَيْـًٔا إِدًّا",
+"tr": "Yemin olsun ki siz, çok çirkin bir iddiada bulundunuz."
+},
+"20:56": {
+"ar": "وَلَقَدْ أَرَيْنَـٰهُ ءَايَـٰتِنَا كُلَّهَا فَكَذَّبَ وَأَبَىٰ",
+"tr": "Yemin olsun, o Firavun'a ayetlerimizin tamamını gösterdik ama yalanlayıp inadını sürdürdü."
+},
+"21:25": {
+"ar": "وَمَآ أَرْسَلْنَا مِن قَبْلِكَ مِن رَّسُولٍ إِلَّا نُوحِىٓ إِلَيْهِ أَنَّهُۥ لَآ إِلَـٰهَ إِلَّآ أَنَا۠ فَٱعْبُدُونِ",
+"tr": "Senden önce hiçbir resul göndermedik ki ona şöyle vahyetmiş olmayalım: \"Gerçek şu: İlah yok benden başka, artık bana kulluk/ibadet edin.\""
+},
+"21:26": {
+"ar": "وَقَالُوا۟ ٱتَّخَذَ ٱلرَّحْمَـٰنُ وَلَدًا ۗ سُبْحَـٰنَهُۥ ۚ بَلْ عِبَادٌ مُّكْرَمُونَ",
+"tr": "\"Rahman çocuk edindi\" dediler. Hâşâ, bundan arınmıştır O! Onlar, lütuflandırılmış kullardır."
+},
+"21:77": {
+"ar": "وَنَصَرْنَـٰهُ مِنَ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَآ ۚ إِنَّهُمْ كَانُوا۟ قَوْمَ سَوْءٍ فَأَغْرَقْنَـٰهُمْ أَجْمَعِينَ",
+"tr": "Ona, ayetlerimizi yalanlayan topluluğa karşı yardım ettik. Kötülüğün toplumuydu onlar. Hepsini birden batırıp boğduk."
+},
+"22:26": {
+"ar": "وَإِذْ بَوَّأْنَا لِإِبْرَٰهِيمَ مَكَانَ ٱلْبَيْتِ أَن لَّا تُشْرِكْ بِى شَيْـًٔا وَطَهِّرْ بَيْتِىَ لِلطَّآئِفِينَ وَٱلْقَآئِمِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ",
+"tr": "Bir zamanlar İbrahim için, o evin yerini, şöyle diyerek hazırlamıştık: Bana hiçbir şeyi ortak koşma, evimi; tavaf edenler, kıyamda duranlar, rükû, secde edenler için temizle."
+},
+"22:30": {
+"ar": "ذَٰلِكَ وَمَن يُعَظِّمْ حُرُمَـٰتِ ٱللَّهِ فَهُوَ خَيْرٌ لَّهُۥ عِندَ رَبِّهِۦ ۗ وَأُحِلَّتْ لَكُمُ ٱلْأَنْعَـٰمُ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ ۖ فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَـٰنِ وَٱجْتَنِبُوا۟ قَوْلَ ٱلزُّورِ",
+"tr": "İşte böyle. Kim Allah'ın yasaklarına saygılı olursa bu, Rabbi katında kendisi için çok hayırlı olur. Karşınızda okunarak açıklananlar hariç, tüm hayvanlar size helal kılınmışır. Artık putların pisliğinden, yalan sözden uzak durun."
+},
+"22:31": {
+"ar": "حُنَفَآءَ لِلَّهِ غَيْرَ مُشْرِكِينَ بِهِۦ ۚ وَمَن يُشْرِكْ بِٱللَّهِ فَكَأَنَّمَا خَرَّ مِنَ ٱلسَّمَآءِ فَتَخْطَفُهُ ٱلطَّيْرُ أَوْ تَهْوِى بِهِ ٱلرِّيحُ فِى مَكَانٍ سَحِيقٍ",
+"tr": "Allah'a ortak koşmadan, hanîfler olarak... Allah'a ortak koşan kişi, gökten düşmüş de kendisini kuşlar kapışıyor veya rüzgâr onu uzak bir yere fırlatıp atıyor gibidir."
+},
+"22:57": {
+"ar": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا فَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ مُّهِينٌ",
+"tr": "İnkâr edip ayetlerimizi yalanlayanlara gelince, onlar için aşağılayıcı bir azap öngörülmüştür."
+},
+"23:91": {
+"ar": "مَا ٱتَّخَذَ ٱللَّهُ مِن وَلَدٍ وَمَا كَانَ مَعَهُۥ مِنْ إِلَـٰهٍ ۚ إِذًا لَّذَهَبَ كُلُّ إِلَـٰهٍۭ بِمَا خَلَقَ وَلَعَلَا بَعْضُهُمْ عَلَىٰ بَعْضٍ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يَصِفُونَ",
+"tr": "Allah, çocuk filan edinmemiştir. O'nunla beraber herhangi bir ilah da yoktur. Eğer böyle olsaydı, her ilah kendi yarattığını yok ederdi ve mutlaka biri ötekine üstün gelmeye çalışırdı. Allah'ın şanı onların nitelendirmelerinden yücedir, arınmıştır."
+},
+"23:104": {
+"ar": "تَلْفَحُ وُجُوهَهُمُ ٱلنَّارُ وَهُمْ فِيهَا كَـٰلِحُونَ",
+"tr": "Ateş, yüzlerini yalar. Ve onlar da içinde sırıtıp kalacaklar."
+},
+"23:105": {
+"ar": "أَلَمْ تَكُنْ ءَايَـٰتِى تُتْلَىٰ عَلَيْكُمْ فَكُنتُم بِهَا تُكَذِّبُونَ",
+"tr": "\"Ayetlerim size okunmadı mı?\" Ve siz onları yalanlamıyor muydunuz?\""
+},
+"25:3": {
+"ar": "وَٱتَّخَذُوا۟ مِن دُونِهِۦٓ ءَالِهَةً لَّا يَخْلُقُونَ شَيْـًٔا وَهُمْ يُخْلَقُونَ وَلَا يَمْلِكُونَ لِأَنفُسِهِمْ ضَرًّا وَلَا نَفْعًا وَلَا يَمْلِكُونَ مَوْتًا وَلَا حَيَوٰةً وَلَا نُشُورًا",
+"tr": "Böyleyken O'nun dışında bir takım ilahlar edindiler. Hiçbir şey yaratamaz bunlar. Kendileri yaratılmışlardır zaten... Kendi benlikleri için bile ne bir zarara güç yetirebilirler ne bir yarara. Ne bir ölüme güçleri yeter ne bir dirime ne de kabirden çıkarıp hesap sormaya."
+},
+"25:36": {
+"ar": "فَقُلْنَا ٱذْهَبَآ إِلَى ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا فَدَمَّرْنَـٰهُمْ تَدْمِيرًا",
+"tr": "Ardından şöyle dedik: \"Ayetlerimizi yalanlayan topluluğa gidin.\" Biraz sonra da o topluluğu yerle bir ettik."
+},
+"25:37": {
+"ar": "وَقَوْمَ نُوحٍ لَّمَّا كَذَّبُوا۟ ٱلرُّسُلَ أَغْرَقْنَـٰهُمْ وَجَعَلْنَـٰهُمْ لِلنَّاسِ ءَايَةً ۖ وَأَعْتَدْنَا لِلظَّـٰلِمِينَ عَذَابًا أَلِيمًا",
+"tr": "Ve Nûh kavmi... Resulleri yalanladıklarında hepsini boğup, insanlara bir ibret yaptık. Zalimler için acıklı bir azap hazırladık."
+},
+"26:213": {
+"ar": "فَلَا تَدْعُ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ فَتَكُونَ مِنَ ٱلْمُعَذَّبِينَ",
+"tr": "O halde, Allah'ın yanında bir başka ilaha daha yalvarma/davet etme. Yoksa azaba uğratılanlardan olursun."
+},
+"27:63": {
+"ar": "أَمَّن يَهْدِيكُمْ فِى ظُلُمَـٰتِ ٱلْبَرِّ وَٱلْبَحْرِ وَمَن يُرْسِلُ ٱلرِّيَـٰحَ بُشْرًۢا بَيْنَ يَدَىْ رَحْمَتِهِۦٓ ۗ أَءِلَـٰهٌ مَّعَ ٱللَّهِ ۚ تَعَـٰلَى ٱللَّهُ عَمَّا يُشْرِكُونَ",
+"tr": "Yoksa size karanın ve denizin karanlıkları içinde yol gösteren ve rahmetinin önünde rüzgârları müjdeci gönderen mi hayırlı? Allah'ın beraberinde bir ilah daha mı var? Allah, onların ortak tuttuklarından uzaktır, arınmıştır."
+},
+"27:83": {
+"ar": "وَيَوْمَ نَحْشُرُ مِن كُلِّ أُمَّةٍ فَوْجًا مِّمَّن يُكَذِّبُ بِـَٔايَـٰتِنَا فَهُمْ يُوزَعُونَ",
+"tr": "O gün her ümmetin içinden ayetlerimizi yalanlayanlardan bir zümre derleriz de onlar, toplu halde ortaya sürülürler."
+},
+"27:85": {
+"ar": "وَوَقَعَ ٱلْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا۟ فَهُمْ لَا يَنطِقُونَ",
+"tr": "İşledikleri zulümler yüzünden o söz tepelerine inmiştir; artık tek kelime söyleyemezler."
+},
+"28:62": {
+"ar": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+"tr": "O gün onlara seslenerek şöyle diyecek: \"O kendilerini bir şey sandığınız ortaklarım nerede?\""
+},
+"28:64": {
+"ar": "وَقِيلَ ٱدْعُوا۟ شُرَكَآءَكُمْ فَدَعَوْهُمْ فَلَمْ يَسْتَجِيبُوا۟ لَهُمْ وَرَأَوُا۟ ٱلْعَذَابَ ۚ لَوْ أَنَّهُمْ كَانُوا۟ يَهْتَدُونَ",
+"tr": "Şöyle denilir: \"Çağırın ortak koştuklarınızı!\" Onlar da çağırırlar. Fakat ötekiler bunlara cevap veremezler; azabı görmüşlerdir. Önceden yola gelselerdi ne olurdu!"
+},
+"28:74": {
+"ar": "وَيَوْمَ يُنَادِيهِمْ فَيَقُولُ أَيْنَ شُرَكَآءِىَ ٱلَّذِينَ كُنتُمْ تَزْعُمُونَ",
+"tr": "Gün olur, seslenir onlara da şöyle der: \"O, bir şey zannettiğiniz ortaklarım nerede?\""
+},
+"28:75": {
+"ar": "وَنَزَعْنَا مِن كُلِّ أُمَّةٍ شَهِيدًا فَقُلْنَا هَاتُوا۟ بُرْهَـٰنَكُمْ فَعَلِمُوٓا۟ أَنَّ ٱلْحَقَّ لِلَّهِ وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَفْتَرُونَ",
+"tr": "Her ümmetten bir tanık çıkarmış da şöyle demişizdir: \"Getirin susturucu kanıtınızı!\" Bunun üzerine onlar hakkın Allah'a ait olduğunu bilmişlerdir. O iftira aracı yaptıkları şeyler de onları yüzüstü koyup kaybolmuşlardır."
+},
+"28:87": {
+"ar": "وَلَا يَصُدُّنَّكَ عَنْ ءَايَـٰتِ ٱللَّهِ بَعْدَ إِذْ أُنزِلَتْ إِلَيْكَ ۖ وَٱدْعُ إِلَىٰ رَبِّكَ ۖ وَلَا تَكُونَنَّ مِنَ ٱلْمُشْرِكِينَ",
+"tr": "Allah'ın ayetleri sana indirildikten sonra sakın seni geri çevirmesinler. Rabbine yakar/Rabbine çağır. Sakın şirke bulaşanlardan olma."
+},
+"28:88": {
+"ar": "وَلَا تَدْعُ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۘ لَآ إِلَـٰهَ إِلَّا هُوَ ۚ كُلُّ شَىْءٍ هَالِكٌ إِلَّا وَجْهَهُۥ ۚ لَهُ ٱلْحُكْمُ وَإِلَيْهِ تُرْجَعُونَ",
+"tr": "Allah'ın yanında diğer bir tanrıya daha kulluk etme. İlah yok O'ndan başka. O'nun yüzü dışında herşey helâk olacaktır. Hüküm yalnız O'nundur ve O'na döndürüleceksiniz."
+},
+"29:8": {
+"ar": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حُسْنًا ۖ وَإِن جَـٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَآ ۚ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+"tr": "Biz insana, anne babasına en güzel bir biçimde davranmasını, şunu söyleyerek önerdik: \"Eğer onlar, hakkında hiçbir bilgin olmayan bir şeyle bana ortak koşman için seninle çekişirlerse, o takdirde onlara itaat etme. Yalnız banadır dönüşünüz. Nihayet ben size yapıp ettiğiniz şeylerin haberini bildireceğim.\""
+},
+"29:16": {
+"ar": "وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ ۖ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+"tr": "İbrahim'i de gönderdik. Toplumuna şöyle demişti: \"Allah'a kulluk/ibadet edin, O'ndan sakının. Eğer bilirseniz bu sizin için daha hayırlıdır.\""
+},
+"29:65": {
+"ar": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+"tr": "Gemiye bindiklerinde, dini Allah'a özgüleyerek yalvarıp yakarırlar. Fakat Allah onları kurtarıp karaya çıkardığında, bir bakmışsın ortak koşuyorlar;"
+},
+"29:66": {
+"ar": "لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَـٰهُمْ وَلِيَتَمَتَّعُوا۟ ۖ فَسَوْفَ يَعْلَمُونَ",
+"tr": "Verdiklerimize karşı nankörlük etsinler ve birazcık zevklensinler diye... Yakında bilecekler."
+},
+"30:10": {
+"ar": "ثُمَّ كَانَ عَـٰقِبَةَ ٱلَّذِينَ أَسَـٰٓـُٔوا۟ ٱلسُّوٓأَىٰٓ أَن كَذَّبُوا۟ بِـَٔايَـٰتِ ٱللَّهِ وَكَانُوا۟ بِهَا يَسْتَهْزِءُونَ",
+"tr": "Sonra o çirkinlik ve kötülük sergileyenlerin sonu, çirkinlik ve kötülüğün en beteri oldu. Çünkü Allah'ın ayetlerini yalanlamışlardı ve o ayetlerle alay ediyorlardı."
+},
+"30:13": {
+"ar": "وَلَمْ يَكُن لَّهُم مِّن شُرَكَآئِهِمْ شُفَعَـٰٓؤُا۟ وَكَانُوا۟ بِشُرَكَآئِهِمْ كَـٰفِرِينَ",
+"tr": "Allah'a ortak tuttukları arasından, kendileri için şefaatçılar çıkmayacaktır. Kendi yandaşlarına nankörlük etmektedir onlar."
+},
+"30:16": {
+"ar": "وَأَمَّا ٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا وَلِقَآئِ ٱلْـَٔاخِرَةِ فَأُو۟لَـٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ",
+"tr": "İnkâr edip ayetlerimizi ve âhiret buluşmasını yalanlayanlara gelince, onlar azabın içinde hazır bulundurulurlar."
+},
+"30:31": {
+"ar": "مُنِيبِينَ إِلَيْهِ وَٱتَّقُوهُ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُشْرِكِينَ",
+"tr": "O'na yönelmiş kişiler olarak O'ndan sakının! Namazı kılın ve sakın şirke sapanlardan olmayın;"
+},
+"30:33": {
+"ar": "وَإِذَا مَسَّ ٱلنَّاسَ ضُرٌّ دَعَوْا۟ رَبَّهُم مُّنِيبِينَ إِلَيْهِ ثُمَّ إِذَآ أَذَاقَهُم مِّنْهُ رَحْمَةً إِذَا فَرِيقٌ مِّنْهُم بِرَبِّهِمْ يُشْرِكُونَ",
+"tr": "İnsanlara bir zorluk dokunduğunda, Rablerine yönelerek O'na yakarırlar. Sonra onlara bir rahmet tattırınca bakarsın ki, içlerinden bir grup Rablerine ortak koşuyor."
+},
+"30:34": {
+"ar": "لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَـٰهُمْ ۚ فَتَمَتَّعُوا۟ فَسَوْفَ تَعْلَمُونَ",
+"tr": "Kendilerine verdiklerimize karşı nankörlük etsinler diye. Haydi, yararlanın/zevklenin! Yakında bileceksiniz..."
+},
+"30:35": {
+"ar": "أَمْ أَنزَلْنَا عَلَيْهِمْ سُلْطَـٰنًا فَهُوَ يَتَكَلَّمُ بِمَا كَانُوا۟ بِهِۦ يُشْرِكُونَ",
+"tr": "Yoksa onlara kesin bir kanıt mı indirdik de onlara Allah'a ortak koşmalarını söylüyor!"
+},
+"30:40": {
+"ar": "ٱللَّهُ ٱلَّذِى خَلَقَكُمْ ثُمَّ رَزَقَكُمْ ثُمَّ يُمِيتُكُمْ ثُمَّ يُحْيِيكُمْ ۖ هَلْ مِن شُرَكَآئِكُم مَّن يَفْعَلُ مِن ذَٰلِكُم مِّن شَىْءٍ ۚ سُبْحَـٰنَهُۥ وَتَعَـٰلَىٰ عَمَّا يُشْرِكُونَ",
+"tr": "Allah'tır ki sizi yaratmış, sonra rızıklandırmıştır. Sonra sizi öldürüyor, sonra diriltiyor. Peki, ortak koştuklarınızdan biri var mı, bunlardan birşeyi yapabilecek? Yücedir, arınmıştır onların ortak koştuklarından O."
+},
+"30:42": {
+"ar": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ كَانَ عَـٰقِبَةُ ٱلَّذِينَ مِن قَبْلُ ۚ كَانَ أَكْثَرُهُم مُّشْرِكِينَ",
+"tr": "De ki: \"Yeryüzünde dolaşın da öncekilerin sonunun nasıl olduğuna bir bakın! Onların çoğu şirke sapan insanlardı.\""
+},
+"31:13": {
+"ar": "وَإِذْ قَالَ لُقْمَـٰنُ لِٱبْنِهِۦ وَهُوَ يَعِظُهُۥ يَـٰبُنَىَّ لَا تُشْرِكْ بِٱللَّهِ ۖ إِنَّ ٱلشِّرْكَ لَظُلْمٌ عَظِيمٌ",
+"tr": "Hani, Lukman, oğluna öğüt vererek şöyle demişti: \"Oğulcuğum, Allah'a ortak koşma! Çünkü Allah'a ortak koşmak, gerçekten büyük bir zulümdür.\""
+},
+"31:15": {
+"ar": "وَإِن جَـٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+"tr": "Eğer onlar, hakkında hiçbir bilgin olmayan şeyi bana ortak koşman için seni zorlarlarsa, onlara itaat etme. Onlarla dünyada örfe uygun geçin; ama bana yönelenin yoluna uy. Sonunda dönüşünüz banadır. Yapıp ettiklerinizi size haber vereceğim."
+},
+"33:73": {
+"ar": "لِّيُعَذِّبَ ٱللَّهُ ٱلْمُنَـٰفِقِينَ وَٱلْمُنَـٰفِقَـٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَـٰتِ وَيَتُوبَ ٱللَّهُ عَلَى ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًۢا",
+"tr": "Bunun böyle olması, Allah'ın; ikiyüzlü erkeklerle ikiyüzlü kadınlara, şirke sapmış erkeklerle şirke sapmış kadınlara azap etmesi, mümin erkeklerle mümin kadınların tövbelerini kabul etmesi içindir. Allah Gafûr'dur, Rahîm'dir."
+},
+"34:22": {
+"ar": "قُلِ ٱدْعُوا۟ ٱلَّذِينَ زَعَمْتُم مِّن دُونِ ٱللَّهِ ۖ لَا يَمْلِكُونَ مِثْقَالَ ذَرَّةٍ فِى ٱلسَّمَـٰوَٰتِ وَلَا فِى ٱلْأَرْضِ وَمَا لَهُمْ فِيهِمَا مِن شِرْكٍ وَمَا لَهُۥ مِنْهُم مِّن ظَهِيرٍ",
+"tr": "De ki: \"Allah dışındaki o bir şey sandıklarınızı çağırın/onlara yalvarın! Ama onlar, göklerde de yerde de zerre kadar bir şeye sahip olamazlar. O göklerde ve yerde onların ortaklığı da yoktur. Ve O'nun onlardan bir destekçisi de yoktur.\""
+},
+"34:38": {
+"ar": "وَٱلَّذِينَ يَسْعَوْنَ فِىٓ ءَايَـٰتِنَا مُعَـٰجِزِينَ أُو۟لَـٰٓئِكَ فِى ٱلْعَذَابِ مُحْضَرُونَ",
+"tr": "Ayetlerimizi hükümsüz bırakmak için koşuşanlara gelince, onlar azabın içinde hazır bulundurulacaklardır."
+},
+"35:14": {
+"ar": "إِن تَدْعُوهُمْ لَا يَسْمَعُوا۟ دُعَآءَكُمْ وَلَوْ سَمِعُوا۟ مَا ٱسْتَجَابُوا۟ لَكُمْ ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ يَكْفُرُونَ بِشِرْكِكُمْ ۚ وَلَا يُنَبِّئُكَ مِثْلُ خَبِيرٍ",
+"tr": "Onlara çağırsanız, çağrınızı duymazlar. Duysalar da size cevap veremezler. Kıyamet günü de sizin onları ortak koştuğunuzu inkâr ederler. Hiç kimse sana, Habîr olan Allah'ın verdiği gibi haber veremez."
+},
+"36:60": {
+"ar": "أَلَمْ أَعْهَدْ إِلَيْكُمْ يَـٰبَنِىٓ ءَادَمَ أَن لَّا تَعْبُدُوا۟ ٱلشَّيْطَـٰنَ ۖ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+"tr": "Ey âdemoğulları! Ben size, \"Şeytana kulluk etmeyin, o sizin için açık bir düşmandır!\" demedim mi?"
+},
+"36:63": {
+"ar": "هَـٰذِهِۦ جَهَنَّمُ ٱلَّتِى كُنتُمْ تُوعَدُونَ",
+"tr": "Alın size, tehdit edildiğiniz cehennem!"
+},
+"37:152": {
+"ar": "وَلَدَ ٱللَّهُ وَإِنَّهُمْ لَكَـٰذِبُونَ",
+"tr": "\"Allah doğurdu!\" Vallahi onlar yalancıdırlar."
+},
+"39:2": {
+"ar": "إِنَّآ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ بِٱلْحَقِّ فَٱعْبُدِ ٱللَّهَ مُخْلِصًا لَّهُ ٱلدِّينَ",
+"tr": "Emin ol, bu Kitap'ı biz sana hak olarak indirdik. O halde, dini yalnız Allah'a özgüleyerek O'na kulluk/ibadet et!"
+},
+"39:4": {
+"ar": "لَّوْ أَرَادَ ٱللَّهُ أَن يَتَّخِذَ وَلَدًا لَّٱصْطَفَىٰ مِمَّا يَخْلُقُ مَا يَشَآءُ ۚ سُبْحَـٰنَهُۥ ۖ هُوَ ٱللَّهُ ٱلْوَٰحِدُ ٱلْقَهَّارُ",
+"tr": "Eğer Allah bir çocuk edinmek isteseydi, yaratmakta olduklarından dilediğini seçerdi. Böyle birşeyden arınmıştır O. Allah'tır, Vahid'dir, Kahhar'dır O."
+},
+"39:15": {
+"ar": "فَٱعْبُدُوا۟ مَا شِئْتُم مِّن دُونِهِۦ ۗ قُلْ إِنَّ ٱلْخَـٰسِرِينَ ٱلَّذِينَ خَسِرُوٓا۟ أَنفُسَهُمْ وَأَهْلِيهِمْ يَوْمَ ٱلْقِيَـٰمَةِ ۗ أَلَا ذَٰلِكَ هُوَ ٱلْخُسْرَانُ ٱلْمُبِينُ",
+"tr": "\"Siz O'nun dışında dilediğinize kulluk/ibadet edin.\" De ki: \"Hüsrana uğrayanlar, kıyamet günü hem kendilerini hem de ailelerini hüsrana atanlardır. Dikkat edin! Apaçık hüsranın ta kendisi işte budur.\""
+},
+"39:29": {
+"ar": "ضَرَبَ ٱللَّهُ مَثَلًا رَّجُلًا فِيهِ شُرَكَآءُ مُتَشَـٰكِسُونَ وَرَجُلًا سَلَمًا لِّرَجُلٍ هَلْ يَسْتَوِيَانِ مَثَلًا ۚ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
+"tr": "Allah; hakkında birbiriyle didişen ortakların bulunduğu bir adamla, bir tek ere teslim olan bir adamı örnek verdi. Örnek olarak bu ikisi eşit olur mu? Hamd, yalnız Allah'adır. Ama onların çokları bilmiyorlar."
+},
+"39:59": {
+"ar": "بَلَىٰ قَدْ جَآءَتْكَ ءَايَـٰتِى فَكَذَّبْتَ بِهَا وَٱسْتَكْبَرْتَ وَكُنتَ مِنَ ٱلْكَـٰفِرِينَ",
+"tr": "Hayır, olmaz! Ayetlerim sana geldi de onları hemen yalanlayıverdin; büyüklük tasladın ve kafirlerden oldun."
+},
+"39:60": {
+"ar": "وَيَوْمَ ٱلْقِيَـٰمَةِ تَرَى ٱلَّذِينَ كَذَبُوا۟ عَلَى ٱللَّهِ وُجُوهُهُم مُّسْوَدَّةٌ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْمُتَكَبِّرِينَ",
+"tr": "Allah'a yalan isnat edenleri, kıyamet günü yüzleri simsiyah halde görürsün. Kibirliler için cehennemde bir barınak mı yok!"
+},
+"39:65": {
+"ar": "وَلَقَدْ أُوحِىَ إِلَيْكَ وَإِلَى ٱلَّذِينَ مِن قَبْلِكَ لَئِنْ أَشْرَكْتَ لَيَحْبَطَنَّ عَمَلُكَ وَلَتَكُونَنَّ مِنَ ٱلْخَـٰسِرِينَ",
+"tr": "Andolsun, sana da senden öncekilere de şu vahyedilmiştir: Eğer şirke saparsan amelin kesinlikle boşa çıkar ve mutlaka hüsrana düşenlerden olursun."
+},
+"39:66": {
+"ar": "بَلِ ٱللَّهَ فَٱعْبُدْ وَكُن مِّنَ ٱلشَّـٰكِرِينَ",
+"tr": "Başkasına değil, sadece Allah'a kulluk/ibadet et; şükredenlerden ol!"
+},
+"40:12": {
+"ar": "ذَٰلِكُم بِأَنَّهُۥٓ إِذَا دُعِىَ ٱللَّهُ وَحْدَهُۥ كَفَرْتُمْ ۖ وَإِن يُشْرَكْ بِهِۦ تُؤْمِنُوا۟ ۚ فَٱلْحُكْمُ لِلَّهِ ٱلْعَلِىِّ ٱلْكَبِيرِ",
+"tr": "Bu halinizin sebebi şu: Allah'a, yalnız O'na çağrıldığınızda inkâr etmiştiniz. O'na ortak koşulduğunda ise iman ediyordunuz. Artık hüküm o en yüce, o en büyük olan Allah'ın..."
+},
+"40:42": {
+"ar": "تَدْعُونَنِى لِأَكْفُرَ بِٱللَّهِ وَأُشْرِكَ بِهِۦ مَا لَيْسَ لِى بِهِۦ عِلْمٌ وَأَنَا۠ أَدْعُوكُمْ إِلَى ٱلْعَزِيزِ ٱلْغَفَّـٰرِ",
+"tr": "\"Siz beni, Allah'a nankörlük etmeye ve hakkında hiçbir bilgim olmayan şeyi O'na ortak koşmaya çağırıyorsunuz. Bense sizi o Azîz ve Gaffâr olana davet ediyorum.\""
+},
+"40:43": {
+"ar": "لَا جَرَمَ أَنَّمَا تَدْعُونَنِىٓ إِلَيْهِ لَيْسَ لَهُۥ دَعْوَةٌ فِى ٱلدُّنْيَا وَلَا فِى ٱلْـَٔاخِرَةِ وَأَنَّ مَرَدَّنَآ إِلَى ٱللَّهِ وَأَنَّ ٱلْمُسْرِفِينَ هُمْ أَصْحَـٰبُ ٱلنَّارِ",
+"tr": "\"Sizin beni çağırdığınız şeye, ne dünyada ne de âhirette asla ve asla dua edilemez/onun dünyada ve âhirette çağrı hakkı yoktur. Dönüşümüz-varışımız Allah'adır. Aşırılığa sapanlarsa ateş halkının ta kendileridir.\""
+},
+"40:66": {
+"ar": "قُلْ إِنِّى نُهِيتُ أَنْ أَعْبُدَ ٱلَّذِينَ تَدْعُونَ مِن دُونِ ٱللَّهِ لَمَّا جَآءَنِىَ ٱلْبَيِّنَـٰتُ مِن رَّبِّى وَأُمِرْتُ أَنْ أُسْلِمَ لِرَبِّ ٱلْعَـٰلَمِينَ",
+"tr": "De ki: \"Ben, Rabbimden bana açık seçik ayetler gelince, sizin, Allah'ın berisinden yakardıklarınıza kulluk etmekten yasaklandım. Ben, âlemlerin Rabbi'ne teslim olmakla emrolundum.\""
+},
+"40:70": {
+"ar": "ٱلَّذِينَ كَذَّبُوا۟ بِٱلْكِتَـٰبِ وَبِمَآ أَرْسَلْنَا بِهِۦ رُسُلَنَا ۖ فَسَوْفَ يَعْلَمُونَ",
+"tr": "Kitap'ı ve resullerimiz aracılığıyla gönderdiğimizi yalayanlayanlar, yakında bilecekler!"
+},
+"40:71": {
+"ar": "إِذِ ٱلْأَغْلَـٰلُ فِىٓ أَعْنَـٰقِهِمْ وَٱلسَّلَـٰسِلُ يُسْحَبُونَ",
+"tr": "O zaman, boyunlarında bukağılar, zincirler, sürüklenecekler,"
+},
+"40:72": {
+"ar": "فِى ٱلْحَمِيمِ ثُمَّ فِى ٱلنَّارِ يُسْجَرُونَ",
+"tr": "Kaynar suyun içine. Sonra da ateşte yakılacaklar."
+},
+"40:73": {
+"ar": "ثُمَّ قِيلَ لَهُمْ أَيْنَ مَا كُنتُمْ تُشْرِكُونَ",
+"tr": "Sonra onlara şöyle denecek: \"Ortak koştuklarınız nerede?\""
+},
+"40:74": {
+"ar": "مِن دُونِ ٱللَّهِ ۖ قَالُوا۟ ضَلُّوا۟ عَنَّا بَل لَّمْ نَكُن نَّدْعُوا۟ مِن قَبْلُ شَيْـًٔا ۚ كَذَٰلِكَ يُضِلُّ ٱللَّهُ ٱلْكَـٰفِرِينَ",
+"tr": "\"Allah'ın berisinden taptıklarınız nerede?\" Diyecekler ki: \"Bizden uzaklaşıp kayboldular. Doğrusu biz, daha önce hiçbir şeye yakarmıyormuşuz.\" Allah, inkâr edenleri işte böyle saptırır."
+},
+"40:84": {
+"ar": "فَلَمَّا رَأَوْا۟ بَأْسَنَا قَالُوٓا۟ ءَامَنَّا بِٱللَّهِ وَحْدَهُۥ وَكَفَرْنَا بِمَا كُنَّا بِهِۦ مُشْرِكِينَ",
+"tr": "Hışmımızı gördüklerinde, \"Allah'a, yalnızca O'na inandık, O'na ortak koştuğumuz şeyleri inkâr ettik.\" dediler."
+},
+"40:85": {
+"ar": "فَلَمْ يَكُ يَنفَعُهُمْ إِيمَـٰنُهُمْ لَمَّا رَأَوْا۟ بَأْسَنَا ۖ سُنَّتَ ٱللَّهِ ٱلَّتِى قَدْ خَلَتْ فِى عِبَادِهِۦ ۖ وَخَسِرَ هُنَالِكَ ٱلْكَـٰفِرُونَ",
+"tr": "Ne var ki, şiddetimizi gördüklerinde, ettikleri iman kendilerine yarar sağlamadı. Allah'ın, kulları hakkında işleyip duran yolu yöntemidir bu. İnkârcılar orada hüsrana uğradılar."
+},
+"41:6": {
+"ar": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ فَٱسْتَقِيمُوٓا۟ إِلَيْهِ وَٱسْتَغْفِرُوهُ ۗ وَوَيْلٌ لِّلْمُشْرِكِينَ",
+"tr": "De ki: \"Ben sadece sizin gibi bir insanım. İlahınızın bir tek ilah olduğu bana vahyediliyor. O halde şaşıp sendelemeden O'na yönelin ve O'ndan af dileyin. Vay haline ortak koşanların!"
+},
+"41:47": {
+"ar": "إِلَيْهِ يُرَدُّ عِلْمُ ٱلسَّاعَةِ ۚ وَمَا تَخْرُجُ مِن ثَمَرَٰتٍ مِّنْ أَكْمَامِهَا وَمَا تَحْمِلُ مِنْ أُنثَىٰ وَلَا تَضَعُ إِلَّا بِعِلْمِهِۦ ۚ وَيَوْمَ يُنَادِيهِمْ أَيْنَ شُرَكَآءِى قَالُوٓا۟ ءَاذَنَّـٰكَ مَا مِنَّا مِن شَهِيدٍ",
+"tr": "Kıyamet saatine ilişkin bilgi, Allah'a bırakılır. Onun ilmi dışında ne meyveler kabuğundan çıkar ne de bir dişi gebe kalır veya doğurur. \"Ortaklarım nerede?\" diye seslendiği gün, şöyle diyeceklerdir: \"Bizden hiçbir tanık olmadığını sana arz ederiz.\""
+},
+"41:48": {
+"ar": "وَضَلَّ عَنْهُم مَّا كَانُوا۟ يَدْعُونَ مِن قَبْلُ ۖ وَظَنُّوا۟ مَا لَهُم مِّن مَّحِيصٍ",
+"tr": "Daha önce yakarıp durdukları, onlardan uzaklaşıp kaybolmuştur. Kaçacak hiçbir yerleri olmadığını anlamışlardır."
+},
+"42:21": {
+"ar": "أَمْ لَهُمْ شُرَكَـٰٓؤُا۟ شَرَعُوا۟ لَهُم مِّنَ ٱلدِّينِ مَا لَمْ يَأْذَنۢ بِهِ ٱللَّهُ ۚ وَلَوْلَا كَلِمَةُ ٱلْفَصْلِ لَقُضِىَ بَيْنَهُمْ ۗ وَإِنَّ ٱلظَّـٰلِمِينَ لَهُمْ عَذَابٌ أَلِيمٌ",
+"tr": "Yoksa onların, dinden, Allah'ın izin vermediği şeyi kendileri için yasalaştıran ortakları mı var? Kesin ayrıma ilişkin söz olmasaydı, aralarında hüküm mutlaka verilirdi. O zalimler var ya, onlar için acıklı bir azap öngörülmüştür."
+},
+"43:16": {
+"ar": "أَمِ ٱتَّخَذَ مِمَّا يَخْلُقُ بَنَاتٍ وَأَصْفَىٰكُم بِٱلْبَنِينَ",
+"tr": "Yoksa Allah, yarattıklarından kızları kendine ayırdı da oğullarla seçkinleşmeyi size mi bıraktı?"
+},
+"46:4": {
+"ar": "قُلْ أَرَءَيْتُم مَّا تَدْعُونَ مِن دُونِ ٱللَّهِ أَرُونِى مَاذَا خَلَقُوا۟ مِنَ ٱلْأَرْضِ أَمْ لَهُمْ شِرْكٌ فِى ٱلسَّمَـٰوَٰتِ ۖ ٱئْتُونِى بِكِتَـٰبٍ مِّن قَبْلِ هَـٰذَآ أَوْ أَثَـٰرَةٍ مِّنْ عِلْمٍ إِن كُنتُمْ صَـٰدِقِينَ",
+"tr": "De ki: \"Allah dışında yakarmakta olduklarınızı gördünüz mü? Gösterin bana, yerden neyi yarattılar onlar? Yoksa göklerde bir ortaklıkları mı var? Eğer doğru sözlü kişiler iseniz bundan önceki bir kitap, yahut bir bilgi kalıntısı getirin bana!\""
+},
+"46:5": {
+"ar": "وَمَنْ أَضَلُّ مِمَّن يَدْعُوا۟ مِن دُونِ ٱللَّهِ مَن لَّا يَسْتَجِيبُ لَهُۥٓ إِلَىٰ يَوْمِ ٱلْقِيَـٰمَةِ وَهُمْ عَن دُعَآئِهِمْ غَـٰفِلُونَ",
+"tr": "Kıyamet gününe kadar kendisine cevap vermeyecek birilerine, Allah'ın berisinden yalvarıp durandan daha sapık kim vardır? Ve o yalvardıkları, onların yakarışından habersizdirler."
+},
+"46:6": {
+"ar": "وَإِذَا حُشِرَ ٱلنَّاسُ كَانُوا۟ لَهُمْ أَعْدَآءً وَكَانُوا۟ بِعِبَادَتِهِمْ كَـٰفِرِينَ",
+"tr": "İnsanlar, haşredilmek üzere toplandığında, o taptıkları onlara düşman olurlar; onların ibadetlerini de inkâr ederler."
+},
+"48:6": {
+"ar": "وَيُعَذِّبَ ٱلْمُنَـٰفِقِينَ وَٱلْمُنَـٰفِقَـٰتِ وَٱلْمُشْرِكِينَ وَٱلْمُشْرِكَـٰتِ ٱلظَّآنِّينَ بِٱللَّهِ ظَنَّ ٱلسَّوْءِ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۖ وَغَضِبَ ٱللَّهُ عَلَيْهِمْ وَلَعَنَهُمْ وَأَعَدَّ لَهُمْ جَهَنَّمَ ۖ وَسَآءَتْ مَصِيرًا",
+"tr": "Ve Allah hakkında kötü sanılar besleyen erkek münafıklarla kadın münafıklara ve erkek putperestlerle kadın putperestlere, o kötülük girdabı başlarına dönesilere azap etsin diyedir bu. Allah onlara öfkelenmiş, onları lanetlemiş ve kendilerine cehennem hazırlamıştır. Kötü bir varış yeridir o."
+},
+"51:51": {
+"ar": "وَلَا تَجْعَلُوا۟ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ ۖ إِنِّى لَكُم مِّنْهُ نَذِيرٌ مُّبِينٌ",
+"tr": "Allah'ın yanına başka bir ilah koymayın! Ben size O'ndan gelmiş açıklayıcı bir uyarıcıyım."
+},
+"52:43": {
+"ar": "أَمْ لَهُمْ إِلَـٰهٌ غَيْرُ ٱللَّهِ ۚ سُبْحَـٰنَ ٱللَّهِ عَمَّا يُشْرِكُونَ",
+"tr": "Yoksa Allah'tan başka bir ilahları mı var? Uzaktır Allah, onların ortak koştuklarından."
+},
+"54:42": {
+"ar": "كَذَّبُوا۟ بِـَٔايَـٰتِنَا كُلِّهَا فَأَخَذْنَـٰهُمْ أَخْذَ عَزِيزٍ مُّقْتَدِرٍ",
+"tr": "Ayetlerimizin tümünü yalanladılar da biz de onları onurlu ve güçlü birine yaraşır bir yakalayışla yakaladık."
+},
+"57:19": {
+"ar": "وَٱلَّذِينَ ءَامَنُوا۟ بِٱللَّهِ وَرُسُلِهِۦٓ أُو۟لَـٰٓئِكَ هُمُ ٱلصِّدِّيقُونَ ۖ وَٱلشُّهَدَآءُ عِندَ رَبِّهِمْ لَهُمْ أَجْرُهُمْ وَنُورُهُمْ ۖ وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَحِيمِ",
+"tr": "Allah'a ve resulüne inananlar var ya, özü sözü doğru kişiler onlardır. Rableri katında tanık olanlar/şehitlik mertebesine erenler de onlardır. Onların ödülleri ve ışıkları vardır. Küfre sapıp ayetlerimizi yalanlayanlara gelince, onlar cehennemin dostu olacaklardır."
+},
+"60:4": {
+"ar": "قَدْ كَانَتْ لَكُمْ أُسْوَةٌ حَسَنَةٌ فِىٓ إِبْرَٰهِيمَ وَٱلَّذِينَ مَعَهُۥٓ إِذْ قَالُوا۟ لِقَوْمِهِمْ إِنَّا بُرَءَٰٓؤُا۟ مِنكُمْ وَمِمَّا تَعْبُدُونَ مِن دُونِ ٱللَّهِ كَفَرْنَا بِكُمْ وَبَدَا بَيْنَنَا وَبَيْنَكُمُ ٱلْعَدَٰوَةُ وَٱلْبَغْضَآءُ أَبَدًا حَتَّىٰ تُؤْمِنُوا۟ بِٱللَّهِ وَحْدَهُۥٓ إِلَّا قَوْلَ إِبْرَٰهِيمَ لِأَبِيهِ لَأَسْتَغْفِرَنَّ لَكَ وَمَآ أَمْلِكُ لَكَ مِنَ ٱللَّهِ مِن شَىْءٍ ۖ رَّبَّنَا عَلَيْكَ تَوَكَّلْنَا وَإِلَيْكَ أَنَبْنَا وَإِلَيْكَ ٱلْمَصِيرُ",
+"tr": "İbrahim'le, beraberinde olanlarda sizin için çok güzel bir örnek vardır. Hani, onlar toplumlarına şöyle demişlerdi: \"Biz sizden de Allah dışındaki kulluk ettiklerinizden de uzağız. Sizi tanımıyoruz. Sizinle bizim aramızda, siz Allah'a, yalnız Allah'a inanıncaya kadar, sürekli düşmanlık ve nefret olacaktır.\" Ancak İbrahim babasına şöyle demişti: \"Senin için hep af dileyeceğim ama Allah'tan sana gelecek şeyi geri çevirme gücüm yoktur. Ey Rabbimiz! Yalnız sana güveniyoruz, yalnız sana yöneliyoruz! Dönüş yalnız sanadır!\""
+},
+"60:12": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَـٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَـٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَـٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "Ey Peygamber! İnanmış kadınlar sana gelip Allah'a hiçbir şeyi ortak koşmamaları, hırsızlık etmemeleri, zina etmemeleri, çocuklarını öldürmemeleri, elleriyle ayakları arasında bir iftira uydurup ortaya sürmemeleri, iyilik ve güzelliği belirlenmiş bir işte sana isyan etmemeleri hususunda seninle bey'atleşmek isterlerse, onlarla bey'atleş ve onlar için Allah'tan af dile! Kuşkusuz, Allah Gafûr'dur, Rahîm'dir."
+},
+"62:5": {
+"ar": "مَثَلُ ٱلَّذِينَ حُمِّلُوا۟ ٱلتَّوْرَىٰةَ ثُمَّ لَمْ يَحْمِلُوهَا كَمَثَلِ ٱلْحِمَارِ يَحْمِلُ أَسْفَارًۢا ۚ بِئْسَ مَثَلُ ٱلْقَوْمِ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِ ٱللَّهِ ۚ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلظَّـٰلِمِينَ",
+"tr": "Sırtlarına Tevrat yükletilip de sonra onu taşımayanların durumu, kutsal kitap parçaları taşıyan eşeğin durumuna benzer. Allah'ın ayetlerini yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Allah, zulme sapmış bir topluluğu doğruya ve güzele ulaştırmaz."
+},
+"64:10": {
+"ar": "وَٱلَّذِينَ كَفَرُوا۟ وَكَذَّبُوا۟ بِـَٔايَـٰتِنَآ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ خَـٰلِدِينَ فِيهَا ۖ وَبِئْسَ ٱلْمَصِيرُ",
+"tr": "Küfre sapıp ayetlerimizi yalanlayanlara gelince, işte bunlar, içinde sürekli kalacakları ateşin dostlarıdır. Ne kötü dönüş yeridir orası!"
+},
+"68:8": {
+"ar": "فَلَا تُطِعِ ٱلْمُكَذِّبِينَ",
+"tr": "O halde, yalanlayanlara itaat etme!"
+},
+"72:3": {
+"ar": "وَأَنَّهُۥ تَعَـٰلَىٰ جَدُّ رَبِّنَا مَا ٱتَّخَذَ صَـٰحِبَةً وَلَا وَلَدًا",
+"tr": "\"Rabbimizin adı/kudreti/işi/gayreti çok yücedir. O, ne bir dişi dost edinmiştir ne de bir çocuk.\""
+},
+"72:18": {
+"ar": "وَأَنَّ ٱلْمَسَـٰجِدَ لِلَّهِ فَلَا تَدْعُوا۟ مَعَ ٱللَّهِ أَحَدًا",
+"tr": "Hiç kuşkusuz, mescitler/secdeler Allah içindir. O halde, Allah ile birlikte bir başkasına yakarmayın/Allah'ın yanında bir başkası için çağrıda bulunmayın."
+},
+"78:28": {
+"ar": "وَكَذَّبُوا۟ بِـَٔايَـٰتِنَا كِذَّابًا",
+"tr": "Ayetlerimizi pervasızca yalanlamışlardı."
+},
+"78:30": {
+"ar": "فَذُوقُوا۟ فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
+"tr": "\"Hadi, tadıverin! Size azaptan başka bir şey asla artırmayacağız.\""
+},
+"98:5": {
+"ar": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
+"tr": "Oysa ki onlara, dini yalnız O'na özgüleyerek, dosdoğru yürüyen kişiler halinde sadece Allah'a ibadet etmeleri, namazı kılmaları, zekâtı vermeleri emredilmişti. İşte budur doğru, eskimez ve aşınmaz din."
+},
+"98:6": {
+"ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَـٰبِ وَٱلْمُشْرِكِينَ فِى نَارِ جَهَنَّمَ خَـٰلِدِينَ فِيهَآ ۚ أُو۟لَـٰٓئِكَ هُمْ شَرُّ ٱلْبَرِيَّةِ",
+"tr": "Ehlikitap'ın küfre sapanlarıyla müşrikler, içinde sürekli kalıcılar olarak cehennem ateşindedirler. İşte onlardır yaratılmışların en şerlisi."
+},
+"112:3": {
+"ar": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+"tr": "Ne doğurmuştur O, ne doğurulmuştur!"
+}
+},
+"istatistik": {
+"kayit": 205,
+"ayet": 216,
+"derece": {
+"✓": 201,
+"→": 4,
+"?": 0
+},
+"tur": {
+"emir": 20,
+"yasak": 40,
+"sonuc": 104,
+"tanim": 41
+}
+}
+}
