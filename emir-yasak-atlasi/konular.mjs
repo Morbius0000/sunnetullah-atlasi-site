@@ -10,7 +10,7 @@ export const konular = [
   { no: 2, grup: 'A', ad: 'Aile ve toplum emirleri', ozet: 'Anne-baba, akraba, yetim, yoksul, komşu.' },
   { no: 3, grup: 'A', ad: 'Mal ve infak', ozet: 'İnfak, zekât, sadaka.' },
   { no: 4, grup: 'B', ad: 'Şirk ve ayetleri yalanlama', ozet: 'Allah\'a ortak koşmak ve ayetleri yalanlamak: emirler, yasaklar ve ayette bildirilen karşılıklar.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },
-  { no: 5, grup: 'B', ad: 'Can, namus ve mal yasakları', ozet: 'Öldürme, zina, hırsızlık, yetim malı, ribâ, ölçüde hile.' },
+  { no: 5, grup: 'B', ad: 'Can, namus ve mal yasakları', ozet: 'Öldürme, zina, hırsızlık, yetim malı, ribâ, ölçüde hile: emirler, yasaklar ve ayette bildirilen karşılıklar.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },
   { no: 6, grup: 'B', ad: 'Söz ve davranış yasakları', ozet: 'Yalan, iftira, alay, gıybet, kibir, israf.' },
   { no: 7, grup: 'B', ad: 'Helal ve haram', ozet: 'Yiyecek-içecek ve evlilikte haram kılınanlar.' },
   { no: 8, grup: 'C', ad: 'Cennete götüren nitelikler', ozet: 'Kur\'an\'ın cennete ve Allah\'ın ödülüne bağladığı nitelik ve davranışlar.', hazir: true, vurgu: { ad: 'Yalnız cennet', alan: 'odul', deger: 'cennet', sayim: 'doğrudan cennet' } },

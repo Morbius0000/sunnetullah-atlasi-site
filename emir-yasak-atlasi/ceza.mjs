@@ -65,6 +65,10 @@ const L = [
   ['yuz_kararmasi', 'Yüzlerin kararması', 'azap'], ['zakkum', 'Zakkum', 'nar'], ['zalim_sayilma', 'Zalim sayılma', 'azap'],
   ['zillet', 'Zillet', 'azap'], ['zillet_azabi', 'Zillet azabı', 'azap'], ['zincir_ve_nar', 'Zincir ve ateş', 'nar'],
   ['zorlu_hesap_ve_azap', 'Zorlu hesap ve azap', 'dunya'],
+  // Konu 5
+  ['celde_100', 'Yüz celde', 'dunya'],
+  ['el_kesme', 'Elin kesilmesi', 'dunya'], ['kisas', 'Kısas', 'dunya'],
+  ['gulul_yuk', 'Aşırdığını kıyamette yüklenip getirme', 'azap'], ['buyuk_vebal', 'Büyük vebal', 'husran'],
   // Konu 4
   ['yok', 'Bu ayette karşılık belirtilmez', 'husran'],
   ['azap_en_elim', 'En acı azap', 'azap'], ['buyuk_zulum', 'Büyük zulüm sayılma', 'husran'], ['en_serli_yaratik', 'Yaratıkların en şerlisi', 'azap'],

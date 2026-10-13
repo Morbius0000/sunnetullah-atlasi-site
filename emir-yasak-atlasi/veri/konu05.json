@@ -1,0 +1,1595 @@
+{
+"konu": 5,
+"baslik": "Can, namus ve mal yasakları",
+"nitelikler": [
+{
+"id": "haksiz_oldurme",
+"grup": "Can",
+"etiket": "Haksız yere öldürmek ve can almak (mümini kasten öldürmek, kendi canına kıymak dahil)",
+"ayet_sayisi": 11,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "2:84",
+"odul_ayet": "2:84",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kan_dokme_yasagi_israilogullari",
+"not_": "İsrailoğullarından alınan söz: \"Birbirinizin kanını dökmeyeceksiniz\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:85",
+"odul_ayet": "2:85",
+"odul": "hizy",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "birbirini_oldurme_ve_yurttan_cikarma",
+"not_": "\"Birbirinizi öldürüyorsunuz ... cezası dünya hayatında rezillikten başka bir şey değildir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:85",
+"odul_ayet": "2:85",
+"odul": "azap_siddetli",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "birbirini_oldurme_ve_yurttan_cikarma",
+"not_": "\"Kıyamet gününde ise böyleleri azabın en şiddetlisine itilir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:29",
+"odul_ayet": "4:29",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kendi_canlarini_oldurme_yasagi",
+"not_": "\"Kendi canlarınıza kıymayın\" (Arapça: lâ taktulû enfüsekum)"
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:30",
+"odul_ayet": "4:30",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kendi_canlarini_oldurme_ates",
+"not_": "\"Kim düşmanlık ve zulümle bunu yaparsa onu ateşe sokacağız\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:92",
+"odul_ayet": "4:92",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "muminin_mumini_oldurmesi_yasagi",
+"not_": "\"Yanlışlık hali müstesna, bir müminin bir mümini öldürmesi olacak şey değildir\"; yanlışla öldürmede diyet ve özgürlüğe kavuşturma"
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:93",
+"odul_ayet": "4:93",
+"odul": "nar_ebedi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "mumini_kasten_oldurme",
+"not_": "\"Bir mümini kasten öldürenin cezası içinde sürekli kalmak üzere cehennemdir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:93",
+"odul_ayet": "4:93",
+"odul": "gazab",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "mumini_kasten_oldurme",
+"not_": "\"Allah gazap etmiştir böylesine\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:93",
+"odul_ayet": "4:93",
+"odul": "lanet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "mumini_kasten_oldurme",
+"not_": "\"lanetlemiştir onu\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:93",
+"odul_ayet": "4:93",
+"odul": "azap_buyuk",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "mumini_kasten_oldurme",
+"not_": "\"çok büyük bir azap hazırlamıştır ona\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:30",
+"odul_ayet": "5:30",
+"odul": "husran",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kardesini_oldurme_habil_kabil",
+"not_": "\"Nefsi onu kardeşini öldürmeye ısındırdı, o da onu öldürdü. Böylece hüsrana uğramışlardan oldu\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:32",
+"odul_ayet": "5:32",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "haksiz_yere_kisi_oldurme_insanlari_toptan_oldurme",
+"not_": "\"Kim bir kişiyi, bir kişiye karşılık yahut yeryüzünde bir fesat sebebiyle olmaksızın öldürürse, insanları toptan öldürmüş gibidir\" (İsrailoğullarına yazılan)"
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "6:151",
+"odul_ayet": "6:151",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "haksiz_yere_cana_kiyma_yasagi",
+"not_": "\"Allah'ın saygın ve aziz kıldığı cana, bir hakkı savunmak dışında kıymayın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "17:33",
+"odul_ayet": "17:33",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "haksiz_yere_cana_kiyma_yasagi",
+"not_": "\"Allah'ın saygıya layık kıldığı cana haklı bir sebep yokken kıymayın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "25:68",
+"odul_ayet": "25:69",
+"odul": "azap_artisi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "haksiz_yere_can_almama_ibadurrahman",
+"not_": "\"Allah'ın saygıya layık kıldığı canı haksız yere almazlar ... Bunları yapan cezaya çarpılır. Kıyamet günü azap kendisi için katkat artırılır da hor ve ezik halde onun içinde sürekli kalır\""
+}
+]
+},
+{
+"id": "cocuk_oldurme",
+"grup": "Can",
+"etiket": "Çocukları öldürmek: yoksulluk korkusu, kız çocuğunu gömmek, Firavun'un erkek çocukları boğazlaması",
+"ayet_sayisi": 10,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "2:49",
+"odul_ayet": "2:49",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "erkek_cocuklari_bogazlama_firavun",
+"not_": "Firavun hanedanı: \"Erkek çocuklarınızı boğazlıyorlar, kadınlarınızı diri bırakıyorlardı\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "6:137",
+"odul_ayet": "6:137",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ortaklarin_evlat_oldurmeyi_guzel_gostermesi",
+"not_": "\"Allah'a ortak koştukları kişiler, öz evlatlarını öldürmeyi güzel göstermiştir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "6:140",
+"odul_ayet": "6:140",
+"odul": "husran",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ilimsizce_evlat_katletme",
+"not_": "\"İlimsizlik yüzünden öz evlatlarını beyinsizce katledenler ... gerçekten hüsrana uğramışlardır ... sapıtmışlardır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "6:151",
+"odul_ayet": "6:151",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "cocuklari_yoksulluk_endisesiyle_oldurme_yasagi",
+"not_": "\"Yoksulluk endişesiyle çocuklarınızı öldürmeyin; biz sizi de onları da rızıklandırırız\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "14:6",
+"odul_ayet": "14:6",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "erkek_cocuklari_bogazlama_firavun",
+"not_": "Mûsa: Firavun hanedanı \"erkek çocuklarınızı boğazlıyorlar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "16:58",
+"odul_ayet": "16:59",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kiz_cocugunu_gomme",
+"not_": "\"Kız çocuk müjdelendiğinde ... toprağın bağrına mı gömsün onu. Bakın ne kötü hüküm veriyorlar!\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "17:31",
+"odul_ayet": "17:31",
+"odul": "buyuk_vebal",
+"derece": "✓",
+"tur": "yasak",
+"ham": "cocuklari_yoksulluk_korkusuyla_oldurme_yasagi",
+"not_": "\"Yoksulluk korkusuyla çocuklarınızı öldürmeyin ... onları öldürmek büyük bir günahtır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "28:4",
+"odul_ayet": "28:4",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "erkek_cocuklari_bogazlama_firavun",
+"not_": "Firavun: \"Bu topluluğun erkek çocuklarını boğazlıyor ... O gerçekten fesadı yayanlardandı\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "60:12",
+"odul_ayet": "60:12",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bey_at_cocuk_oldurmeme",
+"not_": "Mümin kadınların bey'atı: \"çocuklarını öldürmemeleri\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "81:8",
+"odul_ayet": "81:9",
+"odul": "hesaba_cekilme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "diri_diri_gomulen_kiz_cocugu",
+"not_": "\"Diri diri gömülen kız çocuğuna sorulduğunda, hangi günah yüzünden öldürüldü diye!\""
+}
+]
+},
+{
+"id": "peygamber_oldurme",
+"grup": "Can",
+"etiket": "Peygamberleri ve adaleti emredenleri haksız yere öldürmek",
+"ayet_sayisi": 3,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "2:61",
+"odul_ayet": "2:61",
+"odul": "gazab",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "haksiz_yere_peygamber_oldurme",
+"not_": "\"Allah'ın ayetlerini inkâr ediyor ve haksız yere peygamberleri öldürüyorlardı\" ... \"zillet, eziklik ve yoksulluk damgası vuruldu, Allah'tan bir gazaba çarpıldılar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:87",
+"odul_ayet": "2:87",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "resulleri_oldurme",
+"not_": "\"Bir kısmını yalanladınız, bir kısmını da öldürüyorsunuz\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "3:21",
+"odul_ayet": "3:21",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "haksiz_oldurme_ve_adaleti_emredenin_canina_kiyma",
+"not_": "\"Haksız yere peygamberleri öldürenler ve adaletle emredenlerin canına kıyanlar ... onlara korkunç bir azabı muştula\""
+}
+]
+},
+{
+"id": "kisas_diyet",
+"grup": "Can",
+"etiket": "Kısas ve diyet",
+"ayet_sayisi": 4,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "2:178",
+"odul_ayet": "2:178",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "kisas_emri",
+"not_": "\"Öldürülenler hakkında üzerinize kısas yazılmıştır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:178",
+"odul_ayet": "2:178",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kisasta_azginlik_ve_dusmanlik",
+"not_": "\"Kim bundan sonra azgınlık ve düşmanlık ederse onun için korkunç bir azap vardır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:179",
+"odul_ayet": "2:179",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kisasta_hayat",
+"not_": "\"Kısasta sizin için hayat vardır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:92",
+"odul_ayet": "4:92",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "muminin_mumini_hata_ile_oldurmesi_diyet",
+"not_": "\"Yanlışlıkla bir mümini öldürenin ... ölenin ailesine ... diyet vermesi gerekir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:45",
+"odul_ayet": "5:45",
+"odul": "kisas",
+"derece": "✓",
+"tur": "emir",
+"ham": "kisas_can_cana",
+"not_": "\"Cana can, göze göz, buruna burun, kulağa kulak, dişe diş... Yaralamalar karşılığında da kısas\""
+}
+]
+},
+{
+"id": "zina",
+"grup": "Namus",
+"etiket": "Zina ve fuhuş: yasaklar, cezalar ve karşılıklar",
+"ayet_sayisi": 8,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "4:15",
+"odul_ayet": "4:15",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "fahise_yapanlara_dort_tanik",
+"not_": "\"Kadınlarınızdan [el-fâhişe] yapanlara karşı içinizden dört tanık getirin; tanıklık ederlerse o kadınları ... evlerde tutun\" (Arapça: el-fâhişe)"
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:25",
+"odul_ayet": "4:25",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "evlilikte_fuhus_cezasi_kole",
+"not_": "\"Evliliğe geçtikten sonra bir fuhuş yaparlarsa onlara, hür kadınlara uygulanan cezasının yarısı uygulanacaktır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "17:32",
+"odul_ayet": "17:32",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "zinaya_yaklasma_yasagi",
+"not_": "\"Zinaya yaklaşmayın. Çünkü o iğrenç bir iştir [fâhişe]; yol olarak da çok kötüdür\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:2",
+"odul_ayet": "24:2",
+"odul": "celde_100",
+"derece": "✓",
+"tur": "emir",
+"ham": "zina_cezasi_yuz_celde",
+"not_": "\"Zina eden kadınla zina eden erkek... Yüz vuruş vurun herbirinin ciltlerine\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:3",
+"odul_ayet": "24:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "zina_eden_ile_nikah_haram",
+"not_": "\"Zina eden erkeği zina eden bir kadın veya putperest bir kadından başkası nikâhlamaz ... Müminlere bu, haram kılınmıştır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:33",
+"odul_ayet": "24:33",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "genc_kizlari_fuhsa_zorlama_yasagi",
+"not_": "\"Hizmetinizdeki genç kızları, iffetli kalmak isteyip dururlarken, iğreti dünya hayatının basit menfaatini elde etmek için fuhşa zorlamayın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "25:68",
+"odul_ayet": "25:69",
+"odul": "azap_artisi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zina_etmeme_ibadurrahman",
+"not_": "\"Zina etmezler. Bunları yapan cezaya çarpılır. Kıyamet günü azap kendisi için katkat artırılır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "60:12",
+"odul_ayet": "60:12",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bey_at_zina_etmeme",
+"not_": "Mümin kadınların bey'atı: \"zina etmemeleri\""
+}
+]
+},
+{
+"id": "kazf",
+"grup": "Namus",
+"etiket": "İffetli kadına zina iftirası (kazf) ve eşe zina isnadı",
+"ayet_sayisi": 3,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "24:4",
+"odul_ayet": "24:4",
+"odul": "celde_80",
+"derece": "✓",
+"tur": "emir",
+"ham": "iffetli_kadina_iftira_kazf",
+"not_": "\"İffetli kadınlara iftira atıp da dört tanık getirmeyenlere ... seksen vuruş vurun. Tanıklıklarını ebediyen kabul etmeyin. Onlar sapmışların ta kendileridir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:6",
+"odul_ayet": "24:6",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zina_isnadi_dort_kez_taniklik",
+"not_": "\"Kendi eşlerine bir zina isnat edip de kendilerinden başka tanıkları olmayanların ... dört kez tanıklık ikrarıdır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:23",
+"odul_ayet": "24:23",
+"odul": "lanet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "iffetli_mumin_kadina_iftira_kazf",
+"not_": "\"İffetli mümin kadınlara iftira atanlar, dünyada da âhirette de lanete çarptırılmışlardır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:23",
+"odul_ayet": "24:23",
+"odul": "azap_buyuk",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "iffetli_mumin_kadina_iftira_kazf",
+"not_": "\"Büyük bir azap vardır onlar için\""
+}
+]
+},
+{
+"id": "fahsa",
+"grup": "Namus",
+"etiket": "Fahşâ, fevâhiş ve edepsizlik; Lût kavminin fiili",
+"ayet_sayisi": 17,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "2:169",
+"odul_ayet": "2:169",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "seytanin_cirkinlik_emri",
+"not_": "\"Şeytan size kötülük, çirkinlik ve pislik emreder\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:268",
+"odul_ayet": "2:268",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "seytanin_fakirlik_korkusu_ve_cirkinlik",
+"not_": "\"Şeytan sizi fakirlikle korkutur, sizi görünür görünmez çirkinliklere sürükler\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:22",
+"odul_ayet": "4:22",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "babanin_nikahladigi_kadinla_evlenme_yasagi",
+"not_": "\"Babalarınızın nikâhlamış olduğu kadınlarla evlenmeyin. Böyle bir şey açık bir edepsizlik (fâhişe), nefret gerektiren bir kötülüktür\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "6:151",
+"odul_ayet": "6:151",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kotulukleri_gorunen_gizli_yaklasma_yasagi",
+"not_": "\"Kötülüklerin [fevâhiş] görünenine de gizli kalanına da yaklaşmayın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "7:28",
+"odul_ayet": "7:28",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_edepsizligi_emretmez",
+"not_": "\"Bir iğrençlik [fâhişe] yaptıklarında ... 'Allah emretti bize bunu.' De ki: Allah, edepsizliği emretmez\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "7:33",
+"odul_ayet": "7:33",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "fevahisi_haram_kilma",
+"not_": "\"Rabbim, ancak şunları haram kıldı: İğrençlikleri [el-fevâhiş] -görünenini, gizli olanını- günahı, haksız yere saldırmayı, hakkında kanıt indirmediği şeyi Allah'a ortak koşmayı, bir de Allah hakkında bilmediğiniz şeyler söylemeyi\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "7:80",
+"odul_ayet": "7:84",
+"odul": "helak",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "lut_kavmi_erkeklere_gitme",
+"not_": "Lût: \"Sizden önce alemlerden hiçbirinin yapmadığı bir iğrençliğe mi girişiyorsunuz? ... kadınları bırakıp şehvetiniz yüzünden erkeklere gidiyorsunuz\"; 7:84 \"Üzerlerine bir de yağmur indirdik. Bak nasıl oldu suçluların sonu!\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "12:24",
+"odul_ayet": "12:24",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yusuftan_kotulugu_ve_fuhsu_uzak_tutma",
+"not_": "\"Biz böylece ondan, kötülüğü ve fuhşu uzak tutuyorduk\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "16:90",
+"odul_ayet": "16:90",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allah_fahsa_munker_ve_bagyden_yasaklar",
+"not_": "\"Allah ... tüm pisliklerden/edepsizliklerden [el-fahşâ], kötülükten [el-münker], azgınlık ve kıskançlıktan [el-bağy] yasaklar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:19",
+"odul_ayet": "24:19",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "edepsizligin_yayilmasini_arzu_etme",
+"not_": "\"İman edenler içinde edepsizliğin yayılmasını arzu edenler ... dünyada da âhirette de korkunç bir azap öngörülmüştür\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:21",
+"odul_ayet": "24:21",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "seytanin_adimlarini_izleme_yasagi_fahsa",
+"not_": "\"Şeytanın adımlarını izlemeyin. Kim izlerse, şeytan ona iğrençlikleri [el-fahşâ] ve kötülüğü [el-münker] emreder\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "27:54",
+"odul_ayet": "27:54",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "lut_kavmi_erkeklere_gitme",
+"not_": "Lût: \"Gözünüz göre göre şu iğrençliği [fâhişe] yapıyorsunuz ha! ... şehvetinizi tatmin için kadınları bırakıp da erkeklere mi gidiyorsunuz?\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "29:28",
+"odul_ayet": "29:28",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "lut_kavmi_erkeklere_gitme",
+"not_": "Lût: \"Öyle bir iğrençliğe [fâhişe] bulaşıyorsunuz ki, sizden önce âlemlerden bir tek kişi bunu yapmamıştır\"; 29:29 \"Erkeklere gidiyorsunuz, yol kesiyorsunuz\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "29:28",
+"odul_ayet": "29:34",
+"odul": "helak",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "lut_kavmi_erkeklere_gitme",
+"not_": "Lût'un kavmi (29:28-29); 29:34 \"Şu kent halkı üstüne, yaptıkları fenalıklardan ötürü gökten bir felaket indireceğiz\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "29:45",
+"odul_ayet": "29:45",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "namaz_cirkinlik_ve_kotulukten_alikoyar",
+"not_": "\"Namaz, çirkinliklerden [el-fahşâ] ve kötülüklerden [el-münker] alıkoyar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "33:30",
+"odul_ayet": "33:30",
+"odul": "azap_katli",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "peygamber_hanimlari_acik_edepsizlik",
+"not_": "\"Sizden kim açık/kanıtlanmış bir edepsizlik [fâhişe mübeyyine] yaparsa, kendisi için azap iki katına çıkarılır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "42:37",
+"odul_ayet": "42:37",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "gunahin_buyuklerinden_ve_fevahisten_uzak_durma",
+"not_": "\"Onlar, günahın büyüklerinden ve tüm iğrençliklerinden [el-fevâhiş] uzak dururlar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "53:32",
+"odul_ayet": "53:32",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "gunahin_buyuklerinden_ve_fevahisten_cekinme",
+"not_": "\"Günahın büyüklerinden ve iğrençliklerden [el-fevâhiş] çekinip kaçınırlar. Bazı küçük sürçmeler hariç\""
+}
+]
+},
+{
+"id": "irzi_koruma",
+"grup": "Namus",
+"etiket": "Bakışı ve ırzı korumak",
+"ayet_sayisi": 4,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "23:5",
+"odul_ayet": "23:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "irzi_korumak_ve_sinirin_otesini_istememek",
+"not_": "\"Cinsiyet organlarını/ırzlarını koruyanlardır onlar. Eşleri yahut akitleri aracılığıyla sahip bulundukları müstesnadır ... Kim bundan ötesini isterse, işte onlar, sınırı aşanlardır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:30",
+"odul_ayet": "24:30",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "bakislari_indirme_ve_irzi_koruma_erkek",
+"not_": "\"Mümin erkeklere söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "24:31",
+"odul_ayet": "24:31",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "bakislari_indirme_irzi_koruma_ve_zinet_kadin",
+"not_": "\"Mümin kadınlara da söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar. Süslerini, görünen kısımlar müstesna, açmasınlar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "70:29",
+"odul_ayet": "70:31",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "irzi_korumak_ve_sinirin_otesini_istememek",
+"not_": "\"Cinsiyet organlarını titizlikle korurlar. Ancak eşleriyle ... kınanamazlar. Kim bunun ötesini isterse, işte böyleleri sınırı aşanların ta kendileridir\""
+}
+]
+},
+{
+"id": "riba",
+"grup": "Mal",
+"etiket": "Ribâ",
+"ayet_sayisi": 7,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "2:275",
+"odul_ayet": "2:275",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "riba_haram_kilindi",
+"not_": "\"Allah, alış-verişi helal, ribayı haram kılmıştır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:275",
+"odul_ayet": "2:275",
+"odul": "nar_ebedi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "riba_yiyenlere_donus_cezasi",
+"not_": "\"Yeniden ribaya dönene gelince, böyleleri ateşin dostlarıdır. Sürekli kalacaklardır orada\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:276",
+"odul_ayet": "2:276",
+"odul": "mahvolma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "riba_artisini_mahvetme",
+"not_": "\"Allah, ribadan beklenen artışı mahveder\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:278",
+"odul_ayet": "2:278",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "ribadan_geri_kalani_birakma",
+"not_": "\"Ribadan geri kalanı bırakın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "2:279",
+"odul_ayet": "2:279",
+"odul": "tehdit",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ribayi_birakmayana_harp_ilani",
+"not_": "\"Eğer bunu yapmazsanız Allah ve resulünden bir harp ilanını duymuş olun\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "3:130",
+"odul_ayet": "3:130",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "ribayi_kat_kat_yeme_yasagi",
+"not_": "\"Ribayı öyle kat kat katlayarak yemeyin\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:161",
+"odul_ayet": "4:161",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "riba_ve_batil_mal_yeme",
+"not_": "\"Ribayı almaları -oysaki ondan yasaklanmışlardı- ve haksız yollarla insanların mallarını yemeleri yüzünden onların küfre sapanlarına korkunç bir azap hazırladık\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:161",
+"odul_ayet": "4:161",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "riba_yasagi_israilogullari",
+"not_": "\"Ribayı almaları -oysaki ondan yasaklanmışlardı-\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "30:39",
+"odul_ayet": "30:39",
+"odul": "yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "riba_ile_verilen_artmaz",
+"not_": "\"İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz\""
+}
+]
+},
+{
+"id": "yetim_mali",
+"grup": "Mal",
+"etiket": "Yetimin malını yemek",
+"ayet_sayisi": 6,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "4:2",
+"odul_ayet": "4:2",
+"odul": "buyuk_vebal",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yetim_mali_kendi_mala_katip_yeme_yasagi",
+"not_": "\"Yetimlerin mallarını kendi mallarınıza katarak yemeyin. Bunu yapmak gerçekten büyük bir vebaldir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:6",
+"odul_ayet": "4:6",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yetim_mali_saçip_savurarak_yeme_yasagi",
+"not_": "\"Büyüyecekler diye bu malları tez elden saçıp savurarak yemeyin\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:10",
+"odul_ayet": "4:10",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yetim_mali_yeme_zulmu",
+"not_": "\"Zulme başvurarak yetimlerin mallarını yiyenler karınlarına doldurmak üzere bir ateş yemekten başka bir şey yapmazlar\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:10",
+"odul_ayet": "4:10",
+"odul": "azap_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yetim_mali_yeme_zulmu",
+"not_": "\"Yakın bir zamanda, korkunç acılar veren bir azaba dalacaklardır\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "6:152",
+"odul_ayet": "6:152",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yetim_malina_yaklasma_yasagi",
+"not_": "\"Yetimin malına yaklaşmayın! Ancak rüştüne erişinceye kadar en güzel yolla ilgilenme hali müstesna\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "17:34",
+"odul_ayet": "17:34",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yetim_malina_yaklasma_yasagi",
+"not_": "\"Yetimin malına yaklaşmayın. Ancak rüştüne erişinceye kadar, güzel bir yolla ilgilenebilirsiniz\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "89:19",
+"odul_ayet": "89:19",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "mirasi_toplayip_yeme_yetime_ikram_etmeme",
+"not_": "\"Yetime ikramda bulunmuyorsunuz ... Mirası derleyip toplayıp yiyorsunuz. Malı ... çok seviyorsunuz\""
+}
+]
+},
+{
+"id": "batil_mal",
+"grup": "Mal",
+"etiket": "Malı haksız ve bâtıl yolla yemek, haram yemek",
+"ayet_sayisi": 7,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "2:188",
+"odul_ayet": "2:188",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "mallari_batil_yolla_yeme_yasagi",
+"not_": "\"Mallarınızı aranızda haksız ve uydurma yollara baş vurarak yemeyin\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:19",
+"odul_ayet": "4:19",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kadinlari_zorla_miras_edinme_yasagi",
+"not_": "\"Kadınlara, zor ve baskı kullanarak mirasçı olmanız size helal olmaz\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "4:29",
+"odul_ayet": "4:29",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "mallari_batil_yolla_yeme_yasagi",
+"not_": "\"Mallarınızı aranızda bâtıl bir yolla yemeyin. Kendi hoşnutluğunuzla gerçekleşmiş bir ticaret olursa başka\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:42",
+"odul_ayet": "5:42",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "harami_tika_basa_yeme",
+"not_": "\"Yalana iyice kulak verirler, haramı tıka-basa yerler\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:62",
+"odul_ayet": "5:62",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "haram_yemede_yarisma",
+"not_": "\"Onların birçoğunun günahta, düşmanlıkta, haram yemede yarıştıklarını görürsün. Ne kötüdür o yapmakta oldukları!\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:63",
+"odul_ayet": "5:63",
+"odul": "kotu_son",
+"derece": "✓",
+"tur": "tanim",
+"ham": "haram_yemekten_alikoymama_ruhban_haham",
+"not_": "\"Ruhbanları ve hahamları onları, günah oluşturan sözlerinden, haram yemekten alıkoysalardı olmaz mıydı? Ne kötüdür onların ürettikleri\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "9:34",
+"odul_ayet": "9:34",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "halkin_mallarini_uydurma_yollarla_yeme",
+"not_": "\"Hahamlardan ve rahiplerden birçoğu halkın mallarını uydurma yollarla tıkabasa yerler\""
+}
+]
+},
+{
+"id": "hirsizlik_hiyanet",
+"grup": "Mal",
+"etiket": "Hırsızlık ve kamu malından aşırmak",
+"ayet_sayisi": 3,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "3:161",
+"odul_ayet": "3:161",
+"odul": "gulul_yuk",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kamu_malindan_asirma_hiyanet",
+"not_": "\"Her kim hıyanet eder, kamu malından bir şey aşırırsa, aşırdığını kıyamet günü yüklenip getirir\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:38",
+"odul_ayet": "5:38",
+"odul": "el_kesme",
+"derece": "✓",
+"tur": "emir",
+"ham": "hirsizlik_cezasi",
+"not_": "\"Hırsızlık yapan erkek ve kadının, yaptıklarına karşılık Allah'tan bir ceza olarak ellerini kesin\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "60:12",
+"odul_ayet": "60:12",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bey_at_hirsizlik_etmeme",
+"not_": "Mümin kadınların bey'atı: \"hırsızlık etmemeleri\""
+}
+]
+},
+{
+"id": "olcu_tarti",
+"grup": "Mal",
+"etiket": "Ölçüde ve tartıda hile",
+"ayet_sayisi": 11,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "6:152",
+"odul_ayet": "6:152",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "olcu_ve_tarti_emri",
+"not_": "\"Ölçme ve tartmayı tam bir dürüstlükle yerine getirin\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "7:85",
+"odul_ayet": "7:85",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "olcu_ve_tartida_durust_olma_suayb",
+"not_": "Şuayb: \"Ölçü ve tartıda dürüst davranın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "7:85",
+"odul_ayet": "7:85",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "insanlarin_esyasina_el_koyma_yasagi_suayb",
+"not_": "Şuayb: \"İnsanların eşyasına el koymaya tenezzül etmeyin\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "11:84",
+"odul_ayet": "11:84",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "yasak",
+"ham": "eksik_olcup_yanlis_tartma_yasagi_suayb",
+"not_": "Şuayb: \"Eksik ölçüp yanlış tartmayın ... sizi sarıp kuşatan bir günün azabından da korkuyorum\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "11:85",
+"odul_ayet": "11:85",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "olcu_ve_tartiyi_tam_yapma_suayb",
+"not_": "Şuayb: \"Ölçüyü ve tartıyı tam bir dürüstlükle yapın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "11:85",
+"odul_ayet": "11:85",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "insanlarin_esyalarini_tirtiklama_yasagi_suayb",
+"not_": "Şuayb: \"İnsanların eşyalarını tırtıklamayın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "17:35",
+"odul_ayet": "17:35",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "olcu_ve_tarti_emri",
+"not_": "\"Ölçtüğünüz zaman tam ve dürüst ölçün. Hilesiz teraziyle tartın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "26:181",
+"odul_ayet": "26:181",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "olcuyu_tam_yapma_ve_hakkini_carpmama_suayb",
+"not_": "Şuayb: \"Ölçüyü tam yapın; şunun bunun hakkını çarpanlardan olmayın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "26:182",
+"odul_ayet": "26:182",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "dogru_terazi_ile_tartma_suayb",
+"not_": "Şuayb: \"Doğru düzgün terazi ile tartın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "26:183",
+"odul_ayet": "26:183",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "halkin_esyasini_degerini_dusurerek_alma_yasagi_suayb",
+"not_": "Şuayb: \"Halkın eşyasını, değerlerini düşürerek almayın\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "55:8",
+"odul_ayet": "55:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "olcu_ve_tartida_azginlik_yasagi",
+"not_": "\"Azgınlık etmeyin ölçü ve tartıda, saptırmayın mizanı\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "55:9",
+"odul_ayet": "55:9",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "olcuyu_adaletle_koruma",
+"not_": "\"Ölçüyü titizlikle, adaletle koruyun ve hüsrana araç yapmayın mizanı\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "83:1",
+"odul_ayet": "83:3",
+"odul": "vay",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "olcu_ve_tartida_hile_mutaffifin",
+"not_": "\"Azap ve kaygı, tartıda ve ölçüde hile yapanlara olsun; ... tartıp ölçtükleri zaman, eksiltmeye giderler\""
+}
+]
+},
+{
+"id": "kenz",
+"grup": "Mal",
+"etiket": "Altın ve gümüşü yığıp Allah yolunda harcamamak",
+"ayet_sayisi": 1,
+"kayitlar": [
+{
+"blok": "K5a",
+"nitelik_ayet": "9:34",
+"odul_ayet": "9:34",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "altin_gumus_depolayip_harcamama",
+"not_": "\"Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara korkunç bir azap muştula\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "9:34",
+"odul_ayet": "9:35",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "altin_gumus_depolayip_harcamama",
+"not_": "\"Cehennem ateşinde onların üzerine lav dökülür de bununla alınları, böğürleri, sırtları dağlanır\""
+}
+]
+}
+],
+"ayetler": {
+"2:49": {
+"ar": "وَإِذْ نَجَّيْنَـٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ يُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+"tr": "Sizi Firavun hanedanından kurtardığımızı da hatırlayın. Hani onlar size azabın en çirkiniyle kötülük ediyorlardı: Erkek çocuklarınızı boğazlıyorlar, kadınlarınızı diri bırakıyorlar/kadınlarınızın rahimlerini yoklayıp çocuk alıyorlar/kadınlarınıza utanç duyulacak şeyler yapıyorlardı. İşte bunda sizin için, Rabb'inizden gelen büyük bir ıstırap ve imtihan vardı."
+},
+"2:61": {
+"ar": "وَإِذْ قُلْتُمْ يَـٰمُوسَىٰ لَن نَّصْبِرَ عَلَىٰ طَعَامٍ وَٰحِدٍ فَٱدْعُ لَنَا رَبَّكَ يُخْرِجْ لَنَا مِمَّا تُنۢبِتُ ٱلْأَرْضُ مِنۢ بَقْلِهَا وَقِثَّآئِهَا وَفُومِهَا وَعَدَسِهَا وَبَصَلِهَا ۖ قَالَ أَتَسْتَبْدِلُونَ ٱلَّذِى هُوَ أَدْنَىٰ بِٱلَّذِى هُوَ خَيْرٌ ۚ ٱهْبِطُوا۟ مِصْرًا فَإِنَّ لَكُم مَّا سَأَلْتُمْ ۗ وَضُرِبَتْ عَلَيْهِمُ ٱلذِّلَّةُ وَٱلْمَسْكَنَةُ وَبَآءُو بِغَضَبٍ مِّنَ ٱللَّهِ ۗ ذَٰلِكَ بِأَنَّهُمْ كَانُوا۟ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّـۧنَ بِغَيْرِ ٱلْحَقِّ ۗ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+"tr": "Siz şöyle demiştiniz: \"Ey Mûsa, biz bir tek yemeğe asla dayanamayız, bizim için Rabb'ine dua et de bize yerin bitirdiklerinden, baklasından, acurundan, sarmısağından, mercimeğinden, soğanından çıkarıversin.\" Mûsa şöyle demişti: \"Siz daha aşağı bir nimeti daha üstün bir nimete mi değişmek istiyorsunuz? İnin bir kasabaya; istediğiniz sizin olacaktır.\" Ve üzerlerine zillet, eziklik ve yoksulluk damgası vuruldu, Allah'tan bir gazaba çarpıldılar. Bu böyle oldu, çünkü onlar Allah'ın ayetlerini inkâr ediyor ve haksız yere peygamberleri öldürüyorlardı. İsyan ettikleri için böyle oldu. Sınır tanımıyor, azgınlık yapıyorlardı."
+},
+"2:84": {
+"ar": "وَإِذْ أَخَذْنَا مِيثَـٰقَكُمْ لَا تَسْفِكُونَ دِمَآءَكُمْ وَلَا تُخْرِجُونَ أَنفُسَكُم مِّن دِيَـٰرِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ",
+"tr": "Sizden şu sözü de almıştık: Birbirinizin kanını dökmeyeceksiniz. Birbirlerinizi yurtlarınızdan çıkarmayacaksınız. Bunu kabul etmiştiniz. Hâlâ da buna tanıklarsınız."
+},
+"2:85": {
+"ar": "ثُمَّ أَنتُمْ هَـٰٓؤُلَآءِ تَقْتُلُونَ أَنفُسَكُمْ وَتُخْرِجُونَ فَرِيقًا مِّنكُم مِّن دِيَـٰرِهِمْ تَظَـٰهَرُونَ عَلَيْهِم بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَإِن يَأْتُوكُمْ أُسَـٰرَىٰ تُفَـٰدُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ ۚ أَفَتُؤْمِنُونَ بِبَعْضِ ٱلْكِتَـٰبِ وَتَكْفُرُونَ بِبَعْضٍ ۚ فَمَا جَزَآءُ مَن يَفْعَلُ ذَٰلِكَ مِنكُمْ إِلَّا خِزْىٌ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَيَوْمَ ٱلْقِيَـٰمَةِ يُرَدُّونَ إِلَىٰٓ أَشَدِّ ٱلْعَذَابِ ۗ وَمَا ٱللَّهُ بِغَـٰفِلٍ عَمَّا تَعْمَلُونَ",
+"tr": "Bütün bunlardan sonra siz şu insanlarsınız: Birbirinizi öldürüyorsunuz. İçinizden bir zümreyi yurtlarından çıkarıyorsunuz. Onlar aleyhine kötülük ve düşmanlık hususunda dayanışmaya giriyorsunuz. Esasında onları yurtlarından çıkarmak size haram edildiği halde, esir olarak size geldiklerinde fidyelerini veriyorsunuz. Şimdi siz Kitap'ın bir kısmına inanıp bir kısmını inkâr mı ediyorsunuz? İçinizden bunu yapanın cezası, dünya hayatında rezillikten başka bir şey değildir. Kıyamet gününde ise böyleleri azabın en şiddetlisine itilir. Allah, yapmakta olduklarınızdan habersiz değildir."
+},
+"2:87": {
+"ar": "وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَـٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَـٰتِ وَأَيَّدْنَـٰهُ بِرُوحِ ٱلْقُدُسِ ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًا كَذَّبْتُمْ وَفَرِيقًا تَقْتُلُونَ",
+"tr": "Yemin olsun ki, Mûsa'ya Kitap'ı verdik. Ve arkasından da resuller gönderdik. Meryem oğlu İsa'ya da açık-seçik deliller verdik ve kendisini Ruhulkudüs'le güçlendirdik. Bir resulün size, nefislerinizin hoşlanmadığı bir şey getirdiği her seferinde büyüklük taslamadınız mı? Bir kısmını yalanladınız, bir kısmını da öldürüyorsunuz."
+},
+"2:169": {
+"ar": "إِنَّمَا يَأْمُرُكُم بِٱلسُّوٓءِ وَٱلْفَحْشَآءِ وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
+"tr": "Hiç kuşkusuz o, size kötülük, çirkinlik/düzensizlik ve pislik emreder. Ve size, Allah hakkında bilmediğiniz şeyleri söylemenizi buyurur durur."
+},
+"2:178": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَـٰنٍ ۗ ذَٰلِكَ تَخْفِيفٌ مِّن رَّبِّكُمْ وَرَحْمَةٌ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+"tr": "Ey iman edenler! Öldürülenler hakkında üzerinize kısas yazılmıştır. Hür kişiye karşılık hür, köleye karşılık köle, dişiye karşılık dişi... Kim kardeşi tarafından herhangi bir şekilde affa uğrarsa, bu durumda örfü izlemek ve affedene en güzel biçimde bir ödeme yapmak gerekir. İşte bu, Rabb'inizden size bir hafifletme ve bir rahmettir. Kim bundan sonra azgınlık ve düşmanlık ederse onun için korkunç bir azap vardır."
+},
+"2:179": {
+"ar": "وَلَكُمْ فِى ٱلْقِصَاصِ حَيَوٰةٌ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ لَعَلَّكُمْ تَتَّقُونَ",
+"tr": "Ey aklı ve gönlü işleyenler, kısasta sizin için hayat vardır. Bu sayede korunmanız umulmaktadır."
+},
+"2:188": {
+"ar": "وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَـٰطِلِ وَتُدْلُوا۟ بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا۟ فَرِيقًا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ",
+"tr": "Mallarınızı aranızda haksız ve uydurma yollara baş vurarak yemeyin; bilip durduğunuz halde insanların mallarından bir kısmını günaha saparak yemek için onları yargıçlara aktarmayın."
+},
+"2:268": {
+"ar": "ٱلشَّيْطَـٰنُ يَعِدُكُمُ ٱلْفَقْرَ وَيَأْمُرُكُم بِٱلْفَحْشَآءِ ۖ وَٱللَّهُ يَعِدُكُم مَّغْفِرَةً مِّنْهُ وَفَضْلًا ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+"tr": "Şeytan sizi fakirlikle korkutur, sizi görünür görünmez çirkinliklere sürükler. Allah ise size kendisinden bir bağışlanma ve lütuf vaat eder. Allah, Vâsi'dir, Alîm'dir."
+},
+"2:275": {
+"ar": "ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَـٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
+"tr": "O ribayı yiyenler, şeytanın bir dokunuşla çarptığı kişinin kalkışından başka türlü kalkamazlar. Bu böyledir, çünkü onlar, \"Alış-veriş de riba gibidir.\" demişlerdir. Oysa ki Allah, alış-verişi helal, ribayı haram kılmıştır. Kendisine Rabb'inden bir öğüt gelip de yaptığından vazgeçenin geçmişi kendisine, işi Allah'a kalmıştır. Yeniden ribaya dönene gelince, böyleleri ateşin dostlarıdır. Sürekli kalacaklardır orada."
+},
+"2:276": {
+"ar": "يَمْحَقُ ٱللَّهُ ٱلرِّبَوٰا۟ وَيُرْبِى ٱلصَّدَقَـٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
+"tr": "Allah, ribadan beklenen artışı mahveder, sadakalar karşılığında artışlar getirir. Allah, nankörlüğe batmış günahkârların hiç birini sevmez."
+},
+"2:278": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱتَّقُوا۟ ٱللَّهَ وَذَرُوا۟ مَا بَقِىَ مِنَ ٱلرِّبَوٰٓا۟ إِن كُنتُم مُّؤْمِنِينَ",
+"tr": "Ey iman sahipleri, Allah'tan korkun. Ve eğer inanıyorsanız ribadan geri kalanı bırakın."
+},
+"2:279": {
+"ar": "فَإِن لَّمْ تَفْعَلُوا۟ فَأْذَنُوا۟ بِحَرْبٍ مِّنَ ٱللَّهِ وَرَسُولِهِۦ ۖ وَإِن تُبْتُمْ فَلَكُمْ رُءُوسُ أَمْوَٰلِكُمْ لَا تَظْلِمُونَ وَلَا تُظْلَمُونَ",
+"tr": "Eğer bunu yapmazsanız Allah ve resulünden bir harp ilanını duymuş olun. Tövbe ederseniz, mallarınızın esasları/ana paralarınız sizindir; ne zulmeden olursunuz ne de zulme uğratılan."
+},
+"3:21": {
+"ar": "إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّـۧنَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ ٱلَّذِينَ يَأْمُرُونَ بِٱلْقِسْطِ مِنَ ٱلنَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+"tr": "Allah'ın ayetlerini inkâr edip haksız yere peygamberleri öldürenler ve insanlar içinden adaletle emredenlerin canına kıyanlar var ya, işte onlara korkunç bir azabı muştula."
+},
+"3:130": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوا۟ ٱلرِّبَوٰٓا۟ أَضْعَـٰفًا مُّضَـٰعَفَةً ۖ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ",
+"tr": "Ey iman sahipleri! Ribayı öyle kat kat katlayarak yemeyin. Allah'tan korkun ki kurtuluşa erebilesiniz."
+},
+"3:161": {
+"ar": "وَمَا كَانَ لِنَبِىٍّ أَن يَغُلَّ ۚ وَمَن يَغْلُلْ يَأْتِ بِمَا غَلَّ يَوْمَ ٱلْقِيَـٰمَةِ ۚ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
+"tr": "Bir peygamberin emanete hıyanet etmesi/kamu malından aşırması olacak şey değildir. Her kim hıyanet eder, kamu malından bir şey aşırırsa, aşırdığını kıyamet günü yüklenip getirir. Sonra her benliğe; kazandığı tam olarak ödenir. Hiç birine zulmedilmez."
+},
+"4:2": {
+"ar": "وَءَاتُوا۟ ٱلْيَتَـٰمَىٰٓ أَمْوَٰلَهُمْ ۖ وَلَا تَتَبَدَّلُوا۟ ٱلْخَبِيثَ بِٱلطَّيِّبِ ۖ وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ ۚ إِنَّهُۥ كَانَ حُوبًا كَبِيرًا",
+"tr": "Yetimlere mallarını verin. Temizi pise değişmeyin. Yetimlerin mallarını kendi mallarınıza katarak yemeyin. Bunu yapmak gerçekten büyük bir vebaldir."
+},
+"4:6": {
+"ar": "وَٱبْتَلُوا۟ ٱلْيَتَـٰمَىٰ حَتَّىٰٓ إِذَا بَلَغُوا۟ ٱلنِّكَاحَ فَإِنْ ءَانَسْتُم مِّنْهُمْ رُشْدًا فَٱدْفَعُوٓا۟ إِلَيْهِمْ أَمْوَٰلَهُمْ ۖ وَلَا تَأْكُلُوهَآ إِسْرَافًا وَبِدَارًا أَن يَكْبَرُوا۟ ۚ وَمَن كَانَ غَنِيًّا فَلْيَسْتَعْفِفْ ۖ وَمَن كَانَ فَقِيرًا فَلْيَأْكُلْ بِٱلْمَعْرُوفِ ۚ فَإِذَا دَفَعْتُمْ إِلَيْهِمْ أَمْوَٰلَهُمْ فَأَشْهِدُوا۟ عَلَيْهِمْ ۚ وَكَفَىٰ بِٱللَّهِ حَسِيبًا",
+"tr": "Yetimleri, nikâh çağına gelmelerine kadar gözetleyip deneyin. O zaman onlarda içinize sinecek bir olgunluk ve erginlik görürseniz, mallarını onlara geri verin. Büyüyecekler diye bu malları tez elden saçıp savurarak yemeyin. Zengin olan, iffetli davransın. Fakir olan ise örfün gerekli kıldığı oranda yesin. Mallarını kendilerine teslim ettiğiniz zaman yanlarında tanıklar bulundurun. Hesap sorucu olarak Allah yeter."
+},
+"4:10": {
+"ar": "إِنَّ ٱلَّذِينَ يَأْكُلُونَ أَمْوَٰلَ ٱلْيَتَـٰمَىٰ ظُلْمًا إِنَّمَا يَأْكُلُونَ فِى بُطُونِهِمْ نَارًا ۖ وَسَيَصْلَوْنَ سَعِيرًا",
+"tr": "Şunda kuşkunuz olmasın ki, zulme başvurarak yetimlerin mallarını yiyenler karınlarına doldurmak üzere bir ateş yemekten başka bir şey yapmazlar. Ve onlar yakın bir zamanda, korkunç acılar veren bir azaba dalacaklardır."
+},
+"4:15": {
+"ar": "وَٱلَّـٰتِى يَأْتِينَ ٱلْفَـٰحِشَةَ مِن نِّسَآئِكُمْ فَٱسْتَشْهِدُوا۟ عَلَيْهِنَّ أَرْبَعَةً مِّنكُمْ ۖ فَإِن شَهِدُوا۟ فَأَمْسِكُوهُنَّ فِى ٱلْبُيُوتِ حَتَّىٰ يَتَوَفَّىٰهُنَّ ٱلْمَوْتُ أَوْ يَجْعَلَ ٱللَّهُ لَهُنَّ سَبِيلًا",
+"tr": "Kadınlarınızdan eşcinsellik/sevicilik yapanlara karşı içinizden dört tanık getirin; eğer tanıklık ederlerse o kadınları, ölüm canlarını alıncaya ya da Allah kendileri için bir yol açıncaya kadar evlerde tutun."
+},
+"4:19": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًا ۖ وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ ۚ فَإِن كَرِهْتُمُوهُنَّ فَعَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا وَيَجْعَلَ ٱللَّهُ فِيهِ خَيْرًا كَثِيرًا",
+"tr": "Ey iman edenler! Kadınlara, zor ve baskı kullanarak mirasçı olmanız size helal olmaz. Kendilerine vermiş bulunduğunuz şeylerin bir kısmını çarpıp götürmek için onları sıkıştırmanız da helal değildir. Kanıta bağlanmış bir fuhuş yapmaları hali müstesna. Onlarla iyi ve güzel geçinin. Onlardan tiksindinizse olabilir ki, siz bir şeyi çirkin bulursunuz da Allah, ona çok hayır koymuş olur."
+},
+"4:22": {
+"ar": "وَلَا تَنكِحُوا۟ مَا نَكَحَ ءَابَآؤُكُم مِّنَ ٱلنِّسَآءِ إِلَّا مَا قَدْ سَلَفَ ۚ إِنَّهُۥ كَانَ فَـٰحِشَةً وَمَقْتًا وَسَآءَ سَبِيلًا",
+"tr": "Geçmişte kalanlar hariç, babalarınızın nikâhlamış olduğu kadınlarla evlenmeyin. Böyle bir şey açık bir edepsizlik, nefret gerektiren bir kötülüktür. Çirkin bir yoldur bu."
+},
+"4:25": {
+"ar": "وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَـٰتِ ٱلْمُؤْمِنَـٰتِ فَمِن مَّا مَلَكَتْ أَيْمَـٰنُكُم مِّن فَتَيَـٰتِكُمُ ٱلْمُؤْمِنَـٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَـٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَـٰتٍ غَيْرَ مُسَـٰفِحَـٰتٍ وَلَا مُتَّخِذَٰتِ أَخْدَانٍ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَـٰحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَـٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+"tr": "İnanmış hür kadınları nikâhlama genişliğine gücü yetmeyeniniz, ellerinizin altındaki genç, mümin köle kızlarından biriyle evlensin. Allah sizin imanınızı daha iyi bilir. Hep birbirinizdensiniz. O halde onları, ailelerinin izniyle nikâhlayın. Gizli dost edinmeyerek, zinadan uzak kalarak, iffetli hanımlar olmaları şartıyla onların mehirlerini örfe uygun bir biçimde verin. Evliliğe geçtikten sonra bir fuhuş yaparlarsa onlara, hür kadınlara uygulanan cezasının yarısı uygulanacaktır. Bu, köle ile evlenme yolu, günaha ve sıkıntıya girmekten korkanınız içindir. Sabretmeniz sizin için daha hayırlıdır. Allah çok affedici, çok merhametlidir."
+},
+"4:29": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَـٰطِلِ إِلَّآ أَن تَكُونَ تِجَـٰرَةً عَن تَرَاضٍ مِّنكُمْ ۚ وَلَا تَقْتُلُوٓا۟ أَنفُسَكُمْ ۚ إِنَّ ٱللَّهَ كَانَ بِكُمْ رَحِيمًا",
+"tr": "Ey inananlar! Mallarınızı aranızda bâtıl bir yolla/tutarsız bahanelerle yemeyin. Kendi hoşnutluğunuzla gerçekleşmiş bir ticaret olursa başka. Kendi canlarınıza kıymayın/intihar etmeyin. Hiç kuşkusuz, Allah, size karşı çok merhametlidir."
+},
+"4:30": {
+"ar": "وَمَن يَفْعَلْ ذَٰلِكَ عُدْوَٰنًا وَظُلْمًا فَسَوْفَ نُصْلِيهِ نَارًا ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+"tr": "Kim düşmanlık ve zulümle intihar günahını işlerse onu ateşe sokacağız. Bu, Allah için çok da kolaydır."
+},
+"4:92": {
+"ar": "وَمَا كَانَ لِمُؤْمِنٍ أَن يَقْتُلَ مُؤْمِنًا إِلَّا خَطَـًٔا ۚ وَمَن قَتَلَ مُؤْمِنًا خَطَـًٔا فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ وَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦٓ إِلَّآ أَن يَصَّدَّقُوا۟ ۚ فَإِن كَانَ مِن قَوْمٍ عَدُوٍّ لَّكُمْ وَهُوَ مُؤْمِنٌ فَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ وَإِن كَانَ مِن قَوْمٍۭ بَيْنَكُمْ وَبَيْنَهُم مِّيثَـٰقٌ فَدِيَةٌ مُّسَلَّمَةٌ إِلَىٰٓ أَهْلِهِۦ وَتَحْرِيرُ رَقَبَةٍ مُّؤْمِنَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ تَوْبَةً مِّنَ ٱللَّهِ ۗ وَكَانَ ٱللَّهُ عَلِيمًا حَكِيمًا",
+"tr": "Yanlışlık hali müstesna, bir müminin bir mümini öldürmesi olacak şey değildir. Yanlışlıkla bir mümini öldürenin, özgürlüğü elinden alınmış bir mümini özgürlüğüne kavuşturması, ölenin ailesine de üzerinde anlaşmaya varılacak tatmin edici bir diyet vermesi gerekir. Vârislerin, diyeti bağışlaması hali müstesna. Eğer öldürülen, mümin olmakla birlikte size düşman bir topluluktan ise o zaman öldürenin, özgürlüğünden yoksun bir mümini özgürlüğüne kavuşturması gerekir. Öldürülen, sizinle aralarında antlaşma bulunan bir toplumdan ise o durumda, öldürülenin ailesine tatmin edici bir diyet verme yanında, hürriyetinden yoksun bir mümini hürriyetine kavuşturmak da gerekli olur. Bunlara imkân bulamayan, Allah'a tövbe olarak iki ay kesiksiz oruç tutar. Allah, gereğince bilendir, hikmeti sonsuzdur."
+},
+"4:93": {
+"ar": "وَمَن يَقْتُلْ مُؤْمِنًا مُّتَعَمِّدًا فَجَزَآؤُهُۥ جَهَنَّمُ خَـٰلِدًا فِيهَا وَغَضِبَ ٱللَّهُ عَلَيْهِ وَلَعَنَهُۥ وَأَعَدَّ لَهُۥ عَذَابًا عَظِيمًا",
+"tr": "Bir mümini kasten öldürene gelince, onun cezası içinde sürekli kalmak üzere cehennemdir. Allah gazap etmiştir böylesine, lanetlemiştir onu; çok büyük bir azap hazırlamıştır ona."
+},
+"4:161": {
+"ar": "وَأَخْذِهِمُ ٱلرِّبَوٰا۟ وَقَدْ نُهُوا۟ عَنْهُ وَأَكْلِهِمْ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَـٰطِلِ ۚ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ مِنْهُمْ عَذَابًا أَلِيمًا",
+"tr": "Ve ribayı almaları yüzünden -oysaki ondan yasaklanmışlardı- ve haksız yollarla insanların mallarını yemeleri yüzünden onların küfre sapanlarına korkunç bir azap hazırladık."
+},
+"5:30": {
+"ar": "فَطَوَّعَتْ لَهُۥ نَفْسُهُۥ قَتْلَ أَخِيهِ فَقَتَلَهُۥ فَأَصْبَحَ مِنَ ٱلْخَـٰسِرِينَ",
+"tr": "Nihayet nefsi onu kardeşini öldürmeye ısındırdı, o da onu öldürdü. Böylece hüsrana uğramışlardan oldu."
+},
+"5:32": {
+"ar": "مِنْ أَجْلِ ذَٰلِكَ كَتَبْنَا عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ أَنَّهُۥ مَن قَتَلَ نَفْسًۢا بِغَيْرِ نَفْسٍ أَوْ فَسَادٍ فِى ٱلْأَرْضِ فَكَأَنَّمَا قَتَلَ ٱلنَّاسَ جَمِيعًا وَمَنْ أَحْيَاهَا فَكَأَنَّمَآ أَحْيَا ٱلنَّاسَ جَمِيعًا ۚ وَلَقَدْ جَآءَتْهُمْ رُسُلُنَا بِٱلْبَيِّنَـٰتِ ثُمَّ إِنَّ كَثِيرًا مِّنْهُم بَعْدَ ذَٰلِكَ فِى ٱلْأَرْضِ لَمُسْرِفُونَ",
+"tr": "İşte bu yüzden biz, İsrailoğulları üzerine şunu yazdık: Kim bir kişiyi, bir kişiye karşılık yahut yeryüzünde bir fesat sebebiyle olmaksızın öldürürse, insanları toptan öldürmüş gibidir. Ve kim bir kişiye hayat verirse insanlara toptan hayat vermiş gibidir. Andolsun, resullerimiz onlara açık-seçik kanıtlar getirmişlerdir. Ama onlardan birçoğu bunun ardından da yeryüzünde zulüm ve azgınlığa sapmaktadır."
+},
+"5:38": {
+"ar": "وَٱلسَّارِقُ وَٱلسَّارِقَةُ فَٱقْطَعُوٓا۟ أَيْدِيَهُمَا جَزَآءًۢ بِمَا كَسَبَا نَكَـٰلًا مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+"tr": "Hırsızlık yapan erkek ve kadının, yaptıklarına karşılık Allah'tan bir ceza olarak ellerini kesin. Allah Azîz'dir, Hakîm'dir."
+},
+"5:42": {
+"ar": "سَمَّـٰعُونَ لِلْكَذِبِ أَكَّـٰلُونَ لِلسُّحْتِ ۚ فَإِن جَآءُوكَ فَٱحْكُم بَيْنَهُمْ أَوْ أَعْرِضْ عَنْهُمْ ۖ وَإِن تُعْرِضْ عَنْهُمْ فَلَن يَضُرُّوكَ شَيْـًٔا ۖ وَإِنْ حَكَمْتَ فَٱحْكُم بَيْنَهُم بِٱلْقِسْطِ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
+"tr": "Yalana iyice kulak verirler, haramı tıka-basa yerler. Sana geldiklerinde ister aralarında hüküm ver, ister onlardan yüz çevir. Eğer onlardan yüz çevirirsen sana hiçbir şekilde zarar veremezler. Ama aralarında hükmedersen, adaletle hükmet. Allah, adaletle hükmedenleri/adaleti ayakta tutanları sever."
+},
+"5:45": {
+"ar": "وَكَتَبْنَا عَلَيْهِمْ فِيهَآ أَنَّ ٱلنَّفْسَ بِٱلنَّفْسِ وَٱلْعَيْنَ بِٱلْعَيْنِ وَٱلْأَنفَ بِٱلْأَنفِ وَٱلْأُذُنَ بِٱلْأُذُنِ وَٱلسِّنَّ بِٱلسِّنِّ وَٱلْجُرُوحَ قِصَاصٌ ۚ فَمَن تَصَدَّقَ بِهِۦ فَهُوَ كَفَّارَةٌ لَّهُۥ ۚ وَمَن لَّمْ يَحْكُم بِمَآ أَنزَلَ ٱللَّهُ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+"tr": "O Kitap'ta onlar üzerine şöyle yazmıştık: Cana can, göze göz, buruna burun, kulağa kulak, dişe diş... Yaralamalar karşılığında da kısas. Kim kısası bağışlarsa, bu bağışlaması kendisi için günahlara bir perde olur. Allah'ın indirdiğiyle hükmetmeyenler zalimlerin ta kendileridir."
+},
+"5:62": {
+"ar": "وَتَرَىٰ كَثِيرًا مِّنْهُمْ يُسَـٰرِعُونَ فِى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Onların birçoğunun günahta, düşmanlıkta, haram yemede yarıştıklarını görürsün. Ne kötüdür o yapmakta oldukları!"
+},
+"5:63": {
+"ar": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّـٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ",
+"tr": "Ruhbanları ve hahamları onları, günah oluşturan sözlerinden, haram yemekten alıkoysalardı olmaz mıydı? Ne kötüdür onların sınaat/teknoloji olarak üretmekte oldukları."
+},
+"6:137": {
+"ar": "وَكَذَٰلِكَ زَيَّنَ لِكَثِيرٍ مِّنَ ٱلْمُشْرِكِينَ قَتْلَ أَوْلَـٰدِهِمْ شُرَكَآؤُهُمْ لِيُرْدُوهُمْ وَلِيَلْبِسُوا۟ عَلَيْهِمْ دِينَهُمْ ۖ وَلَوْ شَآءَ ٱللَّهُ مَا فَعَلُوهُ ۖ فَذَرْهُمْ وَمَا يَفْتَرُونَ",
+"tr": "Aynen bunun gibi, müşriklerden birçoğuna, Allah'a ortak koştukları kişiler, öz evlatlarını öldürmeyi güzel göstermiştir ki, hem onları yok etsinler hem de dinlerini onlar aleyhine karmakarışık hale getirsinler. Allah dileseydi bunu yapamazlardı. O halde onları, düzdükleri iftiralarla baş başa bırak."
+},
+"6:140": {
+"ar": "قَدْ خَسِرَ ٱلَّذِينَ قَتَلُوٓا۟ أَوْلَـٰدَهُمْ سَفَهًۢا بِغَيْرِ عِلْمٍ وَحَرَّمُوا۟ مَا رَزَقَهُمُ ٱللَّهُ ٱفْتِرَآءً عَلَى ٱللَّهِ ۚ قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ",
+"tr": "Şu bir gerçek ki, ilimsizlik yüzünden öz evlatlarını beyinsizce katledenlerle Allah'ın kendilerine verdiği rızıkları, Allah'a iftira ederek haramlaştıranlar gerçekten hüsrana uğramışlardır. İnan olsun, sapıtmışlardır onlar; hiçbir zaman doğruyu ve güzeli bulamazlar."
+},
+"6:151": {
+"ar": "قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُم مِّنْ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
+"tr": "De ki onlara: \"Hadi gelin, Rabbinizin size neleri haram kıldığını yüzünüze karşı okuyayım: Hiçbir şeyi O'na ortak koşmayın. Ana-babaya çok iyi davranın. Yoksulluk endişesiyle çocuklarınızı öldürmeyin; biz sizi de onları da rızıklandırırız. Kötülüklerin görünenine de gizli kalanına da yaklaşmayın. Allah'ın saygın ve aziz kıldığı cana, bir hakkı savunmak dışında kıymayın. Allah size bunları önerdi ki, aklınızı işletebilesiniz.\""
+},
+"6:152": {
+"ar": "وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۖ وَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ لَا نُكَلِّفُ نَفْسًا إِلَّا وُسْعَهَا ۖ وَإِذَا قُلْتُمْ فَٱعْدِلُوا۟ وَلَوْ كَانَ ذَا قُرْبَىٰ ۖ وَبِعَهْدِ ٱللَّهِ أَوْفُوا۟ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَذَكَّرُونَ",
+"tr": "\"Yetimin malına yaklaşmayın! Ancak rüştüne erişinceye kadar en güzel yolla ilgilenme hali müstesna. Ölçme ve tartmayı tam bir dürüstlükle yerine getirin. Hiç kimseye yaratılış kapasitesinin üstünde yükümlülük getirmiyoruz. Konuştuğunuz zaman, yakınlarınız/aleyhine de olsa, adaleti gözetin. Ve Allah'a verdiğiniz söze sadık kalın. Düşünüp öğüt alasınız diye O size bunları önerdi."
+},
+"7:28": {
+"ar": "وَإِذَا فَعَلُوا۟ فَـٰحِشَةً قَالُوا۟ وَجَدْنَا عَلَيْهَآ ءَابَآءَنَا وَٱللَّهُ أَمَرَنَا بِهَا ۗ قُلْ إِنَّ ٱللَّهَ لَا يَأْمُرُ بِٱلْفَحْشَآءِ ۖ أَتَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
+"tr": "Bir iğrençlik yaptıklarında şöyle derler: \"Atalarımızı bu hal üzere bulmuştuk. Yani Allah emretti bize bunu.\" De ki: \"Allah, edepsizliği/iğrençliği emretmez. Allah hakkında, bilmediğiniz şeyler mi söylüyorsunuz?\""
+},
+"7:33": {
+"ar": "قُلْ إِنَّمَا حَرَّمَ رَبِّىَ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَٱلْإِثْمَ وَٱلْبَغْىَ بِغَيْرِ ٱلْحَقِّ وَأَن تُشْرِكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
+"tr": "De ki: \"Rabbim, ancak şunları haram kıldı: İğrençlikleri -görünenini, gizli olanını- günahı, haksız yere saldırmayı, hakkında hiçbir kanıt indirmediği şeyi Allah'a ortak koşmayı, bir de Allah hakkında bilmediğiniz şeyler söylemeyi.\""
+},
+"7:80": {
+"ar": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَـٰلَمِينَ",
+"tr": "Ve Lut... Toplumuna şöyle demişti: \"Sizden önce alemlerden hiçbirinin yapmadığı bir iğrençliğe mi girişiyorsunuz?\""
+},
+"7:84": {
+"ar": "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا ۖ فَٱنظُرْ كَيْفَ كَانَ عَـٰقِبَةُ ٱلْمُجْرِمِينَ",
+"tr": "Üzerlerine bir de yağmur indirdik. Bak nasıl oldu suçluların sonu!"
+},
+"7:85": {
+"ar": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۗ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ قَدْ جَآءَتْكُم بَيِّنَةٌ مِّن رَّبِّكُمْ ۖ فَأَوْفُوا۟ ٱلْكَيْلَ وَٱلْمِيزَانَ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تُفْسِدُوا۟ فِى ٱلْأَرْضِ بَعْدَ إِصْلَـٰحِهَا ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُم مُّؤْمِنِينَ",
+"tr": "Medyen'e de kardeşleri Şuayb'ı gönderdik. Şöyle dedi: \"Ey toplumum! Allah'a kulluk edin. Size O'ndan başka ilah yok! Size Rabbinizden açık bir kanıt gelmiştir. Ölçü ve tartı da dürüst davranın. İnsanların eşyasına el koymaya tenezzül etmeyin. Yeryüzünde, orası barışa kavuştuktan sonra bozgun çıkarmayın. Eğer inanan insanlarsanız bu sizin için daha hayırlıdır.\""
+},
+"9:34": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ كَثِيرًا مِّنَ ٱلْأَحْبَارِ وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَـٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+"tr": "Ey iman sahipleri! Şu bir gerçek ki, hahamlardan ve rahiplerden birçoğu halkın mallarını uydurma yollarla tıkabasa yerler ve Allah'ın yolundan geri çevirirler. Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara korkunç bir azap muştula."
+},
+"9:35": {
+"ar": "يَوْمَ يُحْمَىٰ عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ ۖ هَـٰذَا مَا كَنَزْتُمْ لِأَنفُسِكُمْ فَذُوقُوا۟ مَا كُنتُمْ تَكْنِزُونَ",
+"tr": "Gün olur, cehennem ateşinde onların üzerine lav dökülür de bununla onların alınları, böğürleri, sırtları dağlanır: \"İşte egolarınız için yığdıklarınız. Hadi tadın biriktirmiş olduklarınızı!\""
+},
+"11:84": {
+"ar": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا ۚ قَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ مَا لَكُم مِّنْ إِلَـٰهٍ غَيْرُهُۥ ۖ وَلَا تَنقُصُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ ۚ إِنِّىٓ أَرَىٰكُم بِخَيْرٍ وَإِنِّىٓ أَخَافُ عَلَيْكُمْ عَذَابَ يَوْمٍ مُّحِيطٍ",
+"tr": "Medyen'e, kardeşleri Şuayb'ı göndermiştik. Dedi ki: \"Ey toplumum! Allah'a kulluk edin. O'ndan başka tanrınız yok sizin. Eksik ölçüp yanlış tartmayın. Sizi nimet, bereket içinde görüyorum, ama sizin için sarıp kuşatan bir günün azabından da korkuyorum.\""
+},
+"11:85": {
+"ar": "وَيَـٰقَوْمِ أَوْفُوا۟ ٱلْمِكْيَالَ وَٱلْمِيزَانَ بِٱلْقِسْطِ ۖ وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+"tr": "\"Ey toplumum! Ölçüyü ve tartıyı tam bir dürüstlükle yapın. İnsanların eşyalarını tırtıklamayın. Yeryüzünde bozgunculuk yaparak dolaşmayın.\""
+},
+"12:24": {
+"ar": "وَلَقَدْ هَمَّتْ بِهِۦ ۖ وَهَمَّ بِهَا لَوْلَآ أَن رَّءَا بُرْهَـٰنَ رَبِّهِۦ ۚ كَذَٰلِكَ لِنَصْرِفَ عَنْهُ ٱلسُّوٓءَ وَٱلْفَحْشَآءَ ۚ إِنَّهُۥ مِنْ عِبَادِنَا ٱلْمُخْلَصِينَ",
+"tr": "Yemin olsun, kadın onu arzulamıştı. Eğer Rabbinin gerçeğe dikkat çeken delilini görmeseydi, o da onu arzulamıştı. Biz böylece ondan, kötülüğü ve fuhşu uzak tutuyorduk. Çünkü o, bizim samimi/seçkin kullarımızdandı."
+},
+"14:6": {
+"ar": "وَإِذْ قَالَ مُوسَىٰ لِقَوْمِهِ ٱذْكُرُوا۟ نِعْمَةَ ٱللَّهِ عَلَيْكُمْ إِذْ أَنجَىٰكُم مِّنْ ءَالِ فِرْعَوْنَ يَسُومُونَكُمْ سُوٓءَ ٱلْعَذَابِ وَيُذَبِّحُونَ أَبْنَآءَكُمْ وَيَسْتَحْيُونَ نِسَآءَكُمْ ۚ وَفِى ذَٰلِكُم بَلَآءٌ مِّن رَّبِّكُمْ عَظِيمٌ",
+"tr": "Mûsa'nın, kendi toplumuna şöyle dediği zamanı da hatırla: \"Allah'ın üzerinizdeki nimetini anın! Hatırlayın ki, sizi Firavun'un hanedanından kurtarmıştı. Onlar size azabın en kötüsüyle acı çektiriyorlar, erkek çocuklarınızı boğazlıyorlar, kadınlarınıza hayasızca davranıyorlar/kadınlarınızın rahimlerini yokluyorlar/kadınlarınızı hayata salıyorlardı. İşte bunda sizin için Rabbinizden gelen çok büyük bir deneme ve ıstırap vardır.\""
+},
+"16:58": {
+"ar": "وَإِذَا بُشِّرَ أَحَدُهُم بِٱلْأُنثَىٰ ظَلَّ وَجْهُهُۥ مُسْوَدًّا وَهُوَ كَظِيمٌ",
+"tr": "Onlardan birine kız çocuk müjdelendiğinde yüzü simsiyah kesilir. Öfkeden kuduracak gibidir o."
+},
+"16:59": {
+"ar": "يَتَوَٰرَىٰ مِنَ ٱلْقَوْمِ مِن سُوٓءِ مَا بُشِّرَ بِهِۦٓ ۚ أَيُمْسِكُهُۥ عَلَىٰ هُونٍ أَمْ يَدُسُّهُۥ فِى ٱلتُّرَابِ ۗ أَلَا سَآءَ مَا يَحْكُمُونَ",
+"tr": "Kendisine muştulananın utancından ötürü toplumdan gizlenir. Hakaret/eziklik üzere tutsun mu onu yoksa toprağın bağrına mı gömsün onu. Bakın ne kötü hüküm veriyorlar!"
+},
+"16:90": {
+"ar": "إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَـٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ",
+"tr": "Şu bir gerçek ki Allah; adaleti, iyi ve güzel davranmayı, akrabaya vermeyi emreder. Tüm pisliklerden/edepsizliklerden, kötülükten, azgınlık, doymazlık ve kıskançlıktan yasaklar. Düşünüp ibret alırsınız ümidiyle size öğüt veriyor."
+},
+"17:31": {
+"ar": "وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُمْ خَشْيَةَ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُهُمْ وَإِيَّاكُمْ ۚ إِنَّ قَتْلَهُمْ كَانَ خِطْـًٔا كَبِيرًا",
+"tr": "Yoksulluk korkusuyla çocuklarınızı öldürmeyin. Onları da sizi de biz rızıklandırıyoruz. Kuşkusuz, onları öldürmek büyük bir günahtır."
+},
+"17:32": {
+"ar": "وَلَا تَقْرَبُوا۟ ٱلزِّنَىٰٓ ۖ إِنَّهُۥ كَانَ فَـٰحِشَةً وَسَآءَ سَبِيلًا",
+"tr": "Zinaya yaklaşmayın. Çünkü o iğrenç bir iştir; yol olarak da çok kötüdür."
+},
+"17:33": {
+"ar": "وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۗ وَمَن قُتِلَ مَظْلُومًا فَقَدْ جَعَلْنَا لِوَلِيِّهِۦ سُلْطَـٰنًا فَلَا يُسْرِف فِّى ٱلْقَتْلِ ۖ إِنَّهُۥ كَانَ مَنصُورًا",
+"tr": "Allah'ın saygıya layık kıldığı cana haklı bir sebep yokken kıymayın. Kim haksızlıkla öldürülürse, onun velisine yetki/söz hakkı vermişizdir. Ama o da öldürmede sınır tanımazlık etmesin. Çünkü kendisine yardım edilmiştir."
+},
+"17:34": {
+"ar": "وَلَا تَقْرَبُوا۟ مَالَ ٱلْيَتِيمِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ حَتَّىٰ يَبْلُغَ أَشُدَّهُۥ ۚ وَأَوْفُوا۟ بِٱلْعَهْدِ ۖ إِنَّ ٱلْعَهْدَ كَانَ مَسْـُٔولًا",
+"tr": "Yetimin malına yaklaşmayın. Ancak rüştüne erişinceye kadar, güzel bir yolla ilgilenebilirsiniz. Ahdinize vefalı olun çünkü verilen söz sorumluluk gerektirir."
+},
+"17:35": {
+"ar": "وَأَوْفُوا۟ ٱلْكَيْلَ إِذَا كِلْتُمْ وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ ۚ ذَٰلِكَ خَيْرٌ وَأَحْسَنُ تَأْوِيلًا",
+"tr": "Ölçtüğünüz zaman tam ve dürüst ölçün. Hilesiz teraziyle tartın. Bu, hem hayırlı hem de sonuç bakımından güzeldir."
+},
+"23:5": {
+"ar": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ",
+"tr": "Cinsiyet organlarını/ırzlarını koruyanlardır onlar."
+},
+"23:7": {
+"ar": "فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ",
+"tr": "Kim bundan ötesini isterse, işte onlar, sınırı aşanlardır."
+},
+"24:2": {
+"ar": "ٱلزَّانِيَةُ وَٱلزَّانِى فَٱجْلِدُوا۟ كُلَّ وَٰحِدٍ مِّنْهُمَا مِا۟ئَةَ جَلْدَةٍ ۖ وَلَا تَأْخُذْكُم بِهِمَا رَأْفَةٌ فِى دِينِ ٱللَّهِ إِن كُنتُمْ تُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ وَلْيَشْهَدْ عَذَابَهُمَا طَآئِفَةٌ مِّنَ ٱلْمُؤْمِنِينَ",
+"tr": "Zina eden kadınla zina eden erkek... Yüz vuruş vurun herbirinin ciltlerine... Allah'a ve âhiret gününe inanıyorsanız, Allah'ın dini konusunda bunlara acıma duygusu sizi yakalamasın. Müminlerden bir grup da bunların cezalarına tanık olsun."
+},
+"24:3": {
+"ar": "ٱلزَّانِى لَا يَنكِحُ إِلَّا زَانِيَةً أَوْ مُشْرِكَةً وَٱلزَّانِيَةُ لَا يَنكِحُهَآ إِلَّا زَانٍ أَوْ مُشْرِكٌ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى ٱلْمُؤْمِنِينَ",
+"tr": "Zina eden erkeği zina eden bir kadın veya putperest bir kadından başkası nikâhlamaz. Zina eden kadına gelince, onu da zina eden bir erkek veya putperest bir erkekten başkası nikâhlamaz. Müminlere bu, haram kılınmıştır."
+},
+"24:4": {
+"ar": "وَٱلَّذِينَ يَرْمُونَ ٱلْمُحْصَنَـٰتِ ثُمَّ لَمْ يَأْتُوا۟ بِأَرْبَعَةِ شُهَدَآءَ فَٱجْلِدُوهُمْ ثَمَـٰنِينَ جَلْدَةً وَلَا تَقْبَلُوا۟ لَهُمْ شَهَـٰدَةً أَبَدًا ۚ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْفَـٰسِقُونَ",
+"tr": "İffetli kadınlara iftira atıp da dört tanık getirmeyenlere gelince, onlara hemen seksen vuruş vurun. Ve onların tanıklıklarını ebediyen kabul etmeyin. Onlar, sapmışların ta kendileridir."
+},
+"24:6": {
+"ar": "وَٱلَّذِينَ يَرْمُونَ أَزْوَٰجَهُمْ وَلَمْ يَكُن لَّهُمْ شُهَدَآءُ إِلَّآ أَنفُسُهُمْ فَشَهَـٰدَةُ أَحَدِهِمْ أَرْبَعُ شَهَـٰدَٰتٍۭ بِٱللَّهِ ۙ إِنَّهُۥ لَمِنَ ٱلصَّـٰدِقِينَ",
+"tr": "Kendi eşlerine bir zina isnat edip de kendilerinden başka tanıkları olmayanların herbirinin tanıklığı, kendisinin kesinlikle doğru sözlülerden olduğu hususunda Allah'a yeminden ibaret dört kez tanıklık ikrarıdır."
+},
+"24:19": {
+"ar": "إِنَّ ٱلَّذِينَ يُحِبُّونَ أَن تَشِيعَ ٱلْفَـٰحِشَةُ فِى ٱلَّذِينَ ءَامَنُوا۟ لَهُمْ عَذَابٌ أَلِيمٌ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۚ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
+"tr": "İman edenler içinde edepsizliğin yayılmasını arzu edenler var ya, onlar için dünyada da âhirette de korkunç bir azap öngörülmüştür. Allah bilir ama siz bilmezsiniz."
+},
+"24:21": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ وَمَن يَتَّبِعْ خُطُوَٰتِ ٱلشَّيْطَـٰنِ فَإِنَّهُۥ يَأْمُرُ بِٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۚ وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ مَا زَكَىٰ مِنكُم مِّنْ أَحَدٍ أَبَدًا وَلَـٰكِنَّ ٱللَّهَ يُزَكِّى مَن يَشَآءُ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+"tr": "Ey iman edenler! Şeytanın adımlarını izlemeyin. Kim şeytanın adımlarını izlerse, şeytan ona iğrençlikleri ve kötülüğü emreder. Allah'ın lütuf ve rahmeti üzerinizde olmasaydı, içinizden tek kişi bile sonsuza dek temize çıkamazdı. Ama Allah dilediğini arındırıp temizliyor. Allah herşeyi işitiyor, herşeyi biliyor."
+},
+"24:23": {
+"ar": "إِنَّ ٱلَّذِينَ يَرْمُونَ ٱلْمُحْصَنَـٰتِ ٱلْغَـٰفِلَـٰتِ ٱلْمُؤْمِنَـٰتِ لُعِنُوا۟ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَلَهُمْ عَذَابٌ عَظِيمٌ",
+"tr": "O birşeyden habersiz iffetli mümin kadınlara iftira atanlar, dünyada da âhirette de lanete çarptırılmışlardır. Büyük bir azap vardır onlar için."
+},
+"24:30": {
+"ar": "قُل لِّلْمُؤْمِنِينَ يَغُضُّوا۟ مِنْ أَبْصَـٰرِهِمْ وَيَحْفَظُوا۟ فُرُوجَهُمْ ۚ ذَٰلِكَ أَزْكَىٰ لَهُمْ ۗ إِنَّ ٱللَّهَ خَبِيرٌۢ بِمَا يَصْنَعُونَ",
+"tr": "Mümin erkeklere söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar. Bu onlar için daha arındırıcıdır. Kuşkusuz, Allah, yapmakta olduklarınızdan haberdardır."
+},
+"24:31": {
+"ar": "وَقُل لِّلْمُؤْمِنَـٰتِ يَغْضُضْنَ مِنْ أَبْصَـٰرِهِنَّ وَيَحْفَظْنَ فُرُوجَهُنَّ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا مَا ظَهَرَ مِنْهَا ۖ وَلْيَضْرِبْنَ بِخُمُرِهِنَّ عَلَىٰ جُيُوبِهِنَّ ۖ وَلَا يُبْدِينَ زِينَتَهُنَّ إِلَّا لِبُعُولَتِهِنَّ أَوْ ءَابَآئِهِنَّ أَوْ ءَابَآءِ بُعُولَتِهِنَّ أَوْ أَبْنَآئِهِنَّ أَوْ أَبْنَآءِ بُعُولَتِهِنَّ أَوْ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ إِخْوَٰنِهِنَّ أَوْ بَنِىٓ أَخَوَٰتِهِنَّ أَوْ نِسَآئِهِنَّ أَوْ مَا مَلَكَتْ أَيْمَـٰنُهُنَّ أَوِ ٱلتَّـٰبِعِينَ غَيْرِ أُو۟لِى ٱلْإِرْبَةِ مِنَ ٱلرِّجَالِ أَوِ ٱلطِّفْلِ ٱلَّذِينَ لَمْ يَظْهَرُوا۟ عَلَىٰ عَوْرَٰتِ ٱلنِّسَآءِ ۖ وَلَا يَضْرِبْنَ بِأَرْجُلِهِنَّ لِيُعْلَمَ مَا يُخْفِينَ مِن زِينَتِهِنَّ ۚ وَتُوبُوٓا۟ إِلَى ٱللَّهِ جَمِيعًا أَيُّهَ ٱلْمُؤْمِنُونَ لَعَلَّكُمْ تُفْلِحُونَ",
+"tr": "Mümin kadınlara da söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar. Süslerini/zînetlerini, görünen kısımlar müstesna, açmasınlar. Örtülerini/başörtülerini göğüs yırtmaçlarının üzerine vursunlar. Süslerini şu kişilerden başkasına göstermesinler: Kocaları yahut babaları yahut kocalarının babaları yahut oğulları yahut kocalarının oğulları yahut kardeşleri yahut kardeşlerinin oğulları yahut kendi kadınları yahut ellerinin altında bulunanlar yahut ihtiyaç içinde olmayan erkeklerden kendilerinin hizmetinde bulunanlar yahut kadınların kaygı duyulacak yerlerini henüz anlayacak yaşa gelmemiş çocuklar. Süslerinden, gizlemiş olduklarının bilinmesi için ayaklarını yere vurmasınlar. Ey müminler, Allah'a topluca tövbe edin ki kurtuluşa erebilesiniz!"
+},
+"24:33": {
+"ar": "وَلْيَسْتَعْفِفِ ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَـٰبَ مِمَّا مَلَكَتْ أَيْمَـٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ ءَاتَىٰكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَـٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌ رَّحِيمٌ",
+"tr": "Nikâh imkânı bulamayanlar, Allah kendilerini lütfundan zenginleştirinceye kadar iffetlerini korusunlar. Size bağımlı olanlardan, hürriyetini satın almak isteyenlerin, kendilerinde iyi hal görürseniz, onlarla yazılı anlaşma yapın. Allah'a size verdiği malından siz de onlara verin. Hizmetinizdeki genç kızları, iffetli kalmak isteyip dururlarken, iğreti dünya hayatının basit menfaatini elde etmek için fuhşa zorlamayın. Kim onları baskı altında tutarsa Allah, fuhşa zorlanmalarından sonra onları affedici, esirgeyicidir."
+},
+"25:68": {
+"ar": "وَٱلَّذِينَ لَا يَدْعُونَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ وَلَا يَقْتُلُونَ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ وَلَا يَزْنُونَ ۚ وَمَن يَفْعَلْ ذَٰلِكَ يَلْقَ أَثَامًا",
+"tr": "Onlar Allah'ın yanında bir başka ilaha yakarmazlar/davet etmezler. Allah'ın saygıya layık kıldığı canı haksız yere almazlar. Zina etmezler. Bunları yapan cezaya çarpılır."
+},
+"25:69": {
+"ar": "يُضَـٰعَفْ لَهُ ٱلْعَذَابُ يَوْمَ ٱلْقِيَـٰمَةِ وَيَخْلُدْ فِيهِۦ مُهَانًا",
+"tr": "Kıyamet günü azap kendisi için katkat artırılır da hor ve ezik halde onun içinde sürekli kalır."
+},
+"26:181": {
+"ar": "أَوْفُوا۟ ٱلْكَيْلَ وَلَا تَكُونُوا۟ مِنَ ٱلْمُخْسِرِينَ",
+"tr": "\"Ölçüyü tam yapın; şunun bunun hakkını çarpanlardan olmayın\""
+},
+"26:182": {
+"ar": "وَزِنُوا۟ بِٱلْقِسْطَاسِ ٱلْمُسْتَقِيمِ",
+"tr": "\"Doğru düzgün terazi ile tartın.\""
+},
+"26:183": {
+"ar": "وَلَا تَبْخَسُوا۟ ٱلنَّاسَ أَشْيَآءَهُمْ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+"tr": "\"Halkın eşyasını, değerlerini düşürerek almayın. Yeryüzünde, bozguncular olarak fesat çıkarmayın!\""
+},
+"27:54": {
+"ar": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ أَتَأْتُونَ ٱلْفَـٰحِشَةَ وَأَنتُمْ تُبْصِرُونَ",
+"tr": "Lût'u da resul olarak gönderdik. Toplumuna şöyle dedi: \"Gözünüz göre göre şu iğrençliği yapıyorsunuz ha!\""
+},
+"28:4": {
+"ar": "إِنَّ فِرْعَوْنَ عَلَا فِى ٱلْأَرْضِ وَجَعَلَ أَهْلَهَا شِيَعًا يَسْتَضْعِفُ طَآئِفَةً مِّنْهُمْ يُذَبِّحُ أَبْنَآءَهُمْ وَيَسْتَحْىِۦ نِسَآءَهُمْ ۚ إِنَّهُۥ كَانَ مِنَ ٱلْمُفْسِدِينَ",
+"tr": "Gerçek şu: Firavun o yerde egemenlik kurmuş ve ora halkını gruplara ayırmıştı. Onlardan bir topluluğu horlayıp eziyordu: Bu topluluğun erkek çocuklarını boğazlıyor, kadınlarına hayasızca davranıyor/kadınların rahimlerini yokluyor/kadınlarını hayata salıyordu. O gerçekten fesadı yayanlardandı."
+},
+"29:28": {
+"ar": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَـٰلَمِينَ",
+"tr": "Lût'u da gönderdik. Toplumuna şöyle demişti o: \"Öyle bir iğrençliğe bulaşıyorsunuz ki, sizden önce âlemlerden bir tek kişi bunu yapmamıştır.\""
+},
+"29:34": {
+"ar": "إِنَّا مُنزِلُونَ عَلَىٰٓ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ",
+"tr": "\"Şu kent halkı üstüne, yaptıkları fenalıklardan ötürü gökten bir felaket indireceğiz.\""
+},
+"29:45": {
+"ar": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَـٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+"tr": "Kitap'tan sana vahyedileni oku! Namazı da kıl! Çünkü namaz, çirkinliklerden ve kötülüklerden alıkoyar. Elbette ki Allah'ın zikri/Kur'an'ı daha büyüktür! Allah, neler yaptığınızı biliyor."
+},
+"30:39": {
+"ar": "وَمَآ ءَاتَيْتُم مِّن رِّبًا لِّيَرْبُوَا۟ فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا يَرْبُوا۟ عِندَ ٱللَّهِ ۖ وَمَآ ءَاتَيْتُم مِّن زَكَوٰةٍ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ",
+"tr": "İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz. Allah'ın yüzünü isteyerek verdiğiniz zekâta gelince, işte onu verenler kat kat artıranların ta kendileridir."
+},
+"33:30": {
+"ar": "يَـٰنِسَآءَ ٱلنَّبِىِّ مَن يَأْتِ مِنكُنَّ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ يُضَـٰعَفْ لَهَا ٱلْعَذَابُ ضِعْفَيْنِ ۚ وَكَانَ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرًا",
+"tr": "Ey peygamber hanımları! Sizden kim açık/kanıtlanmış bir edepsizlik yaparsa, kendisi için azap iki katına çıkarılır. Ve bu, Allah için çok kolaydır."
+},
+"42:37": {
+"ar": "وَٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ وَإِذَا مَا غَضِبُوا۟ هُمْ يَغْفِرُونَ",
+"tr": "Onlar, günahın büyüklerinden ve tüm iğrençliklerinden uzak dururlar. Öfkelendikleri zamansa, affedenler onlar olur."
+},
+"53:32": {
+"ar": "ٱلَّذِينَ يَجْتَنِبُونَ كَبَـٰٓئِرَ ٱلْإِثْمِ وَٱلْفَوَٰحِشَ إِلَّا ٱللَّمَمَ ۚ إِنَّ رَبَّكَ وَٰسِعُ ٱلْمَغْفِرَةِ ۚ هُوَ أَعْلَمُ بِكُمْ إِذْ أَنشَأَكُم مِّنَ ٱلْأَرْضِ وَإِذْ أَنتُمْ أَجِنَّةٌ فِى بُطُونِ أُمَّهَـٰتِكُمْ ۖ فَلَا تُزَكُّوٓا۟ أَنفُسَكُمْ ۖ هُوَ أَعْلَمُ بِمَنِ ٱتَّقَىٰٓ",
+"tr": "Öyle kişilerdir ki onlar, günahın büyüklerinden ve iğrençliklerden çekinip kaçınırlar. Bazı küçük sürçmeler hariç. Hiç kuşkusuz, senin Rabbin affı geniş olandır. Sizi en iyi bilen O'dur: Hem sizi topraktan oluşturduğu zaman hem de annelerinizin karınlarında ceninler halinde bulunduğunuz zaman. O halde kendi kendinizi temize çıkmış göstermeyin; kimin sakındığını en iyi bilen O'dur."
+},
+"55:8": {
+"ar": "أَلَّا تَطْغَوْا۟ فِى ٱلْمِيزَانِ",
+"tr": "Azgınlık etmeyin ölçü ve tartıda, saptırmayın mizanı."
+},
+"55:9": {
+"ar": "وَأَقِيمُوا۟ ٱلْوَزْنَ بِٱلْقِسْطِ وَلَا تُخْسِرُوا۟ ٱلْمِيزَانَ",
+"tr": "Ölçüyü titizlikle, adaletle koruyun ve hüsrana araç yapmayın mizanı."
+},
+"60:12": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا جَآءَكَ ٱلْمُؤْمِنَـٰتُ يُبَايِعْنَكَ عَلَىٰٓ أَن لَّا يُشْرِكْنَ بِٱللَّهِ شَيْـًٔا وَلَا يَسْرِقْنَ وَلَا يَزْنِينَ وَلَا يَقْتُلْنَ أَوْلَـٰدَهُنَّ وَلَا يَأْتِينَ بِبُهْتَـٰنٍ يَفْتَرِينَهُۥ بَيْنَ أَيْدِيهِنَّ وَأَرْجُلِهِنَّ وَلَا يَعْصِينَكَ فِى مَعْرُوفٍ ۙ فَبَايِعْهُنَّ وَٱسْتَغْفِرْ لَهُنَّ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "Ey Peygamber! İnanmış kadınlar sana gelip Allah'a hiçbir şeyi ortak koşmamaları, hırsızlık etmemeleri, zina etmemeleri, çocuklarını öldürmemeleri, elleriyle ayakları arasında bir iftira uydurup ortaya sürmemeleri, iyilik ve güzelliği belirlenmiş bir işte sana isyan etmemeleri hususunda seninle bey'atleşmek isterlerse, onlarla bey'atleş ve onlar için Allah'tan af dile! Kuşkusuz, Allah Gafûr'dur, Rahîm'dir."
+},
+"70:29": {
+"ar": "وَٱلَّذِينَ هُمْ لِفُرُوجِهِمْ حَـٰفِظُونَ",
+"tr": "Bunlar, cinsiyet organlarını titizlikle korurlar."
+},
+"70:31": {
+"ar": "فَمَنِ ٱبْتَغَىٰ وَرَآءَ ذَٰلِكَ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْعَادُونَ",
+"tr": "Kim bunun ötesini isterse, işte böyleleri sınırı aşanların ta kendileridir."
+},
+"81:8": {
+"ar": "وَإِذَا ٱلْمَوْءُۥدَةُ سُئِلَتْ",
+"tr": "O diri diri gömülen kız çocuğuna sorulduğunda,"
+},
+"81:9": {
+"ar": "بِأَىِّ ذَنۢبٍ قُتِلَتْ",
+"tr": "Hangi günah yüzünden öldürüldü diye!"
+},
+"83:1": {
+"ar": "وَيْلٌ لِّلْمُطَفِّفِينَ",
+"tr": "Azap ve kaygı, tartıda ve ölçüde hile yapanlara olsun;"
+},
+"83:3": {
+"ar": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
+"tr": "Onlara vermek üzere tartıp ölçtükleri zaman, eksiltmeye giderler."
+},
+"89:19": {
+"ar": "وَتَأْكُلُونَ ٱلتُّرَاثَ أَكْلًا لَّمًّا",
+"tr": "Mirası derleyip toplayıp yiyorsunuz."
+}
+},
+"istatistik": {
+"kayit": 108,
+"ayet": 95,
+"derece": {
+"✓": 108,
+"→": 0,
+"?": 0
+},
+"tur": {
+"emir": 19,
+"yasak": 33,
+"sonuc": 32,
+"tanim": 24
+}
+}
+}

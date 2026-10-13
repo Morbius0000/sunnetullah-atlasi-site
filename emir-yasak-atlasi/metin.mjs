@@ -58,3 +58,20 @@ export const konu04 = {
     'Bilinen sınırlar: Kur\'an çoğu zaman ilahlık isnadını, çocuk edinmeyi ve yakarmayı aynı cümlede anar; bu yüzden bazı ayetler birden çok başlıkta sayılabilir ve başlıkların ayet sayıları toplanıp tek toplam gibi okunmamalıdır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı. Kelime ve kalıp bazlı tarama bir ayeti kaçırmış olabilir.',
   ],
 };
+
+export const konu05 = {
+  giris: 'Bu bölüm, Kur\'an\'ın can, namus ve mal konusundaki doğrudan emirlerini ve yasaklarını, bunlara bağladığı karşılıkları ve davranışın ayette nasıl adlandırıldığını toplar. Her kaydın türü işaretlidir: Yasak (doğrudan nehiy), Emir (doğrudan buyruk ya da ceza hükmü), Sonuç (davranış ve karşılığı birlikte) ve Tanım (davranışın nasıl adlandırıldığı ya da tarif edildiği). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Doğrudan yasak olarak yazılanlar {yasak} ayettedir; doğrudan emir ya da ceza hükmü olarak yazılanlar {emir} ayettedir. Başlıca yasaklar: haksız yere can almamak, çocukları öldürmemek, zinaya yaklaşmamak, fevâhişten uzak durmak, yetimin malına yaklaşmamak, ribâ yememek, mallarını bâtıl yolla yememek ve ölçüde tartıda hile yapmamak.',
+    'Can başlığı {can} ayette, namus başlığı {namus} ayette, mal başlığı {mal} ayette işlenir. Ayet sayısı en yüksek başlıklar: fahşâ ve fevâhiş ({fahsa}), haksız öldürme ({oldurme}) ve ölçü ile tartı ({olcu}).',
+    'Ayette karşılığı da bildirilen kayıtlar {karsilikli} ayettedir; bunların {nar} ayetinde karşılık açıkça ateştir. Ayette hükmün yanında cezası da yazılan davranışlar: hırsızlık (el kesme), zina (yüz celde), iffetli kadına iftira (seksen celde) ve kısas. Ayet karşılık yazmıyorsa bu sayfa da karşılık yazmaz.',
+    'Bu bölüm Konu 9 ile ve Konu 4 ile kısmen örtüşür (ör. Furkân 68 hem ortak koşmayı, hem öldürmeyi, hem zinayı birlikte sayar). Sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: Arapça metinde şu kalıplar arandı: katl ve türevleri (olumsuz emir kalıpları, nefs, nebî, evlât ile birlikte geçenler), kısas ve diyet, vead, zinâ, fahşâ ve fevâhiş, kazf (rem\'y ve muhsanât), sirka, ribâ, yetim ile mâl, mâl ile bâtıl ve ekl, kîl, mîzân, tatfîf, buhs, gulûl, rüşvet (idlâ), suht ve kenz. Tarama {hedef} ayet verdi.',
+    'Hedef ayetlerin 172\'si önceki 1 ve sonraki 2 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Sonradan bulunan 4 ayet (A\'râf 33, Nahl 59, Şûrâ 37, Necm 32) ve fark edilen birkaç ek ayet (Mü\'minûn 5, Nûr 30-31, Meâric 29, Fecr 17-20) ayrıca okundu. Hedef listesinde olup hiçbir kayda girmeyen 97 ayet gözden geçirildi; çoğu savaş, kıssa, yemek hükmü, evlilik ya da başka konudaki ayetlerdir.',
+    'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu. Kontrolün işaret ettiği Şuayb kıssası kayıtları (A\'râf 85, Hûd 85, Şuarâ 183) "insanların eşyasını eksik göstermeyin" (tebhasû) sözünü içerdiği için bâtıl mal yeme başlığından ölçü ve tartı başlığına alındı.',
+    'Kapsam dışı bırakılanlar: savaş ve çarpışma hükümleri (kıtâl), savaş ve bozgunculukla ilgili ceza ayeti (Mâide 33), yeme-içme ve evlilikte haram kılınanlar (Konu 7), israf ve cimrilik (Konu 6), hayız ve itikâfta cinsel temas hükümleri, Yûsuf kıssasındaki hırsızlık anlatısı ve Hızır kıssasındaki öldürme olayı.',
+    'Bilinen sınırlar: Bakara 188, Nisâ 29 gibi ayetlerde "mallarınızı aranızda bâtıl yolla yemeyin" ifadesindeki malın kime ait olduğu (kendi malınız ya da birbirinizin mallarınız) lafızdan kesin ayrılmaz. Nisâ 29\'daki "lâ taktulû enfüsekum" kendinizi ya da birbirinizi öldürmeyin anlamına gelebilir; sayfadaki Yaşar Nuri meali bunu "kendi canlarınıza kıymayın" ve 30. ayette "intihar" diye vermiştir, Arapça lafız bunu tek anlamlı yapmaz. Nisâ 15\'teki "el-fâhişe" lafzı için meal yorumlu bir karşılık kullanır; kayıt Arapça lafza dayanır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
+  ],
+};
