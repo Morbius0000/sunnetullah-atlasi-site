@@ -17,7 +17,7 @@ export const konular = [
   { no: 9, grup: 'C', ad: 'Cehenneme götüren davranışlar', ozet: 'Kur\'an\'ın ateşe ve azaba bağladığı tutum ve davranışlar.', hazir: true, vurgu: { ad: 'Yalnız cehennem/ateş', alan: 'tur', deger: 'nar', sayim: 'doğrudan ateş' } },
   { no: 10, grup: 'C', ad: 'Karşılığın kuralları', ozet: 'Zerre ağırlığı, tevbe ve bağışlanma, bağışlanmayacak günah, derece farkları.', hazir: true, vurgu: { ad: 'Yalnız sonuç kayıtları', alan: 'kayit_tur', deger: ['sonuc'], sayim: 'davranış-karşılık sonucu' } },
   { no: 11, grup: 'D', ad: 'Allah\'ın sevdikleri ve sevmedikleri', ozet: '"Yuhibbu" ve "lâ yuhibbu" ifadeleri.', hazir: true, vurgu: { ad: 'Yalnız "sevmez"', alan: 'odul', deger: 'sevilmeme', sayim: 'Allah sevmez' } },
-  { no: 12, grup: 'D', ad: 'Günah sınıfları', ozet: 'Kebâir, fahşâ, lemem, ism, zulüm, fısk.' },
+  { no: 12, grup: 'D', ad: 'Günah sınıfları', ozet: 'Kebâir, fahşâ, lemem, ism, zenb, fısk, bağy, münker: Kur\'an\'ın günahı adlandırdığı yerler.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },
 ];
 // Ödül türlerinin görünen adları (okuma kayıtlarındaki "odul" alanı).
 export const odulAdi = {

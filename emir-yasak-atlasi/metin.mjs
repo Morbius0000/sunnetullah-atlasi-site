@@ -191,3 +191,18 @@ export const konu11 = {
     'Bilinen sınırlar: "sevmek" burada ayetin lafzındaki fiilden alınır; sevgi bildirilmeyen bir tutumun "sevilmediği" sonucu çıkarılmaz. Allah\'ın bir tutumu sevmediğinin bildirilmemesi onu sevdiği anlamına da gelmez. Kelime bazlı tarama bir ayeti kaçırmış olabilir.',
   ],
 };
+
+export const konu12 = {
+  giris: 'Bu bölüm, Kur\'an\'ın günahı hangi adlarla andığını gösterir: kebâir (büyük günah), fahşâ ve fevâhiş, lemem (küçük sürçmeler), ism, zenb, hatîe, fısk ve fâsıklar, bağy ve münker. Her başlıkta o kelimenin geçtiği ayet, ayetin söylediği iş ya da kişi ve varsa karşılık kaydedilir. Zulüm kelimesi bu bölümde ayrıca taranmadı; zulüm için Konu 9\'a bakın. Kaydın türü işaretlidir: Emir, Yasak, Sonuç (iş ve karşılığı birlikte) ve Tanım (kelimenin anlatıda ya da tanımda geçmesi). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Kebâir (günahın büyükleri) {kebair} ayette geçer: Nisâ 31, İsrâ 31, Şûrâ 37, Necm 32 ve Kehf 49. Nisâ 31\'de büyüklerden kaçınana diğer kötülüklerin örtüleceği bildirilir; Necm 32\'de "lemem" (küçük sürçmeler) dışında büyük günahlardan ve fâhişelerden kaçınanlar için Rabbin affının geniş olduğu söylenir. Lemem yalnız bu ayette geçer.',
+    'Fahşâ ve fevâhiş {fahsa} ayettedir: Lût kavminin işi, zina (İsrâ 32), şeytanın emrettiği şey (Bakara 169, 268, Nûr 21), Allah\'ın emretmediği şey (A\'râf 28), Allah\'ın haram kıldığı şey (A\'râf 33) ve namazın alıkoyduğu şey (Ankebût 45) bu kelimeyle anılır. Kur\'an hangi işlerin bu kelimeyle anıldığını ayet ayet bildirir; liste bu ayetlerle sınırlıdır.',
+    'İsm {ism}, zenb {zenb} ve hatîe {hatia} ayettedir. Zenb kayıtlarının çoğunda günahın karşılığı (yakalama, helâk) ya da bağışlanma birlikte anılır. Fısk ve fâsıklar {fisk} ayettedir; fâsık kelimesi çoğunlukla ahdi bozanlar, Allah\'ın indirdiğiyle hükmetmeyenler ve yoldan çıkanlar için kullanılır (ör. Bakara 27, Mâide 47). Bağy {bagy}, münker {munker} ayettedir.',
+    'Doğrudan emir ya da yasak içeren kayıtlar {emir} ve {yasak} ayettedir. Bu bölüm Konu 4, 5, 6, 7 ve 9 ile kısmen örtüşür; sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: {hedef} ayet. Kullanılan Arapça işaretler: kebâir ve kebîr+ism/zenb bitişikliği, fahşâ ve fevâhiş, lemem, ism ve türevleri, zenb ve zünûb, hatîe ve hâtî, fısk ve fâsık, bağy, münker. Her hedef ayet, önceki ve sonraki ayetle birlikte okundu: {blok} pasaj, {okunan} ayet.',
+    'İkinci kontrol: her kayıtta başlığın Arapça kökü ayette mekanik olarak arandı. Bulunamayan beş kayıt elle okunarak doğrulandı (fevâhiş, hâtiîn ve bâğ biçimleri bu aramanın kök listesine girmemişti); Bakara 27\'deki fâsık tanımı bir önceki ayetteki "fâsıkîn" kelimesine bağlıdır. Hedef listesinde olup kayda girmeyen ayetler gözden geçirildi; dua ve kıssa anlatıları dışında kalan eksikler eklendi.',
+    'Bilinen sınırlar: Zulüm, "seyyie" (kötülük), "cürm" ve "vizr" bu bölümde ayrıca taranmadı. Meal "fâsık" yerine bazen "sapık", "fâhişe" yerine "çirkin iş" ya da "iğrençlik" der; kayıtlar Arapça kelimeye göre tutuldu. Birçok "günahlarımı bağışla" duası kayda alınmadı; yalnız bağışlanma ve karşılık bildiren ayetler alındı. Kelime bazlı tarama bir ayeti kaçırmış olabilir.',
+  ],
+};
