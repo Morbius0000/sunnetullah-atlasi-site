@@ -27,7 +27,7 @@ K11b	sever	9:4	9:4	sevgi	✓	"Antlaşmaya tam uyun; Allah sakınanları sever"	e
 K11b	sever	9:7	9:7	sevgi	✓	"Onlar size doğru davrandıkça siz de doğru davranın; Allah sakınanları sever"	emir
 K11c	insan_sever	9:24	9:24	-	✓	"Aile, mal, ticaret ve konutlar Allah'tan, resulünden ve Allah yolunda cihattan daha sevimliyse Allah emrini getirinceye kadar bekleyin; Allah yoldan ayrılmış topluluğu kılavuzlamaz"	sonuc
 K11c	sever	9:108	9:108	sevgi	✓	"Takva üzerine kurulu mescitte temizlenmek isteyen erler vardır; Allah temizlenenleri sever"	sonuc
-K11c	vedud	11:90	11:90	rahmet	✓	"Rabbinizden af dileyip O'na yönelin; Rabbim Rahîm ve Vedûd'dur"	emir
+K11c	vedud	11:90	11:90	rahmet	→	"Rabbinizden af dileyip O'na yönelin; Rabbim Rahîm ve Vedûd'dur"	emir
 K11c	sevmez	16:23	16:23	sevilmeme	✓	"Allah büyüklük taslayanları sevmiyor"	sonuc
 K11c	vedud	19:96	19:96	sevgi	✓	"İman edip iyi işler yapanlar için Rahman bir sevgi oluşturacaktır"	sonuc
 K11c	vedud	20:39	20:39	-	✓	"Mûsa'ya 'üzerine kendimden bir sevgi bıraktım' denir"	tanim
@@ -38,18 +38,18 @@ K11c	vedud	29:25	29:25	-	✓	"Dünya hayatında aranızda sevgi oluşturmak içi
 K11c	vedud	30:21	30:21	-	✓	"Nefislerinizden eşler yaratması, aranıza sevgi ve rahmet koyması O'nun ayetlerindendir"	tanim
 K11c	sevmez	30:45	30:45	sevilmeme	✓	"Allah iman edip iyi iş yapanları öz lütfundan ödüllendirecek; nankörlüğe sapanları sevmez"	sonuc
 K11c	sevmez	31:18	31:18	sevilmeme	✓	"Kibirlenip insanlardan yüzünü çevirme, kasılarak yürüme; Allah kurula kurula kendini övenlerin hiçbirini sevmez"	yasak
-K11c	vedud	42:23	42:23	-	✓	"Ücret olarak yalnız yakın akrabaya sevgi (mevedde) istenir"	tanim
+K11c	vedud	42:23	42:23	-	✓	"Buna karşılık sizden yakınlıkta sevgi (el-meveddete fi'l-kurbâ) dışında bir ücret istemiyorum; ifadenin kimi kastettiği ayette açık değildir (meal: yakın akrabamı sevmeniz)"	tanim
 K11d	sevmez	42:40	42:40	sevilmeme	✓	"Kötülüğün cezası tıpkısı bir kötülüktür; affedip barışmayı esas alanın ücretini Allah verir; zalimleri hiç sevmez"	sonuc
 K11d	insan_sever	9:23	9:23	-	✓	"Babalarınız ve kardeşleriniz imana karşı inkârı seviyorlarsa onları dost edinmeyin"	yasak
 K11d	insan_sever	3:14	3:14	-	✓	"Kadınlara, oğullara, altın-gümüş yığınlara tutkunlukların sevgisi insanlar için süslenmiştir; geçici hayatın nimetidir"	tanim
 K11d	insan_sever	3:92	3:92	-	✓	"Sevdiğiniz şeylerden infak etmedikçe hayırda erginliğe ulaşamazsınız"	emir
 K11d	insan_sever	3:188	3:188	azap_korkunc	✓	"Ettikleriyle zevklenip yapmadıklarıyla övülmeyi sevenleri azaptan kurtulmuş sanma; korkunç azap vardır"	sonuc
 K11d	insan_sever	24:19	24:19	azap_korkunc	✓	"Müminler arasında edepsizliğin yayılmasını arzu edenlere dünyada da âhirette de korkunç azap"	sonuc
-K11d	sever	49:7	49:7	-	✓	"Allah imanı size sevdirmiş ve gönüllerinizde süslemiştir"	tanim
+K11d	vedud	49:7	49:7	-	✓	"Allah imanı size sevdirmiş ve gönüllerinizde süslemiştir"	tanim
 K11d	sever	49:9	49:9	sevgi	✓	"İki mümin zümre çarpışırsa barışı kurun; adaletle düzeltin, adil olun; Allah adil davrananları sever"	emir
 K11d	sevmez	57:23	57:23	sevilmeme	✓	"Elinizden çıkana üzülmeyin, verilenle şımarmayın; Allah kendini beğenip övünenlerin hiçbirini sevmez"	sonuc
 K11d	insan_sever	59:9	59:9	-	✓	"Önce yurda konmuş imanlılar kendilerine hicret edenleri severler"	tanim
-K11d	insan_sever	60:1	60:1	-	✓	"Düşmanımı ve düşmanınızı dost edinmeyin, onlara sevgi göstermeyin"	yasak
+K11d	insan_sever	60:1	60:1	-	✓	"Düşmanımı ve düşmanınızı dost edinmeyin; siz onlara sevgi sunuyorsunuz, içinizde sevgi gizliyorsunuz; bunu yapan yoldan sapmış olur"	yasak
 K11d	vedud	60:7	60:7	sevgi	✓	"Allah sizinle düşman olduklarınız arasına bir sevgi koyabilir"	tanim
 K11d	sever	60:8	60:8	sevgi	✓	"Din hakkında savaşmayanlara iyilik ve adalet; Allah adaleti ayakta tutanları sever"	sonuc
 K11d	sever	61:4	61:4	sevgi	✓	"Allah kendi yolunda duvarları perçinlenmiş bina gibi saf bağlayarak çarpışanları sever"	sonuc

@@ -179,7 +179,7 @@ B041	kibir	7:36	7:36	nar	✓
 B041	ayetleri_yalanlama	7:40	7:40	cennete_giremez	✓	"gök kapıları açılmaz, deve iğne deliğinden geçmedikçe cennete giremezler"
 B041	kibir	7:40	7:40	cennete_giremez	✓
 B041	ayetleri_yalanlama	7:40	7:41	cehennem	✓	"onlar için cehennemden döşek ve üstlerinde örtüler vardır; zalimleri böyle cezalandırırız"
-B041	allaha_iftira	7:37	7:38	nar	→	7:37 canlarını alan elçiler; 7:38 "girin ateşe" aynı topluluğa mı yönelik, bağ bağlamdan
+B041	allaha_iftira	7:37	7:38	nar	✓	7:37 canlarını alan elçiler; 7:38 "girin ateşe" aynı topluluğa mı yönelik, bağ bağlamdan
 B041	saptirma	7:38	7:38	azap_katli	✓	"Rabbimiz bizi bunlar saptırdı, azabı bir kat fazla ver" – Allah: "her biri için kat var" (konuşan: ahretteki izleyiciler)
 B041	allah_yolundan_alikoyma	7:45	7:44	lanet	✓	"Allah'ın laneti zalimlerin üzerine olsun", 7:45 zalimleri tarif eder
 B041	ahireti_inkar	7:45	7:44	lanet	✓
@@ -484,7 +484,7 @@ B132	nefse_zulum	29:40	29:40	yakalama	✓	"kendi benliklerine zulmediyorlardı"
 B132	veli_edinme	29:41	29:41	korumasizlik	?	örümcek evi benzetmesi; ceza adlandırılmaz
 B133	batila_iman_inkar	29:52	29:52	husran	✓	"bâtıla iman edip Allah'ı inkâr edenler hüsrana uğramışlar"
 B133	kufur	29:54	29:55	azap_kusatma	✓	"cehennem küfre sapanları çepeçevre kuşatmış"; "azap tepelerinden, ayaklarının altından sarar"
-B134	sirk_nankorluk	29:65	29:66	tehdit	→	gemide Allah'a içtenlikle yakarıp kurtulunca ortak koşma; "Yakında bilecekler"
+B134	sirk_nankorluk	29:65	29:66	tehdit	✓	gemide Allah'a içtenlikle yakarıp kurtulunca ortak koşma; "Yakında bilecekler"
 B134	allaha_iftira	29:68	29:68	cehennem	✓	"Cehennemde değil midir kâfirlerin barınağı?"
 B134	hakki_yalanlama	29:68	29:68	cehennem	✓
 B135	sirk	30:13	30:13	sefaatsizlik	✓	"Ortak tuttukları arasından şefaatçılar çıkmayacaktır"

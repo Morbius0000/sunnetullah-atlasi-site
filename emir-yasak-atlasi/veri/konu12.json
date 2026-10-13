@@ -84,7 +84,7 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "fahsa",
-"not_": "\"Şeytan sizi fakirlikle korkutur, fahşâya sürükler; Allah bağışlanma ve lütuf vaat eder\""
+"not_": "\"Şeytan sizi fakirlikle korkutur ve size fahşâyı emreder; Allah ise bağışlanma ve lütuf vaat eder\""
 },
 {
 "blok": "K12b",
@@ -458,7 +458,7 @@
 "odul_ayet": "5:2",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "yasak",
 "ham": "ism",
 "not_": "\"Hayırda ve takvada yardımlaşın; günah (ism) ve düşmanlıkta yardımlaşmayın\""
 },
@@ -576,7 +576,7 @@
 "blok": "K12e",
 "nitelik_ayet": "45:7",
 "odul_ayet": "45:7",
-"odul": "azap_elim",
+"odul": "azap_vay",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ism",
@@ -951,7 +951,7 @@
 {
 "blok": "K12f",
 "nitelik_ayet": "69:9",
-"odul_ayet": "69:9",
+"odul_ayet": "69:10",
 "odul": "azap_yakalama",
 "derece": "✓",
 "tur": "sonuc",
@@ -1170,11 +1170,11 @@
 "blok": "K12c",
 "nitelik_ayet": "7:163",
 "odul_ayet": "7:163",
-"odul": "azap_genel",
+"odul": "yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
-"not_": "\"Sebt günü azıp sınır tanımayan kent halkını fısk ettikleri için sınıyorduk\""
+"not_": "\"Sebt günü sınırı aşan kıyı kentini, fısk etmeleri yüzünden böyle sınıyorduk (balıklar sebt günü gelirdi)\""
 },
 {
 "blok": "K12c",
@@ -1369,12 +1369,12 @@
 {
 "blok": "K12e",
 "nitelik_ayet": "43:54",
-"odul_ayet": "43:54",
+"odul_ayet": "43:55",
 "odul": "helak",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
-"not_": "\"Firavun toplumunu küçümsedi, onlar ona itaat etti; çünkü fâsık bir toplum idiler; hepsini suya gömdük\""
+"not_": "\"Firavun toplumunu küçümsedi, onlar ona itaat etti; çünkü fâsık bir toplum idiler. Bizi öfkelendirince hepsini suya gömdük\""
 },
 {
 "blok": "K12e",
@@ -1384,7 +1384,7 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "fisk",
-"not_": "\"Fâsık topluluktan başkası helak edilmez (ayetin lafzı: fâsıklar topluluğu helak olur)\""
+"not_": "\"Fâsıklar topluluğundan başkası mı helak edilir?\""
 },
 {
 "blok": "K12f",
@@ -2326,6 +2326,10 @@
 "ar": "فَٱسْتَخَفَّ قَوْمَهُۥ فَأَطَاعُوهُ ۚ إِنَّهُمْ كَانُوا۟ قَوْمًا فَـٰسِقِينَ",
 "tr": "İşte toplumunu böyle küçümsedi, onlar da ona itaat ettiler. Çünkü onlar yoldan sapmış bir toplum idiler."
 },
+"43:55": {
+"ar": "فَلَمَّآ ءَاسَفُونَا ٱنتَقَمْنَا مِنْهُمْ فَأَغْرَقْنَـٰهُمْ أَجْمَعِينَ",
+"tr": "Onlar bizi bu şekilde öfkelendirince, biz de onlardan öç aldık; hepsini suya gömüverdik."
+},
 "44:44": {
 "ar": "طَعَامُ ٱلْأَثِيمِ",
 "tr": "Suçluların yemeğidir."
@@ -2446,6 +2450,10 @@
 "ar": "وَجَآءَ فِرْعَوْنُ وَمَن قَبْلَهُۥ وَٱلْمُؤْتَفِكَـٰتُ بِٱلْخَاطِئَةِ",
 "tr": "Firavun da ondan öncekiler de altı üstüne gelmiş kentlerde aynı hataya vücut verdiler."
 },
+"69:10": {
+"ar": "فَعَصَوْا۟ رَسُولَ رَبِّهِمْ فَأَخَذَهُمْ أَخْذَةً رَّابِيَةً",
+"tr": "Rablerinin resulüne isyan ettiler de O da onları, şiddeti arttıkça artan bir yakalayışla yakaladı."
+},
 "71:4": {
 "ar": "يَغْفِرْ لَكُم مِّن ذُنُوبِكُمْ وَيُؤَخِّرْكُمْ إِلَىٰٓ أَجَلٍ مُّسَمًّى ۚ إِنَّ أَجَلَ ٱللَّهِ إِذَا جَآءَ لَا يُؤَخَّرُ ۖ لَوْ كُنتُمْ تَعْلَمُونَ",
 "tr": "Allah, günahlarınızı affetsin ve sizi belirli bir süreye kadar ertelesin. Çünkü Allah'ın eceli geldiğinde ertelenmez. Bir bilebilseydiniz!\""
@@ -2469,15 +2477,15 @@
 },
 "istatistik": {
 "kayit": 173,
-"ayet": 165,
+"ayet": 167,
 "derece": {
 "✓": 173,
 "→": 0,
 "?": 0
 },
 "tur": {
-"emir": 12,
-"yasak": 24,
+"emir": 11,
+"yasak": 25,
 "sonuc": 55,
 "tanim": 82
 }

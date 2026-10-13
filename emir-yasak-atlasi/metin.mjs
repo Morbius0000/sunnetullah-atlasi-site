@@ -174,6 +174,7 @@ export const konu10 = {
     'Hedef ayetler: {hedef} ayet. Kullanılan Arapça işaretler: tövbe kökü ve Tevvâb, zerre ve misk\u00e2l, derece/derecât, kat kat ve iki kat kalıpları, "amelleri boşa", "zulüm yok" kalıpları, bağışlanmama ve sorumluluk kalıpları. Her hedef ayet, önceki ve sonraki ayetle birlikte okundu: {blok} pasaj, {okunan} ayet.',
     'İkinci kontrol: hedef listesinde olup kayda girmeyen ayetler tek tek gözden geçirildi; bu geçişte eksik görülen ayetler eklendi. Çoğu kayda girmeyen ayet kıssa anlatısı, dua ya da kuralı söylemeyen bir bağlamdır.',
     'Bilinen sınırlar: Kur\'an\'da "dilerse bağışlar" kalıbı çok yaygındır; bu bölüm yalnız kuralı açıkça söyleyen ayetleri kaydeder. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Belirli bir davranışın bağışlanıp bağışlanmayacağı sorusunun cevabı bu sayfadan çıkarılmamalıdır; ayetin kendi bağlamı esastır.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kapsam dışı iki kayıt çıkarıldı (Bakara 228, Nûr 22), kat kat karşılık bildiren dört kayıt doğru başlığa taşındı (Furkân 69, Ahzâb 30-31, Sebe 37, Sâd 61), Âl-i İmrân 22\'nin davranış ayeti 21 olarak düzeltildi, Nahl 25\'te yanlış karşılık kodu kaldırıldı ve Hûd 90\'daki rahmet "→ Çıkarım" derecesine indirildi (ayet bir vaat değil, Allah\'ın bir niteliğini bildirir).',
   ],
 };
 
@@ -189,6 +190,7 @@ export const konu11 = {
     'Hedef ayetler: {hedef} ayet. Kullanılan Arapça işaretler: "hubb" kökünün fiil ve isim biçimleri (yuhibbu, tuhibbûn, ahabbe, hubb vb.) ile vedûd, vüdd, mevedde. Her hedef ayet, önceki ve sonraki ayetle birlikte okundu: {blok} pasaj, {okunan} ayet.',
     'İkinci kontrol: kaydın başlığına giren her ayette sevgi kökü mekanik olarak arandı; eksik görülen üç ayet (Mâide 64, Nisâ 36, En\'âm 141) ve birkaç ayet daha eklendi. Hedef listesinde olup kayda girmeyen ayetler çoğunlukla "hubb" kökü taşımayan, başka anlamda ("ister mi", "dâne") kullanılan kelimelerdir.',
     'Bilinen sınırlar: "sevmek" burada ayetin lafzındaki fiilden alınır; sevgi bildirilmeyen bir tutumun "sevilmediği" sonucu çıkarılmaz. Allah\'ın bir tutumu sevmediğinin bildirilmemesi onu sevdiği anlamına da gelmez. Kelime bazlı tarama bir ayeti kaçırmış olabilir.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Hucurât 7 ("Allah imanı size sevdirdi") Allah\'ın sevdikleri başlığından "Vedûd ve sevgi koyma" başlığına taşındı; Şûrâ 23 ve Mümtehine 1 notları ayetin lafzına uyduruldu; Hûd 90\'daki rahmet "→ Çıkarım" derecesine indirildi.',
   ],
 };
 
@@ -204,5 +206,6 @@ export const konu12 = {
     'Hedef ayetler: {hedef} ayet. Kullanılan Arapça işaretler: kebâir ve kebîr+ism/zenb bitişikliği, fahşâ ve fevâhiş, lemem, ism ve türevleri, zenb ve zünûb, hatîe ve hâtî, fısk ve fâsık, bağy, münker. Her hedef ayet, önceki ve sonraki ayetle birlikte okundu: {blok} pasaj, {okunan} ayet.',
     'İkinci kontrol: her kayıtta başlığın Arapça kökü ayette mekanik olarak arandı. Bulunamayan beş kayıt elle okunarak doğrulandı (fevâhiş, hâtiîn ve bâğ biçimleri bu aramanın kök listesine girmemişti); Bakara 27\'deki fâsık tanımı bir önceki ayetteki "fâsıkîn" kelimesine bağlıdır. Hedef listesinde olup kayda girmeyen ayetler gözden geçirildi; dua ve kıssa anlatıları dışında kalan eksikler eklendi.',
     'Bilinen sınırlar: Zulüm, "seyyie" (kötülük), "cürm" ve "vizr" bu bölümde ayrıca taranmadı. Meal "fâsık" yerine bazen "sapık", "fâhişe" yerine "çirkin iş" ya da "iğrençlik" der; kayıtlar Arapça kelimeye göre tutuldu. Birçok "günahlarımı bağışla" duası kayda alınmadı; yalnız bağışlanma ve karşılık bildiren ayetler alındı. Kelime bazlı tarama bir ayeti kaçırmış olabilir.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle ve Arapça kelimeyle tek tek yeniden okundu. Yedi kayıtta not, tür ya da karşılık ayeti düzeltildi (ör. A\'râf 163\'te ayet azap değil imtihan der; Zuhruf 54 ve Hâkka 9\'un karşılığı sonraki ayettedir).',
   ],
 };

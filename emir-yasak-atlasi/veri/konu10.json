@@ -234,7 +234,7 @@
 "id": "tevbe_sart",
 "grup": "Tövbe",
 "etiket": "Tövbenin koşulu ve sonucu: tövbe, düzeltme, af dileme",
-"ayet_sayisi": 29,
+"ayet_sayisi": 28,
 "kayitlar": [
 {
 "blok": "K10a",
@@ -380,7 +380,7 @@
 "blok": "K10x",
 "nitelik_ayet": "9:74",
 "odul_ayet": "9:74",
-"odul": "azap_dunya",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_sart",
@@ -441,7 +441,7 @@
 "nitelik_ayet": "11:90",
 "odul_ayet": "11:90",
 "odul": "rahmet",
-"derece": "✓",
+"derece": "→",
 "tur": "emir",
 "ham": "tevbe_sart",
 "not_": "\"Rabbinizden af dileyip O'na yönelin; Rabbim Rahîm ve Vedûd'dur\""
@@ -475,16 +475,6 @@
 "tur": "sonuc",
 "ham": "tevbe_sart",
 "not_": "\"İftira suçundan sonra tövbe edip iyi hal sergileyenler müstesna; Allah Gafûr ve Rahîm\""
-},
-{
-"blok": "K10f",
-"nitelik_ayet": "24:22",
-"odul_ayet": "24:22",
-"odul": "magfiret",
-"derece": "✓",
-"tur": "emir",
-"ham": "tevbe_sart",
-"not_": "\"Affetsinler, hoş görsünler; Allah'ın sizi affetmesini istemez misiniz?\""
 },
 {
 "blok": "K10f",
@@ -992,7 +982,7 @@
 "id": "kat_kat",
 "grup": "Ölçü ve adalet",
 "etiket": "Karşılığın kat kat artırılması",
-"ayet_sayisi": 6,
+"ayet_sayisi": 11,
 "kayitlar": [
 {
 "blok": "K10x",
@@ -1023,6 +1013,56 @@
 "tur": "sonuc",
 "ham": "kat_kat",
 "not_": "\"Hoşnutluk için infak edenin durumu ürününü iki kat veren bahçe gibidir\""
+},
+{
+"blok": "K10f",
+"nitelik_ayet": "25:68",
+"odul_ayet": "25:69",
+"odul": "azap_katli",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kat_kat",
+"not_": "\"Allah'la birlikte başka ilaha yakaran, haksız yere can alan, zina eden cezaya çarpılır; kıyamet günü azap kendisi için kat kat artırılır\""
+},
+{
+"blok": "K10g",
+"nitelik_ayet": "33:30",
+"odul_ayet": "33:30",
+"odul": "azap_iki_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kat_kat",
+"not_": "\"Peygamber hanımlarından açık bir fâhişe yapana azap iki katına çıkarılır\""
+},
+{
+"blok": "K10g",
+"nitelik_ayet": "33:31",
+"odul_ayet": "33:31",
+"odul": "ecir_iki_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kat_kat",
+"not_": "\"Allah'a ve resulüne itaat edip iyilik yapana ücreti iki kat verilir\""
+},
+{
+"blok": "K10g",
+"nitelik_ayet": "34:37",
+"odul_ayet": "34:37",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kat_kat",
+"not_": "\"İman edip iyi iş yapanlara yaptıklarının kat kat fazlası ödül vardır\""
+},
+{
+"blok": "K10g",
+"nitelik_ayet": "38:61",
+"odul_ayet": "38:61",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kat_kat",
+"not_": "\"Ateş ehli dua eder: Bunu önümüze çıkaranın ateşteki azabını bir kat daha artır\""
 },
 {
 "blok": "K10h",
@@ -1060,18 +1100,8 @@
 "id": "derece",
 "grup": "Derece ve sorumluluk",
 "etiket": "Dereceler: herkesin amelince derecesi vardır",
-"ayet_sayisi": 20,
+"ayet_sayisi": 16,
 "kayitlar": [
-{
-"blok": "K10x",
-"nitelik_ayet": "2:228",
-"odul_ayet": "2:228",
-"odul": "yok",
-"derece": "✓",
-"tur": "tanim",
-"ham": "derece",
-"not_": "\"Erkeklerin kadınlar üzerinde bir derece farkı vardır (boşanmada barışma hakkı bağlamında)\""
-},
 {
 "blok": "K10a",
 "nitelik_ayet": "2:253",
@@ -1191,36 +1221,6 @@
 "tur": "sonuc",
 "ham": "derece",
 "not_": "\"Mümin olarak iyilik üretenler için çok yüksek dereceler öngörülmüştür\""
-},
-{
-"blok": "K10g",
-"nitelik_ayet": "33:30",
-"odul_ayet": "33:31",
-"odul": "kat_kat",
-"derece": "✓",
-"tur": "sonuc",
-"ham": "derece",
-"not_": "\"Açık edepsizlik eden peygamber hanımına azap iki kat; itaat edip iyilik edene ücret iki kat\""
-},
-{
-"blok": "K10g",
-"nitelik_ayet": "34:37",
-"odul_ayet": "34:37",
-"odul": "kat_kat",
-"derece": "✓",
-"tur": "sonuc",
-"ham": "derece",
-"not_": "\"İman edip iyi iş yapanlara yaptıklarının kat kat fazlası ödül vardır\""
-},
-{
-"blok": "K10g",
-"nitelik_ayet": "38:61",
-"odul_ayet": "38:61",
-"odul": "kat_kat",
-"derece": "✓",
-"tur": "tanim",
-"ham": "derece",
-"not_": "\"Bizi buna iletenin ateşteki azabını bir kat daha artır (dua)\""
 },
 {
 "blok": "K10h",
@@ -1432,7 +1432,7 @@
 "blok": "K10e",
 "nitelik_ayet": "16:25",
 "odul_ayet": "16:25",
-"odul": "gunah_ortme",
+"odul": "yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "sorumluluk",
@@ -1514,7 +1514,7 @@
 "id": "amel_bosa",
 "grup": "Derece ve sorumluluk",
 "etiket": "Amellerin boşa çıkması",
-"ayet_sayisi": 15,
+"ayet_sayisi": 14,
 "kayitlar": [
 {
 "blok": "K10x",
@@ -1528,13 +1528,13 @@
 },
 {
 "blok": "K10a",
-"nitelik_ayet": "3:22",
+"nitelik_ayet": "3:21",
 "odul_ayet": "3:22",
 "odul": "amel_bosa",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "amel_bosa",
-"not_": "\"Ayetleri inkâr edip peygamberleri haksız yere öldürenlerin ürettikleri dünyada ve ahirette boşa çıkmıştır\""
+"not_": "\"Ayetleri inkâr edip peygamberleri ve adaleti emredenleri haksız yere öldürenlerin çalışıp ürettikleri dünyada ve âhirette boşa çıkmıştır\""
 },
 {
 "blok": "K10c",
@@ -1544,7 +1544,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "amel_bosa",
-"not_": "\"Münafıkların bütün amelleri boşa çıkmıştır; hüsrana uğrayanlardan oldular\""
+"not_": "\"Müminlerle beraber olduklarına yemin edenlerin bütün amelleri boşa çıkmış, hüsrana uğrayanlardan olmuşlardır\""
 },
 {
 "blok": "K10c",
@@ -1605,16 +1605,6 @@
 "tur": "sonuc",
 "ham": "amel_bosa",
 "not_": "\"Rablerinin ayetlerini ve O'na ulaşmayı inkâr edenlerin bütün amelleri boşa çıkmıştır\""
-},
-{
-"blok": "K10f",
-"nitelik_ayet": "25:69",
-"odul_ayet": "25:69",
-"odul": "kat_kat",
-"derece": "✓",
-"tur": "sonuc",
-"ham": "amel_bosa",
-"not_": "\"Bunları yapana azap kat kat artırılır, hor ve ezik sürekli kalır\""
 },
 {
 "blok": "K10g",
@@ -1690,10 +1680,6 @@
 "ar": "يَسْـَٔلُونَكَ عَنِ ٱلشَّهْرِ ٱلْحَرَامِ قِتَالٍ فِيهِ ۖ قُلْ قِتَالٌ فِيهِ كَبِيرٌ ۖ وَصَدٌّ عَن سَبِيلِ ٱللَّهِ وَكُفْرٌۢ بِهِۦ وَٱلْمَسْجِدِ ٱلْحَرَامِ وَإِخْرَاجُ أَهْلِهِۦ مِنْهُ أَكْبَرُ عِندَ ٱللَّهِ ۚ وَٱلْفِتْنَةُ أَكْبَرُ مِنَ ٱلْقَتْلِ ۗ وَلَا يَزَالُونَ يُقَـٰتِلُونَكُمْ حَتَّىٰ يَرُدُّوكُمْ عَن دِينِكُمْ إِنِ ٱسْتَطَـٰعُوا۟ ۚ وَمَن يَرْتَدِدْ مِنكُمْ عَن دِينِهِۦ فَيَمُتْ وَهُوَ كَافِرٌ فَأُو۟لَـٰٓئِكَ حَبِطَتْ أَعْمَـٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۖ وَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
 "tr": "Sana haram ayı, onda savaşmayı soruyorlar, De ki: \"O ayda savaş büyük bir günahtır. Ama Allah yolundan alıkoymak, O'na ve Mescid-i Haram'a nankörlük etmek, ora halkını oradan sürüp çıkarmak, Allah katında daha büyük bir günahtır.\" Fitne/baskı ve bozgunculuk, cana kıymaktan daha büyük bir kötülüktür. Eğer güçleri yetse sizi dininizden çevirinceye kadar sizinle savaşmayı sürdürürler. İçinizden kim irtidâd edip dininden dönerse kâfir olarak ölür. Böylelerinin amelleri dünyada da âhırette de boşa gitmiştir. Ateş ehlidir onlar. Sürekli kalacaklardır orada."
 },
-"2:228": {
-"ar": "وَٱلْمُطَلَّقَـٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَـٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَـٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
-"tr": "Boşanmış kadınlar kendi başlarına üç âdet ve temizlenme süresi beklerler. Eğer Allah'a ve âhıret gününe inanmakta iseler, Allah'ın onların rahimlerinde yarattığını saklamaları kendilerine helal olmaz. Kocaları, bu süre içinde herhangi bir şekilde barışmak isterlerse eşlerini geri almaya herkesten daha çok hak sahibidirler. Kadınların, örfe uygun biçimde, sorumluluklarına benzer hakları da vardır. Erkeklerin kadınlar üzerinde bir derece farkı vardır. Allah Azîz'dir, Hakîm'dir."
-},
 "2:245": {
 "ar": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَـٰعِفَهُۥ لَهُۥٓ أَضْعَافًا كَثِيرَةً ۚ وَٱللَّهُ يَقْبِضُ وَيَبْصُۜطُ وَإِلَيْهِ تُرْجَعُونَ",
 "tr": "Kim var Allah'a güzel bir şekilde borç verecek? Ve Allah böyle birinin verdiğini birçok kez katlayarak artıracaktır. Allah, kabz haliyle kısar, bast haliyle açıp genişletir. Ve yalnız O'na döndürülürsünüz."
@@ -1717,6 +1703,10 @@
 "2:281": {
 "ar": "وَٱتَّقُوا۟ يَوْمًا تُرْجَعُونَ فِيهِ إِلَى ٱللَّهِ ۖ ثُمَّ تُوَفَّىٰ كُلُّ نَفْسٍ مَّا كَسَبَتْ وَهُمْ لَا يُظْلَمُونَ",
 "tr": "Korkun o günden ki, onda Allah'a döndürüleceksiniz. Sonra her benliğe kazanmış olduğu tam bir biçimde verilecektir. Onlar hiç bir zulme uğratılmayacaklardır."
+},
+"3:21": {
+"ar": "إِنَّ ٱلَّذِينَ يَكْفُرُونَ بِـَٔايَـٰتِ ٱللَّهِ وَيَقْتُلُونَ ٱلنَّبِيِّـۧنَ بِغَيْرِ حَقٍّ وَيَقْتُلُونَ ٱلَّذِينَ يَأْمُرُونَ بِٱلْقِسْطِ مِنَ ٱلنَّاسِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+"tr": "Allah'ın ayetlerini inkâr edip haksız yere peygamberleri öldürenler ve insanlar içinden adaletle emredenlerin canına kıyanlar var ya, işte onlara korkunç bir azabı muştula."
 },
 "3:22": {
 "ar": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ حَبِطَتْ أَعْمَـٰلُهُمْ فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ وَمَا لَهُم مِّن نَّـٰصِرِينَ",
@@ -2074,9 +2064,9 @@
 "ar": "وَلَوْلَا فَضْلُ ٱللَّهِ عَلَيْكُمْ وَرَحْمَتُهُۥ وَأَنَّ ٱللَّهَ تَوَّابٌ حَكِيمٌ",
 "tr": "Allah'ın lütuf ve rahmeti üzerinizde olmasaydı neylerdiniz! Ve hiç kuşku yok Allah Tevvâb'dır, Hakîm'dir."
 },
-"24:22": {
-"ar": "وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَـٰكِينَ وَٱلْمُهَـٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
-"tr": "Sizin lütuf ve imkân sahibi olanlarınız; akrabaya, çaresizlere, Allah yolunda hicret edenlere birşey vermemeye yemin etmesinler, affetsinler, hoş görsünler. Allah'ın sizi affetmesini istemez misiniz? Allah Gafûr'dur, Rahîm'dir."
+"25:68": {
+"ar": "وَٱلَّذِينَ لَا يَدْعُونَ مَعَ ٱللَّهِ إِلَـٰهًا ءَاخَرَ وَلَا يَقْتُلُونَ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ وَلَا يَزْنُونَ ۚ وَمَن يَفْعَلْ ذَٰلِكَ يَلْقَ أَثَامًا",
+"tr": "Onlar Allah'ın yanında bir başka ilaha yakarmazlar/davet etmezler. Allah'ın saygıya layık kıldığı canı haksız yere almazlar. Zina etmezler. Bunları yapan cezaya çarpılır."
 },
 "25:69": {
 "ar": "يُضَـٰعَفْ لَهُ ٱلْعَذَابُ يَوْمَ ٱلْقِيَـٰمَةِ وَيَخْلُدْ فِيهِۦ مُهَانًا",
@@ -2316,18 +2306,18 @@
 }
 },
 "istatistik": {
-"kayit": 157,
+"kayit": 156,
 "ayet": 161,
 "derece": {
-"✓": 157,
-"→": 0,
+"✓": 155,
+"→": 1,
 "?": 0
 },
 "tur": {
-"emir": 9,
+"emir": 8,
 "yasak": 1,
-"sonuc": 74,
-"tanim": 73
+"sonuc": 75,
+"tanim": 72
 }
 }
 }

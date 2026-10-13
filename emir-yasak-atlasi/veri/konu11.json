@@ -6,7 +6,7 @@
 "id": "sever",
 "grup": "Allah'ın sevdikleri",
 "etiket": "Allah'ın sevdiğini bildirdiği tutum ve kişiler (yuhibbu)",
-"ayet_sayisi": 17,
+"ayet_sayisi": 16,
 "kayitlar": [
 {
 "blok": "K11a",
@@ -137,16 +137,6 @@
 "tur": "sonuc",
 "ham": "sever",
 "not_": "\"Takva üzerine kurulu mescitte temizlenmek isteyen erler vardır; Allah temizlenenleri sever\""
-},
-{
-"blok": "K11d",
-"nitelik_ayet": "49:7",
-"odul_ayet": "49:7",
-"odul": "yok",
-"derece": "✓",
-"tur": "tanim",
-"ham": "sever",
-"not_": "\"Allah imanı size sevdirmiş ve gönüllerinizde süslemiştir\""
 },
 {
 "blok": "K11d",
@@ -562,7 +552,7 @@
 "derece": "✓",
 "tur": "yasak",
 "ham": "insan_sever",
-"not_": "\"Düşmanımı ve düşmanınızı dost edinmeyin, onlara sevgi göstermeyin\""
+"not_": "\"Düşmanımı ve düşmanınızı dost edinmeyin; siz onlara sevgi sunuyorsunuz, içinizde sevgi gizliyorsunuz; bunu yapan yoldan sapmış olur\""
 },
 {
 "blok": "K11d",
@@ -620,14 +610,14 @@
 "id": "vedud",
 "grup": "Vedûd ve sevgi koyma",
 "etiket": "Vedûd adı, Allah'ın koyduğu sevgi ve mevedde",
-"ayet_sayisi": 8,
+"ayet_sayisi": 9,
 "kayitlar": [
 {
 "blok": "K11c",
 "nitelik_ayet": "11:90",
 "odul_ayet": "11:90",
 "odul": "rahmet",
-"derece": "✓",
+"derece": "→",
 "tur": "emir",
 "ham": "vedud",
 "not_": "\"Rabbinizden af dileyip O'na yönelin; Rabbim Rahîm ve Vedûd'dur\""
@@ -680,7 +670,17 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "vedud",
-"not_": "\"Ücret olarak yalnız yakın akrabaya sevgi (mevedde) istenir\""
+"not_": "\"Buna karşılık sizden yakınlıkta sevgi (el-meveddete fi'l-kurbâ) dışında bir ücret istemiyorum; ifadenin kimi kastettiği ayette açık değildir (meal: yakın akrabamı sevmeniz)\""
+},
+{
+"blok": "K11d",
+"nitelik_ayet": "49:7",
+"odul_ayet": "49:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "vedud",
+"not_": "\"Allah imanı size sevdirmiş ve gönüllerinizde süslemiştir\""
 },
 {
 "blok": "K11d",
@@ -979,8 +979,8 @@
 "kayit": 67,
 "ayet": 67,
 "derece": {
-"✓": 67,
-"→": 0,
+"✓": 66,
+"→": 1,
 "?": 0
 },
 "tur": {

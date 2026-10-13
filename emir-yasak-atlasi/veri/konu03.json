@@ -807,7 +807,7 @@
 "nitelik_ayet": "19:55",
 "odul_ayet": "19:55",
 "odul": "rıza",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "zekat",
 "not_": "\"İsmail ailesine namazı, zekâtı emrederdi; Rabbi katında hoşnutluk kazanmıştı\""
@@ -1503,8 +1503,8 @@
 "kayit": 103,
 "ayet": 104,
 "derece": {
-"✓": 103,
-"→": 0,
+"✓": 102,
+"→": 1,
 "?": 0
 },
 "tur": {

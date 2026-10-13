@@ -1344,7 +1344,7 @@
 "nitelik_ayet": "29:65",
 "odul_ayet": "29:66",
 "odul": "tehdit",
-"derece": "→",
+"derece": "✓",
 "ham": "sirk_nankorluk",
 "not_": "gemide Allah'a içtenlikle yakarıp kurtulunca ortak koşma; \"Yakında bilecekler\""
 },
@@ -1926,7 +1926,7 @@
 "nitelik_ayet": "7:37",
 "odul_ayet": "7:38",
 "odul": "nar",
-"derece": "→",
+"derece": "✓",
 "ham": "allaha_iftira",
 "not_": "7:37 canlarını alan elçiler; 7:38 \"girin ateşe\" aynı topluluğa mı yönelik, bağ bağlamdan"
 },
@@ -4931,7 +4931,7 @@
 "nitelik_ayet": "29:65",
 "odul_ayet": "29:66",
 "odul": "tehdit",
-"derece": "→",
+"derece": "✓",
 "ham": "sirk_nankorluk",
 "not_": "gemide Allah'a içtenlikle yakarıp kurtulunca ortak koşma; \"Yakında bilecekler\""
 },
@@ -10978,8 +10978,8 @@
 "kayit": 784,
 "ayet": 818,
 "derece": {
-"✓": 723,
-"→": 54,
+"✓": 725,
+"→": 52,
 "?": 7
 }
 }
