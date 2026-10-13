@@ -438,7 +438,7 @@
 "id": "nikah_haram",
 "grup": "Evlilik",
 "etiket": "Evlenilmesi haram kılınanlar (yakınlar, evli kadınlar, müşrikler, zani)",
-"ayet_sayisi": 7,
+"ayet_sayisi": 6,
 "kayitlar": [
 {
 "blok": "K7a",
@@ -511,16 +511,6 @@
 "not_": "\"Bunlar dışındakileri, mallarınızı vererek, iffetli yaşamanız ve zina etmemeniz şartıyla size helal kılınmıştır\""
 },
 {
-"blok": "K7b",
-"nitelik_ayet": "4:25",
-"odul_ayet": "4:25",
-"odul": "yok",
-"derece": "✓",
-"tur": "emir",
-"ham": "nikah_haram_yakinlar",
-"not_": "Hür mümin kadınla evlenmeye gücü yetmeyen, mümin köle kızlarıyla ailelerinin izniyle, mehirlerini vererek nikâhlasın"
-},
-{
 "blok": "K7f",
 "nitelik_ayet": "24:3",
 "odul_ayet": "24:3",
@@ -546,7 +536,7 @@
 "id": "evlilik_hukumleri",
 "grup": "Evlilik",
 "etiket": "Helal kılınan evlilikler ve evlilik emirleri (çok eşlilik, Kitap ehlinin kadınları, evlendirme, zıhar)",
-"ayet_sayisi": 8,
+"ayet_sayisi": 9,
 "kayitlar": [
 {
 "blok": "K7b",
@@ -557,6 +547,16 @@
 "tur": "emir",
 "ham": "cok_esli_evlilik",
 "not_": "\"Temiz kılınan kadınlardan ikişer, üçer, dörder nikâhlayın; adaleti gözetemeyeceğinizden korkarsanız bir tek kadınla yetinin\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:25",
+"odul_ayet": "4:25",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "evlendirme_kole_kizlari",
+"not_": "Hür mümin kadınla evlenmeye gücü yetmeyen, mümin köle kızlarıyla ailelerinin izniyle, mehirlerini vererek nikâhlasın"
 },
 {
 "blok": "K7b",
@@ -647,6 +647,16 @@
 "not_": "\"Oruç gecesi kadınlarınıza yaklaşmak size helal kılınmıştır\""
 },
 {
+"blok": "K7x",
+"nitelik_ayet": "2:187",
+"odul_ayet": "2:187",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "oruc_gecesi_esle_iliski",
+"not_": "\"Mescitlerde itikâfta bulunduğunuz sırada zevcelerinizle cinsel temas kurmayın; bunlar Allah'ın sınırlarıdır, yaklaşmayın\""
+},
+{
 "blok": "K7a",
 "nitelik_ayet": "2:222",
 "odul_ayet": "2:222",
@@ -732,7 +742,7 @@
 "id": "haram_kilma_yetkisi",
 "grup": "Haram kılma ve helal sayma",
 "etiket": "Allah'ın helal ve haram kılması; kendiliğinden haramlaştırmanın yasağı",
-"ayet_sayisi": 16,
+"ayet_sayisi": 15,
 "kayitlar": [
 {
 "blok": "K7h",
@@ -893,16 +903,6 @@
 "tur": "sonuc",
 "ham": "kendi_haram_kilma",
 "not_": "\"Az bir nimetlenme ardından acıklı bir azap var onlara\""
-},
-{
-"blok": "K7h",
-"nitelik_ayet": "28:12",
-"odul_ayet": "28:12",
-"odul": "yok",
-"derece": "✓",
-"tur": "tanim",
-"ham": "allahin_haram_kildiklari",
-"not_": "\"Biz daha önce ona (Mûsa'ya) süt emziren kadınları haram kılmıştık\" (Allah'ın haram kılması)"
 },
 {
 "blok": "K7g",
@@ -1256,10 +1256,6 @@
 "ar": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَـٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَـٰمِكُمْ أَوْ بُيُوتِ عَمَّـٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَـٰلَـٰتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُۥٓ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًا ۚ فَإِذَا دَخَلْتُم بُيُوتًا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةً مِّنْ عِندِ ٱللَّهِ مُبَـٰرَكَةً طَيِّبَةً ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
 "tr": "Köre güçlük yoktur; topala güçlük yoktur, hastaya güçlük yoktur. Sizin için de gerek kendi evlerinizden gerekse şu kişilerin evlerinden yemek yemenizde bir sakınca yoktur: Babalarınızın evleri yahut annelerinizin evleri yahut kardeşlerinizin evleri yahut kızkardeşlerinizin evleri yahut amcalarınızın evleri yahut halalarınızın evleri yahut teyzelerinizin evleri yahut anahtarı size teslim edilmiş olan evler yahut arkadaşlarınızın evleri. Hep birlikte yahut ayrı ayrı yemenizde sizin için hiçbir sakınca yoktur. Evlere girdiğinizde, Allah katından bir esenlik, bir bereketlilik, bir temizlik dileği olarak kendinize de selam verin. Allah size ayetleri işte böyle ayan beyan bildiriyor ki, aklınızı çalıştırabilesiniz."
 },
-"28:12": {
-"ar": "وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍ يَكْفُلُونَهُۥ لَكُمْ وَهُمْ لَهُۥ نَـٰصِحُونَ",
-"tr": "Biz daha önce ona, süt emziren kadınları haram kılmıştık. Bu sırada kızkardeşi dedi ki: \"Onun bakımını sizin için üstlenecek, onu eğitip öğretmeyi yüklenecek bir ev halkını size tanıtayım mı?\""
-},
 "33:4": {
 "ar": "مَّا جَعَلَ ٱللَّهُ لِرَجُلٍ مِّن قَلْبَيْنِ فِى جَوْفِهِۦ ۚ وَمَا جَعَلَ أَزْوَٰجَكُمُ ٱلَّـٰٓـِٔى تُظَـٰهِرُونَ مِنْهُنَّ أُمَّهَـٰتِكُمْ ۚ وَمَا جَعَلَ أَدْعِيَآءَكُمْ أَبْنَآءَكُمْ ۚ ذَٰلِكُمْ قَوْلُكُم بِأَفْوَٰهِكُمْ ۖ وَٱللَّهُ يَقُولُ ٱلْحَقَّ وَهُوَ يَهْدِى ٱلسَّبِيلَ",
 "tr": "Allah, bir adamın göğüs boşluğunda iki kalp yaratmamıştır. Zıhar yaptığınız eşlerinizi sizin anneniz yapmamıştır, evlatlıklarınızı da sizin oğullarınız kılmamıştır. Bu konularda söylediğiniz sözler, ağızlarınızın bir lakırdısıdır. Allah, hakkı söyler ve O, gerçek yola kılavuzlar."
@@ -1291,7 +1287,7 @@
 },
 "istatistik": {
 "kayit": 90,
-"ayet": 78,
+"ayet": 77,
 "derece": {
 "✓": 90,
 "→": 0,
@@ -1299,9 +1295,9 @@
 },
 "tur": {
 "emir": 19,
-"yasak": 29,
+"yasak": 30,
 "sonuc": 13,
-"tanim": 29
+"tanim": 28
 }
 }
 }

@@ -61,7 +61,7 @@ K1e	kulluk	11:123	11:123	-	✓	"O'na kulluk et, O'na dayanıp güven"	emir
 K1e	kulluk	12:40	12:40	-	✓	"O, yalnız kendisine kulluk etmenizi emretti"	tanim
 K1e	kulluk	13:36	13:36	-	✓	"Bana yalnız Allah'a kulluk etmem emredildi"	tanim
 K1e	ihsan	11:115	11:115	ecir	✓	"Allah güzel davrananların ödülünü yitirmez"	sonuc
-K1e	ihsan	12:22	12:22	-	✓	"Güzel davrananları böyle ödüllendiririz"	sonuc
+K1e	ihsan	12:22	12:22	ecir	✓	"Güzel davrananları böyle ödüllendiririz"	sonuc
 K1e	ihsan	12:56	12:56	ecir	✓	"Güzel davrananların ödülünü yitirmeyiz"	sonuc
 K1e	ihsan	12:90	12:90	ecir	✓	"Allah güzel davrananların ödülünü yitirmez"	sonuc
 K1e	ahde_vefa	13:20	13:20	-	✓	"Allah'a verdikleri söze sadık kalanlar, antlaşmayı bozmayanlar"	tanim
@@ -87,7 +87,7 @@ K1f	ahde_vefa	20:86	20:86	-	→	"Mûsa: bana verdiğiniz söze ters davrandını
 K1g	kulluk	21:25	21:25	-	✓	"İlah yok benden başka, bana kulluk/ibadet edin"	emir
 K1g	adalet	21:47	21:47	-	✓	"Kıyamet günü adalet terazilerini kuracağız; kimseye zerre zulüm edilmeyecek"	tanim
 K1g	kulluk	21:92	21:92	-	✓	"Ben Rabbinizim, bana kulluk/ibadet edin"	emir
-K1g	ihsan	22:37	22:37	-	✓	"Güzel davrananlara müjde ver"	sonuc
+K1g	ihsan	22:37	22:37	mujde	✓	"Güzel davrananlara müjde ver"	sonuc
 K1g	kulluk	22:77	22:77	felah	✓	"Rabbinize ibadet edin, hayır işleyin ki kurtulabilesiniz"	emir
 K1g	emanet	23:8	23:8	-	✓	"O müminler emanetlerine ve ahitlerine saygı duyup sahip çıkanlardır"	tanim
 K1g	ahde_vefa	23:8	23:8	-	✓	"O müminler emanetlerine ve ahitlerine saygı duyup sahip çıkanlardır"	tanim
@@ -125,7 +125,7 @@ K1i	adalet	49:9	49:9	-	✓	"Aralarını adaletle düzeltin; adil davrananları A
 K1i	adalet	49:9	49:9	sevgi	✓	"Allah adil davrananları sever"	sonuc
 K1i	ihsan	53:31	53:31	husna	✓	"Güzel davrananları güzellikle ödüllendirir"	sonuc
 K1i	ahde_vefa	53:37	53:37	-	✓	"Çok vefalı İbrahim'in sayfalarındakiler"	tanim
-K1j	ihsan	55:60	55:60	-	✓	"İhsanın karşılığı sadece ihsan"	sonuc
+K1j	ihsan	55:60	55:60	karsilik	✓	"İhsanın karşılığı sadece ihsan"	sonuc
 K1j	dogruluk	57:19	57:19	-	✓	"Allah'a ve resulüne inananlar: özü sözü doğru kişiler onlardır"	tanim
 K1j	dogruluk	57:19	57:19	ecir	✓	"Onların ödülleri ve ışıkları vardır"	sonuc
 K1j	adalet	57:25	57:25	-	✓	"Kitap'ı ve ölçüyü indirdik ki insanlar adaleti ayakta tutsunlar"	tanim
@@ -184,8 +184,8 @@ K1m	dogruluk	10:2	10:2	-	✓	"İman edenlere Allah katında yüksek bir doğrulu
 K1m	dogruluk	12:46	12:46	-	→	"Yûsuf, ey özü sözü doğru insan (sıddîk)"	tanim
 K1m	dogruluk	19:41	19:41	-	✓	"İbrahim özü sözü doğru bir peygamberdi"	tanim
 K1m	dogruluk	33:22	33:22	-	✓	"Allah da resulü de doğru sözlüdür"	tanim
-K1m	ihsan	2:58	2:58	-	✓	"Güzel davranıp güzellik üretenlere daha fazlasını da vereceğiz"	sonuc
-K1m	ihsan	7:161	7:161	-	✓	"Güzel düşünüp güzel iş yapanlara daha fazlasını da vereceğiz"	sonuc
+K1m	ihsan	2:58	2:58	artirma	✓	"Güzel davranıp güzellik üretenlere daha fazlasını da vereceğiz"	sonuc
+K1m	ihsan	7:161	7:161	artirma	✓	"Güzel düşünüp güzel iş yapanlara daha fazlasını da vereceğiz"	sonuc
 K1m	ihsan	46:12	46:12	-	✓	"Kur'an güzel davrananlara müjde olsun diye"	sonuc
 K1m	ihsan	31:3	31:3	rahmet	✓	"İyilik ve güzellik sergileyenlere bir rahmet ve bir kılavuz"	sonuc
 K1m	ihsan	51:16	51:16	-	✓	"Onlar bundan önce de iyilik ve güzellik sergilemekteydiler"	tanim

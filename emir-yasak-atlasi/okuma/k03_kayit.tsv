@@ -64,7 +64,7 @@ K3d	zekat	24:37	24:38	artirma	✓	"Ticaret zekât vermekten alıkoyamaz; Allah y
 K3d	zekat	24:56	24:56	rahmet	✓	"Namazı kılın, zekâtı verin, resule itaat edin ki rahmete erdirilesiniz"	emir
 K3d	infak	25:67	25:67	-	✓	"Harcadıkları zaman ne savurganlığa saparlar ne cimrilik ederler; ikisi arasında bir denge"	tanim
 K3d	zekat	27:3	27:3	-	✓	"O müminler namazı kılar, zekâtı verirler"	tanim
-K3d	infak	28:54	28:54	ecir	✓	"Rızıktan infak edenlere ödülleri iki kez verilir"	sonuc
+K3d	infak	28:54	28:54	ecir_iki_kat	✓	"Rızıktan infak edenlere ödülleri iki kez verilir"	sonuc
 K3d	zekat	30:39	30:39	kat_kat	✓	"Allah'ın yüzünü isteyerek verilen zekâtı verenler kat kat artıranların ta kendileridir"	sonuc
 K3d	zekat	31:4	31:5	felah	✓	"Namazı kılan, zekâtı verenler: gerçek kurtuluşu bulanlar"	sonuc
 K3d	infak	32:16	32:17	goz_aydinligi	✓	"Verilen rızıklardan dağıtanlar için gizlenmiş göz aydınlığı vardır"	sonuc

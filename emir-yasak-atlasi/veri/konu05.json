@@ -53,10 +53,10 @@
 "nitelik_ayet": "4:30",
 "odul_ayet": "4:30",
 "odul": "nar",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kendi_canlarini_oldurme_ates",
-"not_": "\"Kim düşmanlık ve zulümle bunu yaparsa onu ateşe sokacağız\""
+"not_": "\"Kim düşmanlık ve zulümle bunu (zâlike) yaparsa onu ateşe sokacağız\"; \"bunu\" 4:29'daki hem bâtıl yolla mal yemeyi hem \"lâ taktulû enfusekum\"u kapsayabilir; meal \"intihar\" der, Arapça hangisini kastettiğini belirlemez"
 },
 {
 "blok": "K5a",
@@ -660,7 +660,7 @@
 "blok": "K5a",
 "nitelik_ayet": "33:30",
 "odul_ayet": "33:30",
-"odul": "azap_katli",
+"odul": "azap_iki_kat",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "peygamber_hanimlari_acik_edepsizlik",
@@ -972,7 +972,7 @@
 "blok": "K5a",
 "nitelik_ayet": "5:63",
 "odul_ayet": "5:63",
-"odul": "kotu_son",
+"odul": "yok",
 "derece": "✓",
 "tur": "tanim",
 "ham": "haram_yemekten_alikoymama_ruhban_haham",
@@ -1581,8 +1581,8 @@
 "kayit": 108,
 "ayet": 95,
 "derece": {
-"✓": 108,
-"→": 0,
+"✓": 107,
+"→": 1,
 "?": 0
 },
 "tur": {

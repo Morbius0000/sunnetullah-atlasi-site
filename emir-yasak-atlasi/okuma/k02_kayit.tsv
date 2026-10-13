@@ -15,7 +15,7 @@ K2a	yetim	2:215	2:215	-	✓	"İnfak edilecek mal yetimler için olmalıdır"	emi
 K2a	yoksul	2:215	2:215	-	✓	"İnfak edilecek mal yoksul ve çaresizler için olmalıdır"	emir
 K2a	yolcu	2:215	2:215	-	✓	"İnfak edilecek mal yolda kalan için olmalıdır"	emir
 K2a	yetim	2:220	2:220	-	✓	"Yetimleri işe yarar hale getirmek daha hayırlıdır; bir arada yaşarsanız kardeşlerinizdir"	emir
-K2a	yoksul	2:271	2:271	magfiret	✓	"Sadakayı gizleyip yoksullara vermek daha hayırlıdır; günahlarınızdan bir kısmını örter"	sonuc
+K2a	yoksul	2:271	2:271	gunah_ortme	✓	"Sadakayı gizleyip yoksullara vermek daha hayırlıdır; günahlarınızdan bir kısmını örter"	sonuc
 K2a	yoksul	2:273	2:273	-	✓	"İnfak edilenler Allah yolunda kapanıp kalmış yoksullar içindir"	tanim
 K2a	akraba	4:1	4:1	-	→	"Rahimlerin haklarına (dikkat edin)"	emir
 K2a	yetim	4:2	4:2	-	✓	"Yetimlere mallarını verin"	emir

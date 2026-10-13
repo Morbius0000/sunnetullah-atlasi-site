@@ -29,7 +29,7 @@ K5a	babanin_nikahladigi_kadinla_evlenme_yasagi	4:22	4:22	-	✓	"Babalarınızın
 K5a	evlilikte_fuhus_cezasi_kole	4:25	4:25	-	✓	"Evliliğe geçtikten sonra bir fuhuş yaparlarsa onlara, hür kadınlara uygulanan cezasının yarısı uygulanacaktır"	emir
 K5a	mallari_batil_yolla_yeme_yasagi	4:29	4:29	-	✓	"Mallarınızı aranızda bâtıl bir yolla yemeyin. Kendi hoşnutluğunuzla gerçekleşmiş bir ticaret olursa başka"	yasak
 K5a	kendi_canlarini_oldurme_yasagi	4:29	4:29	-	✓	"Kendi canlarınıza kıymayın" (Arapça: lâ taktulû enfüsekum)	yasak
-K5a	kendi_canlarini_oldurme_ates	4:30	4:30	nar	✓	"Kim düşmanlık ve zulümle bunu yaparsa onu ateşe sokacağız"	sonuc
+K5a	kendi_canlarini_oldurme_ates	4:30	4:30	nar	→	"Kim düşmanlık ve zulümle bunu (zâlike) yaparsa onu ateşe sokacağız"; "bunu" 4:29'daki hem bâtıl yolla mal yemeyi hem "lâ taktulû enfusekum"u kapsayabilir; meal "intihar" der, Arapça hangisini kastettiğini belirlemez	sonuc
 K5a	muminin_mumini_oldurmesi_yasagi	4:92	4:92	-	✓	"Yanlışlık hali müstesna, bir müminin bir mümini öldürmesi olacak şey değildir"; yanlışla öldürmede diyet ve özgürlüğe kavuşturma	yasak
 K5a	muminin_mumini_hata_ile_oldurmesi_diyet	4:92	4:92	-	✓	"Yanlışlıkla bir mümini öldürenin ... ölenin ailesine ... diyet vermesi gerekir"	emir
 K5a	mumini_kasten_oldurme	4:93	4:93	nar_ebedi	✓	"Bir mümini kasten öldürenin cezası içinde sürekli kalmak üzere cehennemdir"	sonuc
@@ -86,7 +86,7 @@ K5a	erkek_cocuklari_bogazlama_firavun	28:4	28:4	-	✓	Firavun: "Bu topluluğun e
 K5a	lut_kavmi_erkeklere_gitme	29:28	29:28	-	✓	Lût: "Öyle bir iğrençliğe [fâhişe] bulaşıyorsunuz ki, sizden önce âlemlerden bir tek kişi bunu yapmamıştır"; 29:29 "Erkeklere gidiyorsunuz, yol kesiyorsunuz"	tanim
 K5a	namaz_cirkinlik_ve_kotulukten_alikoyar	29:45	29:45	-	✓	"Namaz, çirkinliklerden [el-fahşâ] ve kötülüklerden [el-münker] alıkoyar"	tanim
 K5a	riba_ile_verilen_artmaz	30:39	30:39	-	✓	"İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz"	sonuc
-K5a	peygamber_hanimlari_acik_edepsizlik	33:30	33:30	azap_katli	✓	"Sizden kim açık/kanıtlanmış bir edepsizlik [fâhişe mübeyyine] yaparsa, kendisi için azap iki katına çıkarılır"	sonuc
+K5a	peygamber_hanimlari_acik_edepsizlik	33:30	33:30	azap_iki_kat	✓	"Sizden kim açık/kanıtlanmış bir edepsizlik [fâhişe mübeyyine] yaparsa, kendisi için azap iki katına çıkarılır"	sonuc
 K5a	olcu_ve_tartida_azginlik_yasagi	55:8	55:8	-	✓	"Azgınlık etmeyin ölçü ve tartıda, saptırmayın mizanı"	yasak
 K5a	olcuyu_adaletle_koruma	55:9	55:9	-	✓	"Ölçüyü titizlikle, adaletle koruyun ve hüsrana araç yapmayın mizanı"	emir
 K5a	bey_at_hirsizlik_etmeme	60:12	60:12	-	✓	Mümin kadınların bey'atı: "hırsızlık etmemeleri"	yasak
@@ -102,7 +102,7 @@ K5a	irzi_korumak_ve_sinirin_otesini_istememek	23:5	23:7	-	✓	"Cinsiyet organlar
 K5a	irzi_korumak_ve_sinirin_otesini_istememek	70:29	70:31	-	✓	"Cinsiyet organlarını titizlikle korurlar. Ancak eşleriyle ... kınanamazlar. Kim bunun ötesini isterse, işte böyleleri sınırı aşanların ta kendileridir"	tanim
 K5a	mirasi_toplayip_yeme_yetime_ikram_etmeme	89:19	89:19	-	✓	"Yetime ikramda bulunmuyorsunuz ... Mirası derleyip toplayıp yiyorsunuz. Malı ... çok seviyorsunuz"	tanim
 K5a	harami_tika_basa_yeme	5:42	5:42	-	✓	"Yalana iyice kulak verirler, haramı tıka-basa yerler"	tanim
-K5a	haram_yemekten_alikoymama_ruhban_haham	5:63	5:63	kotu_son	✓	"Ruhbanları ve hahamları onları, günah oluşturan sözlerinden, haram yemekten alıkoysalardı olmaz mıydı? Ne kötüdür onların ürettikleri"	tanim
+K5a	haram_yemekten_alikoymama_ruhban_haham	5:63	5:63	-	✓	"Ruhbanları ve hahamları onları, günah oluşturan sözlerinden, haram yemekten alıkoysalardı olmaz mıydı? Ne kötüdür onların ürettikleri"	tanim
 K5a	zina_isnadi_dort_kez_taniklik	24:6	24:6	-	✓	"Kendi eşlerine bir zina isnat edip de kendilerinden başka tanıkları olmayanların ... dört kez tanıklık ikrarıdır"	emir
 K5a	fevahisi_haram_kilma	7:33	7:33	-	✓	"Rabbim, ancak şunları haram kıldı: İğrençlikleri [el-fevâhiş] -görünenini, gizli olanını- günahı, haksız yere saldırmayı, hakkında kanıt indirmediği şeyi Allah'a ortak koşmayı, bir de Allah hakkında bilmediğiniz şeyler söylemeyi"	yasak
 K5a	gunahin_buyuklerinden_ve_fevahisten_uzak_durma	42:37	42:37	-	✓	"Onlar, günahın büyüklerinden ve tüm iğrençliklerinden [el-fevâhiş] uzak dururlar"	tanim

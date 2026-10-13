@@ -24,7 +24,7 @@ K7b	nikah_haram_yakinlar	4:22	4:22	-	✓	"Açık bir edepsizlik, nefret gerektir
 K7b	nikah_haram_yakinlar	4:23	4:23	-	✓	"Size şu kadınlarla evlenmek haram kılınmıştır: analarınız, kızlarınız, kız kardeşleriniz, halalarınız, teyzeleriniz, erkek ve kız kardeş kızları, süt anneleriniz, süt kız kardeşleriniz, kayınvalideleriniz, üvey kızlarınız ..." (liste 4:23)	yasak
 K7b	nikah_haram_yakinlar	4:24	4:24	-	✓	"Nikâhlı kadınlarla evlenmeniz de haram kılınmıştır" (harpte elinize geçenler hariç)	yasak
 K7b	nikah_haram_yakinlar	4:24	4:24	-	✓	"Bunlar dışındakileri, mallarınızı vererek, iffetli yaşamanız ve zina etmemeniz şartıyla size helal kılınmıştır"	tanim
-K7b	nikah_haram_yakinlar	4:25	4:25	-	✓	Hür mümin kadınla evlenmeye gücü yetmeyen, mümin köle kızlarıyla ailelerinin izniyle, mehirlerini vererek nikâhlasın	emir
+K7b	evlendirme_kole_kizlari	4:25	4:25	-	✓	Hür mümin kadınla evlenmeye gücü yetmeyen, mümin köle kızlarıyla ailelerinin izniyle, mehirlerini vererek nikâhlasın	emir
 K7b	sarap_ve_kumar	4:43	4:43	-	✓	"Sarhoşken, ne söylediğinizi bilinceye kadar ... namaza yaklaşmayın"	yasak
 K7b	av_ve_ihram	5:1	5:1	-	✓	"İhramlı iken avlanmayı helal saymamak şartıyla davar cinsinden hayvanlar size helal kılınmıştır"	tanim
 K7b	av_ve_ihram	5:2	5:2	-	✓	"İhramdan çıktığınız vakit avlanın"	emir
@@ -88,4 +88,5 @@ K7g	musrikle_evlilik	60:10	60:10	-	✓	Hicret eden mümin kadınlar için: "Onla
 K7g	kendi_haram_kilma	66:1	66:1	-	✓	"Ey Peygamber! Allah'ın sana helal kıldığı şeyi, eşlerinin hoşnutluğunu isteyerek neden haramlaştırıyorsun?"	yasak
 K7h	allahin_haram_kildiklari	2:275	2:275	-	✓	"Allah alış-verişi helal, ribayı haram kılmıştır"	tanim
 K7h	bosanma_ve_iddet	4:19	4:19	-	✓	"Kadınlara zor ve baskı kullanarak mirasçı olmanız size helal olmaz"; verdiklerinin bir kısmını almak için sıkıştırmak da helal değildir	yasak
-K7h	allahin_haram_kildiklari	28:12	28:12	-	✓	"Biz daha önce ona (Mûsa'ya) süt emziren kadınları haram kılmıştık" (Allah'ın haram kılması)	tanim
+
+K7x	oruc_gecesi_esle_iliski	2:187	2:187	-	✓	"Mescitlerde itikâfta bulunduğunuz sırada zevcelerinizle cinsel temas kurmayın; bunlar Allah'ın sınırlarıdır, yaklaşmayın"	yasak
