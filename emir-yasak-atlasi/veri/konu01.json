@@ -851,10 +851,10 @@
 "nitelik_ayet": "33:5",
 "odul_ayet": "33:5",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "emir",
 "ham": "adalet",
-"not_": "\"Evlatlıklarınızı öz babalarına nispet edin; Allah katında adalete daha uygundur\""
+"not_": "\"Evlatlıklarınızı öz babalarına nispet edin; bu Allah katında adalete daha uygundur\" (huve aksatu)"
 },
 {
 "blok": "K1i",
@@ -2665,8 +2665,8 @@
 "kayit": 192,
 "ayet": 172,
 "derece": {
-"✓": 186,
-"→": 6,
+"✓": 187,
+"→": 5,
 "?": 0
 },
 "tur": {

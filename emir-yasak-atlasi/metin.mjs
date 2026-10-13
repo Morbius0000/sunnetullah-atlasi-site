@@ -23,6 +23,7 @@ export const konu08 = {
     'Hedef listesinde olmayan, sonradan eklenen pasajlar: Beled 11-18, Leyl 5-7 ve 17-21, Kâria 6-7, Asr 1-3, Mü\'minûn 57-61, İnsân 22. Bunların kayıtları "Ek okuma" etiketiyle gösterilir.',
     'İkinci kontrol: her kayıtta niteliğin Arapça kökü nitelik ayetinde aranır. Kökü bulunmayan kayıtlar tek tek yeniden okundu. İkisi "→ Çıkarım" derecesine indirildi: sınanmaya katlanmayı sabır sayan Bakara 214 ve "tayyib" kelimesini iffet olarak okuyan Nûr 26.',
     'Bilinen sınırlar: kıssalardaki dünyevî kurtuluşlar ayrı ödül türüyle işaretlendi ama ahiret ödülüyle karıştırılmadı. Kelime bazlı taramanın kaçırdığı ayet olabilir. Örnekleme tahminine göre ilgili ayetlerin yaklaşık yüzde 3-5\'i taramanın dışında kalmış olabilir.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Düzeltme gerektiren kayıt çıkmadı. Konular arası tutarlılık kontrolünde En\'âm 141 "→" işaretine alındı (ödül adı yok; emir Konu 3 ve 6\'da).',
   ],
 };
 export const konu09 = {
@@ -39,6 +40,7 @@ export const konu09 = {
     'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse bir önceki ya da sonraki ayette) mekanik olarak arandı. Bulunamayanlar tek tek yeniden okundu; birkaç kaydın başlığı düzeltildi, dört kayıt "→ Çıkarım" derecesine indirildi (Tevbe 95, Hicr 31, Tâhâ 96, Kamer 44). Karşılık ayetinde sözcük listesine girmeyen ifadeler (ör. "yakaladık", "kökünü kestik") elle okunarak doğrulandı.',
     'Hedef listesinde olup hiçbir kayda girmeyen ayetler gözden geçirildi: çoğu karşılığı anlatan ama davranışı söylemeyen ya da dua ve kıssa anlatısı olan ayetlerdir. Bu geçişte iki eksik bulunup eklendi (Şuarâ 156, Haşr 11-15).',
     'Bilinen sınırlar: Kur\'an bazen davranışı hiç adlandırmaz; bu durumda kayıt genel başlıkta ya da "? Açık" derecesiyle durur. Dünyadaki helâk ile âhiret karşılığı ayrı türlerle işaretlendi, ama bir ayet bazen ikisini birden anar. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Tövbe, bağışlanma ve "dilerse" ifadeleri ayrı bir konuya (Konu 10) bırakılmıştır; burada bir davranışa bağlanan karşılık kesin ve genel bir hüküm olarak okunmamalıdır.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Yedi kayıt düzeltildi: Âl-i İmrân 61 (mübâhele daveti, bir karşılık değil) ve Mü\'minûn 74 (zamir bağı) "→ Çıkarım" yapıldı; Ankebût 65, A\'râf 37 ve Fetih 10 "✓ Açık" yapıldı; Zuhruf 76\'nın karşılık ayeti 74 olarak, Mutaffifîn 3\'ün karşılığı 1. ayetteki "veyl" olarak düzeltildi (Siccîn bağı ayrı bir çıkarım kaydı olarak kaldı).',
   ],
 };
 
@@ -56,6 +58,7 @@ export const konu01 = {
     'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; kökü ahd olmayan üç kayıt (Bakara 63 ve Mâide 7: mîsâk; Muhammed 21: sıdk) "verilen söz" anlamıyla elle doğrulandı.',
     'Kapsam dışı bırakılanlar: ölçü ve tartıda hile (Konu 5), anne-baba, akraba, yetim ve komşuya iyilik (Konu 2), infak ve zekât (Konu 3), şükür ve sabır emirleri (Konu 8). "İhsan" kaydı yalnızca güzel davranma ve güzel davrananların karşılığını içerir.',
     'Bilinen sınırlar: Kur\'an\'da "ibadet" kelimesi yalnız Allah\'a değil, tapılan başka şeylere de kullanılır; bu sayfa yalnız Allah\'a kulluk emrini, başkasına kulluğun yasağını ve bu kulluğa dair tanım kayıtlarını verir. Yanlış anlaşılmasın diye tanım kayıtlarının türü ayrıca işaretlidir.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Beş kayıtta karşılık kodu ayetin lafzına göre düzeltildi (Yûsuf 22 ecir, Hac 37 müjde, Bakara 58 ve A\'râf 161 artırma, Rahmân 60 karşılık); Ahzâb 5\'teki adalet bağı, ayet açıkça "Allah katında adalete daha uygundur" dediği için "✓ Açık" yapıldı.',
   ],
 };
 
@@ -73,6 +76,7 @@ export const konu02 = {
     'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı.',
     'Kapsam dışı bırakılanlar: yetim malı yemenin yasağı (Konu 5), miras payları (Nisâ 11-12), evlilikte haram kılınan akrabalar (Konu 7), emzirme ve çocuk bakımı (Bakara 233), Yûsuf ve Mûsâ kıssalarındaki anne-baba anlatıları, zıhar. İnfak ve zekât kalemleri (Tevbe 60, Bakara 177 gibi) yalnız bu gruplara yönelik kayıtlar olarak alındı; infakın kendisi Konu 3\'te işlenir.',
     'Bilinen sınırlar: Nisâ 1\'deki "ve\'l-erhâm" ifadesi iki biçimde okunabildiği için çıkarım (→) işaretidir. Şûrâ 23\'teki "kurbâ" ifadesi çok anlamlı olduğu için açık (?) işaretlidir. Komşu için ayrı bir ayet bulunmadığı, yalnız Nisâ 36 geçtiği için bu başlık tek kayıtlıdır; "yanındaki arkadaş" ifadesi bu ayetle birlikte alındı.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Bakara 271\'in karşılığı "günahların örtülmesi" olarak düzeltildi.',
   ],
 };
 
@@ -90,6 +94,7 @@ export const konu03 = {
     'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu.',
     'Kapsam dışı bırakılanlar: ribâ ve ölçü (Konu 5), israf ve savurganlık (Konu 6), miras payları, yetim malı, sadaka niteliğindeki keffâretler (yoksulu doyurmak Konu 2\'de), zekât kelimesinin arınma anlamında geçtiği ayetler (Meryem 13, Kehf 81). Zekâtın miktarı, nisabı ve zamanı Kur\'an\'da bu ayetlerde bildirilmez; bu sayfa da bildirmez.',
     'Bilinen sınırlar: Tevbe 60\'taki sekiz grup "sadakalar" ibaresiyle sayılır; bu sayfa o ayeti "sadaka" başlığı altında tanım olarak kaydeder. Tevbe 34\'te "altını ve gümüşü biriktirip Allah yolunda harcamayanlar" için karşılık 35. ayette devam eder; kayıt iki ayete bağlanmıştır.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kasas 54\'ün karşılığı "iki kez ecir" olarak düzeltildi.',
   ],
 };
 
@@ -107,6 +112,7 @@ export const konu04 = {
     'İkinci kontrol: her kayıtta tutumun Arapça kökü (şirk, ilah, kulluk, yakarma, yalanlama vb.) davranış ayetinde, gerekirse yanındaki ayette mekanik olarak arandı. Eksik çıkan yoktu; iki kayıtta kök yalnızca komşu ayette bulundu. Dört kayıt "→ Çıkarım" derecesinde bırakıldı (Kehf 42, Rûm 42, Nahl 35, En\'âm 64).',
     'Kapsam dışı bırakılanlar: müşriklerle ilişkiyi düzenleyen hükümler (müşrik kadınla evlilik, ahit ve savaş hükümleri, Mescid-i Haram\'a yaklaşma) ve Ehlikitap\'a yönelik hükümler. Bunlar şirkin tanımını değil, toplumsal hükmü anlatır ve ayrı bir konuya aittir. Küfür ve nankörlüğün genel karşılıkları da burada değil Konu 9\'dadır.',
     'Bilinen sınırlar: Kur\'an çoğu zaman ilahlık isnadını, çocuk edinmeyi ve yakarmayı aynı cümlede anar; bu yüzden bazı ayetler birden çok başlıkta sayılabilir ve başlıkların ayet sayıları toplanıp tek toplam gibi okunmamalıdır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı. Kelime ve kalıp bazlı tarama bir ayeti kaçırmış olabilir.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Düzeltme gerektiren kayıt çıkmadı.',
   ],
 };
 
@@ -122,8 +128,9 @@ export const konu05 = {
     'Hedef ayetler: Arapça metinde şu kalıplar arandı: katl ve türevleri (olumsuz emir kalıpları, nefs, nebî, evlât ile birlikte geçenler), kısas ve diyet, vead, zinâ, fahşâ ve fevâhiş, kazf (rem\'y ve muhsanât), sirka, ribâ, yetim ile mâl, mâl ile bâtıl ve ekl, kîl, mîzân, tatfîf, buhs, gulûl, rüşvet (idlâ), suht ve kenz. Tarama {hedef} ayet verdi.',
     'Hedef ayetlerin 172\'si önceki 1 ve sonraki 2 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Sonradan bulunan 4 ayet (A\'râf 33, Nahl 59, Şûrâ 37, Necm 32) ve fark edilen birkaç ek ayet (Mü\'minûn 5, Nûr 30-31, Meâric 29, Fecr 17-20) ayrıca okundu. Hedef listesinde olup hiçbir kayda girmeyen 97 ayet gözden geçirildi; çoğu savaş, kıssa, yemek hükmü, evlilik ya da başka konudaki ayetlerdir.',
     'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu. Kontrolün işaret ettiği Şuayb kıssası kayıtları (A\'râf 85, Hûd 85, Şuarâ 183) "insanların eşyasını eksik göstermeyin" (tebhasû) sözünü içerdiği için bâtıl mal yeme başlığından ölçü ve tartı başlığına alındı.',
-    'Kapsam dışı bırakılanlar: savaş ve çarpışma hükümleri (kıtâl), savaş ve bozgunculukla ilgili ceza ayeti (Mâide 33), yeme-içme ve evlilikte haram kılınanlar (Konu 7), israf ve cimrilik (Konu 6), hayız ve itikâfta cinsel temas hükümleri, Yûsuf kıssasındaki hırsızlık anlatısı ve Hızır kıssasındaki öldürme olayı.',
+    'Kapsam dışı bırakılanlar: savaş ve çarpışma hükümleri (kıtâl), savaş ve bozgunculukla ilgili ceza ayeti (Mâide 33), yeme-içme ve evlilikte haram kılınanlar (Konu 7), israf ve cimrilik (Konu 6), hayızda cinsel temas hükmü (itikâfta eşlere yaklaşma yasağı Konu 7\'dedir), Yûsuf kıssasındaki hırsızlık anlatısı ve Hızır kıssasındaki öldürme olayı.',
     'Bilinen sınırlar: Bakara 188, Nisâ 29 gibi ayetlerde "mallarınızı aranızda bâtıl yolla yemeyin" ifadesindeki malın kime ait olduğu (kendi malınız ya da birbirinizin mallarınız) lafızdan kesin ayrılmaz. Nisâ 29\'daki "lâ taktulû enfüsekum" kendinizi ya da birbirinizi öldürmeyin anlamına gelebilir; sayfadaki Yaşar Nuri meali bunu "kendi canlarınıza kıymayın" ve 30. ayette "intihar" diye vermiştir, Arapça lafız bunu tek anlamlı yapmaz. Nisâ 15\'teki "el-fâhişe" lafzı için meal yorumlu bir karşılık kullanır; kayıt Arapça lafza dayanır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Nisâ 30\'un bağı "→ Çıkarım" yapıldı, Ahzâb 30\'un karşılığı "iki kat azap" olarak düzeltildi, Mâide 63\'te ayette yazmayan karşılık kodu kaldırıldı.',
   ],
 };
 
@@ -141,6 +148,7 @@ export const konu06 = {
     'Üçüncü kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu.',
     'Kapsam dışı bırakılanlar: kâfirlerin Kur\'an\'a ya da peygambere "uydurdu", "şair" demesi (Konu 9), cimrilik ve infak (Konu 3), emanete hıyanet (Konu 5), yeme-içme ve evlilikte haram kılınanlar (Konu 7), kıssalarda "müsrif" kelimesinin geçtiği Lût, Firavun ve Yâsîn kavmi ayetleri (kelime orada haddi aşma anlamındadır).',
     'Bilinen sınırlar: "el-müsrifîn" kelimesi bazı ayetlerde mal savurganlığını, bazılarında genel olarak haddi aşmayı anlatır. Şuarâ 151, Tâhâ 127 ve Mü\'min 43 bu yüzden → (çıkarım) olarak işaretlendi. Allah\'a iftira, yalanlama ve şirk ile iç içe geçtiği için Konu 4 ile de örtüşür. Gıybet tek bir ayette (Hucurât 12) ayrıca adlandırılır; bu sayfada diğer çekiştirme ayetleri "alay ve çekiştirme" başlığındadır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Nisâ 156\'nın mühürle bağı "→ Çıkarım" derecesine indirildi.',
   ],
 };
 
@@ -154,10 +162,11 @@ export const konu07 = {
   ],
   kapsam: [
     'Hedef ayetler: Arapça metinde şu kalıplar arandı: hrm (haram kılma ve türevleri), hll (helal kılma ve türevleri), tayyib ve habîs, meyte, dem, hınzîr, ihlâl, munhanika ve mevkûze, nusub ve ezlâm, hamr ve meysir, sayd, nikâh ve muharremât (ümmehât, benât, ahavât, amât, hâlât, rabâib, halâil, muhsanât), bahîre ve sâibe. Tarama {hedef} ayet verdi.',
-    'Hedef ayetler önceki ve sonraki 1 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Kök kontrolünde haram, helal, tayyib, habîs ve rics kökleri bütün Kur\'an\'da ayrıca arandı; bu kontrol Bakara 275, Nisâ 19 ve Kasas 12 gibi ayetleri ortaya çıkardı, bunlar eklendi. Hedef listesinde olup hiçbir kayda girmeyen 101 ayet gözden geçirildi; çoğu Mescid-i Harâm, haram aylar, kâfirlerin pisliği gibi başka anlamlarda geçen kelimeler ve infak, yetim, cennet nimetleri ile ilgili ayetlerdir.',
+    'Hedef ayetler önceki ve sonraki 1 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Kök kontrolünde haram, helal, tayyib, habîs ve rics kökleri bütün Kur\'an\'da ayrıca arandı; bu kontrol Bakara 275 ve Nisâ 19 gibi ayetleri ortaya çıkardı, bunlar eklendi. Hedef listesinde olup hiçbir kayda girmeyen 101 ayet gözden geçirildi; çoğu Mescid-i Harâm, haram aylar, kâfirlerin pisliği gibi başka anlamlarda geçen kelimeler ve infak, yetim, cennet nimetleri ile ilgili ayetlerdir.',
     'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu.',
     'Kapsam dışı bırakılanlar: Mescid-i Harâm, haram aylar ve hac hükümleri (hac ve savaş konuları), cennet halkına ya da kâfirlere "haram kılınan" ahiret nimetleri (A\'râf 50), ribâ ve yetim malı (Konu 5), infakta kötü malı vermeme (Konu 3), müşriklerin "pisliği" gibi mecazî kullanımlar.',
     'Bilinen sınırlar: Bakara 219\'da şarap ve kumar için "büyük günah" denir, doğrudan "haram kıldı" denmez; Mâide 90-91 "uzak durun" buyruğunu ve gerekçesini verir. Nahl 67\'de "sarhoş edici içecek" ile "güzel rızık" birlikte anılır, hüküm yazılmaz. Mâide 5 ve Nisâ 24\'teki bazı şartlar (mehir, iffet, zina etmeme) kayıtta hükmün parçası olarak tutuldu. Peygamber\'e özgü evlilik hükümleri (Ahzâb 50, 52) ayrı işaretlendi. Boşanma ve iddet hükümlerinin tamamı bu sayfada yoktur; yalnız helal, haram ve yasak kalıbıyla yazılanlar alındı.',
+    'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kasas 12 (Mûsâ\'ya sütannelerin haram kılınması bir hüküm değil, kıssa anlatısıdır) çıkarıldı; Nisâ 25\'in başlığı "kölelikteki kadınlarla evlenme" olarak düzeltildi; Bakara 187\'deki itikâfta eşlere yaklaşma yasağı eklendi.',
   ],
 };
 

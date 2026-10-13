@@ -4856,9 +4856,9 @@
 "nitelik_ayet": "6:141",
 "odul_ayet": "6:141",
 "odul": "-",
-"derece": "?",
+"derece": "→",
 "ham": "hasat_hakkini_vermek",
-"not_": "emir; ödül adı yok (konu 3'e)"
+"not_": "emir; ödül adı yok (infak ve israf: Konu 3 ve 6)"
 },
 {
 "blok": "B143",
@@ -8621,8 +8621,8 @@
 "ayet": 499,
 "derece": {
 "✓": 611,
-"→": 26,
-"?": 6
+"→": 27,
+"?": 5
 }
 }
 }
