@@ -1,0 +1,1517 @@
+{
+"konu": 3,
+"baslik": "Mal ve infak",
+"nitelikler": [
+{
+"id": "infak",
+"grup": "İnfak ve sadaka",
+"etiket": "İnfak: Allah yolunda ve rızıktan harcamak; infakın karşılığı ve eziyetle boşa çıkması",
+"ayet_sayisi": 42,
+"kayitlar": [
+{
+"blok": "K3a",
+"nitelik_ayet": "2:3",
+"odul_ayet": "2:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Kendilerine rızk olarak verdiklerimizden başkalarına pay çıkaranlar (korunup sakınanlar)\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:177",
+"odul_ayet": "2:177",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Zafer ve mutluluğa erenler malı seve seve verir\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:195",
+"odul_ayet": "2:195",
+"odul": "sevgi",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Allah yolunda harcayın; Allah güzellik sergileyenleri sever\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:215",
+"odul_ayet": "2:215",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"İnfak ettiğiniz mal ana-baba, yakınlar, yetimler, yoksullar ve yolda kalan için olmalıdır\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:219",
+"odul_ayet": "2:219",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Helal kazancınızın size ve bakmakla yükümlü olduklarınıza yeterli olanından artanını verin\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:254",
+"odul_ayet": "2:254",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Alış-verişin, dostluğun olmadığı gün gelmeden size verdiğimiz rızıktan infak edin\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:261",
+"odul_ayet": "2:261",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Allah yolunda infak edenin durumu yüz tane bulunan yedi başak veren bir taneye benzer; Allah dilediğine daha da artırır\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:262",
+"odul_ayet": "2:262",
+"odul": "ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Harcadıklarına eziyet ve başa kakma eklemeyenlerin Rableri katında ödülleri vardır\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:265",
+"odul_ayet": "2:265",
+"odul": "artirma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Allah'ın hoşnutluğu için infak edenlerin durumu bol yağmur alıp ürününü iki kat veren bahçe gibidir\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:267",
+"odul_ayet": "2:267",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Kazandıklarınızın temiz ve güzellerinden infak edin\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:267",
+"odul_ayet": "2:267",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "infak",
+"not_": "\"Kendinizin göz yummadan alıcısı olmadığınız pis/bayağı şeyleri vermeye kalkmayın\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:272",
+"odul_ayet": "2:272",
+"odul": "tam_karsilik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"İnfak ettiğiniz her nimet size tam bir biçimde geri verilir\""
+},
+{
+"blok": "K3f",
+"nitelik_ayet": "2:273",
+"odul_ayet": "2:273",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"İnfak edilenler Allah yolunda kapanıp kalmış yoksullar içindir\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:274",
+"odul_ayet": "2:274",
+"odul": "ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Mallarını gece gündüz, gizli açık infak edenlerin Rableri katında ödülleri vardır\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "3:17",
+"odul_ayet": "3:17",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Sabredenler, doğru olanlar... nimet ve imkânlardan başkalarını yararlandıranlar\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "3:92",
+"odul_ayet": "3:92",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Sevdiğiniz şeylerden infak etmedikçe hayırda erginliğe asla ulaşamazsınız\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "3:117",
+"odul_ayet": "3:117",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Küfre sapanların bu dünyada harcadıkları, ekini mahveden kavurucu soğuk rüzgâr gibidir\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "3:134",
+"odul_ayet": "3:134",
+"odul": "sevgi",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Bollukta ve darlıkta infak edenler; Allah güzel davrananları sever\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "4:38",
+"odul_ayet": "4:38",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Allah'a ve ahirete inanmayıp halka gösteriş için mallarını dağıtanlar\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "4:39",
+"odul_ayet": "4:39",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Allah'a ve ahirete inanıp Allah'ın verdiği rızıktan dağıtsalardı\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "8:3",
+"odul_ayet": "8:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Gerçek müminler: rızık olarak verdiklerimizden bol bol dağıtırlar\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "8:36",
+"odul_ayet": "8:36",
+"odul": "hasret",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Küfre sapanlar mallarını Allah yolundan alıkoymak için harcar; bu kendileri için hasret olacak\""
+},
+{
+"blok": "K3f",
+"nitelik_ayet": "9:53",
+"odul_ayet": "9:54",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"İster gönüllü ister zorla infak edin, sizden asla kabul edilmeyecektir\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:54",
+"odul_ayet": "9:54",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"İnfaklarının kabul edilmesini engelleyen: Allah'a ve resulüne nankörlük, namaza üşenerek gelme, infakı içlerinden gelmeyerek verme\""
+},
+{
+"blok": "K3f",
+"nitelik_ayet": "9:98",
+"odul_ayet": "9:98",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Çöl Araplarından öylesi vardır ki infak ettiğini bir angarya/ceza ödeme sayar\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:99",
+"odul_ayet": "9:99",
+"odul": "rahmet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Harcadığını Allah yanında yakınlığa vesile edinenleri Allah rahmetine sokacak\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:121",
+"odul_ayet": "9:121",
+"odul": "karsilik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Küçük büyük infakları lehlerine yazılır; Allah yaptıklarından daha güzeliyle karşılık verir\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "13:22",
+"odul_ayet": "13:22",
+"odul": "akibet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Rızıklardan gizli ve açık dağıtanlar: ölümsüz yurdun sonu bunlar içindir\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "14:31",
+"odul_ayet": "14:31",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"İnanan kullarıma söyle: rızıklardan, alışverişin olmadığı gün gelmeden gizli ve açık infak etsinler\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "22:35",
+"odul_ayet": "22:35",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Kalpleri titreyen, sabreden, namazı gözeten, verilen rızıklardan infak eden insanlar\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "25:67",
+"odul_ayet": "25:67",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Harcadıkları zaman ne savurganlığa saparlar ne cimrilik ederler; ikisi arasında bir denge\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "28:54",
+"odul_ayet": "28:54",
+"odul": "ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Rızıktan infak edenlere ödülleri iki kez verilir\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "32:16",
+"odul_ayet": "32:17",
+"odul": "goz_aydinligi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Verilen rızıklardan dağıtanlar için gizlenmiş göz aydınlığı vardır\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "34:39",
+"odul_ayet": "34:39",
+"odul": "yerine_konma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Bir şey infak ederseniz O onun yerine başka bir şey lütfeder\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "35:29",
+"odul_ayet": "35:30",
+"odul": "ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Gizli ve açık infak edenler asla batmayacak bir ticaret umabilirler; ecirlerini tam verecek\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "36:47",
+"odul_ayet": "36:47",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Allah'ın lütfettiği rızıklardan dağıtın denince nankörler: biz mi doyuracağız?\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "42:38",
+"odul_ayet": "42:38",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Rablerinin çağrısına cevap verir, namazı kılar, rızıklardan infak ederler\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "57:7",
+"odul_ayet": "57:7",
+"odul": "ecir",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Allah'a ve resulüne iman edin; sizi mirasçı kıldığı şeylerden başkalarına bol bol verin; infak edenlere büyük ödül\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "57:10",
+"odul_ayet": "57:10",
+"odul": "derece",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Allah yolunda harcama yapmanıza engel ne var? Fetihten önce infak edenler sonradan edenlerle bir değildir; derece bakımından üstündürler\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "63:7",
+"odul_ayet": "63:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "infak",
+"not_": "\"Münafıklar: Allah resulünün yanındakilere infak edip bir şey vermeyin ki dağılıp gitsinler\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "63:10",
+"odul_ayet": "63:10",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Ölüm gelmeden önce size rızık olarak verdiklerimizden infak edin\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "64:16",
+"odul_ayet": "64:16",
+"odul": "felah",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Benlikleriniz için bir hayır olarak infakta bulunun; nefsinin cimriliğinden korunanlar kurtuluşa erenlerdir\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "65:7",
+"odul_ayet": "65:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "infak",
+"not_": "\"Geniş imkâna sahip olan geniş imkânından, rızkı ölçülü olan da verdiğinden infak etsin\""
+}
+]
+},
+{
+"id": "sadaka",
+"grup": "İnfak ve sadaka",
+"etiket": "Sadaka: gizli ve açık sadaka, başa kakmamak, sadaka alanlar",
+"ayet_sayisi": 13,
+"kayitlar": [
+{
+"blok": "K3a",
+"nitelik_ayet": "2:263",
+"odul_ayet": "2:263",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sadaka",
+"not_": "\"Güzel söz ve bağışlama, ardından eziyet gelen sadakadan daha üstündür\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:264",
+"odul_ayet": "2:264",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sadaka",
+"not_": "\"Sadakalarınızı başa kakmak ve eza etmekle boşa çıkarmayın\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:271",
+"odul_ayet": "2:271",
+"odul": "gunah_ortme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Sadakayı gizleyip yoksullara vermek daha hayırlıdır; günahlarınızdan bir kısmını örter\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:276",
+"odul_ayet": "2:276",
+"odul": "artirma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Allah ribadan beklenen artışı mahveder, sadakalar karşılığında artışlar getirir\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:280",
+"odul_ayet": "2:280",
+"odul": "hayir",
+"derece": "✓",
+"tur": "emir",
+"ham": "sadaka",
+"not_": "\"Borcunu sadaka olarak ona bağışlamanız sizin için daha hayırlıdır\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "4:114",
+"odul_ayet": "4:114",
+"odul": "ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Sadakaya, iyiliğe ve barıştırmaya özendirene, Allah'ın hoşnutluğu için yapana büyük ecir vereceğiz\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:60",
+"odul_ayet": "9:60",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sadaka",
+"not_": "\"Sadakalar Allah'tan bir farz olarak fakirler, düşkünler, memurlar, kalpleri ısındırılacaklar, köleler, borçlular, Allah yolu ve yolda kalanlar içindir\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:79",
+"odul_ayet": "9:79",
+"odul": "maskaraya_cevirme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Sadakalarda içten cömertlik gösteren müminlere laf atanları Allah maskaraya çevirecektir\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:103",
+"odul_ayet": "9:103",
+"odul": "arinma",
+"derece": "✓",
+"tur": "emir",
+"ham": "sadaka",
+"not_": "\"Bunların mallarından bir sadaka al ki onunla kendilerini temizleyip aklayasın\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:104",
+"odul_ayet": "9:104",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sadaka",
+"not_": "\"Tövbeyi kabul eden, sadakaları alan Allah'tır\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "33:35",
+"odul_ayet": "33:35",
+"odul": "magfiret_ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Sadaka veren erkekler ve kadınlar için Allah bir affediş ve büyük ödül hazırlamıştır\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "57:18",
+"odul_ayet": "57:18",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Sadaka veren erkek ve kadınlar ile Allah'a güzel borç verenler için karşılıklar kat kat yapılır\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "58:12",
+"odul_ayet": "58:12",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "sadaka",
+"not_": "\"Resulle gizlice konuşmadan önce bir sadaka verin; bu daha hayırlı ve daha temizdir\""
+}
+]
+},
+{
+"id": "karz",
+"grup": "İnfak ve sadaka",
+"etiket": "Allah'a güzel borç vermek ve katlanarak artırılması",
+"ayet_sayisi": 6,
+"kayitlar": [
+{
+"blok": "K3a",
+"nitelik_ayet": "2:245",
+"odul_ayet": "2:245",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "karz",
+"not_": "\"Allah'a güzel bir borç verene verdiğini birçok kez katlayarak artıracaktır\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "5:12",
+"odul_ayet": "5:12",
+"odul": "cennet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "karz",
+"not_": "\"Allah'a güzel bir borç verirseniz kötülüklerinizi örteceğim ve cennetlere sokacağım\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "57:11",
+"odul_ayet": "57:11",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "emir",
+"ham": "karz",
+"not_": "\"Allah'a kim güzel bir borç verecek ki, O verdiğini kat kat artırsın; onur verici ödül\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "57:18",
+"odul_ayet": "57:18",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "karz",
+"not_": "\"Allah'a güzelce borç verenler için karşılıklar kat kat yapılır\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "64:17",
+"odul_ayet": "64:17",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "karz",
+"not_": "\"Allah'a gönül hoşluğuyla borç verirseniz katlayarak artırır ve hatalarınızı bağışlar\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "73:20",
+"odul_ayet": "73:20",
+"odul": "daha_hayirlisi",
+"derece": "✓",
+"tur": "emir",
+"ham": "karz",
+"not_": "\"Allah'a güzel borç verin\""
+}
+]
+},
+{
+"id": "zekat",
+"grup": "Zekât",
+"etiket": "Zekâtı vermek: namaz ve zekât emri ve zekât verenlerin durumu",
+"ayet_sayisi": 30,
+"kayitlar": [
+{
+"blok": "K3a",
+"nitelik_ayet": "2:43",
+"odul_ayet": "2:43",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"Namazı kılın, zekâtı verin\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:83",
+"odul_ayet": "2:83",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"İsrailoğullarından söz: namazı kılın, zekâtı verin\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:110",
+"odul_ayet": "2:110",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"Namazı kılın, zekâtı verin; önden gönderdiğiniz her hayrı Allah katında bulacaksınız\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:177",
+"odul_ayet": "2:177",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Zafer ve mutluluğa erenler namazı kılar, zekâtı verir\""
+},
+{
+"blok": "K3a",
+"nitelik_ayet": "2:277",
+"odul_ayet": "2:277",
+"odul": "ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"İman edip salih işler yapan, namazı kılan, zekâtı verenlerin Rableri katında ödülleri vardır\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "4:77",
+"odul_ayet": "4:77",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Kendilerine 'namazı kılın, zekâtı verin' denilen kimseler\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "4:162",
+"odul_ayet": "4:162",
+"odul": "ecir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Namazı kılıcı, zekâtı verici müminlere büyük ecir vereceğiz\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "5:12",
+"odul_ayet": "5:12",
+"odul": "cennet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Namazı kılarsanız, zekâtı verirseniz kötülüklerinizi örteceğim ve sizi cennetlere sokacağım\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "5:55",
+"odul_ayet": "5:55",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Gönül dostunuz Allah, resulü ve rükû eder halde namazı kılıp zekâtı verenlerdir\""
+},
+{
+"blok": "K3f",
+"nitelik_ayet": "7:156",
+"odul_ayet": "7:156",
+"odul": "rahmet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Rahmetimi sakınıp korunanlara, zekâtı verenlere ve ayetlerimize inananlara yazacağım\""
+},
+{
+"blok": "K3f",
+"nitelik_ayet": "9:5",
+"odul_ayet": "9:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Tövbe eder, namazı kılar, zekâtı verirlerse yollarını serbest bırakın\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:11",
+"odul_ayet": "9:11",
+"odul": "yok",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Tövbe edip namazı kılar, zekâtı verirlerse dinde kardeşlerinizdirler\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:18",
+"odul_ayet": "9:18",
+"odul": "hidayet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Mescitleri namazı kılan, zekâtı veren müminler onarır; hidayete erenlerden olmaları beklenir\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:71",
+"odul_ayet": "9:71",
+"odul": "rahmet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Mümin erkekler ve kadınlar namazı kılar, zekâtı verir; Allah onlara rahmet edecek\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "19:31",
+"odul_ayet": "19:31",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"İsâ: Yaşadığım sürece bana namazı, zekâtı önerdi\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "19:55",
+"odul_ayet": "19:55",
+"odul": "rıza",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"İsmail ailesine namazı, zekâtı emrederdi; Rabbi katında hoşnutluk kazanmıştı\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "21:73",
+"odul_ayet": "21:73",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Onlara iyilikler yapmayı, namaz kılmayı, zekât vermeyi vahyettik\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "22:41",
+"odul_ayet": "22:41",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Yeryüzünde imkân verilirse namazı kılar, zekâtı verirler\""
+},
+{
+"blok": "K3f",
+"nitelik_ayet": "22:78",
+"odul_ayet": "22:78",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"Namazı kılın, zekâtı verin, Allah'a sımsıkı sarılın\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "23:4",
+"odul_ayet": "23:4",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Zekâtı vermek için faaliyettedirler (müminler)\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "24:37",
+"odul_ayet": "24:38",
+"odul": "artirma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Ticaret zekât vermekten alıkoyamaz; Allah yaptıklarının en güzelini verir, lütfundan artışlar sağlar\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "24:56",
+"odul_ayet": "24:56",
+"odul": "rahmet",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"Namazı kılın, zekâtı verin, resule itaat edin ki rahmete erdirilesiniz\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "27:3",
+"odul_ayet": "27:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"O müminler namazı kılar, zekâtı verirler\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "30:39",
+"odul_ayet": "30:39",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Allah'ın yüzünü isteyerek verilen zekâtı verenler kat kat artıranların ta kendileridir\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "31:4",
+"odul_ayet": "31:5",
+"odul": "felah",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Namazı kılan, zekâtı verenler: gerçek kurtuluşu bulanlar\""
+},
+{
+"blok": "K3d",
+"nitelik_ayet": "33:33",
+"odul_ayet": "33:33",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"Peygamber hanımlarına: namazı kılın, zekâtı verin\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "41:7",
+"odul_ayet": "41:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Onlar zekâtı vermezler; ölüm sonrası hayatı inkâr edenler de onlardır\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "58:13",
+"odul_ayet": "58:13",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"Namazı kılın, zekâtı verin, Allah'a ve resulüne itaat edin\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "73:20",
+"odul_ayet": "73:20",
+"odul": "daha_hayirlisi",
+"derece": "✓",
+"tur": "emir",
+"ham": "zekat",
+"not_": "\"Namazı kılın, zekâtı verin, Allah'a güzel borç verin; önden gönderdiğiniz hayır Allah katında daha hayırlıdır\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "98:5",
+"odul_ayet": "98:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zekat",
+"not_": "\"Sadece Allah'a ibadet etmeleri, namazı kılmaları, zekâtı vermeleri emredilmişti\""
+}
+]
+},
+{
+"id": "cimrilik",
+"grup": "Cimrilik ve biriktirme",
+"etiket": "Cimrilik (buhl, şuhh) ve cimriliğe karşılık",
+"ayet_sayisi": 10,
+"kayitlar": [
+{
+"blok": "K3b",
+"nitelik_ayet": "3:180",
+"odul_ayet": "3:180",
+"odul": "azap",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "cimrilik",
+"not_": "\"Allah'ın lütfundan verdiği şeyde cimrilik edenler: cimrilik ettikleri şey kıyamet günü boyunlarına dolanacak\""
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "4:37",
+"odul_ayet": "4:37",
+"odul": "azap_hizy",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "cimrilik",
+"not_": "\"Cimriliğe sapanlar, insanlara cimriliği emredenler ve Allah'ın lütfunu saklayanlar için rezil edici azap\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:67",
+"odul_ayet": "9:68",
+"odul": "gazab_lanet_cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "cimrilik",
+"not_": "\"İkiyüzlüler harcamamak için ellerini sıkarlar; Allah cehennem ateşini vaat etti, lanet etti\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:76",
+"odul_ayet": "9:77",
+"odul": "nifak_yerlestirme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "cimrilik",
+"not_": "\"Lütfundan verilince cimrilik ederek yüz çevirdiler; Allah kalplerine ikiyüzlülük yerleştirdi\""
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "17:100",
+"odul_ayet": "17:100",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "cimrilik",
+"not_": "\"Rahmet hazinelerine sahip olsaydınız harcanır biter korkusuyla cimri davranırdınız; insan çok cimridir\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "47:38",
+"odul_ayet": "47:38",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "cimrilik",
+"not_": "\"Allah yolunda harcamaya çağırılırsınız; cimrilik eden kendi aleyhine cimrileşmiş olur\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "57:24",
+"odul_ayet": "57:24",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "cimrilik",
+"not_": "\"Cimrilik eden, insanlara da cimriliği emreden kişiler; yüz çeviren bilsin ki Allah Ganî, Hamîd'dir\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "59:9",
+"odul_ayet": "59:9",
+"odul": "felah",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "cimrilik",
+"not_": "\"Nefsinin cimriliğinden (şuh) korunanlar kurtuluşa erenlerdir\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "64:16",
+"odul_ayet": "64:16",
+"odul": "felah",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "cimrilik",
+"not_": "\"Nefsinin cimrilik ve doymazlığından korunanlar kurtuluşa erenlerin ta kendileridir\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "92:8",
+"odul_ayet": "92:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "cimrilik",
+"not_": "\"Kim cimriliğe sapar ve kendisini ihtiyaçların üstünde görür, güzelliği yalanlarsa (en zoru kolaylayacağız)\""
+}
+]
+},
+{
+"id": "kenz",
+"grup": "Cimrilik ve biriktirme",
+"etiket": "Altın ve gümüş biriktirip Allah yolunda harcamamak (kenz)",
+"ayet_sayisi": 1,
+"kayitlar": [
+{
+"blok": "K3c",
+"nitelik_ayet": "9:34",
+"odul_ayet": "9:35",
+"odul": "cehennem_azabi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kenz",
+"not_": "\"Altını ve gümüşü depolayıp Allah yolunda harcamayanlara acıklı azap; cehennem ateşinde alınları, böğürleri, sırtları dağlanır\""
+}
+]
+}
+],
+"ayetler": {
+"2:3": {
+"ar": "ٱلَّذِينَ يُؤْمِنُونَ بِٱلْغَيْبِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+"tr": "Ki onlar, gayba inananlar, namazı kılanlardır. Ve kendilerine rızk olarak verdiklerimizden, başkalarına pay çıkaranlardır."
+},
+"2:43": {
+"ar": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱرْكَعُوا۟ مَعَ ٱلرَّٰكِعِينَ",
+"tr": "Namazı kılın, zekâtı verin; rükû edenlerle birlikte rükû edin."
+},
+"2:83": {
+"ar": "وَإِذْ أَخَذْنَا مِيثَـٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ",
+"tr": "İsrailoğulları'ndan şöyle bir söz de almıştık: Allah'tan başkasına ibadet etmeyin, anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın. İnsanlara güzeli ve güzelliği söyleyin. Namazı kılın, zekâtı verin. Bütün bunlardan sonra siz, pek azınız müstesna, sırt çevirdiniz. Hâlâ da yüz çevirip duruyorsunuz."
+},
+"2:110": {
+"ar": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌ",
+"tr": "Namazı kılın, zekatı verin. Öz benlikleriniz için önden gönderdiğiniz her hayrı, Allah katında bulacaksınız. Hiç kuşkusuz, Allah, yapmakta olduklarınızı iyice görmektedir."
+},
+"2:177": {
+"ar": "لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَـٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَٱلْمَلَـٰٓئِكَةِ وَٱلْكِتَـٰبِ وَٱلنَّبِيِّـۧنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَـٰهَدُوا۟ ۖ وَٱلصَّـٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَـٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
+"tr": "Yüzlerinizi doğu ve batı yönüne çevirmeniz zafer ve mutluluğa ermek değildir. Zafer ve mutluluğa ermek o kişinin hakkıdır ki, Allah'a, âhıret gününe, meleklere, kitaplara, peygamberlere inanır; akrabaya, yetimlere, çaresizlere, yolda kalmışa, yoksullara, özgürlüğüne kavuşmak gayretinde olanlara malı seve seve verir, namazı kılar, zekatı öder. Böyleleri söz verdiklerinde ahitlerine vefalıdırlar; bolluk ve bereket zamanı kadar, zorluk, sıkıntı ve şiddet zamanında da sabırlıdırlar. İşte bunlardır özüyle sözü bir olanlar. Ve işte bunlardır korunan takva sahipleri."
+},
+"2:195": {
+"ar": "وَأَنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلَا تُلْقُوا۟ بِأَيْدِيكُمْ إِلَى ٱلتَّهْلُكَةِ ۛ وَأَحْسِنُوٓا۟ ۛ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ",
+"tr": "Allah yolunda harcama yapın/nimetleri paylaşın; kendi ellerinizle kendinizi tehlikeye atmayın. Güzel düşünüp güzel işler yapın. Çünkü Allah, güzellik sergileyenleri sever."
+},
+"2:215": {
+"ar": "يَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ ۖ قُلْ مَآ أَنفَقْتُم مِّنْ خَيْرٍ فَلِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱبْنِ ٱلسَّبِيلِ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+"tr": "Sana, neyi infak edip vereceklerini soruyorlar. De ki: \"İnfak ettiğiniz mal ve nimet; ana-baba, yakınlar, yetimler, yoksul ve çaresizlerle yolda kalan için olmalıdır. Hayır olarak yaptığınızı Allah en iyi biçimde bilmektedir.\""
+},
+"2:219": {
+"ar": "يَسْـَٔلُونَكَ عَنِ ٱلْخَمْرِ وَٱلْمَيْسِرِ ۖ قُلْ فِيهِمَآ إِثْمٌ كَبِيرٌ وَمَنَـٰفِعُ لِلنَّاسِ وَإِثْمُهُمَآ أَكْبَرُ مِن نَّفْعِهِمَا ۗ وَيَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ قُلِ ٱلْعَفْوَ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
+"tr": "Sana uyuşturucuyu/şarabı ve kumarı sorarlar. De ki: \"Bu ikisinde büyük bir günah vardır; insanlar için çıkarlar da vardır. Ama onların kötülüğü yararlarından çok daha büyüktür.\" Ve sana neyi infak edeceklerini de soruyorlar. De ki: \"Helal kazancınızın size ve bakmakla yükümlü olduklarınıza yeterli olanından artanını verin.\" İşte Allah, ayetleri size böyle açıklar ki, derin derin düşünebilesiniz."
+},
+"2:245": {
+"ar": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَـٰعِفَهُۥ لَهُۥٓ أَضْعَافًا كَثِيرَةً ۚ وَٱللَّهُ يَقْبِضُ وَيَبْصُۜطُ وَإِلَيْهِ تُرْجَعُونَ",
+"tr": "Kim var Allah'a güzel bir şekilde borç verecek? Ve Allah böyle birinin verdiğini birçok kez katlayarak artıracaktır. Allah, kabz haliyle kısar, bast haliyle açıp genişletir. Ve yalnız O'na döndürülürsünüz."
+},
+"2:254": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِمَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خُلَّةٌ وَلَا شَفَـٰعَةٌ ۗ وَٱلْكَـٰفِرُونَ هُمُ ٱلظَّـٰلِمُونَ",
+"tr": "Ey iman edenler! Alış-verişin, dostluğun, şefaatin olmadığı o gün gelmeden önce size verdiğimiz rızktan infak edip dağıtın. Küfre sapanlar zalimlerin ta kendileridir."
+},
+"2:261": {
+"ar": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍ مِّا۟ئَةُ حَبَّةٍ ۗ وَٱللَّهُ يُضَـٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+"tr": "Mallarını Allah yolunda infak edip harcayanların durumu, yerden, her başağında yüz tane bulunan yedi başak çıkarmış bir taneye benzer. Ve Allah, dilediği kişi için daha da artırır. Allah Vâsi'dir, yaratışını ve yarattıklarını genişletir. Alîm'dir, her şeyi en iyi biçimde bilir."
+},
+"2:262": {
+"ar": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ ثُمَّ لَا يُتْبِعُونَ مَآ أَنفَقُوا۟ مَنًّا وَلَآ أَذًى ۙ لَّهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+"tr": "Mallarını Allah yolunda harcayıp sonra bu harcadıklarına bir eziyet ve başa kakma eklemeyenlerin, Rableri katında kendilerine has ödülleri vardır. Korku yoktur onlar için, tasalanmayacaklardır onlar."
+},
+"2:263": {
+"ar": "قَوْلٌ مَّعْرُوفٌ وَمَغْفِرَةٌ خَيْرٌ مِّن صَدَقَةٍ يَتْبَعُهَآ أَذًى ۗ وَٱللَّهُ غَنِىٌّ حَلِيمٌ",
+"tr": "Güzel, yapıcı bir söz, bir bağışlama, ardından bir eziyet gelen sadakadan daha üstündür. Allah Ganî'dir, cömertliğine sınır yoktur; Halîm'dir, hoşgörüsüne sınır yoktur."
+},
+"2:264": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُبْطِلُوا۟ صَدَقَـٰتِكُم بِٱلْمَنِّ وَٱلْأَذَىٰ كَٱلَّذِى يُنفِقُ مَالَهُۥ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۖ فَمَثَلُهُۥ كَمَثَلِ صَفْوَانٍ عَلَيْهِ تُرَابٌ فَأَصَابَهُۥ وَابِلٌ فَتَرَكَهُۥ صَلْدًا ۖ لَّا يَقْدِرُونَ عَلَىٰ شَىْءٍ مِّمَّا كَسَبُوا۟ ۗ وَٱللَّهُ لَا يَهْدِى ٱلْقَوْمَ ٱلْكَـٰفِرِينَ",
+"tr": "Ey iman sahipleri! Allah'a ve âhıret gününe inanmadığı halde, insanlara riya için malını infak eden kişi gibi, sadakalarınızı başa kakmak ve eza etmek suretiyle boşa çıkarmayın. Böylesinin durumu, üzerinde biraz toprak varken tepesine şiddetli bir yağmur inip kendisini cascavlak bırakmış yalçın bir kayanın haline benzer. Böyleleri, kazandıklarından hiç bir şey elde edemezler. Allah, küfre sapan bir topluluğu doğruya ve güzele kılavuzlamaz."
+},
+"2:265": {
+"ar": "وَمَثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمُ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ وَتَثْبِيتًا مِّنْ أَنفُسِهِمْ كَمَثَلِ جَنَّةٍۭ بِرَبْوَةٍ أَصَابَهَا وَابِلٌ فَـَٔاتَتْ أُكُلَهَا ضِعْفَيْنِ فَإِن لَّمْ يُصِبْهَا وَابِلٌ فَطَلٌّ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
+"tr": "Allah'ın hoşnutluğunu kazanmak ve öz benliklerindekini kökleştirmek için infakta bulunanlara gelince, onların durumu kendisine bol yağmur isabet edip de ürününü iki kat veren bir bahçenin durumuna benzer. Böyle bir bahçeye bol yağmur düşmese de bir çisenti, bir nem bile yetişir. Allah, yapmakta olduklarınızı tam bir biçimde görmektedir."
+},
+"2:267": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَنفِقُوا۟ مِن طَيِّبَـٰتِ مَا كَسَبْتُمْ وَمِمَّآ أَخْرَجْنَا لَكُم مِّنَ ٱلْأَرْضِ ۖ وَلَا تَيَمَّمُوا۟ ٱلْخَبِيثَ مِنْهُ تُنفِقُونَ وَلَسْتُم بِـَٔاخِذِيهِ إِلَّآ أَن تُغْمِضُوا۟ فِيهِ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
+"tr": "Ey iman sahipleri! Kazandıklarınızın ve yerden sizin için çıkarmış olduklarımızın temiz ve güzellerinden infak edin. Kendinizin göz yummadan alıcısı olmadığınız pis/bayağı şeyleri vermeye kalkmayın. Bilin ki Allah Ganî'dir, cömertliğine sınır yoktur; Hamîd'dir, bütün övgülerin sahibidir/övgüye layık olanları gereğince över."
+},
+"2:271": {
+"ar": "إِن تُبْدُوا۟ ٱلصَّدَقَـٰتِ فَنِعِمَّا هِىَ ۖ وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌ لَّكُمْ ۚ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+"tr": "Sadakaları açıklarsanız bu da güzeldir. Ama onları gizler ve yoksullara bu şekilde verirseniz, bu sizin için daha hayırlıdır; günahlarınızdan bir kısmını örter. Allah, Habîr'dir, yapmakta olduklarınızdan gereğince haberi vardır."
+},
+"2:272": {
+"ar": "لَّيْسَ عَلَيْكَ هُدَىٰهُمْ وَلَـٰكِنَّ ٱللَّهَ يَهْدِى مَن يَشَآءُ ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَلِأَنفُسِكُمْ ۚ وَمَا تُنفِقُونَ إِلَّا ٱبْتِغَآءَ وَجْهِ ٱللَّهِ ۚ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ يُوَفَّ إِلَيْكُمْ وَأَنتُمْ لَا تُظْلَمُونَ",
+"tr": "Onların iyiyi ve güzeli bulmaları, senin üzerine bir borç değildir. Tam aksine, dilediğini/dileyeni iyiye ve güzele kılavuzlayan Allah'tır. Nimet ve imkândan başkalarına bağışladığınız, esasında sizin öz benlikleriniz lehinedir. Allah'ın yüzünü arzulama dışında bir şey için infak etmiyorsunuz. İnfak ettiğiniz her nimet size tam bir biçimde geri verilir. Ve siz, asla zulme uğratılmazsınız."
+},
+"2:273": {
+"ar": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَـٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+"tr": "İnfak edilenler, Allah yolunda kapanıp kalmış, yeryüzünde dolaşamaz olmuş yoksullar içindir. İffet ve onurları yüzünden, cahiller bunları, zengin kişiler sanır. Sen onları yüzlerinden tanırsın. Yüzsüzlük ve yırtıklık ederek, insanlardan bir şey istemezler. Nimet ve imkândan infak ettiğiniz her şeyi, Allah çok iyi bilmektedir."
+},
+"2:274": {
+"ar": "ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُم بِٱلَّيْلِ وَٱلنَّهَارِ سِرًّا وَعَلَانِيَةً فَلَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+"tr": "Mallarını; gece ve gündüz, gizli ve açık infak edenler var ya, işte onlar için Rableri katında kendilerine özgü ödüller vardır. Korku yoktur onlar için; tasalanmayacaklardır onlar."
+},
+"2:276": {
+"ar": "يَمْحَقُ ٱللَّهُ ٱلرِّبَوٰا۟ وَيُرْبِى ٱلصَّدَقَـٰتِ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ كَفَّارٍ أَثِيمٍ",
+"tr": "Allah, ribadan beklenen artışı mahveder, sadakalar karşılığında artışlar getirir. Allah, nankörlüğe batmış günahkârların hiç birini sevmez."
+},
+"2:277": {
+"ar": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ لَهُمْ أَجْرُهُمْ عِندَ رَبِّهِمْ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+"tr": "İman edip hayra ve barışa yönelik değerler üreten, namazı kılan, zekatı verenler için Rableri katında kendilerine özgü ödülleri vardır. Korku yoktur onlar için. Tasalanmayacaklardır onlar..."
+},
+"2:280": {
+"ar": "وَإِن كَانَ ذُو عُسْرَةٍ فَنَظِرَةٌ إِلَىٰ مَيْسَرَةٍ ۚ وَأَن تَصَدَّقُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+"tr": "Eğer borçlu zorluk içinde ise eli genişleyinceye kadar beklenir. Borcunu sadaka olarak ona bağışlamanız sizin için daha hayırlıdır; eğer bilirseniz."
+},
+"3:17": {
+"ar": "ٱلصَّـٰبِرِينَ وَٱلصَّـٰدِقِينَ وَٱلْقَـٰنِتِينَ وَٱلْمُنفِقِينَ وَٱلْمُسْتَغْفِرِينَ بِٱلْأَسْحَارِ",
+"tr": "Kullar ki sabredenlerdir, özü-sözü doğru olanlardır, ilahî huzurda duranlardır, nimet ve imkânlardan başkalarını yararlandıranlardır; seherlerde, bağışlanmak için yakaranlardır."
+},
+"3:92": {
+"ar": "لَن تَنَالُوا۟ ٱلْبِرَّ حَتَّىٰ تُنفِقُوا۟ مِمَّا تُحِبُّونَ ۚ وَمَا تُنفِقُوا۟ مِن شَىْءٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+"tr": "Sevdiğiniz şeylerden infak etmedikçe hayırda erginliğe/dürüstlüğe asla ulaşamazsınız. İnfak etmekte olduğunuz her şeyi, Allah çok iyi bilmektedir."
+},
+"3:117": {
+"ar": "مَثَلُ مَا يُنفِقُونَ فِى هَـٰذِهِ ٱلْحَيَوٰةِ ٱلدُّنْيَا كَمَثَلِ رِيحٍ فِيهَا صِرٌّ أَصَابَتْ حَرْثَ قَوْمٍ ظَلَمُوٓا۟ أَنفُسَهُمْ فَأَهْلَكَتْهُ ۚ وَمَا ظَلَمَهُمُ ٱللَّهُ وَلَـٰكِنْ أَنفُسَهُمْ يَظْلِمُونَ",
+"tr": "Bu dünya hayatında harcamakta olduklarının durumu, bir rüzgâr örneğine benzer: Onda kavurucu bir soğuk vardır. Öz benliklerine zulmetmiş bir toplululuğun ekinine değmiş de onu mahvetmiştir. Allah onlara zulmetmedi, onlar kendilerine zulmediyorlardı."
+},
+"3:134": {
+"ar": "ٱلَّذِينَ يُنفِقُونَ فِى ٱلسَّرَّآءِ وَٱلضَّرَّآءِ وَٱلْكَـٰظِمِينَ ٱلْغَيْظَ وَٱلْعَافِينَ عَنِ ٱلنَّاسِ ۗ وَٱللَّهُ يُحِبُّ ٱلْمُحْسِنِينَ",
+"tr": "Onlar bollukta ve darlıkta infak ederler. Öfkelerini yutanlardır onlar, insanları affedenlerdir. Allah, güzel düşünüp güzel davrananları sever."
+},
+"3:180": {
+"ar": "وَلَا يَحْسَبَنَّ ٱلَّذِينَ يَبْخَلُونَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ هُوَ خَيْرًا لَّهُم ۖ بَلْ هُوَ شَرٌّ لَّهُمْ ۖ سَيُطَوَّقُونَ مَا بَخِلُوا۟ بِهِۦ يَوْمَ ٱلْقِيَـٰمَةِ ۗ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+"tr": "Allah'ın, lütfundan kendilerine verdiği şeyde cimrilik edenler, bunun kendileri için hayırlı olduğunu sanmasınlar. Tam aksine bu onlar için bir şerdir. O cimrilik konusu yaptıkları şey, kıyamet günü bir tasma gibi boyunlarına dolandırılacaktır. Göklerin ve yerin mirası Allah'ındır. Allah, yapmakta olduklarınızdan haberdardır."
+},
+"4:37": {
+"ar": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ وَيَكْتُمُونَ مَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَأَعْتَدْنَا لِلْكَـٰفِرِينَ عَذَابًا مُّهِينًا",
+"tr": "Böyleleri cimriliğe saparlar, insanlara cimriliği emrederler ve Allah'ın lütfundan kendilerine verdiği şeyi saklarlar. Nankörler için biz, rezil edici bir azap hazırladık."
+},
+"4:38": {
+"ar": "وَٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ رِئَآءَ ٱلنَّاسِ وَلَا يُؤْمِنُونَ بِٱللَّهِ وَلَا بِٱلْيَوْمِ ٱلْـَٔاخِرِ ۗ وَمَن يَكُنِ ٱلشَّيْطَـٰنُ لَهُۥ قَرِينًا فَسَآءَ قَرِينًا",
+"tr": "Bunlar, Allah'a ve âhiret gününe inanmazlar da halka gösteriş olsun diye mallarını dağıtırlar. Arkadaşı şeytan olan için ne kötü arkadaştır o."
+},
+"4:39": {
+"ar": "وَمَاذَا عَلَيْهِمْ لَوْ ءَامَنُوا۟ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَأَنفَقُوا۟ مِمَّا رَزَقَهُمُ ٱللَّهُ ۚ وَكَانَ ٱللَّهُ بِهِمْ عَلِيمًا",
+"tr": "Ne olurdu onlara, Allah'a ve âhiret gününe inanıp da Allah'ın kendilerine verdiği rızıktan öyle dağıtsalardı! Allah onları bilmekteydi."
+},
+"4:77": {
+"ar": "أَلَمْ تَرَ إِلَى ٱلَّذِينَ قِيلَ لَهُمْ كُفُّوٓا۟ أَيْدِيَكُمْ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ فَلَمَّا كُتِبَ عَلَيْهِمُ ٱلْقِتَالُ إِذَا فَرِيقٌ مِّنْهُمْ يَخْشَوْنَ ٱلنَّاسَ كَخَشْيَةِ ٱللَّهِ أَوْ أَشَدَّ خَشْيَةً ۚ وَقَالُوا۟ رَبَّنَا لِمَ كَتَبْتَ عَلَيْنَا ٱلْقِتَالَ لَوْلَآ أَخَّرْتَنَآ إِلَىٰٓ أَجَلٍ قَرِيبٍ ۗ قُلْ مَتَـٰعُ ٱلدُّنْيَا قَلِيلٌ وَٱلْـَٔاخِرَةُ خَيْرٌ لِّمَنِ ٱتَّقَىٰ وَلَا تُظْلَمُونَ فَتِيلًا",
+"tr": "Kendilerine, \"Ellerinizi çekin, namazı kılın, zekâtı verin!\" denilenleri görmedin mi? Üzerlerine savaş yazılınca, içlerinden bir grup, insanlardan Allah'tan korkmuş gibi, hatta daha şiddetli bir korkuyla korkar oldu. Ve şöyle dediler: \"Ey Rabbimiz! Ne diye yazdın üzerimize savaşı; yakın bir süreye kadar bizi erteleseydin ya!\" De ki: \"Dünya nimeti çok azdır. Kötülükten sakınan için âhiret daha hayırlıdır. Bir kıl kadar bile zulme uğratılmazsınız.\""
+},
+"4:114": {
+"ar": "لَّا خَيْرَ فِى كَثِيرٍ مِّن نَّجْوَىٰهُمْ إِلَّا مَنْ أَمَرَ بِصَدَقَةٍ أَوْ مَعْرُوفٍ أَوْ إِصْلَـٰحٍۭ بَيْنَ ٱلنَّاسِ ۚ وَمَن يَفْعَلْ ذَٰلِكَ ٱبْتِغَآءَ مَرْضَاتِ ٱللَّهِ فَسَوْفَ نُؤْتِيهِ أَجْرًا عَظِيمًا",
+"tr": "Onların fısıldaşmalarının çoğunda hayır yoktur. Ancak, bir sadakaya, bir iyiliğe ve insanlar arasında bir barıştırmaya özendiren başka. Kim böyle bir şeyi Allah'ın hoşnutluğunu kazanmak niyetiyle yaparsa biz ona yakında çok büyük bir ödül vereceğiz."
+},
+"4:162": {
+"ar": "لَّـٰكِنِ ٱلرَّٰسِخُونَ فِى ٱلْعِلْمِ مِنْهُمْ وَٱلْمُؤْمِنُونَ يُؤْمِنُونَ بِمَآ أُنزِلَ إِلَيْكَ وَمَآ أُنزِلَ مِن قَبْلِكَ ۚ وَٱلْمُقِيمِينَ ٱلصَّلَوٰةَ ۚ وَٱلْمُؤْتُونَ ٱلزَّكَوٰةَ وَٱلْمُؤْمِنُونَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ أُو۟لَـٰٓئِكَ سَنُؤْتِيهِمْ أَجْرًا عَظِيمًا",
+"tr": "Ama onların ilimde derinleşmiş olanları ve müminler, sana indirelene de senden önce indirilene de inanırlar. Namazı kılıcıdırlar, zekâtı vericidirler, Allah'a ve âhiret gününe inanırlar. İşte bunlara yakında büyük bir ödül vereceğiz."
+},
+"5:12": {
+"ar": "وَلَقَدْ أَخَذَ ٱللَّهُ مِيثَـٰقَ بَنِىٓ إِسْرَٰٓءِيلَ وَبَعَثْنَا مِنْهُمُ ٱثْنَىْ عَشَرَ نَقِيبًا ۖ وَقَالَ ٱللَّهُ إِنِّى مَعَكُمْ ۖ لَئِنْ أَقَمْتُمُ ٱلصَّلَوٰةَ وَءَاتَيْتُمُ ٱلزَّكَوٰةَ وَءَامَنتُم بِرُسُلِى وَعَزَّرْتُمُوهُمْ وَأَقْرَضْتُمُ ٱللَّهَ قَرْضًا حَسَنًا لَّأُكَفِّرَنَّ عَنكُمْ سَيِّـَٔاتِكُمْ وَلَأُدْخِلَنَّكُمْ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ فَمَن كَفَرَ بَعْدَ ذَٰلِكَ مِنكُمْ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ",
+"tr": "Yemin olsun ki, Allah İsrailoğullarının mîsakını almıştı da içlerinden on iki temsilci/başkan göndermiştik. Allah şöyle demişti: \"Ben sizinle beraberim. Namazı kılarsanız, zekâtı verirseniz, resullerime inanır, onları desteklerseniz ve Allah'a güzel bir biçimde borç verirseniz, kötülüklerinizi elbette örteceğim ve sizi, altlarından ırmaklar akan cennetlere elbette koyacağım. Artık bundan sonra küfre gideniniz yolun denge noktasından sapmış olur.\""
+},
+"5:55": {
+"ar": "إِنَّمَا وَلِيُّكُمُ ٱللَّهُ وَرَسُولُهُۥ وَٱلَّذِينَ ءَامَنُوا۟ ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُمْ رَٰكِعُونَ",
+"tr": "Sizin gönül dostunuz Allah'tır, O'nun resulüdür, bir de rükû eder bir halde namazı kılıp zekâtı vererek iman edenlerdir."
+},
+"7:156": {
+"ar": "وَٱكْتُبْ لَنَا فِى هَـٰذِهِ ٱلدُّنْيَا حَسَنَةً وَفِى ٱلْـَٔاخِرَةِ إِنَّا هُدْنَآ إِلَيْكَ ۚ قَالَ عَذَابِىٓ أُصِيبُ بِهِۦ مَنْ أَشَآءُ ۖ وَرَحْمَتِى وَسِعَتْ كُلَّ شَىْءٍ ۚ فَسَأَكْتُبُهَا لِلَّذِينَ يَتَّقُونَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَٱلَّذِينَ هُم بِـَٔايَـٰتِنَا يُؤْمِنُونَ",
+"tr": "\"Bize hem bu dünyada güzellik yaz hem de ahirette. Dönüp dolaşıp sana geldik.\" Buyurdu ki: \"Azabıma dilediğimi çarptırırım. Rahmetime gelince, o herşeyi çepeçevre kuşatmıştır. Ben onu; sakınıp korunanlara, zekatı verenlere, ayetlerimize inananlara yazacağım.\""
+},
+"8:3": {
+"ar": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+"tr": "Namazı dosdoğru kılarlar onlar. Ve kendilerine rızık olarak verdiklerimizden bol bol dağıtırlar."
+},
+"8:36": {
+"ar": "إِنَّ ٱلَّذِينَ كَفَرُوا۟ يُنفِقُونَ أَمْوَٰلَهُمْ لِيَصُدُّوا۟ عَن سَبِيلِ ٱللَّهِ ۚ فَسَيُنفِقُونَهَا ثُمَّ تَكُونُ عَلَيْهِمْ حَسْرَةً ثُمَّ يُغْلَبُونَ ۗ وَٱلَّذِينَ كَفَرُوٓا۟ إِلَىٰ جَهَنَّمَ يُحْشَرُونَ",
+"tr": "O küfre sapanlar mallarını Allah yolundan alıkoymak için harcarlar, harcayacaklardır da. Sonunda bu kendileri için bir hasret olacak, sonra da mağlup edilecekler. Küfre sapanlar doğruca cehenneme sürülecekler."
+},
+"9:5": {
+"ar": "فَإِذَا ٱنسَلَخَ ٱلْأَشْهُرُ ٱلْحُرُمُ فَٱقْتُلُوا۟ ٱلْمُشْرِكِينَ حَيْثُ وَجَدتُّمُوهُمْ وَخُذُوهُمْ وَٱحْصُرُوهُمْ وَٱقْعُدُوا۟ لَهُمْ كُلَّ مَرْصَدٍ ۚ فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَخَلُّوا۟ سَبِيلَهُمْ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "O haram aylar çıktığında artık müşrikleri, kendilerini bulduğunuz yerde öldürün. Yakalayın onları, kuşatın onları, tüm geçit noktalarını tıkayın onların. Bunun ardından tövbe eder, namazı gereğince kılar, zekâtı verirlerse, yollarını açın onların. Kesin olan şu ki, Allah Gafûr'dur, Rahîm'dir."
+},
+"9:11": {
+"ar": "فَإِن تَابُوا۟ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ ۗ وَنُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ",
+"tr": "Bununla birlikte tövbe eder, namazı kılar, zekâtı verirlerse, artık sizin, dinde kardeşlerinizdirler. Biz ayetlerimizi, bilen bir topluluk için böyle açık seçik ortaya koyarız."
+},
+"9:18": {
+"ar": "إِنَّمَا يَعْمُرُ مَسَـٰجِدَ ٱللَّهِ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَلَمْ يَخْشَ إِلَّا ٱللَّهَ ۖ فَعَسَىٰٓ أُو۟لَـٰٓئِكَ أَن يَكُونُوا۟ مِنَ ٱلْمُهْتَدِينَ",
+"tr": "Allah'ın mescitlerini; ancak Allah'a, âhiret gününe inanan, namazı kılan, zekâtı veren ve Allah'tan başka kimseden korkmayan kişiler onarır. İşte bunların, hidayete erenlerden olmaları beklenir."
+},
+"9:34": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ كَثِيرًا مِّنَ ٱلْأَحْبَارِ وَٱلرُّهْبَانِ لَيَأْكُلُونَ أَمْوَٰلَ ٱلنَّاسِ بِٱلْبَـٰطِلِ وَيَصُدُّونَ عَن سَبِيلِ ٱللَّهِ ۗ وَٱلَّذِينَ يَكْنِزُونَ ٱلذَّهَبَ وَٱلْفِضَّةَ وَلَا يُنفِقُونَهَا فِى سَبِيلِ ٱللَّهِ فَبَشِّرْهُم بِعَذَابٍ أَلِيمٍ",
+"tr": "Ey iman sahipleri! Şu bir gerçek ki, hahamlardan ve rahiplerden birçoğu halkın mallarını uydurma yollarla tıkabasa yerler ve Allah'ın yolundan geri çevirirler. Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara korkunç bir azap muştula."
+},
+"9:35": {
+"ar": "يَوْمَ يُحْمَىٰ عَلَيْهَا فِى نَارِ جَهَنَّمَ فَتُكْوَىٰ بِهَا جِبَاهُهُمْ وَجُنُوبُهُمْ وَظُهُورُهُمْ ۖ هَـٰذَا مَا كَنَزْتُمْ لِأَنفُسِكُمْ فَذُوقُوا۟ مَا كُنتُمْ تَكْنِزُونَ",
+"tr": "Gün olur, cehennem ateşinde onların üzerine lav dökülür de bununla onların alınları, böğürleri, sırtları dağlanır: \"İşte egolarınız için yığdıklarınız. Hadi tadın biriktirmiş olduklarınızı!\""
+},
+"9:53": {
+"ar": "قُلْ أَنفِقُوا۟ طَوْعًا أَوْ كَرْهًا لَّن يُتَقَبَّلَ مِنكُمْ ۖ إِنَّكُمْ كُنتُمْ قَوْمًا فَـٰسِقِينَ",
+"tr": "Şunu da söyle: \"İster kendi arzunuzla ister baskı ve zorla infak edin; sizden asla kabul edilmeyecektir. Çünkü siz, yoldan çıkan bir topluluk oldunuz.\""
+},
+"9:54": {
+"ar": "وَمَا مَنَعَهُمْ أَن تُقْبَلَ مِنْهُمْ نَفَقَـٰتُهُمْ إِلَّآ أَنَّهُمْ كَفَرُوا۟ بِٱللَّهِ وَبِرَسُولِهِۦ وَلَا يَأْتُونَ ٱلصَّلَوٰةَ إِلَّا وَهُمْ كُسَالَىٰ وَلَا يُنفِقُونَ إِلَّا وَهُمْ كَـٰرِهُونَ",
+"tr": "İnfaklarının onlardan kabul edilmesini engelleyen sadece şudur: Onlar, Allah'a ve resulüne nankörlük ettiler. Namaza ancak üşene üşene gelirler, infak edip dağıttıklarını da içlerinden gelmeyerek verirler."
+},
+"9:60": {
+"ar": "إِنَّمَا ٱلصَّدَقَـٰتُ لِلْفُقَرَآءِ وَٱلْمَسَـٰكِينِ وَٱلْعَـٰمِلِينَ عَلَيْهَا وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَـٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+"tr": "Sadakalar/zekât malları Allah'tan bir farz olarak sadece şunlar içindir: Fakirler, düşkünler, sadakalarla ilgilenmeye memur edilenler, kalpleri yakınlaştırılıp ısındırılacak olanlar, özgürlüğünü yitirmiş olanlar, borçlular, Allah yolundakiler, yolda kalmış kişi. Allah Alîm'dir, Hakîm'dir."
+},
+"9:67": {
+"ar": "ٱلْمُنَـٰفِقُونَ وَٱلْمُنَـٰفِقَـٰتُ بَعْضُهُم مِّنۢ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمُنكَرِ وَيَنْهَوْنَ عَنِ ٱلْمَعْرُوفِ وَيَقْبِضُونَ أَيْدِيَهُمْ ۚ نَسُوا۟ ٱللَّهَ فَنَسِيَهُمْ ۗ إِنَّ ٱلْمُنَـٰفِقِينَ هُمُ ٱلْفَـٰسِقُونَ",
+"tr": "İkiyüzlülerin erkekleri de kadınları da birbirinin aynıdır: Kötülüğe özendirirler, iyilikten alıkoyarlar, harcamamak için ellerini sıkarlar. Onlar Allah'ı unuttular, Allah da onları unuttu. İkiyüzlüler, yoldan sapmışların ta kendileridir."
+},
+"9:68": {
+"ar": "وَعَدَ ٱللَّهُ ٱلْمُنَـٰفِقِينَ وَٱلْمُنَـٰفِقَـٰتِ وَٱلْكُفَّارَ نَارَ جَهَنَّمَ خَـٰلِدِينَ فِيهَا ۚ هِىَ حَسْبُهُمْ ۚ وَلَعَنَهُمُ ٱللَّهُ ۖ وَلَهُمْ عَذَابٌ مُّقِيمٌ",
+"tr": "Allah, erkek münafıklara da kadın münafıklara da küfre sapanlara da içinde sürekli kalacakları cehennem ateşini vaat etmiştir. O yeter onlara. Allah lanet etmiştir onlara. Sonu gelmez bir azap var onlar için."
+},
+"9:71": {
+"ar": "وَٱلْمُؤْمِنُونَ وَٱلْمُؤْمِنَـٰتُ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۚ يَأْمُرُونَ بِٱلْمَعْرُوفِ وَيَنْهَوْنَ عَنِ ٱلْمُنكَرِ وَيُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَيُطِيعُونَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ أُو۟لَـٰٓئِكَ سَيَرْحَمُهُمُ ٱللَّهُ ۗ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+"tr": "Mümin erkeklerle mümin kadınlar birbirlerinin dostlarıdır. İyilik ve güzelliği belirlenene özendirirler, kötülük ve çirkinliği belirlenenden sakındırırlar. Namazı kılarlar, zekâtı verirler. Allah'a ve resulüne itaat ederler. Allah bunlara rahmet edecektir. Allah Azîz'dir, Hakîm'dir."
+},
+"9:76": {
+"ar": "فَلَمَّآ ءَاتَىٰهُم مِّن فَضْلِهِۦ بَخِلُوا۟ بِهِۦ وَتَوَلَّوا۟ وَّهُم مُّعْرِضُونَ",
+"tr": "Lütfundan kendilerine verdiği zaman ise o lütfa cimrilik ederek yüz çevirmiş bir halde dönüp gittiler."
+},
+"9:77": {
+"ar": "فَأَعْقَبَهُمْ نِفَاقًا فِى قُلُوبِهِمْ إِلَىٰ يَوْمِ يَلْقَوْنَهُۥ بِمَآ أَخْلَفُوا۟ ٱللَّهَ مَا وَعَدُوهُ وَبِمَا كَانُوا۟ يَكْذِبُونَ",
+"tr": "Nihayet Allah, kendisine verdikleri söze ters düştüklerinden, yalana sapıp durduklarından, huzuruna çıkacakları güne kadar onların kalplerine ikiyüzlülük yerleştirdi."
+},
+"9:79": {
+"ar": "ٱلَّذِينَ يَلْمِزُونَ ٱلْمُطَّوِّعِينَ مِنَ ٱلْمُؤْمِنِينَ فِى ٱلصَّدَقَـٰتِ وَٱلَّذِينَ لَا يَجِدُونَ إِلَّا جُهْدَهُمْ فَيَسْخَرُونَ مِنْهُمْ ۙ سَخِرَ ٱللَّهُ مِنْهُمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+"tr": "Sadakalar hususunda içten bir cömertlik göstermiş müminlere laf atanlarla, öz gayretlerinden başkasını bulamayanları alay konusu edenlere gelince, Allah onları maskaraya çevirecektir. Onlar için acıklı bir azap da vardır."
+},
+"9:98": {
+"ar": "وَمِنَ ٱلْأَعْرَابِ مَن يَتَّخِذُ مَا يُنفِقُ مَغْرَمًا وَيَتَرَبَّصُ بِكُمُ ٱلدَّوَآئِرَ ۚ عَلَيْهِمْ دَآئِرَةُ ٱلسَّوْءِ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+"tr": "Çöl Araplarından öylesi vardır ki, infak ettiğini bir angarya/bir ceza ödeme sayar ve sizin başınıza belaların gelmesini bekler durur. En kötü bela onların başına olsun! Allah çok iyi işitir, çok iyi bilir."
+},
+"9:99": {
+"ar": "وَمِنَ ٱلْأَعْرَابِ مَن يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَيَتَّخِذُ مَا يُنفِقُ قُرُبَـٰتٍ عِندَ ٱللَّهِ وَصَلَوَٰتِ ٱلرَّسُولِ ۚ أَلَآ إِنَّهَا قُرْبَةٌ لَّهُمْ ۚ سَيُدْخِلُهُمُ ٱللَّهُ فِى رَحْمَتِهِۦٓ ۗ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "Çöl Araplarından bazıları da Allah'a ve âhiret gününe inanır, harcadığını Allah yanında yakınlıklara ve resulün dualarına vesîle edinir. Dikkat edin! O harcadıkları gerçekten kendileri için bir yakınlık vesîlesidir. Allah onları rahmetinin içine sokacaktır. Allah çok affedici, çok esirgeyicidir."
+},
+"9:103": {
+"ar": "خُذْ مِنْ أَمْوَٰلِهِمْ صَدَقَةً تُطَهِّرُهُمْ وَتُزَكِّيهِم بِهَا وَصَلِّ عَلَيْهِمْ ۖ إِنَّ صَلَوٰتَكَ سَكَنٌ لَّهُمْ ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+"tr": "Bunların mallarından bir sadaka al ki, onunla kendilerini iyice temizleyip aklayasın. Onlar için dua et, çünkü senin duan onlar için bir sükûnettir. Allah Semî'dir, Alîm'dir."
+},
+"9:104": {
+"ar": "أَلَمْ يَعْلَمُوٓا۟ أَنَّ ٱللَّهَ هُوَ يَقْبَلُ ٱلتَّوْبَةَ عَنْ عِبَادِهِۦ وَيَأْخُذُ ٱلصَّدَقَـٰتِ وَأَنَّ ٱللَّهَ هُوَ ٱلتَّوَّابُ ٱلرَّحِيمُ",
+"tr": "Bilmediler mi ki, Allah'tır kullarından o tövbeyi kabul eden, o sadakaları alan. Ve Allah'tır, O Tevvâb, O Rahîm..."
+},
+"9:121": {
+"ar": "وَلَا يُنفِقُونَ نَفَقَةً صَغِيرَةً وَلَا كَبِيرَةً وَلَا يَقْطَعُونَ وَادِيًا إِلَّا كُتِبَ لَهُمْ لِيَجْزِيَهُمُ ٱللَّهُ أَحْسَنَ مَا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Küçük büyük bir infakta bulunmaları, bir vadiyi geçmeleri, kendileri lehine mutlaka yazılır ki, Allah onlara yapıp ettiklerinden daha güzeliyle karşılık versin."
+},
+"13:22": {
+"ar": "وَٱلَّذِينَ صَبَرُوا۟ ٱبْتِغَآءَ وَجْهِ رَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَـٰهُمْ سِرًّا وَعَلَانِيَةً وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ أُو۟لَـٰٓئِكَ لَهُمْ عُقْبَى ٱلدَّارِ",
+"tr": "Onlar, Rablerinin yüzünü arzulayarak sabrederler, namazı kılarlar, kendilerine verdiğimiz rızıklardan gizli ve açık dağıtırlar ve kötülüğü güzellikle savarlar. İşte bunlar içindir ölümsüz yurt."
+},
+"14:31": {
+"ar": "قُل لِّعِبَادِىَ ٱلَّذِينَ ءَامَنُوا۟ يُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُنفِقُوا۟ مِمَّا رَزَقْنَـٰهُمْ سِرًّا وَعَلَانِيَةً مِّن قَبْلِ أَن يَأْتِىَ يَوْمٌ لَّا بَيْعٌ فِيهِ وَلَا خِلَـٰلٌ",
+"tr": "İnanan kullarıma söyle: Namazı kılsınlar, kendilerine verdiğimiz rızıklardan, hiçbir alışverişin, hiçbir dostluğun olmadığı o gün gelmeden önce, gizli ve açık infak etsinler."
+},
+"17:100": {
+"ar": "قُل لَّوْ أَنتُمْ تَمْلِكُونَ خَزَآئِنَ رَحْمَةِ رَبِّىٓ إِذًا لَّأَمْسَكْتُمْ خَشْيَةَ ٱلْإِنفَاقِ ۚ وَكَانَ ٱلْإِنسَـٰنُ قَتُورًا",
+"tr": "De ki: \"Eğer Rabbimin rahmet hazinelerine sahip olsaydınız, o zaman da harcanır biter korkusuyla cimri davranırdınız.\" İnsan çok cimridir."
+},
+"19:31": {
+"ar": "وَجَعَلَنِى مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَـٰنِى بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ مَا دُمْتُ حَيًّا",
+"tr": "\"Beni, bulunduğum her yerde kutsal ve bereketli kıldı. Yaşadığım sürece bana namazı, zekâtı önerdi.\""
+},
+"19:55": {
+"ar": "وَكَانَ يَأْمُرُ أَهْلَهُۥ بِٱلصَّلَوٰةِ وَٱلزَّكَوٰةِ وَكَانَ عِندَ رَبِّهِۦ مَرْضِيًّا",
+"tr": "Ailesine namazı, zekâtı emrederdi. Rabbi katında hoşnutluk kazanmış bir kişiydi."
+},
+"21:73": {
+"ar": "وَجَعَلْنَـٰهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَآ إِلَيْهِمْ فِعْلَ ٱلْخَيْرَٰتِ وَإِقَامَ ٱلصَّلَوٰةِ وَإِيتَآءَ ٱلزَّكَوٰةِ ۖ وَكَانُوا۟ لَنَا عَـٰبِدِينَ",
+"tr": "Onları, bizim buyruğumuzla yol alan önderler yaptık. Onlara iyilikler yapmayı, namaz kılmayı, zekât vermeyi vahyettik. Onlar, yalnız bize kulluk ediyorlardı."
+},
+"22:35": {
+"ar": "ٱلَّذِينَ إِذَا ذُكِرَ ٱللَّهُ وَجِلَتْ قُلُوبُهُمْ وَٱلصَّـٰبِرِينَ عَلَىٰ مَآ أَصَابَهُمْ وَٱلْمُقِيمِى ٱلصَّلَوٰةِ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+"tr": "Onlar öyle insanlardır ki, Allah anıldığında kalpleri titrer; başlarına gelene sabrederler, namazı gözetirler. Ve kendilerine verdiğimiz rızıklardan infak ederler."
+},
+"22:41": {
+"ar": "ٱلَّذِينَ إِن مَّكَّنَّـٰهُمْ فِى ٱلْأَرْضِ أَقَامُوا۟ ٱلصَّلَوٰةَ وَءَاتَوُا۟ ٱلزَّكَوٰةَ وَأَمَرُوا۟ بِٱلْمَعْرُوفِ وَنَهَوْا۟ عَنِ ٱلْمُنكَرِ ۗ وَلِلَّهِ عَـٰقِبَةُ ٱلْأُمُورِ",
+"tr": "Onlar o kişilerdir ki eğer kendilerini yeryüzünde imkân ve güç sahibi yapsak namazı kılarlar, zekâtı verirler, iyiliğe özendirirler, kötülükten sakındırırlar. Tüm iş ve oluşlar Allah'a varır."
+},
+"22:78": {
+"ar": "وَجَـٰهِدُوا۟ فِى ٱللَّهِ حَقَّ جِهَادِهِۦ ۚ هُوَ ٱجْتَبَىٰكُمْ وَمَا جَعَلَ عَلَيْكُمْ فِى ٱلدِّينِ مِنْ حَرَجٍ ۚ مِّلَّةَ أَبِيكُمْ إِبْرَٰهِيمَ ۚ هُوَ سَمَّىٰكُمُ ٱلْمُسْلِمِينَ مِن قَبْلُ وَفِى هَـٰذَا لِيَكُونَ ٱلرَّسُولُ شَهِيدًا عَلَيْكُمْ وَتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ ۚ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَٱعْتَصِمُوا۟ بِٱللَّهِ هُوَ مَوْلَىٰكُمْ ۖ فَنِعْمَ ٱلْمَوْلَىٰ وَنِعْمَ ٱلنَّصِيرُ",
+"tr": "Allah uğrunda O'na yaraşır bir gayretle didinin. O sizi seçmiş ve dinde size hiçbir güçlük çıkarmamıştır. Babanız İbrahim'in milletini esas alın. Allah sizi, önceden de şu Kitap'ta da \"Müslümanlar/Allah'a teslim olanlar\" diye adlandırdı ki, resul sizin üzerinize bir tanık olsun, siz de insanlar üzerine tanıklar olasınız. O halde namazı kılın, zekâtı verin ve Allah'a sarılın. O'dur sizin Mevlâ'nız. Ne güzel Mevlâ'dır O, ne güzel yardımcıdır O!"
+},
+"23:4": {
+"ar": "وَٱلَّذِينَ هُمْ لِلزَّكَوٰةِ فَـٰعِلُونَ",
+"tr": "Zekâtı vermek için faaliyettedir onlar."
+},
+"24:37": {
+"ar": "رِجَالٌ لَّا تُلْهِيهِمْ تِجَـٰرَةٌ وَلَا بَيْعٌ عَن ذِكْرِ ٱللَّهِ وَإِقَامِ ٱلصَّلَوٰةِ وَإِيتَآءِ ٱلزَّكَوٰةِ ۙ يَخَافُونَ يَوْمًا تَتَقَلَّبُ فِيهِ ٱلْقُلُوبُ وَٱلْأَبْصَـٰرُ",
+"tr": "Öyle erler vardır ki, bir ticaret de bir alışveriş de onları Allah'ın zikrinden/Kur'an'ından, namaz kılmaktan, zekât vermekten alıkoyamaz. Onlar, kalplerle gözlerin döneceği/yer değiştireceği günden korkarlar."
+},
+"24:38": {
+"ar": "لِيَجْزِيَهُمُ ٱللَّهُ أَحْسَنَ مَا عَمِلُوا۟ وَيَزِيدَهُم مِّن فَضْلِهِۦ ۗ وَٱللَّهُ يَرْزُقُ مَن يَشَآءُ بِغَيْرِ حِسَابٍ",
+"tr": "Ki Allah kendilerine, yapıp işlediklerinin en güzelini versin ve lütfundan onlara artışlar sağlasın. Allah dilediğini hesapsızca rızıklandırır."
+},
+"24:56": {
+"ar": "وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱلرَّسُولَ لَعَلَّكُمْ تُرْحَمُونَ",
+"tr": "Namazı kılın, zekâtı verin, resule itaat edin ki, rahmete erdirilesiniz."
+},
+"25:67": {
+"ar": "وَٱلَّذِينَ إِذَآ أَنفَقُوا۟ لَمْ يُسْرِفُوا۟ وَلَمْ يَقْتُرُوا۟ وَكَانَ بَيْنَ ذَٰلِكَ قَوَامًا",
+"tr": "Onlar harcadıkları zaman ne savurganlığa saparlar ne de cimrilik ederler. O ikisi arasında bir dengededir bu."
+},
+"27:3": {
+"ar": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+"tr": "O müminler ki, namazı kılar, zekâtı verirler. Ve âhirete tam bir biçimde inananlar da onlardır."
+},
+"28:54": {
+"ar": "أُو۟لَـٰٓئِكَ يُؤْتَوْنَ أَجْرَهُم مَّرَّتَيْنِ بِمَا صَبَرُوا۟ وَيَدْرَءُونَ بِٱلْحَسَنَةِ ٱلسَّيِّئَةَ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+"tr": "İşte böylelerine ödülleri, sabrettikleri için iki kez verilir. Onlar, kötülüğü güzellikle karşılayıp savarlar. Ve onlar, kendilerine verdiğimiz rızıktan infak ederler."
+},
+"30:39": {
+"ar": "وَمَآ ءَاتَيْتُم مِّن رِّبًا لِّيَرْبُوَا۟ فِىٓ أَمْوَٰلِ ٱلنَّاسِ فَلَا يَرْبُوا۟ عِندَ ٱللَّهِ ۖ وَمَآ ءَاتَيْتُم مِّن زَكَوٰةٍ تُرِيدُونَ وَجْهَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُضْعِفُونَ",
+"tr": "İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz. Allah'ın yüzünü isteyerek verdiğiniz zekâta gelince, işte onu verenler kat kat artıranların ta kendileridir."
+},
+"31:4": {
+"ar": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
+"tr": "Ki onlar namazı kılarlar, zekâtı verirler. Ve onlar âhirete de gözle görmüşçesine inanırlar."
+},
+"31:5": {
+"ar": "أُو۟لَـٰٓئِكَ عَلَىٰ هُدًى مِّن رَّبِّهِمْ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+"tr": "İşte onlardır Rablerinden bir kılavuzlanma üzere olanlar; işte onlardır gerçek kurtuluşu bulanlar."
+},
+"32:16": {
+"ar": "تَتَجَافَىٰ جُنُوبُهُمْ عَنِ ٱلْمَضَاجِعِ يَدْعُونَ رَبَّهُمْ خَوْفًا وَطَمَعًا وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+"tr": "Yanları yataklarından uzaklaşır; korku ve ümitle Rablerine dua ederler. Kendilerine verdiğimiz rızıklardan da dağıtırlar."
+},
+"32:17": {
+"ar": "فَلَا تَعْلَمُ نَفْسٌ مَّآ أُخْفِىَ لَهُم مِّن قُرَّةِ أَعْيُنٍ جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Hiç kimse, yaptıklarına karşılık onlar için hangi göz aydınlığının saklandığını bilmez."
+},
+"33:33": {
+"ar": "وَقَرْنَ فِى بُيُوتِكُنَّ وَلَا تَبَرَّجْنَ تَبَرُّجَ ٱلْجَـٰهِلِيَّةِ ٱلْأُولَىٰ ۖ وَأَقِمْنَ ٱلصَّلَوٰةَ وَءَاتِينَ ٱلزَّكَوٰةَ وَأَطِعْنَ ٱللَّهَ وَرَسُولَهُۥٓ ۚ إِنَّمَا يُرِيدُ ٱللَّهُ لِيُذْهِبَ عَنكُمُ ٱلرِّجْسَ أَهْلَ ٱلْبَيْتِ وَيُطَهِّرَكُمْ تَطْهِيرًا",
+"tr": "Evlerinizde de vakarlı oturun. İlk cahiliye teşhirciliği gibi kendinizi teşhir etmeyin. Namazı kılın, zekâtı verin, Allah'a ve resulüne itaat edin. Allah sizden kiri/lekeyi gidermek istiyor ey Ehlibeyt, sizi tam bir biçimde temizlemek istiyor."
+},
+"33:35": {
+"ar": "إِنَّ ٱلْمُسْلِمِينَ وَٱلْمُسْلِمَـٰتِ وَٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ وَٱلْقَـٰنِتِينَ وَٱلْقَـٰنِتَـٰتِ وَٱلصَّـٰدِقِينَ وَٱلصَّـٰدِقَـٰتِ وَٱلصَّـٰبِرِينَ وَٱلصَّـٰبِرَٰتِ وَٱلْخَـٰشِعِينَ وَٱلْخَـٰشِعَـٰتِ وَٱلْمُتَصَدِّقِينَ وَٱلْمُتَصَدِّقَـٰتِ وَٱلصَّـٰٓئِمِينَ وَٱلصَّـٰٓئِمَـٰتِ وَٱلْحَـٰفِظِينَ فُرُوجَهُمْ وَٱلْحَـٰفِظَـٰتِ وَٱلذَّٰكِرِينَ ٱللَّهَ كَثِيرًا وَٱلذَّٰكِرَٰتِ أَعَدَّ ٱللَّهُ لَهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًا",
+"tr": "Allah şu kişiler için bir affediş ve büyük bir ödül hazırlamıştır: Müslüman erkekler, Müslüman kadınlar, mümin erkekler, mümin kadınlar, itaat eden erkekler, itaat eden kadınlar, özü sözü doğru erkekler, özü sözü doğru kadınlar, sabreden erkekler, sabreden kadınlar, Allah korkusuyla ürperen erkekler, Allah korkusuyla ürperen kadınlar, sadaka veren erkekler, sadaka veren kadınlar, oruç tutan erkekler, oruç tutan kadınlar, ırz ve iffetlerini koruyan erkekler, ırz ve iffetlerini koruyan kadınlar, Allah'ı çok anan erkekler, Allah'ı çok anan kadınlar."
+},
+"34:39": {
+"ar": "قُلْ إِنَّ رَبِّى يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥ ۚ وَمَآ أَنفَقْتُم مِّن شَىْءٍ فَهُوَ يُخْلِفُهُۥ ۖ وَهُوَ خَيْرُ ٱلرَّٰزِقِينَ",
+"tr": "De ki: \"Rabbim, kullarından dilediğine rızkı bolca, genişçe verir, dilediğine de kısarak verir. Bir şey infak ederseniz O, onun yerine başka bir şey lutfeder. Rızık verenlerin en hayırlısıdır O.\""
+},
+"35:29": {
+"ar": "إِنَّ ٱلَّذِينَ يَتْلُونَ كِتَـٰبَ ٱللَّهِ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَنفَقُوا۟ مِمَّا رَزَقْنَـٰهُمْ سِرًّا وَعَلَانِيَةً يَرْجُونَ تِجَـٰرَةً لَّن تَبُورَ",
+"tr": "Allah'ın Kitabı'nı okuyanlar, namazı kılanlar, kendilerine verdiğimiz rızıklardan gizli ve açık infak edenler, asla batmayacak bir ticaret umabilirler."
+},
+"35:30": {
+"ar": "لِيُوَفِّيَهُمْ أُجُورَهُمْ وَيَزِيدَهُم مِّن فَضْلِهِۦٓ ۚ إِنَّهُۥ غَفُورٌ شَكُورٌ",
+"tr": "Çünkü Allah onlara ücretlerini tam ödeyecek, lütfundan onlara artırma da yapacaktır. Gafûr'dur O, çok affeder; Şekûr'dur, şükredenlere mutlaka karşılık verir."
+},
+"36:47": {
+"ar": "وَإِذَا قِيلَ لَهُمْ أَنفِقُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ مُّبِينٍ",
+"tr": "Onlara, \"Allah'ın size lütfettiği rızıklardan dağıtın!\" dendiğinden, nankörlüğe sapanlar, iman edenlere şöyle derler: \"Allah'ın, dilediği takdirde yedirip doyuracağı kişiyi biz mi doyuracağız? Siz açık bir sapıklık içindesiniz, hepsi bu.\""
+},
+"41:7": {
+"ar": "ٱلَّذِينَ لَا يُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ كَـٰفِرُونَ",
+"tr": "Onlar zekâtı vermezler. Ölüm sonrası hayatı inkâr edenler de onlardır."
+},
+"42:38": {
+"ar": "وَٱلَّذِينَ ٱسْتَجَابُوا۟ لِرَبِّهِمْ وَأَقَامُوا۟ ٱلصَّلَوٰةَ وَأَمْرُهُمْ شُورَىٰ بَيْنَهُمْ وَمِمَّا رَزَقْنَـٰهُمْ يُنفِقُونَ",
+"tr": "Rablerinin çağrısına cevap verirler, namazı kılarlar. İşleri/yönetimleri, aralarında bir şûra'dır. Kendilerine verdiğimiz rızıklardan infak ederler."
+},
+"47:38": {
+"ar": "هَـٰٓأَنتُمْ هَـٰٓؤُلَآءِ تُدْعَوْنَ لِتُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ فَمِنكُم مَّن يَبْخَلُ ۖ وَمَن يَبْخَلْ فَإِنَّمَا يَبْخَلُ عَن نَّفْسِهِۦ ۚ وَٱللَّهُ ٱلْغَنِىُّ وَأَنتُمُ ٱلْفُقَرَآءُ ۚ وَإِن تَتَوَلَّوْا۟ يَسْتَبْدِلْ قَوْمًا غَيْرَكُمْ ثُمَّ لَا يَكُونُوٓا۟ أَمْثَـٰلَكُم",
+"tr": "İşte sizler, Allah yolunda harcamaya çağırılan insanlarsınız. Ama bir kısmınız cimrilik ediyor. Oysaki, cimrilik eden kendi aleyhine cimrileşmiş olur. Allah Ganî'dir; yoksul olan sizlersiniz. Eğer yüz çevirirseniz, Allah yerinize başka bir toplum getirir. Ve onlar, sizin benzerleriniz olmazlar."
+},
+"57:7": {
+"ar": "ءَامِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ وَأَنفِقُوا۟ مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ ۖ فَٱلَّذِينَ ءَامَنُوا۟ مِنكُمْ وَأَنفَقُوا۟ لَهُمْ أَجْرٌ كَبِيرٌ",
+"tr": "Allah'a resulüne iman edin; sizi üzerinde buyruk sahibi yaptığı şeylerden başkalarına bol bol verin! İçinizden iman eden ve infakta bulunanlar için çok büyük bir ödül vardır."
+},
+"57:10": {
+"ar": "وَمَا لَكُمْ أَلَّا تُنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلِلَّهِ مِيرَٰثُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ لَا يَسْتَوِى مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ ٱلْفَتْحِ وَقَـٰتَلَ ۚ أُو۟لَـٰٓئِكَ أَعْظَمُ دَرَجَةً مِّنَ ٱلَّذِينَ أَنفَقُوا۟ مِنۢ بَعْدُ وَقَـٰتَلُوا۟ ۚ وَكُلًّا وَعَدَ ٱللَّهُ ٱلْحُسْنَىٰ ۚ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+"tr": "Allah yolunda harcama yapmanıza engel ne var ki?.. Göklerin ve yerin mirası zaten Allah'ındır. Sizin, Fetih'ten önce infakta bulunan ve çarpışmaya gireniniz, bunu yapmayanlarla aynı değildir. Onlar, derece yönünden Fetih'ten sonra infakta bulunup çarpışmaya girenlerden çok daha üstündür. Allah hepsine güzellik vaat etmiştir. Allah, işleyip ürettiklerinizi en iyi biçimde haber almaktadır."
+},
+"57:11": {
+"ar": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَـٰعِفَهُۥ لَهُۥ وَلَهُۥٓ أَجْرٌ كَرِيمٌ",
+"tr": "Allah'a kim güzel bir borç verecek ki, O onun verdiğini kat kat artırsın. Böyle birisi için onur verici bir ödül de vardır."
+},
+"57:18": {
+"ar": "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَـٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ",
+"tr": "Şu bir gerçek: Sadaka veren erkeklerle sadaka veren kadınlar, bir de Allah'a güzelce borç verenler için karşılıklar kat kat yapılır. Onlar için, onur verici bir ödül de vardır."
+},
+"57:24": {
+"ar": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ ۗ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
+"tr": "Onlar; cimrilik eden, insanlara da cimriliği emreden kişilerdir. Yüz çeviren bilsin ki, Allah Ganî'dir, Hamîd'dir."
+},
+"58:12": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نَـٰجَيْتُمُ ٱلرَّسُولَ فَقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَةً ۚ ذَٰلِكَ خَيْرٌ لَّكُمْ وَأَطْهَرُ ۚ فَإِن لَّمْ تَجِدُوا۟ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "Ey iman edenler! Resulle gizlice konuşacağınız zaman, bu gizli konuşmanızdan önce bir sadaka verin! Bu, sizin için daha hayırlı ve daha temizdir. Eğer bu imkânı bulamazsanız bilin ki, Allah Gafûr'dur, Rahîm'dir."
+},
+"58:13": {
+"ar": "ءَأَشْفَقْتُمْ أَن تُقَدِّمُوا۟ بَيْنَ يَدَىْ نَجْوَىٰكُمْ صَدَقَـٰتٍ ۚ فَإِذْ لَمْ تَفْعَلُوا۟ وَتَابَ ٱللَّهُ عَلَيْكُمْ فَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَطِيعُوا۟ ٱللَّهَ وَرَسُولَهُۥ ۚ وَٱللَّهُ خَبِيرٌۢ بِمَا تَعْمَلُونَ",
+"tr": "Gizli konuşmanızdan önce, sadakalar vermekten ürperdiniz mi? Çünkü yapmadınız. Allah size tövbe nasip etti. Artık namazı kılın, zekâtı verin, Allah'a ve resulüne itaat edin. Allah, yaptıklarınızdan haberdardır."
+},
+"59:9": {
+"ar": "وَٱلَّذِينَ تَبَوَّءُو ٱلدَّارَ وَٱلْإِيمَـٰنَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِى صُدُورِهِمْ حَاجَةً مِّمَّآ أُوتُوا۟ وَيُؤْثِرُونَ عَلَىٰٓ أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ ۚ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+"tr": "Onlardan önce yurda konmuş ve imana sarılmış olanlar, kendilerine hicret edenleri severler. Onlara verilenlerden ötürü göğüslerinde bir ihtiyaç duymazlar. Kendilerinin ihtiyaçları olsa bile, ötekileri kendi nefslerine tercih ederler. Nefsinin cimriliğinden/doymazlığından korunanlar, kurtuluşa erenlerin ta kendileridir."
+},
+"63:7": {
+"ar": "هُمُ ٱلَّذِينَ يَقُولُونَ لَا تُنفِقُوا۟ عَلَىٰ مَنْ عِندَ رَسُولِ ٱللَّهِ حَتَّىٰ يَنفَضُّوا۟ ۗ وَلِلَّهِ خَزَآئِنُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ وَلَـٰكِنَّ ٱلْمُنَـٰفِقِينَ لَا يَفْقَهُونَ",
+"tr": "Onlar: \"Allah resulünün yanındakilere infak edip bir şey vermeyin ki dağılıp gitsinler!\" diyen kişilerdir. Oysaki göklerin ve yerin hazineleri, Allah'ın tekelindedir. Ama münafıklar bunu anlamazlar."
+},
+"63:10": {
+"ar": "وَأَنفِقُوا۟ مِن مَّا رَزَقْنَـٰكُم مِّن قَبْلِ أَن يَأْتِىَ أَحَدَكُمُ ٱلْمَوْتُ فَيَقُولَ رَبِّ لَوْلَآ أَخَّرْتَنِىٓ إِلَىٰٓ أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُن مِّنَ ٱلصَّـٰلِحِينَ",
+"tr": "Sizden birine ölüm gelip de, \"Ey Rabbim, yakın bir süreye kadar beni geciktirseydin de içtenliğimi belgelemek için birşeyler vererek iyilik ve barış sevenler olsaydım!\" demesinden önce, size rızık olarak verdiklerimizden dağıtın."
+},
+"64:16": {
+"ar": "فَٱتَّقُوا۟ ٱللَّهَ مَا ٱسْتَطَعْتُمْ وَٱسْمَعُوا۟ وَأَطِيعُوا۟ وَأَنفِقُوا۟ خَيْرًا لِّأَنفُسِكُمْ ۗ وَمَن يُوقَ شُحَّ نَفْسِهِۦ فَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+"tr": "O halde, gücünüz ölçüsünde Allah'tan korkun, dinleyin, itaat edin. Ve benlikleriniz için bir hayır olarak infakta bulunun. Nefsinin cimrilik ve doymazlığından korunanlar, kurtuluşa erenlerin ta kendileridir."
+},
+"64:17": {
+"ar": "إِن تُقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعِفْهُ لَكُمْ وَيَغْفِرْ لَكُمْ ۚ وَٱللَّهُ شَكُورٌ حَلِيمٌ",
+"tr": "Eğer Allah'a gönül hoşluğuyla bir şey borç verirseniz O, onu sizin için katlayarak artırır ve sizin hatalarınızı bağışlar. Allah Şekûr'dur, şükredenlere karşılık verir; Halîm'dir, yumuşak ve merhametli davranır."
+},
+"65:7": {
+"ar": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
+"tr": "Geniş imkâna sahip olan bu geniş imkânından harcasın. Rızkı kendisine ölçü ile verilmiş olan da Allah'ın kendisine verdiğinden infak etsin. Allah hiçbir benliği, kendisine verdiği şey dışında yükümlü tutmaz. Allah, bir güçlükten sonra bir kolaylık yaratacaktır."
+},
+"73:20": {
+"ar": "إِنَّ رَبَّكَ يَعْلَمُ أَنَّكَ تَقُومُ أَدْنَىٰ مِن ثُلُثَىِ ٱلَّيْلِ وَنِصْفَهُۥ وَثُلُثَهُۥ وَطَآئِفَةٌ مِّنَ ٱلَّذِينَ مَعَكَ ۚ وَٱللَّهُ يُقَدِّرُ ٱلَّيْلَ وَٱلنَّهَارَ ۚ عَلِمَ أَن لَّن تُحْصُوهُ فَتَابَ عَلَيْكُمْ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنَ ٱلْقُرْءَانِ ۚ عَلِمَ أَن سَيَكُونُ مِنكُم مَّرْضَىٰ ۙ وَءَاخَرُونَ يَضْرِبُونَ فِى ٱلْأَرْضِ يَبْتَغُونَ مِن فَضْلِ ٱللَّهِ ۙ وَءَاخَرُونَ يُقَـٰتِلُونَ فِى سَبِيلِ ٱللَّهِ ۖ فَٱقْرَءُوا۟ مَا تَيَسَّرَ مِنْهُ ۚ وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ وَأَقْرِضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍ تَجِدُوهُ عِندَ ٱللَّهِ هُوَ خَيْرًا وَأَعْظَمَ أَجْرًا ۚ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌۢ",
+"tr": "Hiç kuşkun olmasın, Rabbin senin durumunu biliyor. Gecenin üçte ikisinden daha azını, yarısını, üçte birini ayakta geçiriyorsun. Seninle beraber olanlardan bir grup da öyle. Allah, geceyi de gündüzü de ölçüye bağlamıştır. Sizin onu kuşatamayacağınızı bildi de size tövbe nasip etti. O halde Kur'an'dan, kolay geleni okuyun. Sizden hastalar olacağını bildi. Bir kısmının yeryüzünde dolaşıp Allah'ın lütfundan bir şeyler isteyeceklerini, diğer bir kısmının da Allah yolunda çarpışacaklarını bildi. O halde Kur'an'dan, kolay geleni okuyun! Namazı kılın! Zekâtı verin. Güzel bir ödünçle Allah'a ödünç verin! Öz benlikleriniz için önden gönderdiğiniz iyiliğin, Allah katında hayrını daha çok, ödülünü daha büyük olarak bulacaksınız. Allah'tan af dileyin. Hiç kuşkusuz, Allah çok affedici, çok esirgeyicidir."
+},
+"92:8": {
+"ar": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
+"tr": "Ama kim cimriliğe sapar ve kendisini tüm ihtiyaçların üstünde görür,"
+},
+"98:5": {
+"ar": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
+"tr": "Oysa ki onlara, dini yalnız O'na özgüleyerek, dosdoğru yürüyen kişiler halinde sadece Allah'a ibadet etmeleri, namazı kılmaları, zekâtı vermeleri emredilmişti. İşte budur doğru, eskimez ve aşınmaz din."
+}
+},
+"istatistik": {
+"kayit": 103,
+"ayet": 104,
+"derece": {
+"✓": 103,
+"→": 0,
+"?": 0
+},
+"tur": {
+"emir": 24,
+"yasak": 2,
+"sonuc": 44,
+"tanim": 33
+}
+}
+}

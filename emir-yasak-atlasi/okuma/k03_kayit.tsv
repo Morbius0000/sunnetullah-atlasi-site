@@ -1,0 +1,103 @@
+K3a	infak	2:3	2:3	-	✓	"Kendilerine rızk olarak verdiklerimizden başkalarına pay çıkaranlar (korunup sakınanlar)"	tanim
+K3a	zekat	2:43	2:43	-	✓	"Namazı kılın, zekâtı verin"	emir
+K3a	zekat	2:83	2:83	-	✓	"İsrailoğullarından söz: namazı kılın, zekâtı verin"	emir
+K3a	zekat	2:110	2:110	-	✓	"Namazı kılın, zekâtı verin; önden gönderdiğiniz her hayrı Allah katında bulacaksınız"	emir
+K3a	infak	2:177	2:177	-	✓	"Zafer ve mutluluğa erenler malı seve seve verir"	tanim
+K3a	zekat	2:177	2:177	-	✓	"Zafer ve mutluluğa erenler namazı kılar, zekâtı verir"	tanim
+K3a	infak	2:195	2:195	sevgi	✓	"Allah yolunda harcayın; Allah güzellik sergileyenleri sever"	emir
+K3a	infak	2:215	2:215	-	✓	"İnfak ettiğiniz mal ana-baba, yakınlar, yetimler, yoksullar ve yolda kalan için olmalıdır"	emir
+K3a	infak	2:219	2:219	-	✓	"Helal kazancınızın size ve bakmakla yükümlü olduklarınıza yeterli olanından artanını verin"	emir
+K3a	karz	2:245	2:245	kat_kat	✓	"Allah'a güzel bir borç verene verdiğini birçok kez katlayarak artıracaktır"	sonuc
+K3a	infak	2:254	2:254	-	✓	"Alış-verişin, dostluğun olmadığı gün gelmeden size verdiğimiz rızıktan infak edin"	emir
+K3a	infak	2:261	2:261	kat_kat	✓	"Allah yolunda infak edenin durumu yüz tane bulunan yedi başak veren bir taneye benzer; Allah dilediğine daha da artırır"	sonuc
+K3a	infak	2:262	2:262	ecir	✓	"Harcadıklarına eziyet ve başa kakma eklemeyenlerin Rableri katında ödülleri vardır"	sonuc
+K3a	sadaka	2:263	2:263	-	✓	"Güzel söz ve bağışlama, ardından eziyet gelen sadakadan daha üstündür"	tanim
+K3a	sadaka	2:264	2:264	amel_bosa	✓	"Sadakalarınızı başa kakmak ve eza etmekle boşa çıkarmayın"	yasak
+K3a	infak	2:265	2:265	artirma	✓	"Allah'ın hoşnutluğu için infak edenlerin durumu bol yağmur alıp ürününü iki kat veren bahçe gibidir"	sonuc
+K3a	infak	2:267	2:267	-	✓	"Kazandıklarınızın temiz ve güzellerinden infak edin"	emir
+K3a	infak	2:267	2:267	-	✓	"Kendinizin göz yummadan alıcısı olmadığınız pis/bayağı şeyleri vermeye kalkmayın"	yasak
+K3a	infak	2:272	2:272	tam_karsilik	✓	"İnfak ettiğiniz her nimet size tam bir biçimde geri verilir"	sonuc
+K3a	infak	2:274	2:274	ecir	✓	"Mallarını gece gündüz, gizli açık infak edenlerin Rableri katında ödülleri vardır"	sonuc
+K3a	sadaka	2:271	2:271	gunah_ortme	✓	"Sadakayı gizleyip yoksullara vermek daha hayırlıdır; günahlarınızdan bir kısmını örter"	sonuc
+K3a	sadaka	2:276	2:276	artirma	✓	"Allah ribadan beklenen artışı mahveder, sadakalar karşılığında artışlar getirir"	sonuc
+K3a	zekat	2:277	2:277	ecir	✓	"İman edip salih işler yapan, namazı kılan, zekâtı verenlerin Rableri katında ödülleri vardır"	sonuc
+K3a	sadaka	2:280	2:280	hayir	✓	"Borcunu sadaka olarak ona bağışlamanız sizin için daha hayırlıdır"	emir
+K3a	infak	3:17	3:17	-	✓	"Sabredenler, doğru olanlar... nimet ve imkânlardan başkalarını yararlandıranlar"	tanim
+K3a	infak	3:92	3:92	-	✓	"Sevdiğiniz şeylerden infak etmedikçe hayırda erginliğe asla ulaşamazsınız"	tanim
+K3a	infak	3:117	3:117	amel_bosa	✓	"Küfre sapanların bu dünyada harcadıkları, ekini mahveden kavurucu soğuk rüzgâr gibidir"	sonuc
+K3a	infak	3:134	3:134	sevgi	✓	"Bollukta ve darlıkta infak edenler; Allah güzel davrananları sever"	tanim
+K3b	cimrilik	3:180	3:180	azap	✓	"Allah'ın lütfundan verdiği şeyde cimrilik edenler: cimrilik ettikleri şey kıyamet günü boyunlarına dolanacak"	sonuc
+K3b	cimrilik	4:37	4:37	azap_hizy	✓	"Cimriliğe sapanlar, insanlara cimriliği emredenler ve Allah'ın lütfunu saklayanlar için rezil edici azap"	sonuc
+K3b	infak	4:38	4:38	-	✓	"Allah'a ve ahirete inanmayıp halka gösteriş için mallarını dağıtanlar"	tanim
+K3b	infak	4:39	4:39	-	✓	"Allah'a ve ahirete inanıp Allah'ın verdiği rızıktan dağıtsalardı"	tanim
+K3b	zekat	4:77	4:77	-	✓	"Kendilerine 'namazı kılın, zekâtı verin' denilen kimseler"	tanim
+K3b	sadaka	4:114	4:114	ecir	✓	"Sadakaya, iyiliğe ve barıştırmaya özendirene, Allah'ın hoşnutluğu için yapana büyük ecir vereceğiz"	sonuc
+K3b	zekat	4:162	4:162	ecir	✓	"Namazı kılıcı, zekâtı verici müminlere büyük ecir vereceğiz"	sonuc
+K3b	zekat	5:12	5:12	cennet	✓	"Namazı kılarsanız, zekâtı verirseniz kötülüklerinizi örteceğim ve sizi cennetlere sokacağım"	sonuc
+K3b	karz	5:12	5:12	cennet	✓	"Allah'a güzel bir borç verirseniz kötülüklerinizi örteceğim ve cennetlere sokacağım"	sonuc
+K3b	zekat	5:55	5:55	-	✓	"Gönül dostunuz Allah, resulü ve rükû eder halde namazı kılıp zekâtı verenlerdir"	tanim
+K3b	infak	8:3	8:3	-	✓	"Gerçek müminler: rızık olarak verdiklerimizden bol bol dağıtırlar"	tanim
+K3b	infak	8:36	8:36	hasret	✓	"Küfre sapanlar mallarını Allah yolundan alıkoymak için harcar; bu kendileri için hasret olacak"	sonuc
+K3c	zekat	9:11	9:11	-	✓	"Tövbe edip namazı kılar, zekâtı verirlerse dinde kardeşlerinizdirler"	sonuc
+K3c	zekat	9:18	9:18	hidayet	✓	"Mescitleri namazı kılan, zekâtı veren müminler onarır; hidayete erenlerden olmaları beklenir"	sonuc
+K3c	kenz	9:34	9:35	cehennem_azabi	✓	"Altını ve gümüşü depolayıp Allah yolunda harcamayanlara acıklı azap; cehennem ateşinde alınları, böğürleri, sırtları dağlanır"	sonuc
+K3c	infak	9:54	9:54	amel_bosa	✓	"İnfaklarının kabul edilmesini engelleyen: Allah'a ve resulüne nankörlük, namaza üşenerek gelme, infakı içlerinden gelmeyerek verme"	sonuc
+K3c	sadaka	9:60	9:60	-	✓	"Sadakalar Allah'tan bir farz olarak fakirler, düşkünler, memurlar, kalpleri ısındırılacaklar, köleler, borçlular, Allah yolu ve yolda kalanlar içindir"	tanim
+K3c	cimrilik	9:67	9:68	gazab_lanet_cehennem	✓	"İkiyüzlüler harcamamak için ellerini sıkarlar; Allah cehennem ateşini vaat etti, lanet etti"	sonuc
+K3c	zekat	9:71	9:71	rahmet	✓	"Mümin erkekler ve kadınlar namazı kılar, zekâtı verir; Allah onlara rahmet edecek"	sonuc
+K3c	cimrilik	9:76	9:77	nifak_yerlestirme	✓	"Lütfundan verilince cimrilik ederek yüz çevirdiler; Allah kalplerine ikiyüzlülük yerleştirdi"	sonuc
+K3c	sadaka	9:79	9:79	maskaraya_cevirme	✓	"Sadakalarda içten cömertlik gösteren müminlere laf atanları Allah maskaraya çevirecektir"	sonuc
+K3c	infak	9:99	9:99	rahmet	✓	"Harcadığını Allah yanında yakınlığa vesile edinenleri Allah rahmetine sokacak"	sonuc
+K3c	sadaka	9:103	9:103	arinma	✓	"Bunların mallarından bir sadaka al ki onunla kendilerini temizleyip aklayasın"	emir
+K3c	sadaka	9:104	9:104	-	✓	"Tövbeyi kabul eden, sadakaları alan Allah'tır"	tanim
+K3c	infak	9:121	9:121	karsilik	✓	"Küçük büyük infakları lehlerine yazılır; Allah yaptıklarından daha güzeliyle karşılık verir"	sonuc
+K3c	infak	13:22	13:22	akibet	✓	"Rızıklardan gizli ve açık dağıtanlar: ölümsüz yurdun sonu bunlar içindir"	sonuc
+K3c	infak	14:31	14:31	-	✓	"İnanan kullarıma söyle: rızıklardan, alışverişin olmadığı gün gelmeden gizli ve açık infak etsinler"	emir
+K3c	cimrilik	17:100	17:100	-	✓	"Rahmet hazinelerine sahip olsaydınız harcanır biter korkusuyla cimri davranırdınız; insan çok cimridir"	tanim
+K3d	zekat	19:31	19:31	-	✓	"İsâ: Yaşadığım sürece bana namazı, zekâtı önerdi"	tanim
+K3d	zekat	19:55	19:55	rıza	✓	"İsmail ailesine namazı, zekâtı emrederdi; Rabbi katında hoşnutluk kazanmıştı"	sonuc
+K3d	zekat	21:73	21:73	-	✓	"Onlara iyilikler yapmayı, namaz kılmayı, zekât vermeyi vahyettik"	tanim
+K3d	infak	22:35	22:35	-	✓	"Kalpleri titreyen, sabreden, namazı gözeten, verilen rızıklardan infak eden insanlar"	tanim
+K3d	zekat	22:41	22:41	-	✓	"Yeryüzünde imkân verilirse namazı kılar, zekâtı verirler"	tanim
+K3d	zekat	23:4	23:4	-	✓	"Zekâtı vermek için faaliyettedirler (müminler)"	tanim
+K3d	zekat	24:37	24:38	artirma	✓	"Ticaret zekât vermekten alıkoyamaz; Allah yaptıklarının en güzelini verir, lütfundan artışlar sağlar"	sonuc
+K3d	zekat	24:56	24:56	rahmet	✓	"Namazı kılın, zekâtı verin, resule itaat edin ki rahmete erdirilesiniz"	emir
+K3d	infak	25:67	25:67	-	✓	"Harcadıkları zaman ne savurganlığa saparlar ne cimrilik ederler; ikisi arasında bir denge"	tanim
+K3d	zekat	27:3	27:3	-	✓	"O müminler namazı kılar, zekâtı verirler"	tanim
+K3d	infak	28:54	28:54	ecir	✓	"Rızıktan infak edenlere ödülleri iki kez verilir"	sonuc
+K3d	zekat	30:39	30:39	kat_kat	✓	"Allah'ın yüzünü isteyerek verilen zekâtı verenler kat kat artıranların ta kendileridir"	sonuc
+K3d	zekat	31:4	31:5	felah	✓	"Namazı kılan, zekâtı verenler: gerçek kurtuluşu bulanlar"	sonuc
+K3d	infak	32:16	32:17	goz_aydinligi	✓	"Verilen rızıklardan dağıtanlar için gizlenmiş göz aydınlığı vardır"	sonuc
+K3d	zekat	33:33	33:33	-	✓	"Peygamber hanımlarına: namazı kılın, zekâtı verin"	emir
+K3d	sadaka	33:35	33:35	magfiret_ecir	✓	"Sadaka veren erkekler ve kadınlar için Allah bir affediş ve büyük ödül hazırlamıştır"	sonuc
+K3d	infak	34:39	34:39	yerine_konma	✓	"Bir şey infak ederseniz O onun yerine başka bir şey lütfeder"	sonuc
+K3d	infak	35:29	35:30	ecir	✓	"Gizli ve açık infak edenler asla batmayacak bir ticaret umabilirler; ecirlerini tam verecek"	sonuc
+K3e	infak	36:47	36:47	-	✓	"Allah'ın lütfettiği rızıklardan dağıtın denince nankörler: biz mi doyuracağız?"	tanim
+K3e	zekat	41:7	41:7	-	✓	"Onlar zekâtı vermezler; ölüm sonrası hayatı inkâr edenler de onlardır"	tanim
+K3e	infak	42:38	42:38	-	✓	"Rablerinin çağrısına cevap verir, namazı kılar, rızıklardan infak ederler"	tanim
+K3e	cimrilik	47:38	47:38	-	✓	"Allah yolunda harcamaya çağırılırsınız; cimrilik eden kendi aleyhine cimrileşmiş olur"	tanim
+K3e	infak	57:7	57:7	ecir	✓	"Allah'a ve resulüne iman edin; sizi mirasçı kıldığı şeylerden başkalarına bol bol verin; infak edenlere büyük ödül"	emir
+K3e	infak	57:10	57:10	derece	✓	"Allah yolunda harcama yapmanıza engel ne var? Fetihten önce infak edenler sonradan edenlerle bir değildir; derece bakımından üstündürler"	emir
+K3e	karz	57:11	57:11	kat_kat	✓	"Allah'a kim güzel bir borç verecek ki, O verdiğini kat kat artırsın; onur verici ödül"	emir
+K3e	sadaka	57:18	57:18	kat_kat	✓	"Sadaka veren erkek ve kadınlar ile Allah'a güzel borç verenler için karşılıklar kat kat yapılır"	sonuc
+K3e	karz	57:18	57:18	kat_kat	✓	"Allah'a güzelce borç verenler için karşılıklar kat kat yapılır"	sonuc
+K3e	cimrilik	57:24	57:24	-	✓	"Cimrilik eden, insanlara da cimriliği emreden kişiler; yüz çeviren bilsin ki Allah Ganî, Hamîd'dir"	tanim
+K3e	sadaka	58:12	58:12	-	✓	"Resulle gizlice konuşmadan önce bir sadaka verin; bu daha hayırlı ve daha temizdir"	emir
+K3e	zekat	58:13	58:13	-	✓	"Namazı kılın, zekâtı verin, Allah'a ve resulüne itaat edin"	emir
+K3e	cimrilik	59:9	59:9	felah	✓	"Nefsinin cimriliğinden (şuh) korunanlar kurtuluşa erenlerdir"	sonuc
+K3e	infak	63:7	63:7	-	✓	"Münafıklar: Allah resulünün yanındakilere infak edip bir şey vermeyin ki dağılıp gitsinler"	tanim
+K3e	infak	63:10	63:10	-	✓	"Ölüm gelmeden önce size rızık olarak verdiklerimizden infak edin"	emir
+K3e	infak	64:16	64:16	felah	✓	"Benlikleriniz için bir hayır olarak infakta bulunun; nefsinin cimriliğinden korunanlar kurtuluşa erenlerdir"	emir
+K3e	cimrilik	64:16	64:16	felah	✓	"Nefsinin cimrilik ve doymazlığından korunanlar kurtuluşa erenlerin ta kendileridir"	sonuc
+K3e	karz	64:17	64:17	kat_kat	✓	"Allah'a gönül hoşluğuyla borç verirseniz katlayarak artırır ve hatalarınızı bağışlar"	sonuc
+K3e	infak	65:7	65:7	-	✓	"Geniş imkâna sahip olan geniş imkânından, rızkı ölçülü olan da verdiğinden infak etsin"	emir
+K3e	cimrilik	92:8	92:8	-	✓	"Kim cimriliğe sapar ve kendisini ihtiyaçların üstünde görür, güzelliği yalanlarsa (en zoru kolaylayacağız)"	tanim
+K3e	zekat	98:5	98:5	-	✓	"Sadece Allah'a ibadet etmeleri, namazı kılmaları, zekâtı vermeleri emredilmişti"	tanim
+K3e	zekat	73:20	73:20	daha_hayirlisi	✓	"Namazı kılın, zekâtı verin, Allah'a güzel borç verin; önden gönderdiğiniz hayır Allah katında daha hayırlıdır"	emir
+K3e	karz	73:20	73:20	daha_hayirlisi	✓	"Allah'a güzel borç verin"	emir
+K3f	zekat	7:156	7:156	rahmet	✓	"Rahmetimi sakınıp korunanlara, zekâtı verenlere ve ayetlerimize inananlara yazacağım"	sonuc
+K3f	zekat	9:5	9:5	-	✓	"Tövbe eder, namazı kılar, zekâtı verirlerse yollarını serbest bırakın"	tanim
+K3f	infak	9:53	9:54	amel_bosa	✓	"İster gönüllü ister zorla infak edin, sizden asla kabul edilmeyecektir"	sonuc
+K3f	infak	9:98	9:98	-	✓	"Çöl Araplarından öylesi vardır ki infak ettiğini bir angarya/ceza ödeme sayar"	tanim
+K3f	zekat	22:78	22:78	-	✓	"Namazı kılın, zekâtı verin, Allah'a sımsıkı sarılın"	emir
+K3f	infak	2:273	2:273	-	✓	"İnfak edilenler Allah yolunda kapanıp kalmış yoksullar içindir"	tanim

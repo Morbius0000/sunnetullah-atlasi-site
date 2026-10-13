@@ -76,6 +76,23 @@ export const konu02 = {
   ],
 };
 
+export const konu03 = {
+  giris: 'Bu bölüm, Kur\'an\'ın malı harcama konusundaki buyruklarını toplar: infak, sadaka, zekât, Allah\'a güzel borç verme ve bunların karşıtı olan cimrilik ile altın-gümüş biriktirme. Her kaydın türü işaretlidir: Emir (doğrudan buyruk), Yasak (doğrudan nehiy), Sonuç (davranış ve ayette yazılı karşılığı birlikte) ve Tanım (bir davranışın övgüyle ya da kınamayla anlatılması). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Doğrudan emir olarak yazılanlar {emir} ayettedir; doğrudan yasak olarak yazılanlar {yasak} ayettedir. Zekât için en açık emir "Namazı kılın, zekâtı verin" cümlesidir (Bakara 43, 110; Nûr 56; Müzzemmil 20). İnfak emri için Bakara 254, 267; Münâfikûn 10; Teğâbün 16; Talâk 7. Başa kakmak sadakayı boşa çıkarır (Bakara 264).',
+    'İnfak ve sadaka başlıkları {infak} ayette, zekât başlığı {zekat} ayette, cimrilik ve biriktirme başlıkları {cimri} ayette işlenir. Kur\'an zekâtı çoğunlukla namazla birlikte anar; infakı çoğunlukla "kendilerine verdiğimiz rızıktan" kalıbıyla müminlerin niteliği olarak anlatır (Bakara 3, Enfâl 3, Secde 16, Şûrâ 38).',
+    'Ayette karşılığı da bildirilen kayıtlar {karsilikli} ayettedir. Başlıca karşılıklar: kat kat artırma (Bakara 245, 261; Hadîd 11, 18; Teğâbün 17), ecir (Bakara 262, 274, 277), cimrilik edene ya da biriktirip harcamayana azap (Âl-i İmrân 180; Tevbe 34-35) Ayet karşılık yazmıyorsa bu sayfa da karşılık yazmaz.',
+    'Bu bölüm Konu 2 (yetim, yoksul, akraba), Konu 8 (cennete götüren nitelikler) ve Konu 6 (israf) ile kısmen örtüşür. Sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: Arapça metinde şu kökler arandı: nfk (infak ve türevleri; münafıklık fiilleri de aynı yazıldığı için okuma sırasında ayıklandı), zkv (zekât), sdk (sadaka, tasaddak), krd (karz), bhl ve şhh (cimrilik), knz (biriktirme). Tarama {hedef} ayet verdi.',
+    'Hedef ayetler önceki ve sonraki 1 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Hedef listesinde olup kayda girmeyen ayetlerin çoğu münafıklara ilişkin ayetlerdir (aynı yazım) ya da infakın yalnız anıldığı, bir buyruk ya da karşılık taşımayan kıssa ayetleridir.',
+    'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu.',
+    'Kapsam dışı bırakılanlar: ribâ ve ölçü (Konu 5), israf ve savurganlık (Konu 6), miras payları, yetim malı, sadaka niteliğindeki keffâretler (yoksulu doyurmak Konu 2\'de), zekât kelimesinin arınma anlamında geçtiği ayetler (Meryem 13, Kehf 81). Zekâtın miktarı, nisabı ve zamanı Kur\'an\'da bu ayetlerde bildirilmez; bu sayfa da bildirmez.',
+    'Bilinen sınırlar: Tevbe 60\'taki sekiz grup "sadakalar" ibaresiyle sayılır; bu sayfa o ayeti "sadaka" başlığı altında tanım olarak kaydeder. Tevbe 34\'te "altını ve gümüşü biriktirip Allah yolunda harcamayanlar" için karşılık 35. ayette devam eder; kayıt iki ayete bağlanmıştır.',
+  ],
+};
+
 export const konu04 = {
   giris: 'Bu bölüm, Allah\'a ortak koşmak ve ayetleri yalanlamak hakkında Kur\'an\'ın doğrudan emirlerini ve yasaklarını, bu iki tutumun ayette nasıl adlandırıldığını ve ayetin kendisinde bildirilen karşılıkları toplar. Her kaydın türü işaretlidir: Yasak (doğrudan nehiy), Emir (doğrudan buyruk), Sonuç (tutum ile karşılığı ya da kınama aynı yerde) ve Tanım (tutumun nasıl adlandırıldığı ya da tarif edildiği). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
   kisa: [
