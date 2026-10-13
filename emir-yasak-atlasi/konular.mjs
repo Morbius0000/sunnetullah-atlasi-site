@@ -15,7 +15,7 @@ export const konular = [
   { no: 7, grup: 'B', ad: 'Helal ve haram', ozet: 'Yiyecek-içecek ve evlilikte helal ve haram kılınanlar, Allah\'a iftira sayılan kendiliğinden haramlaştırma: emirler, yasaklar ve ayette bildirilen karşılıklar.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },
   { no: 8, grup: 'C', ad: 'Cennete götüren nitelikler', ozet: 'Kur\'an\'ın cennete ve Allah\'ın ödülüne bağladığı nitelik ve davranışlar.', hazir: true, vurgu: { ad: 'Yalnız cennet', alan: 'odul', deger: 'cennet', sayim: 'doğrudan cennet' } },
   { no: 9, grup: 'C', ad: 'Cehenneme götüren davranışlar', ozet: 'Kur\'an\'ın ateşe ve azaba bağladığı tutum ve davranışlar.', hazir: true, vurgu: { ad: 'Yalnız cehennem/ateş', alan: 'tur', deger: 'nar', sayim: 'doğrudan ateş' } },
-  { no: 10, grup: 'C', ad: 'Karşılığın kuralları', ozet: 'Zerre ağırlığı, tevbe ve bağışlanma, bağışlanmayacak günah, derece farkları.' },
+  { no: 10, grup: 'C', ad: 'Karşılığın kuralları', ozet: 'Zerre ağırlığı, tevbe ve bağışlanma, bağışlanmayacak günah, derece farkları.', hazir: true, vurgu: { ad: 'Yalnız sonuç kayıtları', alan: 'kayit_tur', deger: ['sonuc'], sayim: 'davranış-karşılık sonucu' } },
   { no: 11, grup: 'D', ad: 'Allah\'ın sevdikleri ve sevmedikleri', ozet: '"Yuhibbu" ve "lâ yuhibbu" ifadeleri.' },
   { no: 12, grup: 'D', ad: 'Günah sınıfları', ozet: 'Kebâir, fahşâ, lemem, ism, zulüm, fısk.' },
 ];

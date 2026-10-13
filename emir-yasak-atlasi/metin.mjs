@@ -160,3 +160,19 @@ export const konu07 = {
     'Bilinen sınırlar: Bakara 219\'da şarap ve kumar için "büyük günah" denir, doğrudan "haram kıldı" denmez; Mâide 90-91 "uzak durun" buyruğunu ve gerekçesini verir. Nahl 67\'de "sarhoş edici içecek" ile "güzel rızık" birlikte anılır, hüküm yazılmaz. Mâide 5 ve Nisâ 24\'teki bazı şartlar (mehir, iffet, zina etmeme) kayıtta hükmün parçası olarak tutuldu. Peygamber\'e özgü evlilik hükümleri (Ahzâb 50, 52) ayrı işaretlendi. Boşanma ve iddet hükümlerinin tamamı bu sayfada yoktur; yalnız helal, haram ve yasak kalıbıyla yazılanlar alındı.',
   ],
 };
+
+export const konu10 = {
+  giris: 'Bu bölüm, Kur\'an\'ın karşılığın nasıl işlediğine dair koyduğu kuralları toplar: tövbenin kabulü ve koşulu, bağışlanmayacağı bildirilen durumlar, zerre ağırlığınca hesap, kötülüğe kendi miktarınca karşılık, zulmün olmaması, derece farkları, bireysel sorumluluk ve amellerin boşa çıkması. Her kaydın türü işaretlidir: Sonuç (davranış ve karşılığı birlikte), Tanım (kuralın ya da Allah\'ın bir adının bildirilmesi), Emir ve Yasak. Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Tövbe başlıkları {tevbe} ayette işlenir. Allah\'ın tövbeyi kabul ettiği ve Tevvâb adı birçok ayette doğrudan bildirilir; tövbenin yanında çoğunlukla iman, iyi iş ya da hâlini düzeltme anılır (ör. Furkân 70-71, Meryem 60).',
+    'Bağışlanmayacağı açıkça bildirilen durumlar {bagis} ayette kayıtlıdır (ör. Tevbe 80, Münâfikûn 6, Muhammed 34). Bu ayetler belirli kişi ve topluluklar hakkındadır; her biri kendi bağlamında okunmalıdır.',
+    'Ölçü ve adalet başlıkları {olcu} ayettedir: zerre ağırlığınca hesap ({zerre} ayet), zulmün olmaması ya da karşılığın tam verilmesi ({zulum} ayet). Zilzâl 7-8 ve Enbiyâ 47 bunların en bilinenleridir.',
+    'Derece, eşitsizlik, bireysel sorumluluk ve amellerin boşa çıkması {derece_g} ayettedir; yalnız sorumluluk {sorumluluk}, amellerin boşa çıkması {bosa} ayettir. "Hiçbir günahkâr başkasının yükünü taşımaz" cümlesi birkaç yerde tekrar eder (En\'âm 164, İsrâ 15, Fâtır 18, Zümer 7, Necm 38).',
+    'Ayette karşılığı da yazılan kayıtlar {karsilikli} ayettedir. Bu konu Konu 8 (ödüller) ve Konu 9 (cezalar) ile kısmen örtüşür; sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: {hedef} ayet. Kullanılan Arapça işaretler: tövbe kökü ve Tevvâb, zerre ve misk\u00e2l, derece/derecât, kat kat ve iki kat kalıpları, "amelleri boşa", "zulüm yok" kalıpları, bağışlanmama ve sorumluluk kalıpları. Her hedef ayet, önceki ve sonraki ayetle birlikte okundu: {blok} pasaj, {okunan} ayet.',
+    'İkinci kontrol: hedef listesinde olup kayda girmeyen ayetler tek tek gözden geçirildi; bu geçişte eksik görülen ayetler eklendi. Çoğu kayda girmeyen ayet kıssa anlatısı, dua ya da kuralı söylemeyen bir bağlamdır.',
+    'Bilinen sınırlar: Kur\'an\'da "dilerse bağışlar" kalıbı çok yaygındır; bu bölüm yalnız kuralı açıkça söyleyen ayetleri kaydeder. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Belirli bir davranışın bağışlanıp bağışlanmayacağı sorusunun cevabı bu sayfadan çıkarılmamalıdır; ayetin kendi bağlamı esastır.',
+  ],
+};
