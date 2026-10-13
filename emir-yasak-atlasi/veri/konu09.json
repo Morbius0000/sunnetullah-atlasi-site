@@ -1747,9 +1747,9 @@
 "nitelik_ayet": "23:74",
 "odul_ayet": "23:77",
 "odul": "azap_siddetli",
-"derece": "?",
+"derece": "→",
 "ham": "ahirete_inanmama",
-"not_": "23:74 ahirete inanmayanlar; 23:77 azap kapısı açılınca ümitsizlik. Özne geçişi açık değil"
+"not_": "23:74 ahirete inanmayanlar; 23:75-77 aynı zamirle (hum) devam: \"azapla yakaladık... şiddetli azap kapısı açılınca ümitsizliğe düşerler\" — bağlamsal zamir bağı"
 },
 {
 "blok": "B113",
@@ -6818,11 +6818,20 @@
 {
 "blok": "B233",
 "nitelik_ayet": "83:3",
+"odul_ayet": "83:1",
+"odul": "vay",
+"derece": "✓",
+"ham": "olcude_eksiltme",
+"not_": "83:1 \"Vay/azap olsun ölçüde hile yapanlara (el-mutaffifîn)\"; 83:2-3 onları tanımlar: alırken tam alır, verirken eksiltirler"
+},
+{
+"blok": "B233",
+"nitelik_ayet": "83:3",
 "odul_ayet": "83:7",
 "odul": "siccin",
 "derece": "→",
 "ham": "olcude_eksiltme",
-"not_": "83:3 tartıp ölçerken eksiltenler; 83:7 \"Hayır... rezilliğe batmışların kitabı\" (83:1 pasaj dışı, kök kontrolünde bakılacak)"
+"not_": "83:7 \"Hayır! Fâcirlerin kitabı Siccîn'dedir\" — mutaffifîn ile fâcirler aynı pasajda; özdeşlik açıkça söylenmez"
 }
 ]
 },
@@ -7042,9 +7051,9 @@
 "nitelik_ayet": "48:10",
 "odul_ayet": "48:10",
 "odul": "kendi_aleyhine",
-"derece": "?",
+"derece": "✓",
 "ham": "ahdi_bozma",
-"not_": "\"Kim ahdi bozar, döneklik ederse kendi aleyhine döneklik etmiş olur\"; ceza adlandırılmaz"
+"not_": "\"Kim ahdi bozarsa ancak kendi aleyhine bozar\" (fe-innemâ yenküsü alâ nefsihî); sonuç bozanın kendisine döner, ayrı bir ceza adı verilmez"
 },
 {
 "blok": "B203",
@@ -10781,6 +10790,10 @@
 "ar": "وَإِنَّ ٱلْفُجَّارَ لَفِى جَحِيمٍ",
 "tr": "Kötülerse cehennemin ta ortasında."
 },
+"83:1": {
+"ar": "وَيْلٌ لِّلْمُطَفِّفِينَ",
+"tr": "Azap ve kaygı, tartıda ve ölçüde hile yapanlara olsun;"
+},
 "83:3": {
 "ar": "وَإِذَا كَالُوهُمْ أَو وَّزَنُوهُمْ يُخْسِرُونَ",
 "tr": "Onlara vermek üzere tartıp ölçtükleri zaman, eksiltmeye giderler."
@@ -10975,12 +10988,12 @@
 }
 },
 "istatistik": {
-"kayit": 784,
-"ayet": 818,
+"kayit": 785,
+"ayet": 819,
 "derece": {
-"✓": 724,
-"→": 53,
-"?": 7
+"✓": 726,
+"→": 54,
+"?": 5
 }
 }
 }

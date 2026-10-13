@@ -420,7 +420,7 @@ B106	resulleri_yalanlama	23:48	23:48	helak	✓	Firavun ve kodamanları: "yalanla
 B107	israf	23:64	23:64	azap_genel	✓	servet ve refahla şımarmışlar azapla yakalanır (mütref)
 B107	ayetlerden_yuz_cevirme	23:66	23:65	yardimsizlik	→	23:65 "kimseden yardım göremezsiniz"; 23:66-67 yüz çevirme ve büyüklük, aynı konuşmada
 B107	kibir	23:67	23:65	yardimsizlik	→
-B108	ahirete_inanmama	23:74	23:77	azap_siddetli	?	23:74 ahirete inanmayanlar; 23:77 azap kapısı açılınca ümitsizlik. Özne geçişi açık değil
+B108	ahirete_inanmama	23:74	23:77	azap_siddetli	→	23:74 ahirete inanmayanlar; 23:75-77 aynı zamirle (hum) devam: "azapla yakaladık... şiddetli azap kapısı açılınca ümitsizliğe düşerler" — bağlamsal zamir bağı
 B109	mizan_hafif	23:103	23:103	cehennem	✓	"tartıları hafif gelenler... sürekli cehennemde kalanlar"
 B109	ayetleri_yalanlama	23:105	23:104	nar	✓	"ayetlerim size okunmadı mı, yalanlıyordunuz" (23:104 ateş yüzlerini yalar)
 B110	zina	24:2	24:2	celde_100	✓	dünyevî had; yüz vuruş
@@ -638,7 +638,7 @@ B183	hidayet_belli_olduktan_sonra_donme	47:25	47:25	seytan_susleme	✓	"şeytan 
 B184	allah_hakkinda_kotu_zan	48:6	48:6	gazab_lanet_cehennem	✓	"Allah onlara öfkelenmiş, lanetlemiş ve kendilerine cehennem hazırlamıştır"
 B184	cirkin_sani	48:12	48:12	mahvolma	✓	"çirkin bir sanıya saplandınız ve mahvolmuş bir topluluk haline geldiniz"
 B184	allaha_ve_resulune_iman_etmeme	48:13	48:13	nar_alevli	✓	"inkârcılar için alevli bir ateş hazırladık"
-B184	ahdi_bozma	48:10	48:10	kendi_aleyhine	?	"Kim ahdi bozar, döneklik ederse kendi aleyhine döneklik etmiş olur"; ceza adlandırılmaz
+B184	ahdi_bozma	48:10	48:10	kendi_aleyhine	✓	"Kim ahdi bozarsa ancak kendi aleyhine bozar" (fe-innemâ yenküsü alâ nefsihî); sonuç bozanın kendisine döner, ayrı bir ceza adı verilmez
 B184	yuz_cevirme_savastan	48:16	48:16	azap_elim	✓	"yüz çevirirseniz, Allah sizi acıklı bir azapla cezalandırır"
 B184	allaha_ve_resulune_itaatsizlik_yuz_cevirme	48:17	48:17	azap_elim	✓	"Kim de yüz çevirirse, Allah onu acıklı bir azapla cezalandırır"
 B184	mescid_i_haramdan_alikoyma	48:25	48:25	azap_elim	✓	küfre sapıp Mescid-i Haram'dan çevirenler: "ayrılsalardı acıklı azapla cezalandırırdık" (koşullu)
@@ -735,7 +735,7 @@ B230	dunya_hayatini_yeglemek	79:38	79:39	cehennem	✓	"iğreti hayatı yeğlemi�
 B232	kotuluk_fucur	82:14	82:14	cehennem	✓	"Kötülerse cehennemin ta ortasında"
 B233	din_gununu_yalanlama	83:11	83:10	vay	✓	"Vay haline o gün, yalanlayanların. Onlar ki din gününü yalanlarlar"
 B233	fucur_rezillik	83:7	83:7	siccin	✓	"Rezilliğe batmışların kitabı Siccîn'in ta içindedir"
-B233	olcude_eksiltme	83:3	83:7	siccin	→	83:3 tartıp ölçerken eksiltenler; 83:7 "Hayır... rezilliğe batmışların kitabı" (83:1 pasaj dışı, kök kontrolünde bakılacak)
+B233	olcude_eksiltme	83:3	83:1	vay	✓	83:1 "Vay/azap olsun ölçüde hile yapanlara (el-mutaffifîn)"; 83:2-3 onları tanımlar: alırken tam alır, verirken eksiltirler
 B233	gunaha_batmis_azgin_yalanlama	83:12	83:16	cehennem	✓	"Onu ancak her şımarıp azmış, günaha batmış yalanlar... mutlaka cehenneme dalacaklardır"
 B233	kazandiklarinin_kalp_pasi	83:14	83:15	perdelenme	✓	"kazanmakta oldukları kalplerinin üstünde pas oluşturmuştur... Rablerine karşı perdelenmişlerdir"
 B234	ahireti_inkar_ve_ailesinde_sevinc	84:13	84:12	nar	✓	"kitabı arkadan verilen... korkunç ateşe girecektir. O, ailesi içinde sevinçli idi; dönmeyeceğini sanmıştı"
@@ -783,3 +783,5 @@ ZY	ayetleri_yalanlama_tevrati_tasimama	62:5	62:5	hidayet_edilmeme	✓	"Allah, zu
 ZY	mal_ve_evladin_zikirden_alikoymasi	63:9	63:9	husran	✓	"Böyle bir şey yapanlar hüsrana uğramışların ta kendileridir"
 ZY	kotuluk_getirme	28:84	28:84	denk_ceza	✓	"kötülükleri yapanlar yapmış olduklarından fazlasıyla cezalandırılmayacaklardır" (Topic 10 ilkesi)
 ZY	kotuluk_sergileme	53:31	53:31	cezalandirma	✓	"Allah'ın kötülük sergileyenleri cezalandırması"
+
+B233	olcude_eksiltme	83:3	83:7	siccin	→	83:7 "Hayır! Fâcirlerin kitabı Siccîn'dedir" — mutaffifîn ile fâcirler aynı pasajda; özdeşlik açıkça söylenmez
