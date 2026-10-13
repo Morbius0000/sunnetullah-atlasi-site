@@ -176,3 +176,18 @@ export const konu10 = {
     'Bilinen sınırlar: Kur\'an\'da "dilerse bağışlar" kalıbı çok yaygındır; bu bölüm yalnız kuralı açıkça söyleyen ayetleri kaydeder. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Belirli bir davranışın bağışlanıp bağışlanmayacağı sorusunun cevabı bu sayfadan çıkarılmamalıdır; ayetin kendi bağlamı esastır.',
   ],
 };
+
+export const konu11 = {
+  giris: 'Bu bölüm, Kur\'an\'da Allah\'ın sevdiğini ("yuhibbu") ve sevmediğini ("lâ yuhibbu") açıkça bildirdiği tutum ve kişileri toplar; ayrıca insanın sevgisi, Vedûd adı ve Allah\'ın koyduğu sevgi de ayrı başlıklarda gösterilir. Her kaydın türü işaretlidir: Emir, Yasak, Sonuç (tutum ve sevgi bildirimi birlikte) ve Tanım (bir sevgi ya da sevginin anlatılması). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Allah\'ın sevdiğini bildirdiği başlık {sever} ayette, sevmediğini bildirdiği başlık {sevmez} ayettedir. Sevdikleri arasında güzel davrananlar (muhsinûn), sakınanlar, sabredenler, tevekkül edenler, tövbe edenler, temizlenenler, adaletle hükmedenler ve saf bağlayıp çarpışanlar anılır.',
+    'Sevmediği tutumlar arasında sınırı aşmak, fesat, israf, zulüm, hainlik, nankörlük, kibir ve böbürlenme, şımarıklık, övünmek ve çirkin sözün açıklanması anılır. Bunların bir bölümü ayette doğrudan emir ya da yasakla birlikte gelir (emir: {emir}, yasak: {yasak} ayet).',
+    'İnsanın sevgisi {insan} ayette işlenir: Allah\'ı sevmek ve sevilmek (Âl-i İmrân 31, Mâide 54), malı ve dünyayı sevmek, inkârı sevmek, sevdiğinden infak etmek. Vedûd adı ve Allah\'ın koyduğu sevgi {vedud} ayettedir.',
+    'Bu bölüm Konu 6 (kibir, israf), Konu 8 (ödüller) ve Konu 9 (cezalar) ile kısmen örtüşür. Sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: {hedef} ayet. Kullanılan Arapça işaretler: "hubb" kökünün fiil ve isim biçimleri (yuhibbu, tuhibbûn, ahabbe, hubb vb.) ile vedûd, vüdd, mevedde. Her hedef ayet, önceki ve sonraki ayetle birlikte okundu: {blok} pasaj, {okunan} ayet.',
+    'İkinci kontrol: kaydın başlığına giren her ayette sevgi kökü mekanik olarak arandı; eksik görülen üç ayet (Mâide 64, Nisâ 36, En\'âm 141) ve birkaç ayet daha eklendi. Hedef listesinde olup kayda girmeyen ayetler çoğunlukla "hubb" kökü taşımayan, başka anlamda ("ister mi", "dâne") kullanılan kelimelerdir.',
+    'Bilinen sınırlar: "sevmek" burada ayetin lafzındaki fiilden alınır; sevgi bildirilmeyen bir tutumun "sevilmediği" sonucu çıkarılmaz. Allah\'ın bir tutumu sevmediğinin bildirilmemesi onu sevdiği anlamına da gelmez. Kelime bazlı tarama bir ayeti kaçırmış olabilir.',
+  ],
+};

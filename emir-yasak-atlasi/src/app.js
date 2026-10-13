@@ -49,7 +49,7 @@
   function render(k, d) {
     const T = M.metin[k.no], O = M.ozet[k.no], V = k.vurgu;
     const hit = r => V.alan === 'kayit_tur' ? V.deger.includes(r.tur) : V.alan === 'tur' ? M.odulTur[r.odul] === V.deger : r.odul === V.deger;
-    const neg = [9, 4, 5, 6, 7].includes(k.no), tk = [1, 2, 3, 4, 5, 6, 7, 10].includes(k.no);
+    const neg = [9, 4, 5, 6, 7].includes(k.no), tk = [1, 2, 3, 4, 5, 6, 7, 10, 11].includes(k.no);
     const TUR = { yasak: 'Yasak', emir: 'Emir', sonuc: 'Sonuç', tanim: 'Tanım' };
     const grps = [...new Set(d.nitelikler.map(n => n.grup))];
     const max = Math.max(...d.nitelikler.map(n => n.ayet_sayisi));
@@ -58,7 +58,7 @@
       <div class="card answer"><h3 style="margin-bottom:10px">Kısa cevap</h3><ul>${T.kisa.map(s => `<li>${esc(s)}</li>`).join('')}</ul>
         <div class="stats"><div class="stat"><b>${O.nitelik}</b><span>${neg ? 'davranış başlığı' : 'nitelik başlığı'}</span></div><div class="stat"><b>${O.kayit}</b><span>okuma kaydı</span></div><div class="stat"><b>${O.ayet}</b><span>gösterilen ayet</span></div><div class="stat"><b>${O.derece['✓']}</b><span>✓ ayette yazılı</span></div><div class="stat"><b>${O.derece['→'] + O.derece['?']}</b><span>→ çıkarım / ? açık</span></div></div>
         <div class="legend">${Object.values(MK).map(([c, s, t]) => `<span><i class="mk ${c}">${s}</i>${t}</span>`).join('')}</div></div>
-      <div class="finder"><label>${neg ? 'Davranış' : 'Nitelik'} ya da ayet ara<input id="q" type="search" placeholder="${neg ? (k.no === 4 ? 'ör. ortak koşma, yasak, 2:22, Nûh' : k.no === 5 ? 'ör. ribâ, zina, yetim, 4:29, Şuayb' : k.no === 6 ? 'ör. iftira, alay, gıybet, 49:11, israf' : k.no === 7 ? 'ör. domuz, şarap, 4:23, av, nikâh' : 'ör. kibir, zulüm, 2:6, Hûd') : (k.no === 10 ? 'ör. tövbe, zerre, bağışlanmaz, 99:7, derece' : k.no === 3 ? 'ör. infak, zekât, sadaka, 2:261, cimrilik' : k.no === 2 ? 'ör. anne-baba, yetim, miskin, 4:36, komşu' : k.no === 1 ? 'ör. kulluk, adalet, ahit, 4:58, emanet' : 'ör. sabır, infak, 23:5, Furkân')}" autocomplete="off"></label><button class="btn" id="clr" type="button">Temizle</button></div>
+      <div class="finder"><label>${neg ? 'Davranış' : 'Nitelik'} ya da ayet ara<input id="q" type="search" placeholder="${neg ? (k.no === 4 ? 'ör. ortak koşma, yasak, 2:22, Nûh' : k.no === 5 ? 'ör. ribâ, zina, yetim, 4:29, Şuayb' : k.no === 6 ? 'ör. iftira, alay, gıybet, 49:11, israf' : k.no === 7 ? 'ör. domuz, şarap, 4:23, av, nikâh' : 'ör. kibir, zulüm, 2:6, Hûd') : (k.no === 11 ? 'ör. sever, sevmez, israf, 2:195, Vedûd' : k.no === 10 ? 'ör. tövbe, zerre, bağışlanmaz, 99:7, derece' : k.no === 3 ? 'ör. infak, zekât, sadaka, 2:261, cimrilik' : k.no === 2 ? 'ör. anne-baba, yetim, miskin, 4:36, komşu' : k.no === 1 ? 'ör. kulluk, adalet, ahit, 4:58, emanet' : 'ör. sabır, infak, 23:5, Furkân')}" autocomplete="off"></label><button class="btn" id="clr" type="button">Temizle</button></div>
       <div class="chips" id="gchips"><button class="chip" aria-pressed="true" data-g="">Tümü</button>${grps.map(g => `<button class="chip" aria-pressed="false" data-g="${esc(g)}">${esc(g)} <span class="k">${d.nitelikler.filter(n => n.grup === g).length}</span></button>`).join('')}</div>
       <div class="chips"><button class="chip gold" id="onlyc" aria-pressed="false">${esc(V.ad)}</button><button class="chip" id="onlyy" aria-pressed="false">Yalnız ✓ ayette yazılı</button><button class="chip" id="openall" aria-pressed="false">Hepsini aç</button></div>
       <p id="count" role="status"></p><div id="list"></div>

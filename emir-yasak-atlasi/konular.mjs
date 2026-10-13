@@ -16,7 +16,7 @@ export const konular = [
   { no: 8, grup: 'C', ad: 'Cennete götüren nitelikler', ozet: 'Kur\'an\'ın cennete ve Allah\'ın ödülüne bağladığı nitelik ve davranışlar.', hazir: true, vurgu: { ad: 'Yalnız cennet', alan: 'odul', deger: 'cennet', sayim: 'doğrudan cennet' } },
   { no: 9, grup: 'C', ad: 'Cehenneme götüren davranışlar', ozet: 'Kur\'an\'ın ateşe ve azaba bağladığı tutum ve davranışlar.', hazir: true, vurgu: { ad: 'Yalnız cehennem/ateş', alan: 'tur', deger: 'nar', sayim: 'doğrudan ateş' } },
   { no: 10, grup: 'C', ad: 'Karşılığın kuralları', ozet: 'Zerre ağırlığı, tevbe ve bağışlanma, bağışlanmayacak günah, derece farkları.', hazir: true, vurgu: { ad: 'Yalnız sonuç kayıtları', alan: 'kayit_tur', deger: ['sonuc'], sayim: 'davranış-karşılık sonucu' } },
-  { no: 11, grup: 'D', ad: 'Allah\'ın sevdikleri ve sevmedikleri', ozet: '"Yuhibbu" ve "lâ yuhibbu" ifadeleri.' },
+  { no: 11, grup: 'D', ad: 'Allah\'ın sevdikleri ve sevmedikleri', ozet: '"Yuhibbu" ve "lâ yuhibbu" ifadeleri.', hazir: true, vurgu: { ad: 'Yalnız "sevmez"', alan: 'odul', deger: 'sevilmeme', sayim: 'Allah sevmez' } },
   { no: 12, grup: 'D', ad: 'Günah sınıfları', ozet: 'Kebâir, fahşâ, lemem, ism, zulüm, fısk.' },
 ];
 // Ödül türlerinin görünen adları (okuma kayıtlarındaki "odul" alanı).
