@@ -1,0 +1,1153 @@
+{
+"konu": 2,
+"baslik": "Aile ve toplum emirleri",
+"nitelikler": [
+{
+"id": "anne_baba",
+"grup": "Anne-baba ve akraba",
+"etiket": "Anne-babaya iyilik ve onlara karşı edep",
+"ayet_sayisi": 13,
+"kayitlar": [
+{
+"blok": "K2a",
+"nitelik_ayet": "2:83",
+"odul_ayet": "2:83",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"İsrailoğullarından söz: anne-babaya iyilik ve güzellikle davranın\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:180",
+"odul_ayet": "2:180",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"Ana-babaya, akrabaya örfe uygun vasiyette bulunmak üzerinize yazılandır\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:215",
+"odul_ayet": "2:215",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"İnfak edilecek mal ana-baba için olmalıdır\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:36",
+"odul_ayet": "4:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"Ana-babaya iyi ve güzel davranın\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "6:151",
+"odul_ayet": "6:151",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"Rabbinizin haram kıldığı: ... Ana-babaya çok iyi davranın\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "17:23",
+"odul_ayet": "17:23",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"Anaya babaya çok iyi davranın; onlara 'Öf!' bile deme, azarlama, tatlı ve iltifatlı söz söyle\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "17:24",
+"odul_ayet": "17:24",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"Onlar için rahmetten yerlere eğilme kanadını indir; 'Rabbim, merhametli davran onlara' de\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "19:14",
+"odul_ayet": "19:14",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "anne_baba",
+"not_": "\"Yahyâ ana-babasına iyilik eden biriydi\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "19:32",
+"odul_ayet": "19:32",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "anne_baba",
+"not_": "\"İsâ: Anneme iyilik etmemi önerdi\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "29:8",
+"odul_ayet": "29:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"İnsana anne babasına en güzel biçimde davranmasını önerdik\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "29:8",
+"odul_ayet": "29:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "anne_baba",
+"not_": "\"Seni ortak koşmaya zorlarlarsa onlara itaat etme\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "31:14",
+"odul_ayet": "31:14",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"Bana ve ana babana şükret\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "31:15",
+"odul_ayet": "31:15",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"Ortak koşman için zorlarlarsa onlara itaat etme; onlarla dünyada örfe uygun geç\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "46:15",
+"odul_ayet": "46:15",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "anne_baba",
+"not_": "\"İnsana anne babasına çok iyi davranmasını önerdik\""
+}
+]
+},
+{
+"id": "akraba",
+"grup": "Anne-baba ve akraba",
+"etiket": "Akrabaya hakkını vermek, rahimleri korumak, akrabalık bağını koparmamak",
+"ayet_sayisi": 19,
+"kayitlar": [
+{
+"blok": "K2a",
+"nitelik_ayet": "2:83",
+"odul_ayet": "2:83",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"İsrailoğullarından söz: akrabaya iyilik ve güzellikle davranın\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:177",
+"odul_ayet": "2:177",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "akraba",
+"not_": "\"Zafer ve mutluluğa erenler: akrabaya, yetimlere, çaresizlere malı seve seve verir\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:180",
+"odul_ayet": "2:180",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Ana-babaya, akrabaya örfe uygun vasiyette bulunmak üzerinize yazılandır\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:215",
+"odul_ayet": "2:215",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"İnfak edilecek mal yakınlar için olmalıdır\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:1",
+"odul_ayet": "4:1",
+"odul": "yok",
+"derece": "→",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Rahimlerin haklarına (dikkat edin)\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:8",
+"odul_ayet": "4:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Mirasın paylaşımında hısım-akraba hazırsa onları da rızıklandırın, güzel söz söyleyin\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:36",
+"odul_ayet": "4:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Akrabaya iyi ve güzel davranın\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "8:41",
+"odul_ayet": "8:41",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Ganimetin beşte biri Allah'a, resule, yakınlara, yetimlere, yoksullara, yolda kalana\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "8:75",
+"odul_ayet": "8:75",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "akraba",
+"not_": "\"Kan akrabaları Allah'ın Kitabı'na göre birbirlerine daha yakın dostturlar\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "9:113",
+"odul_ayet": "9:113",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "akraba",
+"not_": "\"Akraba bile olsalar, cehennem halkı oldukları belli olan müşrikler için af dilemek yakışmaz\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "16:90",
+"odul_ayet": "16:90",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Allah akrabaya vermeyi emreder\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "17:26",
+"odul_ayet": "17:26",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Akrabaya hakkını ver\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "24:22",
+"odul_ayet": "24:22",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "akraba",
+"not_": "\"Lütuf sahipleri akrabaya, çaresizlere bir şey vermemeye yemin etmesinler; affetsinler, hoş görsünler\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "26:214",
+"odul_ayet": "26:214",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"En yakın akraba ve hısımlarını uyar\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "30:38",
+"odul_ayet": "30:38",
+"odul": "felah",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Akrabaya hakkını ver; Allah'ın yüzünü isteyenler için hayırlıdır; işte kurtuluşa erenler\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "33:6",
+"odul_ayet": "33:6",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "akraba",
+"not_": "\"Anne tarafından akrabalar Allah'ın Kitabı'nda birbirlerine daha yakındır\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "42:23",
+"odul_ayet": "42:23",
+"odul": "yok",
+"derece": "?",
+"tur": "tanim",
+"ham": "akraba",
+"not_": "\"Yakın akrabamı sevmeniz dışında ücret istemiyorum (ifade çok anlamlı)\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "47:22",
+"odul_ayet": "47:23",
+"odul": "lanet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "akraba",
+"not_": "\"Ülkede fesat çıkarıp rahimleri parçalayanlara Allah lanet etmiştir\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "59:7",
+"odul_ayet": "59:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "akraba",
+"not_": "\"Fey malı Allah'a, Peygamber'e, yakınlara, yetimlere, yoksullara, yolda kalmışlara\""
+}
+]
+},
+{
+"id": "yetim",
+"grup": "Yetim, yoksul ve yolcu",
+"etiket": "Yetime iyilik ve yetimi örselememek",
+"ayet_sayisi": 15,
+"kayitlar": [
+{
+"blok": "K2a",
+"nitelik_ayet": "2:83",
+"odul_ayet": "2:83",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"İsrailoğullarından söz: yetimlere iyilik ve güzellikle davranın\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:177",
+"odul_ayet": "2:177",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yetim",
+"not_": "\"Yetimlere malı seve seve verir\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:215",
+"odul_ayet": "2:215",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"İnfak edilecek mal yetimler için olmalıdır\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:220",
+"odul_ayet": "2:220",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"Yetimleri işe yarar hale getirmek daha hayırlıdır; bir arada yaşarsanız kardeşlerinizdir\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:2",
+"odul_ayet": "4:2",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"Yetimlere mallarını verin\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:8",
+"odul_ayet": "4:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"Mirasın paylaşımında yetimler hazırsa onları da rızıklandırın, güzel söz söyleyin\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:36",
+"odul_ayet": "4:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"Yetim ve öksüzlere iyi ve güzel davranın\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "4:127",
+"odul_ayet": "4:127",
+"odul": "yok",
+"derece": "→",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"Yetimlere adaletle davranmanız (fetva)\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "8:41",
+"odul_ayet": "8:41",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"Ganimetin beşte biri yetimlere\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "59:7",
+"odul_ayet": "59:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yetim",
+"not_": "\"Fey malı yetimlere\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "76:8",
+"odul_ayet": "76:12",
+"odul": "cennet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yetim",
+"not_": "\"Yetime yemeği severek yedirirler; sabırlarına karşılık bahçe ve ipek\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "89:17",
+"odul_ayet": "89:17",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yetim",
+"not_": "\"Siz yetime ikramda bulunmuyorsunuz\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "90:15",
+"odul_ayet": "90:15",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yetim",
+"not_": "\"Açlık gününde yakındaki yetimi doyurmak\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "93:9",
+"odul_ayet": "93:9",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yetim",
+"not_": "\"Yetimi örseleme\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "107:2",
+"odul_ayet": "107:2",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yetim",
+"not_": "\"Dini yalan sayan yetimi itip kakandır\""
+}
+]
+},
+{
+"id": "yoksul",
+"grup": "Yetim, yoksul ve yolcu",
+"etiket": "Yoksulu/miskini doyurmak, ihtiyaç sahibine hakkını vermek, dilenciyi azarlamamak",
+"ayet_sayisi": 28,
+"kayitlar": [
+{
+"blok": "K2a",
+"nitelik_ayet": "2:83",
+"odul_ayet": "2:83",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"İsrailoğullarından söz: yoksullara iyilik ve güzellikle davranın\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:177",
+"odul_ayet": "2:177",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"Çaresizlere, yoksullara malı seve seve verir\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:184",
+"odul_ayet": "2:184",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Fidye olarak bir yoksulu doyurmak\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:215",
+"odul_ayet": "2:215",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"İnfak edilecek mal yoksul ve çaresizler için olmalıdır\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:271",
+"odul_ayet": "2:271",
+"odul": "magfiret",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yoksul",
+"not_": "\"Sadakayı gizleyip yoksullara vermek daha hayırlıdır; günahlarınızdan bir kısmını örter\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:273",
+"odul_ayet": "2:273",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"İnfak edilenler Allah yolunda kapanıp kalmış yoksullar içindir\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:8",
+"odul_ayet": "4:8",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Mirasın paylaşımında yoksullar hazırsa onları da rızıklandırın, güzel söz söyleyin\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:36",
+"odul_ayet": "4:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Çaresizlere iyi ve güzel davranın\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "5:89",
+"odul_ayet": "5:89",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Yemin keffâreti: on yoksulu ailenize yedirdiğinizin orta derecesinden yedirmek\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "5:95",
+"odul_ayet": "5:95",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Av cezası: yoksulları doyurma keffâreti\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "8:41",
+"odul_ayet": "8:41",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Ganimetin beşte biri yoksullara\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "9:60",
+"odul_ayet": "9:60",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"Sadakalar fakirler ve düşkünler için Allah'tan farz\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "17:26",
+"odul_ayet": "17:26",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Çaresize hakkını ver\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "22:28",
+"odul_ayet": "22:28",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Kurbanlardan yiyin, sıkıntı içindeki fakiri doyurun\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "24:22",
+"odul_ayet": "24:22",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yoksul",
+"not_": "\"Çaresizlere bir şey vermemeye yemin etmesinler\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "30:38",
+"odul_ayet": "30:38",
+"odul": "felah",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Yoksula hakkını ver; kurtuluşa erenler\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "51:19",
+"odul_ayet": "51:19",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"İhtiyaç sahibi için, yoksul için bir hak vardı mallarında\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "58:4",
+"odul_ayet": "58:4",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Zıhar keffâreti: altmış yoksulu doyurmak\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "59:7",
+"odul_ayet": "59:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yoksul",
+"not_": "\"Fey malı yoksullara\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "68:24",
+"odul_ayet": "68:33",
+"odul": "azap_dunya",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yoksul",
+"not_": "\"Bahçe sahipleri: bugün oraya bir yoksul girmesin; azap böyledir\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "69:34",
+"odul_ayet": "69:31",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yoksul",
+"not_": "\"Yoksulu doyurmaya özendirmiyordu; cehenneme sallayın onu\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "70:25",
+"odul_ayet": "70:25",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"Mallarında yoksul ve yoksun için belirli bir hak vardır\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "74:44",
+"odul_ayet": "74:42",
+"odul": "cehennem",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yoksul",
+"not_": "\"Yoksulu yedirip doyurmuyorduk (Sekar'a sürükleyen)\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "76:8",
+"odul_ayet": "76:12",
+"odul": "cennet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "yoksul",
+"not_": "\"Yoksula yemeği severek yedirirler; sabırlarına karşılık bahçe ve ipek\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "89:18",
+"odul_ayet": "89:18",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"Yoksulun doyurulmasını teşvik etmiyorsunuz\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "90:16",
+"odul_ayet": "90:16",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"Açlık gününde boynu bükük yoksulu doyurmak\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "93:10",
+"odul_ayet": "93:10",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "yoksul",
+"not_": "\"Yoksulu/dilenciyi azarlama\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "107:3",
+"odul_ayet": "107:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yoksul",
+"not_": "\"Yoksulu doyurmayı özendirmez\""
+}
+]
+},
+{
+"id": "yolcu",
+"grup": "Yetim, yoksul ve yolcu",
+"etiket": "Yolda kalmışa (ibnü's-sebîl) hakkını vermek",
+"ayet_sayisi": 8,
+"kayitlar": [
+{
+"blok": "K2a",
+"nitelik_ayet": "2:177",
+"odul_ayet": "2:177",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yolcu",
+"not_": "\"Yolda kalmışa malı seve seve verir\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "2:215",
+"odul_ayet": "2:215",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yolcu",
+"not_": "\"İnfak edilecek mal yolda kalan için olmalıdır\""
+},
+{
+"blok": "K2a",
+"nitelik_ayet": "4:36",
+"odul_ayet": "4:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yolcu",
+"not_": "\"Yolda kalmışa iyi ve güzel davranın\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "8:41",
+"odul_ayet": "8:41",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yolcu",
+"not_": "\"Ganimetin beşte biri yolda kalana\""
+},
+{
+"blok": "K2b",
+"nitelik_ayet": "9:60",
+"odul_ayet": "9:60",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "yolcu",
+"not_": "\"Sadakalar yolda kalmışlar için Allah'tan farz\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "17:26",
+"odul_ayet": "17:26",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yolcu",
+"not_": "\"Yolda kalana hakkını ver\""
+},
+{
+"blok": "K2c",
+"nitelik_ayet": "30:38",
+"odul_ayet": "30:38",
+"odul": "felah",
+"derece": "✓",
+"tur": "emir",
+"ham": "yolcu",
+"not_": "\"Yolda kalmışa hakkını ver; kurtuluşa erenler\""
+},
+{
+"blok": "K2d",
+"nitelik_ayet": "59:7",
+"odul_ayet": "59:7",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "yolcu",
+"not_": "\"Fey malı yolda kalmışlara\""
+}
+]
+},
+{
+"id": "komsu",
+"grup": "Komşu ve yakın çevre",
+"etiket": "Yakın komşuya, uzak komşuya ve yanındaki arkadaşa iyi davranmak",
+"ayet_sayisi": 1,
+"kayitlar": [
+{
+"blok": "K2a",
+"nitelik_ayet": "4:36",
+"odul_ayet": "4:36",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "komsu",
+"not_": "\"Yakın komşuya, uzak komşuya, yanınızdaki arkadaşa iyi ve güzel davranın\""
+}
+]
+}
+],
+"ayetler": {
+"2:83": {
+"ar": "وَإِذْ أَخَذْنَا مِيثَـٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ",
+"tr": "İsrailoğulları'ndan şöyle bir söz de almıştık: Allah'tan başkasına ibadet etmeyin, anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın. İnsanlara güzeli ve güzelliği söyleyin. Namazı kılın, zekâtı verin. Bütün bunlardan sonra siz, pek azınız müstesna, sırt çevirdiniz. Hâlâ da yüz çevirip duruyorsunuz."
+},
+"2:177": {
+"ar": "لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَـٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَٱلْمَلَـٰٓئِكَةِ وَٱلْكِتَـٰبِ وَٱلنَّبِيِّـۧنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَـٰهَدُوا۟ ۖ وَٱلصَّـٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَـٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُتَّقُونَ",
+"tr": "Yüzlerinizi doğu ve batı yönüne çevirmeniz zafer ve mutluluğa ermek değildir. Zafer ve mutluluğa ermek o kişinin hakkıdır ki, Allah'a, âhıret gününe, meleklere, kitaplara, peygamberlere inanır; akrabaya, yetimlere, çaresizlere, yolda kalmışa, yoksullara, özgürlüğüne kavuşmak gayretinde olanlara malı seve seve verir, namazı kılar, zekatı öder. Böyleleri söz verdiklerinde ahitlerine vefalıdırlar; bolluk ve bereket zamanı kadar, zorluk, sıkıntı ve şiddet zamanında da sabırlıdırlar. İşte bunlardır özüyle sözü bir olanlar. Ve işte bunlardır korunan takva sahipleri."
+},
+"2:180": {
+"ar": "كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ إِن تَرَكَ خَيْرًا ٱلْوَصِيَّةُ لِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُتَّقِينَ",
+"tr": "İçinizden birine ölüm geldiğinde, eğer bir hayır bırakacaksa, üzerinize yazılan şudur: Ana- babaya, akrabaya, örfe uygun vasiyette bulunmak. Takva sahipleri üstüne bir hak olarak..."
+},
+"2:184": {
+"ar": "أَيَّامًا مَّعْدُودَٰتٍ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍ فَعِدَّةٌ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌ طَعَامُ مِسْكِينٍ ۖ فَمَن تَطَوَّعَ خَيْرًا فَهُوَ خَيْرٌ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ",
+"tr": "Sayılı günlerdir. Sizden kim hasta olur veya yolculuk halinde bulunursa tutamadığı gün sayısınca başka günlerde tutar. Oruca zorlukla dayananlar üzerine düşen, fidye olarak bir yoksulu doyurmaktır. Kim bir mecburiyeti olmaksızın içinden gelerek iyilik yaparsa bu onun için daha hayırlı olur. Ve oruç tutmanız, eğer bilirseniz, sizin için daha hayırlıdır."
+},
+"2:215": {
+"ar": "يَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ ۖ قُلْ مَآ أَنفَقْتُم مِّنْ خَيْرٍ فَلِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱبْنِ ٱلسَّبِيلِ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+"tr": "Sana, neyi infak edip vereceklerini soruyorlar. De ki: \"İnfak ettiğiniz mal ve nimet; ana-baba, yakınlar, yetimler, yoksul ve çaresizlerle yolda kalan için olmalıdır. Hayır olarak yaptığınızı Allah en iyi biçimde bilmektedir.\""
+},
+"2:220": {
+"ar": "فِى ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۗ وَيَسْـَٔلُونَكَ عَنِ ٱلْيَتَـٰمَىٰ ۖ قُلْ إِصْلَاحٌ لَّهُمْ خَيْرٌ ۖ وَإِن تُخَالِطُوهُمْ فَإِخْوَٰنُكُمْ ۚ وَٱللَّهُ يَعْلَمُ ٱلْمُفْسِدَ مِنَ ٱلْمُصْلِحِ ۚ وَلَوْ شَآءَ ٱللَّهُ لَأَعْنَتَكُمْ ۚ إِنَّ ٱللَّهَ عَزِيزٌ حَكِيمٌ",
+"tr": "Dünya ve âhıret hakkında... Sana yetimlerden de soruyorlar. De ki: \"Onları, işe yarar hale getirmek kendileri için daha hayırlıdır. Eğer onlarla bir arada yaşarsanız, onlar sizin kardeşlerinizdir.\" Allah, bozguncuyu barışseverden ayırmasını bilir. Eğer Allah dileseydi, sizi zora sürerdi. Allah, tüm onurların sahibi, tüm hikmetlerin sahibidir."
+},
+"2:271": {
+"ar": "إِن تُبْدُوا۟ ٱلصَّدَقَـٰتِ فَنِعِمَّا هِىَ ۖ وَإِن تُخْفُوهَا وَتُؤْتُوهَا ٱلْفُقَرَآءَ فَهُوَ خَيْرٌ لَّكُمْ ۚ وَيُكَفِّرُ عَنكُم مِّن سَيِّـَٔاتِكُمْ ۗ وَٱللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
+"tr": "Sadakaları açıklarsanız bu da güzeldir. Ama onları gizler ve yoksullara bu şekilde verirseniz, bu sizin için daha hayırlıdır; günahlarınızdan bir kısmını örter. Allah, Habîr'dir, yapmakta olduklarınızdan gereğince haberi vardır."
+},
+"2:273": {
+"ar": "لِلْفُقَرَآءِ ٱلَّذِينَ أُحْصِرُوا۟ فِى سَبِيلِ ٱللَّهِ لَا يَسْتَطِيعُونَ ضَرْبًا فِى ٱلْأَرْضِ يَحْسَبُهُمُ ٱلْجَاهِلُ أَغْنِيَآءَ مِنَ ٱلتَّعَفُّفِ تَعْرِفُهُم بِسِيمَـٰهُمْ لَا يَسْـَٔلُونَ ٱلنَّاسَ إِلْحَافًا ۗ وَمَا تُنفِقُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ بِهِۦ عَلِيمٌ",
+"tr": "İnfak edilenler, Allah yolunda kapanıp kalmış, yeryüzünde dolaşamaz olmuş yoksullar içindir. İffet ve onurları yüzünden, cahiller bunları, zengin kişiler sanır. Sen onları yüzlerinden tanırsın. Yüzsüzlük ve yırtıklık ederek, insanlardan bir şey istemezler. Nimet ve imkândan infak ettiğiniz her şeyi, Allah çok iyi bilmektedir."
+},
+"4:1": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّاسُ ٱتَّقُوا۟ رَبَّكُمُ ٱلَّذِى خَلَقَكُم مِّن نَّفْسٍ وَٰحِدَةٍ وَخَلَقَ مِنْهَا زَوْجَهَا وَبَثَّ مِنْهُمَا رِجَالًا كَثِيرًا وَنِسَآءً ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِى تَسَآءَلُونَ بِهِۦ وَٱلْأَرْحَامَ ۚ إِنَّ ٱللَّهَ كَانَ عَلَيْكُمْ رَقِيبًا",
+"tr": "Ey insanlar! Sizi bir tek canlıdan yaratan, ondan eşini vücuda getiren ve o ikisinden birçok erkekler ve kadınlar üreten Rabbinize karşı gelmekten sakının. Adını anarak birbirinizden dilekler dilediğiniz Allah'tan korkun. Rahimlerin haklarına saygısızlıktan da sakının. Şu bir gerçek ki Allah, Rakîb'dir, sizin üzerinizde sürekli ve titiz bir gözetleyicidir."
+},
+"4:2": {
+"ar": "وَءَاتُوا۟ ٱلْيَتَـٰمَىٰٓ أَمْوَٰلَهُمْ ۖ وَلَا تَتَبَدَّلُوا۟ ٱلْخَبِيثَ بِٱلطَّيِّبِ ۖ وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَهُمْ إِلَىٰٓ أَمْوَٰلِكُمْ ۚ إِنَّهُۥ كَانَ حُوبًا كَبِيرًا",
+"tr": "Yetimlere mallarını verin. Temizi pise değişmeyin. Yetimlerin mallarını kendi mallarınıza katarak yemeyin. Bunu yapmak gerçekten büyük bir vebaldir."
+},
+"4:8": {
+"ar": "وَإِذَا حَضَرَ ٱلْقِسْمَةَ أُو۟لُوا۟ ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينُ فَٱرْزُقُوهُم مِّنْهُ وَقُولُوا۟ لَهُمْ قَوْلًا مَّعْرُوفًا",
+"tr": "Mirasın paylaştırılmasında hısım-akraba, yetimler, yoksul ve çaresizler de hazır bulunurlarsa, ondan onları da rızıklandırın ve onlara güzel ve hoş bir söz de söyleyin."
+},
+"4:36": {
+"ar": "وَٱعْبُدُوا۟ ٱللَّهَ وَلَا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا وَبِذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱلْجَارِ ذِى ٱلْقُرْبَىٰ وَٱلْجَارِ ٱلْجُنُبِ وَٱلصَّاحِبِ بِٱلْجَنۢبِ وَٱبْنِ ٱلسَّبِيلِ وَمَا مَلَكَتْ أَيْمَـٰنُكُمْ ۗ إِنَّ ٱللَّهَ لَا يُحِبُّ مَن كَانَ مُخْتَالًا فَخُورًا",
+"tr": "Allah'a kulluk edin. O'na hiçbir şeyi ortak koşmayın. Ana-babaya, akrabaya, yetim ve öksüzlere, çaresizlere, yakın komşuya, uzak komşuya, yanınızdaki arkadaşa, yolda kalmışa, size bağımlı olanlara iyi ve güzel davranın. Allah, kasılıp böbürlenen şımarıkları sevmez."
+},
+"4:127": {
+"ar": "وَيَسْتَفْتُونَكَ فِى ٱلنِّسَآءِ ۖ قُلِ ٱللَّهُ يُفْتِيكُمْ فِيهِنَّ وَمَا يُتْلَىٰ عَلَيْكُمْ فِى ٱلْكِتَـٰبِ فِى يَتَـٰمَى ٱلنِّسَآءِ ٱلَّـٰتِى لَا تُؤْتُونَهُنَّ مَا كُتِبَ لَهُنَّ وَتَرْغَبُونَ أَن تَنكِحُوهُنَّ وَٱلْمُسْتَضْعَفِينَ مِنَ ٱلْوِلْدَٰنِ وَأَن تَقُومُوا۟ لِلْيَتَـٰمَىٰ بِٱلْقِسْطِ ۚ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍ فَإِنَّ ٱللَّهَ كَانَ بِهِۦ عَلِيمًا",
+"tr": "Senden kadınlar hakkında fetva soruyorlar. De ki: \"Onlar hakkında fetvayı size Allah veriyor.\" Yazılmış hakları olanı kendilerine vermeyip de kendileriyle nikâhlanmak istediğiniz kadınların yetimleri hakkında, ezilip horlanan çocuklar hakkında, yetimler için adaleti yerine getirmeniz hakkında. Kitap'ta olup da yüzünüze karşı okunan şeyler var. Hayır olarak yaptığınız her şeyi Allah, hakkıyla bilmektedir."
+},
+"5:89": {
+"ar": "لَا يُؤَاخِذُكُمُ ٱللَّهُ بِٱللَّغْوِ فِىٓ أَيْمَـٰنِكُمْ وَلَـٰكِن يُؤَاخِذُكُم بِمَا عَقَّدتُّمُ ٱلْأَيْمَـٰنَ ۖ فَكَفَّـٰرَتُهُۥٓ إِطْعَامُ عَشَرَةِ مَسَـٰكِينَ مِنْ أَوْسَطِ مَا تُطْعِمُونَ أَهْلِيكُمْ أَوْ كِسْوَتُهُمْ أَوْ تَحْرِيرُ رَقَبَةٍ ۖ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَـٰثَةِ أَيَّامٍ ۚ ذَٰلِكَ كَفَّـٰرَةُ أَيْمَـٰنِكُمْ إِذَا حَلَفْتُمْ ۚ وَٱحْفَظُوٓا۟ أَيْمَـٰنَكُمْ ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمْ ءَايَـٰتِهِۦ لَعَلَّكُمْ تَشْكُرُونَ",
+"tr": "Allah sizi yeminlerinizdeki boş lakırdıdan ötürü hesaba çekmez, ama bilinçli olarak gerçekleştirdiğiniz yeminlerden sizi sorumlu tutar. Böyle bir yeminin keffâreti, ailenize yedirmekte olduğunuzun orta derecesinden on yoksulu doyurmak, yahut onları giydirmek, yahut da özgürlüğünden yoksun kalmış bir benliği özgürlüğüne kavuşturmaktır. Bunlara imkân bulamayan üç gün oruç tutar. Yemin ettiğinizde yeminlerinizin keffâreti işte budur. Yeminlerinizi koruyun. Allah size ayetlerini böyle açıklar ki şükredebilesiniz."
+},
+"5:95": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَـٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّـٰرَةٌ طَعَامُ مَسَـٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+"tr": "Ey iman sahipleri! İhramda olduğunuz zaman av öldürmeyin. Sizden kim kasten onu öldürürse cezası şudur: Öldürdüğü hayvana denk deve-sığır, davar cinsinden, Kâbe'ye varacak kurbanlık bir hediye ki, içinizden adalet sahibi iki kişi belirleyecektir. Yahut yoksullara yedirme şeklinde bir keffâret, yahut buna denk oruç. Taki yaptığının vebalini tatsın. Allah, geçmişi affetmiştir. Kim bir daha yaparsa, Allah ondan öc alacaktır. Allah çok güçlüdür, öc alıcıdır."
+},
+"6:151": {
+"ar": "قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُم مِّنْ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
+"tr": "De ki onlara: \"Hadi gelin, Rabbinizin size neleri haram kıldığını yüzünüze karşı okuyayım: Hiçbir şeyi O'na ortak koşmayın. Ana-babaya çok iyi davranın. Yoksulluk endişesiyle çocuklarınızı öldürmeyin; biz sizi de onları da rızıklandırırız. Kötülüklerin görünenine de gizli kalanına da yaklaşmayın. Allah'ın saygın ve aziz kıldığı cana, bir hakkı savunmak dışında kıymayın. Allah size bunları önerdi ki, aklınızı işletebilesiniz.\""
+},
+"8:41": {
+"ar": "وَٱعْلَمُوٓا۟ أَنَّمَا غَنِمْتُم مِّن شَىْءٍ فَأَنَّ لِلَّهِ خُمُسَهُۥ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱبْنِ ٱلسَّبِيلِ إِن كُنتُمْ ءَامَنتُم بِٱللَّهِ وَمَآ أَنزَلْنَا عَلَىٰ عَبْدِنَا يَوْمَ ٱلْفُرْقَانِ يَوْمَ ٱلْتَقَى ٱلْجَمْعَانِ ۗ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+"tr": "Doğru ile yanlışın ayrılış günü, iki topluluğun karşılaştığı gün, kulumuza indirmiş olduğumuza inanıyorsanız şunu bilin: Ganimet/kazanç olarak elde ettiğiniz şeylerin beşte biri Allah'a, resule, yakınlara, yetimlere, yoksullara ve yolda kalmışa aittir. Allah herşeye kadirdir."
+},
+"8:75": {
+"ar": "وَٱلَّذِينَ ءَامَنُوا۟ مِنۢ بَعْدُ وَهَاجَرُوا۟ وَجَـٰهَدُوا۟ مَعَكُمْ فَأُو۟لَـٰٓئِكَ مِنكُمْ ۚ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَـٰبِ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌۢ",
+"tr": "Sonradan inanarak hicret edip de sizinle birlikte cihada katılanlar da sizdendir. Kan akrabaları ise, Allah'ın Kitabı'na göre birbirlerine daha yakın dostturlar. Allah herşeyi bilir."
+},
+"9:60": {
+"ar": "إِنَّمَا ٱلصَّدَقَـٰتُ لِلْفُقَرَآءِ وَٱلْمَسَـٰكِينِ وَٱلْعَـٰمِلِينَ عَلَيْهَا وَٱلْمُؤَلَّفَةِ قُلُوبُهُمْ وَفِى ٱلرِّقَابِ وَٱلْغَـٰرِمِينَ وَفِى سَبِيلِ ٱللَّهِ وَٱبْنِ ٱلسَّبِيلِ ۖ فَرِيضَةً مِّنَ ٱللَّهِ ۗ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+"tr": "Sadakalar/zekât malları Allah'tan bir farz olarak sadece şunlar içindir: Fakirler, düşkünler, sadakalarla ilgilenmeye memur edilenler, kalpleri yakınlaştırılıp ısındırılacak olanlar, özgürlüğünü yitirmiş olanlar, borçlular, Allah yolundakiler, yolda kalmış kişi. Allah Alîm'dir, Hakîm'dir."
+},
+"9:113": {
+"ar": "مَا كَانَ لِلنَّبِىِّ وَٱلَّذِينَ ءَامَنُوٓا۟ أَن يَسْتَغْفِرُوا۟ لِلْمُشْرِكِينَ وَلَوْ كَانُوٓا۟ أُو۟لِى قُرْبَىٰ مِنۢ بَعْدِ مَا تَبَيَّنَ لَهُمْ أَنَّهُمْ أَصْحَـٰبُ ٱلْجَحِيمِ",
+"tr": "Akraba bile olsalar, cehennem halkı oldukları açıkça belli olduktan sonra müşrikler için af dilemek ne peygambere yakışır ne de iman edenlere."
+},
+"16:90": {
+"ar": "إِنَّ ٱللَّهَ يَأْمُرُ بِٱلْعَدْلِ وَٱلْإِحْسَـٰنِ وَإِيتَآئِ ذِى ٱلْقُرْبَىٰ وَيَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ وَٱلْبَغْىِ ۚ يَعِظُكُمْ لَعَلَّكُمْ تَذَكَّرُونَ",
+"tr": "Şu bir gerçek ki Allah; adaleti, iyi ve güzel davranmayı, akrabaya vermeyi emreder. Tüm pisliklerden/edepsizliklerden, kötülükten, azgınlık, doymazlık ve kıskançlıktan yasaklar. Düşünüp ibret alırsınız ümidiyle size öğüt veriyor."
+},
+"17:23": {
+"ar": "وَقَضَىٰ رَبُّكَ أَلَّا تَعْبُدُوٓا۟ إِلَّآ إِيَّاهُ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۚ إِمَّا يَبْلُغَنَّ عِندَكَ ٱلْكِبَرَ أَحَدُهُمَآ أَوْ كِلَاهُمَا فَلَا تَقُل لَّهُمَآ أُفٍّ وَلَا تَنْهَرْهُمَا وَقُل لَّهُمَا قَوْلًا كَرِيمًا",
+"tr": "Rabbin şöyle hükmetti: O'ndan başkasına kulluk / ibadet etmeyin, anaya babaya çok iyi davranın: Onlardan birisi yahut her ikisi senin yanında ihtiyarlık çağına gelirse sakın onlara \"Öf!\" bile deme; onları azarlama, onlara tatlı, iltifatlı söz söyle."
+},
+"17:24": {
+"ar": "وَٱخْفِضْ لَهُمَا جَنَاحَ ٱلذُّلِّ مِنَ ٱلرَّحْمَةِ وَقُل رَّبِّ ٱرْحَمْهُمَا كَمَا رَبَّيَانِى صَغِيرًا",
+"tr": "Rahmetten yerlere eğilme kanadını onlar için indir ve de ki: \"Rabbim, merhametli davran onlara, tıpkı küçüklüğümde beni koruyup büyüttükleri gibi.\""
+},
+"17:26": {
+"ar": "وَءَاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ وَلَا تُبَذِّرْ تَبْذِيرًا",
+"tr": "Akrabaya hakkını ver. Çaresize, yolda kalana da. Fakat saçıp savurma."
+},
+"19:14": {
+"ar": "وَبَرًّۢا بِوَٰلِدَيْهِ وَلَمْ يَكُن جَبَّارًا عَصِيًّا",
+"tr": "Ana-babasına iyilik eden biriydi; zorba, isyancı biri değil."
+},
+"19:32": {
+"ar": "وَبَرًّۢا بِوَٰلِدَتِى وَلَمْ يَجْعَلْنِى جَبَّارًا شَقِيًّا",
+"tr": "\"Anneme iyilik etmemi önerdi. Beni zorba bir eşkıya yapmadı.\""
+},
+"22:28": {
+"ar": "لِّيَشْهَدُوا۟ مَنَـٰفِعَ لَهُمْ وَيَذْكُرُوا۟ ٱسْمَ ٱللَّهِ فِىٓ أَيَّامٍ مَّعْلُومَـٰتٍ عَلَىٰ مَا رَزَقَهُم مِّنۢ بَهِيمَةِ ٱلْأَنْعَـٰمِ ۖ فَكُلُوا۟ مِنْهَا وَأَطْعِمُوا۟ ٱلْبَآئِسَ ٱلْفَقِيرَ",
+"tr": "Kendilerine ait bir takım yararlara tanık olsunlar. Kendilerine rızık olarak verdiği kurbanlık hayvanlar üzerinde belirli günlerde Allah'ın adını ansınlar. İşte bunlardan yiyin, sıkıntı içindeki fakiri de doyurun."
+},
+"24:22": {
+"ar": "وَلَا يَأْتَلِ أُو۟لُوا۟ ٱلْفَضْلِ مِنكُمْ وَٱلسَّعَةِ أَن يُؤْتُوٓا۟ أُو۟لِى ٱلْقُرْبَىٰ وَٱلْمَسَـٰكِينَ وَٱلْمُهَـٰجِرِينَ فِى سَبِيلِ ٱللَّهِ ۖ وَلْيَعْفُوا۟ وَلْيَصْفَحُوٓا۟ ۗ أَلَا تُحِبُّونَ أَن يَغْفِرَ ٱللَّهُ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+"tr": "Sizin lütuf ve imkân sahibi olanlarınız; akrabaya, çaresizlere, Allah yolunda hicret edenlere birşey vermemeye yemin etmesinler, affetsinler, hoş görsünler. Allah'ın sizi affetmesini istemez misiniz? Allah Gafûr'dur, Rahîm'dir."
+},
+"26:214": {
+"ar": "وَأَنذِرْ عَشِيرَتَكَ ٱلْأَقْرَبِينَ",
+"tr": "En yakın akraba ve hısımlarını uyar."
+},
+"29:8": {
+"ar": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حُسْنًا ۖ وَإِن جَـٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَآ ۚ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+"tr": "Biz insana, anne babasına en güzel bir biçimde davranmasını, şunu söyleyerek önerdik: \"Eğer onlar, hakkında hiçbir bilgin olmayan bir şeyle bana ortak koşman için seninle çekişirlerse, o takdirde onlara itaat etme. Yalnız banadır dönüşünüz. Nihayet ben size yapıp ettiğiniz şeylerin haberini bildireceğim.\""
+},
+"30:38": {
+"ar": "فَـَٔاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ ۚ ذَٰلِكَ خَيْرٌ لِّلَّذِينَ يُرِيدُونَ وَجْهَ ٱللَّهِ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+"tr": "O halde, akrabaya hakkını ver. Yoksula, yolda kalmışa da. Allah'ın yüzünü isteyenler için bu daha hayırlıdır. İşte böyleleridir, kurtuluşa erenler."
+},
+"31:14": {
+"ar": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حَمَلَتْهُ أُمُّهُۥ وَهْنًا عَلَىٰ وَهْنٍ وَفِصَـٰلُهُۥ فِى عَامَيْنِ أَنِ ٱشْكُرْ لِى وَلِوَٰلِدَيْكَ إِلَىَّ ٱلْمَصِيرُ",
+"tr": "Biz, insana anne babasını önerdik. Annesi onu güçsüzlükle taşımıştır. Sütten kesilmesi de iki yılda olmuştur. O halde bana ve ana babana şükret. Dönüş banadır."
+},
+"31:15": {
+"ar": "وَإِن جَـٰهَدَاكَ عَلَىٰٓ أَن تُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَا ۖ وَصَاحِبْهُمَا فِى ٱلدُّنْيَا مَعْرُوفًا ۖ وَٱتَّبِعْ سَبِيلَ مَنْ أَنَابَ إِلَىَّ ۚ ثُمَّ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+"tr": "Eğer onlar, hakkında hiçbir bilgin olmayan şeyi bana ortak koşman için seni zorlarlarsa, onlara itaat etme. Onlarla dünyada örfe uygun geçin; ama bana yönelenin yoluna uy. Sonunda dönüşünüz banadır. Yapıp ettiklerinizi size haber vereceğim."
+},
+"33:6": {
+"ar": "ٱلنَّبِىُّ أَوْلَىٰ بِٱلْمُؤْمِنِينَ مِنْ أَنفُسِهِمْ ۖ وَأَزْوَٰجُهُۥٓ أُمَّهَـٰتُهُمْ ۗ وَأُو۟لُوا۟ ٱلْأَرْحَامِ بَعْضُهُمْ أَوْلَىٰ بِبَعْضٍ فِى كِتَـٰبِ ٱللَّهِ مِنَ ٱلْمُؤْمِنِينَ وَٱلْمُهَـٰجِرِينَ إِلَّآ أَن تَفْعَلُوٓا۟ إِلَىٰٓ أَوْلِيَآئِكُم مَّعْرُوفًا ۚ كَانَ ذَٰلِكَ فِى ٱلْكِتَـٰبِ مَسْطُورًا",
+"tr": "O peygamber, müminlere öz benliklerinden daha dost, daha yakındır. Onun eşleri de o müminlerin anneleridir. Anne tarafından akraba olanlar da Allah'ın Kitabı'nda, birbirlerine diğer müminlerden ve muhacirlerden daha yakındırlar. Ancak yakın dostlarınız için örfe uygun bir vasiyette bulunmanız müstesnadır. Bu, Kitap'ta satırlara geçirilmiştir."
+},
+"42:23": {
+"ar": "ذَٰلِكَ ٱلَّذِى يُبَشِّرُ ٱللَّهُ عِبَادَهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ ۗ قُل لَّآ أَسْـَٔلُكُمْ عَلَيْهِ أَجْرًا إِلَّا ٱلْمَوَدَّةَ فِى ٱلْقُرْبَىٰ ۗ وَمَن يَقْتَرِفْ حَسَنَةً نَّزِدْ لَهُۥ فِيهَا حُسْنًا ۚ إِنَّ ٱللَّهَ غَفُورٌ شَكُورٌ",
+"tr": "Allah'ın, iman edip hayra ve barışa yönelik iyi işler yapanlara müjdelediği, işte budur. De ki: \"Ben, buna karşılık sizden, yakın akrabamı/Ehlibeytimi sevmeniz dışında bir ücret istemiyorum.\" Kim bir iyilik/güzellik üretirse onun için, o ürettiğine bir güzellik daha ekleriz. Çünkü Allah Gafûr'dur, çok affeder; Şekûr'dur, iyiliğe karşılık verir/teşekkür eder."
+},
+"46:15": {
+"ar": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ إِحْسَـٰنًا ۖ حَمَلَتْهُ أُمُّهُۥ كُرْهًا وَوَضَعَتْهُ كُرْهًا ۖ وَحَمْلُهُۥ وَفِصَـٰلُهُۥ ثَلَـٰثُونَ شَهْرًا ۚ حَتَّىٰٓ إِذَا بَلَغَ أَشُدَّهُۥ وَبَلَغَ أَرْبَعِينَ سَنَةً قَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًا تَرْضَىٰهُ وَأَصْلِحْ لِى فِى ذُرِّيَّتِىٓ ۖ إِنِّى تُبْتُ إِلَيْكَ وَإِنِّى مِنَ ٱلْمُسْلِمِينَ",
+"tr": "Biz insana, anne babasına çok iyi davranmasını önerdik. Annesi onu zahmetle taşıdı, zahmetle doğurdu. Taşınması ve sütten kesilmesi otuz aydır. Nihayet, yiğitlik çağına gelip kırk yıla erdiğinde şöyle der: \"Rabbim; beni, bana ve ebeveynime verdiğin nimete şükretmeye, hoşnut olacağın iyi bir iş yapmaya yönelt! Soyum içinde, benim için barışı gerçekleştir. Sana yöneldim ben, sana teslim olanlardanım ben!\""
+},
+"47:22": {
+"ar": "فَهَلْ عَسَيْتُمْ إِن تَوَلَّيْتُمْ أَن تُفْسِدُوا۟ فِى ٱلْأَرْضِ وَتُقَطِّعُوٓا۟ أَرْحَامَكُمْ",
+"tr": "Demek iş başına gelecek olsanız/savaştan geri kalacak olsanız, ülkede fesat çıkarıp rahimleri parçalayacaksınız."
+},
+"47:23": {
+"ar": "أُو۟لَـٰٓئِكَ ٱلَّذِينَ لَعَنَهُمُ ٱللَّهُ فَأَصَمَّهُمْ وَأَعْمَىٰٓ أَبْصَـٰرَهُمْ",
+"tr": "İşte bunlardır, Allah'ın kendilerine lanet edip kulaklarını sağır, gözlerini de kör ettiği kimseler..."
+},
+"51:19": {
+"ar": "وَفِىٓ أَمْوَٰلِهِمْ حَقٌّ لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+"tr": "İhtiyaç sahibi için, yoksul için bir hak vardı mallarında onların."
+},
+"58:4": {
+"ar": "فَمَن لَّمْ يَجِدْ فَصِيَامُ شَهْرَيْنِ مُتَتَابِعَيْنِ مِن قَبْلِ أَن يَتَمَآسَّا ۖ فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًا ۚ ذَٰلِكَ لِتُؤْمِنُوا۟ بِٱللَّهِ وَرَسُولِهِۦ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۗ وَلِلْكَـٰفِرِينَ عَذَابٌ أَلِيمٌ",
+"tr": "Özgürlüğe kavuşturma imkânını bulamayan, ilişkiye girmelerinden önce, aralıksız iki ay oruç tutacaktır. Buna da gücü yetmeyen, altmış yoksulu doyuracaktır. Bütün bunlar Allah'a ve resulüne inanasınız diyedir. Ve işte bunlar, Allah'ın sınırlarıdır. Küfre sapanlara korkunç bir azap vardır."
+},
+"59:7": {
+"ar": "مَّآ أَفَآءَ ٱللَّهُ عَلَىٰ رَسُولِهِۦ مِنْ أَهْلِ ٱلْقُرَىٰ فَلِلَّهِ وَلِلرَّسُولِ وَلِذِى ٱلْقُرْبَىٰ وَٱلْيَتَـٰمَىٰ وَٱلْمَسَـٰكِينِ وَٱبْنِ ٱلسَّبِيلِ كَىْ لَا يَكُونَ دُولَةًۢ بَيْنَ ٱلْأَغْنِيَآءِ مِنكُمْ ۚ وَمَآ ءَاتَىٰكُمُ ٱلرَّسُولُ فَخُذُوهُ وَمَا نَهَىٰكُمْ عَنْهُ فَٱنتَهُوا۟ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+"tr": "Allah'ın, kentler halkından resulüne zahmetsizce aktardığı mal ve nimetler şunlar içindir: Allah, Peygamber, yakınlar, yetimler, yoksullar, yolda kalmışlar. Bu böyle düzenlenmiştir ki, o mal ve nimetler sizden yalnız zengin olanlar arasında dönüp duran bir kudret aracı olmasın. Resul size ne verdiyse onu alın; sizi neden yasakladıysa ona son verin ve Allah'tan korkun. Hiç kuşkusuz, Allah'ın azabı çok şiddetlidir."
+},
+"68:24": {
+"ar": "أَن لَّا يَدْخُلَنَّهَا ٱلْيَوْمَ عَلَيْكُم مِّسْكِينٌ",
+"tr": "\"Hey! Bugün oraya bir yoksul girip yanınıza gelmesin!\""
+},
+"68:33": {
+"ar": "كَذَٰلِكَ ٱلْعَذَابُ ۖ وَلَعَذَابُ ٱلْـَٔاخِرَةِ أَكْبَرُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+"tr": "İşte böyledir azap! Âhiretin azabı ise gerçekten çok daha büyüktür. Bir bilselerdi!"
+},
+"69:31": {
+"ar": "ثُمَّ ٱلْجَحِيمَ صَلُّوهُ",
+"tr": "\"Sonra cehenneme sallayın onu!\""
+},
+"69:34": {
+"ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+"tr": "\"Yoksulu doyurmaya özendirmiyordu.\""
+},
+"70:25": {
+"ar": "لِّلسَّآئِلِ وَٱلْمَحْرُومِ",
+"tr": "Yoksul ve yoksun için."
+},
+"74:42": {
+"ar": "مَا سَلَكَكُمْ فِى سَقَرَ",
+"tr": "\"Sizi Sekar'a sürükleyen nedir?\""
+},
+"74:44": {
+"ar": "وَلَمْ نَكُ نُطْعِمُ ٱلْمِسْكِينَ",
+"tr": "\"Yoksulu yedirip doyurmuyorduk.\""
+},
+"76:8": {
+"ar": "وَيُطْعِمُونَ ٱلطَّعَامَ عَلَىٰ حُبِّهِۦ مِسْكِينًا وَيَتِيمًا وَأَسِيرًا",
+"tr": "Yoksula, yetime ve esire, yemeği severek yedirirler."
+},
+"76:12": {
+"ar": "وَجَزَىٰهُم بِمَا صَبَرُوا۟ جَنَّةً وَحَرِيرًا",
+"tr": "Sabretmelerine karşılık olarak da onları bir bahçe ve ipekle ödüllendirmiştir."
+},
+"89:17": {
+"ar": "كَلَّا ۖ بَل لَّا تُكْرِمُونَ ٱلْيَتِيمَ",
+"tr": "Doğrusu şu ki, siz yetime ikramda bulunmuyorsunuz."
+},
+"89:18": {
+"ar": "وَلَا تَحَـٰٓضُّونَ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+"tr": "Yoksulun doyurulmasını teşvik etmiyorsunuz."
+},
+"90:15": {
+"ar": "يَتِيمًا ذَا مَقْرَبَةٍ",
+"tr": "Yakındaki bir yetimi,"
+},
+"90:16": {
+"ar": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
+"tr": "Yahut ezilmiş, boynu bükük bir yoksulu."
+},
+"93:9": {
+"ar": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
+"tr": "O halde, yetimi örseleme,"
+},
+"93:10": {
+"ar": "وَأَمَّا ٱلسَّآئِلَ فَلَا تَنْهَرْ",
+"tr": "Yoksulu/dilenciyi azarlama!"
+},
+"107:2": {
+"ar": "فَذَٰلِكَ ٱلَّذِى يَدُعُّ ٱلْيَتِيمَ",
+"tr": "İşte odur yetimi itip kakan;"
+},
+"107:3": {
+"ar": "وَلَا يَحُضُّ عَلَىٰ طَعَامِ ٱلْمِسْكِينِ",
+"tr": "Yoksulu doyurmayı özendirmez o."
+}
+},
+"istatistik": {
+"kayit": 85,
+"ayet": 58,
+"derece": {
+"✓": 82,
+"→": 2,
+"?": 1
+},
+"tur": {
+"emir": 52,
+"yasak": 6,
+"sonuc": 7,
+"tanim": 20
+}
+}
+}

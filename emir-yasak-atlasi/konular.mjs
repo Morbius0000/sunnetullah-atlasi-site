@@ -7,7 +7,7 @@ export const gruplar = [
 ];
 export const konular = [
   { no: 1, grup: 'A', ad: 'Temel emirler', ozet: 'Kulluk, adalet ve ihsan, ahde vefa, emanet, doğruluk: Kur\'an\'ın emir ve övgü diliyle bildirdikleri ve ayette yazılı karşılıkları.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },
-  { no: 2, grup: 'A', ad: 'Aile ve toplum emirleri', ozet: 'Anne-baba, akraba, yetim, yoksul, komşu.' },
+  { no: 2, grup: 'A', ad: 'Aile ve toplum emirleri', ozet: 'Anne-baba, akraba, yetim, yoksul, yolcu ve komşuya karşı Kur\'an\'ın emir ve yasakları ile ayette yazılı karşılıkları.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },
   { no: 3, grup: 'A', ad: 'Mal ve infak', ozet: 'İnfak, zekât, sadaka.' },
   { no: 4, grup: 'B', ad: 'Şirk ve ayetleri yalanlama', ozet: 'Allah\'a ortak koşmak ve ayetleri yalanlamak: emirler, yasaklar ve ayette bildirilen karşılıklar.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },
   { no: 5, grup: 'B', ad: 'Can, namus ve mal yasakları', ozet: 'Öldürme, zina, hırsızlık, yetim malı, ribâ, ölçüde hile: emirler, yasaklar ve ayette bildirilen karşılıklar.', hazir: true, vurgu: { ad: 'Yalnız emir ve yasak', alan: 'kayit_tur', deger: ['emir', 'yasak'], sayim: 'doğrudan emir/yasak' } },

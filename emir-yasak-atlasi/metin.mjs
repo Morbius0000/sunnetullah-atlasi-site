@@ -59,6 +59,23 @@ export const konu01 = {
   ],
 };
 
+export const konu02 = {
+  giris: 'Bu bölüm, Kur\'an\'ın anne-babaya, akrabaya, yetime, yoksula, yolda kalmışa ve komşuya karşı verdiği emirleri ve yasakları toplar. Her kaydın türü işaretlidir: Emir (doğrudan buyruk), Yasak (doğrudan nehiy), Sonuç (davranış ve ayette yazılı karşılığı birlikte) ve Tanım (bir davranışın övgüyle ya da kınamayla anlatılması). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Doğrudan emir olarak yazılanlar {emir} ayettedir; doğrudan yasak olarak yazılanlar {yasak} ayettedir. Ana başlıklar: "Ana-babaya çok iyi davranın" (İsrâ 23, En\'âm 151, Nisâ 36); "akrabaya hakkını ver, yoksula, yolda kalmışa da" (İsrâ 26, Rûm 38); yetime kötü davranmama (Duhâ 9) ve yoksulu azarlamama (Duhâ 10). Komşu için tek ayet vardır: Nisâ 36.',
+    'Anne-baba ve akraba başlıkları {aile} ayette, yetim, yoksul ve yolcu başlıkları {zayif} ayette, komşu başlığı {komsu} ayette işlenir. Anne-baba emri dört ayette Allah\'a kulluk ya da ortak koşmama emrinin hemen ardından gelir (Bakara 83, Nisâ 36, En\'âm 151, İsrâ 23); anne-baba ortak koşmaya zorlarsa onlara itaat edilmez, yine de dünyada onlarla örfe uygun geçinilir (Lokmân 15, Ankebût 8).',
+    'Ayette karşılığı da bildirilen kayıtlar {karsilikli} ayettedir. Yoksulu doyurmayı özendirmemek, Hâkka 34 ve Müddessir 44\'te cehennemle birlikte anılır; yetime ve yoksula yemek yedirenler İnsân 8-12\'de cennetle ödüllendirilir; rahimleri koparanlara Muhammed 22-23\'te lanet bildirilir. Ayet karşılık yazmıyorsa bu sayfa da karşılık yazmaz.',
+    'Bu bölüm Konu 1 (Allah\'a kulluk ve iyilik emri), Konu 3 (infak ve zekât), Konu 5 (yetim malı) ile kısmen örtüşür. Sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: Arapça metinde şu kalıplar arandı: vâlideyn ve ebeveyn (vâlid/velid biçimleri dâhil), ebeveyn adları, ümmehât, ervâm, kurbâ ve akrabûn, yetîm ve yetâmâ, miskîn ve mesâkîn, fakîr ve fukarâ, sâil ve mahrûm, ibnü\'s-sebîl, câr ve cenb. Tarama {hedef} ayet verdi.',
+    'Hedef ayetler önceki ve sonraki 1 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Yazım farkı yüzünden kaçan biçimler (vâlideyn, Osmanlı hattında "velideyn") ikinci taramada eklenerek bulundu.',
+    'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı.',
+    'Kapsam dışı bırakılanlar: yetim malı yemenin yasağı (Konu 5), miras payları (Nisâ 11-12), evlilikte haram kılınan akrabalar (Konu 7), emzirme ve çocuk bakımı (Bakara 233), Yûsuf ve Mûsâ kıssalarındaki anne-baba anlatıları, zıhar. İnfak ve zekât kalemleri (Tevbe 60, Bakara 177 gibi) yalnız bu gruplara yönelik kayıtlar olarak alındı; infakın kendisi Konu 3\'te işlenir.',
+    'Bilinen sınırlar: Nisâ 1\'deki "ve\'l-erhâm" ifadesi iki biçimde okunabildiği için çıkarım (→) işaretidir. Şûrâ 23\'teki "kurbâ" ifadesi çok anlamlı olduğu için açık (?) işaretlidir. Komşu için ayrı bir ayet bulunmadığı, yalnız Nisâ 36 geçtiği için bu başlık tek kayıtlıdır; "yanındaki arkadaş" ifadesi bu ayetle birlikte alındı.',
+  ],
+};
+
 export const konu04 = {
   giris: 'Bu bölüm, Allah\'a ortak koşmak ve ayetleri yalanlamak hakkında Kur\'an\'ın doğrudan emirlerini ve yasaklarını, bu iki tutumun ayette nasıl adlandırıldığını ve ayetin kendisinde bildirilen karşılıkları toplar. Her kaydın türü işaretlidir: Yasak (doğrudan nehiy), Emir (doğrudan buyruk), Sonuç (tutum ile karşılığı ya da kınama aynı yerde) ve Tanım (tutumun nasıl adlandırıldığı ya da tarif edildiği). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
   kisa: [
