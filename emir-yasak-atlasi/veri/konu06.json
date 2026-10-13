@@ -271,10 +271,10 @@
 "nitelik_ayet": "4:156",
 "odul_ayet": "4:155",
 "odul": "muhurlenme",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "meryem_aleyhine_yalan",
-"not_": "\"Meryem aleyhinde büyük bir yalan söylemeleri yüzünden\" (4:155-156; Allah kalpleri mühürledi)"
+"not_": "\"Meryem aleyhinde büyük bir yalan söylemeleri yüzünden...\" (4:156); 4:155'teki mühür cümlesi \"küfürleri yüzünden\" der; sebepler dizisinin karşılığı 4:160'ta gelir, bu yüzden bağ çıkarımsaldır"
 },
 {
 "blok": "K6c",
@@ -1947,8 +1947,8 @@
 "kayit": 137,
 "ayet": 122,
 "derece": {
-"✓": 133,
-"→": 5,
+"✓": 132,
+"→": 6,
 "?": 0
 },
 "tur": {

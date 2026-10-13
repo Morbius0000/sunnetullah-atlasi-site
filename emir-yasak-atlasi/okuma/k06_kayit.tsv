@@ -16,7 +16,7 @@ K6a	suclu_olmayani_itham	4:112	4:112	gunah_yuklenme	✓	"Bir hata/günah işleyi
 K6a	fisildasma	4:114	4:114	-	✓	"Fısıldaşmalarının çoğunda hayır yoktur"; istisna: sadaka, iyilik, barıştırma	tanim
 K6a	guzel_soz_emri	4:5	4:5	-	✓	Beyinsizlere mal verilmez ama "onlara tatlı ve işe yarar bir söz söyleyin"	emir
 K6a	guzel_soz_emri	4:8	4:8	-	✓	Miras paylaşımında hazır bulunanlara "güzel ve hoş bir söz söyleyin"	emir
-K6a	meryem_aleyhine_yalan	4:156	4:155	muhurlenme	✓	"Meryem aleyhinde büyük bir yalan söylemeleri yüzünden" (4:155-156; Allah kalpleri mühürledi)	sonuc
+K6a	meryem_aleyhine_yalan	4:156	4:155	muhurlenme	→	"Meryem aleyhinde büyük bir yalan söylemeleri yüzünden..." (4:156); 4:155'teki mühür cümlesi "küfürleri yüzünden" der; sebepler dizisinin karşılığı 4:160'ta gelir, bu yüzden bağ çıkarımsaldır	sonuc
 K6a	allah_hakkinda_hak_disi_soz	4:171	4:171	-	✓	"Allah hakkında gerçek dışı bir şey söylemeyin! ... 'Üçtür!' demeyin"	yasak
 K6a	kulluktan_cekinip_kibir	4:172	4:173	azap_korkunc	✓	"Kulluktan çekinip büyüklük taslayanlara korkunç bir azapla azap edecektir"	sonuc
 K6a	kulluktan_cekinip_kibir	4:173	4:173	yardimsizlik	✓	"Allah'tan başka ne bir dost ne bir yardımcı bulacaklardır"	sonuc

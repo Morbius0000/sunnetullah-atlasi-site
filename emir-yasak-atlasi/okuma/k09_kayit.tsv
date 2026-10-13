@@ -52,7 +52,7 @@ B013	adaleti_emredeni_oldurme	3:21	3:21	azap_elim	✓
 B013	ayetleri_inkar	3:21	3:22	amel_bosa	✓	"dünyada ve âhirette boşa çıkmıştır" (3:22 aynı kişileri anlatır)
 B013	red_sayili_gun	3:24	3:24	nar	✓	"ateş sayılı günler dışında dokunmaz" demeleri, uydurdukları yalanın aldatması
 B015	kufur	3:56	3:56	azap_siddetli	✓	"dünyada ve âhirette şiddetle azap edeceğim"
-B015	yalan	3:61	3:61	lanet	✓	mübâhele daveti: "Allah'ın lanetini yalancılar üzerine salalım" (dilek/davet)
+B015	yalan	3:61	3:61	lanet	→	mübâhele daveti: "Allah'ın lanetini yalancılar üzerine salalım" (dilek/davet)
 B016	ahdi_satma	3:77	3:77	ahirette_nasip_yok	✓	Allah'a verilen sözü ve yeminleri az bedelle satanlar
 B016	ahdi_satma	3:77	3:77	azap_elim	✓	Allah konuşmaz, bakmaz, arındırmaz
 B017	baska_din_arama	3:85	3:85	husran	✓	İslâm'dan (teslimiyetten) başka din arayan: kabul edilmez, âhirette hüsran
@@ -605,7 +605,7 @@ B174	azap_kalkinca_sozden_donme	43:50	43:55	gark	→	43:50 azap kalkınca yan ç
 B175	zulum	43:65	43:65	azap_buyuk	✓	"Korkunç bir günün azabından vay haline o zulmedenlerin"
 B176	suc_isleme	43:74	43:74	ebedi_kalis	✓	"Suçlular cehennem azabının içinde sürekli kalacaklardır"
 B176	suc_isleme	43:74	43:75	azap_hafiflemez	✓	"Azapları hafifletilmeyecektir"
-B176	zulum	43:76	43:76	ebedi_kalis	✓	"onlar zalimlerin ta kendileriydi"
+B176	zulum	43:76	43:74	ebedi_kalis	✓	"Azapları hafifletilmeyecektir... Biz onlara zulmetmedik; onlar zalimlerin ta kendileriydi" (43:74 sürekli kalış, 43:76 gerekçe)
 B177	kuskuyla_oynayip_oyalanma	44:9	44:11	azap_elim	→	44:9 kuşku içinde oyalanma; 44:10-11 duman, "inletici azap"
 B177	eski_haline_donme	44:15	44:16	intikam	✓	"azabı biraz kaldırırız; eski halinize dönersiniz... en büyük vuruşla vururuz, intikam da alırız"
 B178	suc_isleme	44:37	44:37	helak	✓	Tübba' halkı: "Onları helâk ettik; çünkü onlar suç işlemiş insanlardı"

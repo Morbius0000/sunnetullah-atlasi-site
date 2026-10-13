@@ -5951,11 +5951,11 @@
 {
 "blok": "B176",
 "nitelik_ayet": "43:76",
-"odul_ayet": "43:76",
+"odul_ayet": "43:74",
 "odul": "ebedi_kalis",
 "derece": "✓",
 "ham": "zulum",
-"not_": "\"onlar zalimlerin ta kendileriydi\""
+"not_": "\"Azapları hafifletilmeyecektir... Biz onlara zulmetmedik; onlar zalimlerin ta kendileriydi\" (43:74 sürekli kalış, 43:76 gerekçe)"
 },
 {
 "blok": "B189",
@@ -6275,7 +6275,7 @@
 "nitelik_ayet": "3:61",
 "odul_ayet": "3:61",
 "odul": "lanet",
-"derece": "✓",
+"derece": "→",
 "ham": "yalan",
 "not_": "mübâhele daveti: \"Allah'ın lanetini yalancılar üzerine salalım\" (dilek/davet)"
 },
@@ -10978,8 +10978,8 @@
 "kayit": 784,
 "ayet": 818,
 "derece": {
-"✓": 725,
-"→": 52,
+"✓": 724,
+"→": 53,
 "?": 7
 }
 }
