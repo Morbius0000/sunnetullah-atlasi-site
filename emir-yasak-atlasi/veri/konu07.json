@@ -1,0 +1,1307 @@
+{
+"konu": 7,
+"baslik": "Helal ve haram",
+"nitelikler": [
+{
+"id": "temiz_helal",
+"grup": "Yiyecek ve içecek",
+"etiket": "Temiz ve helal yemek: emirler ve helal kılınanlar",
+"ayet_sayisi": 16,
+"kayitlar": [
+{
+"blok": "K7a",
+"nitelik_ayet": "2:57",
+"odul_ayet": "2:57",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Rızk olarak size verdiklerimizin en temizlerinden yiyin\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:168",
+"odul_ayet": "2:168",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Yeryüzündeki nimetlerden temiz ve helal olmak şartıyla yiyin\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:168",
+"odul_ayet": "2:168",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Şeytanın adımlarını izlemeyin\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:172",
+"odul_ayet": "2:172",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Size verdiğimiz rızkların temizlerinden yiyin\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:4",
+"odul_ayet": "5:4",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Sizin için bütün temiz nimetler helal kılınmıştır\" ... av hayvanlarının tuttuğundan yiyin ve üzerine Allah'ın adını anın"
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:88",
+"odul_ayet": "5:88",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Allah'ın size helal ve temiz olarak verdiği rızıklardan yiyin\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "5:100",
+"odul_ayet": "5:100",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Pisin çokluğu seni hayrete düşürse de pisle temiz bir olmaz\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:142",
+"odul_ayet": "6:142",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Allah'ın size verdiği rızıklardan yiyin, şeytanın adımlarını izlemeyin\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "7:31",
+"odul_ayet": "7:31",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Yiyin için, fakat israf etmeyin\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "7:157",
+"odul_ayet": "7:157",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "temiz_ve_helal_yeme",
+"not_": "Ümmî peygamber: \"Güzel şeyleri onlara helal kılar, pis şeyleri onlara yasaklar\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "7:160",
+"odul_ayet": "7:160",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Yiyiniz size verdiğimiz rızıkların temizlerinden\" (Mûsa kavmine)"
+},
+{
+"blok": "K7d",
+"nitelik_ayet": "8:69",
+"odul_ayet": "8:69",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Elde ettiğiniz ganimetlerden helal ve temiz olarak yiyin\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "16:114",
+"odul_ayet": "16:114",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Allah'ın sizi rızıklandırdığı şeylerden helal ve temiz olarak yiyin!\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "20:81",
+"odul_ayet": "20:81",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Size verdiğimiz rızkın temizlerinden yiyin! Bu konuda azgınlık etmeyin!\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "20:81",
+"odul_ayet": "20:81",
+"odul": "gazab",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Yoksa öfkem üzerinize çöker. Kimin üstüne öfkem inerse o uçuruma gider\""
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "22:30",
+"odul_ayet": "22:30",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Karşınızda okunarak açıklananlar hariç, tüm hayvanlar size helal kılınmıştır\""
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "23:51",
+"odul_ayet": "23:51",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "temiz_ve_helal_yeme",
+"not_": "\"Ey resuller! Güzel ve temiz şeylerden yiyin ve barışa, hayra yönelik iş yapın!\""
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "24:61",
+"odul_ayet": "24:61",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "evlerden_yemek_yeme",
+"not_": "\"Kendi evlerinizden gerekse babalarınızın, annelerinizin, kardeşlerinizin ... evlerinden yemek yemenizde bir sakınca yoktur\""
+}
+]
+},
+{
+"id": "les_kan_domuz",
+"grup": "Yiyecek ve içecek",
+"etiket": "Leş, kan, domuz eti, Allah'tan başkası adına kesilen; Allah'ın adı anılan ve anılmayan hayvan",
+"ayet_sayisi": 7,
+"kayitlar": [
+{
+"blok": "K7a",
+"nitelik_ayet": "2:173",
+"odul_ayet": "2:173",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "les_kan_domuz_ve_allahtan_baskasi_adina",
+"not_": "\"Allah size leşi, kanı, domuz etini, Allah'tan başkası adına kesileni haram kılmıştır\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:173",
+"odul_ayet": "2:173",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "les_kan_domuz_ve_allahtan_baskasi_adina",
+"not_": "Zorda kalan, sınırı aşmadan ve haksızlık etmeden yerse \"günah yoktur\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:3",
+"odul_ayet": "5:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "les_kan_domuz_ve_allahtan_baskasi_adina",
+"not_": "Haram kılınanlar: ölü hayvan eti, kan, domuz eti, Allah'tan başkasının adı anılan, boğulmuş, vurulmuş, yuvarlanmış, süsülmüş, yırtılmış, dikili taşlar üzerinde boğazlanan, fal okları (5:3)"
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:118",
+"odul_ayet": "6:118",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "allah_adi_anilan_hayvan",
+"not_": "\"Üzerine Allah'ın adı anılmış olanlardan yiyin\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:119",
+"odul_ayet": "6:119",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allah_adi_anilan_hayvan",
+"not_": "\"Zorda kalışınız dışında üzerinize haram kıldığını bizzat kendisi size ayrıntılı olarak açıklamıştır\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:121",
+"odul_ayet": "6:121",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "allah_adi_anilan_hayvan",
+"not_": "\"Üzerine Allah'ın adı anılmayanlardan yemeyin. Böyle bir şey tam bir yoldan çıkıştır\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:121",
+"odul_ayet": "6:121",
+"odul": "musrik_sayilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_adi_anilan_hayvan",
+"not_": "\"O şeytan evliyasına boyun eğerseniz kesinlikle müşrikler oldunuz demektir\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:145",
+"odul_ayet": "6:145",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "les_kan_domuz_ve_allahtan_baskasi_adina",
+"not_": "\"Bana vahyolunanlar içinde yasaklanmış bir şey bulamıyorum: leş, akıtılmış kan, domuz eti, Allah'tan başkası adına boğazlanmış murdar\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:145",
+"odul_ayet": "6:145",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "les_kan_domuz_ve_allahtan_baskasi_adina",
+"not_": "Iztırar halinde, başkasının hakkına dokunmadan ve zorunluluk sınırını aşmadan yenebilir"
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "16:115",
+"odul_ayet": "16:115",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "les_kan_domuz_ve_allahtan_baskasi_adina",
+"not_": "\"O size ancak şunları haram kılmıştır: ölü, kan, domuz eti, Allah'tan başkası adına kesilen hayvan\" (zorda kalana ruhsat)"
+}
+]
+},
+{
+"id": "sarap_kumar",
+"grup": "Yiyecek ve içecek",
+"etiket": "Şarap/uyuşturucu ve kumar",
+"ayet_sayisi": 5,
+"kayitlar": [
+{
+"blok": "K7a",
+"nitelik_ayet": "2:219",
+"odul_ayet": "2:219",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sarap_ve_kumar",
+"not_": "Şarap ve kumar: \"Bu ikisinde büyük bir günah vardır; insanlar için çıkarlar da vardır. Ama kötülüğü yararından çok daha büyüktür\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:43",
+"odul_ayet": "4:43",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sarap_ve_kumar",
+"not_": "\"Sarhoşken, ne söylediğinizi bilinceye kadar ... namaza yaklaşmayın\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:90",
+"odul_ayet": "5:90",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "sarap_ve_kumar",
+"not_": "\"Uyuşturucu/şarap, kumar, dikili taşlar, fal okları şeytan işi birer pisliktir; bunlardan uzak durun ki kurtuluşa eresiniz\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:90",
+"odul_ayet": "5:90",
+"odul": "felah",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sarap_ve_kumar",
+"not_": "\"Bunlardan uzak durun ki kurtuluşa eresiniz\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:91",
+"odul_ayet": "5:91",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sarap_ve_kumar",
+"not_": "Şeytan şarap ve kumarla \"aranıza düşmanlık ve nefret yerleştirip sizi Allah'ı anmaktan, namazdan geri çevirmek ister\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "16:67",
+"odul_ayet": "16:67",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "sarap_ve_kumar",
+"not_": "\"Hurmalıkların meyvalarından, üzümlerden de sarhoş edici bir içecek ve güzel bir rızık elde edersiniz\""
+}
+]
+},
+{
+"id": "av_ihram",
+"grup": "Yiyecek ve içecek",
+"etiket": "Av: helal olan ve ihramda yasak olan",
+"ayet_sayisi": 5,
+"kayitlar": [
+{
+"blok": "K7b",
+"nitelik_ayet": "5:1",
+"odul_ayet": "5:1",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "av_ve_ihram",
+"not_": "\"İhramlı iken avlanmayı helal saymamak şartıyla davar cinsinden hayvanlar size helal kılınmıştır\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:2",
+"odul_ayet": "5:2",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "av_ve_ihram",
+"not_": "\"İhramdan çıktığınız vakit avlanın\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "5:94",
+"odul_ayet": "5:94",
+"odul": "azap_korkunc",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "av_ve_ihram",
+"not_": "Av ile deneme: \"Bundan sonra azıp sınırı çiğneyen için korkunç bir azap olacaktır\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "5:95",
+"odul_ayet": "5:95",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "av_ve_ihram",
+"not_": "\"İhramda olduğunuz zaman av öldürmeyin\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "5:95",
+"odul_ayet": "5:95",
+"odul": "denk_ceza",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "av_ve_ihram",
+"not_": "Kasten öldürenin cezası: öldürdüğüne denk kurbanlık, yahut yoksullara yedirme, yahut buna denk oruç; \"yaptığının vebalini tatsın\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "5:96",
+"odul_ayet": "5:96",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "av_ve_ihram",
+"not_": "\"Deniz avı yapmak ve onu yemek size helal kılındı. Fakat ihramlı olduğunuz sürece karada avlanmak size haram edilmiştir\""
+}
+]
+},
+{
+"id": "nikah_haram",
+"grup": "Evlilik",
+"etiket": "Evlenilmesi haram kılınanlar (yakınlar, evli kadınlar, müşrikler, zani)",
+"ayet_sayisi": 7,
+"kayitlar": [
+{
+"blok": "K7a",
+"nitelik_ayet": "2:221",
+"odul_ayet": "2:221",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "musrikle_evlilik",
+"not_": "\"Müşrik kadınlarla onlar iman edinceye kadar evlenmeyin ... müşrik erkeklerle de nikâhlanmayın\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:221",
+"odul_ayet": "2:221",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "musrikle_evlilik",
+"not_": "Gerekçe: \"Bu müşrikler sizleri ateşe çağırır; Allah ise cennete ve affa çağırır\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:22",
+"odul_ayet": "4:22",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "nikah_haram_yakinlar",
+"not_": "\"Babalarınızın nikâhlamış olduğu kadınlarla evlenmeyin\" (geçmişte kalanlar hariç)"
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:22",
+"odul_ayet": "4:22",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "nikah_haram_yakinlar",
+"not_": "\"Açık bir edepsizlik, nefret gerektiren bir kötülüktür, çirkin bir yoldur\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:23",
+"odul_ayet": "4:23",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "nikah_haram_yakinlar",
+"not_": "\"Size şu kadınlarla evlenmek haram kılınmıştır: analarınız, kızlarınız, kız kardeşleriniz, halalarınız, teyzeleriniz, erkek ve kız kardeş kızları, süt anneleriniz, süt kız kardeşleriniz, kayınvalideleriniz, üvey kızlarınız ...\" (liste 4:23)"
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:24",
+"odul_ayet": "4:24",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "nikah_haram_yakinlar",
+"not_": "\"Nikâhlı kadınlarla evlenmeniz de haram kılınmıştır\" (harpte elinize geçenler hariç)"
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:24",
+"odul_ayet": "4:24",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "nikah_haram_yakinlar",
+"not_": "\"Bunlar dışındakileri, mallarınızı vererek, iffetli yaşamanız ve zina etmemeniz şartıyla size helal kılınmıştır\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:25",
+"odul_ayet": "4:25",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "nikah_haram_yakinlar",
+"not_": "Hür mümin kadınla evlenmeye gücü yetmeyen, mümin köle kızlarıyla ailelerinin izniyle, mehirlerini vererek nikâhlasın"
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "24:3",
+"odul_ayet": "24:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "zani_ile_nikah",
+"not_": "\"Zina eden erkeği zina eden bir kadın veya putperest bir kadından başkası nikâhlamaz ... Müminlere bu haram kılınmıştır\""
+},
+{
+"blok": "K7g",
+"nitelik_ayet": "60:10",
+"odul_ayet": "60:10",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "musrikle_evlilik",
+"not_": "Hicret eden mümin kadınlar için: \"Onları kâfirlere döndürmeyin. Ne bu mümin kadınlar o kâfirlere helaldir ne de o kâfirler bunlara helaldir\""
+}
+]
+},
+{
+"id": "evlilik_hukumleri",
+"grup": "Evlilik",
+"etiket": "Helal kılınan evlilikler ve evlilik emirleri (çok eşlilik, Kitap ehlinin kadınları, evlendirme, zıhar)",
+"ayet_sayisi": 8,
+"kayitlar": [
+{
+"blok": "K7b",
+"nitelik_ayet": "4:3",
+"odul_ayet": "4:3",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "cok_esli_evlilik",
+"not_": "\"Temiz kılınan kadınlardan ikişer, üçer, dörder nikâhlayın; adaleti gözetemeyeceğinizden korkarsanız bir tek kadınla yetinin\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:5",
+"odul_ayet": "5:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "ehlikitap_yemegi_ve_kadinlari",
+"not_": "\"Bugün size bütün temiz nimetler helal kılındı. Kitap verilmiş olanların yemekleri size helaldir\"; iffetli mümin kadınlar ve kitap ehlinin iffetli kadınları mehirleri verildiğinde helaldir"
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "24:32",
+"odul_ayet": "24:32",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "evlendirme_emri",
+"not_": "\"İçinizden bekârları/dulları, erkek hizmetçilerinizden ve halayıklarınızdan durumu uygun olanları evlendirin; yoksulsa Allah lütfundan zenginleştirir\""
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "24:33",
+"odul_ayet": "24:33",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "evlendirme_emri",
+"not_": "\"Nikâh imkânı bulamayanlar, Allah zenginleştirinceye kadar iffetlerini korusunlar\""
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "33:4",
+"odul_ayet": "33:4",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "zihar_ve_evlatlik",
+"not_": "\"Zıhar yaptığınız eşlerinizi sizin anneniz yapmamıştır, evlatlıklarınızı da oğullarınız kılmamıştır; ağızlarınızın bir lakırdısıdır\""
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "33:5",
+"odul_ayet": "33:5",
+"odul": "yok",
+"derece": "✓",
+"tur": "emir",
+"ham": "zihar_ve_evlatlik",
+"not_": "\"Evlatlıklarınızı öz babalarına nispet ederek çağırın\""
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "33:50",
+"odul_ayet": "33:50",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "peygamberin_evlilik_hukmu",
+"not_": "\"Ey Peygamber! Biz sana şu hanımları helal kıldık ...\" (Peygamber'e özgü hüküm)"
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "33:52",
+"odul_ayet": "33:52",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "peygamberin_evlilik_hukmu",
+"not_": "\"Bundan sonra sana artık başka kadınlar helal olmaz; bunları başka eşlerle değiştirmek de helal olmaz\""
+}
+]
+},
+{
+"id": "esle_bosanma",
+"grup": "Evlilik",
+"etiket": "Eşle ilişki, boşanma ve iddet hükümleri",
+"ayet_sayisi": 9,
+"kayitlar": [
+{
+"blok": "K7a",
+"nitelik_ayet": "2:187",
+"odul_ayet": "2:187",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "oruc_gecesi_esle_iliski",
+"not_": "\"Oruç gecesi kadınlarınıza yaklaşmak size helal kılınmıştır\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:222",
+"odul_ayet": "2:222",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "hayiz_donemi",
+"not_": "\"Hayızlı oldukları sırada kadınlardan uzak durun ve temizleninceye kadar yaklaşmayın\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:228",
+"odul_ayet": "2:228",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bosanma_ve_iddet",
+"not_": "İddet: \"Allah'ın rahimlerinde yarattığını saklamaları kendilerine helal olmaz\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:229",
+"odul_ayet": "2:229",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bosanma_ve_iddet",
+"not_": "\"Onlara verdiğinizden bir şeyi geri almanız size helal olmaz\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:230",
+"odul_ayet": "2:230",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bosanma_ve_iddet",
+"not_": "Üçüncü boşamadan sonra \"başka bir eşle nikahlanıncaya kadar ilk erkeğe helal olmaz\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:232",
+"odul_ayet": "2:232",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bosanma_ve_iddet",
+"not_": "\"Eski kocalarıyla nikahlanmaları hususunda onlara engel çıkarmayın\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:235",
+"odul_ayet": "2:235",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bosanma_ve_iddet",
+"not_": "İddet bekleyen kadınlarla \"zorunlu süre doluncaya kadar nikahı bağlamaya girişmeyin\""
+},
+{
+"blok": "K7h",
+"nitelik_ayet": "4:19",
+"odul_ayet": "4:19",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bosanma_ve_iddet",
+"not_": "\"Kadınlara zor ve baskı kullanarak mirasçı olmanız size helal olmaz\"; verdiklerinin bir kısmını almak için sıkıştırmak da helal değildir"
+},
+{
+"blok": "K7f",
+"nitelik_ayet": "33:49",
+"odul_ayet": "33:49",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "bosanma_ve_iddet",
+"not_": "Dokunmadan boşanan kadınlar için \"sizin belirleyeceğiniz bir iddet boyunca onları bekletme hakkınız yoktur; onları nimetlendirin ve güzelce serbest bırakın\""
+}
+]
+},
+{
+"id": "haram_kilma_yetkisi",
+"grup": "Haram kılma ve helal sayma",
+"etiket": "Allah'ın helal ve haram kılması; kendiliğinden haramlaştırmanın yasağı",
+"ayet_sayisi": 16,
+"kayitlar": [
+{
+"blok": "K7h",
+"nitelik_ayet": "2:275",
+"odul_ayet": "2:275",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_haram_kildiklari",
+"not_": "\"Allah alış-verişi helal, ribayı haram kılmıştır\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:87",
+"odul_ayet": "5:87",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kendi_haram_kilma",
+"not_": "\"Allah'ın size helal kıldığı şeylerin temiz ve güzel olanlarını haramlaştırmayın; azıp sınırı aşmayın\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "5:87",
+"odul_ayet": "5:87",
+"odul": "sevilmeme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kendi_haram_kilma",
+"not_": "\"Allah azıp sınırı aşanları sevmez\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "5:103",
+"odul_ayet": "5:103",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kendi_haram_kilma",
+"not_": "\"Allah ne bahîre yapmıştır ne sâibe ne vasîle ne de hâm. Küfre sapanlar yalan uydurarak Allah'a iftira ediyorlar\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:138",
+"odul_ayet": "6:138",
+"odul": "cezalandirma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kendi_haram_kilma",
+"not_": "\"Şunlar dokunulmaz hayvanlar ve ekinlerdir\" diyenler: \"Allah onları üretmekte oldukları iftiralar yüzünden cezalandıracaktır\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:139",
+"odul_ayet": "6:139",
+"odul": "cezalandirma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kendi_haram_kilma",
+"not_": "\"Şu hayvanların karınlarındakiler erkeklerimize özgülenmiştir; kadınlarımıza haramdır\" diyenlere: \"Bu nitelendirmeleri yüzünden Allah cezalarını verecektir\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:140",
+"odul_ayet": "6:140",
+"odul": "husran",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kendi_haram_kilma",
+"not_": "\"Rızıkları Allah'a iftira ederek haramlaştıranlar gerçekten hüsrana uğramışlardır\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:143",
+"odul_ayet": "6:143",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kendi_haram_kilma",
+"not_": "\"İki erkeği mi haram kıldı, iki dişiyi mi? ... Doğru sözlü iseniz ilimle haber verin\" (6:143-144)"
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:150",
+"odul_ayet": "6:150",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kendi_haram_kilma",
+"not_": "\"Allah şunu haram etmiştir diye tanıklık eden şahitlerle birlikte tanıklık etme\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:151",
+"odul_ayet": "6:151",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_haram_kildiklari",
+"not_": "\"Rabbinizin size neleri haram kıldığını okuyayım: ortak koşmayın, ana-babaya iyi davranın, çocuklarınızı öldürmeyin, kötülüklere yaklaşmayın, haksız yere can almayın ...\" (6:151, ayrıntı Konu 4 ve 5)"
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "7:32",
+"odul_ayet": "7:32",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kendi_haram_kilma",
+"not_": "\"Allah'ın kulları için çıkardığı süsü, güzel ve tatlı rızıkları kim haram etmiş?\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "7:33",
+"odul_ayet": "7:33",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_haram_kildiklari",
+"not_": "\"Rabbim ancak şunları haram kıldı: iğrençlikleri, günahı, haksız yere saldırmayı, kanıtsız ortak koşmayı, Allah hakkında bilmediğinizi söylemeyi\""
+},
+{
+"blok": "K7d",
+"nitelik_ayet": "10:59",
+"odul_ayet": "10:59",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kendi_haram_kilma",
+"not_": "\"Allah'ın size rızık olarak indirdiği şeylerden bir haram yaptınız bir de helal?\" — \"Allah mı size izin verdi, yoksa Allah'a iftira mı ediyorsunuz?\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "16:116",
+"odul_ayet": "16:116",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kendi_haram_kilma",
+"not_": "\"Dillerinizin uydurma nitelendirmeleriyle 'Şu helaldir, şu da haramdır!' demeyin\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "16:116",
+"odul_ayet": "16:116",
+"odul": "basarisizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kendi_haram_kilma",
+"not_": "\"Yalan düzerek Allah'a iftira edenler kurtulamazlar\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "16:117",
+"odul_ayet": "16:117",
+"odul": "azap_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kendi_haram_kilma",
+"not_": "\"Az bir nimetlenme ardından acıklı bir azap var onlara\""
+},
+{
+"blok": "K7h",
+"nitelik_ayet": "28:12",
+"odul_ayet": "28:12",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahin_haram_kildiklari",
+"not_": "\"Biz daha önce ona (Mûsa'ya) süt emziren kadınları haram kılmıştık\" (Allah'ın haram kılması)"
+},
+{
+"blok": "K7g",
+"nitelik_ayet": "66:1",
+"odul_ayet": "66:1",
+"odul": "yok",
+"derece": "✓",
+"tur": "yasak",
+"ham": "kendi_haram_kilma",
+"not_": "\"Ey Peygamber! Allah'ın sana helal kıldığı şeyi, eşlerinin hoşnutluğunu isteyerek neden haramlaştırıyorsun?\""
+}
+]
+},
+{
+"id": "israilogullari_haram",
+"grup": "Haram kılma ve helal sayma",
+"etiket": "İsrailoğullarına haram kılınanlar",
+"ayet_sayisi": 5,
+"kayitlar": [
+{
+"blok": "K7b",
+"nitelik_ayet": "3:50",
+"odul_ayet": "3:50",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "israilogullari_haram",
+"not_": "İsa: \"Size haram kılınmış olanın bir kısmını size helal yapacağım\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "3:93",
+"odul_ayet": "3:93",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "israilogullari_haram",
+"not_": "\"İsrail'in kendi nefsine haram kıldığı şeyler dışında tüm yiyecekler İsrailoğullarına helaldi\""
+},
+{
+"blok": "K7b",
+"nitelik_ayet": "4:160",
+"odul_ayet": "4:160",
+"odul": "tayyibat_haram",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "israilogullari_haram",
+"not_": "\"Yaptıkları zulümler ve Allah yolundan alıkoymaları yüzünden daha önce helal kılınmış tertemiz şeyleri Yahudilere haram kıldık\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "6:146",
+"odul_ayet": "6:146",
+"odul": "haram_kilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "israilogullari_haram",
+"not_": "\"Yahudilere tüm tırnaklı hayvanları haram kıldık ... azgınlıkları yüzünden bir ceza olarak\""
+},
+{
+"blok": "K7e",
+"nitelik_ayet": "16:118",
+"odul_ayet": "16:118",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "israilogullari_haram",
+"not_": "\"Daha önce Yahudilere haram kılmıştık. Biz onlara haksızlık etmedik; onlar kendi benliklerine zulmediyorlardı\""
+}
+]
+}
+],
+"ayetler": {
+"2:57": {
+"ar": "وَظَلَّلْنَا عَلَيْكُمُ ٱلْغَمَامَ وَأَنزَلْنَا عَلَيْكُمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ ۖ وَمَا ظَلَمُونَا وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+"tr": "Ve bulutu üstünüze gölgelik yaptık ve size kudret helvasıyla bıldırcın indirdik: \"rızk olarak size verdiklerimizin, en temizlerinden yiyin.\" dedik. Onlar zulmü bize yapmadılar, onlar kendi benliklerine zulmetmekteydiler."
+},
+"2:168": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّاسُ كُلُوا۟ مِمَّا فِى ٱلْأَرْضِ حَلَـٰلًا طَيِّبًا وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+"tr": "Ey insanlar! Yeryüzündeki nimetlerden temiz ve helal olmak şartıyla yiyin. Şeytanın adımlarını izlemeyin. Çünkü o size açık bir düşmandır."
+},
+"2:172": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
+"tr": "Ey iman sahipleri! Size verdiğimiz rızkların temizlerinden yiyin ve - eğer kendisine kulluk ediyorsanız - Allah'a şükredin."
+},
+"2:173": {
+"ar": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيْرِ ٱللَّهِ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "Allah size leşi, kanı, domuz etini, Allah'tan başkası adına kesileni haram kılmıştır. Ama zorda kalanın, sınırı aşmadan, şuna-buna haksızlık ve tecavüze gitmeden yemesinde kendisi için günah yoktur. Allah çok affedici, çok merhametlidir."
+},
+"2:187": {
+"ar": "أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌ لَّكُمْ وَأَنتُمْ لِبَاسٌ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٔـٰنَ بَـٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَـٰشِرُوهُنَّ وَأَنتُمْ عَـٰكِفُونَ فِى ٱلْمَسَـٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَـٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ",
+"tr": "Oruç gecesi kadınlarınıza yaklaşmak size helal kılınmıştır. Onlar sizin için giysidir, siz de onlar için giysisiniz. Allah sizin öz benliklerinize yazık etmekte olduğunuzu bilmiş, tövbelerinizi kabul edip sizi affetmiştir. Artık şimdi onlara yaklaşın ve Allah'ın sizin için yazdığı şeyi arayın. Tan yerinin beyaz ipliği siyah ipliğinden sizce seçilinceye kadar yiyin için; sonra da orucu gece oluncaya değin tamamlayın. Mescitlerde itikâfta bulunduğunuz sırada zevcelerinizle cinsel temas kurmayın. İşte bunlar Allah'ın yasaklarıdır, bunlara yaklaşmayın. Allah, ayetlerini insanlara işte böyle açıklar ki korunabilsinler."
+},
+"2:219": {
+"ar": "يَسْـَٔلُونَكَ عَنِ ٱلْخَمْرِ وَٱلْمَيْسِرِ ۖ قُلْ فِيهِمَآ إِثْمٌ كَبِيرٌ وَمَنَـٰفِعُ لِلنَّاسِ وَإِثْمُهُمَآ أَكْبَرُ مِن نَّفْعِهِمَا ۗ وَيَسْـَٔلُونَكَ مَاذَا يُنفِقُونَ قُلِ ٱلْعَفْوَ ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَتَفَكَّرُونَ",
+"tr": "Sana uyuşturucuyu/şarabı ve kumarı sorarlar. De ki: \"Bu ikisinde büyük bir günah vardır; insanlar için çıkarlar da vardır. Ama onların kötülüğü yararlarından çok daha büyüktür.\" Ve sana neyi infak edeceklerini de soruyorlar. De ki: \"Helal kazancınızın size ve bakmakla yükümlü olduklarınıza yeterli olanından artanını verin.\" İşte Allah, ayetleri size böyle açıklar ki, derin derin düşünebilesiniz."
+},
+"2:221": {
+"ar": "وَلَا تَنكِحُوا۟ ٱلْمُشْرِكَـٰتِ حَتَّىٰ يُؤْمِنَّ ۚ وَلَأَمَةٌ مُّؤْمِنَةٌ خَيْرٌ مِّن مُّشْرِكَةٍ وَلَوْ أَعْجَبَتْكُمْ ۗ وَلَا تُنكِحُوا۟ ٱلْمُشْرِكِينَ حَتَّىٰ يُؤْمِنُوا۟ ۚ وَلَعَبْدٌ مُّؤْمِنٌ خَيْرٌ مِّن مُّشْرِكٍ وَلَوْ أَعْجَبَكُمْ ۗ أُو۟لَـٰٓئِكَ يَدْعُونَ إِلَى ٱلنَّارِ ۖ وَٱللَّهُ يَدْعُوٓا۟ إِلَى ٱلْجَنَّةِ وَٱلْمَغْفِرَةِ بِإِذْنِهِۦ ۖ وَيُبَيِّنُ ءَايَـٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَذَكَّرُونَ",
+"tr": "Müşrik kadınlarla, onlar iman edinceye kadar evlenmeyin. Özgürlüğünden yoksun inanmış bir kadın, müşrik bir kadından - müşrik kadın sizin hoşunuza gitse de - çok daha hayırlıdır. Müşrik erkeklerle de onlar iman edinceye kadar nikâhlanmayın. İnanmış bir köle, müşrik bir erkekten - o hoşunuza gitse de - çok daha hayırlıdır. Bu müşrikler sizleri ateşe çağırır. Allah ise sizi, izniyle cennete ve affa çağırır. Ve ayetlerini insanlara açık açık bildirir ki, düşünüp öğüt alabilsinler."
+},
+"2:222": {
+"ar": "وَيَسْـَٔلُونَكَ عَنِ ٱلْمَحِيضِ ۖ قُلْ هُوَ أَذًى فَٱعْتَزِلُوا۟ ٱلنِّسَآءَ فِى ٱلْمَحِيضِ ۖ وَلَا تَقْرَبُوهُنَّ حَتَّىٰ يَطْهُرْنَ ۖ فَإِذَا تَطَهَّرْنَ فَأْتُوهُنَّ مِنْ حَيْثُ أَمَرَكُمُ ٱللَّهُ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلتَّوَّٰبِينَ وَيُحِبُّ ٱلْمُتَطَهِّرِينَ",
+"tr": "Sana adet halini de sorarlar. De ki: \"O, insana rahatsızlık veren bir haldir. Hayızlı oldukları sırada kadınlardan uzak durun ve onlar temizleninceye kadar kendilerine yaklaşmayın. İyice temizlendiklerinde, Allah'ın emrettiği yerden onlara gidin.\" Şu bir gerçek ki Allah, çok tövbe edenleri sever, iyice temizlenenleri de sever."
+},
+"2:228": {
+"ar": "وَٱلْمُطَلَّقَـٰتُ يَتَرَبَّصْنَ بِأَنفُسِهِنَّ ثَلَـٰثَةَ قُرُوٓءٍ ۚ وَلَا يَحِلُّ لَهُنَّ أَن يَكْتُمْنَ مَا خَلَقَ ٱللَّهُ فِىٓ أَرْحَامِهِنَّ إِن كُنَّ يُؤْمِنَّ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَبُعُولَتُهُنَّ أَحَقُّ بِرَدِّهِنَّ فِى ذَٰلِكَ إِنْ أَرَادُوٓا۟ إِصْلَـٰحًا ۚ وَلَهُنَّ مِثْلُ ٱلَّذِى عَلَيْهِنَّ بِٱلْمَعْرُوفِ ۚ وَلِلرِّجَالِ عَلَيْهِنَّ دَرَجَةٌ ۗ وَٱللَّهُ عَزِيزٌ حَكِيمٌ",
+"tr": "Boşanmış kadınlar kendi başlarına üç âdet ve temizlenme süresi beklerler. Eğer Allah'a ve âhıret gününe inanmakta iseler, Allah'ın onların rahimlerinde yarattığını saklamaları kendilerine helal olmaz. Kocaları, bu süre içinde herhangi bir şekilde barışmak isterlerse eşlerini geri almaya herkesten daha çok hak sahibidirler. Kadınların, örfe uygun biçimde, sorumluluklarına benzer hakları da vardır. Erkeklerin kadınlar üzerinde bir derece farkı vardır. Allah Azîz'dir, Hakîm'dir."
+},
+"2:229": {
+"ar": "ٱلطَّلَـٰقُ مَرَّتَانِ ۖ فَإِمْسَاكٌۢ بِمَعْرُوفٍ أَوْ تَسْرِيحٌۢ بِإِحْسَـٰنٍ ۗ وَلَا يَحِلُّ لَكُمْ أَن تَأْخُذُوا۟ مِمَّآ ءَاتَيْتُمُوهُنَّ شَيْـًٔا إِلَّآ أَن يَخَافَآ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ ۖ فَإِنْ خِفْتُمْ أَلَّا يُقِيمَا حُدُودَ ٱللَّهِ فَلَا جُنَاحَ عَلَيْهِمَا فِيمَا ٱفْتَدَتْ بِهِۦ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَعْتَدُوهَا ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَأُو۟لَـٰٓئِكَ هُمُ ٱلظَّـٰلِمُونَ",
+"tr": "Boşama iki kezdir. Bunun ardından ya iyilikle tutmak ya da güzelce serbest bırakmak gerekir. Onlara verdiğinizden bir şeyi geri almanız size helal olmaz. Erkekle kadının Allah'ın sınırlarını korumada endişe etmeleri hali başka. Erkek ve kadının Allah'ın sınırlarında duramayacaklarından endişe ederseniz, o zaman kadının verdiği fidyede ikisine de bir günah yoktur. İşte bunlar Allah'ın sınırlarıdır. Bunları aşmayın. Allah'ın sınırlarını aşanlar, işte onlar, zalimlerin ta kendileridirler."
+},
+"2:230": {
+"ar": "فَإِن طَلَّقَهَا فَلَا تَحِلُّ لَهُۥ مِنۢ بَعْدُ حَتَّىٰ تَنكِحَ زَوْجًا غَيْرَهُۥ ۗ فَإِن طَلَّقَهَا فَلَا جُنَاحَ عَلَيْهِمَآ أَن يَتَرَاجَعَآ إِن ظَنَّآ أَن يُقِيمَا حُدُودَ ٱللَّهِ ۗ وَتِلْكَ حُدُودُ ٱللَّهِ يُبَيِّنُهَا لِقَوْمٍ يَعْلَمُونَ",
+"tr": "Bütün bunların ardından erkek, kadını boşarsa artık bundan sonra başka bir eşle nikahlanıncaya kadar ilk erkeğe helal olmaz. İkinci erkek kadını boşadığında, boşanan kadınla ilk erkek Allah'ın sınırlarını koruyabileceklerini düşünürlerse, birbirlerine dönmelerinde sakınca yoktur. İşte bunlar Allah'ın sınırlarıdır ki, Allah bunları bilgi sahibi bir topluluğa açıklar."
+},
+"2:232": {
+"ar": "وَإِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَبَلَغْنَ أَجَلَهُنَّ فَلَا تَعْضُلُوهُنَّ أَن يَنكِحْنَ أَزْوَٰجَهُنَّ إِذَا تَرَٰضَوْا۟ بَيْنَهُم بِٱلْمَعْرُوفِ ۗ ذَٰلِكَ يُوعَظُ بِهِۦ مَن كَانَ مِنكُمْ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۗ ذَٰلِكُمْ أَزْكَىٰ لَكُمْ وَأَطْهَرُ ۗ وَٱللَّهُ يَعْلَمُ وَأَنتُمْ لَا تَعْلَمُونَ",
+"tr": "Kadınları boşadığınız zaman bekleme sürelerini tamamladıklarında, kendi aralarında örfe uygun olarak anlaşmışlarsa eski kocalarıyla nikahlanmaları hususunda onlara engel çıkarmayın. Bu, sizin Allah'a ve âhıret gününe inanmış olanınıza verilen öğüttür. Bu sizin için daha isabetli ve daha temizdir, Allah bilir ama siz bilmezsiniz."
+},
+"2:235": {
+"ar": "وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا عَرَّضْتُم بِهِۦ مِنْ خِطْبَةِ ٱلنِّسَآءِ أَوْ أَكْنَنتُمْ فِىٓ أَنفُسِكُمْ ۚ عَلِمَ ٱللَّهُ أَنَّكُمْ سَتَذْكُرُونَهُنَّ وَلَـٰكِن لَّا تُوَاعِدُوهُنَّ سِرًّا إِلَّآ أَن تَقُولُوا۟ قَوْلًا مَّعْرُوفًا ۚ وَلَا تَعْزِمُوا۟ عُقْدَةَ ٱلنِّكَاحِ حَتَّىٰ يَبْلُغَ ٱلْكِتَـٰبُ أَجَلَهُۥ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ يَعْلَمُ مَا فِىٓ أَنفُسِكُمْ فَٱحْذَرُوهُ ۚ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ غَفُورٌ حَلِيمٌ",
+"tr": "İddet bekleyen kadınlara evlenme isteğinizi dolaylı yoldan anlatmanızda veya böyle bir şeyi içinizde saklamanızda sizin için hiç bir günah yoktur. Allah bilmiştir ki, siz onları mutlaka anacaksınız, unutmayacaksınız. Bu sırada onlarla, örfün normal göreceği sözlerle konuşma dışında gizli bir buluşma için anlaşmayın. Ve zorunlu olan süre doluncaya kadar nikahı bağlamaya girişmeyin. Bilin ki Allah, benliklerinizin içindekini bilir. O'ndan sakının. Ve bilin ki Allah çok affedicidir, çok yumuşak davranışlıdır."
+},
+"2:275": {
+"ar": "ٱلَّذِينَ يَأْكُلُونَ ٱلرِّبَوٰا۟ لَا يَقُومُونَ إِلَّا كَمَا يَقُومُ ٱلَّذِى يَتَخَبَّطُهُ ٱلشَّيْطَـٰنُ مِنَ ٱلْمَسِّ ۚ ذَٰلِكَ بِأَنَّهُمْ قَالُوٓا۟ إِنَّمَا ٱلْبَيْعُ مِثْلُ ٱلرِّبَوٰا۟ ۗ وَأَحَلَّ ٱللَّهُ ٱلْبَيْعَ وَحَرَّمَ ٱلرِّبَوٰا۟ ۚ فَمَن جَآءَهُۥ مَوْعِظَةٌ مِّن رَّبِّهِۦ فَٱنتَهَىٰ فَلَهُۥ مَا سَلَفَ وَأَمْرُهُۥٓ إِلَى ٱللَّهِ ۖ وَمَنْ عَادَ فَأُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
+"tr": "O ribayı yiyenler, şeytanın bir dokunuşla çarptığı kişinin kalkışından başka türlü kalkamazlar. Bu böyledir, çünkü onlar, \"Alış-veriş de riba gibidir.\" demişlerdir. Oysa ki Allah, alış-verişi helal, ribayı haram kılmıştır. Kendisine Rabb'inden bir öğüt gelip de yaptığından vazgeçenin geçmişi kendisine, işi Allah'a kalmıştır. Yeniden ribaya dönene gelince, böyleleri ateşin dostlarıdır. Sürekli kalacaklardır orada."
+},
+"3:50": {
+"ar": "وَمُصَدِّقًا لِّمَا بَيْنَ يَدَىَّ مِنَ ٱلتَّوْرَىٰةِ وَلِأُحِلَّ لَكُم بَعْضَ ٱلَّذِى حُرِّمَ عَلَيْكُمْ ۚ وَجِئْتُكُم بِـَٔايَةٍ مِّن رَّبِّكُمْ فَٱتَّقُوا۟ ٱللَّهَ وَأَطِيعُونِ",
+"tr": "\"Tevrat'tan önümde bulunanı doğrulayıcıyım. Size haram kılınmış olanın bir kısmını size helal yapacağım. Rabbinizden bir mucize getirdim size. Artık Allah'tan sakının ve bana itaat edin.\""
+},
+"3:93": {
+"ar": "كُلُّ ٱلطَّعَامِ كَانَ حِلًّا لِّبَنِىٓ إِسْرَٰٓءِيلَ إِلَّا مَا حَرَّمَ إِسْرَٰٓءِيلُ عَلَىٰ نَفْسِهِۦ مِن قَبْلِ أَن تُنَزَّلَ ٱلتَّوْرَىٰةُ ۗ قُلْ فَأْتُوا۟ بِٱلتَّوْرَىٰةِ فَٱتْلُوهَآ إِن كُنتُمْ صَـٰدِقِينَ",
+"tr": "Tevrat indirilmeden önce İsrail'in kendi nefsine haram kıldığı şeyler dışında tüm yiyecekler İsrailoğullarına helaldi. Onlara de ki: \"Tevrat'ı ortaya getirin; doğru sözlü iseniz onu okuyun.\""
+},
+"4:3": {
+"ar": "وَإِنْ خِفْتُمْ أَلَّا تُقْسِطُوا۟ فِى ٱلْيَتَـٰمَىٰ فَٱنكِحُوا۟ مَا طَابَ لَكُم مِّنَ ٱلنِّسَآءِ مَثْنَىٰ وَثُلَـٰثَ وَرُبَـٰعَ ۖ فَإِنْ خِفْتُمْ أَلَّا تَعْدِلُوا۟ فَوَٰحِدَةً أَوْ مَا مَلَكَتْ أَيْمَـٰنُكُمْ ۚ ذَٰلِكَ أَدْنَىٰٓ أَلَّا تَعُولُوا۟",
+"tr": "Yetimler konusunda adaleti koruyamayacağınızdan korkarsanız, sizin için temiz kılınan kadınlardan ikişer, üçer, dörder nikâhlayın. Eğer bu durumda adaleti gözetemeyeceğinizden korkarsanız, bir tek kadınla yahut yeminlerinizin/sağ ellerinizin sahip olduklarıyla yetinin. İşte bu, haksızlığa sapmamanız için en uygun yoldur."
+},
+"4:19": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا يَحِلُّ لَكُمْ أَن تَرِثُوا۟ ٱلنِّسَآءَ كَرْهًا ۖ وَلَا تَعْضُلُوهُنَّ لِتَذْهَبُوا۟ بِبَعْضِ مَآ ءَاتَيْتُمُوهُنَّ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَعَاشِرُوهُنَّ بِٱلْمَعْرُوفِ ۚ فَإِن كَرِهْتُمُوهُنَّ فَعَسَىٰٓ أَن تَكْرَهُوا۟ شَيْـًٔا وَيَجْعَلَ ٱللَّهُ فِيهِ خَيْرًا كَثِيرًا",
+"tr": "Ey iman edenler! Kadınlara, zor ve baskı kullanarak mirasçı olmanız size helal olmaz. Kendilerine vermiş bulunduğunuz şeylerin bir kısmını çarpıp götürmek için onları sıkıştırmanız da helal değildir. Kanıta bağlanmış bir fuhuş yapmaları hali müstesna. Onlarla iyi ve güzel geçinin. Onlardan tiksindinizse olabilir ki, siz bir şeyi çirkin bulursunuz da Allah, ona çok hayır koymuş olur."
+},
+"4:22": {
+"ar": "وَلَا تَنكِحُوا۟ مَا نَكَحَ ءَابَآؤُكُم مِّنَ ٱلنِّسَآءِ إِلَّا مَا قَدْ سَلَفَ ۚ إِنَّهُۥ كَانَ فَـٰحِشَةً وَمَقْتًا وَسَآءَ سَبِيلًا",
+"tr": "Geçmişte kalanlar hariç, babalarınızın nikâhlamış olduğu kadınlarla evlenmeyin. Böyle bir şey açık bir edepsizlik, nefret gerektiren bir kötülüktür. Çirkin bir yoldur bu."
+},
+"4:23": {
+"ar": "حُرِّمَتْ عَلَيْكُمْ أُمَّهَـٰتُكُمْ وَبَنَاتُكُمْ وَأَخَوَٰتُكُمْ وَعَمَّـٰتُكُمْ وَخَـٰلَـٰتُكُمْ وَبَنَاتُ ٱلْأَخِ وَبَنَاتُ ٱلْأُخْتِ وَأُمَّهَـٰتُكُمُ ٱلَّـٰتِىٓ أَرْضَعْنَكُمْ وَأَخَوَٰتُكُم مِّنَ ٱلرَّضَـٰعَةِ وَأُمَّهَـٰتُ نِسَآئِكُمْ وَرَبَـٰٓئِبُكُمُ ٱلَّـٰتِى فِى حُجُورِكُم مِّن نِّسَآئِكُمُ ٱلَّـٰتِى دَخَلْتُم بِهِنَّ فَإِن لَّمْ تَكُونُوا۟ دَخَلْتُم بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ وَحَلَـٰٓئِلُ أَبْنَآئِكُمُ ٱلَّذِينَ مِنْ أَصْلَـٰبِكُمْ وَأَن تَجْمَعُوا۟ بَيْنَ ٱلْأُخْتَيْنِ إِلَّا مَا قَدْ سَلَفَ ۗ إِنَّ ٱللَّهَ كَانَ غَفُورًا رَّحِيمًا",
+"tr": "Size, şu kadınlarla evlenmek haram kılınmıştır: Analarınız, kızlarınız, kız kardeşleriniz, halalarınız, teyzeleriniz, erkek kardeş kızları, kız kardeş kızları, sizi emziren süt anneleriniz, süt kız kardeşleriniz, karılarınızın anneleri, kendileriyle birleştiğiniz hanımlarınızdan doğmuş olup evlerinizde oturan üvey kızlarınız -eğer anneleriyle birleşmemişseniz o takdirde sizin için bir günah yoktur- ve sulbünüzden gelen oğullarınızın karıları. İki kız kardeşi birlikte almanız da haram kılınmıştır. Eskide kalanlar müstesna. Allah çok affedici, çok merhametlidir."
+},
+"4:24": {
+"ar": "وَٱلْمُحْصَنَـٰتُ مِنَ ٱلنِّسَآءِ إِلَّا مَا مَلَكَتْ أَيْمَـٰنُكُمْ ۖ كِتَـٰبَ ٱللَّهِ عَلَيْكُمْ ۚ وَأُحِلَّ لَكُم مَّا وَرَآءَ ذَٰلِكُمْ أَن تَبْتَغُوا۟ بِأَمْوَٰلِكُم مُّحْصِنِينَ غَيْرَ مُسَـٰفِحِينَ ۚ فَمَا ٱسْتَمْتَعْتُم بِهِۦ مِنْهُنَّ فَـَٔاتُوهُنَّ أُجُورَهُنَّ فَرِيضَةً ۚ وَلَا جُنَاحَ عَلَيْكُمْ فِيمَا تَرَٰضَيْتُم بِهِۦ مِنۢ بَعْدِ ٱلْفَرِيضَةِ ۚ إِنَّ ٱللَّهَ كَانَ عَلِيمًا حَكِيمًا",
+"tr": "Harpte elinize geçmiş kadınlar hariç olmak üzere, nikâhlı kadınlarla evlenmeniz de haram kılınmıştır. Bu, üzerinize Allah'ın yazdığıdır. Bunlar dışındakileri, mallarınızı vererek almanız; şunu bunu dost tutmayarak iffetli yaşamanız, zina etmemeniz şartıyla size helal kılınmıştır. Kendilerinden nimetlendiğiniz kadınların mehirlerini onlara bir hak olarak verin. Mehir kesişmeden sonra karşılıklı hoşnutluğa bağlı hallerde üzerinize günah yoktur. Allah, her şeyi bilir, tüm hikmetlerin sahibidir."
+},
+"4:25": {
+"ar": "وَمَن لَّمْ يَسْتَطِعْ مِنكُمْ طَوْلًا أَن يَنكِحَ ٱلْمُحْصَنَـٰتِ ٱلْمُؤْمِنَـٰتِ فَمِن مَّا مَلَكَتْ أَيْمَـٰنُكُم مِّن فَتَيَـٰتِكُمُ ٱلْمُؤْمِنَـٰتِ ۚ وَٱللَّهُ أَعْلَمُ بِإِيمَـٰنِكُم ۚ بَعْضُكُم مِّنۢ بَعْضٍ ۚ فَٱنكِحُوهُنَّ بِإِذْنِ أَهْلِهِنَّ وَءَاتُوهُنَّ أُجُورَهُنَّ بِٱلْمَعْرُوفِ مُحْصَنَـٰتٍ غَيْرَ مُسَـٰفِحَـٰتٍ وَلَا مُتَّخِذَٰتِ أَخْدَانٍ ۚ فَإِذَآ أُحْصِنَّ فَإِنْ أَتَيْنَ بِفَـٰحِشَةٍ فَعَلَيْهِنَّ نِصْفُ مَا عَلَى ٱلْمُحْصَنَـٰتِ مِنَ ٱلْعَذَابِ ۚ ذَٰلِكَ لِمَنْ خَشِىَ ٱلْعَنَتَ مِنكُمْ ۚ وَأَن تَصْبِرُوا۟ خَيْرٌ لَّكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+"tr": "İnanmış hür kadınları nikâhlama genişliğine gücü yetmeyeniniz, ellerinizin altındaki genç, mümin köle kızlarından biriyle evlensin. Allah sizin imanınızı daha iyi bilir. Hep birbirinizdensiniz. O halde onları, ailelerinin izniyle nikâhlayın. Gizli dost edinmeyerek, zinadan uzak kalarak, iffetli hanımlar olmaları şartıyla onların mehirlerini örfe uygun bir biçimde verin. Evliliğe geçtikten sonra bir fuhuş yaparlarsa onlara, hür kadınlara uygulanan cezasının yarısı uygulanacaktır. Bu, köle ile evlenme yolu, günaha ve sıkıntıya girmekten korkanınız içindir. Sabretmeniz sizin için daha hayırlıdır. Allah çok affedici, çok merhametlidir."
+},
+"4:43": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْرَبُوا۟ ٱلصَّلَوٰةَ وَأَنتُمْ سُكَـٰرَىٰ حَتَّىٰ تَعْلَمُوا۟ مَا تَقُولُونَ وَلَا جُنُبًا إِلَّا عَابِرِى سَبِيلٍ حَتَّىٰ تَغْتَسِلُوا۟ ۚ وَإِن كُنتُم مَّرْضَىٰٓ أَوْ عَلَىٰ سَفَرٍ أَوْ جَآءَ أَحَدٌ مِّنكُم مِّنَ ٱلْغَآئِطِ أَوْ لَـٰمَسْتُمُ ٱلنِّسَآءَ فَلَمْ تَجِدُوا۟ مَآءً فَتَيَمَّمُوا۟ صَعِيدًا طَيِّبًا فَٱمْسَحُوا۟ بِوُجُوهِكُمْ وَأَيْدِيكُمْ ۗ إِنَّ ٱللَّهَ كَانَ عَفُوًّا غَفُورًا",
+"tr": "Ey iman edenler! Sarhoşken, ne söylediğinizi bilinceye kadar, cünüpken de -yolculuk halinde olmanız müstesna- boy abdesti alıncaya kadar namaza yaklaşmayın. Eğer hastalanırsanız yahut yolculuk halinde bulunursanız yahut biriniz tuvaletten gelmişse yahut kadınlara dokunmuşsanız, bütün bu durumlarda su da bulamamışsanız, temiz bir toprakla teyemmüm edin. Yani yüzlerinizi ve ellerinizi meshedin. Allah Afüvv'dür, günahları affeder, Gafûr'dur, hataları bağışlar."
+},
+"4:160": {
+"ar": "فَبِظُلْمٍ مِّنَ ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا عَلَيْهِمْ طَيِّبَـٰتٍ أُحِلَّتْ لَهُمْ وَبِصَدِّهِمْ عَن سَبِيلِ ٱللَّهِ كَثِيرًا",
+"tr": "Yaptıkları zulümler ve birçok insanı Allah yolundan alıkoymaları yüzünden daha önce kendilerine helal kılınmış tertemiz şeyleri, Yahudilere haram kıldık."
+},
+"5:1": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ أَوْفُوا۟ بِٱلْعُقُودِ ۚ أُحِلَّتْ لَكُم بَهِيمَةُ ٱلْأَنْعَـٰمِ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ غَيْرَ مُحِلِّى ٱلصَّيْدِ وَأَنتُمْ حُرُمٌ ۗ إِنَّ ٱللَّهَ يَحْكُمُ مَا يُرِيدُ",
+"tr": "Ey iman edenler! Akitlerin ve ahitlerin icaplarını yerine getirin. Siz ihramlı iken avlanmayı helal saymamak şartıyla ve ileride size okunacaklar müstesna olmak üzere, davar cinsinden hayvanlar size helal kılınmıştır. Kuşkunuz olmasın ki, Allah, iradesi yönünde hüküm verir."
+},
+"5:2": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُحِلُّوا۟ شَعَـٰٓئِرَ ٱللَّهِ وَلَا ٱلشَّهْرَ ٱلْحَرَامَ وَلَا ٱلْهَدْىَ وَلَا ٱلْقَلَـٰٓئِدَ وَلَآ ءَآمِّينَ ٱلْبَيْتَ ٱلْحَرَامَ يَبْتَغُونَ فَضْلًا مِّن رَّبِّهِمْ وَرِضْوَٰنًا ۚ وَإِذَا حَلَلْتُمْ فَٱصْطَادُوا۟ ۚ وَلَا يَجْرِمَنَّكُمْ شَنَـَٔانُ قَوْمٍ أَن صَدُّوكُمْ عَنِ ٱلْمَسْجِدِ ٱلْحَرَامِ أَن تَعْتَدُوا۟ ۘ وَتَعَاوَنُوا۟ عَلَى ٱلْبِرِّ وَٱلتَّقْوَىٰ ۖ وَلَا تَعَاوَنُوا۟ عَلَى ٱلْإِثْمِ وَٱلْعُدْوَٰنِ ۚ وَٱتَّقُوا۟ ٱللَّهَ ۖ إِنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ",
+"tr": "Ey iman edenler! Allah'ın ibadet, iyilik ve güzellik alâmeti kıldığı şeylere, çarpışmanın yasak olduğu haram aya, kurbanlık hediyelere, gerdanlıklara, Rablerinden bir lütuf ve rıza niyaz ederek Mescid-i Haram'a gelmiş olanlara saygısızlık etmeyin! İhramdan çıktığınız vakit avlanın. Bir topluluğun, sizi Mescid-i Haram'dan uzak tutmak için sergilediği kötülük, sizi saldırganlık ve düşmanlığa sakın itmesin! Hayırda erginlik/dürüstlük ve takva üzere yardımlaşın! Kötülük/çirkinlik, düşmanlık/saldırganlık üzere yardımlaşmayın. Allah'tan sakının! Kuşkunuz olmasın ki, Allah'ın azabı çok şiddetlidir."
+},
+"5:3": {
+"ar": "حُرِّمَتْ عَلَيْكُمُ ٱلْمَيْتَةُ وَٱلدَّمُ وَلَحْمُ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ وَٱلْمُنْخَنِقَةُ وَٱلْمَوْقُوذَةُ وَٱلْمُتَرَدِّيَةُ وَٱلنَّطِيحَةُ وَمَآ أَكَلَ ٱلسَّبُعُ إِلَّا مَا ذَكَّيْتُمْ وَمَا ذُبِحَ عَلَى ٱلنُّصُبِ وَأَن تَسْتَقْسِمُوا۟ بِٱلْأَزْلَـٰمِ ۚ ذَٰلِكُمْ فِسْقٌ ۗ ٱلْيَوْمَ يَئِسَ ٱلَّذِينَ كَفَرُوا۟ مِن دِينِكُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِ ۚ ٱلْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِى وَرَضِيتُ لَكُمُ ٱلْإِسْلَـٰمَ دِينًا ۚ فَمَنِ ٱضْطُرَّ فِى مَخْمَصَةٍ غَيْرَ مُتَجَانِفٍ لِّإِثْمٍ ۙ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "Şunlar size haram kılınmıştır: Boğazlanmayarak ölmüş hayvanın eti, kan, domuz eti, üzerine Allah'tan başkasının adı anılmış, boğulmuş, vurulmuş, yuvarlanmış, süsülmüş, canı üzerineyken yetişip kestikleriniz müstesna olmak üzere canavar tarafından yırtılmış ve dikili adak taşları üzerinde boğazlanmış hayvanlar ve bir de fal oklarıyla kısmet paylaşmanız... Bütün bunlar birer sapıştır. Küfre batmış olanlar bugün dininizden ümitlerini kestiler. Artık onlardan korkmayın, benden korkun! Bugün sizin için dininizi kemale erdirdim, üzerinizdeki nimetimi tamamladım ve sizin için din olarak İslam'ı/Allah'a teslim olmayı seçtim. Şu da var ki, her kim ciddi bir açlıkla yüz yüze gelir de günaha kaçmak maksadı olmaksızın onlardan yemek zorunda kalırsa, elbette Allah Gafûr ve Rahîm'dir."
+},
+"5:4": {
+"ar": "يَسْـَٔلُونَكَ مَاذَآ أُحِلَّ لَهُمْ ۖ قُلْ أُحِلَّ لَكُمُ ٱلطَّيِّبَـٰتُ ۙ وَمَا عَلَّمْتُم مِّنَ ٱلْجَوَارِحِ مُكَلِّبِينَ تُعَلِّمُونَهُنَّ مِمَّا عَلَّمَكُمُ ٱللَّهُ ۖ فَكُلُوا۟ مِمَّآ أَمْسَكْنَ عَلَيْكُمْ وَٱذْكُرُوا۟ ٱسْمَ ٱللَّهِ عَلَيْهِ ۖ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ سَرِيعُ ٱلْحِسَابِ",
+"tr": "Sana soruyorlar, onlar için helal kılınan ne? Şöyle söyle: \"Sizin için bütün temiz nimetler helal kılınmıştır. Eğittiğiniz avcı kuşların tuttukları ile eğittiğiniz av köpeklerinin tuttukları da size helal kılındı. Siz bu hayvanlara, Allah'ın size öğrettiklerinden öğretiyorsunuz. O halde onların sizin için tuttuklarından da yiyin ve üzerine Allah'ın adını anın. Allah'tan sakının! Allah gerçekten hesabı çok çabuk görür.\""
+},
+"5:5": {
+"ar": "ٱلْيَوْمَ أُحِلَّ لَكُمُ ٱلطَّيِّبَـٰتُ ۖ وَطَعَامُ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ حِلٌّ لَّكُمْ وَطَعَامُكُمْ حِلٌّ لَّهُمْ ۖ وَٱلْمُحْصَنَـٰتُ مِنَ ٱلْمُؤْمِنَـٰتِ وَٱلْمُحْصَنَـٰتُ مِنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَـٰبَ مِن قَبْلِكُمْ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ مُحْصِنِينَ غَيْرَ مُسَـٰفِحِينَ وَلَا مُتَّخِذِىٓ أَخْدَانٍ ۗ وَمَن يَكْفُرْ بِٱلْإِيمَـٰنِ فَقَدْ حَبِطَ عَمَلُهُۥ وَهُوَ فِى ٱلْـَٔاخِرَةِ مِنَ ٱلْخَـٰسِرِينَ",
+"tr": "Bugün size bütün temiz nimetler helal kılındı. Kendilerine kitap verilmiş olanların yemekleri size helaldir. Sizin yemekleriniz de onlara helaldir. Mümin kadınların iffetlileriyle, sizden önce kendilerine kitap verilmiş olanların iffetli hanımları da mehirlerini verdiğiniz takdirde; iffetinizi korumanız, zinadan uzak kalmanız ve şunu-bunu dost tutmamanız şartıyla size helaldir. İmanı tanımayıp nankörlük edenin ameli boşa gitmiştir. Ve o, âhirette de hüsrana uğrayanlardandır."
+},
+"5:87": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تُحَرِّمُوا۟ طَيِّبَـٰتِ مَآ أَحَلَّ ٱللَّهُ لَكُمْ وَلَا تَعْتَدُوٓا۟ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْمُعْتَدِينَ",
+"tr": "Ey iman sahipleri! Allah'ın size helal kıldığı şeylerin temiz ve güzel olanlarını haramlaştırmayın; azıp sınırı aşmayın; Allah azıp sınırı aşanları sevmez."
+},
+"5:88": {
+"ar": "وَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَـٰلًا طَيِّبًا ۚ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ أَنتُم بِهِۦ مُؤْمِنُونَ",
+"tr": "Allah'ın size helal ve temiz olarak verdiği rızıklardan yiyin. Kendisine iman ettiğiniz Allah'tan korkun."
+},
+"5:90": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّمَا ٱلْخَمْرُ وَٱلْمَيْسِرُ وَٱلْأَنصَابُ وَٱلْأَزْلَـٰمُ رِجْسٌ مِّنْ عَمَلِ ٱلشَّيْطَـٰنِ فَٱجْتَنِبُوهُ لَعَلَّكُمْ تُفْلِحُونَ",
+"tr": "Ey iman edenler! Uyuşturucu/şarap, kumar, tapılmak için dikilen taşlar, fal okları şeytan işi birer pisliktir; bunlardan uzak durun ki kurtuluşa eresiniz."
+},
+"5:91": {
+"ar": "إِنَّمَا يُرِيدُ ٱلشَّيْطَـٰنُ أَن يُوقِعَ بَيْنَكُمُ ٱلْعَدَٰوَةَ وَٱلْبَغْضَآءَ فِى ٱلْخَمْرِ وَٱلْمَيْسِرِ وَيَصُدَّكُمْ عَن ذِكْرِ ٱللَّهِ وَعَنِ ٱلصَّلَوٰةِ ۖ فَهَلْ أَنتُم مُّنتَهُونَ",
+"tr": "Şeytan; uyuşturucu ve kumara sokularak aranıza düşmanlık ve şiddetli nefret yerleştirip sizi Allah'ı anmaktan, namazdan geri çevirmek ister. Artık son veriyorsunuz değil mi?"
+},
+"5:94": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَيَبْلُوَنَّكُمُ ٱللَّهُ بِشَىْءٍ مِّنَ ٱلصَّيْدِ تَنَالُهُۥٓ أَيْدِيكُمْ وَرِمَاحُكُمْ لِيَعْلَمَ ٱللَّهُ مَن يَخَافُهُۥ بِٱلْغَيْبِ ۚ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌ",
+"tr": "Ey iman sahipleri! Allah sizi, ellerinizin ve mızraklarınızın erişeceği av türünden bir şeyle mutlaka deneyecektir ki, gözün fark edemediği alanlarda O'ndan kim korkuyor bilsin. Bundan sonra azıp sınırı çiğneyen için korkunç bir azap olacaktır."
+},
+"5:95": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقْتُلُوا۟ ٱلصَّيْدَ وَأَنتُمْ حُرُمٌ ۚ وَمَن قَتَلَهُۥ مِنكُم مُّتَعَمِّدًا فَجَزَآءٌ مِّثْلُ مَا قَتَلَ مِنَ ٱلنَّعَمِ يَحْكُمُ بِهِۦ ذَوَا عَدْلٍ مِّنكُمْ هَدْيًۢا بَـٰلِغَ ٱلْكَعْبَةِ أَوْ كَفَّـٰرَةٌ طَعَامُ مَسَـٰكِينَ أَوْ عَدْلُ ذَٰلِكَ صِيَامًا لِّيَذُوقَ وَبَالَ أَمْرِهِۦ ۗ عَفَا ٱللَّهُ عَمَّا سَلَفَ ۚ وَمَنْ عَادَ فَيَنتَقِمُ ٱللَّهُ مِنْهُ ۗ وَٱللَّهُ عَزِيزٌ ذُو ٱنتِقَامٍ",
+"tr": "Ey iman sahipleri! İhramda olduğunuz zaman av öldürmeyin. Sizden kim kasten onu öldürürse cezası şudur: Öldürdüğü hayvana denk deve-sığır, davar cinsinden, Kâbe'ye varacak kurbanlık bir hediye ki, içinizden adalet sahibi iki kişi belirleyecektir. Yahut yoksullara yedirme şeklinde bir keffâret, yahut buna denk oruç. Taki yaptığının vebalini tatsın. Allah, geçmişi affetmiştir. Kim bir daha yaparsa, Allah ondan öc alacaktır. Allah çok güçlüdür, öc alıcıdır."
+},
+"5:96": {
+"ar": "أُحِلَّ لَكُمْ صَيْدُ ٱلْبَحْرِ وَطَعَامُهُۥ مَتَـٰعًا لَّكُمْ وَلِلسَّيَّارَةِ ۖ وَحُرِّمَ عَلَيْكُمْ صَيْدُ ٱلْبَرِّ مَا دُمْتُمْ حُرُمًا ۗ وَٱتَّقُوا۟ ٱللَّهَ ٱلَّذِىٓ إِلَيْهِ تُحْشَرُونَ",
+"tr": "Hem size hem de yolculara bir geçimlik olarak deniz avı yapmak ve onu yemek size helal kılındı. Fakat ihramlı olduğunuz sürece karada avlanmak size haram edilmiştir. Huzurunda haşredileceğiniz Allah'tan korkun."
+},
+"5:100": {
+"ar": "قُل لَّا يَسْتَوِى ٱلْخَبِيثُ وَٱلطَّيِّبُ وَلَوْ أَعْجَبَكَ كَثْرَةُ ٱلْخَبِيثِ ۚ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ لَعَلَّكُمْ تُفْلِحُونَ",
+"tr": "De ki: \"Pisin çokluğu seni hayrete düşürse de pisle temiz bir olmaz. O halde, ey akıl ve gönül sahipleri! Allah'tan korkun ki kurtuluşa erebilesiniz.\""
+},
+"5:103": {
+"ar": "مَا جَعَلَ ٱللَّهُ مِنۢ بَحِيرَةٍ وَلَا سَآئِبَةٍ وَلَا وَصِيلَةٍ وَلَا حَامٍ ۙ وَلَـٰكِنَّ ٱلَّذِينَ كَفَرُوا۟ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ ۖ وَأَكْثَرُهُمْ لَا يَعْقِلُونَ",
+"tr": "Allah ne bahîre yapmıştır ne sâibe ne vasîle ne de hâm. Ne var ki küfre sapanlar yalan uydurarak Allah'a iftira ediyorlar ve çokları da akıl erdiremiyorlar."
+},
+"6:118": {
+"ar": "فَكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ إِن كُنتُم بِـَٔايَـٰتِهِۦ مُؤْمِنِينَ",
+"tr": "O halde, O'nun ayetlerine inanıyorsanız, üzerine Allah'ın adı anılmış olanlardan yiyin."
+},
+"6:119": {
+"ar": "وَمَا لَكُمْ أَلَّا تَأْكُلُوا۟ مِمَّا ذُكِرَ ٱسْمُ ٱللَّهِ عَلَيْهِ وَقَدْ فَصَّلَ لَكُم مَّا حَرَّمَ عَلَيْكُمْ إِلَّا مَا ٱضْطُرِرْتُمْ إِلَيْهِ ۗ وَإِنَّ كَثِيرًا لَّيُضِلُّونَ بِأَهْوَآئِهِم بِغَيْرِ عِلْمٍ ۗ إِنَّ رَبَّكَ هُوَ أَعْلَمُ بِٱلْمُعْتَدِينَ",
+"tr": "Size ne oluyor da üzerine Allah'ın adı anılmış olanlardan yemiyorsunuz? Zorda kalışınız dışında üzerinize haram kıldığını bizzat kendisi size ayrıntılı olarak açıklamıştır. Birçokları ilimsiz bir biçimde kendi keyiflerine uyarak halkı şaşırtıyorlar. Hiç kuşkusuz, senin Rabbin sınır tanımaz azgınları çok iyi bilmektedir."
+},
+"6:121": {
+"ar": "وَلَا تَأْكُلُوا۟ مِمَّا لَمْ يُذْكَرِ ٱسْمُ ٱللَّهِ عَلَيْهِ وَإِنَّهُۥ لَفِسْقٌ ۗ وَإِنَّ ٱلشَّيَـٰطِينَ لَيُوحُونَ إِلَىٰٓ أَوْلِيَآئِهِمْ لِيُجَـٰدِلُوكُمْ ۖ وَإِنْ أَطَعْتُمُوهُمْ إِنَّكُمْ لَمُشْرِكُونَ",
+"tr": "Üzerine Allah'ın adı anılmayanlardan yemeyin. Böyle bir şey tam bir yoldan çıkıştır. Şeytanlar kendi evliyasına/dost ve destekçilerine sizinle mücadele etmeleri için elbetteki vahiy gönderirler. O şeytan evliyasına boyun eğerseniz kesinlikle müşrikler oldunuz demektir."
+},
+"6:138": {
+"ar": "وَقَالُوا۟ هَـٰذِهِۦٓ أَنْعَـٰمٌ وَحَرْثٌ حِجْرٌ لَّا يَطْعَمُهَآ إِلَّا مَن نَّشَآءُ بِزَعْمِهِمْ وَأَنْعَـٰمٌ حُرِّمَتْ ظُهُورُهَا وَأَنْعَـٰمٌ لَّا يَذْكُرُونَ ٱسْمَ ٱللَّهِ عَلَيْهَا ٱفْتِرَآءً عَلَيْهِ ۚ سَيَجْزِيهِم بِمَا كَانُوا۟ يَفْتَرُونَ",
+"tr": "Kendi kuruntularına uygun olarak şöyle dediler: \"Şunlar, dokunulmaz hayvanlar ve ekinlerdir. Bizim dilediğimizden başkası yiyemez bunları.\" Hayvanlar var, sırtlarına binmek yasaklanmıştır; hayvanlar var, Allah'a iftira yüzünden üzerlerine Allah'ın adını anmıyorlar. Allah onları üretmekte oldukları iftiralar yüzünden cezalandıracaktır."
+},
+"6:139": {
+"ar": "وَقَالُوا۟ مَا فِى بُطُونِ هَـٰذِهِ ٱلْأَنْعَـٰمِ خَالِصَةٌ لِّذُكُورِنَا وَمُحَرَّمٌ عَلَىٰٓ أَزْوَٰجِنَا ۖ وَإِن يَكُن مَّيْتَةً فَهُمْ فِيهِ شُرَكَآءُ ۚ سَيَجْزِيهِمْ وَصْفَهُمْ ۚ إِنَّهُۥ حَكِيمٌ عَلِيمٌ",
+"tr": "Şunu da söylediler: \"Şu hayvanların karınlarındakiler erkeklerimize özgülenmiştir; kadınlarımıza haramdır. Yavru ölü doğarsa kadın-erkek hepsi onda hak sahibidir.\" Bu nitelendirmeleri yüzünden Allah cezalarını verecektir. Hakîm'dir O, Alîm'dir."
+},
+"6:140": {
+"ar": "قَدْ خَسِرَ ٱلَّذِينَ قَتَلُوٓا۟ أَوْلَـٰدَهُمْ سَفَهًۢا بِغَيْرِ عِلْمٍ وَحَرَّمُوا۟ مَا رَزَقَهُمُ ٱللَّهُ ٱفْتِرَآءً عَلَى ٱللَّهِ ۚ قَدْ ضَلُّوا۟ وَمَا كَانُوا۟ مُهْتَدِينَ",
+"tr": "Şu bir gerçek ki, ilimsizlik yüzünden öz evlatlarını beyinsizce katledenlerle Allah'ın kendilerine verdiği rızıkları, Allah'a iftira ederek haramlaştıranlar gerçekten hüsrana uğramışlardır. İnan olsun, sapıtmışlardır onlar; hiçbir zaman doğruyu ve güzeli bulamazlar."
+},
+"6:142": {
+"ar": "وَمِنَ ٱلْأَنْعَـٰمِ حَمُولَةً وَفَرْشًا ۚ كُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَـٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّ مُّبِينٌ",
+"tr": "Hayvanlardan yük taşıyanı da yaygı/döşek yapılanı da yaratan yine O'dur. Allah'ın size verdiği rızıklardan yiyin, şeytanın adımlarını izlemeyin! Çünkü o sizin için açık bir düşmandır."
+},
+"6:143": {
+"ar": "ثَمَـٰنِيَةَ أَزْوَٰجٍ ۖ مِّنَ ٱلضَّأْنِ ٱثْنَيْنِ وَمِنَ ٱلْمَعْزِ ٱثْنَيْنِ ۗ قُلْ ءَآلذَّكَرَيْنِ حَرَّمَ أَمِ ٱلْأُنثَيَيْنِ أَمَّا ٱشْتَمَلَتْ عَلَيْهِ أَرْحَامُ ٱلْأُنثَيَيْنِ ۖ نَبِّـُٔونِى بِعِلْمٍ إِن كُنتُمْ صَـٰدِقِينَ",
+"tr": "Sekiz çift: Koyundan iki, keçiden de iki. De ki \"İki erkeği mi haram kıldı, iki dişiyi mi, yoksa iki dişinin rahimlerinin kuşattığını mı? Eğer doğru sözlü iseniz bana ilimle haber verin.\""
+},
+"6:145": {
+"ar": "قُل لَّآ أَجِدُ فِى مَآ أُوحِىَ إِلَىَّ مُحَرَّمًا عَلَىٰ طَاعِمٍ يَطْعَمُهُۥٓ إِلَّآ أَن يَكُونَ مَيْتَةً أَوْ دَمًا مَّسْفُوحًا أَوْ لَحْمَ خِنزِيرٍ فَإِنَّهُۥ رِجْسٌ أَوْ فِسْقًا أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۚ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ فَإِنَّ رَبَّكَ غَفُورٌ رَّحِيمٌ",
+"tr": "De ki: \"Bana vahyolunanlar içinde, bu haram dediklerinizi yiyecek birine yasaklanmış bir şey bulamıyorum. Yalnız şunlardan biri olursa başka: leş, akıtılmış kan, domuz eti -ki o bir pisliktir- Allah'tan başkası adına boğazlanmış bir murdar.\" Iztırar haline düşen, başkasının hakkına dokunmamak, zorunluluk sınırını da aşmamak şartıyla bunlardan yiyebilir. Çünkü senin Rabbin çok bağışlayıcı, çok merhametlidir."
+},
+"6:146": {
+"ar": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا كُلَّ ذِى ظُفُرٍ ۖ وَمِنَ ٱلْبَقَرِ وَٱلْغَنَمِ حَرَّمْنَا عَلَيْهِمْ شُحُومَهُمَآ إِلَّا مَا حَمَلَتْ ظُهُورُهُمَآ أَوِ ٱلْحَوَايَآ أَوْ مَا ٱخْتَلَطَ بِعَظْمٍ ۚ ذَٰلِكَ جَزَيْنَـٰهُم بِبَغْيِهِمْ ۖ وَإِنَّا لَصَـٰدِقُونَ",
+"tr": "Yahudilere tüm tırnaklı hayvanları haram kıldık. Onlara ayrıca sığır ve koyunun yağlarını da haram kıldık. Sığır ve koyunun sırtlarının ve bağırsaklarının taşıdığı yağlarla, kemiklerle karışan yağlar bunun dışındadır. Bunu onlara azgınlıkları yüzünden bir ceza olarak yaptık. Biz elbette sözünde duranlarız."
+},
+"6:150": {
+"ar": "قُلْ هَلُمَّ شُهَدَآءَكُمُ ٱلَّذِينَ يَشْهَدُونَ أَنَّ ٱللَّهَ حَرَّمَ هَـٰذَا ۖ فَإِن شَهِدُوا۟ فَلَا تَشْهَدْ مَعَهُمْ ۚ وَلَا تَتَّبِعْ أَهْوَآءَ ٱلَّذِينَ كَذَّبُوا۟ بِـَٔايَـٰتِنَا وَٱلَّذِينَ لَا يُؤْمِنُونَ بِٱلْـَٔاخِرَةِ وَهُم بِرَبِّهِمْ يَعْدِلُونَ",
+"tr": "Şunu da söyle: \"Allah şunu haram etmiştir diye tanıklık edip duran şahitlerinizi getirin.\" Eğer tanıklık ederlerse sakın onlarla birlikte tanıklık etme! Ayetlerimizi yalanlayanlarla âhirete inanmayanların keyifleri ardınca gitme! Onlar, kendi Rablerine başkalarını denk tutuyorlar."
+},
+"6:151": {
+"ar": "قُلْ تَعَالَوْا۟ أَتْلُ مَا حَرَّمَ رَبُّكُمْ عَلَيْكُمْ ۖ أَلَّا تُشْرِكُوا۟ بِهِۦ شَيْـًٔا ۖ وَبِٱلْوَٰلِدَيْنِ إِحْسَـٰنًا ۖ وَلَا تَقْتُلُوٓا۟ أَوْلَـٰدَكُم مِّنْ إِمْلَـٰقٍ ۖ نَّحْنُ نَرْزُقُكُمْ وَإِيَّاهُمْ ۖ وَلَا تَقْرَبُوا۟ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ ۖ وَلَا تَقْتُلُوا۟ ٱلنَّفْسَ ٱلَّتِى حَرَّمَ ٱللَّهُ إِلَّا بِٱلْحَقِّ ۚ ذَٰلِكُمْ وَصَّىٰكُم بِهِۦ لَعَلَّكُمْ تَعْقِلُونَ",
+"tr": "De ki onlara: \"Hadi gelin, Rabbinizin size neleri haram kıldığını yüzünüze karşı okuyayım: Hiçbir şeyi O'na ortak koşmayın. Ana-babaya çok iyi davranın. Yoksulluk endişesiyle çocuklarınızı öldürmeyin; biz sizi de onları da rızıklandırırız. Kötülüklerin görünenine de gizli kalanına da yaklaşmayın. Allah'ın saygın ve aziz kıldığı cana, bir hakkı savunmak dışında kıymayın. Allah size bunları önerdi ki, aklınızı işletebilesiniz.\""
+},
+"7:31": {
+"ar": "يَـٰبَنِىٓ ءَادَمَ خُذُوا۟ زِينَتَكُمْ عِندَ كُلِّ مَسْجِدٍ وَكُلُوا۟ وَٱشْرَبُوا۟ وَلَا تُسْرِفُوٓا۟ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْمُسْرِفِينَ",
+"tr": "Ey ademoğulları! Tüm mescitlerde süslü, güzel giysilerinizi kuşanın. Yiyin, için fakat israf etmeyin. Allah israf edenleri sevmez."
+},
+"7:32": {
+"ar": "قُلْ مَنْ حَرَّمَ زِينَةَ ٱللَّهِ ٱلَّتِىٓ أَخْرَجَ لِعِبَادِهِۦ وَٱلطَّيِّبَـٰتِ مِنَ ٱلرِّزْقِ ۚ قُلْ هِىَ لِلَّذِينَ ءَامَنُوا۟ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا خَالِصَةً يَوْمَ ٱلْقِيَـٰمَةِ ۗ كَذَٰلِكَ نُفَصِّلُ ٱلْـَٔايَـٰتِ لِقَوْمٍ يَعْلَمُونَ",
+"tr": "De ki: \"Allah'ın, kulları için çıkardığı süsü, güzel ve tatlı rızıkları kim haram etmiş?\" De ki: \"Dünya hayatında inananlar için de var. Kıyamet gününde ise yalnız inananlar içindirler.\" Bilgiden nasipli bir topluluk için biz, ayetleri böyle ayrıntılı kılıyoruz."
+},
+"7:33": {
+"ar": "قُلْ إِنَّمَا حَرَّمَ رَبِّىَ ٱلْفَوَٰحِشَ مَا ظَهَرَ مِنْهَا وَمَا بَطَنَ وَٱلْإِثْمَ وَٱلْبَغْىَ بِغَيْرِ ٱلْحَقِّ وَأَن تُشْرِكُوا۟ بِٱللَّهِ مَا لَمْ يُنَزِّلْ بِهِۦ سُلْطَـٰنًا وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ",
+"tr": "De ki: \"Rabbim, ancak şunları haram kıldı: İğrençlikleri -görünenini, gizli olanını- günahı, haksız yere saldırmayı, hakkında hiçbir kanıt indirmediği şeyi Allah'a ortak koşmayı, bir de Allah hakkında bilmediğiniz şeyler söylemeyi.\""
+},
+"7:157": {
+"ar": "ٱلَّذِينَ يَتَّبِعُونَ ٱلرَّسُولَ ٱلنَّبِىَّ ٱلْأُمِّىَّ ٱلَّذِى يَجِدُونَهُۥ مَكْتُوبًا عِندَهُمْ فِى ٱلتَّوْرَىٰةِ وَٱلْإِنجِيلِ يَأْمُرُهُم بِٱلْمَعْرُوفِ وَيَنْهَىٰهُمْ عَنِ ٱلْمُنكَرِ وَيُحِلُّ لَهُمُ ٱلطَّيِّبَـٰتِ وَيُحَرِّمُ عَلَيْهِمُ ٱلْخَبَـٰٓئِثَ وَيَضَعُ عَنْهُمْ إِصْرَهُمْ وَٱلْأَغْلَـٰلَ ٱلَّتِى كَانَتْ عَلَيْهِمْ ۚ فَٱلَّذِينَ ءَامَنُوا۟ بِهِۦ وَعَزَّرُوهُ وَنَصَرُوهُ وَٱتَّبَعُوا۟ ٱلنُّورَ ٱلَّذِىٓ أُنزِلَ مَعَهُۥٓ ۙ أُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
+"tr": "Onlar ki, yanlarındaki Tevrat ve İncil'de yazılmış bulacakları ümmi peygambere uyarlar; o onlara iyiliği emreder, kötü ve çirkinden onları alıkoyar. Güzel şeyleri onlara helal kılar, pis şeyleri onlara yasaklar. Sırtlarından ağırlıklarını indirir, üzerlerindeki zincirleri, bağları söküp atar. Ona inanan, onu destekleyen, ona yardım eden, onunla indirilen ışığa uyan kişiler, kurtuluşa erenlerin ta kendileridir."
+},
+"7:160": {
+"ar": "وَقَطَّعْنَـٰهُمُ ٱثْنَتَىْ عَشْرَةَ أَسْبَاطًا أُمَمًا ۚ وَأَوْحَيْنَآ إِلَىٰ مُوسَىٰٓ إِذِ ٱسْتَسْقَىٰهُ قَوْمُهُۥٓ أَنِ ٱضْرِب بِّعَصَاكَ ٱلْحَجَرَ ۖ فَٱنۢبَجَسَتْ مِنْهُ ٱثْنَتَا عَشْرَةَ عَيْنًا ۖ قَدْ عَلِمَ كُلُّ أُنَاسٍ مَّشْرَبَهُمْ ۚ وَظَلَّلْنَا عَلَيْهِمُ ٱلْغَمَـٰمَ وَأَنزَلْنَا عَلَيْهِمُ ٱلْمَنَّ وَٱلسَّلْوَىٰ ۖ كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ ۚ وَمَا ظَلَمُونَا وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+"tr": "Biz onları, oniki torun kabileye ayırdık. Toplumu kendisinden su istediğinde de Musa'ya, \"asanı taşa vur\" diye vahyettik. Taştan, oniki göze fışkırdı. Her oymak, su içeceği yeri belledi. Onların üzerlerine bulutları gölgelik yaptık, kendilerine kudret helvası ve bıldırcın indirdik. \"Yiyiniz size verdiğimiz rızıkların temizlerinden!\" onlar bize zulmetmediler, ama öz benliklerine zulmediyorlardı."
+},
+"8:69": {
+"ar": "فَكُلُوا۟ مِمَّا غَنِمْتُمْ حَلَـٰلًا طَيِّبًا ۚ وَٱتَّقُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "Artık elde ettiğiniz ganimetlerden helal ve temiz olarak yiyin; Allah'tan sakının! Allah çok affedici, çok merhametlidir."
+},
+"10:59": {
+"ar": "قُلْ أَرَءَيْتُم مَّآ أَنزَلَ ٱللَّهُ لَكُم مِّن رِّزْقٍ فَجَعَلْتُم مِّنْهُ حَرَامًا وَحَلَـٰلًا قُلْ ءَآللَّهُ أَذِنَ لَكُمْ ۖ أَمْ عَلَى ٱللَّهِ تَفْتَرُونَ",
+"tr": "De ki: \"Ne oldu size de Allah'ın size rızık olarak indirdiği şeylerden bir haram yaptınız bir de helal?\" De ki: \"Allah mı size izin verdi, yoksa Allah'a iftira mı ediyorsunuz?\""
+},
+"16:67": {
+"ar": "وَمِن ثَمَرَٰتِ ٱلنَّخِيلِ وَٱلْأَعْنَـٰبِ تَتَّخِذُونَ مِنْهُ سَكَرًا وَرِزْقًا حَسَنًا ۗ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّقَوْمٍ يَعْقِلُونَ",
+"tr": "Hurmalıkların meyvalarından, üzümlerden de sarhoş edici bir içecek ve güzel bir rızık elde edersiniz. İşte bunda, aklını işleten bir topluluk için kesin bir mucize vardır."
+},
+"16:114": {
+"ar": "فَكُلُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ حَلَـٰلًا طَيِّبًا وَٱشْكُرُوا۟ نِعْمَتَ ٱللَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ",
+"tr": "Allah'ın sizi rızıklandırdığı şeylerden helal ve temiz olarak yiyin! Eğer yalnız O'na kulluk/ibadet ediyorsanız, Allah'ın nimetlerine şükredin."
+},
+"16:115": {
+"ar": "إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ لِغَيْرِ ٱللَّهِ بِهِۦ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍ وَلَا عَادٍ فَإِنَّ ٱللَّهَ غَفُورٌ رَّحِيمٌ",
+"tr": "O size ancak şunları haram kılmıştır: Ölü, kan, domuz eti, Allah'tan başkası adına kesilen hayvan. Bununla birlikte, zorda kalan, başkasının hakkına tecavüz etmemek, sınırı da aşmamak şartıyla bunlardan yerse, Allah bağışlayacak, merhamet edecektir."
+},
+"16:116": {
+"ar": "وَلَا تَقُولُوا۟ لِمَا تَصِفُ أَلْسِنَتُكُمُ ٱلْكَذِبَ هَـٰذَا حَلَـٰلٌ وَهَـٰذَا حَرَامٌ لِّتَفْتَرُوا۟ عَلَى ٱللَّهِ ٱلْكَذِبَ ۚ إِنَّ ٱلَّذِينَ يَفْتَرُونَ عَلَى ٱللَّهِ ٱلْكَذِبَ لَا يُفْلِحُونَ",
+"tr": "Yalan düzerek Allah'a iftira etmek için, dillerinizin uydurma nitelendirmeleriyle \"Şu helaldir, şu da haramdır!\" demeyin. Yalan düzerek Allah'a iftira edenler kurtulamazlar."
+},
+"16:117": {
+"ar": "مَتَـٰعٌ قَلِيلٌ وَلَهُمْ عَذَابٌ أَلِيمٌ",
+"tr": "Az bir nimetlenme ardından, acıklı bir azap var onlara."
+},
+"16:118": {
+"ar": "وَعَلَى ٱلَّذِينَ هَادُوا۟ حَرَّمْنَا مَا قَصَصْنَا عَلَيْكَ مِن قَبْلُ ۖ وَمَا ظَلَمْنَـٰهُمْ وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+"tr": "Sana anlattıklarımızı daha önce, Yahudilere haram kılmıştık. Biz onlara haksızlık etmedik; aksine, onlar kendi benliklerine zulmediyorlardı."
+},
+"20:81": {
+"ar": "كُلُوا۟ مِن طَيِّبَـٰتِ مَا رَزَقْنَـٰكُمْ وَلَا تَطْغَوْا۟ فِيهِ فَيَحِلَّ عَلَيْكُمْ غَضَبِى ۖ وَمَن يَحْلِلْ عَلَيْهِ غَضَبِى فَقَدْ هَوَىٰ",
+"tr": "Size verdiğimiz rızkın temizlerinden yiyin! Bu konuda azgınlık etmeyin! Yoksa öfkem üzerinize çöker. Ve kimin üstüne öfkem inerse o uçuruma gider."
+},
+"22:30": {
+"ar": "ذَٰلِكَ وَمَن يُعَظِّمْ حُرُمَـٰتِ ٱللَّهِ فَهُوَ خَيْرٌ لَّهُۥ عِندَ رَبِّهِۦ ۗ وَأُحِلَّتْ لَكُمُ ٱلْأَنْعَـٰمُ إِلَّا مَا يُتْلَىٰ عَلَيْكُمْ ۖ فَٱجْتَنِبُوا۟ ٱلرِّجْسَ مِنَ ٱلْأَوْثَـٰنِ وَٱجْتَنِبُوا۟ قَوْلَ ٱلزُّورِ",
+"tr": "İşte böyle. Kim Allah'ın yasaklarına saygılı olursa bu, Rabbi katında kendisi için çok hayırlı olur. Karşınızda okunarak açıklananlar hariç, tüm hayvanlar size helal kılınmışır. Artık putların pisliğinden, yalan sözden uzak durun."
+},
+"23:51": {
+"ar": "يَـٰٓأَيُّهَا ٱلرُّسُلُ كُلُوا۟ مِنَ ٱلطَّيِّبَـٰتِ وَٱعْمَلُوا۟ صَـٰلِحًا ۖ إِنِّى بِمَا تَعْمَلُونَ عَلِيمٌ",
+"tr": "Ey resuller! Güzel ve temiz şeylerden yiyin ve barışa, hayra yönelik iş yapın! Çünkü ben, yapmakta olduklarınızı çok iyi bilmekteyim."
+},
+"24:3": {
+"ar": "ٱلزَّانِى لَا يَنكِحُ إِلَّا زَانِيَةً أَوْ مُشْرِكَةً وَٱلزَّانِيَةُ لَا يَنكِحُهَآ إِلَّا زَانٍ أَوْ مُشْرِكٌ ۚ وَحُرِّمَ ذَٰلِكَ عَلَى ٱلْمُؤْمِنِينَ",
+"tr": "Zina eden erkeği zina eden bir kadın veya putperest bir kadından başkası nikâhlamaz. Zina eden kadına gelince, onu da zina eden bir erkek veya putperest bir erkekten başkası nikâhlamaz. Müminlere bu, haram kılınmıştır."
+},
+"24:32": {
+"ar": "وَأَنكِحُوا۟ ٱلْأَيَـٰمَىٰ مِنكُمْ وَٱلصَّـٰلِحِينَ مِنْ عِبَادِكُمْ وَإِمَآئِكُمْ ۚ إِن يَكُونُوا۟ فُقَرَآءَ يُغْنِهِمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
+"tr": "İçinizden bekârları/dulları, bir de erkek hizmetçilerinizden ve halayıklarınızdan durumu uygun olanları evlendirin. Eğer yoksul iseler, Allah onları lütfundan zenginleştirir. Allah Vâsi'dir, Alîm'dir."
+},
+"24:33": {
+"ar": "وَلْيَسْتَعْفِفِ ٱلَّذِينَ لَا يَجِدُونَ نِكَاحًا حَتَّىٰ يُغْنِيَهُمُ ٱللَّهُ مِن فَضْلِهِۦ ۗ وَٱلَّذِينَ يَبْتَغُونَ ٱلْكِتَـٰبَ مِمَّا مَلَكَتْ أَيْمَـٰنُكُمْ فَكَاتِبُوهُمْ إِنْ عَلِمْتُمْ فِيهِمْ خَيْرًا ۖ وَءَاتُوهُم مِّن مَّالِ ٱللَّهِ ٱلَّذِىٓ ءَاتَىٰكُمْ ۚ وَلَا تُكْرِهُوا۟ فَتَيَـٰتِكُمْ عَلَى ٱلْبِغَآءِ إِنْ أَرَدْنَ تَحَصُّنًا لِّتَبْتَغُوا۟ عَرَضَ ٱلْحَيَوٰةِ ٱلدُّنْيَا ۚ وَمَن يُكْرِههُّنَّ فَإِنَّ ٱللَّهَ مِنۢ بَعْدِ إِكْرَٰهِهِنَّ غَفُورٌ رَّحِيمٌ",
+"tr": "Nikâh imkânı bulamayanlar, Allah kendilerini lütfundan zenginleştirinceye kadar iffetlerini korusunlar. Size bağımlı olanlardan, hürriyetini satın almak isteyenlerin, kendilerinde iyi hal görürseniz, onlarla yazılı anlaşma yapın. Allah'a size verdiği malından siz de onlara verin. Hizmetinizdeki genç kızları, iffetli kalmak isteyip dururlarken, iğreti dünya hayatının basit menfaatini elde etmek için fuhşa zorlamayın. Kim onları baskı altında tutarsa Allah, fuhşa zorlanmalarından sonra onları affedici, esirgeyicidir."
+},
+"24:61": {
+"ar": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ وَلَا عَلَىٰٓ أَنفُسِكُمْ أَن تَأْكُلُوا۟ مِنۢ بُيُوتِكُمْ أَوْ بُيُوتِ ءَابَآئِكُمْ أَوْ بُيُوتِ أُمَّهَـٰتِكُمْ أَوْ بُيُوتِ إِخْوَٰنِكُمْ أَوْ بُيُوتِ أَخَوَٰتِكُمْ أَوْ بُيُوتِ أَعْمَـٰمِكُمْ أَوْ بُيُوتِ عَمَّـٰتِكُمْ أَوْ بُيُوتِ أَخْوَٰلِكُمْ أَوْ بُيُوتِ خَـٰلَـٰتِكُمْ أَوْ مَا مَلَكْتُم مَّفَاتِحَهُۥٓ أَوْ صَدِيقِكُمْ ۚ لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَأْكُلُوا۟ جَمِيعًا أَوْ أَشْتَاتًا ۚ فَإِذَا دَخَلْتُم بُيُوتًا فَسَلِّمُوا۟ عَلَىٰٓ أَنفُسِكُمْ تَحِيَّةً مِّنْ عِندِ ٱللَّهِ مُبَـٰرَكَةً طَيِّبَةً ۚ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ لَكُمُ ٱلْـَٔايَـٰتِ لَعَلَّكُمْ تَعْقِلُونَ",
+"tr": "Köre güçlük yoktur; topala güçlük yoktur, hastaya güçlük yoktur. Sizin için de gerek kendi evlerinizden gerekse şu kişilerin evlerinden yemek yemenizde bir sakınca yoktur: Babalarınızın evleri yahut annelerinizin evleri yahut kardeşlerinizin evleri yahut kızkardeşlerinizin evleri yahut amcalarınızın evleri yahut halalarınızın evleri yahut teyzelerinizin evleri yahut anahtarı size teslim edilmiş olan evler yahut arkadaşlarınızın evleri. Hep birlikte yahut ayrı ayrı yemenizde sizin için hiçbir sakınca yoktur. Evlere girdiğinizde, Allah katından bir esenlik, bir bereketlilik, bir temizlik dileği olarak kendinize de selam verin. Allah size ayetleri işte böyle ayan beyan bildiriyor ki, aklınızı çalıştırabilesiniz."
+},
+"28:12": {
+"ar": "وَحَرَّمْنَا عَلَيْهِ ٱلْمَرَاضِعَ مِن قَبْلُ فَقَالَتْ هَلْ أَدُلُّكُمْ عَلَىٰٓ أَهْلِ بَيْتٍ يَكْفُلُونَهُۥ لَكُمْ وَهُمْ لَهُۥ نَـٰصِحُونَ",
+"tr": "Biz daha önce ona, süt emziren kadınları haram kılmıştık. Bu sırada kızkardeşi dedi ki: \"Onun bakımını sizin için üstlenecek, onu eğitip öğretmeyi yüklenecek bir ev halkını size tanıtayım mı?\""
+},
+"33:4": {
+"ar": "مَّا جَعَلَ ٱللَّهُ لِرَجُلٍ مِّن قَلْبَيْنِ فِى جَوْفِهِۦ ۚ وَمَا جَعَلَ أَزْوَٰجَكُمُ ٱلَّـٰٓـِٔى تُظَـٰهِرُونَ مِنْهُنَّ أُمَّهَـٰتِكُمْ ۚ وَمَا جَعَلَ أَدْعِيَآءَكُمْ أَبْنَآءَكُمْ ۚ ذَٰلِكُمْ قَوْلُكُم بِأَفْوَٰهِكُمْ ۖ وَٱللَّهُ يَقُولُ ٱلْحَقَّ وَهُوَ يَهْدِى ٱلسَّبِيلَ",
+"tr": "Allah, bir adamın göğüs boşluğunda iki kalp yaratmamıştır. Zıhar yaptığınız eşlerinizi sizin anneniz yapmamıştır, evlatlıklarınızı da sizin oğullarınız kılmamıştır. Bu konularda söylediğiniz sözler, ağızlarınızın bir lakırdısıdır. Allah, hakkı söyler ve O, gerçek yola kılavuzlar."
+},
+"33:5": {
+"ar": "ٱدْعُوهُمْ لِـَٔابَآئِهِمْ هُوَ أَقْسَطُ عِندَ ٱللَّهِ ۚ فَإِن لَّمْ تَعْلَمُوٓا۟ ءَابَآءَهُمْ فَإِخْوَٰنُكُمْ فِى ٱلدِّينِ وَمَوَٰلِيكُمْ ۚ وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَآ أَخْطَأْتُم بِهِۦ وَلَـٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ ۚ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+"tr": "Evlatlıklarınızı öz babalarına nispet ederek çağırın! Böyle yapmanız Allah katında adalete daha uygundur. Eğer onların babalarını bilmiyorsanız, o takdirde onlar sizin din kardeşleriniz ve dostlarınızdır. Yanılarak işlediğiniz şeyde, üzerinize günah yoktur; fakat kalplerinizin kastetmiş oldukları müstesna. Ve Allah Gafûr ve Rahîm'dir."
+},
+"33:49": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا نَكَحْتُمُ ٱلْمُؤْمِنَـٰتِ ثُمَّ طَلَّقْتُمُوهُنَّ مِن قَبْلِ أَن تَمَسُّوهُنَّ فَمَا لَكُمْ عَلَيْهِنَّ مِنْ عِدَّةٍ تَعْتَدُّونَهَا ۖ فَمَتِّعُوهُنَّ وَسَرِّحُوهُنَّ سَرَاحًا جَمِيلًا",
+"tr": "Ey iman edenler! Mümin kadınları nikâhlayıp da kendilerini, onlara dokunmadan boşarsanız, sizin belirleyeceğiniz bir iddet boyunca onları bekletme hakkınız yoktur. O halde, böyle durumlarda onları nimetlendirin ve kendilerini güzelce serbest bırakın."
+},
+"33:50": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِنَّآ أَحْلَلْنَا لَكَ أَزْوَٰجَكَ ٱلَّـٰتِىٓ ءَاتَيْتَ أُجُورَهُنَّ وَمَا مَلَكَتْ يَمِينُكَ مِمَّآ أَفَآءَ ٱللَّهُ عَلَيْكَ وَبَنَاتِ عَمِّكَ وَبَنَاتِ عَمَّـٰتِكَ وَبَنَاتِ خَالِكَ وَبَنَاتِ خَـٰلَـٰتِكَ ٱلَّـٰتِى هَاجَرْنَ مَعَكَ وَٱمْرَأَةً مُّؤْمِنَةً إِن وَهَبَتْ نَفْسَهَا لِلنَّبِىِّ إِنْ أَرَادَ ٱلنَّبِىُّ أَن يَسْتَنكِحَهَا خَالِصَةً لَّكَ مِن دُونِ ٱلْمُؤْمِنِينَ ۗ قَدْ عَلِمْنَا مَا فَرَضْنَا عَلَيْهِمْ فِىٓ أَزْوَٰجِهِمْ وَمَا مَلَكَتْ أَيْمَـٰنُهُمْ لِكَيْلَا يَكُونَ عَلَيْكَ حَرَجٌ ۗ وَكَانَ ٱللَّهُ غَفُورًا رَّحِيمًا",
+"tr": "Ey Peygamber! Biz sana şu hanımları helal kıldık: Mehirlerini verdiğin eşlerin, Allah'ın sana ganimet olarak verdiklerinden elinin altında bulunanlar, amcalarının, halalarının, dayılarının, teyzelerinin kızlarından seninle birlikte hicret edenler. Peygamber kendisiyle evlenmek istediğinde, kendisini Peygamber'e hibe eden mümin bir kadını da öteki müminlere değil, yalnız sana özgü olmak üzere helal kıldık. Onlara eşleri ve elleri altındakiler hakkında neler farz kıldığımızı biz biliriz. Sana bir zorluk olmasın diyedir bu... Allah Gafûr'dur, Rahîm'dir."
+},
+"33:52": {
+"ar": "لَّا يَحِلُّ لَكَ ٱلنِّسَآءُ مِنۢ بَعْدُ وَلَآ أَن تَبَدَّلَ بِهِنَّ مِنْ أَزْوَٰجٍ وَلَوْ أَعْجَبَكَ حُسْنُهُنَّ إِلَّا مَا مَلَكَتْ يَمِينُكَ ۗ وَكَانَ ٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ رَّقِيبًا",
+"tr": "Bundan sonra sana artık başka kadınlar helal olmaz. Bunları, başka eşlerle değiştirmek de - onların güzellikleri hoşuna gitse bile- helal olmaz. Elinin sahip olabilecekleri müstesna. Allah her şey üzerinde bir Rakîb'dir, her şeyi gözetlemektedir."
+},
+"60:10": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا جَآءَكُمُ ٱلْمُؤْمِنَـٰتُ مُهَـٰجِرَٰتٍ فَٱمْتَحِنُوهُنَّ ۖ ٱللَّهُ أَعْلَمُ بِإِيمَـٰنِهِنَّ ۖ فَإِنْ عَلِمْتُمُوهُنَّ مُؤْمِنَـٰتٍ فَلَا تَرْجِعُوهُنَّ إِلَى ٱلْكُفَّارِ ۖ لَا هُنَّ حِلٌّ لَّهُمْ وَلَا هُمْ يَحِلُّونَ لَهُنَّ ۖ وَءَاتُوهُم مَّآ أَنفَقُوا۟ ۚ وَلَا جُنَاحَ عَلَيْكُمْ أَن تَنكِحُوهُنَّ إِذَآ ءَاتَيْتُمُوهُنَّ أُجُورَهُنَّ ۚ وَلَا تُمْسِكُوا۟ بِعِصَمِ ٱلْكَوَافِرِ وَسْـَٔلُوا۟ مَآ أَنفَقْتُمْ وَلْيَسْـَٔلُوا۟ مَآ أَنفَقُوا۟ ۚ ذَٰلِكُمْ حُكْمُ ٱللَّهِ ۖ يَحْكُمُ بَيْنَكُمْ ۚ وَٱللَّهُ عَلِيمٌ حَكِيمٌ",
+"tr": "Ey iman sahipleri! Mümin kadınlar hicret ederek size geldiklerinde onları imtihan edin. Allah onların imanlarını daha iyi bilir ya! Eğer onların mümin hanımlar olduklarını anlarsanız, onları kâfirlere döndürmeyin. Ne bu mümin kadınlar o kâfirlere helaldir ne de o kâfirler bunlara helaldir. Bu kadınlar için harcadıklarını o kâfirlere geri verin. Mehirlerini kendilerine verdiğiniz takdirde, bu kadınları nikâhlamanızda sizin için bir sakınca yoktur. Kâfirlerin iffet ve nikâhlarına yapışmayın. Kâfirlere gitmeyi yeğleyen kadınlar için harcadıklarınızı onlardan geri isteyin; onlar da size gelen mümin kadınlar için harcadıklarını geri istesinler. Bu, Allah'ın hepinize buyruğudur. Aranızda hüküm veriyor. Allah Alîm'dir, Hakîm'dir."
+},
+"66:1": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ لِمَ تُحَرِّمُ مَآ أَحَلَّ ٱللَّهُ لَكَ ۖ تَبْتَغِى مَرْضَاتَ أَزْوَٰجِكَ ۚ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+"tr": "Ey Peygamber! Allah'ın sana helal kıldığı şeyi, eşlerinin hoşnutluğunu isteyerek neden haramlaştırıyorsun? Allah Gafûr'dur, Rahîm'dir."
+}
+},
+"istatistik": {
+"kayit": 90,
+"ayet": 78,
+"derece": {
+"✓": 90,
+"→": 0,
+"?": 0
+},
+"tur": {
+"emir": 19,
+"yasak": 29,
+"sonuc": 13,
+"tanim": 29
+}
+}
+}

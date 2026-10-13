@@ -4,12 +4,12 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { konular, gruplar, odulAdi as odulAdi0 } from './konular.mjs';
-import { genel, konu04, konu05, konu06, konu08, konu09 } from './metin.mjs';
+import { genel, konu04, konu05, konu06, konu07, konu08, konu09 } from './metin.mjs';
 import { cezaAdi, cezaTur, cezaTurAdi } from './ceza.mjs';
 import { sureAdlari } from './sure-adlari.mjs';
 
 const dir = path.dirname(fileURLToPath(import.meta.url));
-const VERSION = 'v0.5.0';
+const VERSION = 'v0.6.0';
 const DATE = '13 Ekim 2026';
 const esc = s => String(s).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;');
 
@@ -64,6 +64,15 @@ for (const k of hazir) {
       ...genelOzet, yasak: tur.yasak.size, emir: tur.emir.size, yalan: grup('Yalan ve iftira'), alay: grup('Alay ve çekiştirme'),
       kibir: grup('Kibir ve övünme'), israf: grup('İsraf'), soz: grup('Söz ve ses edebi'), karsilikli: karsilikli.size, nar: nar.size, sevilmeme: sev.size,
     };
+  } else if (k.no === 7) {
+    const tur = {};
+    for (const n of d.nitelikler) for (const r of n.kayitlar) (tur[r.tur] ||= new Set()).add(r.nitelik_ayet);
+    const karsilikli = new Set(d.nitelikler.flatMap(n => n.kayitlar.filter(r => r.odul !== 'yok').map(r => r.nitelik_ayet)));
+    const grup = g => new Set(d.nitelikler.filter(n => n.grup === g).flatMap(n => n.kayitlar.map(r => r.nitelik_ayet))).size;
+    ozet[k.no] = {
+      ...genelOzet, yasak: tur.yasak.size, emir: tur.emir.size, yiyecek: grup('Yiyecek ve içecek'), evlilik: grup('Evlilik'),
+      haram: grup('Haram kılma ve helal sayma'), karsilikli: karsilikli.size,
+    };
   } else if (k.no === 8) {
     const set = id => new Set((by[id]?.kayitlar || []).map(r => r.nitelik_ayet));
     const iman = set('iman'), salih = set('salih_amel');
@@ -80,13 +89,13 @@ for (const k of hazir) {
     };
   }
 }
-const hedefDosya = { 6: 'tarama/out/hedef_yasak6.json', 5: 'tarama/out/hedef_yasak5.json', 4: 'tarama/out/hedef_yasak4.json', 8: 'tarama/out/hedef_odul.json', 9: 'tarama/out/hedef_ceza_tum.json' };
-const blokDosya = { 6: 'okuma/k06_bloklar.txt.json', 5: 'okuma/k05_bloklar.txt.json', 4: ['okuma/k04_bloklar.txt.json', 'okuma/k04b_bloklar.txt.json'], 8: 'okuma/k08_bloklar.txt.json', 9: 'okuma/k09_bloklar.txt.json' };
+const hedefDosya = { 7: 'tarama/out/hedef_yasak7.json', 6: 'tarama/out/hedef_yasak6.json', 5: 'tarama/out/hedef_yasak5.json', 4: 'tarama/out/hedef_yasak4.json', 8: 'tarama/out/hedef_odul.json', 9: 'tarama/out/hedef_ceza_tum.json' };
+const blokDosya = { 7: 'okuma/k07_bloklar.txt.json', 6: 'okuma/k06_bloklar.txt.json', 5: 'okuma/k05_bloklar.txt.json', 4: ['okuma/k04_bloklar.txt.json', 'okuma/k04b_bloklar.txt.json'], 8: 'okuma/k08_bloklar.txt.json', 9: 'okuma/k09_bloklar.txt.json' };
 const vars = {};
 for (const k of hazir) {
   const bl = [].concat(blokDosya[k.no]).flatMap(f => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8')));
   const oku = new Set(bl.flatMap(x => Array.from({ length: x[2] - x[1] + 1 }, (_, i) => x[0] + ':' + (x[1] + i))));
-  vars[k.no] = { ...ozet[k.no], hedef: Object.keys(JSON.parse(fs.readFileSync(path.join(dir, hedefDosya[k.no]), 'utf8'))).length, blok: bl.length, okunan: k.no === 4 || k.no === 5 || k.no === 6 ? oku.size : bl.reduce((t, x) => t + x[2] - x[1] + 1, 0) };
+  vars[k.no] = { ...ozet[k.no], hedef: Object.keys(JSON.parse(fs.readFileSync(path.join(dir, hedefDosya[k.no]), 'utf8'))).length, blok: bl.length, okunan: k.no === 4 || k.no === 5 || k.no === 6 || k.no === 7 ? oku.size : bl.reduce((t, x) => t + x[2] - x[1] + 1, 0) };
 }
 const corpus = fs.readFileSync(path.join(dir, '../data/quran-uthmani-tanzil-v1.1.txt'), 'utf8');
 const cs = corpus.indexOf('# PLEASE DO NOT REMOVE');
@@ -95,7 +104,7 @@ const telif = corpus.slice(cs).split('\n').map(l => l.trimEnd()).join('\n').trim
 const doldur = (s, v) => s.replace(/\{(\w+)\}/g, (_, k) => { if (!(k in v)) throw new Error('Yer tutucu: ' + k); return v[k]; });
 
 const yaz = (t, v) => ({ ...t, kisa: t.kisa.map(s => doldur(s, v)), kapsam: t.kapsam.map(s => doldur(s, v)) });
-const meta = { konular, gruplar, odulAdi, odulTur: cezaTur, turAdi: cezaTurAdi, sure: sureAdlari, metin: { 4: yaz(konu04, vars[4]), 5: yaz(konu05, vars[5]), 6: yaz(konu06, vars[6]), 8: yaz(konu08, vars[8]), 9: yaz(konu09, vars[9]) }, ozet };
+const meta = { konular, gruplar, odulAdi, odulTur: cezaTur, turAdi: cezaTurAdi, sure: sureAdlari, metin: { 4: yaz(konu04, vars[4]), 5: yaz(konu05, vars[5]), 6: yaz(konu06, vars[6]), 7: yaz(konu07, vars[7]), 8: yaz(konu08, vars[8]), 9: yaz(konu09, vars[9]) }, ozet };
 const css = fs.readFileSync(path.join(dir, 'src/style.css'), 'utf8');
 const js = fs.readFileSync(path.join(dir, 'src/app.js'), 'utf8');
 const logo = `<svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M9 22V10h8M9 16h6M19 10l4 6-4 6" fill="none" stroke="var(--on-accent)" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
@@ -129,12 +138,12 @@ const html = `<!doctype html>
     <p class="lead">${esc(genel.altbaslik)}</p>
     <details class="method"><summary>Yöntem ve kanıt dereceleri</summary><ul>${genel.yontem.map(s => `<li>${esc(s)}</li>`).join('')}</ul></details>
   </section>
-  <div id="konu" aria-live="polite"><noscript><p class="notice">Bu sayfanın konu içerikleri JavaScript ile yüklenir. Ham veriye <a href="veri/konu04.json">veri/konu04.json</a>, <a href="veri/konu05.json">veri/konu05.json</a>, <a href="veri/konu06.json">veri/konu06.json</a>, <a href="veri/konu08.json">veri/konu08.json</a> ve <a href="veri/konu09.json">veri/konu09.json</a> dosyalarından ulaşabilirsiniz.</p></noscript></div>
+  <div id="konu" aria-live="polite"><noscript><p class="notice">Bu sayfanın konu içerikleri JavaScript ile yüklenir. Ham veriye <a href="veri/konu04.json">veri/konu04.json</a>, <a href="veri/konu05.json">veri/konu05.json</a>, <a href="veri/konu06.json">veri/konu06.json</a>, <a href="veri/konu07.json">veri/konu07.json</a>, <a href="veri/konu08.json">veri/konu08.json</a> ve <a href="veri/konu09.json">veri/konu09.json</a> dosyalarından ulaşabilirsiniz.</p></noscript></div>
 </main>
 <footer class="foot"><div class="wrap">
   <p><b>Kaynaklar.</b> Arapça metin: Tanzil Projesi, Uthmani metni v1.1 (Hafs), tanzil.net, Creative Commons Attribution 3.0. Metin değiştirilmeden kullanılmıştır. Türkçe meal: Prof. Dr. Yaşar Nuri Öztürk, <i>Kur'an Meali</i>. Yalnız sayfada gösterilen ayetlerin meali kullanılmıştır.</p>
   <details class="lic"><summary>Tanzil telif bildirimi</summary><pre>${esc(telif)}</pre></details>
-  <p class="muted">Tarama ve okuma betikleri: <code>emir-yasak-atlasi/tarama/</code> ve <code>okuma/</code>. Kayıtların tamamı <code>okuma/k04_kayit.tsv</code>, <code>okuma/k05_kayit.tsv</code>, <code>okuma/k06_kayit.tsv</code>, <code>okuma/k08_kayit.tsv</code> ve <code>okuma/k09_kayit.tsv</code> dosyalarındadır; her satır kendi ayet numarasıyla doğrulanabilir.</p>
+  <p class="muted">Tarama ve okuma betikleri: <code>emir-yasak-atlasi/tarama/</code> ve <code>okuma/</code>. Kayıtların tamamı <code>okuma/k04_kayit.tsv</code>, <code>okuma/k05_kayit.tsv</code>, <code>okuma/k06_kayit.tsv</code>, <code>okuma/k07_kayit.tsv</code>, <code>okuma/k08_kayit.tsv</code> ve <code>okuma/k09_kayit.tsv</code> dosyalarındadır; her satır kendi ayet numarasıyla doğrulanabilir.</p>
 </div></footer>
 <script id="meta" type="application/json">${JSON.stringify(meta).replaceAll('<', '\\u003c')}</script>
 <script>${js}</script>

@@ -1,0 +1,91 @@
+# blok	davranis	davranis_ayet	ceza_ayet	ceza	derece	not	tur
+K7a	temiz_ve_helal_yeme	2:57	2:57	-	✓	"Rızk olarak size verdiklerimizin en temizlerinden yiyin"	emir
+K7a	temiz_ve_helal_yeme	2:168	2:168	-	✓	"Yeryüzündeki nimetlerden temiz ve helal olmak şartıyla yiyin"	emir
+K7a	temiz_ve_helal_yeme	2:168	2:168	-	✓	"Şeytanın adımlarını izlemeyin"	yasak
+K7a	temiz_ve_helal_yeme	2:172	2:172	-	✓	"Size verdiğimiz rızkların temizlerinden yiyin"	emir
+K7a	les_kan_domuz_ve_allahtan_baskasi_adina	2:173	2:173	-	✓	"Allah size leşi, kanı, domuz etini, Allah'tan başkası adına kesileni haram kılmıştır"	yasak
+K7a	les_kan_domuz_ve_allahtan_baskasi_adina	2:173	2:173	-	✓	Zorda kalan, sınırı aşmadan ve haksızlık etmeden yerse "günah yoktur"	tanim
+K7a	oruc_gecesi_esle_iliski	2:187	2:187	-	✓	"Oruç gecesi kadınlarınıza yaklaşmak size helal kılınmıştır"	tanim
+K7a	sarap_ve_kumar	2:219	2:219	-	✓	Şarap ve kumar: "Bu ikisinde büyük bir günah vardır; insanlar için çıkarlar da vardır. Ama kötülüğü yararından çok daha büyüktür"	tanim
+K7a	musrikle_evlilik	2:221	2:221	-	✓	"Müşrik kadınlarla onlar iman edinceye kadar evlenmeyin ... müşrik erkeklerle de nikâhlanmayın"	yasak
+K7a	musrikle_evlilik	2:221	2:221	-	✓	Gerekçe: "Bu müşrikler sizleri ateşe çağırır; Allah ise cennete ve affa çağırır"	tanim
+K7a	hayiz_donemi	2:222	2:222	-	✓	"Hayızlı oldukları sırada kadınlardan uzak durun ve temizleninceye kadar yaklaşmayın"	yasak
+K7a	bosanma_ve_iddet	2:228	2:228	-	✓	İddet: "Allah'ın rahimlerinde yarattığını saklamaları kendilerine helal olmaz"	yasak
+K7a	bosanma_ve_iddet	2:229	2:229	-	✓	"Onlara verdiğinizden bir şeyi geri almanız size helal olmaz"	yasak
+K7a	bosanma_ve_iddet	2:230	2:230	-	✓	Üçüncü boşamadan sonra "başka bir eşle nikahlanıncaya kadar ilk erkeğe helal olmaz"	yasak
+K7a	bosanma_ve_iddet	2:232	2:232	-	✓	"Eski kocalarıyla nikahlanmaları hususunda onlara engel çıkarmayın"	yasak
+K7a	bosanma_ve_iddet	2:235	2:235	-	✓	İddet bekleyen kadınlarla "zorunlu süre doluncaya kadar nikahı bağlamaya girişmeyin"	yasak
+K7b	israilogullari_haram	3:50	3:50	-	✓	İsa: "Size haram kılınmış olanın bir kısmını size helal yapacağım"	tanim
+K7b	israilogullari_haram	3:93	3:93	-	✓	"İsrail'in kendi nefsine haram kıldığı şeyler dışında tüm yiyecekler İsrailoğullarına helaldi"	tanim
+K7b	israilogullari_haram	4:160	4:160	tayyibat_haram	✓	"Yaptıkları zulümler ve Allah yolundan alıkoymaları yüzünden daha önce helal kılınmış tertemiz şeyleri Yahudilere haram kıldık"	sonuc
+K7b	cok_esli_evlilik	4:3	4:3	-	✓	"Temiz kılınan kadınlardan ikişer, üçer, dörder nikâhlayın; adaleti gözetemeyeceğinizden korkarsanız bir tek kadınla yetinin"	emir
+K7b	nikah_haram_yakinlar	4:22	4:22	-	✓	"Babalarınızın nikâhlamış olduğu kadınlarla evlenmeyin" (geçmişte kalanlar hariç)	yasak
+K7b	nikah_haram_yakinlar	4:22	4:22	-	✓	"Açık bir edepsizlik, nefret gerektiren bir kötülüktür, çirkin bir yoldur"	tanim
+K7b	nikah_haram_yakinlar	4:23	4:23	-	✓	"Size şu kadınlarla evlenmek haram kılınmıştır: analarınız, kızlarınız, kız kardeşleriniz, halalarınız, teyzeleriniz, erkek ve kız kardeş kızları, süt anneleriniz, süt kız kardeşleriniz, kayınvalideleriniz, üvey kızlarınız ..." (liste 4:23)	yasak
+K7b	nikah_haram_yakinlar	4:24	4:24	-	✓	"Nikâhlı kadınlarla evlenmeniz de haram kılınmıştır" (harpte elinize geçenler hariç)	yasak
+K7b	nikah_haram_yakinlar	4:24	4:24	-	✓	"Bunlar dışındakileri, mallarınızı vererek, iffetli yaşamanız ve zina etmemeniz şartıyla size helal kılınmıştır"	tanim
+K7b	nikah_haram_yakinlar	4:25	4:25	-	✓	Hür mümin kadınla evlenmeye gücü yetmeyen, mümin köle kızlarıyla ailelerinin izniyle, mehirlerini vererek nikâhlasın	emir
+K7b	sarap_ve_kumar	4:43	4:43	-	✓	"Sarhoşken, ne söylediğinizi bilinceye kadar ... namaza yaklaşmayın"	yasak
+K7b	av_ve_ihram	5:1	5:1	-	✓	"İhramlı iken avlanmayı helal saymamak şartıyla davar cinsinden hayvanlar size helal kılınmıştır"	tanim
+K7b	av_ve_ihram	5:2	5:2	-	✓	"İhramdan çıktığınız vakit avlanın"	emir
+K7b	les_kan_domuz_ve_allahtan_baskasi_adina	5:3	5:3	-	✓	Haram kılınanlar: ölü hayvan eti, kan, domuz eti, Allah'tan başkasının adı anılan, boğulmuş, vurulmuş, yuvarlanmış, süsülmüş, yırtılmış, dikili taşlar üzerinde boğazlanan, fal okları (5:3)	yasak
+K7b	temiz_ve_helal_yeme	5:4	5:4	-	✓	"Sizin için bütün temiz nimetler helal kılınmıştır" ... av hayvanlarının tuttuğundan yiyin ve üzerine Allah'ın adını anın	emir
+K7b	ehlikitap_yemegi_ve_kadinlari	5:5	5:5	-	✓	"Bugün size bütün temiz nimetler helal kılındı. Kitap verilmiş olanların yemekleri size helaldir"; iffetli mümin kadınlar ve kitap ehlinin iffetli kadınları mehirleri verildiğinde helaldir	tanim
+K7b	kendi_haram_kilma	5:87	5:87	-	✓	"Allah'ın size helal kıldığı şeylerin temiz ve güzel olanlarını haramlaştırmayın; azıp sınırı aşmayın"	yasak
+K7b	kendi_haram_kilma	5:87	5:87	sevilmeme	✓	"Allah azıp sınırı aşanları sevmez"	sonuc
+K7b	temiz_ve_helal_yeme	5:88	5:88	-	✓	"Allah'ın size helal ve temiz olarak verdiği rızıklardan yiyin"	emir
+K7b	sarap_ve_kumar	5:90	5:90	-	✓	"Uyuşturucu/şarap, kumar, dikili taşlar, fal okları şeytan işi birer pisliktir; bunlardan uzak durun ki kurtuluşa eresiniz"	yasak
+K7b	sarap_ve_kumar	5:90	5:90	felah	✓	"Bunlardan uzak durun ki kurtuluşa eresiniz"	sonuc
+K7b	sarap_ve_kumar	5:91	5:91	-	✓	Şeytan şarap ve kumarla "aranıza düşmanlık ve nefret yerleştirip sizi Allah'ı anmaktan, namazdan geri çevirmek ister"	tanim
+K7c	av_ve_ihram	5:94	5:94	azap_korkunc	✓	Av ile deneme: "Bundan sonra azıp sınırı çiğneyen için korkunç bir azap olacaktır"	sonuc
+K7c	av_ve_ihram	5:95	5:95	-	✓	"İhramda olduğunuz zaman av öldürmeyin"	yasak
+K7c	av_ve_ihram	5:95	5:95	denk_ceza	✓	Kasten öldürenin cezası: öldürdüğüne denk kurbanlık, yahut yoksullara yedirme, yahut buna denk oruç; "yaptığının vebalini tatsın"	sonuc
+K7c	av_ve_ihram	5:96	5:96	-	✓	"Deniz avı yapmak ve onu yemek size helal kılındı. Fakat ihramlı olduğunuz sürece karada avlanmak size haram edilmiştir"	yasak
+K7c	temiz_ve_helal_yeme	5:100	5:100	-	✓	"Pisin çokluğu seni hayrete düşürse de pisle temiz bir olmaz"	tanim
+K7c	kendi_haram_kilma	5:103	5:103	-	✓	"Allah ne bahîre yapmıştır ne sâibe ne vasîle ne de hâm. Küfre sapanlar yalan uydurarak Allah'a iftira ediyorlar"	tanim
+K7c	allah_adi_anilan_hayvan	6:118	6:118	-	✓	"Üzerine Allah'ın adı anılmış olanlardan yiyin"	emir
+K7c	allah_adi_anilan_hayvan	6:119	6:119	-	✓	"Zorda kalışınız dışında üzerinize haram kıldığını bizzat kendisi size ayrıntılı olarak açıklamıştır"	tanim
+K7c	allah_adi_anilan_hayvan	6:121	6:121	-	✓	"Üzerine Allah'ın adı anılmayanlardan yemeyin. Böyle bir şey tam bir yoldan çıkıştır"	yasak
+K7c	allah_adi_anilan_hayvan	6:121	6:121	musrik_sayilma	✓	"O şeytan evliyasına boyun eğerseniz kesinlikle müşrikler oldunuz demektir"	sonuc
+K7c	kendi_haram_kilma	6:138	6:138	cezalandirma	✓	"Şunlar dokunulmaz hayvanlar ve ekinlerdir" diyenler: "Allah onları üretmekte oldukları iftiralar yüzünden cezalandıracaktır"	sonuc
+K7c	kendi_haram_kilma	6:139	6:139	cezalandirma	✓	"Şu hayvanların karınlarındakiler erkeklerimize özgülenmiştir; kadınlarımıza haramdır" diyenlere: "Bu nitelendirmeleri yüzünden Allah cezalarını verecektir"	sonuc
+K7c	kendi_haram_kilma	6:140	6:140	husran	✓	"Rızıkları Allah'a iftira ederek haramlaştıranlar gerçekten hüsrana uğramışlardır"	sonuc
+K7c	temiz_ve_helal_yeme	6:142	6:142	-	✓	"Allah'ın size verdiği rızıklardan yiyin, şeytanın adımlarını izlemeyin"	emir
+K7c	kendi_haram_kilma	6:143	6:143	-	✓	"İki erkeği mi haram kıldı, iki dişiyi mi? ... Doğru sözlü iseniz ilimle haber verin" (6:143-144)	tanim
+K7c	les_kan_domuz_ve_allahtan_baskasi_adina	6:145	6:145	-	✓	"Bana vahyolunanlar içinde yasaklanmış bir şey bulamıyorum: leş, akıtılmış kan, domuz eti, Allah'tan başkası adına boğazlanmış murdar"	yasak
+K7c	les_kan_domuz_ve_allahtan_baskasi_adina	6:145	6:145	-	✓	Iztırar halinde, başkasının hakkına dokunmadan ve zorunluluk sınırını aşmadan yenebilir	tanim
+K7c	israilogullari_haram	6:146	6:146	haram_kilma	✓	"Yahudilere tüm tırnaklı hayvanları haram kıldık ... azgınlıkları yüzünden bir ceza olarak"	sonuc
+K7c	kendi_haram_kilma	6:150	6:150	-	✓	"Allah şunu haram etmiştir diye tanıklık eden şahitlerle birlikte tanıklık etme"	yasak
+K7c	allahin_haram_kildiklari	6:151	6:151	-	✓	"Rabbinizin size neleri haram kıldığını okuyayım: ortak koşmayın, ana-babaya iyi davranın, çocuklarınızı öldürmeyin, kötülüklere yaklaşmayın, haksız yere can almayın ..." (6:151, ayrıntı Konu 4 ve 5)	tanim
+K7c	allahin_haram_kildiklari	7:33	7:33	-	✓	"Rabbim ancak şunları haram kıldı: iğrençlikleri, günahı, haksız yere saldırmayı, kanıtsız ortak koşmayı, Allah hakkında bilmediğinizi söylemeyi"	tanim
+K7c	temiz_ve_helal_yeme	7:31	7:31	-	✓	"Yiyin için, fakat israf etmeyin"	emir
+K7c	kendi_haram_kilma	7:32	7:32	-	✓	"Allah'ın kulları için çıkardığı süsü, güzel ve tatlı rızıkları kim haram etmiş?"	tanim
+K7c	temiz_ve_helal_yeme	7:157	7:157	-	✓	Ümmî peygamber: "Güzel şeyleri onlara helal kılar, pis şeyleri onlara yasaklar"	tanim
+K7c	temiz_ve_helal_yeme	7:160	7:160	-	✓	"Yiyiniz size verdiğimiz rızıkların temizlerinden" (Mûsa kavmine)	emir
+K7d	temiz_ve_helal_yeme	8:69	8:69	-	✓	"Elde ettiğiniz ganimetlerden helal ve temiz olarak yiyin"	emir
+K7d	kendi_haram_kilma	10:59	10:59	-	✓	"Allah'ın size rızık olarak indirdiği şeylerden bir haram yaptınız bir de helal?" — "Allah mı size izin verdi, yoksa Allah'a iftira mı ediyorsunuz?"	tanim
+K7e	sarap_ve_kumar	16:67	16:67	-	✓	"Hurmalıkların meyvalarından, üzümlerden de sarhoş edici bir içecek ve güzel bir rızık elde edersiniz"	tanim
+K7e	temiz_ve_helal_yeme	16:114	16:114	-	✓	"Allah'ın sizi rızıklandırdığı şeylerden helal ve temiz olarak yiyin!"	emir
+K7e	les_kan_domuz_ve_allahtan_baskasi_adina	16:115	16:115	-	✓	"O size ancak şunları haram kılmıştır: ölü, kan, domuz eti, Allah'tan başkası adına kesilen hayvan" (zorda kalana ruhsat)	yasak
+K7e	kendi_haram_kilma	16:116	16:116	-	✓	"Dillerinizin uydurma nitelendirmeleriyle 'Şu helaldir, şu da haramdır!' demeyin"	yasak
+K7e	kendi_haram_kilma	16:116	16:116	basarisizlik	✓	"Yalan düzerek Allah'a iftira edenler kurtulamazlar"	sonuc
+K7e	kendi_haram_kilma	16:117	16:117	azap_elim	✓	"Az bir nimetlenme ardından acıklı bir azap var onlara"	sonuc
+K7e	israilogullari_haram	16:118	16:118	-	✓	"Daha önce Yahudilere haram kılmıştık. Biz onlara haksızlık etmedik; onlar kendi benliklerine zulmediyorlardı"	tanim
+K7e	temiz_ve_helal_yeme	20:81	20:81	-	✓	"Size verdiğimiz rızkın temizlerinden yiyin! Bu konuda azgınlık etmeyin!"	emir
+K7e	temiz_ve_helal_yeme	20:81	20:81	gazab	✓	"Yoksa öfkem üzerinize çöker. Kimin üstüne öfkem inerse o uçuruma gider"	sonuc
+K7f	temiz_ve_helal_yeme	22:30	22:30	-	✓	"Karşınızda okunarak açıklananlar hariç, tüm hayvanlar size helal kılınmıştır"	tanim
+K7f	temiz_ve_helal_yeme	23:51	23:51	-	✓	"Ey resuller! Güzel ve temiz şeylerden yiyin ve barışa, hayra yönelik iş yapın!"	emir
+K7f	zani_ile_nikah	24:3	24:3	-	✓	"Zina eden erkeği zina eden bir kadın veya putperest bir kadından başkası nikâhlamaz ... Müminlere bu haram kılınmıştır"	yasak
+K7f	evlendirme_emri	24:32	24:32	-	✓	"İçinizden bekârları/dulları, erkek hizmetçilerinizden ve halayıklarınızdan durumu uygun olanları evlendirin; yoksulsa Allah lütfundan zenginleştirir"	emir
+K7f	evlendirme_emri	24:33	24:33	-	✓	"Nikâh imkânı bulamayanlar, Allah zenginleştirinceye kadar iffetlerini korusunlar"	emir
+K7f	evlerden_yemek_yeme	24:61	24:61	-	✓	"Kendi evlerinizden gerekse babalarınızın, annelerinizin, kardeşlerinizin ... evlerinden yemek yemenizde bir sakınca yoktur"	tanim
+K7f	zihar_ve_evlatlik	33:4	33:4	-	✓	"Zıhar yaptığınız eşlerinizi sizin anneniz yapmamıştır, evlatlıklarınızı da oğullarınız kılmamıştır; ağızlarınızın bir lakırdısıdır"	tanim
+K7f	zihar_ve_evlatlik	33:5	33:5	-	✓	"Evlatlıklarınızı öz babalarına nispet ederek çağırın"	emir
+K7f	bosanma_ve_iddet	33:49	33:49	-	✓	Dokunmadan boşanan kadınlar için "sizin belirleyeceğiniz bir iddet boyunca onları bekletme hakkınız yoktur; onları nimetlendirin ve güzelce serbest bırakın"	yasak
+K7f	peygamberin_evlilik_hukmu	33:50	33:50	-	✓	"Ey Peygamber! Biz sana şu hanımları helal kıldık ..." (Peygamber'e özgü hüküm)	tanim
+K7f	peygamberin_evlilik_hukmu	33:52	33:52	-	✓	"Bundan sonra sana artık başka kadınlar helal olmaz; bunları başka eşlerle değiştirmek de helal olmaz"	yasak
+K7g	musrikle_evlilik	60:10	60:10	-	✓	Hicret eden mümin kadınlar için: "Onları kâfirlere döndürmeyin. Ne bu mümin kadınlar o kâfirlere helaldir ne de o kâfirler bunlara helaldir"	yasak
+K7g	kendi_haram_kilma	66:1	66:1	-	✓	"Ey Peygamber! Allah'ın sana helal kıldığı şeyi, eşlerinin hoşnutluğunu isteyerek neden haramlaştırıyorsun?"	yasak
+K7h	allahin_haram_kildiklari	2:275	2:275	-	✓	"Allah alış-verişi helal, ribayı haram kılmıştır"	tanim
+K7h	bosanma_ve_iddet	4:19	4:19	-	✓	"Kadınlara zor ve baskı kullanarak mirasçı olmanız size helal olmaz"; verdiklerinin bir kısmını almak için sıkıştırmak da helal değildir	yasak
+K7h	allahin_haram_kildiklari	28:12	28:12	-	✓	"Biz daha önce ona (Mûsa'ya) süt emziren kadınları haram kılmıştık" (Allah'ın haram kılması)	tanim

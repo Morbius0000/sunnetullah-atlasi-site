@@ -92,3 +92,20 @@ export const konu06 = {
     'Bilinen sınırlar: "el-müsrifîn" kelimesi bazı ayetlerde mal savurganlığını, bazılarında genel olarak haddi aşmayı anlatır. Şuarâ 151, Tâhâ 127 ve Mü\'min 43 bu yüzden → (çıkarım) olarak işaretlendi. Allah\'a iftira, yalanlama ve şirk ile iç içe geçtiği için Konu 4 ile de örtüşür. Gıybet tek bir ayette (Hucurât 12) ayrıca adlandırılır; bu sayfada diğer çekiştirme ayetleri "alay ve çekiştirme" başlığındadır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
   ],
 };
+
+export const konu07 = {
+  giris: 'Bu bölüm, Kur\'an\'ın yiyecek-içecek ve evlilik konusunda helal ve haram kıldığı şeyleri, helal ve temiz yemeye dair emirleri, evlilikte yasakları ve Allah\'ın izni olmadan helal-haram koymanın yasağını toplar. Her kaydın türü işaretlidir: Yasak (doğrudan nehiy ya da haram kılma), Emir (doğrudan buyruk ya da izin), Sonuç (davranış ve karşılığı birlikte) ve Tanım (hükmün kapsamı, gerekçesi ya da tarihî anlatısı). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Doğrudan yasak olarak yazılanlar {yasak} ayettedir; doğrudan emir olarak yazılanlar {emir} ayettedir. Yiyecekte açıkça haram kılınanlar: leş (ölü hayvan), akıtılmış kan, domuz eti, Allah\'tan başkası adına kesilen ve Allah\'ın adı anılmayan hayvan; ayrıca şarap/uyuşturucu ve kumar için "uzak durun" buyruğu vardır. İhramlıyken kara avı yasaktır, deniz avı helaldir.',
+    'Yiyecek ve içecek başlığı {yiyecek} ayette, evlilik başlığı {evlilik} ayette, haram kılma yetkisi başlığı {haram} ayette işlenir. Evlilikte haram kılınanlar Nisâ 22-24\'te sayılır; müşriklerle evlilik (Bakara 221), zina eden ile nikâh (Nûr 3) ve mümin kadın ile kâfir erkek (Mümtehine 10) ayrıca yasaklanır.',
+    'Ayette karşılığı da bildirilen kayıtlar {karsilikli} ayettedir. Başlıca karşılık, Allah\'ın izni olmadan "şu helaldir, şu haramdır" diyenlerin Allah\'a iftira etmiş sayılmasıdır (Nahl 116-117, En\'âm 138-140). Ayet karşılık yazmıyorsa bu sayfa da karşılık yazmaz.',
+    'Bu bölüm Konu 6 ile (Allah\'a iftira), Konu 5 ile (ribâ, yetim malı) ve Konu 4 ile (şirk) kısmen örtüşür. Sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: Arapça metinde şu kalıplar arandı: hrm (haram kılma ve türevleri), hll (helal kılma ve türevleri), tayyib ve habîs, meyte, dem, hınzîr, ihlâl, munhanika ve mevkûze, nusub ve ezlâm, hamr ve meysir, sayd, nikâh ve muharremât (ümmehât, benât, ahavât, amât, hâlât, rabâib, halâil, muhsanât), bahîre ve sâibe. Tarama {hedef} ayet verdi.',
+    'Hedef ayetler önceki ve sonraki 1 ayetle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Kök kontrolünde haram, helal, tayyib, habîs ve rics kökleri bütün Kur\'an\'da ayrıca arandı; bu kontrol Bakara 275, Nisâ 19 ve Kasas 12 gibi ayetleri ortaya çıkardı, bunlar eklendi. Hedef listesinde olup hiçbir kayda girmeyen 101 ayet gözden geçirildi; çoğu Mescid-i Harâm, haram aylar, kâfirlerin pisliği gibi başka anlamlarda geçen kelimeler ve infak, yetim, cennet nimetleri ile ilgili ayetlerdir.',
+    'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; eksik çıkan yoktu.',
+    'Kapsam dışı bırakılanlar: Mescid-i Harâm, haram aylar ve hac hükümleri (hac ve savaş konuları), cennet halkına ya da kâfirlere "haram kılınan" ahiret nimetleri (A\'râf 50), ribâ ve yetim malı (Konu 5), infakta kötü malı vermeme (Konu 3), müşriklerin "pisliği" gibi mecazî kullanımlar.',
+    'Bilinen sınırlar: Bakara 219\'da şarap ve kumar için "büyük günah" denir, doğrudan "haram kıldı" denmez; Mâide 90-91 "uzak durun" buyruğunu ve gerekçesini verir. Nahl 67\'de "sarhoş edici içecek" ile "güzel rızık" birlikte anılır, hüküm yazılmaz. Mâide 5 ve Nisâ 24\'teki bazı şartlar (mehir, iffet, zina etmeme) kayıtta hükmün parçası olarak tutuldu. Peygamber\'e özgü evlilik hükümleri (Ahzâb 50, 52) ayrı işaretlendi. Boşanma ve iddet hükümlerinin tamamı bu sayfada yoktur; yalnız helal, haram ve yasak kalıbıyla yazılanlar alındı.',
+  ],
+};
