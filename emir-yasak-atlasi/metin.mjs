@@ -42,6 +42,23 @@ export const konu09 = {
   ],
 };
 
+export const konu01 = {
+  giris: 'Bu bölüm, Kur\'an\'ın en temel buyruklarını toplar: yalnız Allah\'a kulluk, adalet ve ihsan, ahde ve yemine vefa, emanete sahip çıkmak ve doğruluk. Her kaydın türü işaretlidir: Emir (doğrudan buyruk), Yasak (doğrudan nehiy), Sonuç (davranış ve karşılığı birlikte) ve Tanım (bir davranışın övgüyle ya da kınamayla anlatılması, emir olarak verilmesi ya da bir elçinin kavmine söylemesi). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
+  kisa: [
+    'Doğrudan emir olarak yazılanlar {emir} ayettedir; doğrudan yasak olarak yazılanlar {yasak} ayettedir. Başlıca emir: "Allah\'a kulluk edin, O\'na hiçbir şeyi ortak koşmayın" (Nisâ 36); adalet ve ihsan emri Nahl 90\'dadır; emanetlerin ehline verilmesi ve adaletle hükmedilmesi Nisâ 58\'dedir; ahde vefa Mâide 1, En\'âm 152 ve İsrâ 34\'tedir.',
+    'Kulluk başlığı {kulluk} ayette, adalet ve ihsan başlıkları {adalet} ayette, söz, emanet ve doğruluk başlıkları {soz} ayette işlenir. Resullerin kavmine ilk sözü olarak aktarılan "Allah\'a kulluk edin" cümlesi Nûh, Hûd, Sâlih ve Şuayb anlatılarında ayrı ayrı kayıtlıdır.',
+    'Ayette karşılığı da bildirilen kayıtlar {karsilikli} ayettedir. Ayet karşılık yazmıyorsa bu sayfa da karşılık yazmaz; örneğin güzel davrananların ödülünün yitirilmeyeceği (Hûd 115, Yûsuf 90), adil davrananların sevildiği (Hucurât 9, Mümtehine 8) ve ahdi bozanlara lanet olduğu (Ra\'d 25) bildirilir.',
+    'Bu bölüm Konu 8 (cennete götüren nitelikler) ile, Konu 5 (ölçü-tartı, yetim malı), Konu 6 (israf, söz edebi) ve Konu 2 (anne-baba ve akrabaya iyilik) ile kısmen örtüşür. Sayılar toplanıp tek bir toplam gibi okunmamalıdır.',
+  ],
+  kapsam: [
+    'Hedef ayetler: Arapça metinde şu kalıplar arandı: abd (kulluk/ibadet), adl ve kıst (adalet), ihsan ve muhsin, ahd, vefâ ve ikfâ, emâne, sıdk (doğruluk). Tarama {hedef} ayet verdi.',
+    'Hedef ayetler önceki ve sonraki ayetlerle birlikte bloklar halinde okundu ({blok} pasaj, {okunan} ayet). Okumadan sonra kök kontrolü bütün Kur\'an\'da ayrıca yapıldı; bu kontrol "Allah\'a kulluk edin" cümlesi geçen ve ilk okumada kayda geçmeyen ayetleri ortaya çıkardı, bunlar eklendi. Hedef listesinde olup hiçbir kayda girmeyen ayetler gözden geçirildi; çoğu kök olarak geçen ama konuyla ilgisiz ya da yalnızca kıssa anlatan ayetlerdir.',
+    'İkinci kontrol: her kayıtta davranışın Arapça kökü davranış ayetinde (gerekirse yanındaki ayette) mekanik olarak arandı; kökü ahd olmayan üç kayıt (Bakara 63 ve Mâide 7: mîsâk; Muhammed 21: sıdk) "verilen söz" anlamıyla elle doğrulandı.',
+    'Kapsam dışı bırakılanlar: ölçü ve tartıda hile (Konu 5), anne-baba, akraba, yetim ve komşuya iyilik (Konu 2), infak ve zekât (Konu 3), şükür ve sabır emirleri (Konu 8). "İhsan" kaydı yalnızca güzel davranma ve güzel davrananların karşılığını içerir.',
+    'Bilinen sınırlar: Kur\'an\'da "ibadet" kelimesi yalnız Allah\'a değil, tapılan başka şeylere de kullanılır; bu sayfa yalnız Allah\'a kulluk emrini, başkasına kulluğun yasağını ve bu kulluğa dair tanım kayıtlarını verir. Yanlış anlaşılmasın diye tanım kayıtlarının türü ayrıca işaretlidir.',
+  ],
+};
+
 export const konu04 = {
   giris: 'Bu bölüm, Allah\'a ortak koşmak ve ayetleri yalanlamak hakkında Kur\'an\'ın doğrudan emirlerini ve yasaklarını, bu iki tutumun ayette nasıl adlandırıldığını ve ayetin kendisinde bildirilen karşılıkları toplar. Her kaydın türü işaretlidir: Yasak (doğrudan nehiy), Emir (doğrudan buyruk), Sonuç (tutum ile karşılığı ya da kınama aynı yerde) ve Tanım (tutumun nasıl adlandırıldığı ya da tarif edildiği). Bu sayfa Kur\'an\'ın ne söylediğini gösterir; kimsenin âkıbeti hakkında hüküm vermez.',
   kisa: [

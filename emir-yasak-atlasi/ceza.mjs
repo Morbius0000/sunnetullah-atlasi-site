@@ -76,6 +76,7 @@ const L = [
   ['kotu_son', 'Kötü son', 'dunya'], ['musrik_sayilma', 'Müşrik sayılma', 'husran'], ['sapiklik_donussuz', 'Dönüşü olmayan sapıklık', 'ruhsal'],
   ['yalniz_horlanmis', 'Yalnız bırakılıp horlanma', 'husran'],
   // Konu 6
+  ['dusmanlik_salma', 'Aralarına düşmanlık ve nefret salınması', 'ruhsal'],
   ['sevilmeme', 'Allah\'ın sevmemesi', 'gazab'],
   ['maskaraya_cevirme', 'Maskaraya çevrilme', 'azap'], ['seytanin_kardesi', 'Şeytanların kardeşi olma', 'ruhsal'],
 ];
