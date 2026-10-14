@@ -75,8 +75,8 @@
 "odul": "yok",
 "derece": "✓",
 "tur": "tanim",
-"ham": "temiz_ve_helal_yeme",
-"not_": "\"Pisin çokluğu seni hayrete düşürse de pisle temiz bir olmaz\""
+"ham": "temiz_ve_pis_bir_olmaz",
+"not_": "\"De ki: Pis (el-habîs) ile temiz (et-tayyib) bir olmaz, pisin çokluğu hoşuna gitse de\" (genel hüküm; yalnız yiyecekle sınırlı değildir)"
 },
 {
 "blok": "K7c",
@@ -95,7 +95,7 @@
 "odul": "yok",
 "derece": "✓",
 "tur": "emir",
-"ham": "temiz_ve_helal_yeme",
+"ham": "yeme_icme_israf_etmeme",
 "not_": "\"Yiyin için, fakat israf etmeyin\""
 },
 {
@@ -155,8 +155,8 @@
 "odul": "gazab",
 "derece": "✓",
 "tur": "sonuc",
-"ham": "temiz_ve_helal_yeme",
-"not_": "\"Yoksa öfkem üzerinize çöker. Kimin üstüne öfkem inerse o uçuruma gider\""
+"ham": "rizikta_taskinlik",
+"not_": "\"Onda taşkınlık etmeyin (lâ tatğav fîh); yoksa gazabım üzerinize iner. Kimin üstüne gazabım inerse o düşmüştür\": gazap taşkınlığa bağlanır"
 },
 {
 "blok": "K7f",
@@ -585,7 +585,7 @@
 "odul": "yok",
 "derece": "✓",
 "tur": "emir",
-"ham": "evlendirme_emri",
+"ham": "nikah_bulamayanin_iffeti",
 "not_": "\"Nikâh imkânı bulamayanlar, Allah zenginleştirinceye kadar iffetlerini korusunlar\""
 },
 {

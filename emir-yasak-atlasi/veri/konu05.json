@@ -261,10 +261,10 @@
 "nitelik_ayet": "81:8",
 "odul_ayet": "81:9",
 "odul": "hesaba_cekilme",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "diri_diri_gomulen_kiz_cocugu",
-"not_": "\"Diri diri gömülen kız çocuğuna sorulduğunda, hangi günah yüzünden öldürüldü diye!\""
+"not_": "\"Diri diri gömülen kıza hangi günah yüzünden öldürüldüğü sorulduğunda\": soru kurbana sorulur; failin hesaba çekilmesi bundan çıkarılır"
 }
 ]
 },
@@ -384,7 +384,7 @@
 "blok": "K5a",
 "nitelik_ayet": "4:25",
 "odul_ayet": "4:25",
-"odul": "yok",
+"odul": "yarim_ceza",
 "derece": "✓",
 "tur": "emir",
 "ham": "evlilikte_fuhus_cezasi_kole",
@@ -1581,8 +1581,8 @@
 "kayit": 108,
 "ayet": 95,
 "derece": {
-"✓": 107,
-"→": 1,
+"✓": 106,
+"→": 2,
 "?": 0
 },
 "tur": {

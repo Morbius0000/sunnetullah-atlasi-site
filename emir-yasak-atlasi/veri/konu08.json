@@ -5567,9 +5567,9 @@
 "nitelik_ayet": "55:60",
 "odul_ayet": "55:62",
 "odul": "cennet",
-"derece": "✓",
+"derece": "→",
 "ham": "ihsan",
-"not_": "ihsanın karşılığı ihsan"
+"not_": "55:60 \"ihsanın karşılığı ancak ihsandır\"; iki cennet bağı 55:46-62 pasajının bütününden (55:62 \"bu ikisinin berisinde iki cennet daha\")"
 }
 ]
 },
@@ -5855,9 +5855,9 @@
 "nitelik_ayet": "4:31",
 "odul_ayet": "4:31",
 "odul": "cennet",
-"derece": "✓",
+"derece": "→",
 "ham": "kebairden_kacinmak",
-"not_": "seyyiat örtülür + mudhalen kerîmâ"
+"not_": "seyyiat örtülür + \"değerli bir giriş yerine (mudhalen kerîmâ) sokarız\"; ayet cennet adını vermez"
 },
 {
 "blok": "B034",
@@ -5954,9 +5954,9 @@
 "nitelik_ayet": "22:58",
 "odul_ayet": "22:59",
 "odul": "cennet",
-"derece": "✓",
+"derece": "→",
 "ham": "allah_yolunda_hicret_olum",
-"not_": "rızk-ı hasen; razı olacakları giriş yeri"
+"not_": "güzel rızık (rızken hasenâ); \"razı olacakları bir giriş yerine (mudhalen yerdavneh)\": ayet cennet adını vermez"
 },
 {
 "blok": "B204",
@@ -6143,9 +6143,9 @@
 "nitelik_ayet": "22:58",
 "odul_ayet": "22:59",
 "odul": "cennet",
-"derece": "✓",
+"derece": "→",
 "ham": "allah_yolunda_hicret_olum",
-"not_": "rızk-ı hasen; razı olacakları giriş yeri"
+"not_": "güzel rızık (rızken hasenâ); \"razı olacakları bir giriş yerine (mudhalen yerdavneh)\": ayet cennet adını vermez"
 },
 {
 "blok": "B187",
@@ -8620,8 +8620,8 @@
 "kayit": 643,
 "ayet": 499,
 "derece": {
-"✓": 604,
-"→": 34,
+"✓": 601,
+"→": 37,
 "?": 5
 }
 }

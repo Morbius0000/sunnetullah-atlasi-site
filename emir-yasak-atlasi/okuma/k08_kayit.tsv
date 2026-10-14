@@ -100,7 +100,7 @@ B020	sabir	3:200	3:200	felah	✓	le'allekum
 B020	murabata	3:200	3:200	felah	✓
 B020	takva	3:200	3:200	felah	✓
 B021	itaat_allah_resul	4:13	4:13	cennet	✓	hudûdullah bağlamı (miras); fevz-i azîm
-B022	kebairden_kacinmak	4:31	4:31	cennet	✓	seyyiat örtülür + mudhalen kerîmâ
+B022	kebairden_kacinmak	4:31	4:31	cennet	→	seyyiat örtülür + "değerli bir giriş yerine (mudhalen kerîmâ) sokarız"; ayet cennet adını vermez
 B022	sabir	4:25	4:25	hayir	✓	"sabretmeniz hayırlıdır" (evlilik bağlamı)
 B023	hasene	4:40	4:40	kat_kat	✓	zerre ağırlığı; iyilik katlanır (konu 10)
 B023	iman_ve_infak	4:39	4:39	ovgu	→	'ne olurdu inansalar ve infak etselerdi'
@@ -340,7 +340,7 @@ B115	iman	22:50	22:50	magfiret	✓	rızk-ı kerîm
 B115	salih_amel	22:50	22:50	magfiret	✓
 B115	iman	22:56	22:56	cennet	✓
 B115	salih_amel	22:56	22:56	cennet	✓
-B115	allah_yolunda_hicret_olum	22:58	22:59	cennet	✓	rızk-ı hasen; razı olacakları giriş yeri
+B115	allah_yolunda_hicret_olum	22:58	22:59	cennet	→	güzel rızık (rızken hasenâ); "razı olacakları bir giriş yerine (mudhalen yerdavneh)": ayet cennet adını vermez
 B116	ruku_secde_ibadet_hayir	22:77	22:77	felah	✓	le'allekum
 B117	iman	23:1	23:11	cennet	✓	Mü'minûn 1-11: felah + Firdevs vârisliği
 B117	namazda_husu	23:2	23:11	cennet	✓
@@ -539,7 +539,7 @@ B194	ailede_allahtan_endise	52:26	52:27	azaptan_korunma	✓
 B194	dua	52:28	52:27	azaptan_korunma	✓
 B197	takva	54:54	54:54	cennet	✓	sıdk makamı
 B198	rabbin_makamindan_korkmak	55:46	55:46	cennet	✓	iki cennet
-B199	ihsan	55:60	55:62	cennet	✓	ihsanın karşılığı ihsan
+B199	ihsan	55:60	55:62	cennet	→	55:60 "ihsanın karşılığı ancak ihsandır"; iki cennet bağı 55:46-62 pasajının bütününden (55:62 "bu ikisinin berisinde iki cennet daha")
 B200	sabikun	56:10	56:12	cennet	✓	öne geçenler; mukarrabûn
 B201	mukarrebun	56:88	56:89	cennet	?	nitelik bu pasajda tanımlanmaz
 B202	iman	57:7	57:7	ecir	✓	iman ve infak

@@ -29,8 +29,8 @@ KURAL = [
     (r'^(kendi_haram|allahin_haram)', 'haram_kilma_yetkisi'),
     (r'^(nikah_haram|musrikle|zani_ile)', 'nikah_haram'),
     (r'^(hayiz|oruc_gecesi|bosanma)', 'esle_bosanma'),
-    (r'^(cok_esli|evlendirme|ehlikitap|peygamberin_evlilik|zihar)', 'evlilik_hukumleri'),
-    (r'^(temiz_ve_helal|evlerden)', 'temiz_helal'),
+    (r'^(cok_esli|evlendirme|nikah_bulamayan|ehlikitap|peygamberin_evlilik|zihar)', 'evlilik_hukumleri'),
+    (r'^(temiz_ve_helal|temiz_ve_pis|yeme_icme|rizikta|evlerden)', 'temiz_helal'),
 ]
 
 

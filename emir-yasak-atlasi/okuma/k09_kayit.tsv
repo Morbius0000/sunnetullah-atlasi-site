@@ -127,7 +127,7 @@ B028	kufur	5:5	5:5	husran	✓	"âhirette de hüsrana uğrayanlardandır"
 B028	ayetleri_yalanlama	5:10	5:10	cehennem	✓	küfür ve ayetleri yalanlama: "cehennemin dostları"
 B028	ahdi_bozma	5:13	5:13	lanet	✓	"verdikleri mîsakı bozdukları için onları lanetledik, kalplerini kaskatı yaptık"
 B028	soy_iddiasi	5:18	5:18	azap_genel	✓	"biz Allah'ın oğulları ve sevgilileriyiz" diyenlere: "niçin günahlarınız yüzünden size azap ediyor?"
-B029	adam_oldurme	5:29	5:29	nar	✓	Âdem'in oğlunun sözü: kardeşini öldürmeye yeltenenin "ateş halkından olması, zalimlerin cezası" (anlatıdaki kişinin sözü)
+B029	adam_oldurme	5:29	5:29	nar	→	Âdem'in oğlunun sözü: kardeşini öldürmeye yeltenenin "ateş halkından olması, zalimlerin cezası" (anlatıdaki kişinin sözü)
 B029	savas_ve_fesad	5:33	5:33	had_dunya	✓	Allah ve elçisiyle savaşıp yeryüzünde bozgunculuk yapanın cezası (öldürme, asma, çaprazlama kesme, sürgün)
 B029	savas_ve_fesad	5:33	5:33	hizy	✓	"dünyada rezillik"
 B029	savas_ve_fesad	5:33	5:33	azap_azim	✓	"âhirette de büyük azap"
@@ -276,7 +276,7 @@ B053	kotuluk_yapma	10:27	10:27	nar	✓	zillet kaplar, "ateşin dostları, sürek
 B054	zulum	10:52	10:52	azap_surekli	✓	zulmedenlere "sonsuz azabı tadın; kazandıklarınız dışında cezalandırılmayacaksınız"
 B055	allaha_iftira	10:69	10:70	azap_siddetli	✓	Allah'a yalan düzenler iflah etmez; dünyada biraz nimet, sonra "inkâr ettiklerinden ötürü şiddetli azap"
 B055	ayetleri_yalanlama	10:73	10:73	helak	✓	Nûh'u yalanlayanlar batırılıp boğuldu
-B056	olum_aninda_iman	10:90	10:91	tovbe_kabul_edilmez	✓	Firavun boğulurken "iman ettim" dedi: "Şimdi mi? Daha önce isyan etmiş, bozgunculardan olmuştun"
+B056	olum_aninda_iman	10:90	10:91	tovbe_kabul_edilmez	→	Firavun boğulurken "iman ettim" dedi; "Şimdi mi? Oysa daha önce isyan etmiş, bozgunculardan olmuştun" (â'l-âne): geç imanın kabul edilmediği bu sorudan çıkarılır
 B056	isyan_ve_fesad	10:91	10:90	helak	✓	Firavun ve ordusu azgınlık ve düşmanlıkla izledi, boğuldu
 B057	ayetleri_yalanlama	10:95	10:95	husran	✓	koşullu uyarı: "ayetlerimizi yalanlayanlardan olma, yoksa hüsrana düşenlerden olursun"
 B058	yuz_cevirme	11:3	11:3	azap_azim	✓	"yüz çevirirseniz sizi büyük bir günün azabıyla korkuturum" (uyarı)
@@ -415,7 +415,7 @@ B103	ayetleri_yalanlama	22:57	22:57	azap_muhin	✓	"inkâr edip ayetlerimizi yal
 B104	kufur	22:72	22:72	nar	✓	"Ateş! Allah onu inkârcılara vaat etmiştir"
 B104	ayetleri_okuyanlara_saldirma	22:72	22:72	nar	✓	ayet okuyanlara saldıracak olanlar için "Ateş"
 B105	zulum	23:27	23:27	helak	✓	"Zulmetmiş olanlar... kesinlikle boğulacaklardır" (Nûh kavmi)
-B106	resulleri_yalanlama	23:44	23:44	helak	✓	"hepsini birer efsane yaptık"
+B106	resulleri_yalanlama	23:44	23:44	helak	→	"Onları birbiri ardınca (helâke) uğrattık, birer efsane kıldık (ehâdîs); uzak olsun inanmayan topluluk!" helâk fiili ayette açık değil
 B106	resulleri_yalanlama	23:48	23:48	helak	✓	Firavun ve kodamanları: "yalanladılar, helâk edilenler arasına katıldılar"
 B107	israf	23:64	23:64	azap_genel	✓	servet ve refahla şımarmışlar azapla yakalanır (mütref)
 B107	ayetlerden_yuz_cevirme	23:66	23:65	yardimsizlik	→	23:65 "kimseden yardım göremezsiniz"; 23:66-67 yüz çevirme ve büyüklük, aynı konuşmada
@@ -765,7 +765,7 @@ B249	dini_yalan_sayma	107:1	107:4	vay	→	107:1-3 dini yalan sayan yetimi iter, 
 B249	yetimi_itip_kakma	107:2	107:4	vay	→
 B249	namazdan_gaflet	107:5	107:4	vay	✓	"Vay haline o namaz kılanların ki, namazlarından gaflet içindedir"
 B249	riya	107:6	107:4	vay	✓
-B249	kamu_hakkina_engel	107:7	107:4	vay	✓
+B249	maunu_engelleme	107:7	107:4	vay	✓	"el-Mâ'ûn'u engellerler" (mealde kamu hakkı/yardım/zekât/iyilik); 107:4 "vay haline o namaz kılanların ki..." 107:5-7 ile nitelenir
 B250	ebu_leheb_davranisi_belirtilmemis	111:1	111:3	nar	?	"Elleri kurusun... alevli ateşe yaslanacaktır"; ayetlerde davranışı adlandırılmaz, kişi adıyla anılır
 ZY	ikiyuzlu_yemin	5:53	5:53	amel_boşa_husran	→	münafıkların "tüm güçleriyle sizinle olduğuna yemin" etmeleri; "amelleri boşa çıkmış, hüsrana uğramışlar"
 ZY	iman_etmeme_kitabi_bilerek	6:20	6:20	husran	✓	"kitabı oğullarını tanır gibi tanıyıp iman etmeyenler öz benliklerini hüsrana uğratanlardır"

@@ -7,7 +7,7 @@ K4a	sirk_delilsiz_ortak_kosma	3:151	3:151	korku_salma	✓	aynı ayet: "kalplerin
 B001	allaha_kulluk_sirk_yasagi	4:36	4:36	-	✓	"Allah'a kulluk edin. O'na hiçbir şeyi ortak koşmayın"	yasak
 B002	sirk	4:48	4:48	magfiret_yok	✓	"Allah kendisine şirk koşulmasını affetmez"; "gerçekten büyük bir günah işlemiştir"	sonuc
 B004	sirk	4:116	4:116	magfiret_yok	✓	"affetmez"	sonuc
-B004	sirk	4:116	4:116	sapiklik_donussuz	✓	"dönüşü olmayan bir sapıklığa dalıp gitmiştir"	sonuc
+B004	sirk	4:116	4:116	sapiklik_donussuz	✓	"Allah'a ortak koşan uzak bir sapıklıkla sapmıştır" (dalle dalâlen baîdâ)	sonuc
 B005	ayetleri_yalanlama	5:10	5:10	cehennem	✓	"küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostlarıdır"	sonuc
 B007	mesihe_ilahlik_isnadi_sirk	5:72	5:72	cennet_haram	✓	Mesih: "Allah'a ortak koşana Allah cenneti haram kılmıştır"	sonuc
 B007	mesihe_ilahlik_isnadi_sirk	5:72	5:72	nar	✓	"varacağı yer ateştir onun"	sonuc
@@ -17,7 +17,7 @@ B009	sirkten_olma_yasagi	6:14	6:14	-	✓	"Sakın şirke sapanlardan olma!"; ayr�
 B010	ayetleri_yalanlama_allaha_iftira	6:21	6:21	felah_yok	✓	"Allah'a iftira eden yahut ayetlerini yalanlayandan daha zalim kim? Zalimler asla kurtulamaz"	sonuc
 B010	sirk_ortaklar	6:22	6:24	yardimsizlik	✓	haşirde "ortaklarınız nerede?"; 6:24 "iftira için kullandıkları şeyler onları bırakıp kayboldu"	sonuc
 B010	ayetleri_yalanlama	6:27	6:27	nar	✓	ateşin başında durdurulanlar: "Rabbimizin ayetlerini yalanlamasak ..."	sonuc
-B011	ayetleri_yalanlama	6:39	6:39	saptirilma	✓	"ayetlerimizi yalanlayanlar karanlıklara gömülmüş sağır ve dilsizlerdir; Allah dilediğini şaşırtır"	sonuc
+B011	ayetleri_yalanlama	6:39	6:39	saptirilma	→	"ayetlerimizi yalanlayanlar karanlıklara gömülmüş sağır ve dilsizlerdir; Allah dilediğini şaşırtır"	sonuc
 B012	ayetleri_yalanlama	6:49	6:49	azap	✓	"fenalığa bulaşmaları yüzünden kendilerine azap dokunacaktır"	sonuc
 B013	sirk_kurtulunca_ortak_kosma	6:64	6:65	azap	→	"Allah kurtarıyor; sonra siz O'na ortak koşuyorsunuz" (6:64); 6:65 "üstünüzden ya da ayaklarınızın altından azap göndermeye kaadirdir": bağ bağlamdan	sonuc
 B015	sirk_amelleri_bosa_cikarir	6:88	6:88	amel_bosa	✓	"eğer onlar şirke bulaşsalardı yapıp ettikleri kendilerine yararsız hale gelirdi" (peygamberler hakkında koşullu ifade)	sonuc
@@ -26,7 +26,7 @@ B018	musriklerden_yuz_cevirme_emri	6:106	6:106	-	✓	"Rabbinden sana vahyedilene
 B020	seytan_evliyasina_boyun_egme	6:121	6:121	musrik_sayilma	✓	"O şeytan evliyasına boyun eğerseniz kesinlikle müşrikler oldunuz demektir"	sonuc
 B021	ortaklara_pay_ayirma	6:136	6:136	-	✓	"Bu Allah için, bu da ortaklarımız için" diye pay ayırdılar; "ne kötü hüküm veriyorlar"	tanim
 B021	ortaklarin_evlat_oldurmeyi_guzel_gostermesi	6:137	6:137	-	✓	"Allah'a ortak koştukları kişiler öz evlatlarını öldürmeyi güzel göstermiştir"	tanim
-B022	sirk_kaderi_bahane_etme	6:148	6:148	azap	✓	"şirke batanlar: Allah dileseydi şirke sapmazdık dediler; öncekiler de azabımızı tadıncaya kadar böyle yalanlamışlardı"	sonuc
+B022	sirk_kaderi_bahane_etme	6:148	6:148	azap	→	Ortak koşanlar "Allah dileseydi ortak koşmazdık" diyecekler; azabı tadan açık özne "onlardan öncekiler"dir (kezâlike kezzebe'llezîne min kablihim hattâ zâkû be'senâ), bağ benzetmeyle kurulur	sonuc
 B022	ayetleri_yalanlayanlarin_keyfine_uyma_yasagi	6:150	6:150	-	✓	"Ayetlerimizi yalanlayanlarla âhirete inanmayanların keyifleri ardınca gitme!"; "Rablerine başkalarını denk tutuyorlar"	yasak
 B022	sirk_yasagi_haramlar	6:151	6:151	-	✓	"Rabbinizin size haram kıldıkları: Hiçbir şeyi O'na ortak koşmayın"	yasak
 B023	ayetleri_yalanlama_yuz_cevirme	6:157	6:157	azap_en_elim	✓	"ayetlerine sırt dönenleri azabın en acıklısıyla cezalandıracağız"	sonuc
@@ -41,7 +41,7 @@ B026	ayetleri_yalanlama	7:72	7:72	helak	✓	"ayetlerimizi yalanlayanların kök�
 B027	ayetleri_yalanlama_aldirmazlik	7:136	7:136	gark	✓	"ayetlerimizi yalanladıkları, onlara aldırmazlık ettikleri için hepsini suda bozduk"	sonuc
 B028	ayetleri_yalanlama	7:146	7:146	ayetlerden_uzak_tutma	✓	"onlar ayetlerimizi yalanladılar ve kayıtsız kaldılar"; büyüklük taslayanlar ayetlerden uzak tutulur, mucize görseler inanmazlar	sonuc
 B028	ayetleri_ve_ahireti_yalanlama	7:147	7:147	amel_bosa	✓	"ayetlerimizi ve ahirete varılacağını yalan sayanların tüm yaptıkları boşa gitmiştir"	sonuc
-B029	atalarin_sirkini_bahane_etme	7:173	7:173	-	✓	"Daha önce atalarımız şirke batmıştı, biz onların soyuyuz" demeyin: kıyamet günü bahane olarak söylenmesi yasaklanan söz	yasak
+B029	atalarin_sirkini_bahane_etme	7:173	7:173	-	✓	Söz (misak) alındı ki kıyamet günü "atalarımız daha önce ortak koştu, biz onlardan sonra gelen nesildik" demeyesiniz (ev tekûlû: amaç cümlesi, doğrudan yasak fiili değil)	tanim
 B030	ayetleri_yalanlama	7:182	7:182	istidrac	✓	"ayetlerimizi yalanlayanları bilemeyecekleri bir yerden ağır ağır çöküşe götüreceğiz"	sonuc
 B031	nimet_verilince_ortak_kosma	7:190	7:190	-	✓	"kendilerine verdiği nimete ikisi birden Allah'a ortak koşmaya başladılar"; karşılık aynı yerde yok	tanim
 B031	ortaklar_yaratamaz_yardim_edemez	7:191	7:191	-	✓	"hiçbir şey yaratmayan, kendileri yaratılmış olanları mı ortak koşuyorlar?"; 7:192-197 yardım edemezler	tanim
@@ -63,14 +63,14 @@ B044	allah_disina_yararsiz_seylere_yakarma_yasagi	10:106	10:106	zalim_sayilma	�
 B047	ortak_kosmama	12:38	12:38	-	✓	Yûsuf: "Bizim herhangi bir şeyi Allah'a ortak tutmamız söz konusu olamaz"	tanim
 B047	allah_disinda_isimlere_kulluk	12:40	12:40	-	✓	"Allah'ın yanında adlarını sizin ve atalarınızın koyduğu isimlere kulluk ediyorsunuz; Allah hiçbir kanıt indirmemiştir. O yalnız kendisine kulluk etmenizi emretti"	tanim
 B048	cogunun_imani_sirkle_karisik	12:106	12:106	-	✓	"Onların çoğu şirke bulaşmış olmadan Allah'a iman etmez"	tanim
-B050	sirk_ortaklar_tanima	13:33	13:33	saptirilma	✓	"Allah'a ortaklar tanıdılar ... küfre sapanlara tuzakları süslü gösterildi, yoldan döndürüldüler; Allah'ın şaşırttığına kılavuz yok"	sonuc
+B050	sirk_ortaklar_tanima	13:33	13:33	saptirilma	→	"Allah'a ortaklar tanıdılar ... küfre sapanlara tuzakları süslü gösterildi, yoldan döndürüldüler; Allah'ın şaşırttığına kılavuz yok"	sonuc
 B050	sirk_ortaklar_tanima	13:33	13:34	azap_dunya	✓	"Dünya hayatında bir azap var onlar için; âhiret azabı ise çok daha şiddetlidir" ("onlar" 13:33'teki topluluk)	sonuc
 B050	yalniz_allaha_kulluk_ortak_kosmama	13:36	13:36	-	✓	"Bana, yalnız Allah'a kulluk etmem, O'na ortak koşmamam emredildi"	tanim
 B051	seytani_sirk_araci_yapma	14:22	14:22	azap_elim	✓	şeytan: "beni şirk aracı yapmanıza karşı çıkmıştım ... zalimler için acıklı bir azap öngörülmüştür"	sonuc
 B053	sirke_bulasmislara_aldirmama_emri	15:94	15:94	-	✓	"Emrolunduğun şeyi tebliğ et; şirke bulaşmışlara aldırma"	emir
 B053	allahla_beraber_baska_tanri_edinme	15:96	15:96	tehdit	✓	"Allah ile beraber başka tanrılar benimseyenler yakında bilecekler"	sonuc
 B055	sirk_ortaklar	16:27	16:27	hizy	✓	"Allah kıyamet günü onları rezil edecek: ortaklarım nerede?" "bugün rezillik ve kötülük gerçeği inkâr edenleredir"	sonuc
-B056	sirk_kaderi_bahane_etme	16:35	16:36	helak	→	"Ortak koşanlar: Allah isteseydi biz kulluk etmezdik dediler; öncekiler de böyle yaptılar" (16:35); "yalanlayanların sonu nasıl olmuş görün" (16:36): sonuç adı ayette açık değil	sonuc
+B056	sirk_kaderi_bahane_etme	16:35	16:36	kotu_akibet	→	"Ortak koşanlar: Allah isteseydi biz kulluk etmezdik dediler; öncekiler de böyle yaptılar" (16:35); "yalanlayanların sonu nasıl olmuş görün" (16:36): sonuç adı ayette açık değil	sonuc
 B056	tagutan_kacinma	16:36	16:36	-	✓	her ümmete resul: "Allah'a kulluk edin, tâğuttan kaçının"	emir
 B057	nimet_kaldirilinca_ortak_kosma	16:54	16:55	tehdit	✓	zorluk kalkınca bir zümre hemen ortak koşar; 16:55 "Hadi nimetlenin, yakında bileceksiniz"	sonuc
 B057	ortaklara_pay_ayirma	16:56	16:56	hesaba_cekilme	✓	"iftira edip durduğunuz şeylerden kesinlikle hesaba çekileceksiniz"	sonuc
@@ -89,7 +89,7 @@ B071	seytana_kulluk_yasagi	19:44	19:45	azap	✓	İbrahim: "Babacığım, şeytan
 B074	ayetleri_yalanlama	21:77	21:77	gark	✓	"ayetlerimizi yalanlayan topluluk ... hepsini birden batırıp boğduk"	sonuc
 B076	sirk_yasagi_beyt	22:26	22:26	-	✓	İbrahim'e: "Bana hiçbir şeyi ortak koşma, evimi temizle"	yasak
 B077	putlarin_pisliginden_uzak_durma	22:30	22:30	-	✓	"Putların pisliğinden, yalan sözden uzak durun"	yasak
-B077	allaha_ortak_kosma	22:31	22:31	mahvolma	✓	"Allah'a ortak koşan, gökten düşmüş de kendisini kuşlar kapışıyor ya da rüzgâr onu uzak bir yere fırlatıyor gibidir"	sonuc
+B077	allaha_ortak_kosma	22:31	22:31	mahvolma	→	Benzetme: "Allah'a ortak koşan, sanki gökten düşmüş de kuşlar onu kapışıyor ya da rüzgâr onu uzak bir yere savuruyor gibidir" (fe-keennemâ)	sonuc
 B078	ayetleri_yalanlama	22:57	22:57	azap_muhin	✓	"inkâr edip ayetlerimizi yalanlayanlara aşağılayıcı bir azap öngörülmüştür"	sonuc
 B081	ayetleri_yalanlama	23:105	23:104	nar	✓	"Ateş yüzlerini yalar" (23:104); "Ayetlerim size okunmadı mı? Siz onları yalanlıyordunuz" (23:105)	sonuc
 B085	ayetleri_yalanlama	25:36	25:36	helak	✓	"ayetlerimizi yalanlayan topluluğa gidin. Biraz sonra o topluluğu yerle bir ettik"	sonuc
@@ -101,7 +101,7 @@ B091	sirk_ortaklar	28:62	28:64	yardimsizlik	✓	"ortaklarım nerede?"; 28:64 "ç
 B091	sirk_ortaklar	28:62	28:64	azap	✓	28:64 "azabı görmüşlerdir. Önceden yola gelselerdi ne olurdu!"	sonuc
 B092	sirk_ortaklar	28:74	28:75	yardimsizlik	✓	"o iftira aracı yaptıkları şeyler onları yüzüstü koyup kaybolmuşlardır"	sonuc
 B093	sirke_bulasanlardan_olma_yasagi	28:87	28:87	-	✓	"Sakın şirke bulaşanlardan olma!"	yasak
-B093	baska_tanriya_kulluk_yasagi	28:88	28:88	-	✓	"Allah'ın yanında diğer bir tanrıya daha kulluk etme. İlah yok O'ndan başka"	yasak
+B093	baska_ilaha_yakarma_yasagi	28:88	28:88	-	✓	"Allah ile birlikte başka bir ilaha yakarma (lâ ted'u); O'ndan başka ilah yoktur"	yasak
 B094	ana_babaya_sirkte_itaat_etmeme	29:8	29:8	-	✓	"hakkında hiçbir bilgin olmayan bir şeyle bana ortak koşman için seninle çekişirlerse onlara itaat etme"	yasak
 B095	gemide_ihlas_sonra_ortak_kosma	29:65	29:66	tehdit	✓	"karaya çıkarınca ortak koşuyorlar; verdiklerimize nankörlük etsinler... Yakında bilecekler"	sonuc
 B096	ayetleri_yalanlama_alay	30:10	30:10	kotu_son	✓	"çirkinlik sergileyenlerin sonu çirkinliğin en beteri oldu; çünkü ayetleri yalanlamışlardı ve onlarla alay ediyorlardı"	sonuc

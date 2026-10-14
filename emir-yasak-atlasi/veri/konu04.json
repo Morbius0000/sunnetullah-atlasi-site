@@ -313,8 +313,8 @@
 "odul": "yok",
 "derece": "✓",
 "tur": "yasak",
-"ham": "baska_tanriya_kulluk_yasagi",
-"not_": "\"Allah'ın yanında diğer bir tanrıya daha kulluk etme. İlah yok O'ndan başka\""
+"ham": "baska_ilaha_yakarma_yasagi",
+"not_": "\"Allah ile birlikte başka bir ilaha yakarma (lâ ted'u); O'ndan başka ilah yoktur\""
 },
 {
 "blok": "B099",
@@ -420,9 +420,9 @@
 "odul_ayet": "7:173",
 "odul": "yok",
 "derece": "✓",
-"tur": "yasak",
+"tur": "tanim",
 "ham": "atalarin_sirkini_bahane_etme",
-"not_": "\"Daha önce atalarımız şirke batmıştı, biz onların soyuyuz\" demeyin: kıyamet günü bahane olarak söylenmesi yasaklanan söz"
+"not_": "Söz (misak) alındı ki kıyamet günü \"atalarımız daha önce ortak koştu, biz onlardan sonra gelen nesildik\" demeyesiniz (ev tekûlû: amaç cümlesi, doğrudan yasak fiili değil)"
 },
 {
 "blok": "B037",
@@ -590,7 +590,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "sirk",
-"not_": "\"dönüşü olmayan bir sapıklığa dalıp gitmiştir\""
+"not_": "\"Allah'a ortak koşan uzak bir sapıklıkla sapmıştır\" (dalle dalâlen baîdâ)"
 },
 {
 "blok": "K4c",
@@ -817,7 +817,7 @@
 "nitelik_ayet": "13:33",
 "odul_ayet": "13:33",
 "odul": "saptirilma",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "sirk_ortaklar_tanima",
 "not_": "\"Allah'a ortaklar tanıdılar ... küfre sapanlara tuzakları süslü gösterildi, yoldan döndürüldüler; Allah'ın şaşırttığına kılavuz yok\""
@@ -917,10 +917,10 @@
 "nitelik_ayet": "22:31",
 "odul_ayet": "22:31",
 "odul": "mahvolma",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "allaha_ortak_kosma",
-"not_": "\"Allah'a ortak koşan, gökten düşmüş de kendisini kuşlar kapışıyor ya da rüzgâr onu uzak bir yere fırlatıyor gibidir\""
+"not_": "Benzetme: \"Allah'a ortak koşan, sanki gökten düşmüş de kuşlar onu kapışıyor ya da rüzgâr onu uzak bir yere savuruyor gibidir\" (fe-keennemâ)"
 },
 {
 "blok": "K4d",
@@ -1511,16 +1511,16 @@
 "nitelik_ayet": "6:148",
 "odul_ayet": "6:148",
 "odul": "azap",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "sirk_kaderi_bahane_etme",
-"not_": "\"şirke batanlar: Allah dileseydi şirke sapmazdık dediler; öncekiler de azabımızı tadıncaya kadar böyle yalanlamışlardı\""
+"not_": "Ortak koşanlar \"Allah dileseydi ortak koşmazdık\" diyecekler; azabı tadan açık özne \"onlardan öncekiler\"dir (kezâlike kezzebe'llezîne min kablihim hattâ zâkû be'senâ), bağ benzetmeyle kurulur"
 },
 {
 "blok": "B056",
 "nitelik_ayet": "16:35",
 "odul_ayet": "16:36",
-"odul": "helak",
+"odul": "kotu_akibet",
 "derece": "→",
 "tur": "sonuc",
 "ham": "sirk_kaderi_bahane_etme",
@@ -1677,7 +1677,7 @@
 "nitelik_ayet": "6:39",
 "odul_ayet": "6:39",
 "odul": "saptirilma",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama",
 "not_": "\"ayetlerimizi yalanlayanlar karanlıklara gömülmüş sağır ve dilsizlerdir; Allah dilediğini şaşırtır\""
@@ -2961,15 +2961,15 @@
 "kayit": 204,
 "ayet": 215,
 "derece": {
-"✓": 200,
-"→": 4,
+"✓": 196,
+"→": 8,
 "?": 0
 },
 "tur": {
 "emir": 14,
-"yasak": 39,
+"yasak": 38,
 "sonuc": 104,
-"tanim": 47
+"tanim": 48
 }
 }
 }

@@ -193,10 +193,10 @@
 "nitelik_ayet": "38:34",
 "odul_ayet": "38:35",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "tur": "tanim",
 "ham": "tevbe_kabul",
-"not_": "\"Süleyman tövbe ile Allah'a yöneldi: Rabbim affet beni\""
+"not_": "\"Süleyman yöneldi (enâbe): Rabbim, beni bağışla\" (38:35): bağışlanma istenir, verildiği bu ayetlerde yazılı değil"
 },
 {
 "blok": "K10g",
@@ -281,10 +281,10 @@
 "nitelik_ayet": "4:16",
 "odul_ayet": "4:16",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "tevbe_sart",
-"not_": "\"Tövbe edip durumlarını düzeltirlerse eziyetten vazgeçin; Allah Tevvâb'dır, Rahîm'dir\""
+"not_": "\"Tövbe edip durumlarını düzeltirlerse onlardan vazgeçin; Allah Tevvâb'dır, Rahîm'dir\": doğrudan sonuç eziyetten vazgeçmektir, mağfiret Allah'ın sıfatından çıkarılır"
 },
 {
 "blok": "K10b",
@@ -712,7 +712,7 @@
 "blok": "K10c",
 "nitelik_ayet": "6:160",
 "odul_ayet": "6:160",
-"odul": "yok",
+"odul": "misli_ceza",
 "derece": "✓",
 "tur": "tanim",
 "ham": "misli",
@@ -722,7 +722,7 @@
 "blok": "K10d",
 "nitelik_ayet": "10:27",
 "odul_ayet": "10:27",
-"odul": "yok",
+"odul": "misli_ceza",
 "derece": "✓",
 "tur": "tanim",
 "ham": "misli",
@@ -2309,8 +2309,8 @@
 "kayit": 156,
 "ayet": 161,
 "derece": {
-"✓": 155,
-"→": 1,
+"✓": 153,
+"→": 3,
 "?": 0
 },
 "tur": {

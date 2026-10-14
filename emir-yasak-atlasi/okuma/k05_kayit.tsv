@@ -26,7 +26,7 @@ K5a	yetim_mali_yeme_zulmu	4:10	4:10	azap_elim	✓	"Yakın bir zamanda, korkunç 
 K5a	fahise_yapanlara_dort_tanik	4:15	4:15	-	✓	"Kadınlarınızdan [el-fâhişe] yapanlara karşı içinizden dört tanık getirin; tanıklık ederlerse o kadınları ... evlerde tutun" (Arapça: el-fâhişe)	emir
 K5a	kadinlari_zorla_miras_edinme_yasagi	4:19	4:19	-	✓	"Kadınlara, zor ve baskı kullanarak mirasçı olmanız size helal olmaz"	yasak
 K5a	babanin_nikahladigi_kadinla_evlenme_yasagi	4:22	4:22	-	✓	"Babalarınızın nikâhlamış olduğu kadınlarla evlenmeyin. Böyle bir şey açık bir edepsizlik (fâhişe), nefret gerektiren bir kötülüktür"	yasak
-K5a	evlilikte_fuhus_cezasi_kole	4:25	4:25	-	✓	"Evliliğe geçtikten sonra bir fuhuş yaparlarsa onlara, hür kadınlara uygulanan cezasının yarısı uygulanacaktır"	emir
+K5a	evlilikte_fuhus_cezasi_kole	4:25	4:25	yarim_ceza	✓	"Evliliğe geçtikten sonra bir fuhuş yaparlarsa onlara, hür kadınlara uygulanan cezasının yarısı uygulanacaktır"	emir
 K5a	mallari_batil_yolla_yeme_yasagi	4:29	4:29	-	✓	"Mallarınızı aranızda bâtıl bir yolla yemeyin. Kendi hoşnutluğunuzla gerçekleşmiş bir ticaret olursa başka"	yasak
 K5a	kendi_canlarini_oldurme_yasagi	4:29	4:29	-	✓	"Kendi canlarınıza kıymayın" (Arapça: lâ taktulû enfüsekum)	yasak
 K5a	kendi_canlarini_oldurme_ates	4:30	4:30	nar	→	"Kim düşmanlık ve zulümle bunu (zâlike) yaparsa onu ateşe sokacağız"; "bunu" 4:29'daki hem bâtıl yolla mal yemeyi hem "lâ taktulû enfusekum"u kapsayabilir; meal "intihar" der, Arapça hangisini kastettiğini belirlemez	sonuc
@@ -94,7 +94,7 @@ K5a	bey_at_zina_etmeme	60:12	60:12	-	✓	Mümin kadınların bey'atı: "zina etm
 K5a	bey_at_cocuk_oldurmeme	60:12	60:12	-	✓	Mümin kadınların bey'atı: "çocuklarını öldürmemeleri"	yasak
 K5a	olcu_ve_tartida_hile_mutaffifin	83:1	83:3	vay	✓	"Azap ve kaygı, tartıda ve ölçüde hile yapanlara olsun; ... tartıp ölçtükleri zaman, eksiltmeye giderler"	sonuc
 K5a	lut_kavmi_erkeklere_gitme	29:28	29:34	helak	✓	Lût'un kavmi (29:28-29); 29:34 "Şu kent halkı üstüne, yaptıkları fenalıklardan ötürü gökten bir felaket indireceğiz"	sonuc
-K5a	diri_diri_gomulen_kiz_cocugu	81:8	81:9	hesaba_cekilme	✓	"Diri diri gömülen kız çocuğuna sorulduğunda, hangi günah yüzünden öldürüldü diye!"	sonuc
+K5a	diri_diri_gomulen_kiz_cocugu	81:8	81:9	hesaba_cekilme	→	"Diri diri gömülen kıza hangi günah yüzünden öldürüldüğü sorulduğunda": soru kurbana sorulur; failin hesaba çekilmesi bundan çıkarılır	sonuc
 K5a	kiz_cocugunu_gomme	16:58	16:59	-	✓	"Kız çocuk müjdelendiğinde ... toprağın bağrına mı gömsün onu. Bakın ne kötü hüküm veriyorlar!"	tanim
 K5a	bakislari_indirme_ve_irzi_koruma_erkek	24:30	24:30	-	✓	"Mümin erkeklere söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar"	emir
 K5a	bakislari_indirme_irzi_koruma_ve_zinet_kadin	24:31	24:31	-	✓	"Mümin kadınlara da söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar. Süslerini, görünen kısımlar müstesna, açmasınlar"	emir

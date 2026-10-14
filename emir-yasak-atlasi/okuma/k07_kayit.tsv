@@ -41,7 +41,7 @@ K7c	av_ve_ihram	5:94	5:94	azap_korkunc	✓	Av ile deneme: "Bundan sonra azıp s�
 K7c	av_ve_ihram	5:95	5:95	-	✓	"İhramda olduğunuz zaman av öldürmeyin"	yasak
 K7c	av_ve_ihram	5:95	5:95	denk_ceza	✓	Kasten öldürenin cezası: öldürdüğüne denk kurbanlık, yahut yoksullara yedirme, yahut buna denk oruç; "yaptığının vebalini tatsın"	sonuc
 K7c	av_ve_ihram	5:96	5:96	-	✓	"Deniz avı yapmak ve onu yemek size helal kılındı. Fakat ihramlı olduğunuz sürece karada avlanmak size haram edilmiştir"	yasak
-K7c	temiz_ve_helal_yeme	5:100	5:100	-	✓	"Pisin çokluğu seni hayrete düşürse de pisle temiz bir olmaz"	tanim
+K7c	temiz_ve_pis_bir_olmaz	5:100	5:100	-	✓	"De ki: Pis (el-habîs) ile temiz (et-tayyib) bir olmaz, pisin çokluğu hoşuna gitse de" (genel hüküm; yalnız yiyecekle sınırlı değildir)	tanim
 K7c	kendi_haram_kilma	5:103	5:103	-	✓	"Allah ne bahîre yapmıştır ne sâibe ne vasîle ne de hâm. Küfre sapanlar yalan uydurarak Allah'a iftira ediyorlar"	tanim
 K7c	allah_adi_anilan_hayvan	6:118	6:118	-	✓	"Üzerine Allah'ın adı anılmış olanlardan yiyin"	emir
 K7c	allah_adi_anilan_hayvan	6:119	6:119	-	✓	"Zorda kalışınız dışında üzerinize haram kıldığını bizzat kendisi size ayrıntılı olarak açıklamıştır"	tanim
@@ -58,7 +58,7 @@ K7c	israilogullari_haram	6:146	6:146	haram_kilma	✓	"Yahudilere tüm tırnaklı
 K7c	kendi_haram_kilma	6:150	6:150	-	✓	"Allah şunu haram etmiştir diye tanıklık eden şahitlerle birlikte tanıklık etme"	yasak
 K7c	allahin_haram_kildiklari	6:151	6:151	-	✓	"Rabbinizin size neleri haram kıldığını okuyayım: ortak koşmayın, ana-babaya iyi davranın, çocuklarınızı öldürmeyin, kötülüklere yaklaşmayın, haksız yere can almayın ..." (6:151, ayrıntı Konu 4 ve 5)	tanim
 K7c	allahin_haram_kildiklari	7:33	7:33	-	✓	"Rabbim ancak şunları haram kıldı: iğrençlikleri, günahı, haksız yere saldırmayı, kanıtsız ortak koşmayı, Allah hakkında bilmediğinizi söylemeyi"	tanim
-K7c	temiz_ve_helal_yeme	7:31	7:31	-	✓	"Yiyin için, fakat israf etmeyin"	emir
+K7c	yeme_icme_israf_etmeme	7:31	7:31	-	✓	"Yiyin için, fakat israf etmeyin"	emir
 K7c	kendi_haram_kilma	7:32	7:32	-	✓	"Allah'ın kulları için çıkardığı süsü, güzel ve tatlı rızıkları kim haram etmiş?"	tanim
 K7c	temiz_ve_helal_yeme	7:157	7:157	-	✓	Ümmî peygamber: "Güzel şeyleri onlara helal kılar, pis şeyleri onlara yasaklar"	tanim
 K7c	temiz_ve_helal_yeme	7:160	7:160	-	✓	"Yiyiniz size verdiğimiz rızıkların temizlerinden" (Mûsa kavmine)	emir
@@ -72,12 +72,12 @@ K7e	kendi_haram_kilma	16:116	16:116	basarisizlik	✓	"Yalan düzerek Allah'a ift
 K7e	kendi_haram_kilma	16:117	16:117	azap_elim	✓	"Az bir nimetlenme ardından acıklı bir azap var onlara"	sonuc
 K7e	israilogullari_haram	16:118	16:118	-	✓	"Daha önce Yahudilere haram kılmıştık. Biz onlara haksızlık etmedik; onlar kendi benliklerine zulmediyorlardı"	tanim
 K7e	temiz_ve_helal_yeme	20:81	20:81	-	✓	"Size verdiğimiz rızkın temizlerinden yiyin! Bu konuda azgınlık etmeyin!"	emir
-K7e	temiz_ve_helal_yeme	20:81	20:81	gazab	✓	"Yoksa öfkem üzerinize çöker. Kimin üstüne öfkem inerse o uçuruma gider"	sonuc
+K7e	rizikta_taskinlik	20:81	20:81	gazab	✓	"Onda taşkınlık etmeyin (lâ tatğav fîh); yoksa gazabım üzerinize iner. Kimin üstüne gazabım inerse o düşmüştür": gazap taşkınlığa bağlanır	sonuc
 K7f	temiz_ve_helal_yeme	22:30	22:30	-	✓	"Karşınızda okunarak açıklananlar hariç, tüm hayvanlar size helal kılınmıştır"	tanim
 K7f	temiz_ve_helal_yeme	23:51	23:51	-	✓	"Ey resuller! Güzel ve temiz şeylerden yiyin ve barışa, hayra yönelik iş yapın!"	emir
 K7f	zani_ile_nikah	24:3	24:3	-	✓	"Zina eden erkeği zina eden bir kadın veya putperest bir kadından başkası nikâhlamaz ... Müminlere bu haram kılınmıştır"	yasak
 K7f	evlendirme_emri	24:32	24:32	-	✓	"İçinizden bekârları/dulları, erkek hizmetçilerinizden ve halayıklarınızdan durumu uygun olanları evlendirin; yoksulsa Allah lütfundan zenginleştirir"	emir
-K7f	evlendirme_emri	24:33	24:33	-	✓	"Nikâh imkânı bulamayanlar, Allah zenginleştirinceye kadar iffetlerini korusunlar"	emir
+K7f	nikah_bulamayanin_iffeti	24:33	24:33	-	✓	"Nikâh imkânı bulamayanlar, Allah zenginleştirinceye kadar iffetlerini korusunlar"	emir
 K7f	evlerden_yemek_yeme	24:61	24:61	-	✓	"Kendi evlerinizden gerekse babalarınızın, annelerinizin, kardeşlerinizin ... evlerinden yemek yemenizde bir sakınca yoktur"	tanim
 K7f	zihar_ve_evlatlik	33:4	33:4	-	✓	"Zıhar yaptığınız eşlerinizi sizin anneniz yapmamıştır, evlatlıklarınızı da oğullarınız kılmamıştır; ağızlarınızın bir lakırdısıdır"	tanim
 K7f	zihar_ve_evlatlik	33:5	33:5	-	✓	"Evlatlıklarınızı öz babalarına nispet ederek çağırın"	emir

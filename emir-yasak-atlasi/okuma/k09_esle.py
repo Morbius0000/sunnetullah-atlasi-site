@@ -123,7 +123,7 @@ KURAL = [
     (r'^(adam_oldurme|haksiz_oldurme|peygamber_oldurme|adaleti_emredeni|kendi_canina|ilimsiz_evlat|muminlere_iskence|esirden_fidye|peygambere_tuzak|ibrahime_tuzak|tuzak_kurma|kotuluk_icin_tuzak|kotuluk_tuzagi|buyuk_hile)', 'can'),
     (r'^(zina|fahsa|erkeklere_gitme|misafirlere|edepsizlig|acik_edepsizlik)', 'namus'),
     (r'^(riba|batil_yolla|yetim_mali|cimrilik|olcude|hirsizlik|sadaka_sozunu|riya_infak|kenz)', 'mal'),
-    (r'^(yoksulu|yetimi_itip|kamu_hakkina|dini_yalan)', 'ihtiyac_sahibini_ihmal'),
+    (r'^(yoksulu|yetimi_itip|kamu_hakkina|maunu|dini_yalan)', 'ihtiyac_sahibini_ihmal'),
     (r'^(vahyi_|kelimeleri_kaydirma|sozu_degistirme|ayetleri_yalanlama_tevrati)', 'vahyi_tahrif'),
     (r'^(ahdi_|yemini_hile|yalana_yemin|sozden|eski_haline)', 'ahdi_bozma'),
     (r'^(namaz|riya$|kiyidan_ibadet|bos_lakirdiya)', 'ibadet_ihmal'),

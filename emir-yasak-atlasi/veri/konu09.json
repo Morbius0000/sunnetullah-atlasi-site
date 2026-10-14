@@ -2652,9 +2652,9 @@
 "nitelik_ayet": "23:44",
 "odul_ayet": "23:44",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "ham": "resulleri_yalanlama",
-"not_": "\"hepsini birer efsane yaptık\""
+"not_": "\"Onları birbiri ardınca (helâke) uğrattık, birer efsane kıldık (ehâdîs); uzak olsun inanmayan topluluk!\" helâk fiili ayette açık değil"
 },
 {
 "blok": "B106",
@@ -6543,7 +6543,7 @@
 "nitelik_ayet": "5:29",
 "odul_ayet": "5:29",
 "odul": "nar",
-"derece": "✓",
+"derece": "→",
 "ham": "adam_oldurme",
 "not_": "Âdem'in oğlunun sözü: kardeşini öldürmeye yeltenenin \"ateş halkından olması, zalimlerin cezası\" (anlatıdaki kişinin sözü)"
 },
@@ -6883,8 +6883,8 @@
 "odul_ayet": "107:4",
 "odul": "vay",
 "derece": "✓",
-"ham": "kamu_hakkina_engel",
-"not_": ""
+"ham": "maunu_engelleme",
+"not_": "\"el-Mâ'ûn'u engellerler\" (mealde kamu hakkı/yardım/zekât/iyilik); 107:4 \"vay haline o namaz kılanların ki...\" 107:5-7 ile nitelenir"
 }
 ]
 },
@@ -7086,9 +7086,9 @@
 "nitelik_ayet": "10:90",
 "odul_ayet": "10:91",
 "odul": "tovbe_kabul_edilmez",
-"derece": "✓",
+"derece": "→",
 "ham": "olum_aninda_iman",
-"not_": "Firavun boğulurken \"iman ettim\" dedi: \"Şimdi mi? Daha önce isyan etmiş, bozgunculardan olmuştun\""
+"not_": "Firavun boğulurken \"iman ettim\" dedi; \"Şimdi mi? Oysa daha önce isyan etmiş, bozgunculardan olmuştun\" (â'l-âne): geç imanın kabul edilmediği bu sorudan çıkarılır"
 },
 {
 "blok": "ZY",
@@ -10991,8 +10991,8 @@
 "kayit": 785,
 "ayet": 819,
 "derece": {
-"✓": 725,
-"→": 55,
+"✓": 722,
+"→": 58,
 "?": 5
 }
 }

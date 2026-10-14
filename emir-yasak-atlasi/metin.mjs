@@ -25,6 +25,7 @@ export const konu08 = {
     'Bilinen sınırlar: kıssalardaki dünyevî kurtuluşlar ayrı ödül türüyle işaretlendi ama ahiret ödülüyle karıştırılmadı. Kelime bazlı taramanın kaçırdığı ayet olabilir. Örnekleme tahminine göre ilgili ayetlerin yaklaşık yüzde 3-5\'i taramanın dışında kalmış olabilir.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Düzeltme gerektiren kayıt çıkmadı. Konular arası tutarlılık kontrolünde En\'âm 141 "→" işaretine alındı (ödül adı yok; emir Konu 3 ve 6\'da).',
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Kasas 54\'te ecrin sebebi "bimâ sabarû" olduğu için sabır dışındaki nitelikler, Teğâbün 16\'da felah "nefsin cimriliğinden korunma"ya bağlandığı için diğer nitelikler ve Hadîd 19\'daki iman bağı "→" yapıldı; Nahl 30 hasene olarak düzeltildi.',
+    'Dış denetim 2. tur (14 Ekim 2026): Ayetin cennet adını vermediği Nisâ 31 (mudhalen kerîmâ), Hac 58-59 (mudhalen yerdavneh) ve Rahmân 60 ("ihsanın karşılığı ihsandır") kayıtlarında cennet bağı "→" yapıldı.',
   ],
 };
 export const konu09 = {
@@ -43,6 +44,7 @@ export const konu09 = {
     'Bilinen sınırlar: Kur\'an bazen davranışı hiç adlandırmaz; bu durumda kayıt genel başlıkta ya da "? Açık" derecesiyle durur. Dünyadaki helâk ile âhiret karşılığı ayrı türlerle işaretlendi, ama bir ayet bazen ikisini birden anar. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Tövbe, bağışlanma ve "dilerse" ifadeleri ayrı bir konuya (Konu 10) bırakılmıştır; burada bir davranışa bağlanan karşılık kesin ve genel bir hüküm olarak okunmamalıdır.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Yedi kayıt düzeltildi: Âl-i İmrân 61 (mübâhele daveti, bir karşılık değil) ve Mü\'minûn 74 (zamir bağı) "→ Çıkarım" yapıldı; Ankebût 65, A\'râf 37 ve Fetih 10 "✓ Açık" yapıldı; Zuhruf 76\'nın karşılık ayeti 74 olarak, Mutaffifîn 3\'ün karşılığı 1. ayetteki "veyl" olarak düzeltildi (Siccîn bağı ayrı bir çıkarım kaydı olarak kaldı).',
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Nisâ 37\'nin cimrilik→azap bağı "→" yapıldı.',
+    'Dış denetim 2. tur (14 Ekim 2026): Mü\'minûn 44 (helâk fiili açık değil), Mâide 29 (anlatıdaki kişinin dileği) ve Yûnus 90-91 (geç imanın kabul edilmediği soru kalıbından çıkarılır) "→" yapıldı; Mâûn 7\'nin kayıt adı "el-mâ\'ûn\'u engelleme" olarak düzeltildi.',
   ],
 };
 
@@ -119,6 +121,7 @@ export const konu04 = {
     'Bilinen sınırlar: Kur\'an çoğu zaman ilahlık isnadını, çocuk edinmeyi ve yakarmayı aynı cümlede anar; bu yüzden bazı ayetler birden çok başlıkta sayılabilir ve başlıkların ayet sayıları toplanıp tek toplam gibi okunmamalıdır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı. Kelime ve kalıp bazlı tarama bir ayeti kaçırmış olabilir.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Düzeltme gerektiren kayıt çıkmadı.',
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Aktarılmış buyruklar ("emredildi", "yasaklandım") Tanım türüne alındı; Kehf 110 ve Hac 26 yasak olarak işaretlendi; En\'âm 108 (sövme yasağı) söz edebine ait olduğu için Konu 6\'ya taşındı.',
+    'Dış denetim 2. tur (14 Ekim 2026): Kasas 88\'deki yasak "kulluk" değil "yakarma" (lâ ted\'u) olarak düzeltildi; A\'râf 173 bir amaç cümlesi olduğu için Tanım\'a alındı; Nisâ 116\'nın karşılığı lafza göre "uzak bir sapıklık" oldu; benzetme ya da başka özneye geçiş içeren Ra\'d 33, Hac 31, En\'âm 148 ve En\'âm 39 "→" yapıldı.',
   ],
 };
 
@@ -137,6 +140,7 @@ export const konu05 = {
     'Kapsam dışı bırakılanlar: savaş ve çarpışma hükümleri (kıtâl), savaş ve bozgunculukla ilgili ceza ayeti (Mâide 33), yeme-içme ve evlilikte haram kılınanlar (Konu 7), israf ve cimrilik (Konu 6), hayızda cinsel temas hükmü (itikâfta eşlere yaklaşma yasağı Konu 7\'dedir), Yûsuf kıssasındaki hırsızlık anlatısı ve Hızır kıssasındaki öldürme olayı.',
     'Bilinen sınırlar: Bakara 188, Nisâ 29 gibi ayetlerde "mallarınızı aranızda bâtıl yolla yemeyin" ifadesindeki malın kime ait olduğu (kendi malınız ya da birbirinizin mallarınız) lafızdan kesin ayrılmaz. Nisâ 29\'daki "lâ taktulû enfüsekum" kendinizi ya da birbirinizi öldürmeyin anlamına gelebilir; sayfadaki Yaşar Nuri meali bunu "kendi canlarınıza kıymayın" ve 30. ayette "intihar" diye vermiştir, Arapça lafız bunu tek anlamlı yapmaz. Nisâ 15\'teki "el-fâhişe" lafzı için meal yorumlu bir karşılık kullanır; kayıt Arapça lafza dayanır. Tövbe ve bağışlanma ayrı bir konuya (Konu 10) bırakıldı.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Nisâ 30\'un bağı "→ Çıkarım" yapıldı, Ahzâb 30\'un karşılığı "iki kat azap" olarak düzeltildi, Mâide 63\'te ayette yazmayan karşılık kodu kaldırıldı.',
+    'Dış denetim 2. tur (14 Ekim 2026): Tekvîr 8-9\'da soru kurbana sorulduğu için failin hesaba çekilmesi "→" yapıldı; Nisâ 25\'teki "hür kadın cezasının yarısı" karşılık olarak kodlandı.',
   ],
 };
 
@@ -174,6 +178,7 @@ export const konu07 = {
     'Kapsam dışı bırakılanlar: Mescid-i Harâm, haram aylar ve hac hükümleri (hac ve savaş konuları), cennet halkına ya da kâfirlere "haram kılınan" ahiret nimetleri (A\'râf 50), ribâ ve yetim malı (Konu 5), infakta kötü malı vermeme (Konu 3), müşriklerin "pisliği" gibi mecazî kullanımlar.',
     'Bilinen sınırlar: Bakara 219\'da şarap ve kumar için "büyük günah" denir, doğrudan "haram kıldı" denmez; Mâide 90-91 "uzak durun" buyruğunu ve gerekçesini verir. Nahl 67\'de "sarhoş edici içecek" ile "güzel rızık" birlikte anılır, hüküm yazılmaz. Mâide 5 ve Nisâ 24\'teki bazı şartlar (mehir, iffet, zina etmeme) kayıtta hükmün parçası olarak tutuldu. Peygamber\'e özgü evlilik hükümleri (Ahzâb 50, 52) ayrı işaretlendi. Boşanma ve iddet hükümlerinin tamamı bu sayfada yoktur; yalnız helal, haram ve yasak kalıbıyla yazılanlar alındı.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kasas 12 (Mûsâ\'ya sütannelerin haram kılınması bir hüküm değil, kıssa anlatısıdır) çıkarıldı; Nisâ 25\'in başlığı "kölelikteki kadınlarla evlenme" olarak düzeltildi; Bakara 187\'deki itikâfta eşlere yaklaşma yasağı eklendi.',
+    'Dış denetim 2. tur (14 Ekim 2026): Başlığa uymayan kayıt adları ayetin lafzına göre düzeltildi: Mâide 100 (pis ile temiz bir olmaz, genel hüküm), A\'râf 31 (yiyin için, israf etmeyin), Tâhâ 81 (gazap rızıkta taşkınlığa bağlanır), Nûr 33 (nikâh bulamayanın iffeti).',
   ],
 };
 
@@ -191,6 +196,7 @@ export const konu10 = {
     'İkinci kontrol: hedef listesinde olup kayda girmeyen ayetler tek tek gözden geçirildi; bu geçişte eksik görülen ayetler eklendi. Çoğu kayda girmeyen ayet kıssa anlatısı, dua ya da kuralı söylemeyen bir bağlamdır.',
     'Bilinen sınırlar: Kur\'an\'da "dilerse bağışlar" kalıbı çok yaygındır; bu bölüm yalnız kuralı açıkça söyleyen ayetleri kaydeder. Kelime bazlı tarama bir ayeti kaçırmış olabilir. Belirli bir davranışın bağışlanıp bağışlanmayacağı sorusunun cevabı bu sayfadan çıkarılmamalıdır; ayetin kendi bağlamı esastır.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kapsam dışı iki kayıt çıkarıldı (Bakara 228, Nûr 22), kat kat karşılık bildiren dört kayıt doğru başlığa taşındı (Furkân 69, Ahzâb 30-31, Sebe 37, Sâd 61), Âl-i İmrân 22\'nin davranış ayeti 21 olarak düzeltildi, Nahl 25\'te yanlış karşılık kodu kaldırıldı ve Hûd 90\'daki rahmet "→ Çıkarım" derecesine indirildi (ayet bir vaat değil, Allah\'ın bir niteliğini bildirir).',
+    'Dış denetim 2. tur (14 Ekim 2026): Sâd 34-35\'te mağfiret istenir ama verildiği yazılı değil, Nisâ 16\'da doğrudan sonuç eziyetten vazgeçmektir: ikisi "→" yapıldı. En\'âm 160 ve Yûnus 27\'de "misliyle karşılık" kodlandı.',
   ],
 };
 
@@ -223,5 +229,6 @@ export const konu12 = {
     'İkinci kontrol: her kayıtta başlığın Arapça kökü ayette mekanik olarak arandı. Bulunamayan beş kayıt elle okunarak doğrulandı (fevâhiş, hâtiîn ve bâğ biçimleri bu aramanın kök listesine girmemişti); Bakara 27\'deki fâsık tanımı bir önceki ayetteki "fâsıkîn" kelimesine bağlıdır. Hedef listesinde olup kayda girmeyen ayetler gözden geçirildi; dua ve kıssa anlatıları dışında kalan eksikler eklendi.',
     'Bilinen sınırlar: Zulüm, "seyyie" (kötülük), "cürm" ve "vizr" bu bölümde ayrıca taranmadı. Meal "fâsık" yerine bazen "sapık", "fâhişe" yerine "çirkin iş" ya da "iğrençlik" der; kayıtlar Arapça kelimeye göre tutuldu. Birçok "günahlarımı bağışla" duası kayda alınmadı; yalnız bağışlanma ve karşılık bildiren ayetler alındı. Kelime bazlı tarama bir ayeti kaçırmış olabilir.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle ve Arapça kelimeyle tek tek yeniden okundu. Yedi kayıtta not, tür ya da karşılık ayeti düzeltildi (ör. A\'râf 163\'te ayet azap değil imtihan der; Zuhruf 54 ve Hâkka 9\'un karşılığı sonraki ayettedir).',
+    'Dış denetim 2. tur (14 Ekim 2026): Ayetteki karşılığı atlanmış on kayıt kodlandı (ör. Tevbe 96 Allah\'ın razı olmaması, Haşr 5 rezil etme, En\'âm 146 haram kılma, Furkân 68 esâm, Duhân 44 zakkum); Mü\'min 55, Muhammed 19 ve Yûsuf 29, 97\'de bağışlanma yalnız istendiği için mağfiret kodu kaldırıldı.',
   ],
 };

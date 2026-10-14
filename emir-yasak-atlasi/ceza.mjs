@@ -73,7 +73,7 @@ const L = [
   ['yok', 'Bu ayette karşılık belirtilmez', 'husran'],
   ['azap_en_elim', 'En acı azap', 'azap'], ['buyuk_zulum', 'Büyük zulüm sayılma', 'husran'], ['en_serli_yaratik', 'Yaratıkların en şerlisi', 'azap'],
   ['hesaba_cekilme', 'Hesaba çekilme', 'azap'], ['kahretme', 'Kahrolma', 'gazab'], ['korku_salma', 'Kalplere korku salınması', 'ruhsal'],
-  ['kotu_son', 'Kötü son', 'dunya'], ['musrik_sayilma', 'Müşrik sayılma', 'husran'], ['sapiklik_donussuz', 'Dönüşü olmayan sapıklık', 'ruhsal'],
+  ['kotu_son', 'Kötü son', 'dunya'], ['musrik_sayilma', 'Müşrik sayılma', 'husran'], ['sapiklik_donussuz', 'Uzak bir sapıklık (dalâl-i baîd)', 'ruhsal'],
   ['yalniz_horlanmis', 'Yalnız bırakılıp horlanma', 'husran'],
   // Konu 6
   ['dusmanlik_salma', 'Aralarına düşmanlık ve nefret salınması', 'ruhsal'],
@@ -82,6 +82,8 @@ const L = [
   // Dış denetim (14 Ekim 2026) ile eklenen, lafza daha yakın kodlar
   ['infak_kabul_edilmez', 'İnfakın kabul edilmemesi', 'husran'], ['kotuluk_cemberi', 'Kötülük çemberi üzerlerine', 'dunya'],
   ['nar_lanet_azap', 'Cehennem ateşi, lanet ve kalıcı azap', 'nar'],
+  ['misli_ceza', 'Kötülüğün misliyle karşılık', 'azap'], ['razi_olmama', 'Allah\'ın razı olmaması', 'gazab'], ['esam', 'Esâm\'a (günahın cezasına) uğrama', 'azap'],
+  ['yarim_ceza', 'Hür kadın cezasının yarısı', 'dunya'], ['kotu_akibet', 'Yalanlayanların akıbeti ("sonlarına bakın")', 'dunya'],
 ];
 export const cezaAdi = Object.fromEntries(L.map(([k, a]) => [k, a]));
 export const cezaTur = Object.fromEntries(L.map(([k, , t]) => [k, t]));

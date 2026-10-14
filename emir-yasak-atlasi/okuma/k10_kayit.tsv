@@ -11,7 +11,7 @@ K10a	tevbe_olmaz	3:90	3:90	-	✓	"İmanlarından sonra küfre sapıp küfürde d
 K10a	zulum_yok	3:108	3:108	-	✓	"Allah âlemlere zulüm istemiyor"	tanim
 K10b	zulum_yok	3:161	3:161	tam_karsilik	✓	"Her benliğe kazandığı tam verilir; hiçbir zulme uğratılmazlar"	sonuc
 K10b	derece	3:163	3:163	derece	✓	"Onlar Allah katında derece derecedirler"	tanim
-K10b	tevbe_sart	4:16	4:16	magfiret	✓	"Tövbe edip durumlarını düzeltirlerse eziyetten vazgeçin; Allah Tevvâb'dır, Rahîm'dir"	sonuc
+K10b	tevbe_sart	4:16	4:16	magfiret	→	"Tövbe edip durumlarını düzeltirlerse onlardan vazgeçin; Allah Tevvâb'dır, Rahîm'dir": doğrudan sonuç eziyetten vazgeçmektir, mağfiret Allah'ın sıfatından çıkarılır	sonuc
 K10b	tevbe_kabul	4:17	4:17	kabul	✓	"Allah'ın kabulünü üstlendiği tövbe, bilgisizlikle kötülük işleyip çok geçmeden tövbe edenler içindir"	tanim
 K10b	tevbe_olmaz	4:18	4:18	azap_korkunc	✓	"Kötülükleri yapıp ölüm gelince 'şimdi tövbe ettim' diyenler ile küfre batmış olarak ölenler için tövbe yoktur; korkunç azap"	sonuc
 K10b	tevbe_kabul	4:27	4:27	kabul	✓	"Allah sizin tövbenizi kabul etmek istiyor"	tanim
@@ -36,7 +36,7 @@ K10c	tevbe_sart	6:54	6:54	magfiret	✓	"Bilgisizlikle kötülük işleyip tövbe
 K10c	derece	6:83	6:83	derece	✓	"Dilediklerimizi derece derece yükseltiriz"	tanim
 K10c	amel_bosa	6:88	6:88	amel_bosa	✓	"Eğer onlar şirke bulaşsalardı yapıp ettikleri kendilerine yararsız hale gelirdi"	sonuc
 K10c	derece	6:132	6:132	derece	✓	"Her birinin yapıp ettiklerinden kaynaklanan dereceleri vardır"	tanim
-K10c	misli	6:160	6:160	-	✓	"Kim güzellikle gelirse getirdiğinin on katı var; kötülükle gelene yaptığının kadarından fazla ceza verilmez"	tanim
+K10c	misli	6:160	6:160	misli_ceza	✓	"Kim güzellikle gelirse getirdiğinin on katı var; kötülükle gelene yaptığının kadarından fazla ceza verilmez"	tanim
 K10c	zulum_yok	6:160	6:160	-	✓	"Onlar haksızlığa uğratılmayacaklardır"	tanim
 K10c	sorumluluk	6:164	6:164	-	✓	"Her benliğin kazandığı kendi üstünde kalır; hiçbir günahkâr bir başkasının yükünü taşımaz"	tanim
 K10c	derece	6:165	6:165	-	✓	"Nimetlerle sizi denemek için kiminizi kiminiz üzerine derecelerle yükseltmiştir"	tanim
@@ -56,7 +56,7 @@ K10d	tevbe_sart	9:112	9:112	-	✓	"Müjdelenen müminler: tövbe edenler, ibadet
 K10d	tevbe_kabul	9:117	9:117	kabul	✓	"Allah Peygamber'e ve ona uyan Muhacirlerle Ensar'a tövbe nasip etmiş, tövbelerini kabul buyurmuştur"	tanim
 K10d	tevbe_kabul	9:118	9:118	kabul	✓	"Geride bırakılan üç kişinin de tövbesini kabul etmiştir"	tanim
 K10d	tevbe_olmaz	9:126	9:126	-	✓	"Her yıl imtihan edilirler; hâlâ ne tövbeye yelteniyorlar ne öğüt alıyorlar"	tanim
-K10d	misli	10:27	10:27	-	✓	"Kötülük kazananlara kötülüğün miktarınca karşılık vardır"	tanim
+K10d	misli	10:27	10:27	misli_ceza	✓	"Kötülük kazananlara kötülüğün miktarınca karşılık vardır"	tanim
 K10d	zulum_yok	10:44	10:44	-	✓	"Allah insanlara hiçbir şekilde zulmetmez; insanlar öz benliklerine zulmediyorlar"	tanim
 K10d	zulum_yok	10:47	10:47	-	✓	"Aralarında adaletle hüküm verilir, hiçbir zulme uğratılmazlar"	sonuc
 K10d	zulum_yok	10:54	10:54	-	✓	"Aralarında adaletle hükmedilmiştir; asla zulme uğratılmazlar"	sonuc
@@ -105,7 +105,7 @@ K10g	esitsizlik	35:12	35:12	-	✓	"İki deniz birbirine eşit olmaz"	tanim
 K10g	sorumluluk	35:18	35:18	-	✓	"Hiçbir günahkâr başkasının günahını yüklenmez; akraba bile olsa"	tanim
 K10g	esitsizlik	35:19	35:22	-	✓	"Körle gören, karanlıkla ışık, gölgeyle sıcaklık, diriyle ölü bir olmaz"	tanim
 K10g	zulum_yok	36:54	36:54	-	✓	"O gün hiçbir canlıya haksızlık edilmez; yalnız yaptığınızın karşılığıyla cezalandırılırsınız"	tanim
-K10g	tevbe_kabul	38:34	38:35	magfiret	✓	"Süleyman tövbe ile Allah'a yöneldi: Rabbim affet beni"	tanim
+K10g	tevbe_kabul	38:34	38:35	magfiret	→	"Süleyman yöneldi (enâbe): Rabbim, beni bağışla" (38:35): bağışlanma istenir, verildiği bu ayetlerde yazılı değil	tanim
 K10g	kat_kat	38:61	38:61	-	✓	"Ateş ehli dua eder: Bunu önümüze çıkaranın ateşteki azabını bir kat daha artır"	tanim
 K10g	sorumluluk	39:7	39:7	-	✓	"Allah kulları için nankörlüğe razı olmaz; hiçbir günahkâr başkasının günahını yüklenmez"	tanim
 K10g	esitsizlik	39:9	39:9	-	✓	"Bilenlerle bilmeyenler eşit olur mu?"	tanim
