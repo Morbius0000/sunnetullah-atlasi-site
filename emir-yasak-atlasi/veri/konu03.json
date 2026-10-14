@@ -92,7 +92,7 @@
 "blok": "K3a",
 "nitelik_ayet": "2:265",
 "odul_ayet": "2:265",
-"odul": "artirma",
+"odul": "kat_kat",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "infak",
@@ -231,7 +231,7 @@
 {
 "blok": "K3f",
 "nitelik_ayet": "9:53",
-"odul_ayet": "9:54",
+"odul_ayet": "9:53",
 "odul": "infak_kabul_edilmez",
 "derece": "✓",
 "tur": "sonuc",
@@ -410,6 +410,16 @@
 },
 {
 "blok": "K3e",
+"nitelik_ayet": "57:10",
+"odul_ayet": "57:10",
+"odul": "husna",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "infak",
+"not_": "\"Allah hepsine en güzeli (el-husnâ) vaat etti\" (ve küllen vaada'llâhu'l-husnâ)"
+},
+{
+"blok": "K3e",
 "nitelik_ayet": "63:7",
 "odul_ayet": "63:7",
 "odul": "yok",
@@ -548,6 +558,16 @@
 },
 {
 "blok": "K3c",
+"nitelik_ayet": "9:79",
+"odul_ayet": "9:79",
+"odul": "azap_elim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sadaka",
+"not_": "\"Onlar için acıklı bir azap da vardır\""
+},
+{
+"blok": "K3c",
 "nitelik_ayet": "9:103",
 "odul_ayet": "9:103",
 "odul": "arinma",
@@ -635,6 +655,16 @@
 "not_": "İsrailoğullarından alınan söz: \"Namazı kılar, zekâtı verir, resullerime inanır, onları destekler ve Allah'a güzel bir borç verirseniz kötülüklerinizi örteceğim ve sizi cennetlere sokacağım\" (şart birleşiktir)"
 },
 {
+"blok": "K3b",
+"nitelik_ayet": "5:12",
+"odul_ayet": "5:12",
+"odul": "gunah_ortme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "karz",
+"not_": "\"Kötülüklerinizi örteceğim\" (le-ükeffiranne anküm seyyiâtiküm)"
+},
+{
 "blok": "K3e",
 "nitelik_ayet": "57:11",
 "odul_ayet": "57:11",
@@ -663,6 +693,16 @@
 "tur": "sonuc",
 "ham": "karz",
 "not_": "\"Allah'a gönül hoşluğuyla borç verirseniz katlayarak artırır ve hatalarınızı bağışlar\""
+},
+{
+"blok": "K3e",
+"nitelik_ayet": "64:17",
+"odul_ayet": "64:17",
+"odul": "magfiret",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "karz",
+"not_": "\"Sizi bağışlar\" (ve yağfir leküm)"
 },
 {
 "blok": "K3e",
@@ -698,7 +738,7 @@
 "odul_ayet": "2:83",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "zekat",
 "not_": "\"İsrailoğullarından söz: namazı kılın, zekâtı verin\""
 },
@@ -771,6 +811,16 @@
 "tur": "sonuc",
 "ham": "zekat",
 "not_": "İsrailoğullarından alınan söz: \"Namazı kılar, zekâtı verir, resullerime inanır, onları destekler ve Allah'a güzel bir borç verirseniz kötülüklerinizi örteceğim ve sizi cennetlere sokacağım\" (şart birleşiktir)"
+},
+{
+"blok": "K3b",
+"nitelik_ayet": "5:12",
+"odul_ayet": "5:12",
+"odul": "gunah_ortme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zekat",
+"not_": "\"Kötülüklerinizi örteceğim\" (le-ükeffiranne anküm seyyiâtiküm)"
 },
 {
 "blok": "K3b",
@@ -955,12 +1005,12 @@
 {
 "blok": "K3e",
 "nitelik_ayet": "41:7",
-"odul_ayet": "41:7",
-"odul": "yok",
+"odul_ayet": "41:6",
+"odul": "vay",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "zekat",
-"not_": "\"Onlar zekâtı vermezler; ölüm sonrası hayatı inkâr edenler de onlardır\""
+"not_": "\"Vay haline o müşriklerin ki zekâtı vermezler\" (41:6-7: ellezîne lâ yu'tûne'z-zekât, 41:6'daki müşrikleri niteler)"
 },
 {
 "blok": "K3e",
@@ -1054,21 +1104,21 @@
 "blok": "K3e",
 "nitelik_ayet": "47:38",
 "odul_ayet": "47:38",
-"odul": "yok",
+"odul": "kendi_aleyhine",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "cimrilik",
-"not_": "\"Allah yolunda harcamaya çağırılırsınız; cimrilik eden kendi aleyhine cimrileşmiş olur\""
+"not_": "\"Kim cimrilik ederse ancak kendi aleyhine cimrilik etmiş olur\" (fe-innemâ yebhalü an nefsihî)"
 },
 {
 "blok": "K3e",
 "nitelik_ayet": "57:24",
-"odul_ayet": "57:24",
-"odul": "yok",
-"derece": "✓",
-"tur": "tanim",
+"odul_ayet": "57:23",
+"odul": "sevilmeme",
+"derece": "→",
+"tur": "sonuc",
 "ham": "cimrilik",
-"not_": "\"Cimrilik eden, insanlara da cimriliği emreden kişiler; yüz çeviren bilsin ki Allah Ganî, Hamîd'dir\""
+"not_": "\"Cimrilik eden ve insanlara cimriliği emredenler\" (57:24); \"Allah kendini beğenip övünenlerin hiçbirini sevmez\" (57:23): 57:24 bu sınıfa bedel olarak bağlanabilir, bağ çıkarımsaldır"
 },
 {
 "blok": "K3e",
@@ -1093,12 +1143,12 @@
 {
 "blok": "K3e",
 "nitelik_ayet": "92:8",
-"odul_ayet": "92:8",
-"odul": "yok",
+"odul_ayet": "92:10",
+"odul": "usraya_kolaylastirma",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "cimrilik",
-"not_": "\"Kim cimriliğe sapar ve kendisini ihtiyaçların üstünde görür, güzelliği yalanlarsa (en zoru kolaylayacağız)\""
+"not_": "\"Kim cimrilik eder ve kendini muhtaç görmezse, en güzeli yalanlarsa\" (92:8-9); \"onu en zora (el-usrâ) kolaylaştıracağız\" (92:10)"
 }
 ]
 },
@@ -1111,12 +1161,22 @@
 {
 "blok": "K3c",
 "nitelik_ayet": "9:34",
-"odul_ayet": "9:35",
-"odul": "cehennem_azabi",
+"odul_ayet": "9:34",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kenz",
-"not_": "\"Altını ve gümüşü depolayıp Allah yolunda harcamayanlara acıklı azap; cehennem ateşinde alınları, böğürleri, sırtları dağlanır\""
+"not_": "\"Altını ve gümüşü biriktirip Allah yolunda harcamayanlara acıklı bir azabı müjdele\" (9:34)"
+},
+{
+"blok": "K3c",
+"nitelik_ayet": "9:34",
+"odul_ayet": "9:35",
+"odul": "nar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kenz",
+"not_": "\"Cehennem ateşinde onlar kızdırılır, alınları, böğürleri ve sırtları dağlanır\" (9:35)"
 }
 ]
 }
@@ -1462,6 +1522,10 @@
 "ar": "وَإِذَا قِيلَ لَهُمْ أَنفِقُوا۟ مِمَّا رَزَقَكُمُ ٱللَّهُ قَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوٓا۟ أَنُطْعِمُ مَن لَّوْ يَشَآءُ ٱللَّهُ أَطْعَمَهُۥٓ إِنْ أَنتُمْ إِلَّا فِى ضَلَـٰلٍ مُّبِينٍ",
 "tr": "Onlara, \"Allah'ın size lütfettiği rızıklardan dağıtın!\" dendiğinden, nankörlüğe sapanlar, iman edenlere şöyle derler: \"Allah'ın, dilediği takdirde yedirip doyuracağı kişiyi biz mi doyuracağız? Siz açık bir sapıklık içindesiniz, hepsi bu.\""
 },
+"41:6": {
+"ar": "قُلْ إِنَّمَآ أَنَا۠ بَشَرٌ مِّثْلُكُمْ يُوحَىٰٓ إِلَىَّ أَنَّمَآ إِلَـٰهُكُمْ إِلَـٰهٌ وَٰحِدٌ فَٱسْتَقِيمُوٓا۟ إِلَيْهِ وَٱسْتَغْفِرُوهُ ۗ وَوَيْلٌ لِّلْمُشْرِكِينَ",
+"tr": "De ki: \"Ben sadece sizin gibi bir insanım. İlahınızın bir tek ilah olduğu bana vahyediliyor. O halde şaşıp sendelemeden O'na yönelin ve O'ndan af dileyin. Vay haline ortak koşanların!"
+},
 "41:7": {
 "ar": "ٱلَّذِينَ لَا يُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ كَـٰفِرُونَ",
 "tr": "Onlar zekâtı vermezler. Ölüm sonrası hayatı inkâr edenler de onlardır."
@@ -1489,6 +1553,10 @@
 "57:18": {
 "ar": "إِنَّ ٱلْمُصَّدِّقِينَ وَٱلْمُصَّدِّقَـٰتِ وَأَقْرَضُوا۟ ٱللَّهَ قَرْضًا حَسَنًا يُضَـٰعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ",
 "tr": "Şu bir gerçek: Sadaka veren erkeklerle sadaka veren kadınlar, bir de Allah'a güzelce borç verenler için karşılıklar kat kat yapılır. Onlar için, onur verici bir ödül de vardır."
+},
+"57:23": {
+"ar": "لِّكَيْلَا تَأْسَوْا۟ عَلَىٰ مَا فَاتَكُمْ وَلَا تَفْرَحُوا۟ بِمَآ ءَاتَىٰكُمْ ۗ وَٱللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
+"tr": "Böyle yapılmıştır ki, elinizden çıkana üzülüp ümitsizliğe düşmeyesiniz ve Allah'ın size verdiğiyle sevinip şımarmayasınız. Çünkü Allah, kendini beğenip övünenlerin hiçbirini sevmez."
 },
 "57:24": {
 "ar": "ٱلَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ ٱلنَّاسَ بِٱلْبُخْلِ ۗ وَمَن يَتَوَلَّ فَإِنَّ ٱللَّهَ هُوَ ٱلْغَنِىُّ ٱلْحَمِيدُ",
@@ -1534,24 +1602,28 @@
 "ar": "وَأَمَّا مَنۢ بَخِلَ وَٱسْتَغْنَىٰ",
 "tr": "Ama kim cimriliğe sapar ve kendisini tüm ihtiyaçların üstünde görür,"
 },
+"92:10": {
+"ar": "فَسَنُيَسِّرُهُۥ لِلْعُسْرَىٰ",
+"tr": "Biz onu, en zor olana sevk edeceğiz."
+},
 "98:5": {
 "ar": "وَمَآ أُمِرُوٓا۟ إِلَّا لِيَعْبُدُوا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ حُنَفَآءَ وَيُقِيمُوا۟ ٱلصَّلَوٰةَ وَيُؤْتُوا۟ ٱلزَّكَوٰةَ ۚ وَذَٰلِكَ دِينُ ٱلْقَيِّمَةِ",
 "tr": "Oysa ki onlara, dini yalnız O'na özgüleyerek, dosdoğru yürüyen kişiler halinde sadece Allah'a ibadet etmeleri, namazı kılmaları, zekâtı vermeleri emredilmişti. İşte budur doğru, eskimez ve aşınmaz din."
 }
 },
 "istatistik": {
-"kayit": 107,
-"ayet": 104,
+"kayit": 113,
+"ayet": 107,
 "derece": {
-"✓": 97,
-"→": 10,
+"✓": 102,
+"→": 11,
 "?": 0
 },
 "tur": {
-"emir": 21,
+"emir": 20,
 "yasak": 2,
-"sonuc": 52,
-"tanim": 32
+"sonuc": 62,
+"tanim": 29
 }
 }
 }

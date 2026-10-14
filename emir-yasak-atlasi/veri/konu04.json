@@ -32,8 +32,8 @@
 "blok": "K4c",
 "nitelik_ayet": "7:59",
 "odul_ayet": "7:59",
-"odul": "azap_buyuk",
-"derece": "✓",
+"odul": "azap_buyuk_gun",
+"derece": "→",
 "tur": "emir",
 "ham": "kulluk_emri_nuh",
 "not_": "Nûh: \"Allah'a kulluk edin, sizin O'ndan başka ilahınız yok; sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum\" (uyarı)"
@@ -134,7 +134,7 @@
 "id": "ortak_kosma_yasagi",
 "grup": "Yasaklar",
 "etiket": "Allah'a ortak koşma, O'ndan başkasına kulluk etme ve yakarma yasağı",
-"ayet_sayisi": 22,
+"ayet_sayisi": 21,
 "kayitlar": [
 {
 "blok": "K4c",
@@ -145,16 +145,6 @@
 "tur": "yasak",
 "ham": "allaha_ortak_kosma_yasagi",
 "not_": "\"Artık bilip durduğunuz halde Allah'a ortaklar koşmayın\""
-},
-{
-"blok": "K4c",
-"nitelik_ayet": "2:83",
-"odul_ayet": "2:83",
-"odul": "yok",
-"derece": "✓",
-"tur": "yasak",
-"ham": "allahtan_baskasina_ibadet_yasagi",
-"not_": "İsrailoğullarından alınan söz: \"Allah'tan başkasına ibadet etmeyin\""
 },
 {
 "blok": "K4a",
@@ -221,10 +211,10 @@
 "nitelik_ayet": "11:26",
 "odul_ayet": "11:26",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "tur": "yasak",
 "ham": "allahtan_baskasina_kulluk_yasagi_nuh",
-"not_": "Nûh: \"Allah'tan başkasına kulluk etmeyin. Korkunç bir günün azabına uğramanızdan korkuyorum\""
+"not_": "Nûh: \"Allah'tan başkasına kulluk etmeyin. Sizin için acıklı bir günün azabından korkuyorum\" (azâbe yevmin elîm; uyarı)"
 },
 {
 "blok": "K4c",
@@ -510,8 +500,18 @@
 "id": "sirk",
 "grup": "Şirkin biçimleri ve sonuçları",
 "etiket": "Şirk: ortaklar koşmak, Allah'ın dışında kulluk ve sefaat umudu, sonuçları",
-"ayet_sayisi": 61,
+"ayet_sayisi": 62,
 "kayitlar": [
+{
+"blok": "K4c",
+"nitelik_ayet": "2:83",
+"odul_ayet": "2:83",
+"odul": "yok",
+"derece": "✓",
+"tur": "tanim",
+"ham": "allahtan_baskasina_ibadet_yasagi",
+"not_": "İsrailoğullarından alınan söz: \"Allah'tan başkasına ibadet etmeyin\""
+},
 {
 "blok": "K4d",
 "nitelik_ayet": "2:135",
@@ -580,7 +580,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "allaha_kulluktan_cekinip_kibre_saplanma",
-"not_": "\"Allah'a kulluk ve ibadetten çekinerek kibre saplanan ... kulluktan çekinip büyüklük taslayanlara korkunç bir azapla azap edecektir\""
+"not_": "\"Kulluktan çekinip büyüklük taslayanlara acıklı bir azapla azap edecektir\" (4:173)"
 },
 {
 "blok": "K4d",
@@ -608,7 +608,7 @@
 "odul_ayet": "6:23",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "sirk_inkari_kiyamette",
 "not_": "Kıyamette bahaneleri: \"Rabbimiz Allah'a yemin olsun ki, biz ortak koşanlar değildik\""
 },
@@ -890,7 +890,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "sirk_ortaklar",
-"not_": "\"ortaklarımı çağırın dedi; çağırdılar, onlar cevap vermedi; aralarına yıkıcı bir düşmanlık koyduk\""
+"not_": "\"Ortaklarım dediklerinizi çağırın\" dedi; çağırdılar, onlara cevap vermediler; aralarına bir helak yeri (mevbik) koyduk"
 },
 {
 "blok": "B077",
@@ -1016,11 +1016,11 @@
 "blok": "K4d",
 "nitelik_ayet": "35:14",
 "odul_ayet": "35:14",
-"odul": "yok",
+"odul": "yardimsizlik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kiyamette_ortaklar_inkar_eder",
-"not_": "\"Kıyamet günü de sizin onları ortak koştuğunuzu inkâr ederler\""
+"not_": "\"Kıyamet günü sizin onları ortak koşmanızı inkâr ederler\" (yekfurûne bi-şirkiküm)"
 },
 {
 "blok": "K4c",
@@ -1156,6 +1156,16 @@
 "blok": "B122",
 "nitelik_ayet": "48:6",
 "odul_ayet": "48:6",
+"odul": "kotuluk_cemberi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allah_hakkinda_kotu_sani_putperestlik",
+"not_": "\"Kötülük çemberi onların üzerinedir\" (aleyhim dâiratü's-sev')"
+},
+{
+"blok": "B122",
+"nitelik_ayet": "48:6",
+"odul_ayet": "48:6",
 "odul": "lanet",
 "derece": "✓",
 "tur": "sonuc",
@@ -1278,7 +1288,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ucun_ucuncusu_deme",
-"not_": "\"Allah üçün üçüncüsüdür diyenler küfre batmıştır ... son vermezlerse küfre sapanlarına korkunç azap gelecek\""
+"not_": "\"Allah üçün üçüncüsüdür diyenler küfre batmıştır ... son vermezlerse küfre sapanlarına acıklı bir azap dokunacak\""
 },
 {
 "blok": "B017",
@@ -1356,7 +1366,7 @@
 "odul_ayet": "18:5",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "allah_cocuk_edindi_diyenleri_uyarma",
 "not_": "\"'Allah bir çocuk edindi' diyenleri uyarsın diye indirdi\"; 18:5 \"Söz olarak ne büyüktür ağızlarından çıkıveren! Onlar bir yalandan başka şey söylemiyorlar\""
 },
@@ -1366,7 +1376,7 @@
 "odul_ayet": "19:89",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "rahman_cocuk_edindi_deme",
 "not_": "\"Rahman çocuk edindi.\" dediler. \"Yemin olsun ki siz, çok çirkin bir iddiada bulundunuz\""
 },
@@ -1483,7 +1493,7 @@
 "nitelik_ayet": "19:44",
 "odul_ayet": "19:45",
 "odul": "azap",
-"derece": "✓",
+"derece": "→",
 "tur": "yasak",
 "ham": "seytana_kulluk_yasagi",
 "not_": "İbrahim: \"Babacığım, şeytana kulluk etme!\"; 19:45 \"Rahman'dan bir azap dokunmasından korkuyorum\""
@@ -1494,7 +1504,7 @@
 "odul_ayet": "36:63",
 "odul": "cehennem",
 "derece": "✓",
-"tur": "yasak",
+"tur": "sonuc",
 "ham": "seytana_kulluk_yasagi",
 "not_": "\"Şeytana kulluk etmeyin demedim mi? Bana ibadet edin demedim mi?\" (36:60-61); 36:63 \"Alın size, tehdit edildiğiniz cehennem!\""
 }
@@ -1589,7 +1599,7 @@
 "nitelik_ayet": "40:12",
 "odul_ayet": "40:12",
 "odul": "ikinci_firsat_yok",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "allah_yalniz_cagrilinca_inkar_ortak_kosulunca_iman",
 "not_": "\"Allah'a, yalnız O'na çağrıldığınızda inkâr etmiştiniz; O'na ortak koşulduğunda iman ediyordunuz\": çıkış yolu sorusuna (40:11) cevap"
@@ -1636,7 +1646,7 @@
 "blok": "B005",
 "nitelik_ayet": "5:10",
 "odul_ayet": "5:10",
-"odul": "cehennem",
+"odul": "cahim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama",
@@ -1646,7 +1656,7 @@
 "blok": "B008",
 "nitelik_ayet": "5:86",
 "odul_ayet": "5:86",
-"odul": "cehennem",
+"odul": "cahim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama",
@@ -1696,7 +1706,7 @@
 "blok": "K4d",
 "nitelik_ayet": "6:93",
 "odul_ayet": "6:93",
-"odul": "azap_muhin",
+"odul": "zillet_azabi",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetlere_karsi_buyukluk_allaha_gercek_disi",
@@ -1706,11 +1716,11 @@
 "blok": "B023",
 "nitelik_ayet": "6:157",
 "odul_ayet": "6:157",
-"odul": "azap_en_elim",
+"odul": "azap_kotu",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama_yuz_cevirme",
-"not_": "\"ayetlerine sırt dönenleri azabın en acıklısıyla cezalandıracağız\""
+"not_": "\"Ayetlerimizden yüz çevirenleri, yüz çevirmeleri yüzünden azabın kötüsüyle (sû'e'l-azâb) cezalandıracağız\""
 },
 {
 "blok": "B024",
@@ -1783,6 +1793,16 @@
 "not_": "\"ayetlerimizi yalanladıkları, onlara aldırmazlık ettikleri için hepsini suda bozduk\""
 },
 {
+"blok": "B027",
+"nitelik_ayet": "7:136",
+"odul_ayet": "7:136",
+"odul": "intikam",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ayetleri_yalanlama_aldirmazlik",
+"not_": "\"Onlardan intikam aldık\" (fe'ntekamnâ minhüm)"
+},
+{
 "blok": "B028",
 "nitelik_ayet": "7:146",
 "odul_ayet": "7:146",
@@ -1808,7 +1828,7 @@
 "odul_ayet": "7:177",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "ayetleri_yalanlayan_toplum_ornegi",
 "not_": "\"Ayetlerimizi yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Onlar öz benliklerine zulmediyorlardı\""
 },
@@ -1886,11 +1906,11 @@
 "blok": "K4d",
 "nitelik_ayet": "19:77",
 "odul_ayet": "19:79",
-"odul": "azap_artisi",
+"odul": "azap_uzatma",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetleri_inkar_edip_mal_evlat_iddiasi",
-"not_": "\"Ayetlerimizi inkâr edip 'Bana mal da evlat da verilecek' diyen ... biz onun söylediğini yazacağız ve azabı uzattıkça uzatacağız\""
+"not_": "\"Ayetlerimizi inkâr edip 'Bana mal da evlat da verilecek' diyen ... söylediğini yazacağız ve azabı ona uzattıkça uzatacağız\" (nemüddü lehû mine'l-azâbi meddâ)"
 },
 {
 "blok": "K4d",
@@ -1996,7 +2016,7 @@
 "blok": "K4d",
 "nitelik_ayet": "34:38",
 "odul_ayet": "34:38",
-"odul": "azap",
+"odul": "azap_hazir",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetleri_hukumsuz_birakma",
@@ -2007,7 +2027,7 @@
 "nitelik_ayet": "39:59",
 "odul_ayet": "39:60",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama_kibir",
 "not_": "\"Ayetlerim sana geldi, hemen yalanladın, büyüklük tasladın\"; 39:60 \"Kibirliler için cehennemde bir barınak mı yok!\""
@@ -2056,7 +2076,7 @@
 "blok": "B126",
 "nitelik_ayet": "57:19",
 "odul_ayet": "57:19",
-"odul": "cehennem",
+"odul": "cahim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama",
@@ -2958,18 +2978,18 @@
 }
 },
 "istatistik": {
-"kayit": 204,
+"kayit": 206,
 "ayet": 215,
 "derece": {
-"✓": 187,
-"→": 17,
+"✓": 184,
+"→": 22,
 "?": 0
 },
 "tur": {
 "emir": 14,
-"yasak": 36,
-"sonuc": 106,
-"tanim": 48
+"yasak": 34,
+"sonuc": 105,
+"tanim": 53
 }
 }
 }

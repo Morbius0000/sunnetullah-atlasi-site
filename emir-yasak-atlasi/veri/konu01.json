@@ -34,7 +34,7 @@
 "odul_ayet": "2:83",
 "odul": "yok",
 "derece": "✓",
-"tur": "yasak",
+"tur": "tanim",
 "ham": "kulluk",
 "not_": "İsrailoğullarından alınan söz: \"Allah'tan başkasına ibadet etmeyin\""
 },
@@ -90,6 +90,26 @@
 },
 {
 "blok": "K1l",
+"nitelik_ayet": "5:72",
+"odul_ayet": "5:72",
+"odul": "cennet_haram",
+"derece": "→",
+"tur": "sonuc",
+"ham": "kulluk",
+"not_": "Mesih'in uyarısı: \"Kim Allah'a ortak koşarsa Allah ona cenneti haram kılmıştır\"; karşılık şirke bağlanır, kulluk emriyle bağı bağlamdan"
+},
+{
+"blok": "K1l",
+"nitelik_ayet": "5:72",
+"odul_ayet": "5:72",
+"odul": "nar",
+"derece": "→",
+"tur": "sonuc",
+"ham": "kulluk",
+"not_": "\"Varacağı yer ateştir\" (ve me'vâhü'n-nâr)"
+},
+{
+"blok": "K1l",
 "nitelik_ayet": "5:117",
 "odul_ayet": "5:117",
 "odul": "yok",
@@ -133,7 +153,7 @@
 "nitelik_ayet": "7:59",
 "odul_ayet": "7:59",
 "odul": "azap_azim",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kulluk",
 "not_": "\"Sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum\" (Nûh'un uyarısı)"
@@ -204,7 +224,7 @@
 "odul_ayet": "11:2",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "yasak",
 "ham": "kulluk",
 "not_": "\"Yalnız Allah'a ibadet edesiniz\""
 },
@@ -223,7 +243,7 @@
 "nitelik_ayet": "11:26",
 "odul_ayet": "11:26",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kulluk",
 "not_": "\"Sizin için acıklı bir günün azabından korkuyorum\" (Nûh'un uyarısı)"
@@ -263,7 +283,7 @@
 "nitelik_ayet": "11:84",
 "odul_ayet": "11:84",
 "odul": "azap_kusatan",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kulluk",
 "not_": "\"Sizin için kuşatıcı bir günün azabından korkuyorum\" (Şuayb'ın uyarısı)"
@@ -483,7 +503,7 @@
 "nitelik_ayet": "36:22",
 "odul_ayet": "36:22",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "tanim",
 "ham": "kulluk",
 "not_": "\"Beni yaratana ne diye kulluk etmeyecekmişim ben?\""
@@ -494,7 +514,7 @@
 "odul_ayet": "36:60",
 "odul": "yok",
 "derece": "✓",
-"tur": "yasak",
+"tur": "tanim",
 "ham": "kulluk",
 "not_": "\"Şeytana kulluk etmeyin, o sizin için açık bir düşmandır\""
 },
@@ -504,7 +524,7 @@
 "odul_ayet": "36:61",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "kulluk",
 "not_": "\"Bana ibadet edin, dosdoğru yol budur\""
 },
@@ -603,7 +623,7 @@
 "nitelik_ayet": "46:21",
 "odul_ayet": "46:21",
 "odul": "azap_azim",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kulluk",
 "not_": "\"Sizin için büyük bir günün azabından korkuyorum\" (Hûd'un uyarısı)"
@@ -694,7 +714,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "adalet",
-"not_": "\"İnsanlar içinden adaletle emredenlerin canına kıyanlara korkunç azap müjdesi\""
+"not_": "\"Ayetleri inkâr edip peygamberleri ve insanlardan adaleti emredenleri haksız yere öldürenleri acıklı bir azapla (azâbin elîm) müjdele\""
 },
 {
 "blok": "K1m",
@@ -980,7 +1000,7 @@
 "odul_ayet": "2:83",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "ihsan",
 "not_": "\"Anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın; insanlara güzeli söyleyin\""
 },
@@ -1039,10 +1059,10 @@
 "nitelik_ayet": "3:148",
 "odul_ayet": "3:148",
 "odul": "ahiret_sevabi",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "ihsan",
-"not_": "\"Allah onlara hem dünya nimetini verdi hem de âhiret sevabının en güzelini\""
+"not_": "\"Allah onlara dünya sevabını ve âhiret sevabının güzelini verdi\" (sevâbe'd-dünyâ ve husne sevâbi'l-âhira): 3:146-147'deki topluluk; ihsan bağı kapanış cümlesinden (\"Allah muhsinleri sever\")"
 },
 {
 "blok": "K1b",
@@ -1440,7 +1460,7 @@
 "id": "ahde_vefa",
 "grup": "Söz ve emanet",
 "etiket": "Ahde, yemine ve verilen söze vefa; ahdi bozmak",
-"ayet_sayisi": 34,
+"ayet_sayisi": 33,
 "kayitlar": [
 {
 "blok": "K1a",
@@ -1478,7 +1498,7 @@
 "odul_ayet": "2:63",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "ahde_vefa",
 "not_": "Kesin söz: \"Size verdiğimizi kuvvetle tutun ve içinde olanı hatırlayıp zikredin ki sakınabilesiniz\""
 },
@@ -1540,7 +1560,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ahde_vefa",
-"not_": "\"Onlar için korkunç bir azap vardır\""
+"not_": "\"Onlar için acıklı bir azap vardır\" (azâbun elîm)"
 },
 {
 "blok": "K1b",
@@ -1571,6 +1591,16 @@
 "tur": "sonuc",
 "ham": "ahde_vefa",
 "not_": "\"Verdikleri mîsakı bozdukları için onları lanetledik de kalplerini kaskatı yaptık\""
+},
+{
+"blok": "K1b",
+"nitelik_ayet": "5:13",
+"odul_ayet": "5:13",
+"odul": "kalp_katilastirma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ahde_vefa",
+"not_": "\"Kalplerini katılaştırdık\" (ve cealnâ kulûbehüm kâsiyeten)"
 },
 {
 "blok": "K1c",
@@ -1683,6 +1713,16 @@
 "not_": "\"Ahdi bozanlara lanet vardır, yurdun en kötüsü de onlarındır\""
 },
 {
+"blok": "K1e",
+"nitelik_ayet": "13:25",
+"odul_ayet": "13:25",
+"odul": "su_ud_dar",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ahde_vefa",
+"not_": "\"Yurdun kötüsü de onlarındır\" (ve lehüm sû'u'd-dâr)"
+},
+{
 "blok": "K1f",
 "nitelik_ayet": "16:91",
 "odul_ayet": "16:91",
@@ -1714,6 +1754,16 @@
 },
 {
 "blok": "K1f",
+"nitelik_ayet": "16:94",
+"odul_ayet": "16:94",
+"odul": "kotuluk_tatma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ahde_vefa",
+"not_": "\"Allah yolundan alıkoymanız yüzünden kötülüğü tadarsınız\" (ve tezûkû's-sû'e); ayak kayması da anılır"
+},
+{
+"blok": "K1f",
 "nitelik_ayet": "16:95",
 "odul_ayet": "16:95",
 "odul": "yok",
@@ -1737,7 +1787,7 @@
 "nitelik_ayet": "20:86",
 "odul_ayet": "20:86",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "tanim",
 "ham": "ahde_vefa",
 "not_": "\"Mûsa: bana verdiğiniz söze ters davrandınız\""
@@ -1773,24 +1823,14 @@
 "not_": "\"İnananlardan erler Allah'a verdikleri sözde sadakatle dururlar\""
 },
 {
-"blok": "K1m",
-"nitelik_ayet": "47:21",
-"odul_ayet": "47:21",
-"odul": "yok",
-"derece": "✓",
-"tur": "tanim",
-"ham": "ahde_vefa",
-"not_": "\"Allah'a verdikleri söze sadık olsalardı kendileri için daha iyi olurdu\""
-},
-{
 "blok": "K1i",
 "nitelik_ayet": "48:10",
 "odul_ayet": "48:10",
-"odul": "yok",
+"odul": "kendi_aleyhine",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "ahde_vefa",
-"not_": "\"Kim ahdi bozarsa ancak kendi aleyhine bozmuş olur\" (vefanın ecri ayrı kayıtta)"
+"not_": "\"Kim ahdi bozarsa ancak kendi aleyhine bozmuş olur\" (fe-innemâ yenküsü alâ nefsihî)"
 },
 {
 "blok": "K1i",
@@ -1830,7 +1870,7 @@
 "derece": "✓",
 "tur": "tanim",
 "ham": "ahde_vefa",
-"not_": "\"Onlar verdikleri sözü tam bir biçimde yerine getirirler\""
+"not_": "\"Adaklarını yerine getirirler\" (yûfûne bi'n-nezr)"
 }
 ]
 },
@@ -1906,7 +1946,7 @@
 "id": "dogruluk",
 "grup": "Söz ve emanet",
 "etiket": "Doğruluk: doğru sözlü olmak, doğruyu getirip doğrulamak",
-"ayet_sayisi": 10,
+"ayet_sayisi": 11,
 "kayitlar": [
 {
 "blok": "K1k",
@@ -1997,6 +2037,16 @@
 "tur": "tanim",
 "ham": "dogruluk",
 "not_": "\"Doğruyu getirene ve onu tasdikleyene: korunanların ta kendileri\""
+},
+{
+"blok": "K1m",
+"nitelik_ayet": "47:21",
+"odul_ayet": "47:21",
+"odul": "hayir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "dogruluk",
+"not_": "\"Allah'a sadık davransalardı (fe-lev sadakû'llâh) kendileri için daha hayırlı olurdu\"; ayette ahit/söz kelimesi geçmez"
 },
 {
 "blok": "K1j",
@@ -2712,18 +2762,18 @@
 }
 },
 "istatistik": {
-"kayit": 197,
+"kayit": 202,
 "ayet": 172,
 "derece": {
 "✓": 190,
-"→": 7,
+"→": 12,
 "?": 0
 },
 "tur": {
-"emir": 67,
-"yasak": 15,
-"sonuc": 58,
-"tanim": 57
+"emir": 63,
+"yasak": 14,
+"sonuc": 65,
+"tanim": 60
 }
 }
 }

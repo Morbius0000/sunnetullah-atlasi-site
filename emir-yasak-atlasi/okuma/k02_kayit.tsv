@@ -1,7 +1,7 @@
-K2a	anne_baba	2:83	2:83	-	✓	"İsrailoğullarından söz: anne-babaya iyilik ve güzellikle davranın"	emir
-K2a	akraba	2:83	2:83	-	✓	"İsrailoğullarından söz: akrabaya iyilik ve güzellikle davranın"	emir
-K2a	yetim	2:83	2:83	-	✓	"İsrailoğullarından söz: yetimlere iyilik ve güzellikle davranın"	emir
-K2a	yoksul	2:83	2:83	-	✓	"İsrailoğullarından söz: yoksullara iyilik ve güzellikle davranın"	emir
+K2a	anne_baba	2:83	2:83	-	✓	"İsrailoğullarından söz: anne-babaya iyilik ve güzellikle davranın"	tanim
+K2a	akraba	2:83	2:83	-	✓	"İsrailoğullarından söz: akrabaya iyilik ve güzellikle davranın"	tanim
+K2a	yetim	2:83	2:83	-	✓	"İsrailoğullarından söz: yetimlere iyilik ve güzellikle davranın"	tanim
+K2a	yoksul	2:83	2:83	-	✓	"İsrailoğullarından söz: yoksullara iyilik ve güzellikle davranın"	tanim
 K2a	akraba	2:177	2:177	-	✓	Erdem (el-birr; mealde "zafer ve mutluluğa ermek") şudur: ... malı, ona duyduğu sevgiye rağmen akrabaya, yetimlere, yoksullara verir	tanim
 K2a	yetim	2:177	2:177	-	✓	"Yetimlere malı seve seve verir"	tanim
 K2a	yoksul	2:177	2:177	-	✓	"Çaresizlere, yoksullara malı seve seve verir"	tanim
@@ -17,7 +17,7 @@ K2a	yolcu	2:215	2:215	-	✓	"İnfak edilecek mal yolda kalan için olmalıdır"	
 K2a	yetim	2:220	2:220	-	✓	"De ki: Onlar için ıslah (iyileştirme) daha hayırlıdır; onlarla bir arada yaşarsanız kardeşlerinizdir"	tanim
 K2a	yoksul	2:271	2:271	gunah_ortme	✓	"Sadakayı gizleyip yoksullara vermek daha hayırlıdır; günahlarınızdan bir kısmını örter"	sonuc
 K2a	yoksul	2:273	2:273	-	✓	"İnfak edilenler Allah yolunda kapanıp kalmış yoksullar içindir"	tanim
-K2a	akraba	4:1	4:1	-	→	"Rahimlerin haklarına (dikkat edin)"	emir
+K2a	akraba	4:1	4:1	-	✓	"Allah'tan ve rahimlerden (ve'l-erhâme) sakının"	emir
 K2a	yetim	4:2	4:2	-	✓	"Yetimlere mallarını verin"	emir
 K2a	akraba	4:8	4:8	-	✓	"Mirasın paylaşımında hısım-akraba hazırsa onları da rızıklandırın, güzel söz söyleyin"	emir
 K2a	yetim	4:8	4:8	-	✓	"Mirasın paylaşımında yetimler hazırsa onları da rızıklandırın, güzel söz söyleyin"	emir
@@ -50,7 +50,9 @@ K2c	anne_baba	19:14	19:14	-	✓	"Yahyâ ana-babasına iyilik eden biriydi"	tanim
 K2c	anne_baba	19:32	19:32	-	✓	"İsâ: Anneme iyilik etmemi önerdi"	tanim
 K2c	yoksul	22:28	22:28	-	✓	"Kurbanlardan yiyin, sıkıntı içindeki fakiri doyurun"	emir
 K2c	akraba	24:22	24:22	-	✓	"Lütuf sahipleri akrabaya, çaresizlere bir şey vermemeye yemin etmesinler; affetsinler, hoş görsünler"	yasak
+K2c	akraba	24:22	24:22	magfiret	→	"Allah'ın sizi bağışlamasını istemez misiniz?" (e-lâ tuhibbûne en yağfira'llâhu leküm): affedip hoş görme çağrısının ardından	sonuc
 K2c	yoksul	24:22	24:22	-	✓	"Çaresizlere bir şey vermemeye yemin etmesinler"	yasak
+K2c	yoksul	24:22	24:22	magfiret	→	"Allah'ın sizi bağışlamasını istemez misiniz?" (e-lâ tuhibbûne en yağfira'llâhu leküm): affedip hoş görme çağrısının ardından	sonuc
 K2c	akraba	26:214	26:214	-	✓	"En yakın akraba ve hısımlarını uyar"	emir
 K2c	anne_baba	29:8	29:8	-	✓	"İnsana anne babasına en güzel biçimde davranmasını önerdik"	emir
 K2c	anne_baba	29:8	29:8	-	✓	"Seni ortak koşmaya zorlarlarsa onlara itaat etme"	yasak
@@ -62,7 +64,7 @@ K2c	anne_baba	31:15	31:15	-	✓	"Ortak koşman için zorlarlarsa onlara itaat et
 K2d	akraba	33:6	33:6	-	✓	"Rahim bağı olanlar (ulu'l-erhâm) Allah'ın Kitabı'nda birbirlerine daha yakındır" (mealdeki "anne tarafından" kaydı lafızda yoktur)	tanim
 K2d	akraba	42:23	42:23	-	?	"Yakın akrabamı sevmeniz dışında ücret istemiyorum (ifade çok anlamlı)"	tanim
 K2d	anne_baba	46:15	46:15	-	✓	"İnsana anne babasına çok iyi davranmasını önerdik"	emir
-K2d	akraba	47:22	47:23	lanet	✓	"Ülkede fesat çıkarıp rahimleri parçalayanlara Allah lanet etmiştir"	sonuc
+K2d	akraba	47:22	47:23	lanet_sagirlik	✓	"Allah onları lanetledi, kulaklarını sağır, gözlerini kör etti" (47:23)	sonuc
 K2d	yoksul	51:19	51:19	-	✓	"İhtiyaç sahibi için, yoksul için bir hak vardı mallarında"	tanim
 K2d	yoksul	58:4	58:4	-	✓	"Zıhar keffâreti: altmış yoksulu doyurmak"	emir
 K2d	akraba	59:7	59:7	-	✓	"Fey malı Allah'a, Peygamber'e, yakınlara, yetimlere, yoksullara, yolda kalmışlara"	emir
@@ -70,14 +72,14 @@ K2d	yetim	59:7	59:7	-	✓	"Fey malı yetimlere"	emir
 K2d	yoksul	59:7	59:7	-	✓	"Fey malı yoksullara"	emir
 K2d	yolcu	59:7	59:7	-	✓	"Fey malı yolda kalmışlara"	emir
 K2d	yoksul	68:24	68:33	azap_dunya	✓	"Bahçe sahipleri: bugün oraya bir yoksul girmesin; azap böyledir"	sonuc
-K2d	yoksul	69:34	69:31	cehennem	✓	"Yoksulu doyurmaya özendirmiyordu; cehenneme sallayın onu"	sonuc
+K2d	yoksul	69:34	69:31	cahim	✓	"Yoksulu doyurmaya özendirmiyordu; cehenneme sallayın onu"	sonuc
 K2d	yoksul	70:25	70:25	-	✓	"Mallarında yoksul ve yoksun için belirli bir hak vardır"	tanim
 K2d	yoksul	74:44	74:42	nar_sekar	✓	"Yoksulu yedirip doyurmuyorduk (Sekar'a sürükleyen)"	sonuc
 K2d	yoksul	76:8	76:12	cennet	✓	"Yoksula yemeği severek yedirirler; sabırlarına karşılık bahçe ve ipek"	sonuc
 K2d	yetim	76:8	76:12	cennet	✓	"Yetime yemeği severek yedirirler; sabırlarına karşılık bahçe ve ipek"	sonuc
 K2d	yetim	89:17	89:17	-	✓	"Siz yetime ikramda bulunmuyorsunuz"	tanim
 K2d	yoksul	89:18	89:18	-	✓	"Yoksulun doyurulmasını teşvik etmiyorsunuz"	tanim
-K2d	yetim	90:15	90:15	-	✓	"Açlık gününde yakındaki yetimi doyurmak"	tanim
+K2d	yetim	90:15	90:18	ashab_meymene	✓	Sarp yokuş (akabe): "Açlık gününde yakını olan bir yetimi doyurmak" (90:15); 90:18 "İşte bunlar sağın (meymene) ehlidir"	sonuc
 K2d	yoksul	90:16	90:16	-	✓	"Açlık gününde boynu bükük yoksulu doyurmak"	tanim
 K2d	yetim	93:9	93:9	-	✓	"Yetimi örseleme"	yasak
 K2d	yoksul	93:10	93:10	-	✓	"İsteyeni (es-sâil) azarlama" (mealde "yoksulu/dilenciyi")	yasak

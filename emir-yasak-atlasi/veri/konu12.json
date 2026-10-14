@@ -19,6 +19,16 @@
 "not_": "\"Yasaklandığınız günahların büyüklerinden uzak kalırsanız diğer kötülüklerinizi örteriz ve nimet dolu bir yere ulaştırırız\""
 },
 {
+"blok": "K12b",
+"nitelik_ayet": "4:31",
+"odul_ayet": "4:31",
+"odul": "mudhal_kerim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kebair",
+"not_": "\"Sizi değerli bir giriş yerine sokarız\" (ve nüdhilküm müdhalen kerîmâ)"
+},
+{
 "blok": "K12d",
 "nitelik_ayet": "17:31",
 "odul_ayet": "17:31",
@@ -53,7 +63,7 @@
 "nitelik_ayet": "53:32",
 "odul_ayet": "53:32",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "tur": "tanim",
 "ham": "kebair",
 "not_": "\"Günahın büyüklerinden ve fâhişelerden çekinip kaçınanlar, küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır\""
@@ -95,6 +105,16 @@
 "tur": "sonuc",
 "ham": "fahsa",
 "not_": "\"Çirkin bir iş (fâhişe) yapıp ya da kendilerine zulmedip Allah'ı hatırlayan, günahları için af dileyen, bile bile ısrar etmeyenlere bağışlanma ve cennet\""
+},
+{
+"blok": "K12b",
+"nitelik_ayet": "3:135",
+"odul_ayet": "3:136",
+"odul": "cennet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "fahsa",
+"not_": "\"Altlarından ırmaklar akan cennetler, orada kalıcı olarak\" (3:136)"
 },
 {
 "blok": "K12b",
@@ -194,7 +214,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fahsa",
-"not_": "\"Müminler içinde fâhişenin yayılmasını arzu edenler için dünyada da âhirette de korkunç azap\""
+"not_": "\"Müminler içinde fâhişenin yayılmasını arzu edenler için dünyada da âhirette de acıklı bir azap\""
 },
 {
 "blok": "K12d",
@@ -261,7 +281,7 @@
 "nitelik_ayet": "53:32",
 "odul_ayet": "53:32",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "tur": "tanim",
 "ham": "fahsa",
 "not_": "\"Günahın büyüklerinden ve fâhişelerden kaçınırlar; Rabbin affı geniştir\""
@@ -289,7 +309,7 @@
 "nitelik_ayet": "53:32",
 "odul_ayet": "53:32",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "tur": "tanim",
 "ham": "lemem",
 "not_": "\"Küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır\""
@@ -308,7 +328,7 @@
 "odul_ayet": "2:85",
 "odul": "hizy",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "ism",
 "not_": "\"Birbirinizi öldürüyorsunuz, yurtlarından çıkarıyorsunuz; kötülük (ism) ve düşmanlıkta dayanışmaya giriyorsunuz\""
 },
@@ -336,9 +356,9 @@
 "blok": "K12a",
 "nitelik_ayet": "2:181",
 "odul_ayet": "2:181",
-"odul": "yok",
+"odul": "gunah_yuklenme",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "ism",
 "not_": "\"Vasiyeti işittikten sonra değiştirenin günahı değiştirenler üzerinedir\""
 },
@@ -418,7 +438,7 @@
 "odul_ayet": "4:48",
 "odul": "magfiret_yok",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "ism",
 "not_": "\"Allah'a şirk koşan gerçekten büyük bir günah (ism) işlemiştir; Allah şirki affetmez\""
 },
@@ -446,9 +466,9 @@
 "blok": "K12b",
 "nitelik_ayet": "4:111",
 "odul_ayet": "4:111",
-"odul": "yok",
+"odul": "kendi_aleyhine",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "ism",
 "not_": "\"Günah kazanan onu kendi nefsi aleyhine kazanır\""
 },
@@ -456,7 +476,7 @@
 "blok": "K12b",
 "nitelik_ayet": "4:112",
 "odul_ayet": "4:112",
-"odul": "yok",
+"odul": "iftira_gunah",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ism",
@@ -516,7 +536,7 @@
 "blok": "K12c",
 "nitelik_ayet": "6:120",
 "odul_ayet": "6:120",
-"odul": "karsilik",
+"odul": "cezalandirma",
 "derece": "✓",
 "tur": "yasak",
 "ham": "ism",
@@ -566,7 +586,7 @@
 "blok": "K12e",
 "nitelik_ayet": "33:58",
 "odul_ayet": "33:58",
-"odul": "yok",
+"odul": "iftira_gunah",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ism",
@@ -608,7 +628,7 @@
 "odul_ayet": "58:8",
 "odul": "cehennem",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "ism",
 "not_": "\"Yasaklandıktan sonra yine günah, düşmanlık ve peygambere isyan konusunda fısıldaşıyorlar\""
 },
@@ -664,7 +684,7 @@
 "blok": "K12x",
 "nitelik_ayet": "5:18",
 "odul_ayet": "5:18",
-"odul": "azap_genel",
+"odul": "azap",
 "derece": "✓",
 "tur": "tanim",
 "ham": "zenb",
@@ -758,7 +778,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zenb",
-"not_": "\"Herbirini kendi günahı ile yakaladık: taş yağdıran kasırga, korkunç ses, yere batırılma, boğulma\""
+"not_": "\"Herbirini kendi günahı ile yakaladık: taş yağdıran kasırga, çığlık (es-sayha), yere batırılma, boğulma\""
 },
 {
 "blok": "K12e",
@@ -832,6 +852,16 @@
 },
 {
 "blok": "K12e",
+"nitelik_ayet": "46:31",
+"odul_ayet": "46:31",
+"odul": "azaptan_korunma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zenb",
+"not_": "\"Sizi acıklı bir azaptan korusun\" (ve yücirküm min azâbin elîm)"
+},
+{
+"blok": "K12e",
 "nitelik_ayet": "47:19",
 "odul_ayet": "47:19",
 "odul": "yok",
@@ -882,13 +912,23 @@
 },
 {
 "blok": "K12f",
-"nitelik_ayet": "67:11",
-"odul_ayet": "67:11",
-"odul": "cehennem",
+"nitelik_ayet": "61:12",
+"odul_ayet": "61:12",
+"odul": "magfiret",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zenb",
-"not_": "\"Günahlarını itiraf ettiler; çılgın ateşin halkına kahır yaraşır\""
+"not_": "\"Günahlarınızı bağışlar\" (yağfir leküm zünûbeküm)"
+},
+{
+"blok": "K12f",
+"nitelik_ayet": "67:11",
+"odul_ayet": "67:11",
+"odul": "suhk",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "zenb",
+"not_": "\"Günahlarını itiraf ettiler; çılgın ateşin halkı uzak olsun!\" (fe-suhkan li-ashâbi's-saîr)"
 },
 {
 "blok": "K12f",
@@ -944,7 +984,7 @@
 "odul_ayet": "12:29",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "hatia",
 "not_": "\"Kadın, günahının affını dile; sen hata edenlerden (hâtiîn) oldun\""
 },
@@ -1070,7 +1110,7 @@
 "blok": "K12b",
 "nitelik_ayet": "5:25",
 "odul_ayet": "5:26",
-"odul": "yok",
+"odul": "tih",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1130,7 +1170,7 @@
 "blok": "K12b",
 "nitelik_ayet": "6:49",
 "odul_ayet": "6:49",
-"odul": "azap_genel",
+"odul": "azap",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1172,7 +1212,7 @@
 "odul_ayet": "7:145",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "fisk",
 "not_": "\"Levhalardaki buyrukları en güzel şekliyle tutun; fâsıklar yurdunu size göstereceğim\""
 },
@@ -1180,7 +1220,7 @@
 "blok": "K12c",
 "nitelik_ayet": "7:163",
 "odul_ayet": "7:163",
-"odul": "yok",
+"odul": "sinanma",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1190,7 +1230,7 @@
 "blok": "K12c",
 "nitelik_ayet": "7:165",
 "odul_ayet": "7:165",
-"odul": "azap",
+"odul": "azap_cetin",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1252,7 +1292,7 @@
 "odul_ayet": "9:84",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "fisk",
 "not_": "\"Allah'a ve resulüne nankörlük ettiler ve fâsık olarak öldüler; onlar için dua etme\""
 },
@@ -1262,7 +1302,7 @@
 "odul_ayet": "9:96",
 "odul": "razi_olmama",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "fisk",
 "not_": "\"Siz razı olsanız da Allah fâsıklar topluluğundan razı olmaz\""
 },
@@ -1270,7 +1310,7 @@
 "blok": "K12c",
 "nitelik_ayet": "10:33",
 "odul_ayet": "10:33",
-"odul": "yok",
+"odul": "azap_hak",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1302,7 +1342,7 @@
 "odul_ayet": "21:74",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "fisk",
 "not_": "\"Lût'u pislikler üretip duran bir kentten kurtardık; o kent halkı fâsık, yoldan çıkmış kötü bir kavimdi\""
 },
@@ -1312,7 +1352,7 @@
 "odul_ayet": "24:4",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "fisk",
 "not_": "\"İffetli kadınlara iftira atıp dört tanık getirmeyenlere seksen vuruş vurun, tanıklıklarını kabul etmeyin; onlar fâsıkların ta kendileridir\""
 },
@@ -1322,7 +1362,7 @@
 "odul_ayet": "24:55",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "fisk",
 "not_": "\"Allah'ın vaadinden sonra küfredenler fâsıkların ta kendileridir\""
 },
@@ -1360,7 +1400,7 @@
 "blok": "K12e",
 "nitelik_ayet": "32:18",
 "odul_ayet": "32:18",
-"odul": "yok",
+"odul": "esitsizlik",
 "derece": "✓",
 "tur": "tanim",
 "ham": "fisk",
@@ -1428,6 +1468,16 @@
 },
 {
 "blok": "K12f",
+"nitelik_ayet": "49:11",
+"odul_ayet": "49:11",
+"odul": "zalim_sayilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "fisk",
+"not_": "\"Kim tövbe etmezse, işte onlar zalimlerin ta kendileridir\""
+},
+{
+"blok": "K12f",
 "nitelik_ayet": "51:46",
 "odul_ayet": "51:46",
 "odul": "helak",
@@ -1472,7 +1522,7 @@
 "odul_ayet": "59:5",
 "odul": "hizy",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "fisk",
 "not_": "\"Hurma ağacını kesmeniz Allah'ın izniyledir; fâsıkları rezil etmesi içindir\""
 },
@@ -1488,6 +1538,16 @@
 },
 {
 "blok": "K12f",
+"nitelik_ayet": "59:19",
+"odul_ayet": "59:19",
+"odul": "benligini_unutturma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "fisk",
+"not_": "\"Allah da onlara öz benliklerini unutturdu\" (fe-ensâhüm enfüsehüm)"
+},
+{
+"blok": "K12f",
 "nitelik_ayet": "61:5",
 "odul_ayet": "61:5",
 "odul": "hidayet_edilmeme",
@@ -1495,6 +1555,16 @@
 "tur": "sonuc",
 "ham": "fisk",
 "not_": "\"Mûsa'ya eziyet edenler sapınca Allah kalplerini eğriltti; Allah fâsıklar topluluğunu iletmez\""
+},
+{
+"blok": "K12f",
+"nitelik_ayet": "61:5",
+"odul_ayet": "61:5",
+"odul": "kalp_egriltme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "fisk",
+"not_": "\"Onlar sapınca Allah da kalplerini eğriltti\" (fe-lemmâ zâğû ezâğa'llâhu kulûbehüm)"
 },
 {
 "blok": "K12f",
@@ -1558,7 +1628,7 @@
 "blok": "K12c",
 "nitelik_ayet": "10:23",
 "odul_ayet": "10:23",
-"odul": "yok",
+"odul": "kendi_aleyhine",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "bagy",
@@ -1695,12 +1765,12 @@
 {
 "blok": "K12x",
 "nitelik_ayet": "5:79",
-"odul_ayet": "5:79",
-"odul": "yok",
-"derece": "✓",
-"tur": "tanim",
+"odul_ayet": "5:78",
+"odul": "lanet",
+"derece": "→",
+"tur": "sonuc",
 "ham": "munker",
-"not_": "\"İşledikleri münkerden birbirlerini sakındırmıyorlardı; ne kötü şeydi yapmayı sürdürdükleri\""
+"not_": "\"İşledikleri kötülükten birbirlerini sakındırmıyorlardı\" (5:79): 5:78'deki lanetin gerekçe cümlesi"
 },
 {
 "blok": "K12c",
@@ -1726,9 +1796,9 @@
 "blok": "K12c",
 "nitelik_ayet": "9:71",
 "odul_ayet": "9:71",
-"odul": "yok",
+"odul": "rahmet",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "munker",
 "not_": "\"Mümin erkekler ve kadınlar iyiliği özendirir, kötülükten sakındırır, namaz kılar, zekât verir\""
 },
@@ -1736,9 +1806,9 @@
 "blok": "K12c",
 "nitelik_ayet": "9:112",
 "odul_ayet": "9:112",
-"odul": "yok",
+"odul": "mujde",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "munker",
 "not_": "\"Tövbe edenler, ibadet edenler... iyiliğe özendirip kötülükten sakındıranlar, Allah'ın sınırlarını koruyanlar\""
 },
@@ -2007,6 +2077,10 @@
 "5:63": {
 "ar": "لَوْلَا يَنْهَىٰهُمُ ٱلرَّبَّـٰنِيُّونَ وَٱلْأَحْبَارُ عَن قَوْلِهِمُ ٱلْإِثْمَ وَأَكْلِهِمُ ٱلسُّحْتَ ۚ لَبِئْسَ مَا كَانُوا۟ يَصْنَعُونَ",
 "tr": "Ruhbanları ve hahamları onları, günah oluşturan sözlerinden, haram yemekten alıkoysalardı olmaz mıydı? Ne kötüdür onların sınaat/teknoloji olarak üretmekte oldukları."
+},
+"5:78": {
+"ar": "لُعِنَ ٱلَّذِينَ كَفَرُوا۟ مِنۢ بَنِىٓ إِسْرَٰٓءِيلَ عَلَىٰ لِسَانِ دَاوُۥدَ وَعِيسَى ٱبْنِ مَرْيَمَ ۚ ذَٰلِكَ بِمَا عَصَوا۟ وَّكَانُوا۟ يَعْتَدُونَ",
+"tr": "İsrailoğullarının küfre sapanları, Meryem'in oğlu İsa'nın ve Dâvud'un diliyle lanetlendiler. Bu böyledir; çünkü onlar sınır tanımazlık, haksızlık, düşmanlık ediyorlardı."
 },
 "5:79": {
 "ar": "كَانُوا۟ لَا يَتَنَاهَوْنَ عَن مُّنكَرٍ فَعَلُوهُ ۚ لَبِئْسَ مَا كَانُوا۟ يَفْعَلُونَ",
@@ -2486,18 +2560,18 @@
 }
 },
 "istatistik": {
-"kayit": 174,
-"ayet": 167,
+"kayit": 181,
+"ayet": 168,
 "derece": {
-"✓": 169,
-"→": 5,
+"✓": 172,
+"→": 9,
 "?": 0
 },
 "tur": {
-"emir": 11,
+"emir": 10,
 "yasak": 25,
-"sonuc": 56,
-"tanim": 82
+"sonuc": 68,
+"tanim": 78
 }
 }
 }

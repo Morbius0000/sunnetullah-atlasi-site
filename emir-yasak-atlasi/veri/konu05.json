@@ -14,7 +14,7 @@
 "odul_ayet": "2:84",
 "odul": "yok",
 "derece": "✓",
-"tur": "yasak",
+"tur": "tanim",
 "ham": "kan_dokme_yasagi_israilogullari",
 "not_": "İsrailoğullarından alınan söz: \"Birbirinizin kanını dökmeyeceksiniz\""
 },
@@ -102,7 +102,7 @@
 "blok": "K5a",
 "nitelik_ayet": "4:93",
 "odul_ayet": "4:93",
-"odul": "azap_buyuk",
+"odul": "azap_azim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "mumini_kasten_oldurme",
@@ -124,7 +124,7 @@
 "odul_ayet": "5:32",
 "odul": "yok",
 "derece": "✓",
-"tur": "yasak",
+"tur": "tanim",
 "ham": "haksiz_yere_kisi_oldurme_insanlari_toptan_oldurme",
 "not_": "\"Kim bir kişiyi, bir kişiye karşılık yahut yeryüzünde bir fesat sebebiyle olmaksızın öldürürse, insanları toptan öldürmüş gibidir\" (İsrailoğullarına yazılan)"
 },
@@ -286,6 +286,16 @@
 },
 {
 "blok": "K5a",
+"nitelik_ayet": "2:61",
+"odul_ayet": "2:61",
+"odul": "zillet",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "haksiz_yere_peygamber_oldurme",
+"not_": "\"Üzerlerine zillet ve yoksulluk damgası vuruldu\" (duribet aleyhimü'z-zilletü ve'l-meskenetü)"
+},
+{
+"blok": "K5a",
 "nitelik_ayet": "2:87",
 "odul_ayet": "2:87",
 "odul": "yok",
@@ -302,7 +312,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "haksiz_oldurme_ve_adaleti_emredenin_canina_kiyma",
-"not_": "\"Haksız yere peygamberleri öldürenler ve adaletle emredenlerin canına kıyanlar ... onlara korkunç bir azabı muştula\""
+"not_": "\"Haksız yere peygamberleri öldürenler ve adaletle emredenlerin canına kıyanlar ... onlara acıklı bir azabı müjdele\""
 }
 ]
 },
@@ -330,7 +340,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kisasta_azginlik_ve_dusmanlik",
-"not_": "\"Kim bundan sonra azgınlık ve düşmanlık ederse onun için korkunç bir azap vardır\""
+"not_": "\"Kim bundan sonra haddi aşarsa (i'tedâ) onun için acıklı bir azap vardır\""
 },
 {
 "blok": "K5a",
@@ -358,9 +368,19 @@
 "odul_ayet": "5:45",
 "odul": "kisas",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "kisas_can_cana",
 "not_": "\"Cana can, göze göz, buruna burun, kulağa kulak, dişe diş... Yaralamalar karşılığında da kısas\""
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "5:45",
+"odul_ayet": "5:45",
+"odul": "keffaret",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kisas_can_cana",
+"not_": "\"Kim onu (kısası) sadaka olarak bağışlarsa, bu kendisi için bir keffârettir\" (fe-hüve keffâretün leh)"
 }
 ]
 },
@@ -470,6 +490,16 @@
 },
 {
 "blok": "K5a",
+"nitelik_ayet": "24:4",
+"odul_ayet": "24:4",
+"odul": "sahitlik_reddi",
+"derece": "✓",
+"tur": "emir",
+"ham": "iffetli_kadina_iftira_kazf",
+"not_": "\"Onların tanıklığını ebediyen kabul etmeyin\" (ve lâ takbelû lehüm şehâdeten ebedâ)"
+},
+{
+"blok": "K5a",
 "nitelik_ayet": "24:6",
 "odul_ayet": "24:6",
 "odul": "yok",
@@ -492,7 +522,7 @@
 "blok": "K5a",
 "nitelik_ayet": "24:23",
 "odul_ayet": "24:23",
-"odul": "azap_buyuk",
+"odul": "azap_azim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "iffetli_mumin_kadina_iftira_kazf",
@@ -604,7 +634,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "edepsizligin_yayilmasini_arzu_etme",
-"not_": "\"İman edenler içinde edepsizliğin yayılmasını arzu edenler ... dünyada da âhirette de korkunç bir azap öngörülmüştür\""
+"not_": "\"İman edenler içinde edepsizliğin yayılmasını arzu edenler ... dünyada da âhirette de acıklı bir azap öngörülmüştür\""
 },
 {
 "blok": "K5a",
@@ -640,7 +670,7 @@
 "blok": "K5a",
 "nitelik_ayet": "29:28",
 "odul_ayet": "29:34",
-"odul": "gokten_felaket",
+"odul": "azap_gokten",
 "derece": "→",
 "tur": "sonuc",
 "ham": "lut_kavmi_erkeklere_gitme",
@@ -708,11 +738,11 @@
 "blok": "K5a",
 "nitelik_ayet": "24:30",
 "odul_ayet": "24:30",
-"odul": "yok",
+"odul": "arinma",
 "derece": "✓",
 "tur": "emir",
 "ham": "bakislari_indirme_ve_irzi_koruma_erkek",
-"not_": "\"Mümin erkeklere söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar\""
+"not_": "\"Mümin erkeklere söyle: Bakışlarını indirsinler, ırzlarını korusunlar; bu onlar için daha arındırıcıdır\" (zâlike ezkâ lehüm)"
 },
 {
 "blok": "K5a",
@@ -820,7 +850,7 @@
 "derece": "→",
 "tur": "sonuc",
 "ham": "riba_ve_batil_mal_yeme",
-"not_": "\"Ribayı almaları -oysaki ondan yasaklanmışlardı- ve haksız yollarla insanların mallarını yemeleri yüzünden onların küfre sapanlarına korkunç bir azap hazırladık\""
+"not_": "\"Ribayı almaları -oysaki ondan yasaklanmışlardı- ve insanların mallarını haksız yollarla yemeleri yüzünden ... onların küfre sapanlarına acıklı bir azap hazırladık\""
 },
 {
 "blok": "K5a",
@@ -836,7 +866,7 @@
 "blok": "K5a",
 "nitelik_ayet": "30:39",
 "odul_ayet": "30:39",
-"odul": "yok",
+"odul": "artmama",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "riba_ile_verilen_artmaz",
@@ -1068,6 +1098,16 @@
 "blok": "K5a",
 "nitelik_ayet": "7:85",
 "odul_ayet": "7:85",
+"odul": "hayir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "olcu_ve_tartida_durust_olma_suayb",
+"not_": "\"Bu sizin için daha hayırlıdır, eğer inanıyorsanız\" (zâliküm hayrun leküm)"
+},
+{
+"blok": "K5a",
+"nitelik_ayet": "7:85",
+"odul_ayet": "7:85",
 "odul": "yok",
 "derece": "✓",
 "tur": "yasak",
@@ -1079,7 +1119,7 @@
 "nitelik_ayet": "11:84",
 "odul_ayet": "11:84",
 "odul": "azap_kusatan",
-"derece": "✓",
+"derece": "→",
 "tur": "yasak",
 "ham": "eksik_olcup_yanlis_tartma_yasagi_suayb",
 "not_": "Şuayb: \"Eksik ölçüp yanlış tartmayın ... sizi sarıp kuşatan bir günün azabından da korkuyorum\""
@@ -1172,7 +1212,7 @@
 "derece": "✓",
 "tur": "emir",
 "ham": "olcuyu_adaletle_koruma",
-"not_": "\"Ölçüyü titizlikle, adaletle koruyun ve hüsrana araç yapmayın mizanı\""
+"not_": "\"Tartıyı adaletle dosdoğru tutun, teraziyi eksik tutmayın\" (lâ tuhsirû'l-mîzân)"
 },
 {
 "blok": "K5a",
@@ -1200,7 +1240,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "altin_gumus_depolayip_harcamama",
-"not_": "\"Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara korkunç bir azap muştula\""
+"not_": "\"Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara acıklı bir azabı müjdele\""
 },
 {
 "blok": "K5a",
@@ -1210,7 +1250,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "altin_gumus_depolayip_harcamama",
-"not_": "\"Cehennem ateşinde onların üzerine lav dökülür de bununla alınları, böğürleri, sırtları dağlanır\""
+"not_": "\"Cehennem ateşinde onlar (biriktirilen altın ve gümüş) kızdırılır, bununla alınları, böğürleri ve sırtları dağlanır: İşte kendiniz için biriktirdiğiniz\" (9:35)"
 }
 ]
 }
@@ -1594,18 +1634,18 @@
 }
 },
 "istatistik": {
-"kayit": 110,
+"kayit": 114,
 "ayet": 94,
 "derece": {
-"✓": 105,
-"→": 5,
+"✓": 108,
+"→": 6,
 "?": 0
 },
 "tur": {
 "emir": 19,
-"yasak": 33,
-"sonuc": 34,
-"tanim": 24
+"yasak": 31,
+"sonuc": 36,
+"tanim": 28
 }
 }
 }

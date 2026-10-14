@@ -1,0 +1,168 @@
+id	konu	durum	bulgu	duzeltme
+K1-0003	1	bulgu	2:83 geçmişte alınan söz (ahaznâ mîsâka) — tür kuralına göre Tanım	tur=tanim
+K1-0020	1	bulgu	11:2 "allâ ta'budû illâ'llâh" aynı yapı 11:26/3:64'te Yasak — tutarlılık	tur=yasak
+K1-0013	1	bulgu	7:59 elçinin "korkuyorum" uyarısı; kulluk etmeme→azap şartı ayette açık değil	der=→
+K1-0022	1	bulgu	11:26 aynı (Nûh'un korkusu)	der=→
+K1-0026	1	bulgu	11:84 aynı (Şuayb'ın korkusu)	der=→
+K1-0048	1	bulgu	36:22 davranış adlandırılmış (lâ a'budu), karşılık yok; → gereksiz	der=✓
+K1-0049	1	bulgu	36:60 "elem a'had ileykum" geçmişte verilmiş ahid (kıyamette hatırlatma) — Tanım	tur=tanim
+K1-0050	1	bulgu	36:61 aynı ahdin devamı — Tanım	tur=tanim
+K1-0060	1	bulgu	46:21 Hûd'un "korkuyorum" uyarısı; şart açık değil	der=→
+K1-0068	1	bulgu	3:21 not "korkunç azap" diyor, ayet "azâbun elîm"	not="Âyetleri inkâr edip peygamberleri haksız yere öldürenleri ve insanlardan adaleti emredenleri öldürenleri acıklı bir azapla müjdele"
+K1-0094	1	bulgu	2:83 ihsan: aynı mîsâk (geçmişte alınan söz) — Tanım, K1-0003 ile tutarlı	tur=tanim
+K1-0100	1	bulgu	3:148 sevap 3:146-147'deki savaşan topluluğa verilir; ihsan bağı yalnız kapanış cümlesinden (muhsinler) — çıkarım; not "dünya nimeti" değil "dünya sevabı"	der=→; not="Allah onlara dünya sevabını ve âhiret sevabının güzelini verdi" (sevâbe'd-dünyâ ve husne sevâbi'l-âhira)
+K1-0143	1	bulgu	2:63 "ahaznâ mîsâkakum" geçmişte alınan söz — Tanım	tur=tanim
+K1-0149	1	bulgu	3:77 not "korkunç azap", ayet "azâbun elîm"	not="Onlar için acıklı bir azap vardır" (azâbun elîm)
+K1-0152	1	eksik	5:13 "ve cealnâ kulûbehum kâsiyeten" ayette yazılı ikinci karşılık kayıtta yok (K1 ve K9 ahdi_bozma)	ADD kalp_katilastirma ✓ sonuc; yeni kod
+K1-0163	1	eksik	13:25 "ve lehum sû'u'd-dâr" ayette yazılı ikinci karşılık kayıtta yok (K1 + K9'da 3 başlık)	ADD su_ud_dar (yeni kod "Yurdun kötüsü (sû'u'd-dâr)")
+K1-0166	1	eksik	16:94 "ve tezûkû's-sû'e" ayette yazılı karşılık kayıtta yok (K1 + K9)	ADD kotuluk_tatma (yeni kod "Kötülüğü tatma (zevku's-sû')")
+K1-0169	1	bulgu	20:86 davranış adlandırılmış (ahleftum mev'idî)	der=✓
+K1-0173	1	bulgu	47:21 ayette ahid/söz yok: "fe-lev sadakû'llâh" (Allah'a sadık olmak); karşılık "le-kâne hayran lehum" yazılı	not düzelt; odul=hayir; tur=sonuc
+K1-0174	1	bulgu	48:10 "yenküsü alâ nefsihî" karşılıktır; K9'da kendi_aleyhine kodlu — tutarlılık	odul=kendi_aleyhine; tur=sonuc
+K1-0178	1	bulgu	76:7 "yûfûne bi'n-nezr": nezr = adak; not "verdikleri söz" genelleştiriyor	not="Adaklarını yerine getirirler (yûfûne bi'n-nezr)"
+K2-0196	2	bulgu	2:83 mîsâk (anne_baba) — Tanım	tur=tanim
+K2-0209	2	bulgu	2:83 mîsâk (akraba) — Tanım	tur=tanim
+K2-0228	2	bulgu	2:83 mîsâk (yetim) — Tanım	tur=tanim
+K2-0213	2	bulgu	4:1 "vettekû'llâhe ... ve'l-erhâme": davranış lafızda (rahimlerden sakınma), → gereksiz; not "haklarına" eklemesi lafızda yok	der=✓; not="Allah'tan ve rahimlerden (ve'l-erhâme) sakının"
+K2-0226	2	bulgu	47:23 lanet + sağırlaştırma + körleştirme; K9'da lanet_sagirlik — tutarlılık	odul=lanet_sagirlik
+K2-0240	2	eksik	90:15 'akabe tarifi; karşılık 90:18 "ashâbu'l-meymene" (K8'de kayıtlı)	odul_ayet=90:18; odul=ashab_meymene; tur=sonuc
+K2-0243	2	bulgu	2:83 mîsâk (yoksul) — Tanım	tur=tanim
+GLOBAL	-	tarama	"cehennem" kodu el-cahîm / sekar / saîr gibi farklı adlara da veriliyor mu? (69:31 el-cahîm) — sistematik tarama	sonra
+K3-0301	3	bulgu	9:53 karşılık ayetin kendisinde: "len yutekabbele minkum"; karşılık ayeti 9:54 değil 9:53	odul_ayet=9:53
+K3-0318	3	eksik	57:10 "ve kullen ve'ada'llâhu'l-husnâ" ayette yazılı; kayıtlarda yalnız derece var (K3, K8)	ADD husna ✓ sonuc
+GLOBAL	-	tarama	Nitelik/tanım kayıtları ('-') karşılığı komşu ayette olanlarla K8'deki aynı ayet kaydı karşılaştırılacak (2:3→2:5, 8:3→8:4, 22:35→22:34, 42:38→42:36, 3:17→3:15)	sonra
+K3-0331	3	eksik	9:79 "ve lehum azâbun elîm" ayette yazılı (K6/K9'da kayıtlı, K3 sadaka'da yok)	ADD azap_elim ✓ sonuc
+K3-0339	3	eksik	5:12 "le-ükeffiranne anküm seyyiâtiküm" ayette yazılı; yalnız cennet kodlanmış (K3 zekat+karz, K8 4 başlık)	ADD gunah_ortme ✓ sonuc
+K3-0342	3	eksik	64:17 "ve yağfir leküm" ayette yazılı (K10'da kayıtlı)	ADD magfiret ✓ sonuc
+K3-0345	3	bulgu	2:83 mîsâk (zekat) — Tanım	tur=tanim
+K3-0371	3	eksik	41:7 zekât vermeyenler 41:6'daki "veylun li'l-müşrikîn"in sıfatı (ellezîne lâ yu'tûne'z-zekât)	odul_ayet=41:6; odul=vay; tur=sonuc
+K3-0380	3	bulgu	47:38 "fe-innemâ yebhalü an nefsihî" karşılıktır (48:10 ile aynı kalıp)	odul=kendi_aleyhine; tur=sonuc
+K3-0381	3	eksik	57:24 "ellezîne yebhalûne" 57:23'teki "kulle muhtâlin fahûr"a bağlanabilir (bedel) ya da ayrı cümle; sevilmeme bağı çıkarım	odul_ayet=57:23; odul=sevilmeme; der=→; tur=sonuc
+K3-0384	3	eksik	92:8 karşılık 92:10 "fe-senüyessiruhû li'l-usrâ" (not bunu anıyor, kod yok)	odul_ayet=92:10; odul=usraya_kolaylastirma (yeni kod); tur=sonuc
+K3-0385	3	bulgu	9:34 karşılığı ayetin kendisinde "azâbin elîm"; 9:35 ateş. K5/K9 böyle iki kayıt; K3 tek "cehennem_azabi"	odul_ayet=9:34 odul=azap_elim + ADD 9:35 nar
+K4-0388	4	bulgu	7:59 Nûh'un korkusu: der → (K1 ile aynı); "azâbe yevmin azîm" → azap_buyuk_gun	der=→; odul=azap_buyuk_gun
+K4-0399	4	bulgu	2:83 mîsâk — Tanım	tur=tanim
+K4-0406	4	bulgu	11:26 not "korkunç", ayet "elîm"; Nûh'un korkusu	der=→; not düzelt
+K4-0408	4	bulgu	17:22 "mezmûmen mahzûlâ" = kınanmış ve yardımsız bırakılmış; etiket "yalnız bırakılıp horlanma" lafza uymuyor	kod etiketi="Kınanmış ve yardımsız (mezmûm, mahzûl)"
+GLOBAL	-	tarama	Azap kodlarının sıfatı Arapçayla eşleşiyor mu (elîm/azîm/kebîr/muhîn/şedîd/mukîm/yevmin azîm); azap_buyuk ve azap_azim mükerrer; azap_hafiflemez/azap_hafifletilmez mükerrer	sonra
+K4-0440	4	bulgu	4:173 not "korkunç bir azap", ayet "azâben elîmâ"	not düzelt (acıklı)
+K4-0443	4	bulgu	6:23 karşılık yok ama tür "sonuc"; kıyamette söyledikleri söz — Tanım	tur=tanim
+K4-0471	4	bulgu	18:52 "ve cealnâ beynehüm mevbikâ": mevbik = helak yeri; not "yıkıcı düşmanlık" meal yorumu	not="Ortaklarım dediklerinizi çağırın, dedi; çağırdılar, onlara cevap vermediler; aralarına bir helak yeri (mevbik) koyduk"
+K4-0484	4	bulgu	35:14 ortakların kıyamette şirki inkârı: tür sonuc ama kod yok; 46:6 benzeri yardimsizlik ile kodlanmış	odul=yardimsizlik; tur=sonuc
+K4-0497	4	eksik	48:6 "aleyhim dâiratü's-sev'" ve "ve yu'azzibe" yazılı; kötülük çemberi kaydı yok	ADD kotuluk_cemberi ✓ sonuc
+K4-0509	4	bulgu	5:73 not "korkunç azap", ayet "azâbun elîm"	not düzelt
+K4-0517	4	bulgu	18:5 bir değerlendirme ("kebüret kelimeten"), karşılık kodu yok ama tür sonuc	tur=tanim
+K4-0518	4	bulgu	19:89 "le-kad ci'tüm şey'en iddâ" değerlendirme, karşılık kodu yok ama tür sonuc	tur=tanim
+K4-0529	4	bulgu	19:45 İbrahim'in "korkuyorum" uyarısı (Nûh/Hûd ile aynı kalıp)	der=→
+K4-0530	4	bulgu	36:60 geçmişte verilmiş ahid hatırlatması; karşılık var — tür sonuc	tur=sonuc
+K4-0538	4	bulgu	40:12 "zâliküm bi-ennehû" sebep cümlesi; çıkış yolu reddi 40:11 sorusundan çıkarılıyor, lafızda yok	der=→
+K4-0549	4	bulgu	6:157 "sû'e'l-azâb" = azabın kötüsü; "en acı azap" lafızda yok	odul=azap_kotu; not="Ayetlerimizden yüz çevirenleri, yüz çevirmeleri yüzünden azabın kötüsüyle (sû'e'l-azâb) cezalandıracağız"
+K4-0559	4	bulgu	7:177 "sâ'e meselen" değerlendirme; karşılık yok ama tür sonuc	tur=tanim
+K4-0567	4	bulgu	19:79 "ve nemüddü lehû mine'l-azâbi meddâ" = azabı uzatma; azap_uzatma kodu mevcut	odul=azap_uzatma
+K4-0578	4	bulgu	34:38 "fi'l-azâbi muhdarûn" = azapta hazır bulundurulma; 30:16 azap_hazir ile tutarlılık	odul=azap_hazir
+K4-0579	4	bulgu	39:59 tekil muhatap (kezzebte, istekberte); 39:60 karşılık "el-mütekebbirîn" sınıfına — derece kuralı	der=→
+K5-0588	5	bulgu	2:84 mîsâk — Tanım	tur=tanim
+K5-0597	5	bulgu	4:93 "azâben azîmâ" — azap_buyuk/azap_azim mükerrer kod; azap_azim	odul=azap_azim
+K5-0599	5	bulgu	5:32 "ketebnâ alâ benî isrâîl" geçmişte yazılan hüküm — Tanım	tur=tanim
+K5-0613	5	eksik	2:61 "ve duribet aleyhimü'z-zilletü ve'l-meskenetü" ayette yazılı; yalnız gazab kodlu (K5 + K9 3 başlık)	ADD zillet ✓ sonuc
+K5-0615	5	bulgu	3:21 not "korkunç azap", ayet "azâbin elîm"	not düzelt
+K5-0617	5	bulgu	2:178 not "korkunç azap", ayet "azâbun elîm"; "azgınlık ve düşmanlık" yerine lafız "i'tedâ" (haddi aşma)	not="Kim bundan sonra haddi aşarsa (i'tedâ) onun için acıklı bir azap vardır"
+K5-0620	5	bulgu	5:45 "ve ketebnâ aleyhim fîhâ" Tevrat'ta yazılan hüküm — Tanım; "fe-men tesaddaka bihî fe-hüve keffâretün leh" ayette yazılı karşılık yok	tur=tanim; ADD keffaret (yeni kod) ✓ sonuc
+K5-0629	5	eksik	24:4 "ve lâ takbelû lehüm şehâdeten ebedâ" ayette yazılı yaptırım; kodlanmamış (K5, K9)	ADD sahitlik_reddi (yeni kod "Tanıklığın ebediyen reddi") ✓
+K5-0632	5	bulgu	24:23 "azâbun azîm" — azap_azim	odul=azap_azim
+K5-0642	5	bulgu	24:19 not "korkunç azap", ayet "azâbun elîm"	not düzelt
+K5-0652	5	eksik	24:30 "zâlike ezkâ lehüm" ayette yazılı; K8'de arinma kodlu	odul=arinma; tur=emir kalır
+K5-0662	5	bulgu	4:161 not "korkunç azap", ayet "azâben elîmâ"	not düzelt
+K5-0664	5	bulgu	30:39 "fe-lâ yerbû inda'llâh" karşılıktır ama kod yok	odul=artmama (yeni kod "Allah katında artmaz")
+K5-0683	5	eksik	7:85 "zâliküm hayrun leküm" ayette yazılı (17:35'te aynı ifade hayir kodlu)	ADD hayir ✓ sonuc (olcu_ve_tartida_durust_olma_suayb)
+K5-0685	5	bulgu	11:84 Şuayb'ın "korkuyorum" uyarısı	der=→
+K5-0694	5	bulgu	55:9 "ve lâ tuhsirû'l-mîzân" = teraziyi eksik tutmayın; "hüsrana araç yapmayın" meal yorumu	not="Tartıyı adaletle dosdoğru tutun, teraziyi eksik tutmayın (lâ tuhsirû'l-mîzân)"
+K5-0696	5	bulgu	9:34 not "korkunç azap", ayet "azâbin elîm"	not düzelt
+K5-0697	5	bulgu	9:35 "yuhmâ aleyhâ" = (altın-gümüş) kızdırılır; "üzerine lav dökülür" lafızda yok	not="Cehennem ateşinde onlar (biriktirilen altın ve gümüş) kızdırılır, bununla alınları, böğürleri ve sırtları dağlanır: 'İşte kendiniz için biriktirdiğiniz'"
+K6-0701	6	bulgu	6:21 "lâ yuflihu'z-zâlimûn"; K4'te aynı ayet felah_yok, burada husran — lafız felah	odul=felah_yok
+K6-0702	6	bulgu	6:93 "azâbe'l-hûn"; K4'te azap_muhin, burada zillet_azabi — tek kod (zillet_azabi), K4 de düzelt	K4-0548 odul=zillet_azabi
+K6-0709	6	bulgu	10:17 "lâ yuflihu'l-mücrimûn" — K4'te felah_yok; lafız felah	odul=felah_yok
+K6-0713	6	bulgu	16:116 "lâ yuflihûn" — felah_yok (basarisizlik "hâbe" için)	odul=felah_yok
+K6-0717	6	eksik	20:61 "ve kad hâbe meni'fterâ" ayette yazılı (başarısızlık); kodlanmamış	ADD basarisizlik ✓ sonuc
+K6-0722	6	bulgu	4:112 "fe-kadi'htemele bühtânen ve ismen mübînâ" — 33:58'deki aynı ifade iftira_gunah kodlu	odul=iftira_gunah
+GLOBAL	-	tarama	basarisizlik / felah_yok / husran kodları "lâ yuflih" / "hâbe" / "hasira" lafızlarıyla eşleşiyor mu	sonra
+K6-0753	6	eksik	9:65 karşılık 9:66 "nu'azzib tâifeten" (K9'da azap_genel)	odul_ayet=9:66; odul=azap_genel; tur=sonuc
+K6-0756	6	eksik	11:38 karşılık 11:39 "men ye'tîhi azâbun yuhzîh" (K9'da hizy)	odul_ayet=11:39; odul=hizy; tur=sonuc
+K6-0761	6	eksik	23:110 aynı hitabın başı 23:108 "ihse'û fîhâ ve lâ tükellimûn"	odul_ayet=23:108; odul=kovulma (yeni kod "Ateşte kovulma, konuşturulmama (ihse'û)"); tur=sonuc
+K6-0780	6	bulgu	4:173 not "korkunç azap", ayet "azâben elîmâ"	not düzelt
+K6-0786	6	bulgu	31:7 not "korkunç azap", ayet "azâbin elîm"	not düzelt
+K6-0792	6	bulgu	3:188 not "korkunç azap", ayet "azâbun elîm"	not düzelt
+K6-0800	6	bulgu	28:81 "fe-hasefnâ bihî ve bi-dârihi'l-arda" = yere batırma (hasf); genel "helak" yerine lafız	odul=yere_batirilma (yeni kod "Yere batırılma (hasf)"); K9 28:81 de
+K6-0803	6	bulgu	57:23 yasak "lâ tefrahû" (şımarma); sevgi yokluğu "muhtâl fahûr" sınıfına — farklı adla anılan sınıf	der=→
+GLOBAL	-	tarama	"خسف" (hasf) geçen karşılık ayetlerinde kod helak/azap mı? → yere_batirilma	sonra
+K7-0868	7	bulgu	5:94 not "korkunç azap", ayet "azâbun elîm"	not düzelt
+K7-0870	7	eksik	5:95 "ve men âde fe-yentekimu'llâhu minh" ayette yazılı (K9'da intikam)	ADD intikam ✓ sonuc
+K7-0891	7	eksik	2:229 "ve men yeteadde hudûda'llâhi fe-ulâike hümü'z-zâlimûn" ayette yazılı	ADD zalim_sayilma ✓ sonuc
+K7-0893	7	eksik	2:232 "zâliküm ezkâ leküm ve ethar" ayette yazılı (24:30 ile aynı kalıp, arinma)	ADD arinma ✓ sonuc
+K7-0899	7	bulgu	5:87 sevgi yokluğu "el-mu'tedîn"e (sınırı aşanlar); haramlaştırma başlığına bağı bağlamdan	der=→
+K7-0911	7	bulgu	16:116 "lâ yuflihûn" — felah_yok (K6 ile aynı düzeltme)	odul=felah_yok
+K10-2351	10	eksik	2:54 "zâliküm hayrun leküm ... fe-tâbe aleyküm" ayette yazılı; karşılık kodlanmamış	ADD kabul ✓ sonuc (+ hayir)
+K10-2353	10	bulgu	2:279 "fe-leküm ruûsü emvâliküm" karşılık; tür sonuc ama kod yok	odul=anapara (yeni kod "Ana paranın kendisinde kalması")
+K10-2349	10	bulgu	40:7 arşı taşıyanların duası "fağfir li'llezîne tâbû": mağfiret istenir, verildiği yazılı değil	der=→
+K10-2360	10	bulgu	5:74 "e-fe-lâ yetûbûne ... va'llâhu gafûrun rahîm": sıfat cümlesi şartın cevabı değil	der=→
+K10-2363	10	bulgu	9:5 "fe-hallû sebîlehüm" karşılık; tür sonuc kod yok (K3'te yol_serbest)	odul=yol_serbest
+K10-2364	10	bulgu	9:11 "fe-ihvânüküm fi'd-dîn" karşılık; kod yok (K3'te din_kardesligi)	odul=din_kardesligi
+K10-2365	10	eksik	9:74 "fe-in yetûbû yekü hayran lehüm" tövbe başlığının asıl karşılığı; yalnız yüz çevirmenin azabı kodlu	ADD hayir ✓ sonuc
+K10-2367	10	eksik	9:112 "ve beşşiri'l-mü'minîn" (K8'de mujde ✓)	odul=mujde; tur=sonuc
+K10-2368	10	eksik	11:3 "yümetti'küm metâ'an hasenen" ayette yazılı	ADD guzel_gecim (yeni kod "Güzel bir geçimle yaşatılma") ✓
+K9-11:3	9	bulgu	11:3 K9 kaydı: "azâbe yevmin kebîr" azap_azim kodlu, not "korkuturum" (ayet: ehâfu = korkarım); Hûd'un uyarısı	odul=azap_buyuk_gun; der=→; not düzelt
+K10-2369	10	eksik	11:52 "yursili's-semâe ... ve yezidküm kuvveten" ayette yazılı (K8'de dunyevi_bereket)	odul=dunyevi_bereket; tur=emir kalır
+K10-2378	10	eksik	66:8 "en yükeffira anküm seyyiâtiküm" ayette yazılı; yalnız cennet kodlu (K8 ve K10)	ADD gunah_ortme ✓
+K10-2379	10	bulgu	3:90 "len tukbele tevbetühüm" karşılık; tür sonuc kod yok (K9'da tovbe_kabul_edilmez)	odul=tovbe_kabul_edilmez
+K10-2380	10	bulgu	4:18 not "korkunç azap", ayet "azâben elîmâ"; "leyseti't-tevbetü" de karşılık	not düzelt; ADD tovbe_kabul_edilmez ✓
+K10-2382	10	eksik	85:10 "ve lehüm azâbü'l-harîk" (K9'da yangin_azabi)	ADD yangin_azabi ✓
+K10-2409	10	bulgu	10:47 karşılık kodu yok, tür sonuc (kural cümlesi)	tur=tanim
+K10-2410	10	bulgu	10:54 aynı	tur=tanim
+K10-2414	10	bulgu	17:71 aynı	tur=tanim
+K10-2415	10	bulgu	20:112 aynı	tur=tanim
+K10-2422	10	bulgu	2:261 "yudâ'ifu" — K3'te kat_kat, burada artirma (tutarsız)	odul=kat_kat
+K3-0288	3	bulgu	2:265 "âtet ükulehâ di'feyn" — K10'da kat_kat, K3'te artirma (tutarsız)	odul=kat_kat
+K10-2427	10	eksik	34:37 "ve hüm fi'l-ğurufâti âminûn" ayette yazılı	ADD gurfe ✓
+K10-2431	10	bulgu	64:17 kat_kat başlığında ama kod magfiret; "yudâ'ifhü" kat_kat (magfiret K3'e eklendi)	odul=kat_kat; ADD magfiret ✓
+K10-2440	10	eksik	9:20 derece başlığında "a'zamu deraceten" kodlanmamış (yalnız fevz)	ADD derece ✓
+K10-2463	10	bulgu	16:25 "li-yahmilû evzârahüm kâmileten" karşılık; tür sonuc kod yok	odul=gunah_yuklenme
+K10-2466	10	bulgu	20:100-101 "yahmilu ... vizran / ve sâe lehüm ... himlâ" karşılık; kod yok	odul=gunah_yuklenme
+K11-2528	11	eksik	3:31 "yuhbibkümü'llâh" ayetin asıl karşılığı (sevgi) kodlanmamış; yalnız magfiret var	ADD sevgi ✓
+K11-2530	11	bulgu	3:188 not "korkunç azap", ayet "azâbun elîm"	not düzelt
+K11-2533	11	eksik	9:23 "ve men yetevellehüm minküm fe-ulâike hümü'z-zâlimûn" ayette yazılı	ADD zalim_sayilma ✓ sonuc
+K11-2535	11	bulgu	24:19 not "korkunç azap", ayet "azâbun elîm"	not düzelt
+K11-2544	11	bulgu	19:96 "seyec'alu lehümü'r-rahmânu vüddâ": sevginin kimden kime olduğu lafızda belirtilmez; "Allah'ın sevgisi" adı kesin değil	der=→; not'a açıklama
+K11-2550	11	bulgu	60:7 Allah'ın düşmanlarla aranıza mevedde koyabileceği: insanlar arası sevgi, "Allah'ın sevgisi" kodu yanlış	odul=-
+K12-2552	12	eksik	4:31 "ve nüdhilküm müdhalen kerîmâ" ayette yazılı; K8'de "cennet →" ile kodlu — lafız "değerli giriş yeri"	ADD mudhal_kerim (yeni kod) ✓; K8 4:31 odul=mudhal_kerim der=✓
+K12-2556	12	bulgu	53:32 "inne rabbeke vâsiu'l-mağfira" sıfat cümlesi, kaçınanlara doğrudan bağış bildirmez (K12'de 3 kayıt: kebair, fahsa, lemem)	der=→
+K12-2559	12	eksik	3:136 "ve cennâtün" ayette yazılı (K8'de cennet)	ADD cennet ✓
+K12-2569	12	bulgu	24:19 not "korkunç azap", ayet "azâbun elîm"	not düzelt
+K12-2579	12	bulgu	2:85 karşılık (hizy) var ama tür tanim	tur=sonuc
+K12-2582	12	bulgu	2:181 "fe-innemâ ismühû ale'llezîne yübeddilûneh" karşılık; kod yok	odul=gunah_yuklenme; tur=sonuc
+K12-2590	12	bulgu	4:48 karşılık (magfiret_yok) var ama tür tanim	tur=sonuc
+K12-2593	12	bulgu	4:111 "fe-innemâ yeksibühû alâ nefsih" karşılık (kendi_aleyhine)	odul=kendi_aleyhine; tur=sonuc
+K12-2594	12	bulgu	4:112 tür sonuc kod yok; K6'da iftira_gunah	odul=iftira_gunah
+K12-2605	12	bulgu	33:58 tür sonuc kod yok; K6'da iftira_gunah	odul=iftira_gunah
+K12-2609	12	bulgu	58:8 karşılık (cehennem) var ama tür tanim	tur=sonuc
+K12-2630	12	eksik	46:31 "ve yücirküm min azâbin elîm" ayette yazılı	ADD azaptan_korunma (yeni kod "Acıklı azaptan korunma") ✓
+K12-2635	12	eksik	61:12 "yağfir leküm zünûbeküm" zenb başlığının asıl karşılığı; yalnız cennet kodlu	ADD magfiret ✓
+K12-2636	12	bulgu	67:11 "fe-suhkan li-ashâbi's-saîr": karşılık lafzı "suhkan" (uzak olsunlar), "cehennem" değil	odul=suhk (yeni kod "Uzak olsunlar (suhkan)")
+K12-2641	12	bulgu	12:29 Aziz'in karısına sözü; ilahi emir değil	tur=tanim
+K12-2653	12	bulgu	5:26 "fe-innehâ muharrametün aleyhim erbaîne seneh, yetîhûne fi'l-ard" karşılık; kod yok	odul=tih (yeni kod "Kırk yıl yurdun haram kılınması ve şaşkın dolaşma (tîh)")
+K12-2659	12	bulgu	6:49 K4'te "azap", burada "azap_genel" — aynı etiketli iki kod	GLOBAL birleştir (azap_genel→azap)
+K12-2663	12	bulgu	7:145 "se-ürîküm dâra'l-fâsıkîn" karşılık değil; kod yok, tür sonuc	tur=tanim
+K12-2664	12	bulgu	7:163 "kezâlike nebluhüm bimâ kânû yefsukûn" sınanma karşılığı; kod yok	odul=sinanma (yeni kod "Sınanma (ibtilâ)")
+K12-2665	12	bulgu	7:165 "bi-azâbin beîs" = çetin azap; kod "azap" genel; azap_cetin mevcut	odul=azap_cetin
+K12-2671	12	bulgu	9:84 kod yok tür sonuc; fâsık olarak ölme tarifi	tur=tanim
+K12-2672	12	bulgu	9:96 razi_olmama karşılık, tür tanim	tur=sonuc
+K12-2673	12	bulgu	10:33 "hakkat kelimetü rabbike" karşılık (azap_hak)	odul=azap_hak
+K12-2676	12	bulgu	21:74 kod yok tür sonuc (kent halkının tarifi)	tur=tanim
+K12-2677	12	bulgu	24:4 kod yok tür sonuc (fâsık adlandırması)	tur=tanim
+K12-2678	12	bulgu	24:55 kod yok tür sonuc	tur=tanim
+GLOBAL	-	tarama	gokten_felaket / azap_gokten ikisi de "ricz mine's-semâ'" için; tek kod (azap_gokten). azap / azap_genel aynı etiket	sonra
+K12-2693	12	bulgu	59:5 "ve li-yuhziye'l-fâsıkîn" karşılık var, tür tanim	tur=sonuc
+K12-2695	12	eksik	61:5 "fe-lemmâ zâğû ezâğa'llâhu kulûbehüm" ayette yazılı karşılık	ADD kalp_egriltme (yeni kod "Kalplerin eğriltilmesi (izâğa)") ✓
+K12-2701	12	bulgu	10:23 "innemâ bağyüküm alâ enfüsiküm" karşılık (kendi aleyhine); kod yok	odul=kendi_aleyhine
+K12-2714	12	eksik	5:79 sebep cümlesi; karşılık 5:78 lanet (K9'da lanet →)	odul_ayet=5:78; odul=lanet; der=→; tur=sonuc
+K12-2717	12	eksik	9:71 "ulâike seyerhamühümü'llâh" ayette yazılı (K3'te rahmet)	odul=rahmet; tur=sonuc
+K12-2718	12	eksik	9:112 "ve beşşiri'l-mü'minîn" (K8'de mujde)	odul=mujde; tur=sonuc

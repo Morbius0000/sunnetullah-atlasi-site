@@ -6,21 +6,21 @@ K6a	taniklik_gizleme	2:283	2:283	gunah_yuklenme	✓	"Onu gizleyen, kalbi günaha
 K6a	rai_na_demeyin	2:104	2:104	-	✓	"'Râina' demeyin, 'unzurna' deyin"	yasak
 K6a	sehit_icin_olu_demek	2:154	2:154	-	✓	"Allah yolunda öldürülenler için 'ölüler' demeyin"	yasak
 K6a	allaha_iftira	3:94	3:94	zalim_sayilma	✓	"Kim yalan düzüp Allah'a iftira ederse böyleleri zalimlerin ta kendileridir"	sonuc
-K6a	yapmadigiyla_ovunme	3:188	3:188	azap_elim	✓	"Yapmadıkları şeylerle övünmeyi seven kişiler ... korkunç bir azap vardır onlar için"	sonuc
+K6a	yapmadigiyla_ovunme	3:188	3:188	azap_elim	✓	"Yapmadıkları şeylerle övülmeyi seven kişileri azaptan kurtulmuş sanma; onlar için acıklı bir azap vardır"	sonuc
 K6a	kasilip_bobürlenme	4:36	4:36	sevilmeme	✓	"Allah, kasılıp böbürlenen şımarıkları sevmez"	sonuc
 K6a	kasilip_bobürlenme	4:37	4:37	azap_muhin	→	Böbürlenenler cimriliğe sapar, saklarlar; "nankörler için rezil edici bir azap hazırladık"	sonuc
 K6a	kendini_aklama	4:49	4:49	-	✓	"Benliklerini ak, berrak gösterip duranlara bak! ... Allah dilediğini temizleyip aklar" (kınama)	tanim
 K6a	allaha_iftira	4:50	4:50	iftira_gunah	✓	"Nasıl yalan düzüp iftira ediyorlar Allah'a! Açık günah olarak bu yeter"	sonuc
 K6a	selam_verene_mumin_degilsin_demek	4:94	4:94	-	✓	"Size selam verene 'Sen mümin değilsin!' demeyin"	yasak
-K6a	suclu_olmayani_itham	4:112	4:112	gunah_yuklenme	✓	"Bir hata/günah işleyip onunla bir suçsuzu itham ederse büyük bir iftira ve açık bir günah yüklenmiş olur"	sonuc
+K6a	suclu_olmayani_itham	4:112	4:112	iftira_gunah	✓	"Bir hata/günah işleyip onunla bir suçsuzu itham ederse büyük bir iftira ve açık bir günah yüklenmiş olur"	sonuc
 K6a	fisildasma	4:114	4:114	-	✓	"Fısıldaşmalarının çoğunda hayır yoktur"; istisna: sadaka, iyilik, barıştırma	tanim
 K6a	guzel_soz_emri	4:5	4:5	-	✓	Beyinsizlere mal verilmez ama "onlara tatlı ve işe yarar bir söz söyleyin"	emir
 K6a	guzel_soz_emri	4:8	4:8	-	✓	Miras paylaşımında hazır bulunanlara "güzel ve hoş bir söz söyleyin"	emir
 K6a	meryem_aleyhine_yalan	4:156	4:155	muhurlenme	→	"Meryem aleyhinde büyük bir yalan söylemeleri yüzünden..." (4:156); 4:155'teki mühür cümlesi "küfürleri yüzünden" der; sebepler dizisinin karşılığı 4:160'ta gelir, bu yüzden bağ çıkarımsaldır	sonuc
 K6a	allah_hakkinda_hak_disi_soz	4:171	4:171	-	✓	"Allah hakkında gerçek dışı bir şey söylemeyin! ... 'Üçtür!' demeyin"	yasak
-K6a	kulluktan_cekinip_kibir	4:172	4:173	azap_elim	✓	"Kulluktan çekinip büyüklük taslayanlara korkunç bir azapla azap edecektir"	sonuc
+K6a	kulluktan_cekinip_kibir	4:172	4:173	azap_elim	✓	"Kulluktan çekinip büyüklük taslayanlara acıklı bir azapla azap edecektir" (4:173)	sonuc
 K6a	kulluktan_cekinip_kibir	4:173	4:173	yardimsizlik	✓	"Allah'tan başka ne bir dost ne bir yardımcı bulacaklardır"	sonuc
-K6a	allaha_iftira	6:21	6:21	husran	✓	"Yalan düzerek Allah'a iftira eden ... zalimler asla kurtulamazlar"	sonuc
+K6a	allaha_iftira	6:21	6:21	felah_yok	✓	"Yalan düzerek Allah'a iftira eden ... zalimler asla kurtulamazlar"	sonuc
 K6a	allaha_iftira	6:93	6:93	zillet_azabi	✓	"Allah'a karşı gerçek dışı şeyler söylüyorsunuz, ayetlerine karşı büyüklük taslıyordunuz: zillet azabıyla cezalandırılacaksınız"	sonuc
 K6a	allaha_iftira	6:138	6:138	cezalandirma	✓	Hayvanlarla ilgili iftira: "Allah onları üretmekte oldukları iftiralar yüzünden cezalandıracaktır"	sonuc
 K6a	allaha_iftira	6:140	6:140	husran	✓	"Rızıkları Allah'a iftira ederek haramlaştıranlar gerçekten hüsrana uğramışlardır"	sonuc
@@ -38,12 +38,12 @@ K6b	gosteris_ve_calim_satma	8:47	8:47	kusatma	→	"Allah onların yapmakta olduk
 K6b	alay_ve_laf_atma	9:58	9:58	-	✓	Sadakalar konusunda Peygamber'e "laf dokunduran" bir kısım: verilirse memnun, verilmezse öfkelenir	tanim
 K6b	alay_ve_laf_atma	9:79	9:79	maskaraya_cevirme	✓	Cömert müminlere laf atanları ve gücü yetmeyenleri alay konusu edenleri "Allah maskaraya çevirecektir"	sonuc
 K6b	alay_ve_laf_atma	9:79	9:79	azap_elim	✓	"Onlar için acıklı bir azap da vardır"	sonuc
-K6b	allaha_iftira	10:17	10:17	basarisizlik	→	"Yalan düzerek Allah'a iftira eden ... suçlular iflah etmezler"	sonuc
+K6b	allaha_iftira	10:17	10:17	felah_yok	→	"Yalan düzerek Allah'a iftira eden ... suçlular iflah etmezler"	sonuc
 K6b	allah_hakkinda_hak_disi_soz	10:68	10:68	-	✓	"Allah çocuk edindi!" diyenlere: "Allah hakkında bilmediğiniz şeyi mi söylüyorsunuz?"	tanim
 K6b	kendini_begenmislik	11:10	11:10	-	✓	Nimetten sonra: "bir sevinç şımarığı, bir kendini beğenmiş olur"; sabredenler böyle yapmaz (11:11)	tanim
 K6b	allaha_iftira	11:18	11:18	lanet	✓	"Yalan düzerek Allah'a iftira edenden daha zalim kim var? ... Allah'ın laneti zalimler üstünedir"	sonuc
 K6b	allaha_iftira	16:116	16:116	-	✓	"Dillerinizin uydurma nitelendirmeleriyle 'Şu helaldir, şu da haramdır!' demeyin"	yasak
-K6b	allaha_iftira	16:116	16:116	basarisizlik	✓	"Allah'a iftira edenler kurtulamazlar"	sonuc
+K6b	allaha_iftira	16:116	16:116	felah_yok	✓	"Allah'a iftira edenler kurtulamazlar"	sonuc
 K6b	allaha_iftira	16:117	16:117	azap_elim	✓	"Az bir nimetlenme ardından acıklı bir azap var onlara"	sonuc
 K6b	ana_babaya_soz	17:23	17:23	-	✓	"Sakın onlara 'Öf!' bile deme; onları azarlama"	yasak
 K6b	ana_babaya_soz	17:23	17:23	-	✓	"Onlara tatlı, iltifatlı söz söyle"	emir
@@ -60,6 +60,7 @@ K6c	kasilip_kabararak_yuruyus	17:38	17:38	-	✓	"Bütün bu sayılanların köt�
 K6c	yarin_yapacagim_deme	18:23	18:23	-	✓	"Hiçbir şey için 'Ben bunu yarın kesinlikle yapacağım' deme" — "Allah dilerse" de (18:24)	yasak
 K6c	allaha_iftira	18:15	18:15	zalim_sayilma	✓	"Yalan düzerek Allah'a iftira edenden daha zalim kim olabilir?!"	sonuc
 K6c	allaha_iftira	20:61	20:61	-	✓	Mûsa: "Yalan düzerek Allah'a iftira etmeyin!"	yasak
+K6c	allaha_iftira	20:61	20:61	basarisizlik	✓	"İftira eden muhakkak başarısız olmuştur" (ve kad hâbe meni'fterâ)	sonuc
 K6c	allaha_iftira	20:61	20:61	helak	✓	"Yoksa bir azap ile kökünüzü kurutur. İftira eden, perişan olmuştur"	sonuc
 K6c	alay_ve_laf_atma	21:36	21:36	-	✓	İnkâr edenler Peygamber'i "alaya almaktan başka bir şey yapmazlar"	tanim
 K6c	yalan_soz_zur	22:30	22:30	-	✓	"Putların pisliğinden, yalan sözden uzak durun"	yasak
@@ -78,11 +79,11 @@ K6d	kibir_buyukluk_taslama	27:31	27:31	-	✓	Süleyman'ın mektubu: "Bana büyü
 K6d	karun_simarikligi	28:76	28:76	-	✓	Karun'un kavmi: "Şımarma"	yasak
 K6d	karun_simarikligi	28:76	28:76	sevilmeme	✓	"Allah şımaranları sevmez"	sonuc
 K6d	karun_simarikligi	28:78	28:78	-	✓	Karun: "Bu servet bana bendeki bir ilim sayesinde verildi"	tanim
-K6d	karun_simarikligi	28:81	28:81	helak	✓	"Karun'u da sarayını da yere geçirdik. Allah'a karşı yardım edecek yandaşları yoktu"	sonuc
+K6d	karun_simarikligi	28:81	28:81	yere_batirilma	✓	"Karun'u da yurdunu da yere batırdık (fe-hasefnâ bihî ve bi-dârihi'l-ard). Allah'a karşı ona yardım edecek bir topluluk yoktu"	sonuc
 K6d	simarik_yasayis_kentleri	28:58	28:58	helak	✓	"Yaşayışı şımarıklık ve gösterişe yol açmış nice kenti helâk ettik biz"	sonuc
 K6d	allaha_iftira	29:68	29:68	cehennem	→	"Yalan düzüp Allah'a iftira eden ... Cehennemde değil midir kâfirlerin barınağı?"	sonuc
 K6d	alay_ve_laf_atma	31:6	31:6	azap_muhin	✓	Allah yolundan saptırmak için laf eğlencesi alıp ayetleri alay konusu edinene "rezil edici bir azap vardır"	sonuc
-K6d	kibirle_yuz_cevirme	31:7	31:7	azap_elim	✓	Ayetler okununca böbürlenerek yüz çeviren: "korkunç bir azapla muştula"	sonuc
+K6d	kibirle_yuz_cevirme	31:7	31:7	azap_elim	✓	Ayetler okununca büyüklük taslayarak yüz çeviren: "ona acıklı bir azabı müjdele"	sonuc
 K6d	kibir_buyukluk_taslama	31:18	31:18	-	✓	"Kibirlenerek insanlardan yüzünü çevirme, yeryüzünde kasılarak yürüme"	yasak
 K6d	kibir_buyukluk_taslama	31:18	31:18	sevilmeme	✓	"Allah, kurula kurula kendini övenlerin hiçbirini sevmez"	sonuc
 K6d	ses_ve_yuruyus_edebi	31:19	31:19	-	✓	"Yürüyüşünde doğal ol, sesini alçalt"	emir
@@ -99,13 +100,14 @@ K6e	alay_ve_laf_atma	45:33	45:33	kusatma	✓	"Alay edip durdukları şey kendile
 K6e	peygamber_sesinin_ustune_ses	49:2	49:2	-	✓	"Seslerinizi o Peygamber'in sesinin üstüne yükseltmeyin! ... sözü yükseltmeyin"	yasak
 K6e	peygamber_sesinin_ustune_ses	49:2	49:2	amel_bosa	✓	"Yoksa siz hiç farkında olmadan amelleriniz eriyip gider"	sonuc
 K6e	alay_ve_laf_atma	49:11	49:11	-	✓	"Bir topluluk başka bir toplulukla alay etmesin ... kadınlar da başka kadınlarla alay etmesinler; alay ettikleri kendilerinden hayırlı olabilir"	yasak
+K6e	alay_ve_laf_atma	49:11	49:11	zalim_sayilma	✓	"Kim tövbe etmezse, işte onlar zalimlerin ta kendileridir"	sonuc
 K6e	lakap_takma_ve_ayiplama	49:11	49:11	-	✓	"Öz benliklerinizi ayıplamayın; birbirinize lakaplar yakıştırmayın"	yasak
 K6e	lakap_takma_ve_ayiplama	49:11	49:11	zalim_sayilma	✓	"Kim ki tövbe etmez, işte böyleleri zalimlerin ta kendileridir"	sonuc
 K6e	zan_casusluk_gıybet	49:12	49:12	-	✓	"Zandan çok sakının! Zannın bir kısmı günahtır. Sinsi casuslar gibi ayıp aramayın! Gıybet ederek biriniz ötekini arkasından çekiştirmesin! Ölmüş kardeşinin etini yemek ister mi?"	yasak
 K6e	minnet_etme	49:17	49:17	-	✓	"İslamınızı benim başıma kakmayın!"	yasak
 K6e	yalanci_duzenbazlar	51:10	51:10	kahretme	✓	"Kahrolsun o düzenbaz yalancılar"	sonuc
 K6e	simarma_ve_ovunme	57:23	57:23	-	✓	"Allah'ın size verdiğiyle sevinip şımarmayasınız"	yasak
-K6e	simarma_ve_ovunme	57:23	57:23	sevilmeme	✓	"Allah, kendini beğenip övünenlerin hiçbirini sevmez"	sonuc
+K6e	simarma_ve_ovunme	57:23	57:23	sevilmeme	→	"Allah, kendini beğenip övünenlerin (muhtâl fahûr) hiçbirini sevmez": şımarma yasağının hemen ardında; sevgi yokluğu ayrı adla anılan sınıfa bağlıdır	sonuc
 K6e	zihar_sozu	58:2	58:2	-	✓	Zıhar edenler "kabul edilemez bir söz ve boş bir lakırdı sarf ediyorlar"	tanim
 K6e	yemini_kalkan_edinme	58:16	58:16	azap_muhin	✓	"Yeminlerini kalkan edinip Allah'ın yolundan alıkoydular. Küçük düşürücü bir azap var onlara"	sonuc
 K6e	yemini_kalkan_edinme	58:18	58:18	-	✓	"Size yemin ettikleri gibi O'na da yemin edecekler ... onlar yalancıların ta kendileridir"	tanim
@@ -121,11 +123,12 @@ K6f	ses_ve_yuruyus_edebi	17:110	17:110	-	✓	"Namazında sesini yükseltme, kıs
 K6g	israf	25:67	25:67	-	✓	Müminler: "Harcadıkları zaman ne savurganlığa saparlar ne de cimrilik ederler; ikisi arasında bir denge"	tanim
 K6g	israf	26:151	26:151	-	→	"Savurganlık edenlerin/haddi aşanların (el-müsrifîn) buyruğuna uymayın" — kelimenin mal savurganlığı mı genel sınır aşma mı olduğu lafızdan kesin ayrılmaz	yasak
 K6g	israf	20:127	20:127	cezalandirma	→	"İsraf eden/haddi aşan ve ayetlere inanmayanları böyle cezalandırırız; âhiret azabı çok daha şiddetlidir" (müsrif = haddi aşan olabilir)	sonuc
+K6g	israf	20:127	20:127	azap_siddetli	→	"Âhiret azabı daha şiddetli ve daha kalıcıdır" (ve le-azâbü'l-âhirati eşeddü ve ebkâ)	sonuc
 K6g	israf	40:43	40:43	nar	→	"Aşırılığa sapanlar (el-müsrifûn) ateş halkının ta kendileridir" (Mü'min 43; müsrif = haddi aşan olabilir)	sonuc
 K6g	alay_ve_laf_atma	5:57	5:57	-	✓	"Dininizi oyun ve eğlence edinenleri dost tutmayın"	yasak
 K6g	alay_ve_laf_atma	5:58	5:58	-	✓	"Namaza çağırdığınızda onu oyun ve eğlence edindiler"	tanim
-K6g	alay_ve_laf_atma	9:65	9:65	-	✓	"Lakırdıya dalmış, şakalaşıyorduk" diyenlere: "Allah ile, ayetleriyle, resulüyle mi eğleniyordunuz?" (9:64-65)	tanim
-K6g	alay_ve_laf_atma	11:38	11:38	-	✓	Nûh gemiyi yaparken toplumundan geçenler "onunla alay ediyorlardı"	tanim
+K6g	alay_ve_laf_atma	9:65	9:66	azap	✓	"Allah ile, ayetleriyle, resulüyle mi eğleniyordunuz?" (9:65); "Özür dilemeyin, imandan sonra küfre saptınız ... bir kesimi suçlu oldukları için azaba uğratacağız" (9:66)	sonuc
+K6g	alay_ve_laf_atma	11:38	11:39	hizy	✓	Nûh gemiyi yaparken toplumundan geçenler onunla alay ediyordu (11:38); "rezil eden azabın kime geleceğini bileceksiniz" (11:39)	sonuc
 K6g	alay_ve_laf_atma	2:67	2:67	-	✓	Mûsa: "Cahillerden biri olmaktan Allah'a sığınırım" (alay edip etmediği sorusuna karşı)	tanim
 K6g	alay_ve_laf_atma	6:10	6:10	kusatma	✓	"Eğlence konusu yaptıkları şey, o maskaralığı sergileyenleri kıskıvrak sarıverdi"	sonuc
 K6g	alay_ve_laf_atma	16:34	16:34	kusatma	✓	"Alay edip durdukları şey kendilerini sarıvermişti"	sonuc
@@ -135,6 +138,6 @@ K6g	alay_ve_laf_atma	40:83	40:83	kusatma	✓	"Alay edip durdukları şey kendile
 K6g	alay_ve_laf_atma	46:26	46:26	kusatma	✓	"Alaya aldıkları şey onları kuşatıp sardı"	sonuc
 K6g	alay_ve_laf_atma	45:35	45:35	atesten_cikarilmama	✓	"Ayetlerimizi eğlence aracı yaptınız ... Bugün ateşten çıkarılmayacaklar"	sonuc
 K6g	alay_ve_laf_atma	18:106	18:106	cehennem	✓	"Ayetlerimi ve resullerini eğlence aracı yaptılar: cezaları cehennemdir"	sonuc
-K6g	alay_ve_laf_atma	23:110	23:110	-	✓	"Siz onları alaya aldınız ... Siz onlara hep gülüyordunuz"	tanim
+K6g	alay_ve_laf_atma	23:110	23:108	kovulma	✓	"Siz onları alaya aldınız, onlara gülüyordunuz" (23:110); aynı hitabın başı: "Sinin orada, bana konuşmayın!" (ihse'û fîhâ ve lâ tükellimûn, 23:108)	sonuc
 K6g	bos_soz_lagv	23:3	23:3	-	✓	Müminlerin niteliği: "Boş ve lüzumsuz sözden yüz çevirmişlerdir"	tanim
 K6g	bos_soz_lagv	28:55	28:55	-	✓	"Boş lakırdıyı duyduklarında ondan yüz çevirir: 'Amellerimiz bize, sizin amelleriniz size. Selam olsun hepinize'"	tanim

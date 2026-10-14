@@ -1,12 +1,13 @@
 # blok	davranis	davranis_ayet	ceza_ayet	ceza	derece	not	tur
-K5a	kan_dokme_yasagi_israilogullari	2:84	2:84	-	✓	İsrailoğullarından alınan söz: "Birbirinizin kanını dökmeyeceksiniz"	yasak
+K5a	kan_dokme_yasagi_israilogullari	2:84	2:84	-	✓	İsrailoğullarından alınan söz: "Birbirinizin kanını dökmeyeceksiniz"	tanim
 K5a	birbirini_oldurme_ve_yurttan_cikarma	2:85	2:85	hizy	✓	"Birbirinizi öldürüyorsunuz ... cezası dünya hayatında rezillikten başka bir şey değildir"	sonuc
 K5a	birbirini_oldurme_ve_yurttan_cikarma	2:85	2:85	azap_siddetli	✓	"Kıyamet gününde ise böyleleri azabın en şiddetlisine itilir"	sonuc
 K5a	erkek_cocuklari_bogazlama_firavun	2:49	2:49	-	✓	Firavun hanedanı: "Erkek çocuklarınızı boğazlıyorlar, kadınlarınızı diri bırakıyorlardı"	tanim
 K5a	haksiz_yere_peygamber_oldurme	2:61	2:61	gazab	✓	"Allah'ın ayetlerini inkâr ediyor ve haksız yere peygamberleri öldürüyorlardı" ... "zillet, eziklik ve yoksulluk damgası vuruldu, Allah'tan bir gazaba çarpıldılar"	sonuc
+K5a	haksiz_yere_peygamber_oldurme	2:61	2:61	zillet	✓	"Üzerlerine zillet ve yoksulluk damgası vuruldu" (duribet aleyhimü'z-zilletü ve'l-meskenetü)	sonuc
 K5a	resulleri_oldurme	2:87	2:87	-	✓	"Bir kısmını yalanladınız, bir kısmını da öldürüyorsunuz"	tanim
 K5a	kisas_emri	2:178	2:178	-	✓	"Öldürülenler hakkında üzerinize kısas yazılmıştır"	emir
-K5a	kisasta_azginlik_ve_dusmanlik	2:178	2:178	azap_elim	✓	"Kim bundan sonra azgınlık ve düşmanlık ederse onun için korkunç bir azap vardır"	sonuc
+K5a	kisasta_azginlik_ve_dusmanlik	2:178	2:178	azap_elim	✓	"Kim bundan sonra haddi aşarsa (i'tedâ) onun için acıklı bir azap vardır"	sonuc
 K5a	kisasta_hayat	2:179	2:179	-	✓	"Kısasta sizin için hayat vardır"	tanim
 K5a	mallari_batil_yolla_yeme_yasagi	2:188	2:188	-	✓	"Mallarınızı aranızda haksız ve uydurma yollara baş vurarak yemeyin"	yasak
 K5a	riba_haram_kilindi	2:275	2:275	-	✓	"Allah, alış-verişi helal, ribayı haram kılmıştır"	yasak
@@ -14,7 +15,7 @@ K5a	riba_yiyenlere_donus_cezasi	2:275	2:275	nar_ebedi	✓	"Yeniden ribaya dönen
 K5a	riba_artisini_mahvetme	2:276	2:276	mahvolma	✓	"Allah, ribadan beklenen artışı mahveder"	sonuc
 K5a	ribadan_geri_kalani_birakma	2:278	2:278	-	✓	"Ribadan geri kalanı bırakın"	emir
 K5a	ribayi_birakmayana_harp_ilani	2:279	2:279	tehdit	✓	"Eğer bunu yapmazsanız Allah ve resulünden bir harp ilanını duymuş olun"	sonuc
-K5a	haksiz_oldurme_ve_adaleti_emredenin_canina_kiyma	3:21	3:21	azap_elim	✓	"Haksız yere peygamberleri öldürenler ve adaletle emredenlerin canına kıyanlar ... onlara korkunç bir azabı muştula"	sonuc
+K5a	haksiz_oldurme_ve_adaleti_emredenin_canina_kiyma	3:21	3:21	azap_elim	✓	"Haksız yere peygamberleri öldürenler ve adaletle emredenlerin canına kıyanlar ... onlara acıklı bir azabı müjdele"	sonuc
 K5a	ribayi_kat_kat_yeme_yasagi	3:130	3:130	-	✓	"Ribayı öyle kat kat katlayarak yemeyin"	yasak
 K5a	ribayi_kat_kat_yeme_yasagi	3:130	3:130	felah	→	"Allah'tan sakının ki felaha eresiniz": felah takvaya bağlanır, ribâ yasağının hemen ardında	sonuc
 K5a	seytanin_cirkinlik_emri	2:169	2:169	-	✓	"Şeytan size kötülüğü (es-sû'), çirkinliği (el-fahşâ) ve Allah hakkında bilmediğiniz şeyleri söylemenizi emreder"	tanim
@@ -36,13 +37,14 @@ K5a	muminin_mumini_hata_ile_oldurmesi_diyet	4:92	4:92	-	✓	"Yanlışlıkla bir 
 K5a	mumini_kasten_oldurme	4:93	4:93	nar_ebedi	✓	"Bir mümini kasten öldürenin cezası içinde sürekli kalmak üzere cehennemdir"	sonuc
 K5a	mumini_kasten_oldurme	4:93	4:93	gazab	✓	"Allah gazap etmiştir böylesine"	sonuc
 K5a	mumini_kasten_oldurme	4:93	4:93	lanet	✓	"lanetlemiştir onu"	sonuc
-K5a	mumini_kasten_oldurme	4:93	4:93	azap_buyuk	✓	"çok büyük bir azap hazırlamıştır ona"	sonuc
-K5a	riba_ve_batil_mal_yeme	4:161	4:161	azap_elim	→	"Ribayı almaları -oysaki ondan yasaklanmışlardı- ve haksız yollarla insanların mallarını yemeleri yüzünden onların küfre sapanlarına korkunç bir azap hazırladık"	sonuc
+K5a	mumini_kasten_oldurme	4:93	4:93	azap_azim	✓	"çok büyük bir azap hazırlamıştır ona"	sonuc
+K5a	riba_ve_batil_mal_yeme	4:161	4:161	azap_elim	→	"Ribayı almaları -oysaki ondan yasaklanmışlardı- ve insanların mallarını haksız yollarla yemeleri yüzünden ... onların küfre sapanlarına acıklı bir azap hazırladık"	sonuc
 K5a	riba_yasagi_israilogullari	4:161	4:161	-	✓	"Ribayı almaları -oysaki ondan yasaklanmışlardı-"	tanim
 K5a	kardesini_oldurme_habil_kabil	5:30	5:30	husran	✓	"Nefsi onu kardeşini öldürmeye ısındırdı, o da onu öldürdü. Böylece hüsrana uğramışlardan oldu"	sonuc
-K5a	haksiz_yere_kisi_oldurme_insanlari_toptan_oldurme	5:32	5:32	-	✓	"Kim bir kişiyi, bir kişiye karşılık yahut yeryüzünde bir fesat sebebiyle olmaksızın öldürürse, insanları toptan öldürmüş gibidir" (İsrailoğullarına yazılan)	yasak
+K5a	haksiz_yere_kisi_oldurme_insanlari_toptan_oldurme	5:32	5:32	-	✓	"Kim bir kişiyi, bir kişiye karşılık yahut yeryüzünde bir fesat sebebiyle olmaksızın öldürürse, insanları toptan öldürmüş gibidir" (İsrailoğullarına yazılan)	tanim
 K5a	hirsizlik_cezasi	5:38	5:38	el_kesme	✓	"Hırsızlık yapan erkek ve kadının, yaptıklarına karşılık Allah'tan bir ceza olarak ellerini kesin"	emir
-K5a	kisas_can_cana	5:45	5:45	kisas	✓	"Cana can, göze göz, buruna burun, kulağa kulak, dişe diş... Yaralamalar karşılığında da kısas"	emir
+K5a	kisas_can_cana	5:45	5:45	kisas	✓	"Cana can, göze göz, buruna burun, kulağa kulak, dişe diş... Yaralamalar karşılığında da kısas"	tanim
+K5a	kisas_can_cana	5:45	5:45	keffaret	✓	"Kim onu (kısası) sadaka olarak bağışlarsa, bu kendisi için bir keffârettir" (fe-hüve keffâretün leh)	tanim
 K5a	haram_yemede_yarisma	5:62	5:62	-	✓	"Onların birçoğunun günahta, düşmanlıkta, haram yemede yarıştıklarını görürsün. Ne kötüdür o yapmakta oldukları!"	tanim
 K5a	ortaklarin_evlat_oldurmeyi_guzel_gostermesi	6:137	6:137	-	✓	"Allah'a ortak koştukları kişiler, öz evlatlarını öldürmeyi güzel göstermiştir"	tanim
 K5a	ilimsizce_evlat_katletme	6:140	6:140	husran	✓	"İlimsizlik yüzünden öz evlatlarını beyinsizce katledenler ... gerçekten hüsrana uğramışlardır ... sapıtmışlardır"	sonuc
@@ -54,11 +56,12 @@ K5a	olcu_ve_tarti_emri	6:152	6:152	-	✓	"Ölçme ve tartmayı tam bir dürüstl
 K5a	allah_edepsizligi_emretmez	7:28	7:28	-	✓	"Bir iğrençlik [fâhişe] yaptıklarında ... 'Allah emretti bize bunu.' De ki: Allah, edepsizliği emretmez"	tanim
 K5a	lut_kavmi_erkeklere_gitme	7:80	7:84	yagmur	✓	Lût: "Sizden önce alemlerden hiçbirinin yapmadığı bir iğrençliğe mi girişiyorsunuz? ... kadınları bırakıp şehvetiniz yüzünden erkeklere gidiyorsunuz"; 7:84 "Üzerlerine bir de yağmur indirdik. Bak nasıl oldu suçluların sonu!"	sonuc
 K5a	olcu_ve_tartida_durust_olma_suayb	7:85	7:85	-	✓	Şuayb: "Ölçü ve tartıda dürüst davranın"	emir
+K5a	olcu_ve_tartida_durust_olma_suayb	7:85	7:85	hayir	✓	"Bu sizin için daha hayırlıdır, eğer inanıyorsanız" (zâliküm hayrun leküm)	sonuc
 K5a	insanlarin_esyasina_el_koyma_yasagi_suayb	7:85	7:85	-	✓	Şuayb: "İnsanların eşyasına el koymaya tenezzül etmeyin"	yasak
-K5a	altin_gumus_depolayip_harcamama	9:34	9:34	azap_elim	✓	"Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara korkunç bir azap muştula"	sonuc
-K5a	altin_gumus_depolayip_harcamama	9:34	9:35	nar	✓	"Cehennem ateşinde onların üzerine lav dökülür de bununla alınları, böğürleri, sırtları dağlanır"	sonuc
+K5a	altin_gumus_depolayip_harcamama	9:34	9:34	azap_elim	✓	"Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara acıklı bir azabı müjdele"	sonuc
+K5a	altin_gumus_depolayip_harcamama	9:34	9:35	nar	✓	"Cehennem ateşinde onlar (biriktirilen altın ve gümüş) kızdırılır, bununla alınları, böğürleri ve sırtları dağlanır: İşte kendiniz için biriktirdiğiniz" (9:35)	sonuc
 K5a	halkin_mallarini_uydurma_yollarla_yeme	9:34	9:34	-	✓	"Hahamlardan ve rahiplerden birçoğu halkın mallarını uydurma yollarla tıkabasa yerler"	tanim
-K5a	eksik_olcup_yanlis_tartma_yasagi_suayb	11:84	11:84	azap_kusatan	✓	Şuayb: "Eksik ölçüp yanlış tartmayın ... sizi sarıp kuşatan bir günün azabından da korkuyorum"	yasak
+K5a	eksik_olcup_yanlis_tartma_yasagi_suayb	11:84	11:84	azap_kusatan	→	Şuayb: "Eksik ölçüp yanlış tartmayın ... sizi sarıp kuşatan bir günün azabından da korkuyorum"	yasak
 K5a	olcu_ve_tartiyi_tam_yapma_suayb	11:85	11:85	-	✓	Şuayb: "Ölçüyü ve tartıyı tam bir dürüstlükle yapın"	emir
 K5a	insanlarin_esyalarini_tirtiklama_yasagi_suayb	11:85	11:85	-	✓	Şuayb: "İnsanların eşyalarını tırtıklamayın"	yasak
 K5a	yusuftan_kotulugu_ve_fuhsu_uzak_tutma	12:24	12:24	-	✓	"Biz böylece ondan, kötülüğü ve fuhşu uzak tutuyorduk"	tanim
@@ -73,10 +76,11 @@ K5a	olcu_ve_tarti_emri	17:35	17:35	hayir	✓	"Bu daha hayırlıdır, sonuç bak�
 K5a	zina_cezasi_yuz_celde	24:2	24:2	celde_100	✓	"Zina eden kadınla zina eden erkek... Yüz vuruş vurun herbirinin ciltlerine"	emir
 K5a	zina_eden_ile_nikah_haram	24:3	24:3	-	✓	"Zina eden erkeği zina eden bir kadın veya putperest bir kadından başkası nikâhlamaz ... Müminlere bu, haram kılınmıştır"	yasak
 K5a	iffetli_kadina_iftira_kazf	24:4	24:4	celde_80	✓	"İffetli kadınlara iftira atıp da dört tanık getirmeyenlere ... seksen vuruş vurun. Tanıklıklarını ebediyen kabul etmeyin. Onlar sapmışların ta kendileridir"	emir
-K5a	edepsizligin_yayilmasini_arzu_etme	24:19	24:19	azap_elim	✓	"İman edenler içinde edepsizliğin yayılmasını arzu edenler ... dünyada da âhirette de korkunç bir azap öngörülmüştür"	sonuc
+K5a	iffetli_kadina_iftira_kazf	24:4	24:4	sahitlik_reddi	✓	"Onların tanıklığını ebediyen kabul etmeyin" (ve lâ takbelû lehüm şehâdeten ebedâ)	emir
+K5a	edepsizligin_yayilmasini_arzu_etme	24:19	24:19	azap_elim	✓	"İman edenler içinde edepsizliğin yayılmasını arzu edenler ... dünyada da âhirette de acıklı bir azap öngörülmüştür"	sonuc
 K5a	seytanin_adimlarini_izleme_yasagi_fahsa	24:21	24:21	-	✓	"Şeytanın adımlarını izlemeyin. Kim izlerse, şeytan ona iğrençlikleri [el-fahşâ] ve kötülüğü [el-münker] emreder"	yasak
 K5a	iffetli_mumin_kadina_iftira_kazf	24:23	24:23	lanet	✓	"İffetli mümin kadınlara iftira atanlar, dünyada da âhirette de lanete çarptırılmışlardır"	sonuc
-K5a	iffetli_mumin_kadina_iftira_kazf	24:23	24:23	azap_buyuk	✓	"Büyük bir azap vardır onlar için"	sonuc
+K5a	iffetli_mumin_kadina_iftira_kazf	24:23	24:23	azap_azim	✓	"Büyük bir azap vardır onlar için"	sonuc
 K5a	genc_kizlari_fuhsa_zorlama_yasagi	24:33	24:33	-	✓	"Hizmetinizdeki genç kızları, iffetli kalmak isteyip dururlarken, iğreti dünya hayatının basit menfaatini elde etmek için fuhşa zorlamayın"	yasak
 K5a	haksiz_yere_can_almama_ibadurrahman	25:68	25:69	azap_katli	✓	"Allah'ın saygıya layık kıldığı canı haksız yere almazlar ... Bunları yapan cezaya çarpılır. Kıyamet günü azap kendisi için katkat artırılır da hor ve ezik halde onun içinde sürekli kalır"	sonuc
 K5a	zina_etmeme_ibadurrahman	25:68	25:69	azap_katli	✓	"Zina etmezler. Bunları yapan cezaya çarpılır. Kıyamet günü azap kendisi için katkat artırılır"	sonuc
@@ -87,18 +91,18 @@ K5a	lut_kavmi_erkeklere_gitme	27:54	27:54	-	✓	Lût: "Gözünüz göre göre ş
 K5a	erkek_cocuklari_bogazlama_firavun	28:4	28:4	-	✓	Firavun: "Bu topluluğun erkek çocuklarını boğazlıyor ... O gerçekten fesadı yayanlardandı"	tanim
 K5a	lut_kavmi_erkeklere_gitme	29:28	29:28	-	✓	Lût: "Öyle bir iğrençliğe [fâhişe] bulaşıyorsunuz ki, sizden önce âlemlerden bir tek kişi bunu yapmamıştır"; 29:29 "Erkeklere gidiyorsunuz, yol kesiyorsunuz"	tanim
 K5a	namaz_cirkinlik_ve_kotulukten_alikoyar	29:45	29:45	-	✓	"Namaz, çirkinliklerden [el-fahşâ] ve kötülüklerden [el-münker] alıkoyar"	tanim
-K5a	riba_ile_verilen_artmaz	30:39	30:39	-	✓	"İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz"	sonuc
+K5a	riba_ile_verilen_artmaz	30:39	30:39	artmama	✓	"İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz"	sonuc
 K5a	peygamber_hanimlari_acik_edepsizlik	33:30	33:30	azap_iki_kat	✓	"Sizden kim açık/kanıtlanmış bir edepsizlik [fâhişe mübeyyine] yaparsa, kendisi için azap iki katına çıkarılır"	sonuc
 K5a	olcu_ve_tartida_azginlik_yasagi	55:8	55:8	-	✓	"Azgınlık etmeyin ölçü ve tartıda, saptırmayın mizanı"	yasak
-K5a	olcuyu_adaletle_koruma	55:9	55:9	-	✓	"Ölçüyü titizlikle, adaletle koruyun ve hüsrana araç yapmayın mizanı"	emir
+K5a	olcuyu_adaletle_koruma	55:9	55:9	-	✓	"Tartıyı adaletle dosdoğru tutun, teraziyi eksik tutmayın" (lâ tuhsirû'l-mîzân)	emir
 K5a	bey_at_hirsizlik_etmeme	60:12	60:12	-	✓	Mümin kadınların bey'atı: "hırsızlık etmemeleri"	yasak
 K5a	bey_at_zina_etmeme	60:12	60:12	-	✓	Mümin kadınların bey'atı: "zina etmemeleri"	yasak
 K5a	bey_at_cocuk_oldurmeme	60:12	60:12	-	✓	Mümin kadınların bey'atı: "çocuklarını öldürmemeleri"	yasak
 K5a	olcu_ve_tartida_hile_mutaffifin	83:1	83:1	vay	✓	"Azap ve kaygı, tartıda ve ölçüde hile yapanlara olsun; ... tartıp ölçtükleri zaman, eksiltmeye giderler"	sonuc
-K5a	lut_kavmi_erkeklere_gitme	29:28	29:34	gokten_felaket	→	Lût'un kavmi (29:28-29); 29:34 "fıska sapmaları yüzünden (bimâ kânû yefsuqûn) bu kent halkına gökten bir azap (ricz) indireceğiz"	sonuc
+K5a	lut_kavmi_erkeklere_gitme	29:28	29:34	azap_gokten	→	Lût'un kavmi (29:28-29); 29:34 "fıska sapmaları yüzünden (bimâ kânû yefsuqûn) bu kent halkına gökten bir azap (ricz) indireceğiz"	sonuc
 K5a	diri_diri_gomulen_kiz_cocugu	81:8	81:9	hesaba_cekilme	→	"Diri diri gömülen kıza hangi günah yüzünden öldürüldüğü sorulduğunda": soru kurbana sorulur; failin hesaba çekilmesi bundan çıkarılır	sonuc
 K5a	kiz_cocugunu_gomme	16:58	16:59	-	✓	"Kız çocuk müjdelendiğinde ... toprağın bağrına mı gömsün onu. Bakın ne kötü hüküm veriyorlar!"	tanim
-K5a	bakislari_indirme_ve_irzi_koruma_erkek	24:30	24:30	-	✓	"Mümin erkeklere söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar"	emir
+K5a	bakislari_indirme_ve_irzi_koruma_erkek	24:30	24:30	arinma	✓	"Mümin erkeklere söyle: Bakışlarını indirsinler, ırzlarını korusunlar; bu onlar için daha arındırıcıdır" (zâlike ezkâ lehüm)	emir
 K5a	bakislari_indirme_irzi_koruma_ve_zinet_kadin	24:31	24:31	-	✓	"Mümin kadınlara da söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar. Süslerini, görünen kısımlar müstesna, açmasınlar"	emir
 K5a	irzi_korumak_ve_sinirin_otesini_istememek	23:5	23:7	-	✓	"Cinsiyet organlarını/ırzlarını koruyanlardır onlar. Eşleri yahut akitleri aracılığıyla sahip bulundukları müstesnadır ... Kim bundan ötesini isterse, işte onlar, sınırı aşanlardır"	tanim
 K5a	irzi_korumak_ve_sinirin_otesini_istememek	70:29	70:31	-	✓	"Cinsiyet organlarını titizlikle korurlar. Ancak eşleriyle ... kınanamazlar. Kim bunun ötesini isterse, işte böyleleri sınırı aşanların ta kendileridir"	tanim

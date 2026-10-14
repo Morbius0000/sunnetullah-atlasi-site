@@ -3,7 +3,7 @@ K12a	fisk	2:59	2:59	azap_gokten	✓	"Zulmedenler kendilerine söylenen sözü de
 K12a	fisk	2:99	2:99	-	✓	"Açık seçik ayetleri fâsıklardan başkası inkâr etmez"	tanim
 K12a	fahsa	2:169	2:169	-	✓	"Şeytan size kötülük, fahşâ ve Allah hakkında bilmediğiniz şeyleri söylemenizi emreder"	tanim
 K12a	ism	2:173	2:173	-	✓	"Zorda kalanın sınırı aşmadan yemesinde günah yoktur"	tanim
-K12a	ism	2:181	2:181	-	✓	"Vasiyeti işittikten sonra değiştirenin günahı değiştirenler üzerinedir"	tanim
+K12a	ism	2:181	2:181	gunah_yuklenme	✓	"Vasiyeti işittikten sonra değiştirenin günahı değiştirenler üzerinedir"	sonuc
 K12a	ism	2:182	2:182	gunah_yok	✓	"Vasiyet edenin haksızlık ya da günahından endişe edip ilgililerin arasını bulana günah yoktur"	tanim
 K12a	ism	2:188	2:188	-	✓	"Mallarınızı haksız yollarla yemeyin, başkasının malını günaha saparak yemek için yargıçlara aktarmayın"	yasak
 K12a	fisk	2:197	2:197	-	✓	"Hacda kadına yaklaşmak, fısk ve kavga yoktur"	yasak
@@ -16,18 +16,20 @@ K12a	munker	3:104	3:104	felah	✓	"Hayra çağıran, iyiliği özendiren, kötü
 K12a	munker	3:110	3:110	-	✓	"En hayırlı ümmetsiniz: iyiliği özendirir, kötülükten sakındırır, Allah'a iman edersiniz"	tanim
 K12a	munker	3:114	3:114	-	✓	"Allah'a ve âhirete inanır, iyiliği özendirir, kötülükten sakındırır, hayırda yarışırlar"	tanim
 K12b	fahsa	3:135	3:136	magfiret	✓	"Çirkin bir iş (fâhişe) yapıp ya da kendilerine zulmedip Allah'ı hatırlayan, günahları için af dileyen, bile bile ısrar etmeyenlere bağışlanma ve cennet"	sonuc
+K12b	fahsa	3:135	3:136	cennet	✓	"Altlarından ırmaklar akan cennetler, orada kalıcı olarak" (3:136)	sonuc
 K12b	ism	3:178	3:178	azap_muhin	✓	"Küfre sapanlara 'biraz daha günah işlesinler diye' süre veriyoruz; alçaltıcı azap vardır"	sonuc
 K12b	fahsa	4:15	4:15	-	✓	"Kadınlarınızdan fâhişeyi işleyenlere karşı içinizden dört tanık getirin"	emir
 K12b	fahsa	4:19	4:19	-	✓	"Açık bir fâhişe işlemedikçe kendilerine verdiğinizin bir kısmını almak için kadınları sıkıştırmak helal olmaz"	yasak
 K12b	ism	4:20	4:20	-	✓	"Verdiğiniz maldan hiçbir şeyi geri almayın; iftira ederek, açık günah işleyerek mi geri alacaksınız?"	yasak
 K12b	fahsa	4:22	4:22	-	✓	"Babalarınızın nikâhladığı kadınlarla evlenmeyin; bu fâhişedir, nefret gerektiren bir kötülüktür, çirkin bir yoldur"	yasak
 K12b	kebair	4:31	4:31	gunah_ortme	✓	"Yasaklandığınız günahların büyüklerinden uzak kalırsanız diğer kötülüklerinizi örteriz ve nimet dolu bir yere ulaştırırız"	sonuc
-K12b	ism	4:48	4:48	magfiret_yok	✓	"Allah'a şirk koşan gerçekten büyük bir günah (ism) işlemiştir; Allah şirki affetmez"	tanim
+K12b	kebair	4:31	4:31	mudhal_kerim	✓	"Sizi değerli bir giriş yerine sokarız" (ve nüdhilküm müdhalen kerîmâ)	sonuc
+K12b	ism	4:48	4:48	magfiret_yok	✓	"Allah'a şirk koşan gerçekten büyük bir günah (ism) işlemiştir; Allah şirki affetmez"	sonuc
 K12b	ism	4:50	4:50	-	✓	"Allah'a yalan düzüp iftira etmek açık günah (ism mübîn) olarak yeter"	tanim
-K12b	ism	4:111	4:111	-	✓	"Günah kazanan onu kendi nefsi aleyhine kazanır"	tanim
-K12b	ism	4:112	4:112	-	✓	"Hata ya da günah işleyip suçsuz birini itham eden büyük bir iftira ve açık günah yüklenmiş olur"	sonuc
+K12b	ism	4:111	4:111	kendi_aleyhine	✓	"Günah kazanan onu kendi nefsi aleyhine kazanır"	sonuc
+K12b	ism	4:112	4:112	iftira_gunah	✓	"Hata ya da günah işleyip suçsuz birini itham eden büyük bir iftira ve açık günah yüklenmiş olur"	sonuc
 K12b	ism	5:2	5:2	-	✓	"Hayırda ve takvada yardımlaşın; günah (ism) ve düşmanlıkta yardımlaşmayın"	yasak
-K12b	fisk	5:25	5:26	-	✓	"Mûsa 'fâsıklar topluluğundan bizi ayır' dedi; Allah: orası onlara kırk yıl haram kılındı, sersem sersem dolaşacaklar"	sonuc
+K12b	fisk	5:25	5:26	tih	✓	"Mûsa 'fâsıklar topluluğundan bizi ayır' dedi; Allah: orası onlara kırk yıl haram kılındı, sersem sersem dolaşacaklar"	sonuc
 K12b	ism	5:29	5:29	nar	→	Âdem oğlunun kardeşine sözü: "benim günahımla kendi günahını yüklenip ateş halkından olmanı isterim; zalimlerin cezası budur" (anlatıdaki kişinin dileği)	tanim
 K12b	fisk	5:47	5:47	-	✓	"Allah'ın indirdiğiyle hükmetmeyenler fâsıkların ta kendileridir (meal: sapıklar)"	tanim
 K12b	fisk	5:49	5:49	-	✓	"Allah'ın indirdiğiyle hükmet, onların keyiflerine uyma; insanların çoğu fâsıktır"	emir
@@ -38,8 +40,8 @@ K12b	fisk	5:81	5:81	-	✓	"Allah'a ve peygambere inansalardı küfre sapanları 
 K12b	ism	5:107	5:107	-	✓	"İki kişinin günah işlediği anlaşılırsa yerine aleyhlerinde bulunulan taraftan iki kişi geçer ve yemin eder"	emir
 K12b	fisk	5:108	5:108	hidayet_edilmeme	✓	"Allah fâsıklar topluluğunu doğruya ve güzele kılavuzlamaz"	tanim
 K12b	zenb	6:6	6:6	helak	✓	"Nice yurt ve medeniyeti yerle bir ettik; onları kendi günahlarıyla helâk ettik"	sonuc
-K12b	fisk	6:49	6:49	azap_genel	✓	"Ayetlerimizi yalanlayanlara fısk (fenalığa bulaşmaları) yüzünden azap dokunacaktır"	sonuc
-K12c	ism	6:120	6:120	karsilik	✓	"Günahın açığını da gizlisini de bırakın; günah kazananlar yapıp ettiklerinin karşılığını göreceklerdir"	yasak
+K12b	fisk	6:49	6:49	azap	✓	"Ayetlerimizi yalanlayanlara fısk (fenalığa bulaşmaları) yüzünden azap dokunacaktır"	sonuc
+K12c	ism	6:120	6:120	cezalandirma	✓	"Günahın açığını da gizlisini de bırakın; günah kazananlar yapıp ettiklerinin karşılığını göreceklerdir"	yasak
 K12c	fisk	6:121	6:121	-	✓	"Üzerine Allah'ın adı anılmayandan yemeyin; bu tam bir yoldan çıkıştır (fısk)"	yasak
 K12c	fisk	6:145	6:145	-	✓	"Leş, akıtılmış kan, domuz eti ve Allah'tan başkası adına kesilen fısk olarak haramdır; zorda kalan için bağışlayıcıdır"	tanim
 K12c	bagy	6:146	6:146	haram_kilma	✓	"Yahudilere bazı yağları haram kıldık; bu onları azgınlıkları (bağy) yüzünden cezalandırmamızdır"	sonuc
@@ -50,26 +52,26 @@ K12c	bagy	7:33	7:33	-	✓	"Rabbim haksız yere saldırmayı (bağy) haram kıld�
 K12c	fahsa	7:80	7:80	-	✓	"Lût kavmine: sizden önce âlemlerden hiçbirinin yapmadığı fâhişeye mi giriyorsunuz?"	tanim
 K12c	zenb	7:100	7:100	bela_dunya	→	"Dileseydik onları günahları yüzünden musibete uğratırdık, kalplerine mühür basardık" (koşullu: lev neşâu)	sonuc
 K12c	fisk	7:102	7:102	-	✓	"Birçoğunda ahde vefa bulamadık, çoğunu tam fâsık olarak bulduk"	tanim
-K12c	fisk	7:145	7:145	-	✓	"Levhalardaki buyrukları en güzel şekliyle tutun; fâsıklar yurdunu size göstereceğim"	sonuc
+K12c	fisk	7:145	7:145	-	✓	"Levhalardaki buyrukları en güzel şekliyle tutun; fâsıklar yurdunu size göstereceğim"	tanim
 K12c	munker	7:157	7:157	-	✓	"Ümmî peygamber iyiliği emreder, kötü ve çirkinden alıkoyar"	tanim
-K12c	fisk	7:163	7:163	-	✓	"Sebt günü sınırı aşan kıyı kentini, fısk etmeleri yüzünden böyle sınıyorduk (balıklar sebt günü gelirdi)"	sonuc
-K12c	fisk	7:165	7:165	azap	✓	"Kötülükten alıkoyanları kurtardık; zulmedenleri fısk etmeleri yüzünden çetin bir azapla (azâbin beîs) yakaladık"	sonuc
+K12c	fisk	7:163	7:163	sinanma	✓	"Sebt günü sınırı aşan kıyı kentini, fısk etmeleri yüzünden böyle sınıyorduk (balıklar sebt günü gelirdi)"	sonuc
+K12c	fisk	7:165	7:165	azap_cetin	✓	"Kötülükten alıkoyanları kurtardık; zulmedenleri fısk etmeleri yüzünden çetin bir azapla (azâbin beîs) yakaladık"	sonuc
 K12c	zenb	8:52	8:52	yakalama	✓	"Firavun hanedanı ayetleri inkâr etti, Allah onları günahları yüzünden yakaladı"	sonuc
 K12c	zenb	8:54	8:54	helak	✓	"Rablerinin ayetlerini yalanlayanları günahları yüzünden mahvettik; Firavun hanedanını boğduk"	sonuc
 K12c	fisk	9:8	9:8	-	✓	"Ahde saygı duymazlar; çokları fâsıktır"	tanim
 K12c	fisk	9:53	9:53	infak_kabul_edilmez	✓	"İster isteyerek ister zorla infak edin, sizden kabul edilmeyecek; çünkü fâsık bir topluluk oldunuz"	sonuc
 K12c	fisk	9:67	9:67	-	✓	"Münafıklar kötülüğe özendirir, iyilikten alıkoyar, ellerini sıkarlar; Allah'ı unuttular, Allah onları unuttu; münafıklar fâsıkların ta kendileridir"	tanim
 K12c	munker	9:67	9:67	-	✓	"Münafıklar kötülüğü (münker) emreder, iyiliği (maruf) engeller"	tanim
-K12c	munker	9:71	9:71	-	✓	"Mümin erkekler ve kadınlar iyiliği özendirir, kötülükten sakındırır, namaz kılar, zekât verir"	tanim
+K12c	munker	9:71	9:71	rahmet	✓	"Mümin erkekler ve kadınlar iyiliği özendirir, kötülükten sakındırır, namaz kılar, zekât verir"	sonuc
 K12c	fisk	9:80	9:80	hidayet_edilmeme	✓	"Yetmiş kez af dilesen de Allah onları affetmeyecek; çünkü Allah'ı ve resulünü inkâr ettiler. Allah fâsıklar topluluğunu doğruya iletmez": bağışlanmamanın sebebi küfür, hidayet edilmeme fâsıklara bağlanır	sonuc
-K12c	fisk	9:84	9:84	-	✓	"Allah'a ve resulüne nankörlük ettiler ve fâsık olarak öldüler; onlar için dua etme"	sonuc
-K12c	fisk	9:96	9:96	razi_olmama	✓	"Siz razı olsanız da Allah fâsıklar topluluğundan razı olmaz"	tanim
-K12c	munker	9:112	9:112	-	✓	"Tövbe edenler, ibadet edenler... iyiliğe özendirip kötülükten sakındıranlar, Allah'ın sınırlarını koruyanlar"	tanim
-K12c	bagy	10:23	10:23	-	✓	"Kurtulunca yeryüzünde haksızlığa sapıp azgınlaşırlar; azgınlığınız (bağy) yalnız sizin aleyhinizedir"	sonuc
-K12c	fisk	10:33	10:33	-	✓	"Rabbinin yoldan çıkanlar (fâsıklar) hakkındaki 'iman etmezler' sözü gerçekleşmiştir"	sonuc
+K12c	fisk	9:84	9:84	-	✓	"Allah'a ve resulüne nankörlük ettiler ve fâsık olarak öldüler; onlar için dua etme"	tanim
+K12c	fisk	9:96	9:96	razi_olmama	✓	"Siz razı olsanız da Allah fâsıklar topluluğundan razı olmaz"	sonuc
+K12c	munker	9:112	9:112	mujde	✓	"Tövbe edenler, ibadet edenler... iyiliğe özendirip kötülükten sakındıranlar, Allah'ın sınırlarını koruyanlar"	sonuc
+K12c	bagy	10:23	10:23	kendi_aleyhine	✓	"Kurtulunca yeryüzünde haksızlığa sapıp azgınlaşırlar; azgınlığınız (bağy) yalnız sizin aleyhinizedir"	sonuc
+K12c	fisk	10:33	10:33	azap_hak	✓	"Rabbinin yoldan çıkanlar (fâsıklar) hakkındaki 'iman etmezler' sözü gerçekleşmiştir"	sonuc
 K12c	bagy	10:90	10:90	-	✓	"Firavun ve ordusu azgınlık (bağy) ve düşmanlıkla onları izledi"	tanim
 K12c	fahsa	12:24	12:24	-	✓	"Biz ondan kötülüğü ve fuhşu (fahşâ) uzak tutuyorduk; çünkü o bizim samimi kullarımızdandı"	tanim
-K12d	hatia	12:29	12:29	-	✓	"Kadın, günahının affını dile; sen hata edenlerden (hâtiîn) oldun"	emir
+K12d	hatia	12:29	12:29	-	✓	"Kadın, günahının affını dile; sen hata edenlerden (hâtiîn) oldun"	tanim
 K12d	hatia	12:97	12:97	-	✓	"Ey babamız, günahlarımızın affını dile; biz hata işledik (hâtiîn)"	tanim
 K12d	fahsa	16:90	16:90	-	✓	"Allah adaleti, ihsanı, akrabaya vermeyi emreder; fahşâdan, münkerden ve azgınlıktan (bağy) yasaklar"	yasak
 K12d	munker	16:90	16:90	-	✓	"Allah münkerden yasaklar"	yasak
@@ -77,14 +79,14 @@ K12d	bagy	16:90	16:90	-	✓	"Allah azgınlıktan (bağy) yasaklar"	yasak
 K12d	zenb	17:17	17:17	helak	→	"Nûh'tan sonra nice kuşağı helak ettik; kullarının günahlarını haber alıcı olarak Rabbin yeter"	sonuc
 K12d	kebair	17:31	17:31	-	✓	"Yoksulluk korkusuyla çocuklarınızı öldürmeyin; onları öldürmek büyük bir günahtır (hıtʾ kebîr)"	yasak
 K12d	fahsa	17:32	17:32	-	✓	"Zinaya yaklaşmayın; o fâhişedir, yol olarak çok kötüdür"	yasak
-K12d	fisk	21:74	21:74	-	✓	"Lût'u pislikler üretip duran bir kentten kurtardık; o kent halkı fâsık, yoldan çıkmış kötü bir kavimdi"	sonuc
+K12d	fisk	21:74	21:74	-	✓	"Lût'u pislikler üretip duran bir kentten kurtardık; o kent halkı fâsık, yoldan çıkmış kötü bir kavimdi"	tanim
 K12d	munker	22:41	22:41	-	✓	"İmkân verilince namazı kılar, zekâtı verir, iyiliğe özendirir, kötülükten sakındırırlar"	tanim
-K12d	fisk	24:4	24:4	-	✓	"İffetli kadınlara iftira atıp dört tanık getirmeyenlere seksen vuruş vurun, tanıklıklarını kabul etmeyin; onlar fâsıkların ta kendileridir"	sonuc
+K12d	fisk	24:4	24:4	-	✓	"İffetli kadınlara iftira atıp dört tanık getirmeyenlere seksen vuruş vurun, tanıklıklarını kabul etmeyin; onlar fâsıkların ta kendileridir"	tanim
 K12d	ism	24:11	24:11	gunah_yuklenme	✓	"İftirayı getirenlerden her kişiye o günahtan kazandığı vardır"	sonuc
-K12d	fahsa	24:19	24:19	azap_elim	✓	"Müminler içinde fâhişenin yayılmasını arzu edenler için dünyada da âhirette de korkunç azap"	sonuc
+K12d	fahsa	24:19	24:19	azap_elim	✓	"Müminler içinde fâhişenin yayılmasını arzu edenler için dünyada da âhirette de acıklı bir azap"	sonuc
 K12d	fahsa	24:21	24:21	-	✓	"Şeytanın adımlarını izlemeyin; izleyene şeytan fahşâyı ve münkeri emreder"	yasak
 K12d	munker	24:21	24:21	-	✓	"Şeytanın adımlarını izleyene şeytan fahşâyı ve münkeri emreder"	yasak
-K12d	fisk	24:55	24:55	-	✓	"Allah'ın vaadinden sonra küfredenler fâsıkların ta kendileridir"	sonuc
+K12d	fisk	24:55	24:55	-	✓	"Allah'ın vaadinden sonra küfredenler fâsıkların ta kendileridir"	tanim
 K12d	zenb	25:58	25:58	-	✓	"Kullarının günahlarından O'nun haberdar olması yeter"	tanim
 K12d	ism	25:68	25:68	esam	✓	"Başka ilaha yakarmayan, haksız can almayan, zina etmeyenler; bunları yapan cezaya (esâm) çarpılır"	sonuc
 K12d	ism	26:222	26:222	-	✓	"Şeytanlar her dönek günahkâr (effâk esîm) üzerine iner"	tanim
@@ -94,14 +96,14 @@ K12e	zenb	28:78	28:78	helak	→	"Karun: 'servet bana ilmim sayesinde verildi'; A
 K12e	fahsa	29:28	29:28	-	✓	"Lût: öyle bir fâhişeye bulaşıyorsunuz ki sizden önce âlemlerden hiç kimse yapmadı"	tanim
 K12e	munker	29:29	29:29	-	✓	"Erkeklere gidiyorsunuz, yol kesiyorsunuz, toplantılarınızda münkeri (çirkinlikler) sergiliyorsunuz"	tanim
 K12e	fisk	29:34	29:34	azap_gokten	✓	"Şu kent halkı üstüne yaptıkları fısk (fenalık) yüzünden gökten bir felaket indireceğiz"	sonuc
-K12e	zenb	29:40	29:40	yakalama	✓	"Herbirini kendi günahı ile yakaladık: taş yağdıran kasırga, korkunç ses, yere batırılma, boğulma"	sonuc
+K12e	zenb	29:40	29:40	yakalama	✓	"Herbirini kendi günahı ile yakaladık: taş yağdıran kasırga, çığlık (es-sayha), yere batırılma, boğulma"	sonuc
 K12e	fahsa	29:45	29:45	-	✓	"Kitap'tan vahyedileni oku, namazı kıl; çünkü namaz fahşâdan ve münkerden alıkoyar"	emir
 K12e	munker	29:45	29:45	-	✓	"Namaz fahşâdan ve münkerden alıkoyar"	emir
 K12e	munker	31:17	31:17	-	✓	"Namazı kıl, iyiliği özendir, kötülükten sakındır, başına gelene sabret"	emir
-K12e	fisk	32:18	32:18	-	✓	"Bir mümin bir fâsık gibi olur mu? Eşit olmazlar"	tanim
+K12e	fisk	32:18	32:18	esitsizlik	✓	"Bir mümin bir fâsık gibi olur mu? Eşit olmazlar"	tanim
 K12e	fisk	32:20	32:20	nar	✓	"Fâsıkların varacağı yer ateştir; her çıkmak istediklerinde geri çevrilirler"	sonuc
 K12e	fahsa	33:30	33:30	azap_iki_kat	✓	"Peygamber hanımları: sizden kim açık fâhişe yaparsa azap iki katına çıkarılır"	sonuc
-K12e	ism	33:58	33:58	-	✓	"Mümin erkek ve kadınları yapmadıkları şeyden rahatsız edenler iftira ve açık günah yüklenmişlerdir"	sonuc
+K12e	ism	33:58	33:58	iftira_gunah	✓	"Mümin erkek ve kadınları yapmadıkları şeyden rahatsız edenler iftira ve açık günah yüklenmişlerdir"	sonuc
 K12e	zenb	33:71	33:71	magfiret	✓	"Allah amellerinizi düzeltsin, günahlarınızı affetsin; itaat eden büyük başarıyı elde etmiştir"	sonuc
 K12e	zenb	39:53	39:53	magfiret	✓	"Aleyhlerine sınırı aşan kullarım, rahmetten ümit kesmeyin; Allah günahları tümden affeder"	tanim
 K12e	zenb	40:3	40:3	magfiret	✓	"Günahı affeden, tövbeyi kabul eden, azabı çetin olandır"	tanim
@@ -116,27 +118,32 @@ K12e	fisk	43:54	43:55	gark	✓	"Firavun toplumunu küçümsedi, onlar ona itaat 
 K12e	ism	45:7	45:7	vay	✓	"Vay (veyl) haline günaha batmış her yalancı iftiracının!"	sonuc
 K12e	bagy	45:17	45:17	-	✓	"Kendilerine ilim geldikten sonra aralarındaki azgınlık (bağy) yüzünden ihtilafa düştüler"	tanim
 K12e	zenb	46:31	46:31	magfiret	✓	"Allah'ın davetçisine uyun ki günahlarınızdan bir kısmını bağışlasın ve sizi acıklı azaptan korusun"	sonuc
+K12e	zenb	46:31	46:31	azaptan_korunma	✓	"Sizi acıklı bir azaptan korusun" (ve yücirküm min azâbin elîm)	sonuc
 K12e	fisk	46:35	46:35	helak	✓	"Fâsıklar topluluğundan başkası mı helak edilir?"	tanim
 K12e	zenb	47:19	47:19	-	✓	"Kendi günahın için de mümin erkek ve kadınlar için de af dile"	emir
 K12f	fisk	49:6	49:6	-	✓	"Özü sözü bozuk (fâsık) biri haber getirirse hemen araştırın; yoksa bilgisizlikle bir topluluğu suçlar, pişman olursunuz"	emir
 K12f	fisk	49:11	49:11	-	✓	"Birbirinize lakap yakıştırmayın; imandan sonra fısk adıyla anılmak ne kötü şeydir; tövbe etmeyenler zalimlerdir"	yasak
+K12f	fisk	49:11	49:11	zalim_sayilma	✓	"Kim tövbe etmezse, işte onlar zalimlerin ta kendileridir"	sonuc
 K12f	ism	49:12	49:12	-	✓	"Zandan çok sakının, zannın bir kısmı günahtır; ayıp aramayın, gıybet etmeyin"	yasak
 K12f	fisk	51:46	51:46	helak	→	"Daha önce Nûh kavmini de (helâk ettik); onlar fâsık bir topluluktu": fiil ayette söylenmez, öncekilerden anlaşılır	sonuc
 K12f	zenb	51:59	51:59	-	✓	"Zulmedenlerin, tıpkı arkadaşlarının günahları gibi günahları vardır; acele etmesinler"	tanim
-K12f	kebair	53:32	53:32	magfiret	✓	"Günahın büyüklerinden ve fâhişelerden çekinip kaçınanlar, küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır"	tanim
-K12f	fahsa	53:32	53:32	magfiret	✓	"Günahın büyüklerinden ve fâhişelerden kaçınırlar; Rabbin affı geniştir"	tanim
-K12f	lemem	53:32	53:32	magfiret	✓	"Küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır"	tanim
+K12f	kebair	53:32	53:32	magfiret	→	"Günahın büyüklerinden ve fâhişelerden çekinip kaçınanlar, küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır"	tanim
+K12f	fahsa	53:32	53:32	magfiret	→	"Günahın büyüklerinden ve fâhişelerden kaçınırlar; Rabbin affı geniştir"	tanim
+K12f	lemem	53:32	53:32	magfiret	→	"Küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır"	tanim
 K12f	zenb	55:39	55:39	-	✓	"O gün günahlarından ne cin sorguya çekilir ne insan"	tanim
 K12f	fisk	57:26	57:26	-	✓	"Nûh ve İbrahim'in soylarından bir kısmı hidayete erdi; çoğu fâsıktır"	tanim
-K12f	ism	58:8	58:8	cehennem	✓	"Yasaklandıktan sonra yine günah, düşmanlık ve peygambere isyan konusunda fısıldaşıyorlar"	tanim
+K12f	ism	58:8	58:8	cehennem	✓	"Yasaklandıktan sonra yine günah, düşmanlık ve peygambere isyan konusunda fısıldaşıyorlar"	sonuc
 K12f	ism	58:9	58:9	-	✓	"Günah, düşmanlık ve resule isyan konusunda fısıldaşmayın; hayırda ve takvada fısıldaşın"	yasak
-K12f	fisk	59:5	59:5	hizy	✓	"Hurma ağacını kesmeniz Allah'ın izniyledir; fâsıkları rezil etmesi içindir"	tanim
+K12f	fisk	59:5	59:5	hizy	✓	"Hurma ağacını kesmeniz Allah'ın izniyledir; fâsıkları rezil etmesi içindir"	sonuc
 K12f	fisk	59:19	59:19	-	✓	"Allah'ı unutan, Allah'ın da onlara öz benliklerini unutturduğu kişiler gibi olmayın; fâsıkların ta kendileridir"	yasak
+K12f	fisk	59:19	59:19	benligini_unutturma	✓	"Allah da onlara öz benliklerini unutturdu" (fe-ensâhüm enfüsehüm)	sonuc
 K12f	fisk	61:5	61:5	hidayet_edilmeme	✓	"Mûsa'ya eziyet edenler sapınca Allah kalplerini eğriltti; Allah fâsıklar topluluğunu iletmez"	sonuc
+K12f	fisk	61:5	61:5	kalp_egriltme	✓	"Onlar sapınca Allah da kalplerini eğriltti" (fe-lemmâ zâğû ezâğa'llâhu kulûbehüm)	sonuc
 K12f	zenb	61:12	61:12	cennet	✓	"Günahlarınızı affeder ve sizi altından nehirler akan cennetlere yerleştirir"	sonuc
+K12f	zenb	61:12	61:12	magfiret	✓	"Günahlarınızı bağışlar" (yağfir leküm zünûbeküm)	sonuc
 K12f	fisk	63:6	63:6	hidayet_edilmeme	✓	"Af dilesen de dilemesen de Allah onları asla affetmeyecek; fâsıklar topluluğunu iletmez"	sonuc
 K12f	fahsa	65:1	65:1	-	✓	"Boşanan kadınları evlerinden çıkarmayın, açık fâhişe yapmaları hariç; bunlar Allah'ın sınırlarıdır"	yasak
-K12f	zenb	67:11	67:11	cehennem	✓	"Günahlarını itiraf ettiler; çılgın ateşin halkına kahır yaraşır"	sonuc
+K12f	zenb	67:11	67:11	suhk	✓	"Günahlarını itiraf ettiler; çılgın ateşin halkı uzak olsun!" (fe-suhkan li-ashâbi's-saîr)	sonuc
 K12f	ism	68:12	68:12	-	✓	"Hayrı engelleyen, sınır tanımaz saldırgan, günaha batmış (eşîm)"	tanim
 K12f	hatia	69:9	69:10	yakalama	✓	"Firavun ve öncekiler altı üstüne gelmiş kentlerde aynı hatayı (hâtia) işledi; Rablerinin resulüne isyan edip yakalandılar"	sonuc
 K12f	zenb	71:4	71:4	magfiret	✓	"Allah günahlarınızı affetsin ve sizi belirli bir süreye kadar ertelesin"	sonuc
@@ -145,7 +152,7 @@ K12f	ism	83:12	83:12	-	✓	"Din gününü ancak her şımarıp azmış, günaha 
 K12f	zenb	91:14	91:14	helak	✓	"Deveyi kestiler (fe-akarûhâ); Rableri de günahları yüzünden üzerlerine kırıp geçiren bir azap indirdi ve yurdu dümdüz etti"	sonuc
 K12f	hatia	96:16	96:16	-	✓	"O yalancı, o günahkâr (hâtia) alın"	tanim
 K12x	fisk	2:26	2:26	-	✓	"Allah onunla birçoklarını saptırır; onunla ancak fâsıkları saptırır"	tanim
-K12x	ism	2:85	2:85	hizy	✓	"Birbirinizi öldürüyorsunuz, yurtlarından çıkarıyorsunuz; kötülük (ism) ve düşmanlıkta dayanışmaya giriyorsunuz"	tanim
+K12x	ism	2:85	2:85	hizy	✓	"Birbirinizi öldürüyorsunuz, yurtlarından çıkarıyorsunuz; kötülük (ism) ve düşmanlıkta dayanışmaya giriyorsunuz"	sonuc
 K12x	ism	2:85	2:85	azap_siddetli	✓	"Kıyamet günü de azabın en şiddetlisine itilirler"	sonuc
 K12x	bagy	2:213	2:213	-	✓	"Kendilerine açık deliller geldikten sonra aralarındaki azgınlık (bağy) yüzünden anlaşmazlığa düştüler"	tanim
 K12x	fisk	2:282	2:282	-	✓	"Yazıcı ve tanığa zarar verilmesin; yaparsanız bu sizin için fısktır"	yasak
@@ -153,8 +160,8 @@ K12x	bagy	3:19	3:19	-	✓	"Kitap verilenler kendilerine ilim geldikten sonra ara
 K12x	fisk	3:82	3:82	-	✓	"Misaktan sonra yüz çevirenler fâsıkların ta kendileridir"	tanim
 K12x	hatia	4:92	4:92	-	✓	"Bir müminin bir mümini öldürmesi olacak şey değildir; yanlışlıkla (hata ile) olması müstesna"	tanim
 K12x	fisk	5:3	5:3	-	✓	"Ölü, kan, domuz eti, Allah'tan başkası adına kesilenler haram; bu fısktır"	tanim
-K12x	zenb	5:18	5:18	azap_genel	✓	"Yahudiler ve Hıristiyanlar 'Allah'ın sevgilileriyiz' dediler; niçin size günahlarınız yüzünden azap ediyor?"	tanim
-K12x	munker	5:79	5:79	-	✓	"İşledikleri münkerden birbirlerini sakındırmıyorlardı; ne kötü şeydi yapmayı sürdürdükleri"	tanim
+K12x	zenb	5:18	5:18	azap	✓	"Yahudiler ve Hıristiyanlar 'Allah'ın sevgilileriyiz' dediler; niçin size günahlarınız yüzünden azap ediyor?"	tanim
+K12x	munker	5:79	5:78	lanet	→	"İşledikleri kötülükten birbirlerini sakındırmıyorlardı" (5:79): 5:78'deki lanetin gerekçe cümlesi	sonuc
 K12x	fisk	9:24	9:24	hidayet_edilmeme	✓	"Aile ve mal Allah'tan daha sevimliyse Allah emrini getirinceye kadar bekleyin; Allah fâsıklar topluluğunu iletmez"	sonuc
 K12x	fisk	17:16	17:16	helak	✓	"Bir ülkeyi mahvetmek istediğimizde şımarmış elebaşlarına emir yöneltiriz, orada fısk ederler; ülke hak ettiği sözün altına girer, yerle bir edilir"	sonuc
 K12x	fisk	18:50	18:50	-	✓	"İblis cinlerdendi, Rabbinin emrinden fısk etti (ters düştü)"	tanim

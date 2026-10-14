@@ -42,7 +42,7 @@
 "blok": "K6a",
 "nitelik_ayet": "6:21",
 "odul_ayet": "6:21",
-"odul": "husran",
+"odul": "felah_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "allaha_iftira",
@@ -122,7 +122,7 @@
 "blok": "K6b",
 "nitelik_ayet": "10:17",
 "odul_ayet": "10:17",
-"odul": "basarisizlik",
+"odul": "felah_yok",
 "derece": "→",
 "tur": "sonuc",
 "ham": "allaha_iftira",
@@ -162,7 +162,7 @@
 "blok": "K6b",
 "nitelik_ayet": "16:116",
 "odul_ayet": "16:116",
-"odul": "basarisizlik",
+"odul": "felah_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "allaha_iftira",
@@ -197,6 +197,16 @@
 "tur": "yasak",
 "ham": "allaha_iftira",
 "not_": "Mûsa: \"Yalan düzerek Allah'a iftira etmeyin!\""
+},
+{
+"blok": "K6c",
+"nitelik_ayet": "20:61",
+"odul_ayet": "20:61",
+"odul": "basarisizlik",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "allaha_iftira",
+"not_": "\"İftira eden muhakkak başarısız olmuştur\" (ve kad hâbe meni'fterâ)"
 },
 {
 "blok": "K6c",
@@ -260,7 +270,7 @@
 "blok": "K6a",
 "nitelik_ayet": "4:112",
 "odul_ayet": "4:112",
-"odul": "gunah_yuklenme",
+"odul": "iftira_gunah",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "suclu_olmayani_itham",
@@ -593,12 +603,12 @@
 {
 "blok": "K6g",
 "nitelik_ayet": "9:65",
-"odul_ayet": "9:65",
-"odul": "yok",
+"odul_ayet": "9:66",
+"odul": "azap",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "alay_ve_laf_atma",
-"not_": "\"Lakırdıya dalmış, şakalaşıyorduk\" diyenlere: \"Allah ile, ayetleriyle, resulüyle mi eğleniyordunuz?\" (9:64-65)"
+"not_": "\"Allah ile, ayetleriyle, resulüyle mi eğleniyordunuz?\" (9:65); \"Özür dilemeyin, imandan sonra küfre saptınız ... bir kesimi suçlu oldukları için azaba uğratacağız\" (9:66)"
 },
 {
 "blok": "K6b",
@@ -623,12 +633,12 @@
 {
 "blok": "K6g",
 "nitelik_ayet": "11:38",
-"odul_ayet": "11:38",
-"odul": "yok",
+"odul_ayet": "11:39",
+"odul": "hizy",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "alay_ve_laf_atma",
-"not_": "Nûh gemiyi yaparken toplumundan geçenler \"onunla alay ediyorlardı\""
+"not_": "Nûh gemiyi yaparken toplumundan geçenler onunla alay ediyordu (11:38); \"rezil eden azabın kime geleceğini bileceksiniz\" (11:39)"
 },
 {
 "blok": "K6g",
@@ -673,12 +683,12 @@
 {
 "blok": "K6g",
 "nitelik_ayet": "23:110",
-"odul_ayet": "23:110",
-"odul": "yok",
+"odul_ayet": "23:108",
+"odul": "kovulma",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "alay_ve_laf_atma",
-"not_": "\"Siz onları alaya aldınız ... Siz onlara hep gülüyordunuz\""
+"not_": "\"Siz onları alaya aldınız, onlara gülüyordunuz\" (23:110); aynı hitabın başı: \"Sinin orada, bana konuşmayın!\" (ihse'û fîhâ ve lâ tükellimûn, 23:108)"
 },
 {
 "blok": "K6d",
@@ -777,8 +787,8 @@
 "odul": "zalim_sayilma",
 "derece": "✓",
 "tur": "sonuc",
-"ham": "lakap_takma_ve_ayiplama",
-"not_": "\"Kim ki tövbe etmez, işte böyleleri zalimlerin ta kendileridir\""
+"ham": "alay_ve_laf_atma",
+"not_": "\"Kim tövbe etmezse, işte onlar zalimlerin ta kendileridir\""
 },
 {
 "blok": "K6e",
@@ -884,7 +894,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kulluktan_cekinip_kibir",
-"not_": "\"Kulluktan çekinip büyüklük taslayanlara korkunç bir azapla azap edecektir\""
+"not_": "\"Kulluktan çekinip büyüklük taslayanlara acıklı bir azapla azap edecektir\" (4:173)"
 },
 {
 "blok": "K6a",
@@ -944,7 +954,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kibirle_yuz_cevirme",
-"not_": "Ayetler okununca böbürlenerek yüz çeviren: \"korkunç bir azapla muştula\""
+"not_": "Ayetler okununca büyüklük taslayarak yüz çeviren: \"ona acıklı bir azabı müjdele\""
 },
 {
 "blok": "K6d",
@@ -1012,7 +1022,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "yapmadigiyla_ovunme",
-"not_": "\"Yapmadıkları şeylerle övünmeyi seven kişiler ... korkunç bir azap vardır onlar için\""
+"not_": "\"Yapmadıkları şeylerle övülmeyi seven kişileri azaptan kurtulmuş sanma; onlar için acıklı bir azap vardır\""
 },
 {
 "blok": "K6a",
@@ -1088,11 +1098,11 @@
 "blok": "K6d",
 "nitelik_ayet": "28:81",
 "odul_ayet": "28:81",
-"odul": "helak",
+"odul": "yere_batirilma",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "karun_simarikligi",
-"not_": "\"Karun'u da sarayını da yere geçirdik. Allah'a karşı yardım edecek yandaşları yoktu\""
+"not_": "\"Karun'u da yurdunu da yere batırdık (fe-hasefnâ bihî ve bi-dârihi'l-ard). Allah'a karşı ona yardım edecek bir topluluk yoktu\""
 },
 {
 "blok": "K6e",
@@ -1119,10 +1129,10 @@
 "nitelik_ayet": "57:23",
 "odul_ayet": "57:23",
 "odul": "sevilmeme",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "simarma_ve_ovunme",
-"not_": "\"Allah, kendini beğenip övünenlerin hiçbirini sevmez\""
+"not_": "\"Allah, kendini beğenip övünenlerin (muhtâl fahûr) hiçbirini sevmez\": şımarma yasağının hemen ardında; sevgi yokluğu ayrı adla anılan sınıfa bağlıdır"
 }
 ]
 },
@@ -1221,6 +1231,16 @@
 "tur": "sonuc",
 "ham": "israf",
 "not_": "\"İsraf eden/haddi aşan ve ayetlere inanmayanları böyle cezalandırırız; âhiret azabı çok daha şiddetlidir\" (müsrif = haddi aşan olabilir)"
+},
+{
+"blok": "K6g",
+"nitelik_ayet": "20:127",
+"odul_ayet": "20:127",
+"odul": "azap_siddetli",
+"derece": "→",
+"tur": "sonuc",
+"ham": "israf",
+"not_": "\"Âhiret azabı daha şiddetli ve daha kalıcıdır\" (ve le-azâbü'l-âhirati eşeddü ve ebkâ)"
 },
 {
 "blok": "K6g",
@@ -1628,6 +1648,10 @@
 "ar": "وَلَئِن سَأَلْتَهُمْ لَيَقُولُنَّ إِنَّمَا كُنَّا نَخُوضُ وَنَلْعَبُ ۚ قُلْ أَبِٱللَّهِ وَءَايَـٰتِهِۦ وَرَسُولِهِۦ كُنتُمْ تَسْتَهْزِءُونَ",
 "tr": "Onlara sorarsan elbette şöyle diyeceklerdir: \"Lakırdıya dalmış, şakalaşıyorduk, hepsi bu!\" De ki: \"Allah ile, O'nun ayetleriyle, O'nun resulüyle mi eğleniyordunuz?\""
 },
+"9:66": {
+"ar": "لَا تَعْتَذِرُوا۟ قَدْ كَفَرْتُم بَعْدَ إِيمَـٰنِكُمْ ۚ إِن نَّعْفُ عَن طَآئِفَةٍ مِّنكُمْ نُعَذِّبْ طَآئِفَةًۢ بِأَنَّهُمْ كَانُوا۟ مُجْرِمِينَ",
+"tr": "Özür beyan etmeyin; imanınızdan sona küfre saptınız. İçinizden bir grubu affetsek bile diğer bir grubu, günaha batmış kişiler oldukları için azaba uğratacağız."
+},
 "9:79": {
 "ar": "ٱلَّذِينَ يَلْمِزُونَ ٱلْمُطَّوِّعِينَ مِنَ ٱلْمُؤْمِنِينَ فِى ٱلصَّدَقَـٰتِ وَٱلَّذِينَ لَا يَجِدُونَ إِلَّا جُهْدَهُمْ فَيَسْخَرُونَ مِنْهُمْ ۙ سَخِرَ ٱللَّهُ مِنْهُمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
 "tr": "Sadakalar hususunda içten bir cömertlik göstermiş müminlere laf atanlarla, öz gayretlerinden başkasını bulamayanları alay konusu edenlere gelince, Allah onları maskaraya çevirecektir. Onlar için acıklı bir azap da vardır."
@@ -1651,6 +1675,10 @@
 "11:38": {
 "ar": "وَيَصْنَعُ ٱلْفُلْكَ وَكُلَّمَا مَرَّ عَلَيْهِ مَلَأٌ مِّن قَوْمِهِۦ سَخِرُوا۟ مِنْهُ ۚ قَالَ إِن تَسْخَرُوا۟ مِنَّا فَإِنَّا نَسْخَرُ مِنكُمْ كَمَا تَسْخَرُونَ",
 "tr": "Gemiyi yapıyordu. Toplumundan herhangi bir grup yanından geçtikçe onunla alay ediyorlardı. Dedi ki Nûh \"Bizimle alay ediyorsanız, biz de sizinle alay edeceğiz. Tıpkı sizin eğlendiğiniz gibi.\""
+},
+"11:39": {
+"ar": "فَسَوْفَ تَعْلَمُونَ مَن يَأْتِيهِ عَذَابٌ يُخْزِيهِ وَيَحِلُّ عَلَيْهِ عَذَابٌ مُّقِيمٌ",
+"tr": "\"Rezil eden azabın kime geleceğini, sürekli azabın kimin başına ineceğini yakında bileceksiniz.\""
 },
 "16:34": {
 "ar": "فَأَصَابَهُمْ سَيِّـَٔاتُ مَا عَمِلُوا۟ وَحَاقَ بِهِم مَّا كَانُوا۟ بِهِۦ يَسْتَهْزِءُونَ",
@@ -1735,6 +1763,10 @@
 "23:3": {
 "ar": "وَٱلَّذِينَ هُمْ عَنِ ٱللَّغْوِ مُعْرِضُونَ",
 "tr": "Boş ve lüzumsuz sözden yüz çevirmişlerdir onlar."
+},
+"23:108": {
+"ar": "قَالَ ٱخْسَـُٔوا۟ فِيهَا وَلَا تُكَلِّمُونِ",
+"tr": "Buyurur: \"Yıkılıp gidin oraya, konuşmayın benimle!\""
 },
 "23:110": {
 "ar": "فَٱتَّخَذْتُمُوهُمْ سِخْرِيًّا حَتَّىٰٓ أَنسَوْكُمْ ذِكْرِى وَكُنتُم مِّنْهُمْ تَضْحَكُونَ",
@@ -1958,18 +1990,18 @@
 }
 },
 "istatistik": {
-"kayit": 138,
-"ayet": 123,
+"kayit": 140,
+"ayet": 126,
 "derece": {
-"✓": 130,
-"→": 9,
+"✓": 131,
+"→": 11,
 "?": 0
 },
 "tur": {
 "emir": 7,
 "yasak": 37,
-"sonuc": 67,
-"tanim": 28
+"sonuc": 73,
+"tanim": 25
 }
 }
 }

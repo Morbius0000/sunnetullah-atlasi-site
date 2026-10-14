@@ -47,5 +47,7 @@ export const odulAdi = {
   hayat: 'Hayat', '-': '—', azap: 'Azap', vaat: 'Vaat', gunah_yok: 'Günah yok', hasene: 'Güzellik (hasene)',
   sorumluluk_yok: 'Aleyhine yol (sorumluluk) yok', allah_beraberligi: 'Allah\'ın beraberliği', saglam_kulp: 'En sağlam kulpa tutunma',
   allahin_ahde_vefasi: 'Allah\'ın da ahdine vefası', yol_serbest: 'Yolunun serbest bırakılması', din_kardesligi: 'Dinde kardeşlik',
+  keffaret: 'Kendisi için keffaret', anapara: 'Ana paranın kendisinde kalması', guzel_gecim: "Güzel bir geçimle yaşatılma (metâ' hasen)",
+  mudhal_kerim: 'Değerli bir giriş yeri (mudhal kerîm)', azaptan_korunma: 'Acıklı azaptan korunma',
   gurfe: 'Gurfe (yüksek köşk)', genislik: 'Allah\'ın genişlik vermesi',
 };

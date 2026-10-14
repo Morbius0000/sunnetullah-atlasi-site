@@ -213,7 +213,7 @@
 "nitelik_ayet": "40:7",
 "odul_ayet": "40:7",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "tur": "tanim",
 "ham": "tevbe_kabul",
 "not_": "\"Arşı taşıyanlar tövbe edenler için af diler: Rabbimiz rahmet ve ilim kuşattın\""
@@ -248,6 +248,16 @@
 },
 {
 "blok": "K10a",
+"nitelik_ayet": "2:54",
+"odul_ayet": "2:54",
+"odul": "kabul",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "tevbe_sart",
+"not_": "\"Bu, Yaratıcınız katında sizin için daha hayırlıdır; O da tövbenizi kabul etti\" (fe-tâbe aleyküm)"
+},
+{
+"blok": "K10a",
 "nitelik_ayet": "2:160",
 "odul_ayet": "2:160",
 "odul": "kabul",
@@ -260,7 +270,7 @@
 "blok": "K10x",
 "nitelik_ayet": "2:279",
 "odul_ayet": "2:279",
-"odul": "yok",
+"odul": "anapara",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_sart",
@@ -331,7 +341,7 @@
 "nitelik_ayet": "5:74",
 "odul_ayet": "5:74",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "tevbe_sart",
 "not_": "\"Hâlâ Allah'a yönelip tövbe ederek af dilemiyorlar mı? Allah Gafûr ve Rahîm'dir\""
@@ -360,7 +370,7 @@
 "blok": "K10x",
 "nitelik_ayet": "9:5",
 "odul_ayet": "9:5",
-"odul": "yok",
+"odul": "yol_serbest",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_sart",
@@ -370,7 +380,7 @@
 "blok": "K10x",
 "nitelik_ayet": "9:11",
 "odul_ayet": "9:11",
-"odul": "yok",
+"odul": "din_kardesligi",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_sart",
@@ -387,6 +397,16 @@
 "not_": "\"Tövbe ederlerse kendileri için hayırlı olur; yan çizerlerse dünyada da âhirette de acıklı azap\""
 },
 {
+"blok": "K10x",
+"nitelik_ayet": "9:74",
+"odul_ayet": "9:74",
+"odul": "hayir",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "tevbe_sart",
+"not_": "\"Tövbe ederlerse kendileri için hayırlı olur\" (fe-in yetûbû yekü hayran lehüm)"
+},
+{
 "blok": "K10d",
 "nitelik_ayet": "9:102",
 "odul_ayet": "9:102",
@@ -400,9 +420,9 @@
 "blok": "K10d",
 "nitelik_ayet": "9:112",
 "odul_ayet": "9:112",
-"odul": "yok",
+"odul": "mujde",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "tevbe_sart",
 "not_": "\"Müjdelenen müminler: tövbe edenler, ibadet edenler, hamd edenler...\""
 },
@@ -417,10 +437,20 @@
 "not_": "\"Rabbinizden bağışlanma dileyin, sonra O'na tövbe edin; sizi belirli bir süreye kadar güzel bir geçimle yaşatır ve her lütuf sahibine lütfunu (fadlahû) verir\""
 },
 {
+"blok": "K10d",
+"nitelik_ayet": "11:3",
+"odul_ayet": "11:3",
+"odul": "guzel_gecim",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "tevbe_sart",
+"not_": "\"Sizi belirli bir süreye kadar güzel bir geçimle yaşatır\" (yümetti'küm metâ'an hasenen)"
+},
+{
 "blok": "K10e",
 "nitelik_ayet": "11:52",
 "odul_ayet": "11:52",
-"odul": "yok",
+"odul": "dunyevi_bereket",
 "derece": "✓",
 "tur": "emir",
 "ham": "tevbe_sart",
@@ -515,6 +545,16 @@
 "tur": "emir",
 "ham": "tevbe_sart",
 "not_": "\"Etkili öğüt veren bir tövbe ile Allah'a yönelin; umulur ki günahlarınızı örter, cennetlere yerleştirir\""
+},
+{
+"blok": "K10h",
+"nitelik_ayet": "66:8",
+"odul_ayet": "66:8",
+"odul": "gunah_ortme",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "tevbe_sart",
+"not_": "\"Umulur ki Rabbiniz kötülüklerinizi örter\" (en yükeffira anküm seyyiâtiküm)"
 }
 ]
 },
@@ -528,7 +568,7 @@
 "blok": "K10a",
 "nitelik_ayet": "3:90",
 "odul_ayet": "3:90",
-"odul": "yok",
+"odul": "tovbe_kabul_edilmez",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_olmaz",
@@ -542,7 +582,17 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_olmaz",
-"not_": "\"Kötülükleri yapıp ölüm gelince 'şimdi tövbe ettim' diyenler ile küfre batmış olarak ölenler için tövbe yoktur; korkunç azap\""
+"not_": "\"Kötülükleri yapıp ölüm gelince 'şimdi tövbe ettim' diyenler ile kâfir olarak ölenler için tövbe yoktur; onlar için acıklı bir azap hazırladık\""
+},
+{
+"blok": "K10b",
+"nitelik_ayet": "4:18",
+"odul_ayet": "4:18",
+"odul": "tovbe_kabul_edilmez",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "tevbe_olmaz",
+"not_": "\"Tövbe ... için değildir\" (ve leyseti't-tevbetü li'llezîne ...)"
 },
 {
 "blok": "K10d",
@@ -563,6 +613,16 @@
 "tur": "sonuc",
 "ham": "tevbe_olmaz",
 "not_": "\"İnananlara işkence edip tövbe etmeyenler için cehennem azabı ve yangın azabı vardır\""
+},
+{
+"blok": "K10h",
+"nitelik_ayet": "85:10",
+"odul_ayet": "85:10",
+"odul": "yangin_azabi",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "tevbe_olmaz",
+"not_": "\"Onlar için yangın azabı da vardır\" (ve lehüm azâbü'l-harîk)"
 }
 ]
 },
@@ -862,7 +922,7 @@
 "odul_ayet": "10:47",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "zulum_yok",
 "not_": "\"Aralarında adaletle hüküm verilir, hiçbir zulme uğratılmazlar\""
 },
@@ -872,7 +932,7 @@
 "odul_ayet": "10:54",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "zulum_yok",
 "not_": "\"Aralarında adaletle hükmedilmiştir; asla zulme uğratılmazlar\""
 },
@@ -912,7 +972,7 @@
 "odul_ayet": "17:71",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "zulum_yok",
 "not_": "\"Kitabı sağdan verilenler bir kıl kadar haksızlığa uğratılmayacak\""
 },
@@ -922,7 +982,7 @@
 "odul_ayet": "20:112",
 "odul": "yok",
 "derece": "✓",
-"tur": "sonuc",
+"tur": "tanim",
 "ham": "zulum_yok",
 "not_": "\"Mümin olarak iyilik yapan haksızlığa uğratılmaktan korkmaz\""
 },
@@ -982,7 +1042,7 @@
 "id": "kat_kat",
 "grup": "Ölçü ve adalet",
 "etiket": "Karşılığın kat kat artırılması",
-"ayet_sayisi": 11,
+"ayet_sayisi": 12,
 "kayitlar": [
 {
 "blok": "K10x",
@@ -998,7 +1058,7 @@
 "blok": "K10x",
 "nitelik_ayet": "2:261",
 "odul_ayet": "2:261",
-"odul": "artirma",
+"odul": "kat_kat",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kat_kat",
@@ -1013,6 +1073,16 @@
 "tur": "sonuc",
 "ham": "kat_kat",
 "not_": "\"Hoşnutluk için infak edenin durumu ürününü iki kat veren bahçe gibidir\""
+},
+{
+"blok": "K10c",
+"nitelik_ayet": "6:160",
+"odul_ayet": "6:160",
+"odul": "kat_kat",
+"derece": "✓",
+"tur": "tanim",
+"ham": "kat_kat",
+"not_": "\"Kim güzellikle gelirse ona getirdiğinin on katı vardır\" (fe-lehû aşru emsâlihâ)"
 },
 {
 "blok": "K10f",
@@ -1056,6 +1126,16 @@
 },
 {
 "blok": "K10g",
+"nitelik_ayet": "34:37",
+"odul_ayet": "34:37",
+"odul": "gurfe",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "kat_kat",
+"not_": "\"Onlar köşklerde (el-ğurufât) güven içindedirler\""
+},
+{
+"blok": "K10g",
 "nitelik_ayet": "38:61",
 "odul_ayet": "38:61",
 "odul": "yok",
@@ -1088,7 +1168,7 @@
 "blok": "K10h",
 "nitelik_ayet": "64:17",
 "odul_ayet": "64:17",
-"odul": "magfiret",
+"odul": "kat_kat",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kat_kat",
@@ -1194,6 +1274,16 @@
 },
 {
 "blok": "K10d",
+"nitelik_ayet": "9:20",
+"odul_ayet": "9:20",
+"odul": "derece",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "derece",
+"not_": "\"Allah katında derece bakımından daha büyüktürler\" (a'zamu deraceten)"
+},
+{
+"blok": "K10d",
 "nitelik_ayet": "11:3",
 "odul_ayet": "11:3",
 "odul": "fazl",
@@ -1251,6 +1341,16 @@
 "tur": "sonuc",
 "ham": "derece",
 "not_": "\"Herbirinin yaptığından dereceleri vardır; karşılık eksiksiz verilir, haksızlığa uğramazlar\""
+},
+{
+"blok": "K10h",
+"nitelik_ayet": "46:19",
+"odul_ayet": "46:19",
+"odul": "derece",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "derece",
+"not_": "\"Herbirinin yaptıklarından dereceleri vardır\" (ve li-küllin deracâtün mimmâ amilû)"
 },
 {
 "blok": "K10h",
@@ -1314,7 +1414,7 @@
 "blok": "K10e",
 "nitelik_ayet": "11:24",
 "odul_ayet": "11:24",
-"odul": "yok",
+"odul": "esitsizlik",
 "derece": "✓",
 "tur": "tanim",
 "ham": "esitsizlik",
@@ -1354,7 +1454,7 @@
 "blok": "K10g",
 "nitelik_ayet": "39:9",
 "odul_ayet": "39:9",
-"odul": "yok",
+"odul": "esitsizlik",
 "derece": "✓",
 "tur": "tanim",
 "ham": "esitsizlik",
@@ -1374,7 +1474,7 @@
 "blok": "K10h",
 "nitelik_ayet": "40:58",
 "odul_ayet": "40:58",
-"odul": "yok",
+"odul": "esitsizlik",
 "derece": "✓",
 "tur": "tanim",
 "ham": "esitsizlik",
@@ -1384,7 +1484,7 @@
 "blok": "K10h",
 "nitelik_ayet": "41:34",
 "odul_ayet": "41:34",
-"odul": "yok",
+"odul": "esitsizlik",
 "derece": "✓",
 "tur": "tanim",
 "ham": "esitsizlik",
@@ -1394,7 +1494,7 @@
 "blok": "K10h",
 "nitelik_ayet": "45:21",
 "odul_ayet": "45:21",
-"odul": "yok",
+"odul": "esitsizlik",
 "derece": "✓",
 "tur": "tanim",
 "ham": "esitsizlik",
@@ -1404,7 +1504,7 @@
 "blok": "K10h",
 "nitelik_ayet": "59:20",
 "odul_ayet": "59:20",
-"odul": "yok",
+"odul": "esitsizlik",
 "derece": "✓",
 "tur": "tanim",
 "ham": "esitsizlik",
@@ -1432,7 +1532,7 @@
 "blok": "K10e",
 "nitelik_ayet": "16:25",
 "odul_ayet": "16:25",
-"odul": "yok",
+"odul": "gunah_yuklenme",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "sorumluluk",
@@ -1462,7 +1562,7 @@
 "blok": "K10f",
 "nitelik_ayet": "20:100",
 "odul_ayet": "20:101",
-"odul": "yok",
+"odul": "gunah_yuklenme",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "sorumluluk",
@@ -2306,18 +2406,18 @@
 }
 },
 "istatistik": {
-"kayit": 156,
+"kayit": 166,
 "ayet": 161,
 "derece": {
-"✓": 151,
-"→": 5,
+"✓": 159,
+"→": 7,
 "?": 0
 },
 "tur": {
 "emir": 8,
 "yasak": 0,
-"sonuc": 76,
-"tanim": 72
+"sonuc": 82,
+"tanim": 76
 }
 }
 }

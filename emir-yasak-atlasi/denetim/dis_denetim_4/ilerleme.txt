@@ -1,0 +1,33 @@
+K1 0-29 okundu
+K1 30-69 okundu
+K1 70-109 okundu
+K1 110-154 okundu
+K1 155-194 okundu (K1 BİTTİ)
+K2 0-44 okundu
+K2 45-83 okundu (K2 BİTTİ)
+K3 0-39 okundu
+K3 40-74 okundu
+K3 75-105 okundu (K3 BİTTİ)
+K4 0-34 okundu
+K4 35-74 okundu
+K4 75-114 okundu
+K4 115-159 okundu
+K4 160-201 okundu (K4 BİTTİ)
+K5 0-39 okundu
+K5 40-79 okundu
+K5 80-109 okundu (K5 BİTTİ)
+K6 0-39 okundu
+K6 40-79 okundu
+K6 80-109 okundu
+K6 110-136 okundu (K6 BİTTİ, bulgu yok)
+K7 0-41 okundu
+K7 42-83 okundu (K7 BİTTİ)
+K10 0-39 okundu
+K10 40-79 okundu
+K10 80-119 okundu
+K10 120-155 okundu (K10 BİTTİ)
+K11 0-66 okundu (K11 BİTTİ)
+K12 0-44 okundu
+K12 45-89 okundu
+K12 90-134 okundu
+K12 135-173 okundu (K12 BİTTİ) — TÜM 1315 KAYIT OKUNDU

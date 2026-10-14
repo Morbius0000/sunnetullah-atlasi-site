@@ -14,7 +14,7 @@
 "odul_ayet": "2:83",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "anne_baba",
 "not_": "\"İsrailoğullarından söz: anne-babaya iyilik ve güzellikle davranın\""
 },
@@ -162,7 +162,7 @@
 "odul_ayet": "2:83",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "akraba",
 "not_": "\"İsrailoğullarından söz: akrabaya iyilik ve güzellikle davranın\""
 },
@@ -201,10 +201,10 @@
 "nitelik_ayet": "4:1",
 "odul_ayet": "4:1",
 "odul": "yok",
-"derece": "→",
+"derece": "✓",
 "tur": "emir",
 "ham": "akraba",
-"not_": "\"Rahimlerin haklarına (dikkat edin)\""
+"not_": "\"Allah'tan ve rahimlerden (ve'l-erhâme) sakının\""
 },
 {
 "blok": "K2a",
@@ -288,6 +288,16 @@
 },
 {
 "blok": "K2c",
+"nitelik_ayet": "24:22",
+"odul_ayet": "24:22",
+"odul": "magfiret",
+"derece": "→",
+"tur": "sonuc",
+"ham": "akraba",
+"not_": "\"Allah'ın sizi bağışlamasını istemez misiniz?\" (e-lâ tuhibbûne en yağfira'llâhu leküm): affedip hoş görme çağrısının ardından"
+},
+{
+"blok": "K2c",
 "nitelik_ayet": "26:214",
 "odul_ayet": "26:214",
 "odul": "yok",
@@ -330,11 +340,11 @@
 "blok": "K2d",
 "nitelik_ayet": "47:22",
 "odul_ayet": "47:23",
-"odul": "lanet",
+"odul": "lanet_sagirlik",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "akraba",
-"not_": "\"Ülkede fesat çıkarıp rahimleri parçalayanlara Allah lanet etmiştir\""
+"not_": "\"Allah onları lanetledi, kulaklarını sağır, gözlerini kör etti\" (47:23)"
 },
 {
 "blok": "K2d",
@@ -360,7 +370,7 @@
 "odul_ayet": "2:83",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "yetim",
 "not_": "\"İsrailoğullarından söz: yetimlere iyilik ve güzellikle davranın\""
 },
@@ -477,12 +487,12 @@
 {
 "blok": "K2d",
 "nitelik_ayet": "90:15",
-"odul_ayet": "90:15",
-"odul": "yok",
+"odul_ayet": "90:18",
+"odul": "ashab_meymene",
 "derece": "✓",
-"tur": "tanim",
+"tur": "sonuc",
 "ham": "yetim",
-"not_": "\"Açlık gününde yakındaki yetimi doyurmak\""
+"not_": "Sarp yokuş (akabe): \"Açlık gününde yakını olan bir yetimi doyurmak\" (90:15); 90:18 \"İşte bunlar sağın (meymene) ehlidir\""
 },
 {
 "blok": "K2d",
@@ -518,7 +528,7 @@
 "odul_ayet": "2:83",
 "odul": "yok",
 "derece": "✓",
-"tur": "emir",
+"tur": "tanim",
 "ham": "yoksul",
 "not_": "\"İsrailoğullarından söz: yoksullara iyilik ve güzellikle davranın\""
 },
@@ -664,6 +674,16 @@
 },
 {
 "blok": "K2c",
+"nitelik_ayet": "24:22",
+"odul_ayet": "24:22",
+"odul": "magfiret",
+"derece": "→",
+"tur": "sonuc",
+"ham": "yoksul",
+"not_": "\"Allah'ın sizi bağışlamasını istemez misiniz?\" (e-lâ tuhibbûne en yağfira'llâhu leküm): affedip hoş görme çağrısının ardından"
+},
+{
+"blok": "K2c",
 "nitelik_ayet": "30:38",
 "odul_ayet": "30:38",
 "odul": "felah",
@@ -716,7 +736,7 @@
 "blok": "K2d",
 "nitelik_ayet": "69:34",
 "odul_ayet": "69:31",
-"odul": "cehennem",
+"odul": "cahim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "yoksul",
@@ -1118,6 +1138,10 @@
 "ar": "أَوْ مِسْكِينًا ذَا مَتْرَبَةٍ",
 "tr": "Yahut ezilmiş, boynu bükük bir yoksulu."
 },
+"90:18": {
+"ar": "أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْمَيْمَنَةِ",
+"tr": "İşte böyleleridir uğur ve bereket dostları."
+},
 "93:9": {
 "ar": "فَأَمَّا ٱلْيَتِيمَ فَلَا تَقْهَرْ",
 "tr": "O halde, yetimi örseleme,"
@@ -1136,18 +1160,18 @@
 }
 },
 "istatistik": {
-"kayit": 85,
-"ayet": 58,
+"kayit": 87,
+"ayet": 59,
 "derece": {
-"✓": 83,
-"→": 1,
+"✓": 84,
+"→": 2,
 "?": 1
 },
 "tur": {
-"emir": 51,
+"emir": 47,
 "yasak": 6,
-"sonuc": 7,
-"tanim": 21
+"sonuc": 10,
+"tanim": 24
 }
 }
 }

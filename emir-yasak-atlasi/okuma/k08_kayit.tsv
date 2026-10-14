@@ -100,7 +100,7 @@ B020	sabir	3:200	3:200	felah	✓	le'allekum
 B020	murabata	3:200	3:200	felah	✓
 B020	takva	3:200	3:200	felah	✓
 B021	itaat_allah_resul	4:13	4:13	cennet	✓	hudûdullah bağlamı (miras); fevz-i azîm
-B022	kebairden_kacinmak	4:31	4:31	cennet	→	seyyiat örtülür + "değerli bir giriş yerine (mudhalen kerîmâ) sokarız"; ayet cennet adını vermez
+B022	kebairden_kacinmak	4:31	4:31	mudhal_kerim	✓	seyyiat örtülür + "değerli bir giriş yerine (müdhalen kerîmâ) sokarız"
 B022	sabir	4:25	4:25	hayir	✓	"sabretmeniz hayırlıdır" (evlilik bağlamı)
 B023	hasene	4:40	4:40	kat_kat	✓	zerre ağırlığı; iyilik katlanır (konu 10)
 B023	iman_ve_infak	4:39	4:39	ovgu	→	'ne olurdu inansalar ve infak etselerdi'
@@ -138,9 +138,13 @@ B030	allaha_sarilmak	4:175	4:175	rahmet	✓
 B031	iman	5:9	5:9	magfiret_ecir	✓	vaat
 B031	salih_amel	5:9	5:9	magfiret_ecir	✓
 B031	namaz	5:12	5:12	cennet	✓	İsrailoğulları mîsakı; şart cümlesi
+B031	namaz	5:12	5:12	gunah_ortme	✓	"Kötülüklerinizi örteceğim" (le-ükeffiranne)
 B031	zekat	5:12	5:12	cennet	✓
+B031	zekat	5:12	5:12	gunah_ortme	✓	"Kötülüklerinizi örteceğim" (le-ükeffiranne)
 B031	iman_resullere_ve_destek	5:12	5:12	cennet	✓	âmentum bi-rusulî ve azzertumûhum
+B031	iman_resullere_ve_destek	5:12	5:12	gunah_ortme	✓	"Kötülüklerinizi örteceğim" (le-ükeffiranne)
 B031	karz_hasen	5:12	5:12	cennet	✓
+B031	karz_hasen	5:12	5:12	gunah_ortme	✓	"Kötülüklerinizi örteceğim" (le-ükeffiranne)
 B031	allah_rizasina_uymak	5:16	5:16	hidayet	✓	selam yolları, nura çıkarma
 B031	RED:soy_secilmislik	5:18	5:18	-	✓	"Allah'ın oğulları ve sevgilileriyiz" iddiası reddi
 B031	takva	5:27	5:27	kabul	✓	Allah yalnız müttakilerden kabul eder
@@ -545,6 +549,7 @@ B201	mukarrebun	56:88	56:89	cennet	?	nitelik bu pasajda tanımlanmaz
 B202	iman	57:7	57:7	ecir	✓	iman ve infak
 B202	infak	57:7	57:7	ecir	✓
 B202	fetihten_once_infak_ve_savas	57:10	57:10	derece	✓	herkese hüsnâ; derece farkı (konu 10)
+B202	fetihten_once_infak_ve_savas	57:10	57:10	husna	✓	"Allah hepsine en güzeli vaat etti" (ve küllen vaada'llâhu'l-husnâ)
 B202	karz_hasen	57:11	57:11	kat_kat	✓	ecr-i kerîm
 B202	iman	57:12	57:12	cennet	✓	mü'min erkek ve kadınların nuru
 B202	allah_zikrine_kalbin_urpermesi	57:16	57:16	-	→	emir sorusu

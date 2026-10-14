@@ -400,7 +400,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "av_ve_ihram",
-"not_": "Av ile deneme: \"Bundan sonra azıp sınırı çiğneyen için korkunç bir azap olacaktır\""
+"not_": "Av ile deneme: \"Bundan sonra kim haddi aşarsa (i'tedâ) onun için acıklı bir azap vardır\""
 },
 {
 "blok": "K7c",
@@ -421,6 +421,16 @@
 "tur": "sonuc",
 "ham": "av_ve_ihram",
 "not_": "Kasten öldürenin cezası: öldürdüğüne denk kurbanlık, yahut yoksullara yedirme, yahut buna denk oruç; \"yaptığının vebalini tatsın\""
+},
+{
+"blok": "K7c",
+"nitelik_ayet": "5:95",
+"odul_ayet": "5:95",
+"odul": "intikam",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "av_ve_ihram",
+"not_": "\"Kim tekrar yaparsa Allah ondan intikam alır\" (ve men âde fe-yentekımu'llâhu minh)"
 },
 {
 "blok": "K7c",
@@ -688,6 +698,16 @@
 },
 {
 "blok": "K7a",
+"nitelik_ayet": "2:229",
+"odul_ayet": "2:229",
+"odul": "zalim_sayilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "bosanma_ve_iddet",
+"not_": "\"Kim Allah'ın sınırlarını aşarsa, işte onlar zalimlerin ta kendileridir\""
+},
+{
+"blok": "K7a",
 "nitelik_ayet": "2:230",
 "odul_ayet": "2:230",
 "odul": "yok",
@@ -705,6 +725,16 @@
 "tur": "yasak",
 "ham": "bosanma_ve_iddet",
 "not_": "\"Eski kocalarıyla nikahlanmaları hususunda onlara engel çıkarmayın\""
+},
+{
+"blok": "K7a",
+"nitelik_ayet": "2:232",
+"odul_ayet": "2:232",
+"odul": "arinma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "bosanma_ve_iddet",
+"not_": "\"Bu sizin için daha arındırıcı ve daha temizdir\" (zâliküm ezkâ leküm ve ethar)"
 },
 {
 "blok": "K7a",
@@ -769,7 +799,7 @@
 "nitelik_ayet": "5:87",
 "odul_ayet": "5:87",
 "odul": "sevilmeme",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kendi_haram_kilma",
 "not_": "\"Allah azıp sınırı aşanları sevmez\""
@@ -888,7 +918,7 @@
 "blok": "K7e",
 "nitelik_ayet": "16:116",
 "odul_ayet": "16:116",
-"odul": "basarisizlik",
+"odul": "felah_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kendi_haram_kilma",
@@ -1286,17 +1316,17 @@
 }
 },
 "istatistik": {
-"kayit": 90,
+"kayit": 93,
 "ayet": 77,
 "derece": {
-"✓": 90,
-"→": 0,
+"✓": 92,
+"→": 1,
 "?": 0
 },
 "tur": {
 "emir": 19,
 "yasak": 30,
-"sonuc": 13,
+"sonuc": 16,
 "tanim": 28
 }
 }

@@ -10,6 +10,7 @@ export const genel = {
     'Derece kuralı (dış denetimle netleşti): karşılık ayette davranışın sahibine zamirle ya da "işte onlar" ile bağlanıyorsa ✓; davranıştan farklı adla anılan bir sınıfa ("kâfirler", "zalimler", "suçlular", "güzel davrananlar", "sakınanlar") bağlanıyorsa ve davranışın sahibi o sınıfla yalnız bağlamdan özdeşleşiyorsa → sayılır. Ayetin bizzat "ondan daha zalim kim var" diye nitelediği kişi için "zalimler" sınıfı ✓ kalır.',
     'Karşılık adları ayetin kendi kelimesine göre verilir: ayet "cennet" demiyorsa (gurfe, "değerli giriş yeri") cennet kodu kullanılmaz; "makt" gazap, "ricz" pislik, "nebz fi\'l-yemm" boğulma diye yazılmaz. Kayıt notlarında mealin yorum katan ifadeleri yerine Arapça kelime verilir.',
     'Tür kuralı: Allah\'ın ya da bir elçinin doğrudan buyruğu (ör. "kulluk edin", "ortak koşma") Emir/Yasak; bir kişinin "bana emredildi", "yasaklandım" diye aktardığı ya da geçmişte verilmiş olarak anlatılan buyruk Tanım; "şirke saparsan amelin boşa çıkar" gibi şartlı cümle Sonuç sayılır.',
+    'Uyarı kuralı: Bir elçinin "sizin için ... azabından korkuyorum" uyarısı, şart açıkça kurulmadıkça → sayılır; "Rabbime isyan edersem ... korkarım" gibi şartı yazılı uyarı ✓ kalır. Ayette karşılık yazılı olduğu hâlde kodlanmamış kayıt bırakılmaz; ateşin adları (cehennem, cahîm, saîr, sekar, hutame) ayrı tutulur.',
   ],
 };
 export const konu08 = {
@@ -30,6 +31,7 @@ export const konu08 = {
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Kasas 54\'te ecrin sebebi "bimâ sabarû" olduğu için sabır dışındaki nitelikler, Teğâbün 16\'da felah "nefsin cimriliğinden korunma"ya bağlandığı için diğer nitelikler ve Hadîd 19\'daki iman bağı "→" yapıldı; Nahl 30 hasene olarak düzeltildi.',
     'Dış denetim 2. tur (14 Ekim 2026): Ayetin cennet adını vermediği Nisâ 31 (mudhalen kerîmâ), Hac 58-59 (mudhalen yerdavneh) ve Rahmân 60 ("ihsanın karşılığı ihsandır") kayıtlarında cennet bağı "→" yapıldı.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Bütün kayıtlar ayrıca satır satır okundu. Furkân 75 ve Zümer 20\'de karşılık ayetin dediği gibi "gurfe" oldu (cennet adı geçmez); Ra\'d 22-23\'te karşılık ayeti Adn cennetlerinin anıldığı 23. ayet yapıldı; Kehf 110\'da "Rabbe kavuşma" ödül değil umut olduğu için karşılık kaldırıldı; Âl-i İmrân 195\'te zikir ve tefekkürün karşılığı "duaya icabet" oldu; kunut İtaat başlığına, hasene ve hayırda yarışma yeni "İyilik" başlığına, es-sâihûn anlamı tartışmalı olarak ayrı başlığa alındı; bağı ayette açıkça kurulmayan (başka sınıfa, genel cümleye ya da sıfata dayanan) 20 kayıt "→" oldu.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Nisâ 31\'in karşılığı "değerli bir giriş yeri" (mudhal kerîm) olarak ayrıca kodlandı; Mâide 12\'ye kötülüklerin örtülmesi, Hadîd 10\'a hüsnâ eklendi.',
   ],
 };
 export const konu09 = {
@@ -50,6 +52,7 @@ export const konu09 = {
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Nisâ 37\'nin cimrilik→azap bağı "→" yapıldı.',
     'Dış denetim 2. tur (14 Ekim 2026): Mü\'minûn 44 (helâk fiili açık değil), Mâide 29 (anlatıdaki kişinin dileği) ve Yûnus 90-91 (geç imanın kabul edilmediği soru kalıbından çıkarılır) "→" yapıldı; Mâûn 7\'nin kayıt adı "el-mâ\'ûn\'u engelleme" olarak düzeltildi.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Bütün kayıtlar ayrıca satır satır okundu. "Makt" gazaptan, "nebz fi\'l-yemm" boğulmadan, "ekinne" mühürden ayrı kodlandı; karşılığı "kâfirler", "zalimler", "suçlular" sınıfına bağlanan ya da benzetmeyle kurulan 40\'ı aşkın kayıt "→" oldu; Furkân 40 (ayrı özne) çıkarıldı; ateşi yalanlama, refah (mütref), geçimde şımarma, en bedbaht gibi kayıt adları lafza uyduruldu; notlardaki "yere batırdık", "yaya", "yüzlerine bakılmaz" gibi ayette olmayan ayrıntılar kaldırıldı.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Peygamberlerin şart kurmadan söylediği "korkuyorum" uyarıları (Hûd 3, 26, 84; Meryem 45) "→", şartlı olanlar (En\'âm 15, Yûnus 15, Zümer 13) ✓ oldu. Azap sıfatları lafza göre düzeltildi (azâbü\'l-hûn, sû\'u\'l-azâb, azâb ğalîz, azâb yuhzîh); "el-cahîm" ayrıca kodlandı. Ra\'d 25, Nahl 94, Mâide 13, Bakara 61 ve Nûr 4\'e ayette yazılı ek karşılıklar eklendi.',
   ],
 };
 
@@ -70,6 +73,7 @@ export const konu01 = {
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Beş kayıtta karşılık kodu ayetin lafzına göre düzeltildi (Yûsuf 22 ecir, Hac 37 müjde, Bakara 58 ve A\'râf 161 artırma, Rahmân 60 karşılık); Ahzâb 5\'teki adalet bağı, ayet açıkça "Allah katında adalete daha uygundur" dediği için "✓ Açık" yapıldı.',
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Karşılık kodları lafza yaklaştırıldı ("kezâlike neczi" ayetlerinde ecir yerine karşılık; Nahl 30 ve Zümer 10\'da hüsnâ yerine hasene; Tevbe 91, Ankebût 69, Lokmân 22 ve Ahkâf 12\'de ayetteki sonuç kodlandı); Bakara 40\'taki "ben de ahdinize vefa göstereyim" karşılığı eklendi. Sıdk kelimesi davranış değil zümre ya da makam adı olarak geçtiği için Nisâ 69 ve Yûnus 2 "→" yapıldı. "Emredildi/yasaklandım" biçimindeki aktarılmış buyruklar bütün atlasta Tanım türüne alındı.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): "Kezâlike neczî" ve "cezâu\'l-muhsinîn" ayetlerindeki ecir kodu "karşılık" oldu (Yûsuf 22, Kasas 14, Zümer 34); Nûh, Hûd ve Şuayb\'ın kulluk çağrısındaki azap uyarısı ayrı kayıt olarak eklendi; Tevbe 4 ve 7\'de sevgi "sakınanlar" sınıfına bağlandığı için ahde vefa bağı "→" oldu.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Bakara 63, Bakara 83 ve Yâsîn 60-61\'deki geçmişte alınmış söz ve ahit Tanım\'a alındı; Nûh, Hûd ve Şuayb\'ın "sizin için ... azabından korkuyorum" uyarıları, şart açıkça kurulmadığı için "→" oldu. Mâide 13\'e kalplerin katılaştırılması, Ra\'d 25\'e yurdun kötüsü (sû\'u\'d-dâr), Nahl 94\'e kötülüğü tatma karşılıkları eklendi. Muhammed 21 ahit değil sadakat (sadakû\'llâh) dediği için doğruluk başlığına alındı; İnsân 7\'de nezr "adak" diye yazıldı.',
   ],
 };
 
@@ -90,6 +94,7 @@ export const konu02 = {
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Bakara 271\'in karşılığı "günahların örtülmesi" olarak düzeltildi.',
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Bakara 177, Ahzâb 6 ve Duhâ 10\'un notları mealin yorum katan ifadelerinden arındırılıp Arapça lafza (el-birr, ulu\'l-erhâm, es-sâil) bağlandı; Nisâ 127 "✓" yapıldı.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Müddessir 44\'ün karşılığı ayetteki adıyla "Sekar" olarak düzeltildi.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Bakara 83\'teki söz Tanım\'a alındı; Nisâ 1\'deki "rahimlerden sakının" doğrudan emir olarak ✓ oldu. Muhammed 23\'ün karşılığı lanet, sağırlık ve körlük; Beled 15\'in karşılığı 18. ayetteki "meymene ehli" olarak bağlandı. Nûr 22\'de affetme çağrısının ardından gelen bağışlanma umudu "→" olarak eklendi.',
   ],
 };
 
@@ -110,6 +115,7 @@ export const konu03 = {
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kasas 54\'ün karşılığı "iki kez ecir" olarak düzeltildi.',
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Tevbe 53-54\'te karşılık "amellerin boşa çıkması" değil "infakın kabul edilmemesi" olarak kodlandı; Kasas 54\'te iki kat ecrin sebebi sabır olduğu için infak bağı "→" yapıldı; Mâide 12\'nin birleşik şartı nota tam yazıldı; Bakara 110, Mücâdele 12, Talâk 7 ve Tevbe 98\'deki karşılıklar ayrı kayıt olarak eklendi.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Âl-i İmrân 180\'in karşılığı "boyunlarına dolanma" olarak düzeltildi; Âl-i İmrân 117 (benzetme) ve 134 (sevgi "güzel davrananlar"a) "→" yapıldı; Bakara 110\'daki genel hayır cümlesinin bağı "→" oldu.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Mâide 12\'ye kötülüklerin örtülmesi, Hadîd 10\'a hüsnâ, Tegâbün 17\'ye mağfiret, Tevbe 79\'a acıklı azap eklendi. Fussilet 7 (6. ayetteki "vay haline"), Muhammed 38 (kendi aleyhine), Leyl 8-10 (en zora kolaylaştırılma) ve Hadîd 24 ("→" sevilmeme) karşılıklarına bağlandı. Tevbe 53\'ün karşılık ayeti 53, Tevbe 34\'ün azabı "acıklı" olarak düzeltildi; Bakara 261 ve 265 "kat kat" olarak birleştirildi.',
   ],
 };
 
@@ -131,6 +137,7 @@ export const konu04 = {
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. Aktarılmış buyruklar ("emredildi", "yasaklandım") Tanım türüne alındı; Kehf 110 ve Hac 26 yasak olarak işaretlendi; En\'âm 108 (sövme yasağı) söz edebine ait olduğu için Konu 6\'ya taşındı.',
     'Dış denetim 2. tur (14 Ekim 2026): Kasas 88\'deki yasak "kulluk" değil "yakarma" (lâ ted\'u) olarak düzeltildi; A\'râf 173 bir amaç cümlesi olduğu için Tanım\'a alındı; Nisâ 116\'nın karşılığı lafza göre "uzak bir sapıklık" oldu; benzetme ya da başka özneye geçiş içeren Ra\'d 33, Hac 31, En\'âm 148 ve En\'âm 39 "→" yapıldı.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Karşılığı "zalimler", "kâfirler" ya da "suçlular" sınıfına bağlanan sekiz kayıt "→" oldu (Yûnus 17, İbrâhîm 22, Furkân 37, Şûrâ 21, Cuma 5, Mü\'min 73-74, Zümer 15, Neml 83-85); Zümer 65 şartlı cümle olduğu için Sonuç türüne alındı.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): En\'âm 157 "azabın kötüsü" (sû\'e\'l-azâb), Meryem 79 "azabın uzatılması", Sebe 38 "azapta hazır bulundurulma" olarak düzeltildi; Kehf 52\'de "mevbik" helak yeri diye yazıldı. İbrahim (Meryem 45) ve Nûh\'un şartsız uyarıları "→" oldu. Fetih 6\'ya kötülük çemberi, A\'râf 136\'ya intikam eklendi; "el-cahîm" geçen ayetlerin karşılığı "Cahîm" olarak ayrıca kodlandı.',
   ],
 };
 
@@ -151,6 +158,7 @@ export const konu05 = {
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Nisâ 30\'un bağı "→ Çıkarım" yapıldı, Ahzâb 30\'un karşılığı "iki kat azap" olarak düzeltildi, Mâide 63\'te ayette yazmayan karşılık kodu kaldırıldı.',
     'Dış denetim 2. tur (14 Ekim 2026): Tekvîr 8-9\'da soru kurbana sorulduğu için failin hesaba çekilmesi "→" yapıldı; Nisâ 25\'teki "hür kadın cezasının yarısı" karşılık olarak kodlandı.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Nisâ 10\'da karşılık "alevli ateş" (saîr), Nisâ 161 "→", A\'râf 84\'te "yağmur", Ankebût 34\'te "gökten felaket" olarak düzeltildi; İsrâ 35\'teki "bu daha hayırlıdır" ve Âl-i İmrân 130\'daki felah ayrı kayıt olarak eklendi; "korkunç azap" kodu ayetin sıfatına göre (elîm, azîm, muhît) ayrıldı.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Bakara 84, Mâide 32 ve Mâide 45 (geçmişte yazılan hüküm) Tanım\'a alındı. Mâide 45\'e keffâret, Nûr 4\'e tanıklığın ebediyen reddi, Bakara 61\'e zillet, Nûr 30\'a arınma eklendi; Rûm 39\'da "Allah katında artmaz" kodlandı. Tevbe 35\'in notundaki "lav dökülür" ifadesi lafza göre düzeltildi: altın ve gümüş kızdırılır.',
   ],
 };
 
@@ -171,6 +179,7 @@ export const konu06 = {
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Nisâ 156\'nın mühürle bağı "→ Çıkarım" derecesine indirildi.',
     'Dış denetim (14 Ekim 2026): bağımsız bir yapay zekâ denetiminin bulguları Arapça metinle tek tek doğrulandı; yalnız doğrulananlar uygulandı. En\'âm 108 ("yakardıklarına sövmeyin") Konu 4\'ten bu bölüme taşındı; Nisâ 37\'nin azap bağı "→" yapıldı (azap ayette "kâfirler için" bildirilir).',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Câsiye 9 ve Bakara 169\'un notları mealin ifadesinden arındırıldı; Yûnus 17 ve Ankebût 68 ("suçlular", "kâfirler" sınıfı) "→" oldu.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): "Lâ yuflihu" geçen ayetlerin karşılığı "felah bulamama" (En\'âm 21, Yûnus 17, Nahl 116), "hâbe" geçen Tâhâ 61\'inki "başarısızlık" oldu. Kasas 81\'de karşılık "yere batırılma" (hasf) olarak ayrıca kodlandı. Tevbe 65, Hûd 38 ve Mü\'minûn 110 karşılıklarının yazıldığı ayetlere bağlandı; Hadîd 23\'te sevgi yokluğu "muhtâl fahûr" sınıfına bağlandığı için "→" oldu.',
   ],
 };
 
@@ -190,6 +199,7 @@ export const konu07 = {
     'Bilinen sınırlar: Bakara 219\'da şarap ve kumar için "büyük günah" denir, doğrudan "haram kıldı" denmez; Mâide 90-91 "uzak durun" buyruğunu ve gerekçesini verir. Nahl 67\'de "sarhoş edici içecek" ile "güzel rızık" birlikte anılır, hüküm yazılmaz. Mâide 5 ve Nisâ 24\'teki bazı şartlar (mehir, iffet, zina etmeme) kayıtta hükmün parçası olarak tutuldu. Peygamber\'e özgü evlilik hükümleri (Ahzâb 50, 52) ayrı işaretlendi. Boşanma ve iddet hükümlerinin tamamı bu sayfada yoktur; yalnız helal, haram ve yasak kalıbıyla yazılanlar alındı.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kasas 12 (Mûsâ\'ya sütannelerin haram kılınması bir hüküm değil, kıssa anlatısıdır) çıkarıldı; Nisâ 25\'in başlığı "kölelikteki kadınlarla evlenme" olarak düzeltildi; Bakara 187\'deki itikâfta eşlere yaklaşma yasağı eklendi.',
     'Dış denetim 2. tur (14 Ekim 2026): Başlığa uymayan kayıt adları ayetin lafzına göre düzeltildi: Mâide 100 (pis ile temiz bir olmaz, genel hüküm), A\'râf 31 (yiyin için, israf etmeyin), Tâhâ 81 (gazap rızıkta taşkınlığa bağlanır), Nûr 33 (nikâh bulamayanın iffeti).',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Bakara 229\'a "zalimler", Bakara 232\'ye arınma, Mâide 95\'e intikam eklendi; Mâide 87\'de sevgi yokluğu "sınırı aşanlar"a bağlandığı için "→" oldu.',
   ],
 };
 
@@ -209,6 +219,7 @@ export const konu10 = {
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Kapsam dışı iki kayıt çıkarıldı (Bakara 228, Nûr 22), kat kat karşılık bildiren dört kayıt doğru başlığa taşındı (Furkân 69, Ahzâb 30-31, Sebe 37, Sâd 61), Âl-i İmrân 22\'nin davranış ayeti 21 olarak düzeltildi, Nahl 25\'te yanlış karşılık kodu kaldırıldı ve Hûd 90\'daki rahmet "→ Çıkarım" derecesine indirildi (ayet bir vaat değil, Allah\'ın bir niteliğini bildirir).',
     'Dış denetim 2. tur (14 Ekim 2026): Sâd 34-35\'te mağfiret istenir ama verildiği yazılı değil, Nisâ 16\'da doğrudan sonuç eziyetten vazgeçmektir: ikisi "→" yapıldı. En\'âm 160 ve Yûnus 27\'de "misliyle karşılık" kodlandı.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Tevbe 20\'de karşılık "fevz" (el-fâizûn), Hûd 3\'te "fazl" olarak düzeltildi; şirkin bağışlanmadığını bildiren beş ayete "bağışlanmama" kodu verildi; Mâide 39 ve Âl-i İmrân 128\'de karşılık "tövbenin kabulü" oldu; Furkân 70\'te "kötülüklerin iyiliğe çevrilmesi" kodlandı.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Ayette yazılı olup kodlanmamış karşılıklar tamamlandı: Bakara 54 (tövbenin kabulü), Bakara 279 (anaparanın kalması), Tevbe 5, 11 ve 74, Hûd 3 ve 52, Tahrîm 8, Nisâ 18, Bürûc 10, Sebe 37, Ahkâf 19. Bakara 261 ve Tegâbün 17 "kat kat" başlığında tutarlı kodlandı; eşitsizlik başlığında iyi ile kötünün eşit olmadığını söyleyen ayetlerin hepsi aynı kodla işaretlendi.',
   ],
 };
 
@@ -226,6 +237,7 @@ export const konu11 = {
     'Bilinen sınırlar: "sevmek" burada ayetin lafzındaki fiilden alınır; sevgi bildirilmeyen bir tutumun "sevilmediği" sonucu çıkarılmaz. Allah\'ın bir tutumu sevmediğinin bildirilmemesi onu sevdiği anlamına da gelmez. Kelime bazlı tarama bir ayeti kaçırmış olabilir.',
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle tek tek yeniden okundu. Hucurât 7 ("Allah imanı size sevdirdi") Allah\'ın sevdikleri başlığından "Vedûd ve sevgi koyma" başlığına taşındı; Şûrâ 23 ve Mümtehine 1 notları ayetin lafzına uyduruldu; Hûd 90\'daki rahmet "→ Çıkarım" derecesine indirildi.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Tevbe 24\'teki "bekleyin, Allah emrini getirinceye kadar" tehdit olarak kodlandı.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Âl-i İmrân 31\'in asıl karşılığı ("Allah da sizi sevsin") eklendi; Mümtehine 7\'deki mevedde insanlar arası sevgi olduğu için "Allah\'ın sevgisi" kodu kaldırıldı; Meryem 96\'da sevginin kimden kime olduğu lafızda belirtilmediği için "→" oldu.',
   ],
 };
 
@@ -244,5 +256,6 @@ export const konu12 = {
     'Denetim (13 Ekim 2026): her kayıt ayet metniyle ve Arapça kelimeyle tek tek yeniden okundu. Yedi kayıtta not, tür ya da karşılık ayeti düzeltildi (ör. A\'râf 163\'te ayet azap değil imtihan der; Zuhruf 54 ve Hâkka 9\'un karşılığı sonraki ayettedir).',
     'Dış denetim 2. tur (14 Ekim 2026): Ayetteki karşılığı atlanmış on kayıt kodlandı (ör. Tevbe 96 Allah\'ın razı olmaması, Haşr 5 rezil etme, En\'âm 146 haram kılma, Furkân 68 esâm, Duhân 44 zakkum); Mü\'min 55, Muhammed 19 ve Yûsuf 29, 97\'de bağışlanma yalnız istendiği için mağfiret kodu kaldırıldı.',
     'Dış denetim 3. tur ve devralınan denetim (14 Ekim 2026): Yakalama, gökten azap (ricz) ve boğulma ayetlerindeki karşılık kodları lafza göre düzeltildi (Âl-i İmrân 11, Enfâl 52, Hâkka 10, Mü\'min 21, Zuhruf 55, Bakara 59); Bakara 85, Nisâ 48, Mücâdele 8, Nûr 11 ve Tevbe 24\'te atlanmış karşılıklar kodlandı; Bakara 182\'de "günah yok" kodu kullanıldı.',
+    'Satır satır okuma (4. tur, 14 Ekim 2026): Nisâ 31\'e "değerli bir giriş yeri", Âl-i İmrân 136\'ya cennet, Saff 12\'ye mağfiret, Ahkâf 31\'e azaptan korunma, Saff 5\'e kalplerin eğriltilmesi eklendi. Mülk 11\'in karşılığı "suhkan" (uzak olsunlar), A\'râf 165\'inki "azâb beîs" (çetin azap), Mâide 26\'nınki "tîh" olarak düzeltildi; Necm 32\'deki "Rabbinin affı geniştir" sıfat cümlesi "→" oldu.',
   ],
 };

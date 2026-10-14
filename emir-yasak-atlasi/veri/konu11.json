@@ -465,6 +465,16 @@
 "not_": "\"Allah'ı seviyorsanız bana uyun ki Allah da sizi sevsin ve günahlarınızı bağışlasın\""
 },
 {
+"blok": "K11a",
+"nitelik_ayet": "3:31",
+"odul_ayet": "3:31",
+"odul": "sevgi",
+"derece": "✓",
+"tur": "emir",
+"ham": "insan_sever",
+"not_": "\"Bana uyun ki Allah da sizi sevsin\" (yuhbibkümü'llâh)"
+},
+{
 "blok": "K11d",
 "nitelik_ayet": "3:92",
 "odul_ayet": "3:92",
@@ -482,7 +492,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "insan_sever",
-"not_": "\"Ettikleriyle zevklenip yapmadıklarıyla övülmeyi sevenleri azaptan kurtulmuş sanma; korkunç azap vardır\""
+"not_": "\"Ettikleriyle sevinip yapmadıklarıyla övülmeyi sevenleri azaptan kurtulmuş sanma; onlar için acıklı bir azap vardır\""
 },
 {
 "blok": "K11b",
@@ -515,6 +525,16 @@
 "not_": "\"Babalarınız ve kardeşleriniz imana karşı inkârı seviyorlarsa onları dost edinmeyin\""
 },
 {
+"blok": "K11d",
+"nitelik_ayet": "9:23",
+"odul_ayet": "9:23",
+"odul": "zalim_sayilma",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "insan_sever",
+"not_": "\"Sizden kim onları dost edinirse, işte onlar zalimlerin ta kendileridir\""
+},
+{
 "blok": "K11c",
 "nitelik_ayet": "9:24",
 "odul_ayet": "9:24",
@@ -532,7 +552,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "insan_sever",
-"not_": "\"Müminler arasında edepsizliğin yayılmasını arzu edenlere dünyada da âhirette de korkunç azap\""
+"not_": "\"Müminler arasında edepsizliğin yayılmasını arzu edenlere dünyada da âhirette de acıklı bir azap vardır\""
 },
 {
 "blok": "K11d",
@@ -627,10 +647,10 @@
 "nitelik_ayet": "19:96",
 "odul_ayet": "19:96",
 "odul": "sevgi",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "vedud",
-"not_": "\"İman edip iyi işler yapanlar için Rahman bir sevgi oluşturacaktır\""
+"not_": "\"İman edip iyi işler yapanlar için Rahman bir sevgi (vüdd) oluşturacaktır\": sevginin kimden kime olduğu lafızda belirtilmez"
 },
 {
 "blok": "K11c",
@@ -686,7 +706,7 @@
 "blok": "K11d",
 "nitelik_ayet": "60:7",
 "odul_ayet": "60:7",
-"odul": "sevgi",
+"odul": "yok",
 "derece": "✓",
 "tur": "tanim",
 "ham": "vedud",
@@ -976,17 +996,17 @@
 }
 },
 "istatistik": {
-"kayit": 67,
+"kayit": 69,
 "ayet": 67,
 "derece": {
-"✓": 66,
-"→": 1,
+"✓": 67,
+"→": 2,
 "?": 0
 },
 "tur": {
-"emir": 11,
+"emir": 12,
 "yasak": 10,
-"sonuc": 27,
+"sonuc": 28,
 "tanim": 19
 }
 }

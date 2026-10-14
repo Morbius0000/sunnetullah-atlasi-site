@@ -2,9 +2,9 @@
 K1a	ahde_vefa	2:27	2:27	husran	✓	Fâsıklar: "Allah'a verdikleri ahdi bozar ... İşte bunlardır hüsrana uğrayanlar"	sonuc
 K1a	ahde_vefa	2:40	2:40	-	✓	"Bana verdiğiniz söze vefalı olun ki, ben de size ahdimde vefalı olayım"	emir
 K1a	ahde_vefa	2:40	2:40	allahin_ahde_vefasi	✓	"Ahdime vefa gösterin ki ben de ahdinize vefa göstereyim" (evfû bi-ahdî ûfi bi-ahdikum; İsrailoğullarına)	sonuc
-K1a	ahde_vefa	2:63	2:63	-	✓	Kesin söz: "Size verdiğimizi kuvvetle tutun ve içinde olanı hatırlayıp zikredin ki sakınabilesiniz"	emir
-K1a	kulluk	2:83	2:83	-	✓	İsrailoğullarından alınan söz: "Allah'tan başkasına ibadet etmeyin"	yasak
-K1a	ihsan	2:83	2:83	-	✓	"Anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın; insanlara güzeli söyleyin"	emir
+K1a	ahde_vefa	2:63	2:63	-	✓	Kesin söz: "Size verdiğimizi kuvvetle tutun ve içinde olanı hatırlayıp zikredin ki sakınabilesiniz"	tanim
+K1a	kulluk	2:83	2:83	-	✓	İsrailoğullarından alınan söz: "Allah'tan başkasına ibadet etmeyin"	tanim
+K1a	ihsan	2:83	2:83	-	✓	"Anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın; insanlara güzeli söyleyin"	tanim
 K1a	kulluk	3:51	3:51	-	✓	İsa: "Allah benim de Rabbimdir, sizin de Rabbinizdir; o halde O'na kulluk edin. İşte bu dosdoğru bir yoldur"	emir
 K1a	ihsan	2:195	2:195	-	✓	"Güzel düşünüp güzel işler yapın"	emir
 K1a	ihsan	2:195	2:195	sevgi	✓	"Allah güzellik sergileyenleri sever"	sonuc
@@ -16,9 +16,9 @@ K1a	dogruluk	3:17	3:17	-	✓	Sabredenler, "özü-sözü doğru olanlar" (sâdık
 K1b	emanet	3:75	3:75	-	✓	Ehlikitap'tan kimi "yüklerle emanet teslim etsen iade eder", kimi "bir dînar emanet etsen tepesine çökmedikçe geri vermez"	tanim
 K1b	ahde_vefa	3:76	3:76	sevgi	✓	"Kim ahdine vefa eder, takvaya sarılırsa Allah takvaya sarılanları sever"	sonuc
 K1b	ahde_vefa	3:77	3:77	ahirette_nasip_yok	✓	"Allah'a verdikleri sözü ve yeminlerini basit bir bedel karşılığı satanlar için âhirette hiçbir nasip yoktur; Allah onlarla konuşmayacak, bakmayacak, arındırmayacak"	sonuc
-K1b	ahde_vefa	3:77	3:77	azap_elim	✓	"Onlar için korkunç bir azap vardır"	sonuc
+K1b	ahde_vefa	3:77	3:77	azap_elim	✓	"Onlar için acıklı bir azap vardır" (azâbun elîm)	sonuc
 K1b	ihsan	3:134	3:134	sevgi	✓	Bollukta ve darlıkta infak edenler, öfkelerini yutanlar, insanları affedenler: "Allah güzel düşünüp güzel davrananları sever"	sonuc
-K1b	ihsan	3:148	3:148	ahiret_sevabi	✓	"Allah onlara hem dünya nimetini verdi hem de âhiret sevabının en güzelini"	sonuc
+K1b	ihsan	3:148	3:148	ahiret_sevabi	→	"Allah onlara dünya sevabını ve âhiret sevabının güzelini verdi" (sevâbe'd-dünyâ ve husne sevâbi'l-âhira): 3:146-147'deki topluluk; ihsan bağı kapanış cümlesinden ("Allah muhsinleri sever")	sonuc
 K1b	ihsan	3:148	3:148	sevgi	✓	"Allah güzel düşünüp güzellik sergileyenleri sever"	sonuc
 K1b	emanet	4:58	4:58	-	✓	"Allah size emanetleri, onlara ehil olanlara vermenizi emrediyor"	emir
 K1b	adalet	4:58	4:58	-	✓	"İnsanlar arasında hükmettiğinizde adaletle hükmetmenizi emrediyor"	emir
@@ -31,6 +31,7 @@ K1b	ahde_vefa	5:7	5:7	-	✓	"Allah'ın, üzerinizdeki nimetini ve sizi bağladı
 K1b	adalet	5:8	5:8	-	✓	"Adalet ve dürüstlüğün tanıkları olarak Allah için kollayıp gözetleyenler olun! Adaletli olun! Bu, takvaya daha uygundur"	emir
 K1b	adalet	5:8	5:8	-	✓	"Bir topluluğun çirkinlik ve kötülüğü sizi adaletsiz davranmaya asla itmesin"	yasak
 K1b	ahde_vefa	5:13	5:13	lanet	✓	"Verdikleri mîsakı bozdukları için onları lanetledik de kalplerini kaskatı yaptık"	sonuc
+K1b	ahde_vefa	5:13	5:13	kalp_katilastirma	✓	"Kalplerini katılaştırdık" (ve cealnâ kulûbehüm kâsiyeten)	sonuc
 K1c	ahde_vefa	5:14	5:14	dusmanlik_salma	✓	Hıristiyanlardan alınan mîsak unutulunca: "Bu yüzden aralarına kıyamete değin düşmanlık ve şiddetli nefret saldık"	sonuc
 K1c	adalet	5:42	5:42	-	✓	"Aralarında hükmedersen, adaletle hükmet"	emir
 K1c	adalet	5:42	5:42	sevgi	✓	"Allah adaletle hükmedenleri sever"	sonuc
@@ -55,11 +56,11 @@ K1d	kulluk	10:3	10:3	-	✓	"İşte bu Allah'tır sizin Rabbiniz. Artık O'na kul
 K1d	ihsan	10:26	10:26	husna	✓	"Güzel düşünüp güzel davrananlara güzellik var. Dahası da var"	sonuc
 K1d	ihsan	10:26	10:26	cennet	✓	"Cennetin dostlarıdır onlar; sürekli kalıcıdırlar orada"	sonuc
 K1e	kulluk	10:104	10:104	-	✓	"Allah'a kulluk edeceğim; Bana müminlerden olmam emredildi"	tanim
-K1e	kulluk	11:2	11:2	-	✓	"Yalnız Allah'a ibadet edesiniz"	emir
+K1e	kulluk	11:2	11:2	-	✓	"Yalnız Allah'a ibadet edesiniz"	yasak
 K1e	kulluk	11:26	11:26	-	✓	"Allah'tan başkasına kulluk etmeyin"	yasak
-K1e	kulluk	11:26	11:26	azap_elim	✓	"Sizin için acıklı bir günün azabından korkuyorum" (Nûh'un uyarısı)	sonuc
+K1e	kulluk	11:26	11:26	azap_elim	→	"Sizin için acıklı bir günün azabından korkuyorum" (Nûh'un uyarısı)	sonuc
 K1e	kulluk	11:84	11:84	-	✓	"Şuayb: Allah'a kulluk edin"	emir
-K1e	kulluk	11:84	11:84	azap_kusatan	✓	"Sizin için kuşatıcı bir günün azabından korkuyorum" (Şuayb'ın uyarısı)	sonuc
+K1e	kulluk	11:84	11:84	azap_kusatan	→	"Sizin için kuşatıcı bir günün azabından korkuyorum" (Şuayb'ın uyarısı)	sonuc
 K1e	kulluk	11:123	11:123	-	✓	"O'na kulluk et, O'na dayanıp güven"	emir
 K1e	kulluk	12:40	12:40	-	✓	"O, yalnız kendisine kulluk etmenizi emretti"	tanim
 K1e	kulluk	13:36	13:36	-	✓	"Bana yalnız Allah'a kulluk etmem emredildi"	tanim
@@ -69,6 +70,7 @@ K1e	ihsan	12:56	12:56	ecir	✓	"Güzel davrananların ödülünü yitirmeyiz"	so
 K1e	ihsan	12:90	12:90	ecir	✓	"Allah güzel davrananların ödülünü yitirmez"	sonuc
 K1e	ahde_vefa	13:20	13:20	-	✓	"Allah'a verdikleri söze sadık kalanlar, antlaşmayı bozmayanlar"	tanim
 K1e	ahde_vefa	13:25	13:25	lanet	✓	"Ahdi bozanlara lanet vardır, yurdun en kötüsü de onlarındır"	sonuc
+K1e	ahde_vefa	13:25	13:25	su_ud_dar	✓	"Yurdun kötüsü de onlarındır" (ve lehüm sû'u'd-dâr)	sonuc
 K1e	adalet	10:47	10:47	-	✓	"Aralarında adaletle hükmedilir"	tanim
 K1e	adalet	10:54	10:54	-	✓	"Aralarında adaletle hükmedilir"	tanim
 K1f	kulluk	15:99	15:99	-	✓	"Sana kesin bilgi gelinceye kadar Rabbine ibadet et"	emir
@@ -79,6 +81,7 @@ K1f	ihsan	16:90	16:90	-	✓	"Allah iyi ve güzel davranmayı emreder"	emir
 K1f	ahde_vefa	16:91	16:91	-	✓	"Allah'a verdiğiniz söze vefa gösterin; yeminlerinizi bozmayın"	emir
 K1f	ahde_vefa	16:92	16:92	-	✓	"Yeminleri bozmada ipliğini bozan kadın gibi olmayın; yeminleri hile aracı yapıyorsunuz"	yasak
 K1f	ahde_vefa	16:94	16:94	azap_azim	✓	"Yeminlerinizi hile aracı yapmayın; büyük azaba uğrarsınız"	yasak
+K1f	ahde_vefa	16:94	16:94	kotuluk_tatma	✓	"Allah yolundan alıkoymanız yüzünden kötülüğü tadarsınız" (ve tezûkû's-sû'e); ayak kayması da anılır	sonuc
 K1f	ahde_vefa	16:95	16:95	-	✓	"Allah'a verdiğiniz sözü basit bir ücret karşılığı satmayın"	yasak
 K1f	kulluk	17:23	17:23	-	✓	"O'ndan başkasına kulluk etmeyin"	yasak
 K1f	ahde_vefa	17:34	17:34	-	✓	"Ahdinize vefalı olun; verilen söz sorumluluk gerektirir"	emir
@@ -86,7 +89,7 @@ K1f	ihsan	18:30	18:30	ecir	✓	"Güzel iş yapanların ödülünü yitirmeyeceğ
 K1f	kulluk	19:36	19:36	-	✓	"Allah Rabbimdir, Rabbinizdir; O'na ibadet edin"	emir
 K1f	kulluk	19:65	19:65	-	✓	"O'na kulluk/ibadet et ve ibadette sabırlı ol"	emir
 K1f	kulluk	20:14	20:14	-	✓	"Bana kulluk/ibadet et ve namazını yerine getir"	emir
-K1f	ahde_vefa	20:86	20:86	-	→	"Mûsa: bana verdiğiniz söze ters davrandınız"	tanim
+K1f	ahde_vefa	20:86	20:86	-	✓	"Mûsa: bana verdiğiniz söze ters davrandınız"	tanim
 K1g	kulluk	21:25	21:25	-	✓	"İlah yok benden başka, bana kulluk/ibadet edin"	emir
 K1g	adalet	21:47	21:47	-	✓	"Kıyamet günü adalet terazilerini kuracağız; kimseye zerre zulüm edilmeyecek"	tanim
 K1g	kulluk	21:92	21:92	-	✓	"Ben Rabbinizim, bana kulluk/ibadet edin"	emir
@@ -103,9 +106,9 @@ K1g	ihsan	31:22	31:22	saglam_kulp	✓	"Güzel davranarak yüzünü Allah'a tesli
 K1h	adalet	33:5	33:5	-	✓	"Evlatlıklarınızı öz babalarına nispet edin; bu Allah katında adalete daha uygundur" (huve aksatu)	emir
 K1h	ahde_vefa	33:15	33:15	-	✓	"Allah'a verilen söz sorumluluk gerektirirdi"	tanim
 K1h	emanet	33:72	33:72	-	✓	"Emaneti insan yüklendi; çok zalim ve çok cahil"	tanim
-K1h	kulluk	36:22	36:22	-	→	"Beni yaratana ne diye kulluk etmeyecekmişim ben?"	tanim
-K1h	kulluk	36:60	36:60	-	✓	"Şeytana kulluk etmeyin, o sizin için açık bir düşmandır"	yasak
-K1h	kulluk	36:61	36:61	-	✓	"Bana ibadet edin, dosdoğru yol budur"	emir
+K1h	kulluk	36:22	36:22	-	✓	"Beni yaratana ne diye kulluk etmeyecekmişim ben?"	tanim
+K1h	kulluk	36:60	36:60	-	✓	"Şeytana kulluk etmeyin, o sizin için açık bir düşmandır"	tanim
+K1h	kulluk	36:61	36:61	-	✓	"Bana ibadet edin, dosdoğru yol budur"	tanim
 K1h	ihsan	37:80	37:80	karsilik	✓	"Böyle ödüllendiririz biz güzel davrananları"	sonuc
 K1h	ihsan	37:105	37:105	karsilik	✓	"Güzel düşünüp güzel davrananları böyle ödüllendiririz"	sonuc
 K1h	ihsan	37:110	37:110	karsilik	✓	"Böyle ödüllendiririz biz güzellik sergileyenleri"	sonuc
@@ -122,8 +125,8 @@ K1h	kulluk	40:66	40:66	-	✓	"Allah'ın berisinden yakardıklarınıza kulluk et
 K1i	kulluk	41:14	41:14	-	✓	"Resuller: Allah'tan başkasına ibadet/kulluk etmeyin"	yasak
 K1i	kulluk	43:64	43:64	-	✓	"Allah Rabbimdir, Rabbinizdir; O'na kulluk/ibadet edin"	emir
 K1i	kulluk	46:21	46:21	-	✓	"Hûd: Allah'tan başkasına kulluk/ibadet etmeyin"	yasak
-K1i	kulluk	46:21	46:21	azap_azim	✓	"Sizin için büyük bir günün azabından korkuyorum" (Hûd'un uyarısı)	sonuc
-K1i	ahde_vefa	48:10	48:10	-	✓	"Kim ahdi bozarsa ancak kendi aleyhine bozmuş olur" (vefanın ecri ayrı kayıtta)	tanim
+K1i	kulluk	46:21	46:21	azap_azim	→	"Sizin için büyük bir günün azabından korkuyorum" (Hûd'un uyarısı)	sonuc
+K1i	ahde_vefa	48:10	48:10	kendi_aleyhine	✓	"Kim ahdi bozarsa ancak kendi aleyhine bozmuş olur" (fe-innemâ yenküsü alâ nefsihî)	sonuc
 K1i	ahde_vefa	48:10	48:10	ecir	✓	"Allah'a verdiği sözde vefalı davranana Allah büyük bir ödül verecek"	sonuc
 K1i	adalet	49:9	49:9	-	✓	"Aralarını adaletle düzeltin; adil davrananları Allah sever"	emir
 K1i	adalet	49:9	49:9	sevgi	✓	"Allah adil davrananları sever"	sonuc
@@ -136,7 +139,7 @@ K1j	adalet	57:25	57:25	-	✓	"Kitap'ı ve ölçüyü indirdik ki insanlar adalet
 K1j	adalet	65:2	65:2	-	✓	"İçinizden adalet sahibi iki kişiyi tanık tutun"	emir
 K1j	emanet	70:32	70:32	-	✓	"Bunlar emanetlerine ve ahitlerine sadık kalırlar"	tanim
 K1j	ahde_vefa	70:32	70:32	-	✓	"Bunlar emanetlerine ve ahitlerine sadık kalırlar"	tanim
-K1j	ahde_vefa	76:7	76:7	-	✓	"Onlar verdikleri sözü tam bir biçimde yerine getirirler"	tanim
+K1j	ahde_vefa	76:7	76:7	-	✓	"Adaklarını yerine getirirler" (yûfûne bi'n-nezr)	tanim
 K1j	ihsan	77:44	77:44	karsilik	✓	"İşte böyle ödüllendiririz biz, güzellikler sergileyenleri"	sonuc
 K1j	kulluk	109:2	109:2	-	✓	"Kulluk etmem sizin kulluk ettiğinize"	tanim
 K1k	ihsan	2:112	2:112	ecir	✓	"Güzel davranışlar sergileyerek yüzünü Allah'a teslim edenin ödülü Rabbi katındadır"	sonuc
@@ -144,7 +147,7 @@ K1k	ahde_vefa	9:111	9:111	-	✓	"Ahdine Allah'tan daha vefalı kim var?"	tanim
 K1k	ihsan	9:91	9:91	sorumluluk_yok	✓	"Güzel davrananların (el-muhsinîn) aleyhine bir yol yoktur": Allah'a ve resulüne samimi kalan zayıf, hasta ve harcayacak bir şey bulamayanlar hakkında	sonuc
 K1k	ihsan	9:120	9:120	ecir	✓	"Allah güzel davrananların ödülünü yitirmez"	sonuc
 K1k	ihsan	3:172	3:172	ecir	✓	"Güzel işler yapıp takvaya sarılanlara büyük ödül"	sonuc
-K1k	adalet	3:21	3:21	azap_elim	✓	"İnsanlar içinden adaletle emredenlerin canına kıyanlara korkunç azap müjdesi"	sonuc
+K1k	adalet	3:21	3:21	azap_elim	✓	"Ayetleri inkâr edip peygamberleri ve insanlardan adaleti emredenleri haksız yere öldürenleri acıklı bir azapla (azâbin elîm) müjdele"	sonuc
 K1k	ahde_vefa	2:177	2:177	-	✓	"Ahit yaptıklarında ahitlerine vefa gösterenler"	tanim
 K1k	dogruluk	2:177	2:177	-	✓	"İşte doğru sözlü olanlar bunlardır; korunanlar da bunlardır"	tanim
 K1l	kulluk	1:5	1:5	-	✓	"Yalnız sana ibadet ederiz"	tanim
@@ -152,9 +155,11 @@ K1l	kulluk	2:21	2:21	-	✓	"Ey insanlar! Sizi yaratan Rabbinize ibadet edin ki k
 K1l	kulluk	3:64	3:64	-	✓	"Allah'tan başkasına kulluk etmeyelim, O'na hiçbir şeyi ortak koşmayalım"	yasak
 K1l	kulluk	4:36	4:36	-	✓	"Allah'a kulluk edin; O'na hiçbir şeyi ortak koşmayın"	emir
 K1l	kulluk	5:72	5:72	-	✓	"Mesih: Hem sizin hem benim Rabbim olan Allah'a kulluk/ibadet edin"	emir
+K1l	kulluk	5:72	5:72	cennet_haram	→	Mesih'in uyarısı: "Kim Allah'a ortak koşarsa Allah ona cenneti haram kılmıştır"; karşılık şirke bağlanır, kulluk emriyle bağı bağlamdan	sonuc
+K1l	kulluk	5:72	5:72	nar	→	"Varacağı yer ateştir" (ve me'vâhü'n-nâr)	sonuc
 K1l	kulluk	5:117	5:117	-	✓	"Mesih: Bana emrettiğin söz: Rabbim ve Rabbiniz Allah'a kulluk edin"	tanim
 K1l	kulluk	7:59	7:59	-	✓	"Nûh: Allah'a kulluk ve ibadet edin; sizin ondan başka tanrınız yok"	emir
-K1l	kulluk	7:59	7:59	azap_azim	✓	"Sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum" (Nûh'un uyarısı)	sonuc
+K1l	kulluk	7:59	7:59	azap_azim	→	"Sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum" (Nûh'un uyarısı)	sonuc
 K1l	kulluk	7:65	7:65	-	✓	"Hûd: Allah'a kulluk edin"	emir
 K1l	kulluk	7:73	7:73	-	✓	"Sâlih: Allah'a kulluk edin"	emir
 K1l	kulluk	9:31	9:31	-	✓	"Kendilerine tek olan Allah'tan başkasına ibadet/kulluk etmemeleri emredilmişti"	tanim
@@ -183,7 +188,7 @@ K1m	ahde_vefa	2:80	2:80	-	✓	"Allah ahdine asla ters düşmez"	tanim
 K1m	ahde_vefa	2:100	2:100	-	✓	"Her ahit verişte içlerinden bir fırka ahdi kaldırıp attı"	tanim
 K1m	ahde_vefa	8:56	8:56	-	✓	"Her defasında antlaşmalarını bozarlar"	tanim
 K1m	ahde_vefa	33:23	33:23	-	✓	"İnananlardan erler Allah'a verdikleri sözde sadakatle dururlar"	tanim
-K1m	ahde_vefa	47:21	47:21	-	✓	"Allah'a verdikleri söze sadık olsalardı kendileri için daha iyi olurdu"	tanim
+K1m	dogruluk	47:21	47:21	hayir	✓	"Allah'a sadık davransalardı (fe-lev sadakû'llâh) kendileri için daha hayırlı olurdu"; ayette ahit/söz kelimesi geçmez	sonuc
 K1m	dogruluk	4:69	4:69	-	→	"Allah'a ve resule itaat edenler... sıddîklarla (es-sıddîkîn) beraberdir": şart itaattir; sıdk burada davranış değil, beraber olunan zümrenin adıdır (itaat→beraberlik kaydı Konu 8'de)	tanim
 K1m	dogruluk	10:2	10:2	-	→	İman edenlere Rableri katında "kademe sıdk" (doğruluk makamı) müjdelenir: sıdk burada davranış değil, karşılığın adıdır (iman→kadem-i sıdk kaydı Konu 8'de)	tanim
 K1m	dogruluk	12:46	12:46	-	✓	"Yûsuf, ey özü sözü doğru insan (sıddîk)"	tanim

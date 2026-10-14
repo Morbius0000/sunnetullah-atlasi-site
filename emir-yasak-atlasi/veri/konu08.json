@@ -5920,16 +5920,16 @@
 "grup": "Toplum",
 "etiket": "Büyük günahlardan ve çirkinliklerden kaçınmak",
 "ayet_sayisi": 3,
-"cennet_sayisi": 1,
+"cennet_sayisi": 0,
 "kayitlar": [
 {
 "blok": "B022",
 "nitelik_ayet": "4:31",
 "odul_ayet": "4:31",
-"odul": "cennet",
-"derece": "→",
+"odul": "mudhal_kerim",
+"derece": "✓",
 "ham": "kebairden_kacinmak",
-"not_": "seyyiat örtülür + \"değerli bir giriş yerine (mudhalen kerîmâ) sokarız\"; ayet cennet adını vermez"
+"not_": "seyyiat örtülür + \"değerli bir giriş yerine (müdhalen kerîmâ) sokarız\""
 },
 {
 "blok": "B034",
@@ -8640,11 +8640,11 @@
 }
 },
 "istatistik": {
-"kayit": 643,
+"kayit": 648,
 "ayet": 498,
 "derece": {
-"✓": 581,
-"→": 56,
+"✓": 587,
+"→": 55,
 "?": 6
 }
 }

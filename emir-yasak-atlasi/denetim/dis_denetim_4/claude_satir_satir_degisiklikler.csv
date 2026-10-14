@@ -1,0 +1,551 @@
+﻿konu,durum,baslik_ham,davranis_ayet,karsilik_ayet,karsilik_kodu,derece,not,tur
+1,önce,ahde_vefa,2:63,2:63,-,✓,"Kesin söz: ""Size verdiğimizi kuvvetle tutun ve içinde olanı hatırlayıp zikredin ki sakınabilesiniz""",emir
+1,önce,kulluk,2:83,2:83,-,✓,"İsrailoğullarından alınan söz: ""Allah'tan başkasına ibadet etmeyin""",yasak
+1,önce,ihsan,2:83,2:83,-,✓,"""Anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın; insanlara güzeli söyleyin""",emir
+1,sonra,ahde_vefa,2:63,2:63,-,✓,"Kesin söz: ""Size verdiğimizi kuvvetle tutun ve içinde olanı hatırlayıp zikredin ki sakınabilesiniz""",tanim
+1,sonra,kulluk,2:83,2:83,-,✓,"İsrailoğullarından alınan söz: ""Allah'tan başkasına ibadet etmeyin""",tanim
+1,sonra,ihsan,2:83,2:83,-,✓,"""Anne-babaya, akrabaya, yetimlere, yoksullara iyilik ve güzellikle davranın; insanlara güzeli söyleyin""",tanim
+1,önce,ahde_vefa,3:77,3:77,azap_elim,✓,"""Onlar için korkunç bir azap vardır""",sonuc
+1,sonra,ahde_vefa,3:77,3:77,azap_elim,✓,"""Onlar için acıklı bir azap vardır"" (azâbun elîm)",sonuc
+1,önce,ihsan,3:148,3:148,ahiret_sevabi,✓,"""Allah onlara hem dünya nimetini verdi hem de âhiret sevabının en güzelini""",sonuc
+1,sonra,ihsan,3:148,3:148,ahiret_sevabi,→,"""Allah onlara dünya sevabını ve âhiret sevabının güzelini verdi"" (sevâbe'd-dünyâ ve husne sevâbi'l-âhira): 3:146-147'deki topluluk; ihsan bağı kapanış cümlesinden (""Allah muhsinleri sever"")",sonuc
+1,sonra,ahde_vefa,5:13,5:13,kalp_katilastirma,✓,"""Kalplerini katılaştırdık"" (ve cealnâ kulûbehüm kâsiyeten)",sonuc
+1,önce,kulluk,11:2,11:2,-,✓,"""Yalnız Allah'a ibadet edesiniz""",emir
+1,sonra,kulluk,11:2,11:2,-,✓,"""Yalnız Allah'a ibadet edesiniz""",yasak
+1,önce,kulluk,11:26,11:26,azap_elim,✓,"""Sizin için acıklı bir günün azabından korkuyorum"" (Nûh'un uyarısı)",sonuc
+1,sonra,kulluk,11:26,11:26,azap_elim,→,"""Sizin için acıklı bir günün azabından korkuyorum"" (Nûh'un uyarısı)",sonuc
+1,önce,kulluk,11:84,11:84,azap_kusatan,✓,"""Sizin için kuşatıcı bir günün azabından korkuyorum"" (Şuayb'ın uyarısı)",sonuc
+1,sonra,kulluk,11:84,11:84,azap_kusatan,→,"""Sizin için kuşatıcı bir günün azabından korkuyorum"" (Şuayb'ın uyarısı)",sonuc
+1,sonra,ahde_vefa,13:25,13:25,su_ud_dar,✓,"""Yurdun kötüsü de onlarındır"" (ve lehüm sû'u'd-dâr)",sonuc
+1,sonra,ahde_vefa,16:94,16:94,kotuluk_tatma,✓,"""Allah yolundan alıkoymanız yüzünden kötülüğü tadarsınız"" (ve tezûkû's-sû'e); ayak kayması da anılır",sonuc
+1,önce,ahde_vefa,20:86,20:86,-,→,"""Mûsa: bana verdiğiniz söze ters davrandınız""",tanim
+1,sonra,ahde_vefa,20:86,20:86,-,✓,"""Mûsa: bana verdiğiniz söze ters davrandınız""",tanim
+1,önce,kulluk,36:22,36:22,-,→,"""Beni yaratana ne diye kulluk etmeyecekmişim ben?""",tanim
+1,önce,kulluk,36:60,36:60,-,✓,"""Şeytana kulluk etmeyin, o sizin için açık bir düşmandır""",yasak
+1,önce,kulluk,36:61,36:61,-,✓,"""Bana ibadet edin, dosdoğru yol budur""",emir
+1,sonra,kulluk,36:22,36:22,-,✓,"""Beni yaratana ne diye kulluk etmeyecekmişim ben?""",tanim
+1,sonra,kulluk,36:60,36:60,-,✓,"""Şeytana kulluk etmeyin, o sizin için açık bir düşmandır""",tanim
+1,sonra,kulluk,36:61,36:61,-,✓,"""Bana ibadet edin, dosdoğru yol budur""",tanim
+1,önce,kulluk,46:21,46:21,azap_azim,✓,"""Sizin için büyük bir günün azabından korkuyorum"" (Hûd'un uyarısı)",sonuc
+1,önce,ahde_vefa,48:10,48:10,-,✓,"""Kim ahdi bozarsa ancak kendi aleyhine bozmuş olur"" (vefanın ecri ayrı kayıtta)",tanim
+1,sonra,kulluk,46:21,46:21,azap_azim,→,"""Sizin için büyük bir günün azabından korkuyorum"" (Hûd'un uyarısı)",sonuc
+1,sonra,ahde_vefa,48:10,48:10,kendi_aleyhine,✓,"""Kim ahdi bozarsa ancak kendi aleyhine bozmuş olur"" (fe-innemâ yenküsü alâ nefsihî)",sonuc
+1,önce,ahde_vefa,76:7,76:7,-,✓,"""Onlar verdikleri sözü tam bir biçimde yerine getirirler""",tanim
+1,sonra,ahde_vefa,76:7,76:7,-,✓,"""Adaklarını yerine getirirler"" (yûfûne bi'n-nezr)",tanim
+1,önce,adalet,3:21,3:21,azap_elim,✓,"""İnsanlar içinden adaletle emredenlerin canına kıyanlara korkunç azap müjdesi""",sonuc
+1,sonra,adalet,3:21,3:21,azap_elim,✓,"""Ayetleri inkâr edip peygamberleri ve insanlardan adaleti emredenleri haksız yere öldürenleri acıklı bir azapla (azâbin elîm) müjdele""",sonuc
+1,sonra,kulluk,5:72,5:72,cennet_haram,→,"Mesih'in uyarısı: ""Kim Allah'a ortak koşarsa Allah ona cenneti haram kılmıştır""; karşılık şirke bağlanır, kulluk emriyle bağı bağlamdan",sonuc
+1,sonra,kulluk,5:72,5:72,nar,→,"""Varacağı yer ateştir"" (ve me'vâhü'n-nâr)",sonuc
+1,önce,kulluk,7:59,7:59,azap_azim,✓,"""Sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum"" (Nûh'un uyarısı)",sonuc
+1,sonra,kulluk,7:59,7:59,azap_azim,→,"""Sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum"" (Nûh'un uyarısı)",sonuc
+1,önce,ahde_vefa,47:21,47:21,-,✓,"""Allah'a verdikleri söze sadık olsalardı kendileri için daha iyi olurdu""",tanim
+1,sonra,dogruluk,47:21,47:21,hayir,✓,"""Allah'a sadık davransalardı (fe-lev sadakû'llâh) kendileri için daha hayırlı olurdu""; ayette ahit/söz kelimesi geçmez",sonuc
+2,önce,anne_baba,2:83,2:83,-,✓,"""İsrailoğullarından söz: anne-babaya iyilik ve güzellikle davranın""",emir
+2,önce,akraba,2:83,2:83,-,✓,"""İsrailoğullarından söz: akrabaya iyilik ve güzellikle davranın""",emir
+2,önce,yetim,2:83,2:83,-,✓,"""İsrailoğullarından söz: yetimlere iyilik ve güzellikle davranın""",emir
+2,önce,yoksul,2:83,2:83,-,✓,"""İsrailoğullarından söz: yoksullara iyilik ve güzellikle davranın""",emir
+2,sonra,anne_baba,2:83,2:83,-,✓,"""İsrailoğullarından söz: anne-babaya iyilik ve güzellikle davranın""",tanim
+2,sonra,akraba,2:83,2:83,-,✓,"""İsrailoğullarından söz: akrabaya iyilik ve güzellikle davranın""",tanim
+2,sonra,yetim,2:83,2:83,-,✓,"""İsrailoğullarından söz: yetimlere iyilik ve güzellikle davranın""",tanim
+2,sonra,yoksul,2:83,2:83,-,✓,"""İsrailoğullarından söz: yoksullara iyilik ve güzellikle davranın""",tanim
+2,önce,akraba,4:1,4:1,-,→,"""Rahimlerin haklarına (dikkat edin)""",emir
+2,sonra,akraba,4:1,4:1,-,✓,"""Allah'tan ve rahimlerden (ve'l-erhâme) sakının""",emir
+2,sonra,akraba,24:22,24:22,magfiret,→,"""Allah'ın sizi bağışlamasını istemez misiniz?"" (e-lâ tuhibbûne en yağfira'llâhu leküm): affedip hoş görme çağrısının ardından",sonuc
+2,sonra,yoksul,24:22,24:22,magfiret,→,"""Allah'ın sizi bağışlamasını istemez misiniz?"" (e-lâ tuhibbûne en yağfira'llâhu leküm): affedip hoş görme çağrısının ardından",sonuc
+2,önce,akraba,47:22,47:23,lanet,✓,"""Ülkede fesat çıkarıp rahimleri parçalayanlara Allah lanet etmiştir""",sonuc
+2,sonra,akraba,47:22,47:23,lanet_sagirlik,✓,"""Allah onları lanetledi, kulaklarını sağır, gözlerini kör etti"" (47:23)",sonuc
+2,önce,yoksul,69:34,69:31,cehennem,✓,"""Yoksulu doyurmaya özendirmiyordu; cehenneme sallayın onu""",sonuc
+2,sonra,yoksul,69:34,69:31,cahim,✓,"""Yoksulu doyurmaya özendirmiyordu; cehenneme sallayın onu""",sonuc
+2,önce,yetim,90:15,90:15,-,✓,"""Açlık gününde yakındaki yetimi doyurmak""",tanim
+2,sonra,yetim,90:15,90:18,ashab_meymene,✓,"Sarp yokuş (akabe): ""Açlık gününde yakını olan bir yetimi doyurmak"" (90:15); 90:18 ""İşte bunlar sağın (meymene) ehlidir""",sonuc
+3,önce,zekat,2:83,2:83,-,✓,"""İsrailoğullarından söz: namazı kılın, zekâtı verin""",emir
+3,sonra,zekat,2:83,2:83,-,✓,"""İsrailoğullarından söz: namazı kılın, zekâtı verin""",tanim
+3,önce,infak,2:265,2:265,artirma,✓,"""Allah'ın hoşnutluğu için infak edenlerin durumu bol yağmur alıp ürününü iki kat veren bahçe gibidir""",sonuc
+3,sonra,infak,2:265,2:265,kat_kat,✓,"""Allah'ın hoşnutluğu için infak edenlerin durumu bol yağmur alıp ürününü iki kat veren bahçe gibidir""",sonuc
+3,sonra,zekat,5:12,5:12,gunah_ortme,✓,"""Kötülüklerinizi örteceğim"" (le-ükeffiranne anküm seyyiâtiküm)",sonuc
+3,sonra,karz,5:12,5:12,gunah_ortme,✓,"""Kötülüklerinizi örteceğim"" (le-ükeffiranne anküm seyyiâtiküm)",sonuc
+3,önce,kenz,9:34,9:35,cehennem_azabi,✓,"""Altını ve gümüşü depolayıp Allah yolunda harcamayanlara acıklı azap; cehennem ateşinde alınları, böğürleri, sırtları dağlanır""",sonuc
+3,sonra,kenz,9:34,9:34,azap_elim,✓,"""Altını ve gümüşü biriktirip Allah yolunda harcamayanlara acıklı bir azabı müjdele"" (9:34)",sonuc
+3,sonra,kenz,9:34,9:35,nar,✓,"""Cehennem ateşinde onlar kızdırılır, alınları, böğürleri ve sırtları dağlanır"" (9:35)",sonuc
+3,sonra,sadaka,9:79,9:79,azap_elim,✓,"""Onlar için acıklı bir azap da vardır""",sonuc
+3,önce,zekat,41:7,41:7,-,✓,"""Onlar zekâtı vermezler; ölüm sonrası hayatı inkâr edenler de onlardır""",tanim
+3,sonra,zekat,41:7,41:6,vay,✓,"""Vay haline o müşriklerin ki zekâtı vermezler"" (41:6-7: ellezîne lâ yu'tûne'z-zekât, 41:6'daki müşrikleri niteler)",sonuc
+3,önce,cimrilik,47:38,47:38,-,✓,"""Allah yolunda harcamaya çağırılırsınız; cimrilik eden kendi aleyhine cimrileşmiş olur""",tanim
+3,sonra,cimrilik,47:38,47:38,kendi_aleyhine,✓,"""Kim cimrilik ederse ancak kendi aleyhine cimrilik etmiş olur"" (fe-innemâ yebhalü an nefsihî)",sonuc
+3,sonra,infak,57:10,57:10,husna,✓,"""Allah hepsine en güzeli (el-husnâ) vaat etti"" (ve küllen vaada'llâhu'l-husnâ)",sonuc
+3,önce,cimrilik,57:24,57:24,-,✓,"""Cimrilik eden, insanlara da cimriliği emreden kişiler; yüz çeviren bilsin ki Allah Ganî, Hamîd'dir""",tanim
+3,sonra,cimrilik,57:24,57:23,sevilmeme,→,"""Cimrilik eden ve insanlara cimriliği emredenler"" (57:24); ""Allah kendini beğenip övünenlerin hiçbirini sevmez"" (57:23): 57:24 bu sınıfa bedel olarak bağlanabilir, bağ çıkarımsaldır",sonuc
+3,sonra,karz,64:17,64:17,magfiret,✓,"""Sizi bağışlar"" (ve yağfir leküm)",sonuc
+3,önce,cimrilik,92:8,92:8,-,✓,"""Kim cimriliğe sapar ve kendisini ihtiyaçların üstünde görür, güzelliği yalanlarsa (en zoru kolaylayacağız)""",tanim
+3,sonra,cimrilik,92:8,92:10,usraya_kolaylastirma,✓,"""Kim cimrilik eder ve kendini muhtaç görmezse, en güzeli yalanlarsa"" (92:8-9); ""onu en zora (el-usrâ) kolaylaştıracağız"" (92:10)",sonuc
+3,önce,infak,9:53,9:54,infak_kabul_edilmez,✓,"""İster gönüllü ister zorla infak edin, sizden asla kabul edilmeyecektir""",sonuc
+3,sonra,infak,9:53,9:53,infak_kabul_edilmez,✓,"""İster gönüllü ister zorla infak edin, sizden asla kabul edilmeyecektir""",sonuc
+4,önce,ayetleri_yalanlama,5:10,5:10,cehennem,✓,"""küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostlarıdır""",sonuc
+4,sonra,ayetleri_yalanlama,5:10,5:10,cahim,✓,"""küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostlarıdır""",sonuc
+4,önce,ucun_ucuncusu_deme,5:73,5:73,azap_elim,✓,"""Allah üçün üçüncüsüdür diyenler küfre batmıştır ... son vermezlerse küfre sapanlarına korkunç azap gelecek""",sonuc
+4,önce,ayetleri_yalanlama,5:86,5:86,cehennem,✓,"""küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostlarıdır""",sonuc
+4,sonra,ucun_ucuncusu_deme,5:73,5:73,azap_elim,✓,"""Allah üçün üçüncüsüdür diyenler küfre batmıştır ... son vermezlerse küfre sapanlarına acıklı bir azap dokunacak""",sonuc
+4,sonra,ayetleri_yalanlama,5:86,5:86,cahim,✓,"""küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostlarıdır""",sonuc
+4,önce,ayetleri_yalanlama_yuz_cevirme,6:157,6:157,azap_en_elim,✓,"""ayetlerine sırt dönenleri azabın en acıklısıyla cezalandıracağız""",sonuc
+4,sonra,ayetleri_yalanlama_yuz_cevirme,6:157,6:157,azap_kotu,✓,"""Ayetlerimizden yüz çevirenleri, yüz çevirmeleri yüzünden azabın kötüsüyle (sû'e'l-azâb) cezalandıracağız""",sonuc
+4,sonra,ayetleri_yalanlama_aldirmazlik,7:136,7:136,intikam,✓,"""Onlardan intikam aldık"" (fe'ntekamnâ minhüm)",sonuc
+4,önce,sirk_ortaklar,18:52,18:52,yardimsizlik,✓,"""ortaklarımı çağırın dedi; çağırdılar, onlar cevap vermedi; aralarına yıkıcı bir düşmanlık koyduk""",sonuc
+4,sonra,sirk_ortaklar,18:52,18:52,yardimsizlik,✓,"""Ortaklarım dediklerinizi çağırın"" dedi; çağırdılar, onlara cevap vermediler; aralarına bir helak yeri (mevbik) koyduk",sonuc
+4,önce,seytana_kulluk_yasagi,19:44,19:45,azap,✓,"İbrahim: ""Babacığım, şeytana kulluk etme!""; 19:45 ""Rahman'dan bir azap dokunmasından korkuyorum""",yasak
+4,sonra,seytana_kulluk_yasagi,19:44,19:45,azap,→,"İbrahim: ""Babacığım, şeytana kulluk etme!""; 19:45 ""Rahman'dan bir azap dokunmasından korkuyorum""",yasak
+4,önce,ayetleri_yalanlama_kibir,39:59,39:60,cehennem,✓,"""Ayetlerim sana geldi, hemen yalanladın, büyüklük tasladın""; 39:60 ""Kibirliler için cehennemde bir barınak mı yok!""",sonuc
+4,sonra,ayetleri_yalanlama_kibir,39:59,39:60,cehennem,→,"""Ayetlerim sana geldi, hemen yalanladın, büyüklük tasladın""; 39:60 ""Kibirliler için cehennemde bir barınak mı yok!""",sonuc
+4,önce,allah_yalniz_cagrilinca_inkar_ortak_kosulunca_iman,40:12,40:12,ikinci_firsat_yok,✓,"""Allah'a, yalnız O'na çağrıldığınızda inkâr etmiştiniz; O'na ortak koşulduğunda iman ediyordunuz"": çıkış yolu sorusuna (40:11) cevap",sonuc
+4,sonra,allah_yalniz_cagrilinca_inkar_ortak_kosulunca_iman,40:12,40:12,ikinci_firsat_yok,→,"""Allah'a, yalnız O'na çağrıldığınızda inkâr etmiştiniz; O'na ortak koşulduğunda iman ediyordunuz"": çıkış yolu sorusuna (40:11) cevap",sonuc
+4,sonra,allah_hakkinda_kotu_sani_putperestlik,48:6,48:6,kotuluk_cemberi,✓,"""Kötülük çemberi onların üzerinedir"" (aleyhim dâiratü's-sev')",sonuc
+4,önce,ayetleri_yalanlama,57:19,57:19,cehennem,✓,"""küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostu olacaklardır""",sonuc
+4,sonra,ayetleri_yalanlama,57:19,57:19,cahim,✓,"""küfre sapıp ayetlerimizi yalanlayanlar cehennemin dostu olacaklardır""",sonuc
+4,önce,allahtan_baskasina_ibadet_yasagi,2:83,2:83,-,✓,"İsrailoğullarından alınan söz: ""Allah'tan başkasına ibadet etmeyin""",yasak
+4,önce,allahtan_baskasina_kulluk_yasagi_nuh,11:26,11:26,azap_elim,✓,"Nûh: ""Allah'tan başkasına kulluk etmeyin. Korkunç bir günün azabına uğramanızdan korkuyorum""",yasak
+4,sonra,allahtan_baskasina_ibadet_yasagi,2:83,2:83,-,✓,"İsrailoğullarından alınan söz: ""Allah'tan başkasına ibadet etmeyin""",tanim
+4,sonra,allahtan_baskasina_kulluk_yasagi_nuh,11:26,11:26,azap_elim,→,"Nûh: ""Allah'tan başkasına kulluk etmeyin. Sizin için acıklı bir günün azabından korkuyorum"" (azâbe yevmin elîm; uyarı)",yasak
+4,önce,seytana_kulluk_yasagi,36:60,36:63,cehennem,✓,"""Şeytana kulluk etmeyin demedim mi? Bana ibadet edin demedim mi?"" (36:60-61); 36:63 ""Alın size, tehdit edildiğiniz cehennem!""",yasak
+4,sonra,seytana_kulluk_yasagi,36:60,36:63,cehennem,✓,"""Şeytana kulluk etmeyin demedim mi? Bana ibadet edin demedim mi?"" (36:60-61); 36:63 ""Alın size, tehdit edildiğiniz cehennem!""",sonuc
+4,önce,allaha_kulluktan_cekinip_kibre_saplanma,4:172,4:173,azap_elim,✓,"""Allah'a kulluk ve ibadetten çekinerek kibre saplanan ... kulluktan çekinip büyüklük taslayanlara korkunç bir azapla azap edecektir""",sonuc
+4,sonra,allaha_kulluktan_cekinip_kibre_saplanma,4:172,4:173,azap_elim,✓,"""Kulluktan çekinip büyüklük taslayanlara acıklı bir azapla azap edecektir"" (4:173)",sonuc
+4,önce,kulluk_emri_nuh,7:59,7:59,azap_buyuk,✓,"Nûh: ""Allah'a kulluk edin, sizin O'ndan başka ilahınız yok; sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum"" (uyarı)",emir
+4,sonra,kulluk_emri_nuh,7:59,7:59,azap_buyuk_gun,→,"Nûh: ""Allah'a kulluk edin, sizin O'ndan başka ilahınız yok; sizin için büyük bir günün azabından (azâbe yevmin azîm) korkuyorum"" (uyarı)",emir
+4,önce,sirk_inkari_kiyamette,6:23,6:23,-,✓,"Kıyamette bahaneleri: ""Rabbimiz Allah'a yemin olsun ki, biz ortak koşanlar değildik""",sonuc
+4,sonra,sirk_inkari_kiyamette,6:23,6:23,-,✓,"Kıyamette bahaneleri: ""Rabbimiz Allah'a yemin olsun ki, biz ortak koşanlar değildik""",tanim
+4,önce,ayetlere_karsi_buyukluk_allaha_gercek_disi,6:93,6:93,azap_muhin,✓,"""Bugün zillet azabıyla cezalandırılacaksınız; çünkü Allah'a karşı gerçek dışı şeyler söylüyorsunuz ve O'nun ayetlerine karşı büyüklük taslıyordunuz""",sonuc
+4,sonra,ayetlere_karsi_buyukluk_allaha_gercek_disi,6:93,6:93,zillet_azabi,✓,"""Bugün zillet azabıyla cezalandırılacaksınız; çünkü Allah'a karşı gerçek dışı şeyler söylüyorsunuz ve O'nun ayetlerine karşı büyüklük taslıyordunuz""",sonuc
+4,önce,ayetleri_yalanlayan_toplum_ornegi,7:177,7:177,-,✓,"""Ayetlerimizi yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Onlar öz benliklerine zulmediyorlardı""",sonuc
+4,sonra,ayetleri_yalanlayan_toplum_ornegi,7:177,7:177,-,✓,"""Ayetlerimizi yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Onlar öz benliklerine zulmediyorlardı""",tanim
+4,önce,allah_cocuk_edindi_diyenleri_uyarma,18:4,18:5,-,✓,"""'Allah bir çocuk edindi' diyenleri uyarsın diye indirdi""; 18:5 ""Söz olarak ne büyüktür ağızlarından çıkıveren! Onlar bir yalandan başka şey söylemiyorlar""",sonuc
+4,önce,rahman_cocuk_edindi_deme,19:88,19:89,-,✓,"""Rahman çocuk edindi."" dediler. ""Yemin olsun ki siz, çok çirkin bir iddiada bulundunuz""",sonuc
+4,sonra,allah_cocuk_edindi_diyenleri_uyarma,18:4,18:5,-,✓,"""'Allah bir çocuk edindi' diyenleri uyarsın diye indirdi""; 18:5 ""Söz olarak ne büyüktür ağızlarından çıkıveren! Onlar bir yalandan başka şey söylemiyorlar""",tanim
+4,sonra,rahman_cocuk_edindi_deme,19:88,19:89,-,✓,"""Rahman çocuk edindi."" dediler. ""Yemin olsun ki siz, çok çirkin bir iddiada bulundunuz""",tanim
+4,önce,kiyamette_ortaklar_inkar_eder,35:14,35:14,-,✓,"""Kıyamet günü de sizin onları ortak koştuğunuzu inkâr ederler""",sonuc
+4,önce,ayetleri_hukumsuz_birakma,34:38,34:38,azap,✓,"""Ayetlerimizi hükümsüz bırakmak için koşuşanlara gelince, onlar azabın içinde hazır bulundurulacaklardır""",sonuc
+4,önce,ayetleri_inkar_edip_mal_evlat_iddiasi,19:77,19:79,azap_artisi,✓,"""Ayetlerimizi inkâr edip 'Bana mal da evlat da verilecek' diyen ... biz onun söylediğini yazacağız ve azabı uzattıkça uzatacağız""",sonuc
+4,sonra,kiyamette_ortaklar_inkar_eder,35:14,35:14,yardimsizlik,✓,"""Kıyamet günü sizin onları ortak koşmanızı inkâr ederler"" (yekfurûne bi-şirkiküm)",sonuc
+4,sonra,ayetleri_hukumsuz_birakma,34:38,34:38,azap_hazir,✓,"""Ayetlerimizi hükümsüz bırakmak için koşuşanlara gelince, onlar azabın içinde hazır bulundurulacaklardır""",sonuc
+4,sonra,ayetleri_inkar_edip_mal_evlat_iddiasi,19:77,19:79,azap_uzatma,✓,"""Ayetlerimizi inkâr edip 'Bana mal da evlat da verilecek' diyen ... söylediğini yazacağız ve azabı ona uzattıkça uzatacağız"" (nemüddü lehû mine'l-azâbi meddâ)",sonuc
+5,önce,kan_dokme_yasagi_israilogullari,2:84,2:84,-,✓,"İsrailoğullarından alınan söz: ""Birbirinizin kanını dökmeyeceksiniz""",yasak
+5,sonra,kan_dokme_yasagi_israilogullari,2:84,2:84,-,✓,"İsrailoğullarından alınan söz: ""Birbirinizin kanını dökmeyeceksiniz""",tanim
+5,sonra,haksiz_yere_peygamber_oldurme,2:61,2:61,zillet,✓,"""Üzerlerine zillet ve yoksulluk damgası vuruldu"" (duribet aleyhimü'z-zilletü ve'l-meskenetü)",sonuc
+5,önce,kisasta_azginlik_ve_dusmanlik,2:178,2:178,azap_elim,✓,"""Kim bundan sonra azgınlık ve düşmanlık ederse onun için korkunç bir azap vardır""",sonuc
+5,sonra,kisasta_azginlik_ve_dusmanlik,2:178,2:178,azap_elim,✓,"""Kim bundan sonra haddi aşarsa (i'tedâ) onun için acıklı bir azap vardır""",sonuc
+5,önce,haksiz_oldurme_ve_adaleti_emredenin_canina_kiyma,3:21,3:21,azap_elim,✓,"""Haksız yere peygamberleri öldürenler ve adaletle emredenlerin canına kıyanlar ... onlara korkunç bir azabı muştula""",sonuc
+5,sonra,haksiz_oldurme_ve_adaleti_emredenin_canina_kiyma,3:21,3:21,azap_elim,✓,"""Haksız yere peygamberleri öldürenler ve adaletle emredenlerin canına kıyanlar ... onlara acıklı bir azabı müjdele""",sonuc
+5,önce,mumini_kasten_oldurme,4:93,4:93,azap_buyuk,✓,"""çok büyük bir azap hazırlamıştır ona""",sonuc
+5,önce,riba_ve_batil_mal_yeme,4:161,4:161,azap_elim,→,"""Ribayı almaları -oysaki ondan yasaklanmışlardı- ve haksız yollarla insanların mallarını yemeleri yüzünden onların küfre sapanlarına korkunç bir azap hazırladık""",sonuc
+5,sonra,mumini_kasten_oldurme,4:93,4:93,azap_azim,✓,"""çok büyük bir azap hazırlamıştır ona""",sonuc
+5,sonra,riba_ve_batil_mal_yeme,4:161,4:161,azap_elim,→,"""Ribayı almaları -oysaki ondan yasaklanmışlardı- ve insanların mallarını haksız yollarla yemeleri yüzünden ... onların küfre sapanlarına acıklı bir azap hazırladık""",sonuc
+5,önce,haksiz_yere_kisi_oldurme_insanlari_toptan_oldurme,5:32,5:32,-,✓,"""Kim bir kişiyi, bir kişiye karşılık yahut yeryüzünde bir fesat sebebiyle olmaksızın öldürürse, insanları toptan öldürmüş gibidir"" (İsrailoğullarına yazılan)",yasak
+5,sonra,haksiz_yere_kisi_oldurme_insanlari_toptan_oldurme,5:32,5:32,-,✓,"""Kim bir kişiyi, bir kişiye karşılık yahut yeryüzünde bir fesat sebebiyle olmaksızın öldürürse, insanları toptan öldürmüş gibidir"" (İsrailoğullarına yazılan)",tanim
+5,önce,kisas_can_cana,5:45,5:45,kisas,✓,"""Cana can, göze göz, buruna burun, kulağa kulak, dişe diş... Yaralamalar karşılığında da kısas""",emir
+5,sonra,kisas_can_cana,5:45,5:45,kisas,✓,"""Cana can, göze göz, buruna burun, kulağa kulak, dişe diş... Yaralamalar karşılığında da kısas""",tanim
+5,sonra,kisas_can_cana,5:45,5:45,keffaret,✓,"""Kim onu (kısası) sadaka olarak bağışlarsa, bu kendisi için bir keffârettir"" (fe-hüve keffâretün leh)",tanim
+5,sonra,olcu_ve_tartida_durust_olma_suayb,7:85,7:85,hayir,✓,"""Bu sizin için daha hayırlıdır, eğer inanıyorsanız"" (zâliküm hayrun leküm)",sonuc
+5,önce,altin_gumus_depolayip_harcamama,9:34,9:34,azap_elim,✓,"""Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara korkunç bir azap muştula""",sonuc
+5,önce,altin_gumus_depolayip_harcamama,9:34,9:35,nar,✓,"""Cehennem ateşinde onların üzerine lav dökülür de bununla alınları, böğürleri, sırtları dağlanır""",sonuc
+5,sonra,altin_gumus_depolayip_harcamama,9:34,9:34,azap_elim,✓,"""Altını ve gümüşü depolayıp da onları Allah yolunda harcamayanlara acıklı bir azabı müjdele""",sonuc
+5,sonra,altin_gumus_depolayip_harcamama,9:34,9:35,nar,✓,"""Cehennem ateşinde onlar (biriktirilen altın ve gümüş) kızdırılır, bununla alınları, böğürleri ve sırtları dağlanır: İşte kendiniz için biriktirdiğiniz"" (9:35)",sonuc
+5,önce,eksik_olcup_yanlis_tartma_yasagi_suayb,11:84,11:84,azap_kusatan,✓,"Şuayb: ""Eksik ölçüp yanlış tartmayın ... sizi sarıp kuşatan bir günün azabından da korkuyorum""",yasak
+5,sonra,eksik_olcup_yanlis_tartma_yasagi_suayb,11:84,11:84,azap_kusatan,→,"Şuayb: ""Eksik ölçüp yanlış tartmayın ... sizi sarıp kuşatan bir günün azabından da korkuyorum""",yasak
+5,önce,edepsizligin_yayilmasini_arzu_etme,24:19,24:19,azap_elim,✓,"""İman edenler içinde edepsizliğin yayılmasını arzu edenler ... dünyada da âhirette de korkunç bir azap öngörülmüştür""",sonuc
+5,sonra,iffetli_kadina_iftira_kazf,24:4,24:4,sahitlik_reddi,✓,"""Onların tanıklığını ebediyen kabul etmeyin"" (ve lâ takbelû lehüm şehâdeten ebedâ)",emir
+5,sonra,edepsizligin_yayilmasini_arzu_etme,24:19,24:19,azap_elim,✓,"""İman edenler içinde edepsizliğin yayılmasını arzu edenler ... dünyada da âhirette de acıklı bir azap öngörülmüştür""",sonuc
+5,önce,iffetli_mumin_kadina_iftira_kazf,24:23,24:23,azap_buyuk,✓,"""Büyük bir azap vardır onlar için""",sonuc
+5,sonra,iffetli_mumin_kadina_iftira_kazf,24:23,24:23,azap_azim,✓,"""Büyük bir azap vardır onlar için""",sonuc
+5,önce,riba_ile_verilen_artmaz,30:39,30:39,-,✓,"""İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz""",sonuc
+5,sonra,riba_ile_verilen_artmaz,30:39,30:39,artmama,✓,"""İnsanların malları içinde artsın diye riba olarak verdiğiniz, Allah katında artmaz""",sonuc
+5,önce,olcuyu_adaletle_koruma,55:9,55:9,-,✓,"""Ölçüyü titizlikle, adaletle koruyun ve hüsrana araç yapmayın mizanı""",emir
+5,sonra,olcuyu_adaletle_koruma,55:9,55:9,-,✓,"""Tartıyı adaletle dosdoğru tutun, teraziyi eksik tutmayın"" (lâ tuhsirû'l-mîzân)",emir
+5,önce,lut_kavmi_erkeklere_gitme,29:28,29:34,gokten_felaket,→,"Lût'un kavmi (29:28-29); 29:34 ""fıska sapmaları yüzünden (bimâ kânû yefsuqûn) bu kent halkına gökten bir azap (ricz) indireceğiz""",sonuc
+5,sonra,lut_kavmi_erkeklere_gitme,29:28,29:34,azap_gokten,→,"Lût'un kavmi (29:28-29); 29:34 ""fıska sapmaları yüzünden (bimâ kânû yefsuqûn) bu kent halkına gökten bir azap (ricz) indireceğiz""",sonuc
+5,önce,bakislari_indirme_ve_irzi_koruma_erkek,24:30,24:30,-,✓,"""Mümin erkeklere söyle: Bakışlarını yere indirsinler. Cinsel organlarını/ırzlarını korusunlar""",emir
+5,sonra,bakislari_indirme_ve_irzi_koruma_erkek,24:30,24:30,arinma,✓,"""Mümin erkeklere söyle: Bakışlarını indirsinler, ırzlarını korusunlar; bu onlar için daha arındırıcıdır"" (zâlike ezkâ lehüm)",emir
+6,önce,yapmadigiyla_ovunme,3:188,3:188,azap_elim,✓,"""Yapmadıkları şeylerle övünmeyi seven kişiler ... korkunç bir azap vardır onlar için""",sonuc
+6,sonra,yapmadigiyla_ovunme,3:188,3:188,azap_elim,✓,"""Yapmadıkları şeylerle övülmeyi seven kişileri azaptan kurtulmuş sanma; onlar için acıklı bir azap vardır""",sonuc
+6,önce,suclu_olmayani_itham,4:112,4:112,gunah_yuklenme,✓,"""Bir hata/günah işleyip onunla bir suçsuzu itham ederse büyük bir iftira ve açık bir günah yüklenmiş olur""",sonuc
+6,sonra,suclu_olmayani_itham,4:112,4:112,iftira_gunah,✓,"""Bir hata/günah işleyip onunla bir suçsuzu itham ederse büyük bir iftira ve açık bir günah yüklenmiş olur""",sonuc
+6,önce,kulluktan_cekinip_kibir,4:172,4:173,azap_elim,✓,"""Kulluktan çekinip büyüklük taslayanlara korkunç bir azapla azap edecektir""",sonuc
+6,sonra,kulluktan_cekinip_kibir,4:172,4:173,azap_elim,✓,"""Kulluktan çekinip büyüklük taslayanlara acıklı bir azapla azap edecektir"" (4:173)",sonuc
+6,önce,allaha_iftira,6:21,6:21,husran,✓,"""Yalan düzerek Allah'a iftira eden ... zalimler asla kurtulamazlar""",sonuc
+6,sonra,allaha_iftira,6:21,6:21,felah_yok,✓,"""Yalan düzerek Allah'a iftira eden ... zalimler asla kurtulamazlar""",sonuc
+6,önce,allaha_iftira,10:17,10:17,basarisizlik,→,"""Yalan düzerek Allah'a iftira eden ... suçlular iflah etmezler""",sonuc
+6,sonra,allaha_iftira,10:17,10:17,felah_yok,→,"""Yalan düzerek Allah'a iftira eden ... suçlular iflah etmezler""",sonuc
+6,önce,allaha_iftira,16:116,16:116,basarisizlik,✓,"""Allah'a iftira edenler kurtulamazlar""",sonuc
+6,sonra,allaha_iftira,16:116,16:116,felah_yok,✓,"""Allah'a iftira edenler kurtulamazlar""",sonuc
+6,sonra,allaha_iftira,20:61,20:61,basarisizlik,✓,"""İftira eden muhakkak başarısız olmuştur"" (ve kad hâbe meni'fterâ)",sonuc
+6,önce,karun_simarikligi,28:81,28:81,helak,✓,"""Karun'u da sarayını da yere geçirdik. Allah'a karşı yardım edecek yandaşları yoktu""",sonuc
+6,sonra,karun_simarikligi,28:81,28:81,yere_batirilma,✓,"""Karun'u da yurdunu da yere batırdık (fe-hasefnâ bihî ve bi-dârihi'l-ard). Allah'a karşı ona yardım edecek bir topluluk yoktu""",sonuc
+6,önce,kibirle_yuz_cevirme,31:7,31:7,azap_elim,✓,"Ayetler okununca böbürlenerek yüz çeviren: ""korkunç bir azapla muştula""",sonuc
+6,sonra,kibirle_yuz_cevirme,31:7,31:7,azap_elim,✓,"Ayetler okununca büyüklük taslayarak yüz çeviren: ""ona acıklı bir azabı müjdele""",sonuc
+6,sonra,alay_ve_laf_atma,49:11,49:11,zalim_sayilma,✓,"""Kim tövbe etmezse, işte onlar zalimlerin ta kendileridir""",sonuc
+6,önce,simarma_ve_ovunme,57:23,57:23,sevilmeme,✓,"""Allah, kendini beğenip övünenlerin hiçbirini sevmez""",sonuc
+6,sonra,simarma_ve_ovunme,57:23,57:23,sevilmeme,→,"""Allah, kendini beğenip övünenlerin (muhtâl fahûr) hiçbirini sevmez"": şımarma yasağının hemen ardında; sevgi yokluğu ayrı adla anılan sınıfa bağlıdır",sonuc
+6,sonra,israf,20:127,20:127,azap_siddetli,→,"""Âhiret azabı daha şiddetli ve daha kalıcıdır"" (ve le-azâbü'l-âhirati eşeddü ve ebkâ)",sonuc
+6,önce,alay_ve_laf_atma,9:65,9:65,-,✓,"""Lakırdıya dalmış, şakalaşıyorduk"" diyenlere: ""Allah ile, ayetleriyle, resulüyle mi eğleniyordunuz?"" (9:64-65)",tanim
+6,önce,alay_ve_laf_atma,11:38,11:38,-,✓,"Nûh gemiyi yaparken toplumundan geçenler ""onunla alay ediyorlardı""",tanim
+6,sonra,alay_ve_laf_atma,9:65,9:66,azap,✓,"""Allah ile, ayetleriyle, resulüyle mi eğleniyordunuz?"" (9:65); ""Özür dilemeyin, imandan sonra küfre saptınız ... bir kesimi suçlu oldukları için azaba uğratacağız"" (9:66)",sonuc
+6,sonra,alay_ve_laf_atma,11:38,11:39,hizy,✓,"Nûh gemiyi yaparken toplumundan geçenler onunla alay ediyordu (11:38); ""rezil eden azabın kime geleceğini bileceksiniz"" (11:39)",sonuc
+6,önce,alay_ve_laf_atma,23:110,23:110,-,✓,"""Siz onları alaya aldınız ... Siz onlara hep gülüyordunuz""",tanim
+6,sonra,alay_ve_laf_atma,23:110,23:108,kovulma,✓,"""Siz onları alaya aldınız, onlara gülüyordunuz"" (23:110); aynı hitabın başı: ""Sinin orada, bana konuşmayın!"" (ihse'û fîhâ ve lâ tükellimûn, 23:108)",sonuc
+7,sonra,bosanma_ve_iddet,2:229,2:229,zalim_sayilma,✓,"""Kim Allah'ın sınırlarını aşarsa, işte onlar zalimlerin ta kendileridir""",sonuc
+7,sonra,bosanma_ve_iddet,2:232,2:232,arinma,✓,"""Bu sizin için daha arındırıcı ve daha temizdir"" (zâliküm ezkâ leküm ve ethar)",sonuc
+7,önce,kendi_haram_kilma,5:87,5:87,sevilmeme,✓,"""Allah azıp sınırı aşanları sevmez""",sonuc
+7,sonra,kendi_haram_kilma,5:87,5:87,sevilmeme,→,"""Allah azıp sınırı aşanları sevmez""",sonuc
+7,önce,av_ve_ihram,5:94,5:94,azap_elim,✓,"Av ile deneme: ""Bundan sonra azıp sınırı çiğneyen için korkunç bir azap olacaktır""",sonuc
+7,sonra,av_ve_ihram,5:94,5:94,azap_elim,✓,"Av ile deneme: ""Bundan sonra kim haddi aşarsa (i'tedâ) onun için acıklı bir azap vardır""",sonuc
+7,sonra,av_ve_ihram,5:95,5:95,intikam,✓,"""Kim tekrar yaparsa Allah ondan intikam alır"" (ve men âde fe-yentekımu'llâhu minh)",sonuc
+7,önce,kendi_haram_kilma,16:116,16:116,basarisizlik,✓,"""Yalan düzerek Allah'a iftira edenler kurtulamazlar""",sonuc
+7,sonra,kendi_haram_kilma,16:116,16:116,felah_yok,✓,"""Yalan düzerek Allah'a iftira edenler kurtulamazlar""",sonuc
+8,önce,kebairden_kacinmak,4:31,4:31,cennet,→,"seyyiat örtülür + ""değerli bir giriş yerine (mudhalen kerîmâ) sokarız""; ayet cennet adını vermez"
+8,sonra,kebairden_kacinmak,4:31,4:31,mudhal_kerim,✓,"seyyiat örtülür + ""değerli bir giriş yerine (müdhalen kerîmâ) sokarız"""
+8,sonra,namaz,5:12,5:12,gunah_ortme,✓,"""Kötülüklerinizi örteceğim"" (le-ükeffiranne)"
+8,sonra,zekat,5:12,5:12,gunah_ortme,✓,"""Kötülüklerinizi örteceğim"" (le-ükeffiranne)"
+8,sonra,iman_resullere_ve_destek,5:12,5:12,gunah_ortme,✓,"""Kötülüklerinizi örteceğim"" (le-ükeffiranne)"
+8,sonra,karz_hasen,5:12,5:12,gunah_ortme,✓,"""Kötülüklerinizi örteceğim"" (le-ükeffiranne)"
+8,sonra,fetihten_once_infak_ve_savas,57:10,57:10,husna,✓,"""Allah hepsine en güzeli vaat etti"" (ve küllen vaada'llâhu'l-husnâ)"
+9,önce,kufur,2:6,2:7,azap_genel,✓,"""onlar için büyük azap""; mühür de aynı ayette"
+9,sonra,kufur,2:6,2:7,azap,✓,"""onlar için büyük azap""; mühür de aynı ayette"
+9,sonra,ayetleri_inkar,2:61,2:61,zillet,✓,"""Üzerlerine zillet ve yoksulluk damgası vuruldu"""
+9,sonra,peygamber_oldurme,2:61,2:61,zillet,✓,"""Üzerlerine zillet ve yoksulluk damgası vuruldu"""
+9,sonra,isyan_tecavuz,2:61,2:61,zillet,✓,"""Üzerlerine zillet ve yoksulluk damgası vuruldu"""
+9,önce,kufur,2:104,2:104,azap_elim,✓,"""kâfirler için korkunç azap"""
+9,sonra,kufur,2:104,2:104,azap_elim,✓,"""kâfirler için acıklı azap"""
+9,önce,vahyi_gizleme,2:174,2:174,azap_elim,✓,"Kıyamet günü konuşulmaz, arındırılmaz, korkunç azap"
+9,sonra,vahyi_gizleme,2:174,2:174,azap_elim,✓,"Kıyamet günü konuşulmaz, arındırılmaz, acıklı azap"
+9,önce,tagut_velilik,2:257,2:257,cehennem,✓,"küfür edenlerin dostu tağut; ""cehennemin dostları"""
+9,önce,kufur,2:257,2:257,cehennem,✓
+9,sonra,tagut_velilik,2:257,2:257,nar,✓,"küfür edenlerin dostu tağut; ""cehennemin dostları"""
+9,sonra,kufur,2:257,2:257,nar,✓
+9,önce,iman_sonra_kufur,3:106,3:106,azap_genel,✓,"""imanınızdan sonra küfre mi düştünüz? tadın azabı"""
+9,sonra,iman_sonra_kufur,3:106,3:106,azap,✓,"""imanınızdan sonra küfre mi düştünüz? tadın azabı"""
+9,önce,zulum,3:128,3:128,azap_genel,→,"""Allah ya onların tövbesini kabul eder ya da onlara azap eder; çünkü onlar zalimdir"": iki seçenekten biri"
+9,sonra,zulum,3:128,3:128,azap,→,"""Allah ya onların tövbesini kabul eder ya da onlara azap eder; çünkü onlar zalimdir"": iki seçenekten biri"
+9,önce,kotuluk_yapma,4:123,4:123,cezalandirilma,✓,"""kötülük yapan onunla cezalandırılır""; kuruntu ile iş çözülmez"
+9,sonra,kotuluk_yapma,4:123,4:123,cezalandirma,✓,"""kötülük yapan onunla cezalandırılır""; kuruntu ile iş çözülmez"
+9,önce,munafiklik,4:145,4:145,cehennem,✓,"""münafıklar ateşin en alt tabakasındadır"""
+9,önce,sukretmeme_inanmama,4:147,4:147,azap_genel,→,"""şükredip inanırsanız Allah azabınızla ne yapacak?""; olumsuz yan çıkarım"
+9,sonra,munafiklik,4:145,4:145,nar,✓,"""münafıklar ateşin en alt tabakasındadır"""
+9,sonra,sukretmeme_inanmama,4:147,4:147,azap,→,"""şükredip inanırsanız Allah azabınızla ne yapacak?""; olumsuz yan çıkarım"
+9,önce,kibir,4:172,4:173,azap_elim,✓,"kulluktan çekinip büyüklenenlere ""korkunç azapla azap edecek""; Allah'tan başka veli bulamazlar"
+9,sonra,kibir,4:172,4:173,azap_elim,✓,"kulluktan çekinip büyüklenenlere ""acıklı azapla azap edecek""; Allah'tan başka veli bulamazlar"
+9,önce,ayetleri_yalanlama,5:10,5:10,cehennem,✓,"küfür ve ayetleri yalanlama: ""cehennemin dostları"""
+9,sonra,ayetleri_yalanlama,5:10,5:10,cahim,✓,"küfür ve ayetleri yalanlama: ""cehennemin dostları"""
+9,önce,soy_iddiasi,5:18,5:18,azap_genel,→,"""Biz Allah'ın oğulları ve sevgilileriyiz"" diyenlere: ""Öyleyse niçin günahlarınız yüzünden size azap ediyor?"": azap günahlara bağlanır, iddia bununla çürütülür"
+9,sonra,ahdi_bozma,5:13,5:13,kalp_katilastirma,✓,"""Kalplerini katılaştırdık"" (kâsiyeten)"
+9,sonra,soy_iddiasi,5:18,5:18,azap,→,"""Biz Allah'ın oğulları ve sevgilileriyiz"" diyenlere: ""Öyleyse niçin günahlarınız yüzünden size azap ediyor?"": azap günahlara bağlanır, iddia bununla çürütülür"
+9,önce,ayetleri_yalanlama,5:86,5:86,cehennem,✓,küfür ve ayetleri yalanlama: cehennemin dostları
+9,sonra,ayetleri_yalanlama,5:86,5:86,cahim,✓,küfür ve ayetleri yalanlama: cehennemin dostları
+9,önce,rabbe_isyan,6:15,6:15,azap_azim,✓,"""Rabbime isyan edersem büyük günün azabından korkarım"""
+9,sonra,rabbe_isyan,6:15,6:15,azap_buyuk_gun,✓,"""Rabbime isyan edersem büyük günün azabından korkarım"""
+9,önce,kufur,6:30,6:30,azap_genel,✓,"""küfre sapmış olmanızdan dolayı tadın azabı"""
+9,sonra,kufur,6:30,6:30,azap,✓,"""küfre sapmış olmanızdan dolayı tadın azabı"""
+9,önce,ayetleri_yalanlama,6:49,6:49,azap_genel,✓,"""fenalığa (fısk) bulaşmaları yüzünden kendilerine azap dokunacak"""
+9,önce,fisk,6:49,6:49,azap_genel,✓
+9,önce,dini_oyun_eglence,6:70,6:70,azap_elim,✓,"dinlerini oyun ve eğlence edinenler: kaynar su, korkunç azap"
+9,sonra,ayetleri_yalanlama,6:49,6:49,azap,✓,"""fenalığa (fısk) bulaşmaları yüzünden kendilerine azap dokunacak"""
+9,sonra,fisk,6:49,6:49,azap,✓
+9,sonra,dini_oyun_eglence,6:70,6:70,azap_elim,✓,"dinlerini oyun ve eğlence edinenler: kaynar su, acıklı azap"
+9,önce,allaha_iftira,6:93,6:93,azap_hizy,✓,"""bugün zillet azabıyla cezalandırılacaksınız"": Allah'a iftira ve ayetlere karşı kibir"
+9,önce,kibir,6:93,6:93,azap_hizy,✓
+9,önce,gunah,6:120,6:120,cezalandirilma,✓,"""günah kazananlar yapıp ettiklerinin karşılığını göreceklerdir"""
+9,sonra,allaha_iftira,6:93,6:93,zillet_azabi,✓,"""bugün zillet azabıyla cezalandırılacaksınız"": Allah'a iftira ve ayetlere karşı kibir"
+9,sonra,kibir,6:93,6:93,zillet_azabi,✓
+9,sonra,gunah,6:120,6:120,cezalandirma,✓,"""günah kazananlar yapıp ettiklerinin karşılığını göreceklerdir"""
+9,önce,ayetleri_yalanlama,6:157,6:157,azap_siddetli,✓,"ayetlerden yüz çevirenler ""azabın en kötüsüyle"" cezalandırılır"
+9,sonra,ayetleri_yalanlama,6:157,6:157,azap_kotu,✓,"ayetlerden yüz çevirenler ""azabın en kötüsüyle"" cezalandırılır"
+9,önce,deveye_zarar,7:73,7:73,azap_elim,✓,"Allah'ın devesine kötü niyetle dokunmayın; yoksa korkunç azap (Semûd, uyarı)"
+9,sonra,deveye_zarar,7:73,7:73,azap_elim,✓,"Allah'ın devesine kötü niyetle dokunmayın; yoksa acıklı azap (Semûd, uyarı)"
+9,önce,ogutleri_unutma,7:165,7:165,azap,✓,"Sebt ahalisi: öğüdü unutanlar, kötülükten alıkoyanlar kurtulurken zulme sapanlar acı azapla yakalandı"
+9,önce,fisk,7:165,7:165,azap,✓,"""yoldan çıkmalarından ötürü"""
+9,sonra,ogutleri_unutma,7:165,7:165,azap_cetin,✓,"Sebt ahalisi: öğüdü unutanlar, kötülükten alıkoyanlar kurtulurken zulme sapanlar acı azapla yakalandı"
+9,sonra,fisk,7:165,7:165,azap_cetin,✓,"""yoldan çıkmalarından ötürü"""
+9,önce,esmada_sapma,7:180,7:180,cezalandirilma,✓,"""O'nun isimlerinde ters tutum izleyenler yaptıklarının cezasını çekecekler"""
+9,sonra,esmada_sapma,7:180,7:180,cezalandirma,✓,"""O'nun isimlerinde ters tutum izleyenler yaptıklarının cezasını çekecekler"""
+9,önce,mescid_engelleme,8:34,8:34,azap_genel,✓,"""Mescid-i Haram'dan geri çevirip dururken Allah onlara neden azap etmesin?"""
+9,önce,kufur,8:35,8:35,azap_genel,✓,"""inkâr etmekte olduğunuz için tadın azabı"""
+9,sonra,mescid_engelleme,8:34,8:34,azap,✓,"""Mescid-i Haram'dan geri çevirip dururken Allah onlara neden azap etmesin?"""
+9,sonra,kufur,8:35,8:35,azap,✓,"""inkâr etmekte olduğunuz için tadın azabı"""
+9,önce,kufur,9:26,9:26,azap_genel,✓,"Huneyn'de küfre sapanlara azap: ""kâfirlerin cezası işte budur"" (dünyada)"
+9,sonra,kufur,9:26,9:26,azap,✓,"Huneyn'de küfre sapanlara azap: ""kâfirlerin cezası işte budur"" (dünyada)"
+9,önce,seferden_geri_kalma,9:38,9:39,azap_elim,✓,"""seferber olmazsanız korkunç azapla azap eder ve yerinize başka topluluk getirir"""
+9,sonra,seferden_geri_kalma,9:38,9:39,azap_elim,✓,"""seferber olmazsanız acıklı azapla azap eder ve yerinize başka topluluk getirir"""
+9,önce,ayetle_alay,9:65,9:66,azap_genel,✓,"""Allah ile ayetleriyle resulüyle mi eğleniyordunuz? imandan sonra küfre saptınız… bir grubu azaba uğratacağız"""
+9,önce,imandan_sonra_kufur,9:66,9:66,azap_genel,✓,"""günaha batmış (mücrim) oldukları için"""
+9,sonra,ayetle_alay,9:65,9:66,azap,✓,"""Allah ile ayetleriyle resulüyle mi eğleniyordunuz? imandan sonra küfre saptınız… bir grubu azaba uğratacağız"""
+9,sonra,imandan_sonra_kufur,9:66,9:66,azap,✓,"""günaha batmış (mücrim) oldukları için"""
+9,önce,allaha_resule_yalan,9:90,9:90,azap_elim,✓,Allah'a ve resulüne yalan söyleyenler oturdu; onların küfre sapanlarına korkunç azap
+9,sonra,allaha_resule_yalan,9:90,9:90,azap_elim,✓,Allah'a ve resulüne yalan söyleyenler oturdu; onların küfre sapanlarına acıklı azap
+9,önce,sirk,9:113,9:113,cehennem,✓,"müşrikler ""cehennem halkı oldukları belli olduktan sonra""; af dilemek yasak"
+9,sonra,sirk,9:113,9:113,cahim,✓,"müşrikler ""cehennem halkı oldukları belli olduktan sonra""; af dilemek yasak"
+9,önce,rabbe_isyan,10:15,10:15,azap_azim,✓,"""Rabbime isyan edersem büyük günün azabından korkarım"""
+9,sonra,rabbe_isyan,10:15,10:15,azap_buyuk_gun,✓,"""Rabbime isyan edersem büyük günün azabından korkarım"""
+9,önce,kotuluk_yapma,10:27,10:27,cezalandirilma,✓,"""kötülük kazananlara kötülüğün miktarınca karşılık"""
+9,sonra,kotuluk_yapma,10:27,10:27,cezalandirma,✓,"""kötülük kazananlara kötülüğün miktarınca karşılık"""
+9,önce,yuz_cevirme,11:3,11:3,azap_azim,✓,"""yüz çevirirseniz sizi büyük bir günün azabıyla korkuturum"" (uyarı)"
+9,önce,azabi_alay_etme,11:8,11:8,azap_genel,✓,azap geldiğinde alay ettikleri şey onları sarar
+9,sonra,yuz_cevirme,11:3,11:3,azap_buyuk_gun,→,"""Yüz çevirirseniz sizin için büyük bir günün azabından korkarım"" (ehâfu aleyküm azâbe yevmin kebîr; uyarı)"
+9,sonra,azabi_alay_etme,11:8,11:8,azap,✓,azap geldiğinde alay ettikleri şey onları sarar
+9,önce,sirk,11:26,11:26,azap_elim,✓,"Nûh: ""Allah'tan başkasına kulluk etmeyin, korkunç gün azabından korkuyorum"""
+9,sonra,sirk,11:26,11:26,azap_elim,→,"Nûh: ""Allah'tan başkasına kulluk etmeyin, acıklı gün azabından korkuyorum"""
+9,önce,deveyi_kesme,11:65,11:67,helak,✓,deveyi kestiler; zulme sapanları korkunç ses yakaladı
+9,sonra,deveyi_kesme,11:65,11:67,helak,✓,deveyi kestiler; zulme sapanları çığlık (es-sayha) yakaladı
+9,önce,olcude_hile,11:84,11:84,azap_kusatan,✓,"""eksik ölçüp yanlış tartmayın… sarıp kuşatan günün azabından korkuyorum"" (Medyen, uyarı)"
+9,önce,olcude_hile,11:84,11:93,azap_muhin,→,"""rezil edici azabın kime geleceğini bileceksiniz"""
+9,sonra,olcude_hile,11:84,11:84,azap_kusatan,→,"""eksik ölçüp yanlış tartmayın… sarıp kuşatan günün azabından korkuyorum"" (Medyen, uyarı)"
+9,sonra,olcude_hile,11:84,11:93,azap_hizy,→,"""rezil edici azabın kime geleceğini bileceksiniz"""
+9,sonra,ahdi_bozma,13:25,13:25,su_ud_dar,✓,"""Yurdun kötüsü de onlarındır"" (ve lehüm sû'u'd-dâr)"
+9,sonra,sila_kesme,13:25,13:25,su_ud_dar,✓,"""Yurdun kötüsü de onlarındır"" (ve lehüm sû'u'd-dâr)"
+9,sonra,fesad,13:25,13:25,su_ud_dar,✓,"""Yurdun kötüsü de onlarındır"" (ve lehüm sû'u'd-dâr)"
+9,önce,zorbalik,14:15,14:17,azap_genel,✓,"boğazdan geçmeyen içecek, ölüm gelip ölmeme"
+9,sonra,zorbalik,14:15,14:17,azap,✓,"boğazdan geçmeyen içecek, ölüm gelip ölmeme"
+9,önce,kotuluk_icin_tuzak,16:45,16:45,helak,→,"""kötülükleri yapmak için tuzak kuranlar Allah'ın kendilerini yere geçirmeyeceğinden emin mi?"" (soru kalıbıyla uyarı)"
+9,sonra,kotuluk_icin_tuzak,16:45,16:45,yere_batirilma,→,"""kötülükleri yapmak için tuzak kuranlar Allah'ın kendilerini yere geçirmeyeceğinden emin mi?"" (soru kalıbıyla uyarı)"
+9,önce,kufur,16:88,16:88,azap_katli,✓,"inkâr + Allah yolundan alıkoyma: ""azaplarına azap katmışızdır"""
+9,önce,allah_yolundan_alikoyma,16:88,16:88,azap_katli,✓
+9,önce,fesad,16:88,16:88,azap_katli,✓,"""bozgunculuk edip durmalarından ötürü"""
+9,sonra,kufur,16:88,16:88,azap_artisi,✓,"inkâr + Allah yolundan alıkoyma: ""azaplarına azap katmışızdır"""
+9,sonra,allah_yolundan_alikoyma,16:88,16:88,azap_artisi,✓
+9,sonra,fesad,16:88,16:88,azap_artisi,✓,"""bozgunculuk edip durmalarından ötürü"""
+9,sonra,yemini_hile_araci_yapma,16:94,16:94,kotuluk_tatma,✓,"""Kötülüğü tadarsınız"" (ve tezûkû's-sû'e)"
+9,önce,ahireti_inkar,17:10,17:10,azap_elim,✓,"""âhirete inanmayanlara korkunç azap hazırladık"""
+9,sonra,ahireti_inkar,17:10,17:10,azap_elim,✓,"""âhirete inanmayanlara acıklı azap hazırladık"""
+9,önce,seytana_kulluk,19:44,19:45,azap_genel,✓,"İbrahim: ""şeytana kulluk etme… Rahman'dan bir azap dokunmasından korkuyorum"" (anlatıdaki kişinin sözü)"
+9,sonra,seytana_kulluk,19:44,19:45,azap,→,"İbrahim: ""şeytana kulluk etme… Rahman'dan bir azap dokunmasından korkuyorum"" (anlatıdaki kişinin sözü)"
+9,önce,sapiklik,19:75,19:75,azap_genel,✓,"""sapıklıkta olana Rahman iyice süre versin… azabı veya kıyameti gördüklerinde"""
+9,sonra,sapiklik,19:75,19:75,azap,✓,"""sapıklıkta olana Rahman iyice süre versin… azabı veya kıyameti gördüklerinde"""
+9,önce,ayetleri_yalanlama,20:48,20:48,azap_genel,✓,"Mûsa ve Hârun'a vahyolunan: ""azap yalanlayıp yüz çevirenlerin üzerinedir"""
+9,önce,ayetlerden_yuz_cevirme,20:48,20:48,azap_genel,✓
+9,sonra,ayetleri_yalanlama,20:48,20:48,azap,✓,"Mûsa ve Hârun'a vahyolunan: ""azap yalanlayıp yüz çevirenlerin üzerinedir"""
+9,sonra,ayetlerden_yuz_cevirme,20:48,20:48,azap,✓
+9,önce,israf,20:127,20:127,cezalandirilma,✓,"israf eden/haddi aşan ve Rabbinin ayetlerine inanmayan: ""böyle cezalandırırız""; âhiret azabı daha şiddetli"
+9,sonra,israf,20:127,20:127,cezalandirma,✓,"israf eden/haddi aşan ve Rabbinin ayetlerine inanmayan: ""böyle cezalandırırız""; âhiret azabı daha şiddetli"
+9,önce,alay,21:41,21:41,azap_kusatma,✓,resullerle alay edenleri alay ettikleri şey kuşattı (kıssa)
+9,sonra,alay,21:41,21:41,kusatma,✓,resullerle alay edenleri alay ettikleri şey kuşattı (kıssa)
+9,önce,ayetleri_isleyiz_kilma,22:51,22:51,cehennem,✓,"ayetleri işe yaramaz kılmak için gayret gösterenler: ""cehennemin dostları"""
+9,önce,kufur,22:55,22:55,azap_genel,✓,Kur'an'dan kuşku içinde olan inkârcılar kıyamet ya da kısır gün azabı gelinceye kadar
+9,sonra,ayetleri_isleyiz_kilma,22:51,22:51,cahim,✓,"ayetleri işe yaramaz kılmak için gayret gösterenler: ""cehennemin dostları"""
+9,sonra,kufur,22:55,22:55,azap,✓,Kur'an'dan kuşku içinde olan inkârcılar kıyamet ya da kısır gün azabı gelinceye kadar
+9,önce,servet_ve_refah_mutref,23:64,23:64,azap_genel,→,"""Onların refah içindekilerini (mütrefîhim) azapla yakaladığımızda feryat ederler""; israf adı ayette geçmez"
+9,sonra,servet_ve_refah_mutref,23:64,23:64,azap,→,"""Onların refah içindekilerini (mütrefîhim) azapla yakaladığımızda feryat ederler""; israf adı ayette geçmez"
+9,sonra,iffetli_kadina_iftira,24:4,24:4,sahitlik_reddi,✓,"""Tanıklıklarını ebediyen kabul etmeyin"""
+9,önce,edepsizligin_yayilmasini_arzulama,24:19,24:19,azap_elim,✓,"""dünyada da âhirette de korkunç bir azap"" (YN)"
+9,sonra,edepsizligin_yayilmasini_arzulama,24:19,24:19,azap_elim,✓,"""dünyada da âhirette de acıklı bir azap"" (YN)"
+9,önce,azginlik,26:91,26:94,cehennem,✓,cehennem azgınların karşısına getirilir; tıkılırlar
+9,önce,sirk,26:92,26:94,cehennem,✓,"""O ibadet ettikleriniz nerede?"""
+9,sonra,azginlik,26:91,26:94,cahim,✓,cehennem azgınların karşısına getirilir; tıkılırlar
+9,sonra,sirk,26:92,26:94,cahim,✓,"""O ibadet ettikleriniz nerede?"""
+9,önce,ahirete_inanmama,27:4,27:5,azap_siddetli,✓,"""azabın korkuncu öngörülen... âhirette hüsrana uğrayacaklar"""
+9,sonra,ahirete_inanmama,27:4,27:5,azap_kotu,✓,"""azabın kötüsü (sû'u'l-azâb) öngörülen... âhirette hüsrana uğrayacaklar"""
+9,önce,kibir_azginlik,28:76,28:81,helak,✓,"Karun: şımarıklık/azgınlık; ""ilim sayesinde"" sözü 28:78; ""yere geçirdik"""
+9,sonra,kibir_azginlik,28:76,28:81,yere_batirilma,✓,"Karun: şımarıklık/azgınlık; ""ilim sayesinde"" sözü 28:78; ""yere geçirdik"""
+9,önce,sirk_put_edinme,29:25,29:25,cehennem,✓,"""Hepinizin varacağı yer cehennemdir"""
+9,sonra,sirk_put_edinme,29:25,29:25,nar,✓,"""Hepinizin varacağı yer cehennemdir"""
+9,önce,fahsa_lut,29:28,29:34,gokten_felaket,→,"29:34 gökten felaket ""fıska sapmaları yüzünden"" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan"
+9,önce,erkeklere_gitme,29:29,29:34,gokten_felaket,→,"29:34 gökten felaket ""fıska sapmaları yüzünden"" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan"
+9,önce,yol_kesme,29:29,29:34,gokten_felaket,→
+9,önce,resulleri_yalanlama,29:37,29:37,sarsinti,✓,"Şuayb: ""hemen yalanladılar; korkunç sarsıntı yakaladı"""
+9,sonra,fahsa_lut,29:28,29:34,azap_gokten,→,"29:34 gökten felaket ""fıska sapmaları yüzünden"" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan"
+9,sonra,erkeklere_gitme,29:29,29:34,azap_gokten,→,"29:34 gökten felaket ""fıska sapmaları yüzünden"" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan"
+9,sonra,yol_kesme,29:29,29:34,azap_gokten,→
+9,sonra,resulleri_yalanlama,29:37,29:37,sarsinti,✓,"Şuayb: ""hemen yalanladılar; sarsıntı (er-racfe) yakaladı"""
+9,önce,kufur,29:54,29:55,azap_kusatma,✓,"""cehennem küfre sapanları çepeçevre kuşatmış""; ""azap tepelerinden, ayaklarının altından sarar"""
+9,sonra,kufur,29:54,29:55,kusatma,✓,"""cehennem küfre sapanları çepeçevre kuşatmış""; ""azap tepelerinden, ayaklarının altından sarar"""
+9,önce,ayetlerden_kibirle_yuz_cevirme,31:7,31:7,azap_elim,✓,"""korkunç bir azapla muştula"""
+9,sonra,ayetlerden_kibirle_yuz_cevirme,31:7,31:7,azap_elim,✓,"""acıklı bir azapla muştula"""
+9,önce,kufur,31:23,31:24,azap_siddetli,✓,"""hepsini şiddetli bir azaba süreceğiz"""
+9,sonra,kufur,31:23,31:24,azap_cetin,✓,"""hepsini şiddetli bir azaba süreceğiz"""
+9,önce,kufur,33:8,33:8,azap_elim,✓,"""Küfre batmışlara korkunç bir azap hazırlamıştır"""
+9,sonra,kufur,33:8,33:8,azap_elim,✓,"""Küfre batmışlara acıklı bir azap hazırlamıştır"""
+9,önce,seytana_uyma,35:6,35:6,cehennem,→,"""hizbini cehennem yâranından olmaları için çağırır""; çağrı anlatılır, sonuç kesin değil"
+9,sonra,seytana_uyma,35:6,35:6,nar_alevli,→,"""hizbini cehennem yâranından olmaları için çağırır""; çağrı anlatılır, sonuç kesin değil"
+9,önce,kufur,35:36,35:36,azap_hafiflemez,✓
+9,sonra,kufur,35:36,35:36,azap_hafifletilmez,✓
+9,önce,zulum,37:22,37:23,cehennem,✓,"""Toplayın o zulmedenleri... Sürün onları cehennemin yoluna"""
+9,önce,allahtan_baska_tapinma,37:23,37:23,cehennem,✓
+9,sonra,zulum,37:22,37:23,cahim,✓,"""Toplayın o zulmedenleri... Sürün onları cehennemin yoluna"""
+9,sonra,allahtan_baska_tapinma,37:23,37:23,cahim,✓
+9,önce,atalara_koru_koruna_uyma,37:70,37:68,cehennem,✓,"""çünkü babalarını sapmış bulmalarına rağmen eserleri ardınca koşturuyorlar"""
+9,sonra,atalara_koru_koruna_uyma,37:70,37:68,cahim,✓,"""çünkü babalarını sapmış bulmalarına rağmen eserleri ardınca koşturuyorlar"""
+9,önce,isyan,39:13,39:13,azap_buyuk,✓,"""Rabbime isyan edersem büyük bir günün azabından korkarım"" (peygambere hitap)"
+9,sonra,isyan,39:13,39:13,azap_buyuk_gun,✓,"""Rabbime isyan edersem büyük bir günün azabından korkarım"" (peygambere hitap)"
+9,önce,resule_inanmama_firavun,40:37,40:45,azap_kusatma,→,"Firavun: Mûsa'yı yalancı sanma, kötü işin süslenmesi; sonuç 40:45-46"
+9,sonra,resule_inanmama_firavun,40:37,40:45,kusatma,→,"Firavun: Mûsa'yı yalancı sanma, kötü işin süslenmesi; sonuç 40:45-46"
+9,önce,haksiz_buyukluk_ve_ayetlere_karsi_cikma,41:15,41:16,zillet_azabi,✓,"Âd: dondurucu rüzgâr; ""âhiretin azabı daha rezil edici"""
+9,sonra,haksiz_buyukluk_ve_ayetlere_karsi_cikma,41:15,41:16,azap_hizy,✓,"Âd: dondurucu rüzgâr; ""âhiretin azabı daha rezil edici"""
+9,önce,zulum,43:65,43:65,azap_elim,✓,"""Korkunç bir günün azabından vay haline o zulmedenlerin"""
+9,sonra,zulum,43:65,43:65,azap_elim,✓,"""Acıklı bir günün azabından vay haline o zulmedenlerin"""
+9,önce,suc_isleme,43:74,43:75,azap_hafiflemez,✓,"""Azapları hafifletilmeyecektir"""
+9,sonra,suc_isleme,43:74,43:75,azap_hafifletilmez,✓,"""Azapları hafifletilmeyecektir"""
+9,önce,haksiz_buyukluk_ve_gercege_ters_dusme,46:20,46:20,azap_muhin,✓,"""alçaltıcı azapla cezalandırılacaksınız. Çünkü yeryüzünde haksız yere büyüklük tasladınız ve gerçeğe ters düştünüz"""
+9,sonra,haksiz_buyukluk_ve_gercege_ters_dusme,46:20,46:20,zillet_azabi,✓,"""alçaltıcı azapla cezalandırılacaksınız. Çünkü yeryüzünde haksız yere büyüklük tasladınız ve gerçeğe ters düştünüz"""
+9,önce,allahin_indirdigini_tiksinme,47:9,47:9,amel_boşa,✓,"""Allah'ın indirdiğini tiksindirici bulmuşlardır, Allah da amellerini boşa çıkarmıştır"""
+9,sonra,allahin_indirdigini_tiksinme,47:9,47:9,amel_bosa,✓,"""Allah'ın indirdiğini tiksindirici bulmuşlardır, Allah da amellerini boşa çıkarmıştır"""
+9,önce,kufur_ve_ayetleri_yalanlama,57:19,57:19,nar,✓,"""cehennemin dostu olacaklardır"""
+9,sonra,kufur_ve_ayetleri_yalanlama,57:19,57:19,cahim,✓,"""cehennemin dostu olacaklardır"""
+9,önce,kufur,58:4,58:4,azap_elim,✓,"""Küfre sapanlara korkunç bir azap vardır"" (zıhar kefareti bağlamı)"
+9,sonra,kufur,58:4,58:4,azap_elim,✓,"""Küfre sapanlara acıklı bir azap vardır"" (zıhar kefareti bağlamı)"
+9,önce,kufur,64:5,64:5,vebal_ve_azap,✓,"""yapıp ettiklerinin vebalini tattılar. Korkunç bir azap vardır"""
+9,sonra,kufur,64:5,64:5,vebal_ve_azap,✓,"""yapıp ettiklerinin vebalini tattılar. Acıklı bir azap vardır"""
+9,önce,kufur,66:7,66:7,cezalandirilma,✓,"""yapıp ettiklerinizin karşılığı olarak cezalandırılıyorsunuz"""
+9,sonra,kufur,66:7,66:7,cezalandirma,✓,"""yapıp ettiklerinizin karşılığı olarak cezalandırılıyorsunuz"""
+9,önce,allaha_inanmama,69:33,69:31,cehennem,✓,"""Çünkü o, yüce Allah'a inanmıyordu""; bağlama, cehenneme salma, zincir"
+9,önce,yoksulu_doyurmaya_ozendirmeme,69:34,69:31,cehennem,✓,"""Yoksulu doyurmaya özendirmiyordu"""
+9,sonra,allaha_inanmama,69:33,69:31,cahim,✓,"""Çünkü o, yüce Allah'a inanmıyordu""; bağlama, cehenneme salma, zincir"
+9,sonra,yoksulu_doyurmaya_ozendirmeme,69:34,69:31,cahim,✓,"""Yoksulu doyurmaya özendirmiyordu"""
+9,önce,nimete_bogulmus_yalanlama,73:11,73:12,bukagi_ve_cehennem,✓,"""Bizim yanımızda bukağılar var, cehennem var! ... boğazdan zor geçen yiyecek, korkunç azap"""
+9,önce,resule_isyan_firavun,73:16,73:16,korkunc_tutus,✓,"""Firavun resule isyan etti de korkunç bir tutuşla tutuverdik"""
+9,sonra,nimete_bogulmus_yalanlama,73:11,73:12,bukagi_ve_cehennem,✓,"""Bizim yanımızda bukağılar var, cehennem var! ... boğazdan zor geçen yiyecek, acıklı azap"""
+9,sonra,resule_isyan_firavun,73:16,73:16,korkunc_tutus,✓,"""Firavun resule isyan etti de ağır bir tutuşla (ahzen vebîlâ) tutuverdik"""
+9,önce,zulum,76:31,76:31,azap_elim,✓,"""Zalimlere gelince, onlar için korkunç bir azap hazırlamıştır"""
+9,sonra,zulum,76:31,76:31,azap_elim,✓,"""Zalimlere gelince, onlar için acıklı bir azap hazırlamıştır"""
+9,önce,azginlik,79:37,79:39,cehennem,✓,"""Artık azmış olan... Cehennem, barınağın ta kendisidir"""
+9,önce,dunya_hayatini_yeglemek,79:38,79:39,cehennem,✓,"""iğreti hayatı yeğlemiş olan için cehennem barınaktır"""
+9,önce,kotuluk_fucur,82:14,82:14,cehennem,✓,"""Kötülerse cehennemin ta ortasında"""
+9,sonra,azginlik,79:37,79:39,cahim,✓,"""Artık azmış olan... Cehennem, barınağın ta kendisidir"""
+9,sonra,dunya_hayatini_yeglemek,79:38,79:39,cahim,✓,"""iğreti hayatı yeğlemiş olan için cehennem barınaktır"""
+9,sonra,kotuluk_fucur,82:14,82:14,cahim,✓,"""Kötülerse cehennemin ta ortasında"""
+9,önce,gunaha_batmis_azgin_yalanlama,83:12,83:16,cehennem,✓,"""Onu ancak her şımarıp azmış, günaha batmış yalanlar... mutlaka cehenneme dalacaklardır"""
+9,sonra,gunaha_batmis_azgin_yalanlama,83:12,83:16,cahim,✓,"""Onu ancak her şımarıp azmış, günaha batmış yalanlar... mutlaka cehenneme dalacaklardır"""
+9,önce,ahireti_inkar_ve_ailesinde_sevinc,84:13,84:12,nar,✓,"""kitabı arkadan verilen... korkunç ateşe girecektir. O, ailesi içinde sevinçli idi; dönmeyeceğini sanmıştı"""
+9,sonra,ahireti_inkar_ve_ailesinde_sevinc,84:13,84:12,nar,✓,"""kitabı arkadan verilen... alevli ateşe (saîr) girecektir. O, ailesi içinde sevinçli idi; dönmeyeceğini sanmıştı"""
+10,sonra,tevbe_sart,2:54,2:54,kabul,✓,"""Bu, Yaratıcınız katında sizin için daha hayırlıdır; O da tövbenizi kabul etti"" (fe-tâbe aleyküm)",sonuc
+10,önce,tevbe_olmaz,3:90,3:90,-,✓,"""İmanlarından sonra küfre sapıp küfürde daha da azıtanların tövbeleri asla kabul edilmeyecektir""",sonuc
+10,sonra,tevbe_olmaz,3:90,3:90,tovbe_kabul_edilmez,✓,"""İmanlarından sonra küfre sapıp küfürde daha da azıtanların tövbeleri asla kabul edilmeyecektir""",sonuc
+10,önce,tevbe_olmaz,4:18,4:18,azap_elim,✓,"""Kötülükleri yapıp ölüm gelince 'şimdi tövbe ettim' diyenler ile küfre batmış olarak ölenler için tövbe yoktur; korkunç azap""",sonuc
+10,sonra,tevbe_olmaz,4:18,4:18,azap_elim,✓,"""Kötülükleri yapıp ölüm gelince 'şimdi tövbe ettim' diyenler ile kâfir olarak ölenler için tövbe yoktur; onlar için acıklı bir azap hazırladık""",sonuc
+10,sonra,tevbe_olmaz,4:18,4:18,tovbe_kabul_edilmez,✓,"""Tövbe ... için değildir"" (ve leyseti't-tevbetü li'llezîne ...)",sonuc
+10,önce,tevbe_sart,5:74,5:74,magfiret,✓,"""Hâlâ Allah'a yönelip tövbe ederek af dilemiyorlar mı? Allah Gafûr ve Rahîm'dir""",sonuc
+10,sonra,tevbe_sart,5:74,5:74,magfiret,→,"""Hâlâ Allah'a yönelip tövbe ederek af dilemiyorlar mı? Allah Gafûr ve Rahîm'dir""",sonuc
+10,sonra,kat_kat,6:160,6:160,kat_kat,✓,"""Kim güzellikle gelirse ona getirdiğinin on katı vardır"" (fe-lehû aşru emsâlihâ)",tanim
+10,sonra,derece,9:20,9:20,derece,✓,"""Allah katında derece bakımından daha büyüktürler"" (a'zamu deraceten)",sonuc
+10,önce,tevbe_sart,9:112,9:112,-,✓,"""Müjdelenen müminler: tövbe edenler, ibadet edenler, hamd edenler...""",tanim
+10,sonra,tevbe_sart,9:112,9:112,mujde,✓,"""Müjdelenen müminler: tövbe edenler, ibadet edenler, hamd edenler...""",sonuc
+10,önce,zulum_yok,10:47,10:47,-,✓,"""Aralarında adaletle hüküm verilir, hiçbir zulme uğratılmazlar""",sonuc
+10,önce,zulum_yok,10:54,10:54,-,✓,"""Aralarında adaletle hükmedilmiştir; asla zulme uğratılmazlar""",sonuc
+10,sonra,zulum_yok,10:47,10:47,-,✓,"""Aralarında adaletle hüküm verilir, hiçbir zulme uğratılmazlar""",tanim
+10,sonra,zulum_yok,10:54,10:54,-,✓,"""Aralarında adaletle hükmedilmiştir; asla zulme uğratılmazlar""",tanim
+10,sonra,tevbe_sart,11:3,11:3,guzel_gecim,✓,"""Sizi belirli bir süreye kadar güzel bir geçimle yaşatır"" (yümetti'küm metâ'an hasenen)",sonuc
+10,önce,esitsizlik,11:24,11:24,-,✓,"""İki topluluk körle sağır, görenle işiten gibidir; bir olmazlar""",tanim
+10,önce,tevbe_sart,11:52,11:52,-,✓,"""Rabbinizden af dileyin, sonra O'na yönelin ki göğü bol bol göndersin, kuvvetinize kuvvet katsın""",emir
+10,sonra,esitsizlik,11:24,11:24,esitsizlik,✓,"""İki topluluk körle sağır, görenle işiten gibidir; bir olmazlar""",tanim
+10,sonra,tevbe_sart,11:52,11:52,dunyevi_bereket,✓,"""Rabbinizden af dileyin, sonra O'na yönelin ki göğü bol bol göndersin, kuvvetinize kuvvet katsın""",emir
+10,önce,sorumluluk,16:25,16:25,-,✓,"""Kendi günahlarını tamamen, ilimsizce saptırdıklarının günahlarından da bir kısmını yüklenecekler""",sonuc
+10,sonra,sorumluluk,16:25,16:25,gunah_yuklenme,✓,"""Kendi günahlarını tamamen, ilimsizce saptırdıklarının günahlarından da bir kısmını yüklenecekler""",sonuc
+10,önce,zulum_yok,17:71,17:71,-,✓,"""Kitabı sağdan verilenler bir kıl kadar haksızlığa uğratılmayacak""",sonuc
+10,sonra,zulum_yok,17:71,17:71,-,✓,"""Kitabı sağdan verilenler bir kıl kadar haksızlığa uğratılmayacak""",tanim
+10,önce,sorumluluk,20:100,20:101,-,✓,"""Kur'an'dan yüz çeviren kıyamette bir günah yükü yüklenir; ne kötü yüktür""",sonuc
+10,önce,zulum_yok,20:112,20:112,-,✓,"""Mümin olarak iyilik yapan haksızlığa uğratılmaktan korkmaz""",sonuc
+10,sonra,sorumluluk,20:100,20:101,gunah_yuklenme,✓,"""Kur'an'dan yüz çeviren kıyamette bir günah yükü yüklenir; ne kötü yüktür""",sonuc
+10,sonra,zulum_yok,20:112,20:112,-,✓,"""Mümin olarak iyilik yapan haksızlığa uğratılmaktan korkmaz""",tanim
+10,sonra,kat_kat,34:37,34:37,gurfe,✓,"""Onlar köşklerde (el-ğurufât) güven içindedirler""",sonuc
+10,önce,esitsizlik,39:9,39:9,-,✓,"""Bilenlerle bilmeyenler eşit olur mu?""",tanim
+10,sonra,esitsizlik,39:9,39:9,esitsizlik,✓,"""Bilenlerle bilmeyenler eşit olur mu?""",tanim
+10,önce,tevbe_kabul,40:7,40:7,magfiret,✓,"""Arşı taşıyanlar tövbe edenler için af diler: Rabbimiz rahmet ve ilim kuşattın""",tanim
+10,sonra,tevbe_kabul,40:7,40:7,magfiret,→,"""Arşı taşıyanlar tövbe edenler için af diler: Rabbimiz rahmet ve ilim kuşattın""",tanim
+10,önce,esitsizlik,40:58,40:58,-,✓,"""Körle gören, iman edip iyi iş yapanlarla kötülük üretenler bir olmaz""",tanim
+10,önce,esitsizlik,41:34,41:34,-,✓,"""İyilikle kötülük bir olmaz""",tanim
+10,sonra,esitsizlik,40:58,40:58,esitsizlik,✓,"""Körle gören, iman edip iyi iş yapanlarla kötülük üretenler bir olmaz""",tanim
+10,sonra,esitsizlik,41:34,41:34,esitsizlik,✓,"""İyilikle kötülük bir olmaz""",tanim
+10,önce,esitsizlik,45:21,45:21,-,✓,"""Kötülüklere dalanları iman edip iyi iş yapanlarla aynı tutmayacağız""",tanim
+10,sonra,esitsizlik,45:21,45:21,esitsizlik,✓,"""Kötülüklere dalanları iman edip iyi iş yapanlarla aynı tutmayacağız""",tanim
+10,sonra,derece,46:19,46:19,derece,✓,"""Herbirinin yaptıklarından dereceleri vardır"" (ve li-küllin deracâtün mimmâ amilû)",sonuc
+10,önce,esitsizlik,59:20,59:20,-,✓,"""Ateşin dostlarıyla cennetin dostları bir olmaz""",tanim
+10,sonra,esitsizlik,59:20,59:20,esitsizlik,✓,"""Ateşin dostlarıyla cennetin dostları bir olmaz""",tanim
+10,önce,kat_kat,64:17,64:17,magfiret,✓,"""Allah'a gönül hoşluğuyla borç verirseniz katlayarak artırır ve hatalarınızı bağışlar""",sonuc
+10,sonra,kat_kat,64:17,64:17,kat_kat,✓,"""Allah'a gönül hoşluğuyla borç verirseniz katlayarak artırır ve hatalarınızı bağışlar""",sonuc
+10,sonra,tevbe_sart,66:8,66:8,gunah_ortme,✓,"""Umulur ki Rabbiniz kötülüklerinizi örter"" (en yükeffira anküm seyyiâtiküm)",sonuc
+10,sonra,tevbe_olmaz,85:10,85:10,yangin_azabi,✓,"""Onlar için yangın azabı da vardır"" (ve lehüm azâbü'l-harîk)",sonuc
+10,önce,kat_kat,2:261,2:261,artirma,✓,"""Allah yolunda infak edenin durumu yüz tane veren yedi başak gibidir; Allah dilediği için daha da artırır""",sonuc
+10,sonra,kat_kat,2:261,2:261,kat_kat,✓,"""Allah yolunda infak edenin durumu yüz tane veren yedi başak gibidir; Allah dilediği için daha da artırır""",sonuc
+10,önce,tevbe_sart,2:279,2:279,-,✓,"""Tövbe ederseniz ana paralarınız sizindir; ne zulmedersiniz ne zulme uğratılırsınız""",sonuc
+10,sonra,tevbe_sart,2:279,2:279,anapara,✓,"""Tövbe ederseniz ana paralarınız sizindir; ne zulmedersiniz ne zulme uğratılırsınız""",sonuc
+10,önce,tevbe_sart,9:5,9:5,-,✓,"""Tövbe eder, namazı kılar, zekâtı verirlerse yollarını açın""",sonuc
+10,önce,tevbe_sart,9:11,9:11,-,✓,"""Tövbe eder, namazı kılar, zekâtı verirlerse dinde kardeşlerinizdirler""",sonuc
+10,sonra,tevbe_sart,9:5,9:5,yol_serbest,✓,"""Tövbe eder, namazı kılar, zekâtı verirlerse yollarını açın""",sonuc
+10,sonra,tevbe_sart,9:11,9:11,din_kardesligi,✓,"""Tövbe eder, namazı kılar, zekâtı verirlerse dinde kardeşlerinizdirler""",sonuc
+10,sonra,tevbe_sart,9:74,9:74,hayir,✓,"""Tövbe ederlerse kendileri için hayırlı olur"" (fe-in yetûbû yekü hayran lehüm)",sonuc
+11,sonra,insan_sever,3:31,3:31,sevgi,✓,"""Bana uyun ki Allah da sizi sevsin"" (yuhbibkümü'llâh)",emir
+11,önce,vedud,19:96,19:96,sevgi,✓,"""İman edip iyi işler yapanlar için Rahman bir sevgi oluşturacaktır""",sonuc
+11,sonra,vedud,19:96,19:96,sevgi,→,"""İman edip iyi işler yapanlar için Rahman bir sevgi (vüdd) oluşturacaktır"": sevginin kimden kime olduğu lafızda belirtilmez",sonuc
+11,sonra,insan_sever,9:23,9:23,zalim_sayilma,✓,"""Sizden kim onları dost edinirse, işte onlar zalimlerin ta kendileridir""",sonuc
+11,önce,insan_sever,3:188,3:188,azap_elim,✓,"""Ettikleriyle zevklenip yapmadıklarıyla övülmeyi sevenleri azaptan kurtulmuş sanma; korkunç azap vardır""",sonuc
+11,önce,insan_sever,24:19,24:19,azap_elim,✓,"""Müminler arasında edepsizliğin yayılmasını arzu edenlere dünyada da âhirette de korkunç azap""",sonuc
+11,sonra,insan_sever,3:188,3:188,azap_elim,✓,"""Ettikleriyle sevinip yapmadıklarıyla övülmeyi sevenleri azaptan kurtulmuş sanma; onlar için acıklı bir azap vardır""",sonuc
+11,sonra,insan_sever,24:19,24:19,azap_elim,✓,"""Müminler arasında edepsizliğin yayılmasını arzu edenlere dünyada da âhirette de acıklı bir azap vardır""",sonuc
+11,önce,vedud,60:7,60:7,sevgi,✓,"""Allah sizinle düşman olduklarınız arasına bir sevgi koyabilir""",tanim
+11,sonra,vedud,60:7,60:7,-,✓,"""Allah sizinle düşman olduklarınız arasına bir sevgi koyabilir""",tanim
+12,önce,ism,2:181,2:181,-,✓,"""Vasiyeti işittikten sonra değiştirenin günahı değiştirenler üzerinedir""",tanim
+12,sonra,ism,2:181,2:181,gunah_yuklenme,✓,"""Vasiyeti işittikten sonra değiştirenin günahı değiştirenler üzerinedir""",sonuc
+12,sonra,fahsa,3:135,3:136,cennet,✓,"""Altlarından ırmaklar akan cennetler, orada kalıcı olarak"" (3:136)",sonuc
+12,önce,ism,4:48,4:48,magfiret_yok,✓,"""Allah'a şirk koşan gerçekten büyük bir günah (ism) işlemiştir; Allah şirki affetmez""",tanim
+12,sonra,kebair,4:31,4:31,mudhal_kerim,✓,"""Sizi değerli bir giriş yerine sokarız"" (ve nüdhilküm müdhalen kerîmâ)",sonuc
+12,sonra,ism,4:48,4:48,magfiret_yok,✓,"""Allah'a şirk koşan gerçekten büyük bir günah (ism) işlemiştir; Allah şirki affetmez""",sonuc
+12,önce,ism,4:111,4:111,-,✓,"""Günah kazanan onu kendi nefsi aleyhine kazanır""",tanim
+12,önce,ism,4:112,4:112,-,✓,"""Hata ya da günah işleyip suçsuz birini itham eden büyük bir iftira ve açık günah yüklenmiş olur""",sonuc
+12,sonra,ism,4:111,4:111,kendi_aleyhine,✓,"""Günah kazanan onu kendi nefsi aleyhine kazanır""",sonuc
+12,sonra,ism,4:112,4:112,iftira_gunah,✓,"""Hata ya da günah işleyip suçsuz birini itham eden büyük bir iftira ve açık günah yüklenmiş olur""",sonuc
+12,önce,fisk,5:25,5:26,-,✓,"""Mûsa 'fâsıklar topluluğundan bizi ayır' dedi; Allah: orası onlara kırk yıl haram kılındı, sersem sersem dolaşacaklar""",sonuc
+12,sonra,fisk,5:25,5:26,tih,✓,"""Mûsa 'fâsıklar topluluğundan bizi ayır' dedi; Allah: orası onlara kırk yıl haram kılındı, sersem sersem dolaşacaklar""",sonuc
+12,önce,fisk,6:49,6:49,azap_genel,✓,"""Ayetlerimizi yalanlayanlara fısk (fenalığa bulaşmaları) yüzünden azap dokunacaktır""",sonuc
+12,önce,ism,6:120,6:120,karsilik,✓,"""Günahın açığını da gizlisini de bırakın; günah kazananlar yapıp ettiklerinin karşılığını göreceklerdir""",yasak
+12,sonra,fisk,6:49,6:49,azap,✓,"""Ayetlerimizi yalanlayanlara fısk (fenalığa bulaşmaları) yüzünden azap dokunacaktır""",sonuc
+12,sonra,ism,6:120,6:120,cezalandirma,✓,"""Günahın açığını da gizlisini de bırakın; günah kazananlar yapıp ettiklerinin karşılığını göreceklerdir""",yasak
+12,önce,fisk,7:145,7:145,-,✓,"""Levhalardaki buyrukları en güzel şekliyle tutun; fâsıklar yurdunu size göstereceğim""",sonuc
+12,sonra,fisk,7:145,7:145,-,✓,"""Levhalardaki buyrukları en güzel şekliyle tutun; fâsıklar yurdunu size göstereceğim""",tanim
+12,önce,fisk,7:163,7:163,-,✓,"""Sebt günü sınırı aşan kıyı kentini, fısk etmeleri yüzünden böyle sınıyorduk (balıklar sebt günü gelirdi)""",sonuc
+12,önce,fisk,7:165,7:165,azap,✓,"""Kötülükten alıkoyanları kurtardık; zulmedenleri fısk etmeleri yüzünden çetin bir azapla (azâbin beîs) yakaladık""",sonuc
+12,sonra,fisk,7:163,7:163,sinanma,✓,"""Sebt günü sınırı aşan kıyı kentini, fısk etmeleri yüzünden böyle sınıyorduk (balıklar sebt günü gelirdi)""",sonuc
+12,sonra,fisk,7:165,7:165,azap_cetin,✓,"""Kötülükten alıkoyanları kurtardık; zulmedenleri fısk etmeleri yüzünden çetin bir azapla (azâbin beîs) yakaladık""",sonuc
+12,önce,munker,9:71,9:71,-,✓,"""Mümin erkekler ve kadınlar iyiliği özendirir, kötülükten sakındırır, namaz kılar, zekât verir""",tanim
+12,sonra,munker,9:71,9:71,rahmet,✓,"""Mümin erkekler ve kadınlar iyiliği özendirir, kötülükten sakındırır, namaz kılar, zekât verir""",sonuc
+12,önce,fisk,9:84,9:84,-,✓,"""Allah'a ve resulüne nankörlük ettiler ve fâsık olarak öldüler; onlar için dua etme""",sonuc
+12,önce,fisk,9:96,9:96,razi_olmama,✓,"""Siz razı olsanız da Allah fâsıklar topluluğundan razı olmaz""",tanim
+12,önce,munker,9:112,9:112,-,✓,"""Tövbe edenler, ibadet edenler... iyiliğe özendirip kötülükten sakındıranlar, Allah'ın sınırlarını koruyanlar""",tanim
+12,önce,bagy,10:23,10:23,-,✓,"""Kurtulunca yeryüzünde haksızlığa sapıp azgınlaşırlar; azgınlığınız (bağy) yalnız sizin aleyhinizedir""",sonuc
+12,önce,fisk,10:33,10:33,-,✓,"""Rabbinin yoldan çıkanlar (fâsıklar) hakkındaki 'iman etmezler' sözü gerçekleşmiştir""",sonuc
+12,sonra,fisk,9:84,9:84,-,✓,"""Allah'a ve resulüne nankörlük ettiler ve fâsık olarak öldüler; onlar için dua etme""",tanim
+12,sonra,fisk,9:96,9:96,razi_olmama,✓,"""Siz razı olsanız da Allah fâsıklar topluluğundan razı olmaz""",sonuc
+12,sonra,munker,9:112,9:112,mujde,✓,"""Tövbe edenler, ibadet edenler... iyiliğe özendirip kötülükten sakındıranlar, Allah'ın sınırlarını koruyanlar""",sonuc
+12,sonra,bagy,10:23,10:23,kendi_aleyhine,✓,"""Kurtulunca yeryüzünde haksızlığa sapıp azgınlaşırlar; azgınlığınız (bağy) yalnız sizin aleyhinizedir""",sonuc
+12,sonra,fisk,10:33,10:33,azap_hak,✓,"""Rabbinin yoldan çıkanlar (fâsıklar) hakkındaki 'iman etmezler' sözü gerçekleşmiştir""",sonuc
+12,önce,hatia,12:29,12:29,-,✓,"""Kadın, günahının affını dile; sen hata edenlerden (hâtiîn) oldun""",emir
+12,sonra,hatia,12:29,12:29,-,✓,"""Kadın, günahının affını dile; sen hata edenlerden (hâtiîn) oldun""",tanim
+12,önce,fisk,21:74,21:74,-,✓,"""Lût'u pislikler üretip duran bir kentten kurtardık; o kent halkı fâsık, yoldan çıkmış kötü bir kavimdi""",sonuc
+12,sonra,fisk,21:74,21:74,-,✓,"""Lût'u pislikler üretip duran bir kentten kurtardık; o kent halkı fâsık, yoldan çıkmış kötü bir kavimdi""",tanim
+12,önce,fisk,24:4,24:4,-,✓,"""İffetli kadınlara iftira atıp dört tanık getirmeyenlere seksen vuruş vurun, tanıklıklarını kabul etmeyin; onlar fâsıkların ta kendileridir""",sonuc
+12,sonra,fisk,24:4,24:4,-,✓,"""İffetli kadınlara iftira atıp dört tanık getirmeyenlere seksen vuruş vurun, tanıklıklarını kabul etmeyin; onlar fâsıkların ta kendileridir""",tanim
+12,önce,fahsa,24:19,24:19,azap_elim,✓,"""Müminler içinde fâhişenin yayılmasını arzu edenler için dünyada da âhirette de korkunç azap""",sonuc
+12,sonra,fahsa,24:19,24:19,azap_elim,✓,"""Müminler içinde fâhişenin yayılmasını arzu edenler için dünyada da âhirette de acıklı bir azap""",sonuc
+12,önce,fisk,24:55,24:55,-,✓,"""Allah'ın vaadinden sonra küfredenler fâsıkların ta kendileridir""",sonuc
+12,sonra,fisk,24:55,24:55,-,✓,"""Allah'ın vaadinden sonra küfredenler fâsıkların ta kendileridir""",tanim
+12,önce,zenb,29:40,29:40,yakalama,✓,"""Herbirini kendi günahı ile yakaladık: taş yağdıran kasırga, korkunç ses, yere batırılma, boğulma""",sonuc
+12,sonra,zenb,29:40,29:40,yakalama,✓,"""Herbirini kendi günahı ile yakaladık: taş yağdıran kasırga, çığlık (es-sayha), yere batırılma, boğulma""",sonuc
+12,önce,fisk,32:18,32:18,-,✓,"""Bir mümin bir fâsık gibi olur mu? Eşit olmazlar""",tanim
+12,sonra,fisk,32:18,32:18,esitsizlik,✓,"""Bir mümin bir fâsık gibi olur mu? Eşit olmazlar""",tanim
+12,önce,ism,33:58,33:58,-,✓,"""Mümin erkek ve kadınları yapmadıkları şeyden rahatsız edenler iftira ve açık günah yüklenmişlerdir""",sonuc
+12,sonra,ism,33:58,33:58,iftira_gunah,✓,"""Mümin erkek ve kadınları yapmadıkları şeyden rahatsız edenler iftira ve açık günah yüklenmişlerdir""",sonuc
+12,sonra,zenb,46:31,46:31,azaptan_korunma,✓,"""Sizi acıklı bir azaptan korusun"" (ve yücirküm min azâbin elîm)",sonuc
+12,sonra,fisk,49:11,49:11,zalim_sayilma,✓,"""Kim tövbe etmezse, işte onlar zalimlerin ta kendileridir""",sonuc
+12,önce,kebair,53:32,53:32,magfiret,✓,"""Günahın büyüklerinden ve fâhişelerden çekinip kaçınanlar, küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır""",tanim
+12,önce,fahsa,53:32,53:32,magfiret,✓,"""Günahın büyüklerinden ve fâhişelerden kaçınırlar; Rabbin affı geniştir""",tanim
+12,önce,lemem,53:32,53:32,magfiret,✓,"""Küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır""",tanim
+12,sonra,kebair,53:32,53:32,magfiret,→,"""Günahın büyüklerinden ve fâhişelerden çekinip kaçınanlar, küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır""",tanim
+12,sonra,fahsa,53:32,53:32,magfiret,→,"""Günahın büyüklerinden ve fâhişelerden kaçınırlar; Rabbin affı geniştir""",tanim
+12,sonra,lemem,53:32,53:32,magfiret,→,"""Küçük sürçmeler (lemem) hariç; Rabbin affı geniş olandır""",tanim
+12,önce,ism,58:8,58:8,cehennem,✓,"""Yasaklandıktan sonra yine günah, düşmanlık ve peygambere isyan konusunda fısıldaşıyorlar""",tanim
+12,sonra,ism,58:8,58:8,cehennem,✓,"""Yasaklandıktan sonra yine günah, düşmanlık ve peygambere isyan konusunda fısıldaşıyorlar""",sonuc
+12,önce,fisk,59:5,59:5,hizy,✓,"""Hurma ağacını kesmeniz Allah'ın izniyledir; fâsıkları rezil etmesi içindir""",tanim
+12,sonra,fisk,59:5,59:5,hizy,✓,"""Hurma ağacını kesmeniz Allah'ın izniyledir; fâsıkları rezil etmesi içindir""",sonuc
+12,sonra,fisk,59:19,59:19,benligini_unutturma,✓,"""Allah da onlara öz benliklerini unutturdu"" (fe-ensâhüm enfüsehüm)",sonuc
+12,sonra,fisk,61:5,61:5,kalp_egriltme,✓,"""Onlar sapınca Allah da kalplerini eğriltti"" (fe-lemmâ zâğû ezâğa'llâhu kulûbehüm)",sonuc
+12,sonra,zenb,61:12,61:12,magfiret,✓,"""Günahlarınızı bağışlar"" (yağfir leküm zünûbeküm)",sonuc
+12,önce,zenb,67:11,67:11,cehennem,✓,"""Günahlarını itiraf ettiler; çılgın ateşin halkına kahır yaraşır""",sonuc
+12,sonra,zenb,67:11,67:11,suhk,✓,"""Günahlarını itiraf ettiler; çılgın ateşin halkı uzak olsun!"" (fe-suhkan li-ashâbi's-saîr)",sonuc
+12,önce,ism,2:85,2:85,hizy,✓,"""Birbirinizi öldürüyorsunuz, yurtlarından çıkarıyorsunuz; kötülük (ism) ve düşmanlıkta dayanışmaya giriyorsunuz""",tanim
+12,sonra,ism,2:85,2:85,hizy,✓,"""Birbirinizi öldürüyorsunuz, yurtlarından çıkarıyorsunuz; kötülük (ism) ve düşmanlıkta dayanışmaya giriyorsunuz""",sonuc
+12,önce,zenb,5:18,5:18,azap_genel,✓,"""Yahudiler ve Hıristiyanlar 'Allah'ın sevgilileriyiz' dediler; niçin size günahlarınız yüzünden azap ediyor?""",tanim
+12,önce,munker,5:79,5:79,-,✓,"""İşledikleri münkerden birbirlerini sakındırmıyorlardı; ne kötü şeydi yapmayı sürdürdükleri""",tanim
+12,sonra,zenb,5:18,5:18,azap,✓,"""Yahudiler ve Hıristiyanlar 'Allah'ın sevgilileriyiz' dediler; niçin size günahlarınız yüzünden azap ediyor?""",tanim
+12,sonra,munker,5:79,5:78,lanet,→,"""İşledikleri kötülükten birbirlerini sakındırmıyorlardı"" (5:79): 5:78'deki lanetin gerekçe cümlesi",sonuc

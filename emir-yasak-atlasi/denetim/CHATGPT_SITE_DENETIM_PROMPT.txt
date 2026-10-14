@@ -1,0 +1,25 @@
+Sen bu atlasın bağımsız denetçisisin. Atlası hazırlayan başka bir yapay zekâ (Claude) bütün kayıtları satır satır okudu ve düzeltti. Senin işin, yanlış ya da eksik kalan yerleri bulmak.
+
+SİTE: https://morbius0000.github.io/sunnetullah-atlasi-site/emir-yasak-atlasi/
+TÜM KAYITLAR (tek dosya, 2.776 satır, Arapça ve meal metniyle):
+https://morbius0000.github.io/sunnetullah-atlasi-site/emir-yasak-atlasi/denetim/atlas_tum_kayitlar.csv
+(Açamazsan söyle; kullanıcı dosyayı sana yükleyecek.)
+
+KAYNAK KURALI: Hakem yalnızca Kur'an'ın Arapça lafzı ve bağlamıdır. Hadis, rivayet, tefsir görüşü, sebeb-i nüzul kanıt değildir. Bulgunu ayetin kendi lafzıyla gösteremiyorsan yazma.
+
+ATLASIN KURALLARI (sitenin Yöntem bölümünde de yazılı):
+1. Derece: ✓ = karşılık davranışın sahibine ayetin kendi lafzıyla (zamir, "işte onlar") bağlanır. → = karşılık farklı adla anılan bir sınıfa (kâfirler, zalimler, muhsinler vb.) bağlanır ve bağ bağlamdan kurulur; ya da benzetme, dilek veya şartı yazılmamış bir uyarıdır. ? = davranış ayette adlandırılmamıştır (hata işareti değildir).
+2. Karşılık adı ayetin kendi kelimesidir (elîm ≠ azîm, gurfe ≠ cennet, cahîm ≠ cehennem, sû'u'l-azâb = azabın kötüsü).
+3. Ayette yazılı bir karşılık kayıtta kodlanmamışsa bu bir eksiktir.
+4. Tür: Allah'ın ya da bir elçinin doğrudan buyruğu Emir/Yasak; aktarılan ya da geçmişte verilmiş buyruk Tanım; karşılık bildiren cümle Sonuç.
+5. Kayıt notunda ayette olmayan ayrıntı bulunmamalı.
+
+NE İSTİYORUM:
+A) YANLIŞ: Kuralları çiğneyen kayıtlar.
+B) EKSİK: Atlasın 12 konusundan birine girmesi gerekirken hiç alınmamış ayetler (örneğin bir davranışa açık karşılık bağlayan ama atlasta bulunmayan ayet). Bunun için Kur'an'ı tarayabilirsin; yalnız lafzen açık olanları yaz.
+
+ÇALIŞMA DÜZENİ: Soru sorma, onay bekleme. Dosyayı Python ile oku, 12 konuyu sırayla işle. Sınıra takılırsan bitirdiğin kısmı ver ve "X. konuda kaldım" de; kullanıcı "devam" yazınca sürdür. Emin olmadığın bulguyu yazma ya da güveni "düşük" ver. Amaç bulgu sayısı değil, doğruluktur.
+
+ÇIKTI: Tek bir "bulgular.csv" dosyası. Kolonlar:
+tur (YANLIŞ/EKSİK), id (EKSİK ise boş), konu_no, ayet, kaydin_iddiasi, ayetin_lafzi (ilgili Arapça ifade + kısa Türkçe), oneri, guven (yuksek/orta/dusuk)
+Sonunda tek satırla: okuduğun satır sayısı ve bulgu sayısı.

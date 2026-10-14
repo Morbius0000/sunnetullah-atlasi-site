@@ -10,10 +10,10 @@ const L = [
   ['amel_boşa_husran', 'Amellerin boşa çıkması ve hüsran', 'husran'], ['asagilik', 'Aşağılık kişiler arasında olmak', 'azap'],
   ['atesten_cikarilmama', 'Ateşten çıkarılmama', 'nar'], ['ayetlerden_uzak_tutma', 'Ayetlerden uzak tutulma', 'ruhsal'],
   ['azap', 'Azap', 'azap'], ['azap_ani', 'Ansızın gelen azap', 'azap'], ['azap_artisi', 'Azabın artırılması', 'azap'],
-  ['azap_azim', 'Büyük azap', 'azap'], ['azap_buyuk', 'Büyük azap', 'azap'], ['azap_buyuk_gun', 'Büyük günün azabı', 'azap'],
+  ['azap_azim', 'Büyük azap (azâb azîm)', 'azap'], ['azap_buyuk', 'Büyük azap (azâb kebîr)', 'azap'], ['azap_buyuk_gun', 'Büyük günün azabı', 'azap'],
   ['azap_cetin', 'Çetin azap', 'azap'], ['azap_dilerse', 'Dilerse azap eder', 'azap'], ['azap_dunya', 'Dünyada azap', 'dunya'],
   ['azap_dunyevi', 'Dünyevi azap', 'dunya'], ['azap_elim', 'Acıklı azap', 'azap'], ['azap_en_buyuk', 'En büyük azap', 'azap'],
-  ['azap_essiz', 'Eşsiz azap', 'azap'], ['azap_genel', 'Azap', 'azap'], ['azap_gokten', 'Gökten azap', 'dunya'],
+  ['azap_essiz', 'Eşsiz azap', 'azap'], ['azap_genel', 'Azap', 'azap'], ['azap_gokten', 'Gökten azap (ricz)', 'dunya'],
   ['azap_hafiflemez', 'Azabın hafifletilmemesi', 'azap'], ['azap_hafifletilmez', 'Azabın hafifletilmemesi', 'azap'],
   ['azap_hak', 'Söz (hüküm) üzerlerine hak oldu', 'azap'], ['azap_hak_oldu', 'Azabın hak olması', 'azap'], ['azap_hazir', 'Azapta hazır bulundurulma (muhdarûn)', 'azap'],
   ['azap_henuz_tatmama', 'Azabı henüz tatmamış olma', 'azap'], ['azap_hizy', 'Rezillik azabı', 'azap'], ['azap_horlayici', 'Horlayıcı azap', 'azap'],
@@ -45,7 +45,7 @@ const L = [
   ['iman_gec_fayda_yok', 'Geç kalan iman yarar sağlamaz', 'husran'], ['iman_yarar_saglamaz_husran', 'İman yarar sağlamaz, hüsran', 'husran'],
   ['intikam', 'İntikam', 'dunya'], ['istidrac', 'Bilmedikleri yerden derece derece götürülme', 'dunya'], ['kayip_ve_amel_boşa', 'Kayıp ve amellerin boşa çıkması', 'husran'],
   ['kaynar_su', 'Kaynar su', 'nar'], ['kaynar_su_ve_atik_su', 'Kaynar su ve irin', 'nar'], ['kendi_aleyhine', 'Kendi aleyhine', 'husran'],
-  ['kiyamette_getirme', 'Kıyamette yüklenip getirme', 'azap'], ['kor_hasir', 'Kör haşredilme', 'azap'], ['korkunc_tutus', 'Korkunç tutuş', 'dunya'],
+  ['kiyamette_getirme', 'Kıyamette yüklenip getirme', 'azap'], ['kor_hasir', 'Kör haşredilme', 'azap'], ['korkunc_tutus', 'Ağır bir yakalayış (ahz vebîl)', 'dunya'],
   ['korumasizlik', 'Koruyucusuz kalma', 'husran'], ['kotuluklerin_yakalamasi', 'Kötülüklerin yakalaması', 'dunya'], ['kusatma', 'Kuşatma', 'dunya'],
   ['lanet', 'Lanet', 'gazab'], ['lanet_sagirlik', 'Lanet ve sağırlık', 'gazab'], ['lanet_ve_olum', 'Lanet ve öldürülme', 'gazab'],
   ['magfiret_yok', 'Bağışlanmama', 'husran'], ['mahvolma', 'Mahvolma', 'dunya'], ['mevlasizlik', 'Mevlâsız kalma', 'husran'],
@@ -74,7 +74,7 @@ const L = [
   ['azap_en_elim', 'En acı azap', 'azap'], ['buyuk_zulum', 'Büyük zulüm sayılma', 'husran'], ['en_serli_yaratik', 'Yaratıkların en şerlisi', 'azap'],
   ['hesaba_cekilme', 'Hesaba çekilme', 'azap'], ['kahretme', 'Kahrolma', 'gazab'], ['korku_salma', 'Kalplere korku salınması', 'ruhsal'],
   ['kotu_son', 'Kötü son', 'dunya'], ['musrik_sayilma', 'Müşrik sayılma', 'husran'], ['sapiklik_donussuz', 'Uzak bir sapıklık (dalâl-i baîd)', 'ruhsal'],
-  ['yalniz_horlanmis', 'Yalnız bırakılıp horlanma', 'husran'],
+  ['yalniz_horlanmis', 'Kınanmış ve yardımsız bırakılma (mezmûm, mahzûl)', 'husran'],
   // Konu 6
   ['dusmanlik_salma', 'Aralarına düşmanlık ve nefret salınması', 'ruhsal'],
   ['sevilmeme', 'Allah\'ın sevmemesi', 'gazab'],
@@ -92,6 +92,13 @@ const L = [
   ['yagmur', 'Üzerlerine bir yağmur yağdırılması (matar)', 'dunya'],
   ['misli_ceza', 'Kötülüğün misliyle karşılık', 'azap'], ['razi_olmama', 'Allah\'ın razı olmaması', 'gazab'], ['esam', 'Esâm\'a (günahın cezasına) uğrama', 'azap'],
   ['yarim_ceza', 'Hür kadın cezasının yarısı', 'dunya'], ['kotu_akibet', 'Yalanlayanların akıbeti ("sonlarına bakın")', 'dunya'],
+  // Dış denetim 4 (Claude, satır satır okuma) ile eklenenler
+  ['kalp_katilastirma', 'Kalplerin katılaştırılması (kâsiye)', 'ruhsal'], ['su_ud_dar', "Yurdun kötüsü (sû'u'd-dâr)", 'azap'],
+  ['kotuluk_tatma', "Kötülüğü tatma (zevku's-sû')", 'dunya'], ['usraya_kolaylastirma', 'En zora kolaylaştırılma (el-usrâ)', 'ruhsal'],
+  ['sahitlik_reddi', 'Tanıklığın ebediyen reddi', 'dunya'], ['artmama', 'Allah katında artmama', 'husran'],
+  ['kovulma', "Ateşte kovulma, konuşturulmama (ihse'û)", 'nar'], ['yere_batirilma', 'Yere batırılma (hasf)', 'dunya'],
+  ['tih', 'Kırk yıl yurdun haram kılınması, şaşkın dolaşma (tîh)', 'dunya'], ['sinanma', 'Sınanma (ibtilâ)', 'dunya'],
+  ['kalp_egriltme', 'Kalplerin eğriltilmesi (izâğa)', 'ruhsal'], ['suhk', 'Uzak olsunlar (suhkan)', 'gazab'], ['cahim', 'Cahîm (ateş)', 'nar'],
 ];
 export const cezaAdi = Object.fromEntries(L.map(([k, a]) => [k, a]));
 export const cezaTur = Object.fromEntries(L.map(([k, , t]) => [k, t]));
