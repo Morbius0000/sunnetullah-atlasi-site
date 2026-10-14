@@ -190,7 +190,7 @@
 "blok": "K12d",
 "nitelik_ayet": "24:19",
 "odul_ayet": "24:19",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fahsa",
@@ -306,11 +306,21 @@
 "blok": "K12x",
 "nitelik_ayet": "2:85",
 "odul_ayet": "2:85",
-"odul": "yok",
+"odul": "hizy",
 "derece": "✓",
 "tur": "tanim",
 "ham": "ism",
 "not_": "\"Birbirinizi öldürüyorsunuz, yurtlarından çıkarıyorsunuz; kötülük (ism) ve düşmanlıkta dayanışmaya giriyorsunuz\""
+},
+{
+"blok": "K12x",
+"nitelik_ayet": "2:85",
+"odul_ayet": "2:85",
+"odul": "azap_siddetli",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "ism",
+"not_": "\"Kıyamet günü de azabın en şiddetlisine itilirler\""
 },
 {
 "blok": "K12a",
@@ -336,7 +346,7 @@
 "blok": "K12a",
 "nitelik_ayet": "2:182",
 "odul_ayet": "2:182",
-"odul": "magfiret",
+"odul": "gunah_yok",
 "derece": "✓",
 "tur": "tanim",
 "ham": "ism",
@@ -406,7 +416,7 @@
 "blok": "K12b",
 "nitelik_ayet": "4:48",
 "odul_ayet": "4:48",
-"odul": "yok",
+"odul": "magfiret_yok",
 "derece": "✓",
 "tur": "tanim",
 "ham": "ism",
@@ -466,11 +476,11 @@
 "blok": "K12b",
 "nitelik_ayet": "5:29",
 "odul_ayet": "5:29",
-"odul": "yok",
-"derece": "✓",
+"odul": "nar",
+"derece": "→",
 "tur": "tanim",
 "ham": "ism",
-"not_": "\"Benim günahımı da senin günahını da yüklenip ateş halkından olmanı istiyorum; zalimlerin cezası budur\""
+"not_": "Âdem oğlunun kardeşine sözü: \"benim günahımla kendi günahını yüklenip ateş halkından olmanı isterim; zalimlerin cezası budur\" (anlatıdaki kişinin dileği)"
 },
 {
 "blok": "K12b",
@@ -526,7 +536,7 @@
 "blok": "K12d",
 "nitelik_ayet": "24:11",
 "odul_ayet": "24:11",
-"odul": "yok",
+"odul": "gunah_yuklenme",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ism",
@@ -576,11 +586,11 @@
 "blok": "K12e",
 "nitelik_ayet": "45:7",
 "odul_ayet": "45:7",
-"odul": "azap_vay",
+"odul": "vay",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ism",
-"not_": "\"Günaha batmış her yalancı iftiracıya yazıklar ve azaplar olsun\""
+"not_": "\"Vay (veyl) haline günaha batmış her yalancı iftiracının!\""
 },
 {
 "blok": "K12f",
@@ -596,7 +606,7 @@
 "blok": "K12f",
 "nitelik_ayet": "58:8",
 "odul_ayet": "58:8",
-"odul": "yok",
+"odul": "cehennem",
 "derece": "✓",
 "tur": "tanim",
 "ham": "ism",
@@ -644,7 +654,7 @@
 "blok": "K12a",
 "nitelik_ayet": "3:11",
 "odul_ayet": "3:11",
-"odul": "azap_siddetli",
+"odul": "yakalama",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zenb",
@@ -654,7 +664,7 @@
 "blok": "K12x",
 "nitelik_ayet": "5:18",
 "odul_ayet": "5:18",
-"odul": "yok",
+"odul": "azap_genel",
 "derece": "✓",
 "tur": "tanim",
 "ham": "zenb",
@@ -674,17 +684,17 @@
 "blok": "K12c",
 "nitelik_ayet": "7:100",
 "odul_ayet": "7:100",
-"odul": "azap_genel",
-"derece": "✓",
+"odul": "bela_dunya",
+"derece": "→",
 "tur": "sonuc",
 "ham": "zenb",
-"not_": "\"Dilersek onları günahları yüzünden belaya çarptırır, kalplerine mühür basarız\""
+"not_": "\"Dileseydik onları günahları yüzünden musibete uğratırdık, kalplerine mühür basardık\" (koşullu: lev neşâu)"
 },
 {
 "blok": "K12c",
 "nitelik_ayet": "8:52",
 "odul_ayet": "8:52",
-"odul": "azap_siddetli",
+"odul": "yakalama",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zenb",
@@ -715,7 +725,7 @@
 "nitelik_ayet": "17:17",
 "odul_ayet": "17:17",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "zenb",
 "not_": "\"Nûh'tan sonra nice kuşağı helak ettik; kullarının günahlarını haber alıcı olarak Rabbin yeter\""
@@ -735,7 +745,7 @@
 "nitelik_ayet": "28:78",
 "odul_ayet": "28:78",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "zenb",
 "not_": "\"Karun: 'servet bana ilmim sayesinde verildi'; Allah ondan güçlü nice nesli helak etmiştir; günahkârlar günahları hakkında sorulmaz\""
@@ -744,7 +754,7 @@
 "blok": "K12e",
 "nitelik_ayet": "29:40",
 "odul_ayet": "29:40",
-"odul": "azap_genel",
+"odul": "yakalama",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zenb",
@@ -794,7 +804,7 @@
 "blok": "K12e",
 "nitelik_ayet": "40:21",
 "odul_ayet": "40:21",
-"odul": "azap_yakalama",
+"odul": "yakalama",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zenb",
@@ -908,7 +918,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "zenb",
-"not_": "\"Deveyi devirip boğazladılar; Rableri onların günahlarını başlarına geçirip o yurdu dümdüz etti\""
+"not_": "\"Deveyi kestiler (fe-akarûhâ); Rableri de günahları yüzünden üzerlerine kırıp geçiren bir azap indirdi ve yurdu dümdüz etti\""
 }
 ]
 },
@@ -952,7 +962,7 @@
 "blok": "K12f",
 "nitelik_ayet": "69:9",
 "odul_ayet": "69:10",
-"odul": "azap_yakalama",
+"odul": "yakalama",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "hatia",
@@ -1000,11 +1010,11 @@
 "blok": "K12a",
 "nitelik_ayet": "2:59",
 "odul_ayet": "2:59",
-"odul": "azap_pislik",
+"odul": "azap_gokten",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
-"not_": "\"Zulme sapanlar söylenen sözü değiştirdi; fısk ürettikleri için gökten pislik indirdik\""
+"not_": "\"Zulmedenler kendilerine söylenen sözü değiştirdi; fısk etmeleri yüzünden onlara gökten bir azap (ricz) indirdik\""
 },
 {
 "blok": "K12a",
@@ -1180,11 +1190,11 @@
 "blok": "K12c",
 "nitelik_ayet": "7:165",
 "odul_ayet": "7:165",
-"odul": "azap_elim",
+"odul": "azap",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
-"not_": "\"Öğüdü unutunca kötülükten alıkoyanları kurtardık, zulme sapanları fısk etmeleri yüzünden acı azapla yakaladık\""
+"not_": "\"Kötülükten alıkoyanları kurtardık; zulmedenleri fısk etmeleri yüzünden çetin bir azapla (azâbin beîs) yakaladık\""
 },
 {
 "blok": "K12c",
@@ -1200,7 +1210,7 @@
 "blok": "K12x",
 "nitelik_ayet": "9:24",
 "odul_ayet": "9:24",
-"odul": "yok",
+"odul": "hidayet_edilmeme",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1360,7 +1370,7 @@
 "blok": "K12e",
 "nitelik_ayet": "32:20",
 "odul_ayet": "32:20",
-"odul": "cehennem",
+"odul": "nar",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1370,7 +1380,7 @@
 "blok": "K12e",
 "nitelik_ayet": "43:54",
 "odul_ayet": "43:55",
-"odul": "helak",
+"odul": "gark",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "fisk",
@@ -1421,10 +1431,10 @@
 "nitelik_ayet": "51:46",
 "odul_ayet": "51:46",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "fisk",
-"not_": "\"Nûh kavmini batırmıştık; çünkü onlar da doğruluktan ayrılmış (fâsık) bir topluluktu\""
+"not_": "\"Daha önce Nûh kavmini de (helâk ettik); onlar fâsık bir topluluktu\": fiil ayette söylenmez, öncekilerden anlaşılır"
 },
 {
 "blok": "K12x",
@@ -2476,17 +2486,17 @@
 }
 },
 "istatistik": {
-"kayit": 173,
+"kayit": 174,
 "ayet": 167,
 "derece": {
-"✓": 173,
-"→": 0,
+"✓": 169,
+"→": 5,
 "?": 0
 },
 "tur": {
 "emir": 11,
 "yasak": 25,
-"sonuc": 55,
+"sonuc": 56,
 "tanim": 82
 }
 }

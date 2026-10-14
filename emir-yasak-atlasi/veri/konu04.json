@@ -134,7 +134,7 @@
 "id": "ortak_kosma_yasagi",
 "grup": "Yasaklar",
 "etiket": "Allah'a ortak koşma, O'ndan başkasına kulluk etme ve yakarma yasağı",
-"ayet_sayisi": 23,
+"ayet_sayisi": 22,
 "kayitlar": [
 {
 "blok": "K4c",
@@ -220,7 +220,7 @@
 "blok": "K4c",
 "nitelik_ayet": "11:26",
 "odul_ayet": "11:26",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "yasak",
 "ham": "allahtan_baskasina_kulluk_yasagi_nuh",
@@ -325,26 +325,6 @@
 "tur": "yasak",
 "ham": "allaha_ortak_kosma_yasagi",
 "not_": "Lukman: \"Allah'a ortak koşma! Çünkü Allah'a ortak koşmak gerçekten büyük bir zulümdür\""
-},
-{
-"blok": "B111",
-"nitelik_ayet": "39:65",
-"odul_ayet": "39:65",
-"odul": "amel_bosa",
-"derece": "✓",
-"tur": "yasak",
-"ham": "sirk_yasagi_amel_bosa",
-"not_": "\"Eğer şirke saparsan amelin kesinlikle boşa çıkar\""
-},
-{
-"blok": "B111",
-"nitelik_ayet": "39:65",
-"odul_ayet": "39:65",
-"odul": "husran",
-"derece": "✓",
-"tur": "yasak",
-"ham": "sirk_yasagi_amel_bosa",
-"not_": "\"mutlaka hüsrana düşenlerden olursun\""
 },
 {
 "blok": "K4c",
@@ -530,7 +510,7 @@
 "id": "sirk",
 "grup": "Şirkin biçimleri ve sonuçları",
 "etiket": "Şirk: ortaklar koşmak, Allah'ın dışında kulluk ve sefaat umudu, sonuçları",
-"ayet_sayisi": 60,
+"ayet_sayisi": 61,
 "kayitlar": [
 {
 "blok": "K4d",
@@ -596,7 +576,7 @@
 "blok": "K4c",
 "nitelik_ayet": "4:172",
 "odul_ayet": "4:173",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "allaha_kulluktan_cekinip_kibre_saplanma",
@@ -827,7 +807,7 @@
 "nitelik_ayet": "13:33",
 "odul_ayet": "13:34",
 "odul": "azap_dunya",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "sirk_ortaklar_tanima",
 "not_": "\"Dünya hayatında bir azap var onlar için; âhiret azabı ise çok daha şiddetlidir\" (\"onlar\" 13:33'teki topluluk)"
@@ -1047,7 +1027,7 @@
 "nitelik_ayet": "39:15",
 "odul_ayet": "39:15",
 "odul": "husran",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "allah_disina_kulluk_edin_demek",
 "not_": "\"Siz O'nun dışında dilediğinize kulluk edin.\" De ki: \"Hüsrana uğrayanlar kıyamet günü kendilerini ve ailelerini hüsrana atanlardır\""
@@ -1061,6 +1041,26 @@
 "tur": "tanim",
 "ham": "ortaklar_didisen_adam_ornegi",
 "not_": "\"Hakkında birbiriyle didişen ortakların bulunduğu bir adamla, bir tek ere teslim olan bir adam ... eşit olur mu?\""
+},
+{
+"blok": "B111",
+"nitelik_ayet": "39:65",
+"odul_ayet": "39:65",
+"odul": "amel_bosa",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_yasagi_amel_bosa",
+"not_": "\"Eğer şirke saparsan amelin kesinlikle boşa çıkar\""
+},
+{
+"blok": "B111",
+"nitelik_ayet": "39:65",
+"odul_ayet": "39:65",
+"odul": "husran",
+"derece": "✓",
+"tur": "sonuc",
+"ham": "sirk_yasagi_amel_bosa",
+"not_": "\"mutlaka hüsrana düşenlerden olursun\""
 },
 {
 "blok": "K4d",
@@ -1087,7 +1087,7 @@
 "nitelik_ayet": "40:73",
 "odul_ayet": "40:74",
 "odul": "saptirilma",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "kiyamette_ortaklar_nerede_saptirilma",
 "not_": "\"Ortak koştuklarınız nerede? Allah'ın berisinden taptıklarınız nerede?\" ... \"Allah, inkâr edenleri işte böyle saptırır\""
@@ -1117,7 +1117,7 @@
 "nitelik_ayet": "42:21",
 "odul_ayet": "42:21",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "dinde_izin_verilmeyeni_yasalastiran_ortaklar",
 "not_": "\"Allah'ın izin vermediği şeyi kendileri için yasalaştıran ortakları mı var? ... O zalimler için acıklı bir azap öngörülmüştür\""
@@ -1274,7 +1274,7 @@
 "blok": "B007",
 "nitelik_ayet": "5:73",
 "odul_ayet": "5:73",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ucun_ucuncusu_deme",
@@ -1463,7 +1463,7 @@
 "nitelik_ayet": "14:22",
 "odul_ayet": "14:22",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "seytani_sirk_araci_yapma",
 "not_": "şeytan: \"beni şirk aracı yapmanıza karşı çıkmıştım ... zalimler için acıklı bir azap öngörülmüştür\""
@@ -1820,7 +1820,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama",
-"not_": "\"ayetlerimizi yalanlayanları bilemeyecekleri bir yerden ağır ağır çöküşe götüreceğiz\""
+"not_": "\"Ayetlerimizi yalanlayanları bilmedikleri yerden derece derece (helâke) yaklaştıracağız\" (senestedricuhum)"
 },
 {
 "blok": "B033",
@@ -1847,7 +1847,7 @@
 "nitelik_ayet": "10:17",
 "odul_ayet": "10:17",
 "odul": "felah_yok",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama_allaha_iftira",
 "not_": "\"yalan düzerek Allah'a iftira eden yahut ayetlerini yalanlayandan daha zalim kim var? Suçlular iflah etmez\""
@@ -1957,7 +1957,7 @@
 "nitelik_ayet": "25:37",
 "odul_ayet": "25:37",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "resulleri_yalanlama",
 "not_": "\"zalimler için acıklı bir azap hazırladık\""
@@ -1966,11 +1966,11 @@
 "blok": "B090",
 "nitelik_ayet": "27:83",
 "odul_ayet": "27:85",
-"odul": "azap_hak_oldu",
-"derece": "✓",
+"odul": "azap_hak",
+"derece": "→",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama",
-"not_": "27:83 yalanlayanlar toplu sürülür; 27:84 \"ilminiz kuşatmadığı halde inkâr mı ettiniz?\"; 27:85 \"zulümleri yüzünden o söz tepelerine inmiştir, tek kelime söyleyemezler\""
+"not_": "27:83 yalanlayanlar bölük bölük toplanır; 27:85 \"zulmetmeleri yüzünden söz (hüküm) başlarına geldi (vaka'a'l-kavl)\": sebep zulüm olarak anılır"
 },
 {
 "blok": "B096",
@@ -2067,7 +2067,7 @@
 "nitelik_ayet": "62:5",
 "odul_ayet": "62:5",
 "odul": "hidayet_edilmeme",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "ayetleri_yalanlama",
 "not_": "\"Allah'ın ayetlerini yalanlayan topluluğun vücut verdiği örnek ne kötüdür! Allah zulme sapmış topluluğu doğruya ulaştırmaz\""
@@ -2961,14 +2961,14 @@
 "kayit": 204,
 "ayet": 215,
 "derece": {
-"✓": 196,
-"→": 8,
+"✓": 187,
+"→": 17,
 "?": 0
 },
 "tur": {
 "emir": 14,
-"yasak": 38,
-"sonuc": 104,
+"yasak": 36,
+"sonuc": 106,
 "tanim": 48
 }
 }

@@ -13,20 +13,20 @@ K10b	zulum_yok	3:161	3:161	tam_karsilik	✓	"Her benliğe kazandığı tam veril
 K10b	derece	3:163	3:163	derece	✓	"Onlar Allah katında derece derecedirler"	tanim
 K10b	tevbe_sart	4:16	4:16	magfiret	→	"Tövbe edip durumlarını düzeltirlerse onlardan vazgeçin; Allah Tevvâb'dır, Rahîm'dir": doğrudan sonuç eziyetten vazgeçmektir, mağfiret Allah'ın sıfatından çıkarılır	sonuc
 K10b	tevbe_kabul	4:17	4:17	kabul	✓	"Allah'ın kabulünü üstlendiği tövbe, bilgisizlikle kötülük işleyip çok geçmeden tövbe edenler içindir"	tanim
-K10b	tevbe_olmaz	4:18	4:18	azap_korkunc	✓	"Kötülükleri yapıp ölüm gelince 'şimdi tövbe ettim' diyenler ile küfre batmış olarak ölenler için tövbe yoktur; korkunç azap"	sonuc
+K10b	tevbe_olmaz	4:18	4:18	azap_elim	✓	"Kötülükleri yapıp ölüm gelince 'şimdi tövbe ettim' diyenler ile küfre batmış olarak ölenler için tövbe yoktur; korkunç azap"	sonuc
 K10b	tevbe_kabul	4:27	4:27	kabul	✓	"Allah sizin tövbenizi kabul etmek istiyor"	tanim
 K10b	zerre	4:40	4:40	kat_kat	✓	"Allah zerre kadar zulüm yapmaz; küçücük bir iyiliği kat kat artırır ve katından büyük ödül verir"	sonuc
-K10b	bagislanmaz	4:48	4:48	-	✓	"Allah kendisine şirk koşulmasını affetmez; bunun dışında kalanı dilediği kişi için affeder"	sonuc
+K10b	bagislanmaz	4:48	4:48	magfiret_yok	✓	"Allah kendisine şirk koşulmasını affetmez; bunun dışında kalanı dilediği kişi için affeder"	sonuc
 K10b	zulum_yok	4:49	4:49	-	✓	"Bir hurma lifi kadar zulme uğratılmazlar"	tanim
 K10b	tevbe_sart	4:64	4:64	kabul	✓	"Öz benliklerine zulmedenler gelip Allah'tan af dileseler, resul de af dileseydi, Allah'ı Tevvâb ve Rahîm bulurlardı"	sonuc
 K10b	esitsizlik	4:95	4:95	esitsizlik	✓	"Özür sahibi olmadan oturanlarla malları ve canlarıyla gayret gösterenler aynı değildir"	sonuc
 K10b	derece	4:95	4:95	derece	✓	"Gayret gösterenleri oturanlara derece bakımından üstün kıldı"	sonuc
 K10b	derece	4:96	4:96	derece	✓	"Allah katından dereceler, bir bağışlanma, bir rahmet"	sonuc
-K10b	bagislanmaz	4:116	4:116	-	✓	"Allah kendisine ortak koşulmasını affetmez; bunun dışındakini dilediği için affeder"	sonuc
+K10b	bagislanmaz	4:116	4:116	magfiret_yok	✓	"Allah kendisine ortak koşulmasını affetmez; bunun dışındakini dilediği için affeder"	sonuc
 K10b	zulum_yok	4:124	4:124	cennet	✓	"Erkek veya kadın, inanmış olarak salih işler yapanlar cennete girecek; zerre kadar zulme uğratılmayacaklar"	sonuc
 K10b	tevbe_sart	4:146	4:146	ecir	✓	"Tövbe edip hallerini düzeltenler, Allah'a yapışanlar, dinlerini samimiyetle Allah'a özgüleyenler müminlerle beraber; Allah büyük ödül verecek"	sonuc
 K10c	tevbe_sart	5:34	5:34	magfiret	✓	"Gücünüz altına almadan önce tövbe edenler olursa Allah Gafûr ve Rahîm'dir"	sonuc
-K10c	tevbe_sart	5:39	5:39	magfiret	✓	"Zulmünden sonra tövbe edip halini düzeltenin tövbesini Allah kabul eder"	sonuc
+K10c	tevbe_sart	5:39	5:39	kabul	✓	"Zulmünden sonra tövbe edip halini düzeltenin tövbesini Allah kabul eder"	sonuc
 K10c	amel_bosa	5:53	5:53	amel_bosa	✓	"Müminlerle beraber olduklarına yemin edenlerin bütün amelleri boşa çıkmış, hüsrana uğrayanlardan olmuşlardır"	sonuc
 K10c	tevbe_kabul	5:71	5:71	kabul	✓	"Körleşip sağırlaşan İsrailoğullarının tövbesini Allah kabul etti"	tanim
 K10c	tevbe_sart	5:74	5:74	magfiret	✓	"Hâlâ Allah'a yönelip tövbe ederek af dilemiyorlar mı? Allah Gafûr ve Rahîm'dir"	sonuc
@@ -46,9 +46,9 @@ K10c	derece	8:4	8:4	derece	✓	"Gerçek müminler için Rableri katında derecel
 K10d	tevbe_kabul	9:15	9:15	kabul	✓	"Allah dilediğine tövbe nasip eder"	tanim
 K10d	amel_bosa	9:17	9:17	amel_bosa	✓	"Müşriklerin tüm amelleri boşa çıkmıştır; ateşte sürekli kalacaklar"	sonuc
 K10d	esitsizlik	9:19	9:19	esitsizlik	✓	"Hacıya su vermek, Mescid-i Haram tamirciliği Allah yolunda didinen kişiyle Allah katında bir olmaz"	sonuc
-K10d	derece	9:20	9:20	felah	✓	"İman edip hicret eden, mallarıyla canlarıyla didinenler derece bakımından daha yücedir; kurtuluşa erenler bunlardır"	sonuc
+K10d	derece	9:20	9:20	fevz	✓	"İman edip hicret eden, Allah yolunda malıyla canıyla çabalayanlar Allah katında derece bakımından daha büyüktür; kurtuluşa erenler (el-fâizûn) onlardır"	sonuc
 K10d	tevbe_kabul	9:27	9:27	kabul	✓	"Allah bunun ardından da dilediğinin tövbesini kabul eder"	tanim
-K10d	bagislanmaz	9:80	9:80	-	✓	"Münafıklar için yetmiş kez af dilesen de Allah onları affetmeyecektir"	sonuc
+K10d	bagislanmaz	9:80	9:80	magfiret_yok	✓	"Münafıklar için yetmiş kez af dilesen de Allah onları affetmeyecektir"	sonuc
 K10d	tevbe_sart	9:102	9:102	kabul	✓	"Günahlarını itiraf edip iyi işle kötü işi karıştıranların belki Allah tövbesini kabul eder"	sonuc
 K10d	tevbe_kabul	9:104	9:104	kabul	✓	"Kullarından tövbeyi kabul eden Allah'tır"	tanim
 K10d	tevbe_kabul	9:106	9:106	-	✓	"Allah onlara ya azap edecektir ya tövbe edecektir"	tanim
@@ -61,8 +61,8 @@ K10d	zulum_yok	10:44	10:44	-	✓	"Allah insanlara hiçbir şekilde zulmetmez; in
 K10d	zulum_yok	10:47	10:47	-	✓	"Aralarında adaletle hüküm verilir, hiçbir zulme uğratılmazlar"	sonuc
 K10d	zulum_yok	10:54	10:54	-	✓	"Aralarında adaletle hükmedilmiştir; asla zulme uğratılmazlar"	sonuc
 K10d	zerre	10:61	10:61	-	✓	"Ne yerde ne gökte zerre ağırlığınca bir şey Rabbinden gizli kalmaz"	tanim
-K10d	tevbe_sart	11:3	11:3	derece	✓	"Rabbinizden af dileyin, sonra tövbe ile O'na yönelin; her farklı derece sahibine hak ettiği ödülü versin"	emir
-K10d	derece	11:3	11:3	derece	✓	"Her farklı derece sahibine hak ettiği ödülü verir"	sonuc
+K10d	tevbe_sart	11:3	11:3	fazl	✓	"Rabbinizden bağışlanma dileyin, sonra O'na tövbe edin; sizi belirli bir süreye kadar güzel bir geçimle yaşatır ve her lütuf sahibine lütfunu (fadlahû) verir"	emir
+K10d	derece	11:3	11:3	fazl	✓	"Rabbinizden bağışlanma dileyin, sonra O'na tövbe edin; sizi belirli bir süreye kadar güzel bir geçimle yaşatır ve her lütuf sahibine lütfunu (fadlahû) verir"	sonuc
 K10d	zulum_yok	11:15	11:15	tam_karsilik	✓	"İğreti hayatı isteyenlerin yapıp ettiklerinin karşılığını bu hayatta tam veririz; eksiltmeye uğratılmazlar"	sonuc
 K10d	amel_bosa	11:16	11:16	amel_bosa	✓	"Âhirette kendileri için ateşten başkası yok; yapıp ettikleri bâtıl hale gelmiştir"	sonuc
 K10e	esitsizlik	11:24	11:24	-	✓	"İki topluluk körle sağır, görenle işiten gibidir; bir olmazlar"	tanim
@@ -90,11 +90,11 @@ K10f	sorumluluk	23:62	23:62	-	✓	"Hiçbir benliğe kapasitesinin üstünde gör
 K10f	tevbe_sart	24:5	24:5	magfiret	✓	"İftira suçundan sonra tövbe edip iyi hal sergileyenler müstesna; Allah Gafûr ve Rahîm"	sonuc
 K10f	tevbe_kabul	24:10	24:10	-	✓	"Allah Tevvâb'dır, Hakîm'dir"	tanim
 K10f	kat_kat	25:68	25:69	azap_katli	✓	"Allah'la birlikte başka ilaha yakaran, haksız yere can alan, zina eden cezaya çarpılır; kıyamet günü azap kendisi için kat kat artırılır"	sonuc
-K10f	tevbe_sart	25:70	25:70	magfiret	✓	"Tövbe edip inanan ve iyi iş yapan müstesna; Allah kötülüklerini güzelliğe dönüştürür"	sonuc
+K10f	tevbe_sart	25:70	25:70	seyyiatin_hasenata_donmesi	✓	"Tövbe edip inanan ve iyi iş yapan müstesna; Allah kötülüklerini güzelliğe dönüştürür"	sonuc
 K10f	tevbe_kabul	25:71	25:71	kabul	✓	"Tövbe edip iyi iş yapan, tövbesi kabul edilmiş olarak Allah'a döner"	tanim
 K10f	tevbe_sart	28:67	28:67	felah	✓	"Tövbe eden, inanıp iyi iş yapanın kurtuluşa erenlerden olması ümidi vardır"	sonuc
 K10g	zerre	31:16	31:16	-	✓	"Yaptığın hardal tanesi ağırlığında olsa, kayanın bağrında bile olsa Allah onu ortaya getirir"	tanim
-K10g	tevbe_kabul	33:24	33:24	magfiret	✓	"Doğru sözlülere karşılığını verecek; ikiyüzlülere dilerse azap edecek, belki tövbe nasip edecek"	tanim
+K10g	tevbe_kabul	33:24	33:24	kabul	→	"Doğruları doğruluklarıyla ödüllendirsin, ikiyüzlülere de dilerse azap etsin ya da tövbelerini kabul etsin" (in şâe: koşullu)	tanim
 K10g	kat_kat	33:30	33:30	azap_iki_kat	✓	"Peygamber hanımlarından açık bir fâhişe yapana azap iki katına çıkarılır"	sonuc
 K10g	kat_kat	33:31	33:31	ecir_iki_kat	✓	"Allah'a ve resulüne itaat edip iyilik yapana ücreti iki kat verilir"	sonuc
 K10g	tevbe_kabul	33:73	33:73	kabul	✓	"Allah mümin erkek ve kadınların tövbelerini kabul eder"	tanim
@@ -110,7 +110,7 @@ K10g	kat_kat	38:61	38:61	-	✓	"Ateş ehli dua eder: Bunu önümüze çıkaranı
 K10g	sorumluluk	39:7	39:7	-	✓	"Allah kulları için nankörlüğe razı olmaz; hiçbir günahkâr başkasının günahını yüklenmez"	tanim
 K10g	esitsizlik	39:9	39:9	-	✓	"Bilenlerle bilmeyenler eşit olur mu?"	tanim
 K10g	esitsizlik	39:29	39:29	-	✓	"Ortaklı adamla tek ere teslim olan adam eşit olur mu?"	tanim
-K10g	amel_bosa	39:65	39:65	amel_bosa	✓	"Şirke saparsan amelin boşa çıkar, hüsrana düşersin"	yasak
+K10g	amel_bosa	39:65	39:65	amel_bosa	✓	"Şirke saparsan amelin boşa çıkar, hüsrana düşersin"	sonuc
 K10g	zulum_yok	39:69	39:70	tam_karsilik	✓	"Aralarında hakla hüküm verilir, asla haksızlığa uğratılmazlar; herkesin karşılığı tam verilir"	sonuc
 K10g	tevbe_kabul	40:3	40:3	magfiret	✓	"Günahı affeden, tövbeyi kabul eden, azabı çetin olandır"	tanim
 K10h	tevbe_kabul	40:7	40:7	magfiret	✓	"Arşı taşıyanlar tövbe edenler için af diler: Rabbimiz rahmet ve ilim kuşattın"	tanim
@@ -128,7 +128,7 @@ K10h	derece	46:19	46:19	tam_karsilik	✓	"Herbirinin yaptığından dereceleri v
 K10h	amel_bosa	47:9	47:9	amel_bosa	✓	"Allah'ın indirdiğini tiksindirici bulanların amellerini Allah boşa çıkarmıştır"	sonuc
 K10h	amel_bosa	47:28	47:28	amel_bosa	✓	"Allah'ı öfkelendireni izleyip hoşnutluğundan tiksinenlerin amellerini boşa çıkardı"	sonuc
 K10h	amel_bosa	47:33	47:33	-	✓	"Allah'a ve resule itaat edin; amellerinizi işe yaramaz hale getirmeyin"	emir
-K10h	bagislanmaz	47:34	47:34	-	✓	"İnkâr edip Allah yolundan döndürüp küfürde ölenleri Allah asla affetmeyecek"	sonuc
+K10h	bagislanmaz	47:34	47:34	magfiret_yok	✓	"İnkâr edip Allah yolundan döndürüp küfürde ölenleri Allah asla affetmeyecek"	sonuc
 K10h	zulum_yok	52:21	52:21	-	✓	"Amellerinden hiçbir şey eksiltilmez"	tanim
 K10h	sorumluluk	53:38	53:39	-	✓	"Hiçbir günahkâr başkasının yükünü sırtlamaz; insan için çalıştığından başkası yoktur"	tanim
 K10h	derece	57:10	57:10	derece	✓	"Fetihten önce infak edip çarpışan, etmeyenlerle aynı değildir; derece yönünden daha büyüktür"	sonuc
@@ -136,7 +136,7 @@ K10h	kat_kat	57:11	57:11	kat_kat	✓	"Allah'a güzel borç verenin verdiğini ka
 K10h	kat_kat	57:18	57:18	kat_kat	✓	"Sadaka verenlere ve güzel borç verenlere karşılık kat kat yapılır"	sonuc
 K10h	tevbe_sart	58:13	58:13	-	✓	"Allah size tövbe nasip etti; artık namazı kılın, zekâtı verin, itaat edin"	emir
 K10h	esitsizlik	59:20	59:20	-	✓	"Ateşin dostlarıyla cennetin dostları bir olmaz"	tanim
-K10h	bagislanmaz	63:6	63:6	-	✓	"Sen af dilesen de dilemesen de Allah onları asla affetmeyecek"	sonuc
+K10h	bagislanmaz	63:6	63:6	magfiret_yok	✓	"Sen af dilesen de dilemesen de Allah onları asla affetmeyecek"	sonuc
 K10h	kat_kat	64:17	64:17	magfiret	✓	"Allah'a gönül hoşluğuyla borç verirseniz katlayarak artırır ve hatalarınızı bağışlar"	sonuc
 K10h	tevbe_sart	66:8	66:8	cennet	✓	"Etkili öğüt veren bir tövbe ile Allah'a yönelin; umulur ki günahlarınızı örter, cennetlere yerleştirir"	emir
 K10h	misli	74:38	74:38	-	✓	"Her benlik öz kazancının bir karşılığıdır"	tanim
@@ -146,7 +146,7 @@ K10x	kat_kat	2:245	2:245	kat_kat	✓	"Allah'a güzel borç verenin verdiğini bi
 K10x	kat_kat	2:261	2:261	artirma	✓	"Allah yolunda infak edenin durumu yüz tane veren yedi başak gibidir; Allah dilediği için daha da artırır"	sonuc
 K10x	kat_kat	2:265	2:265	kat_kat	✓	"Hoşnutluk için infak edenin durumu ürününü iki kat veren bahçe gibidir"	sonuc
 K10x	tevbe_sart	2:279	2:279	-	✓	"Tövbe ederseniz ana paralarınız sizindir; ne zulmedersiniz ne zulme uğratılırsınız"	sonuc
-K10x	tevbe_kabul	3:128	3:128	magfiret	✓	"Allah ya tövbelerini kabul ederek onları bağışlar yahut zalim oldukları için azap eder"	tanim
+K10x	tevbe_kabul	3:128	3:128	kabul	→	"Allah ya tövbelerini kabul ederek onları bağışlar yahut zalim oldukları için azap eder"	tanim
 K10x	tevbe_sart	9:5	9:5	-	✓	"Tövbe eder, namazı kılar, zekâtı verirlerse yollarını açın"	sonuc
 K10x	tevbe_sart	9:11	9:11	-	✓	"Tövbe eder, namazı kılar, zekâtı verirlerse dinde kardeşlerinizdirler"	sonuc
 K10x	tevbe_sart	9:74	9:74	azap_elim	✓	"Tövbe ederlerse kendileri için hayırlı olur; yan çizerlerse dünyada da âhirette de acıklı azap"	sonuc

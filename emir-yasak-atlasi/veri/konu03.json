@@ -173,20 +173,20 @@
 "nitelik_ayet": "3:117",
 "odul_ayet": "3:117",
 "odul": "amel_bosa",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "infak",
-"not_": "\"Küfre sapanların bu dünyada harcadıkları, ekini mahveden kavurucu soğuk rüzgâr gibidir\""
+"not_": "Benzetme: \"Küfre sapanların bu dünyada harcadıkları, kendine zulmeden bir topluluğun ekinini vurup yok eden kavurucu soğuk rüzgâra benzer\""
 },
 {
 "blok": "K3a",
 "nitelik_ayet": "3:134",
 "odul_ayet": "3:134",
 "odul": "sevgi",
-"derece": "✓",
+"derece": "→",
 "tur": "tanim",
 "ham": "infak",
-"not_": "\"Bollukta ve darlıkta infak edenler; Allah güzel davrananları sever\""
+"not_": "\"Bollukta ve darlıkta infak edenler... Allah güzel davrananları (el-muhsinîn) sever\": sevgi muhsinlere bağlanır"
 },
 {
 "blok": "K3b",
@@ -717,7 +717,7 @@
 "nitelik_ayet": "2:110",
 "odul_ayet": "2:110",
 "odul": "karsilik",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "zekat",
 "not_": "\"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz\" (namaz ve zekât emrinin hemen ardından)"
@@ -1004,17 +1004,17 @@
 "blok": "K3b",
 "nitelik_ayet": "3:180",
 "odul_ayet": "3:180",
-"odul": "azap",
+"odul": "boyuna_dolanma",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "cimrilik",
-"not_": "\"Allah'ın lütfundan verdiği şeyde cimrilik edenler: cimrilik ettikleri şey kıyamet günü boyunlarına dolanacak\""
+"not_": "\"Allah'ın lütfundan verdiği şeyde cimrilik edenler: cimrilik ettikleri şey kıyamet günü boyunlarına dolanacaktır\""
 },
 {
 "blok": "K3b",
 "nitelik_ayet": "4:37",
 "odul_ayet": "4:37",
-"odul": "azap_hizy",
+"odul": "azap_muhin",
 "derece": "→",
 "tur": "sonuc",
 "ham": "cimrilik",
@@ -1543,8 +1543,8 @@
 "kayit": 107,
 "ayet": 104,
 "derece": {
-"✓": 100,
-"→": 7,
+"✓": 97,
+"→": 10,
 "?": 0
 },
 "tur": {

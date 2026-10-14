@@ -42,7 +42,7 @@ DAVRANIS = [
     ('ahdi_bozma', 'Ehlikitap ve ahit', 'Ahdi, yemini ve sözü bozmak; sözünden dönmek'),
     ('tovbeyi_erteleme', 'Ehlikitap ve ahit', 'Tövbeyi ölüme ya da azabı görmeye bırakmak'),
     ('savastan_kacma', 'Allah yolu', 'Seferden geri kalmak, savaştan kaçmak, hicret etmemek'),
-    ('ibadet_ihmal', 'İbadet', 'Namazı terk etmek, namazda gaflet, riya, kıyıdan ibadet'),
+    ('ibadet_ihmal', 'İbadet', 'Namazı terk etmek, namazda gaflet, riya, kıyıdan ibadet; ibadetten ve secdeden kaçınmak'),
     ('genel_adlandirma', 'Davranışı adlandırılmayanlar', 'Genel adlandırma: günah, suç, kötülük, fısk, sapıklık, hata'),
     ('sonuc_tanimi', 'Davranışı adlandırılmayanlar', 'Davranış söylenmeden sonuçla tanımlananlar: tartıları hafif gelenler, adıyla anılanlar'),
     ('ilke', 'Karşılık ilkeleri', 'Davranış değil, karşılığın işleyiş ilkesi (ör. uyarı gelmeden helâk yok)'),
@@ -50,7 +50,9 @@ DAVRANIS = [
 DNAME = {k for k, _, _ in DAVRANIS}
 
 BOL = {
-    'siddete_dusku_bedbaht': ['genel_adlandirma'],
+    'siddete_dusku_bedbaht': ['genel_adlandirma'], 'en_bedbaht': ['genel_adlandirma'], 'calisip_yorulan_yuzler': ['sonuc_tanimi'],
+    'atesi_yalanlama': ['ahiret_inkar'], 'galip_topluluk_iddiasi': ['kibir'], 'esir_ve_dunyalik_isteme': ['dunya_sevgisi'],
+    'gecimde_simarma': ['dunya_sevgisi'], 'mal_ve_evladin_fayda_vermemesi': ['nifak'], 'hicret_etmeyip_nefse_zulmetme': ['savastan_kacma'],
     'red_sayili_gun': ['allah_hakkinda_yanlis'], 'soy_iddiasi': ['allah_hakkinda_yanlis'],
     'haddi_asma_zulum': ['azginlik'], 'nankorluk_inatcilik': ['nankorluk', 'azginlik'],
     'allaha_hosa_gitmeyen_isnat': ['allaha_iftira'], 'rahmana_karsi_isyan': ['azginlik'],
@@ -73,7 +75,7 @@ BOL = {
     'yuz_cevirme_ve_resule_iftira': ['yuz_cevirme', 'ayetleri_yalanlama'], 'azginlik_ve_emirden_cikma': ['azginlik', 'resule_isyan'],
     'isyan_ve_fesad': ['azginlik', 'fesat'], 'savas_ve_fesad': ['fesat'], 'ayetleri_dinleyip_kibirle_inat': ['kibir', 'yuz_cevirme'],
     'ayetlerden_kibirle_yuz_cevirme': ['kibir', 'yuz_cevirme'], 'kibirle_arka_donme': ['kibir', 'yuz_cevirme'],
-    'kibirle_ibadetten_uzaklasma': ['kibir', 'ibadet_ihmal'], 'secde_etmeme_kibir': ['kibir', 'ibadet_ihmal'],
+    'kibirle_ibadetten_uzaklasma': ['kibir', 'ibadet_ihmal'], 'secde_etmeme_kibir': ['kibir'],
     'kurani_dinleyip_secde_etmeme': ['yuz_cevirme', 'ibadet_ihmal'], 'firavuna_itaat_fisk': ['heva_atalar', 'genel_adlandirma'],
     'servette_sismanlik_fisk': ['dunya_sevgisi', 'genel_adlandirma'], 'servet_ve_refahla_simarma': ['dunya_sevgisi'],
     'ikiyuzlu_yemin': ['nifak', 'iftira_yalan'], 'ayetlerde_kanitsiz_mucadele': ['ayetleri_yalanlama', 'kibir'],

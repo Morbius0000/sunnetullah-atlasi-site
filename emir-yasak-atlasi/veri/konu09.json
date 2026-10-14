@@ -19,12 +19,12 @@
 },
 {
 "blok": "B001",
-"nitelik_ayet": "2:23",
+"nitelik_ayet": "2:24",
 "odul_ayet": "2:24",
 "odul": "nar",
 "derece": "✓",
 "ham": "kufur",
-"not_": "\"küfre sapanlar için hazırlanmıştır\""
+"not_": "2:24 \"Yapamazsanız -ki yapamayacaksınız- yakıtı insanlar ve taşlar olan ateşten sakının; kâfirler için hazırlanmıştır\""
 },
 {
 "blok": "B002",
@@ -285,7 +285,7 @@
 "odul": "cehennem",
 "derece": "✓",
 "ham": "kufur",
-"not_": "küfürde dolaşma bir nimetlenmedir; varış yeri cehennem"
+"not_": "\"İnkâr edenlerin ülkelerde dolaşıp durması seni aldatmasın; az bir geçimlik, sonra varacakları yer cehennemdir\""
 },
 {
 "blok": "B022",
@@ -616,9 +616,9 @@
 "nitelik_ayet": "18:29",
 "odul_ayet": "18:29",
 "odul": "nar",
-"derece": "✓",
+"derece": "→",
 "ham": "kufur",
-"not_": "\"dileyen inkâr etsin\": zalimler için çepeçevre kuşatan ateş, yüz pişiren su"
+"not_": "\"Dileyen iman etsin, dileyen inkâr etsin; biz zalimler için ateş hazırladık\": ateş ayette \"zalimler\"e bağlanır"
 },
 {
 "blok": "B086",
@@ -732,7 +732,7 @@
 "blok": "B139",
 "nitelik_ayet": "33:8",
 "odul_ayet": "33:8",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "ham": "kufur",
 "not_": "\"Küfre batmışlara korkunç bir azap hazırlamıştır\""
@@ -804,10 +804,10 @@
 "blok": "B146",
 "nitelik_ayet": "35:39",
 "odul_ayet": "35:39",
-"odul": "gazab_husran",
+"odul": "makt_husran",
 "derece": "✓",
 "ham": "kufur",
-"not_": "\"Kâfirlerin küfrü öfkeden başka bir şey artırmaz... hüsran ve yıkım\""
+"not_": "\"Kâfirlerin küfrü Rableri katında yalnız maktlarını (şiddetli hoşnutsuzluk) ve hüsranlarını artırır\""
 },
 {
 "blok": "B149",
@@ -849,10 +849,10 @@
 "blok": "B164",
 "nitelik_ayet": "40:10",
 "odul_ayet": "40:10",
-"odul": "gazab",
+"odul": "makt",
 "derece": "✓",
 "ham": "imana_cagriya_inkar",
-"not_": "\"Allah'ın öfkesi... imana çağrılıyordunuz da inkâr ediyordunuz\""
+"not_": "\"Allah'ın maktı (şiddetli hoşnutsuzluğu), sizin kendinize olan maktınızdan daha büyüktür; imana çağrılıyordunuz da inkâr ediyordunuz\""
 },
 {
 "blok": "B168",
@@ -957,7 +957,7 @@
 "blok": "B203",
 "nitelik_ayet": "58:4",
 "odul_ayet": "58:4",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "ham": "kufur",
 "not_": "\"Küfre sapanlara korkunç bir azap vardır\" (zıhar kefareti bağlamı)"
@@ -1038,7 +1038,7 @@
 "nitelik_ayet": "2:165",
 "odul_ayet": "2:165",
 "odul": "azap_siddetli",
-"derece": "✓",
+"derece": "→",
 "ham": "sirk",
 "not_": "Allah'a eş koşma (endâd); zalimler azabı görünce"
 },
@@ -1200,9 +1200,9 @@
 "nitelik_ayet": "13:33",
 "odul_ayet": "13:34",
 "odul": "azap_dunya",
-"derece": "✓",
+"derece": "→",
 "ham": "sirk",
-"not_": "ortak koşanlar ve tuzak kuranlar: \"dünya hayatında bir azap var, âhiret azabı çok daha şiddetli\""
+"not_": "13:34 \"onlar için dünya hayatında bir azap var\": \"onlar\" 13:33'te \"tuzakları süslü gösterilen kâfirler\" diye yeniden adlandırılır"
 },
 {
 "blok": "B068",
@@ -1262,7 +1262,7 @@
 "blok": "B116",
 "nitelik_ayet": "25:68",
 "odul_ayet": "25:69",
-"odul": "azap_katlama",
+"odul": "azap_katli",
 "derece": "✓",
 "ham": "sirk",
 "not_": "\"Allah'la birlikte başka ilaha yakarmazlar... Bunları yapan cezaya çarpılır; azap katlanır\""
@@ -1298,7 +1298,7 @@
 "blok": "B129",
 "nitelik_ayet": "28:38",
 "odul_ayet": "28:40",
-"odul": "gark",
+"odul": "suya_atilma",
 "derece": "→",
 "ham": "ilahlik_iddiasi",
 "not_": "Firavun'un sözü 28:38; sonuç 28:40"
@@ -1398,7 +1398,7 @@
 "nitelik_ayet": "39:15",
 "odul_ayet": "39:15",
 "odul": "husran",
-"derece": "✓",
+"derece": "→",
 "ham": "allaha_kulluktan_baska_kulluk",
 "not_": "\"hem kendilerini hem ailelerini hüsrana atanlar\""
 },
@@ -1452,9 +1452,9 @@
 "nitelik_ayet": "71:23",
 "odul_ayet": "71:25",
 "odul": "gark_ve_nar",
-"derece": "✓",
+"derece": "→",
 "ham": "put_edinme",
-"not_": "Nûh kavmi: \"ilahlarınızı bırakmayın\" (71:23); sonuç 71:25"
+"not_": "Nûh kavmi: \"ilahlarınızı bırakmayın\" (71:23); 71:25 boğulma ve ateşin sebebi \"hataları\" (mimmâ hatîâtihim) diye bildirilir"
 },
 {
 "blok": "B245",
@@ -1471,7 +1471,7 @@
 "id": "nifak",
 "grup": "İnanç",
 "etiket": "İkiyüzlülük (nifak)",
-"ayet_sayisi": 14,
+"ayet_sayisi": 15,
 "kayitlar": [
 {
 "blok": "B001",
@@ -1585,7 +1585,7 @@
 "blok": "B051",
 "nitelik_ayet": "9:101",
 "odul_ayet": "9:101",
-"odul": "azap_katli",
+"odul": "iki_kez_azap",
 "derece": "✓",
 "ham": "munafiklik",
 "not_": "\"iki kez azap edeceğiz, sonra çok büyük azaba itilecekler\""
@@ -1618,13 +1618,22 @@
 "not_": "ikiyüzlüler ile müminler arasına sur çekilir, \"dış tarafı azap\""
 },
 {
+"blok": "B203",
+"nitelik_ayet": "58:17",
+"odul_ayet": "58:17",
+"odul": "nar",
+"derece": "→",
+"ham": "mal_ve_evladin_fayda_vermemesi",
+"not_": "\"Malları da çocukları da Allah'a karşı onlara bir yarar sağlamaz; ateş halkıdır onlar\": özne 58:14-16'daki topluluk; \"güvenme\" ayette söylenmez"
+},
+{
 "blok": "B204",
 "nitelik_ayet": "59:11",
 "odul_ayet": "59:15",
 "odul": "azap_elim",
 "derece": "→",
 "ham": "nifak",
-"not_": "ikiyüzlülerin dostlarına verdiği yalan vaat (59:11-12); \"acı bir azap var onlara\" (59:15), \"onlara\" aynı pasajdaki bu topluluğa gönderme yapar"
+"not_": "ikiyüzlülerin dostlarına verdiği yalan vaat (59:11-12); 59:15 \"acı azap\" onlardan önce vebali tadanlara benzetilerek bildirilir, bağ benzetmeyle kurulur"
 },
 {
 "blok": "B209",
@@ -1641,7 +1650,7 @@
 "id": "ahiret_inkar",
 "grup": "İnanç",
 "etiket": "Ahireti, kıyameti, hesabı ve Allah'a kavuşmayı inkâr etmek ya da ummamak",
-"ayet_sayisi": 26,
+"ayet_sayisi": 27,
 "kayitlar": [
 {
 "blok": "B034",
@@ -1761,15 +1770,6 @@
 "not_": "\"alevli bir ateş hazırlamışızdır\""
 },
 {
-"blok": "B114",
-"nitelik_ayet": "25:40",
-"odul_ayet": "25:40",
-"odul": "helak",
-"derece": "?",
-"ham": "ahireti_ummama",
-"not_": "\"kötülük yağmuruna tutulan kente vardılar\"; ahireti ummadıkları söylenir, kent olayı ayrı cümlede"
-},
-{
 "blok": "B123",
 "nitelik_ayet": "27:4",
 "odul_ayet": "27:5",
@@ -1824,13 +1824,22 @@
 "not_": "\"bu gününüzü unutmuş olmanın karşılığını tadın... sonsuzluk azabı\""
 },
 {
+"blok": "B138",
+"nitelik_ayet": "32:20",
+"odul_ayet": "32:20",
+"odul": "nar",
+"derece": "✓",
+"ham": "atesi_yalanlama",
+"not_": "fâsıklara: \"yalanlayıp durduğunuz ateşin azabını tadın\"; yalanlanan ateştir"
+},
+{
 "blok": "B143",
 "nitelik_ayet": "34:8",
 "odul_ayet": "34:8",
 "odul": "azap_ve_sapiklik",
 "derece": "✓",
 "ham": "ahirete_inanmama",
-"not_": "\"dönüşü olmayan bir sapıklık ve bir azap içindedirler\""
+"not_": "\"Ahirete inanmayanlar azabın ve uzak bir sapıklığın (ed-dalâli'l-baîd) içindedirler\""
 },
 {
 "blok": "B168",
@@ -1849,6 +1858,15 @@
 "derece": "✓",
 "ham": "ahireti_masal_sayma",
 "not_": "\"üzerlerine azap hak olanlardır; hüsrana uğrayanlardır\""
+},
+{
+"blok": "B189",
+"nitelik_ayet": "52:14",
+"odul_ayet": "52:13",
+"odul": "nar",
+"derece": "✓",
+"ham": "atesi_yalanlama",
+"not_": "\"İşte yalanlayıp durduğunuz ateş budur\"; 52:13 \"cehenneme itilirler\""
 },
 {
 "blok": "B223",
@@ -1928,7 +1946,7 @@
 "odul": "nar",
 "derece": "✓",
 "ham": "allaha_iftira",
-"not_": "7:37 canlarını alan elçiler; 7:38 \"girin ateşe\" aynı topluluğa mı yönelik, bağ bağlamdan"
+"not_": "7:37 canlarını almaya gelen elçiler; 7:38 \"girin ateşe\" (qâle'dhulû) aynı konuşmanın devamıdır"
 },
 {
 "blok": "B051",
@@ -1944,7 +1962,7 @@
 "nitelik_ayet": "10:17",
 "odul_ayet": "10:17",
 "odul": "felah_yok",
-"derece": "✓",
+"derece": "→",
 "ham": "allaha_iftira",
 "not_": "Allah'a iftira veya ayetleri yalanlama: \"suçlular iflah etmez\""
 },
@@ -1988,7 +2006,7 @@
 "blok": "B075",
 "nitelik_ayet": "16:56",
 "odul_ayet": "16:56",
-"odul": "cezalandirilma",
+"odul": "hesaba_cekilme",
 "derece": "✓",
 "ham": "allaha_iftira",
 "not_": "\"iftira edip durduğunuz şeylerden kesinlikle hesaba çekileceksiniz\""
@@ -2034,18 +2052,18 @@
 "nitelik_ayet": "29:68",
 "odul_ayet": "29:68",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "allaha_iftira",
-"not_": "\"Cehennemde değil midir kâfirlerin barınağı?\""
+"not_": "\"Allah'a iftira edenden / hakkı yalanlayandan daha zalim kim var? Cehennemde kâfirler için yer yok mu?\": cehennem \"kâfirler\"e bağlanır"
 },
 {
 "blok": "B162",
 "nitelik_ayet": "39:32",
 "odul_ayet": "39:32",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "allaha_yalan_duzme_hakki_yalanlama",
-"not_": "\"Cehennemde kâfirler için bir barınak yok mu?\""
+"not_": "\"Allah'a iftira edenden / hakkı yalanlayandan daha zalim kim var? Cehennemde kâfirler için yer yok mu?\": cehennem \"kâfirler\"e bağlanır"
 },
 {
 "blok": "B162",
@@ -2061,7 +2079,7 @@
 "nitelik_ayet": "42:21",
 "odul_ayet": "42:21",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "dinde_izinsiz_yasalastirma",
 "not_": "\"dinden Allah'ın izin vermediğini yasalaştıran ortaklar... zalimler için acıklı azap\""
 },
@@ -2114,9 +2132,9 @@
 "nitelik_ayet": "5:18",
 "odul_ayet": "5:18",
 "odul": "azap_genel",
-"derece": "✓",
+"derece": "→",
 "ham": "soy_iddiasi",
-"not_": "\"biz Allah'ın oğulları ve sevgilileriyiz\" diyenlere: \"niçin günahlarınız yüzünden size azap ediyor?\""
+"not_": "\"Biz Allah'ın oğulları ve sevgilileriyiz\" diyenlere: \"Öyleyse niçin günahlarınız yüzünden size azap ediyor?\": azap günahlara bağlanır, iddia bununla çürütülür"
 },
 {
 "blok": "B030",
@@ -2179,7 +2197,7 @@
 "odul": "mahvolma",
 "derece": "✓",
 "ham": "cirkin_sani",
-"not_": "\"çirkin bir sanıya saplandınız ve mahvolmuş bir topluluk haline geldiniz\""
+"not_": "\"Kötü bir sanı beslediniz ve helâke gitmiş (bûr) bir topluluk idiniz\""
 }
 ]
 },
@@ -2196,7 +2214,7 @@
 "odul": "azap_henuz_tatmama",
 "derece": "→",
 "ham": "zikirden_suphe",
-"not_": "\"benim azabımı henüz tatmadılar\"; ceza gelecek zaman, ayetin kendisi sebebi bağlamaz"
+"not_": "\"Onlar zikrimden kuşkudadır; hayır, henüz azabımı tatmadılar\" (lemmâ yezûkû)"
 },
 {
 "blok": "B166",
@@ -2249,7 +2267,7 @@
 "id": "ayetleri_yalanlama",
 "grup": "Vahiy ve resuller",
 "etiket": "Ayetleri, kitabı ve resulleri yalanlamak, ayetlere karşı çıkmak",
-"ayet_sayisi": 93,
+"ayet_sayisi": 91,
 "kayitlar": [
 {
 "blok": "B002",
@@ -2373,9 +2391,9 @@
 "nitelik_ayet": "6:20",
 "odul_ayet": "6:20",
 "odul": "husran",
-"derece": "✓",
+"derece": "→",
 "ham": "iman_etmeme_kitabi_bilerek",
-"not_": "\"kitabı oğullarını tanır gibi tanıyıp iman etmeyenler öz benliklerini hüsrana uğratanlardır\""
+"not_": "\"Kitap verdiklerimiz onu oğullarını tanır gibi tanırlar; kendilerini hüsrana uğratanlar, işte onlar iman etmezler\": hüsran öznedir, iman etmeme yüklem"
 },
 {
 "blok": "B034",
@@ -2492,7 +2510,7 @@
 "odul": "istidrac",
 "derece": "✓",
 "ham": "ayetleri_yalanlama",
-"not_": "\"hiç bilemeyecekleri yerden ağır ağır çöküşe götüreceğiz\""
+"not_": "\"Ayetlerimizi yalanlayanları bilmedikleri yerden derece derece (helâke) yaklaştıracağız\" (senestedricuhum)"
 },
 {
 "blok": "B047",
@@ -2517,7 +2535,7 @@
 "nitelik_ayet": "10:17",
 "odul_ayet": "10:17",
 "odul": "felah_yok",
-"derece": "✓",
+"derece": "→",
 "ham": "ayetleri_yalanlama",
 "not_": ""
 },
@@ -2525,7 +2543,7 @@
 "blok": "B055",
 "nitelik_ayet": "10:73",
 "odul_ayet": "10:73",
-"odul": "helak",
+"odul": "gark",
 "derece": "✓",
 "ham": "ayetleri_yalanlama",
 "not_": "Nûh'u yalanlayanlar batırılıp boğuldu"
@@ -2742,9 +2760,9 @@
 "nitelik_ayet": "29:68",
 "odul_ayet": "29:68",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "hakki_yalanlama",
-"not_": ""
+"not_": "\"Allah'a iftira edenden / hakkı yalanlayandan daha zalim kim var? Cehennemde kâfirler için yer yok mu?\": cehennem \"kâfirler\"e bağlanır"
 },
 {
 "blok": "B135",
@@ -2756,22 +2774,13 @@
 "not_": "\"azabın içinde hazır bulundurulurlar\""
 },
 {
-"blok": "B138",
-"nitelik_ayet": "32:20",
-"odul_ayet": "32:20",
-"odul": "nar",
-"derece": "✓",
-"ham": "ayetleri_yalanlama",
-"not_": "\"Yalanlayıp durduğunuz ateş azabı\""
-},
-{
 "blok": "B143",
 "nitelik_ayet": "34:5",
 "odul_ayet": "34:5",
 "odul": "azap_elim",
 "derece": "✓",
 "ham": "ayetleri_hukumsuz_kilma_cabasi",
-"not_": "\"pislikten, inletici bir azap\""
+"not_": "\"Onlar için riczden acıklı bir azap vardır\" (azâbun min riczin elîm)"
 },
 {
 "blok": "B144",
@@ -2780,16 +2789,16 @@
 "odul": "azap_hazir",
 "derece": "✓",
 "ham": "ayetleri_hukumsuz_birakma_cabasi",
-"not_": "\"azabın içinde hazır bulundurulacaklar\""
+"not_": "\"Ayetlerimizi etkisiz bırakmaya çalışanlar azabın içinde hazır bulundurulurlar\" (muhdarûn)"
 },
 {
 "blok": "B144",
 "nitelik_ayet": "34:45",
 "odul_ayet": "34:45",
-"odul": "azap",
+"odul": "nekir",
 "derece": "✓",
 "ham": "resulleri_yalanlama",
-"not_": "\"Resullerimi yalanladılar. Benim azabım nasıl oldu!?\""
+"not_": "\"Resullerimi yalanladılar; benim karşı koyuşum (nekîr) nasıl oldu!\""
 },
 {
 "blok": "B157",
@@ -2806,17 +2815,17 @@
 "odul_ayet": "39:26",
 "odul": "rezillik_ve_azap",
 "derece": "✓",
-"ham": "resulleri_yalanlama",
-"not_": "\"dünyada rezilliği tattırdı; ahiretin azabı daha büyük\""
+"ham": "yalanlama",
+"not_": "\"Onlardan öncekiler de yalanladı; azap onlara farkında olmadıkları yerden geldi\" (39:25); \"dünyada rezilliği tattırdı\" (39:26)"
 },
 {
 "blok": "B162",
 "nitelik_ayet": "39:32",
 "odul_ayet": "39:32",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "allaha_yalan_duzme_hakki_yalanlama",
-"not_": "\"Cehennemde kâfirler için bir barınak yok mu?\""
+"not_": "\"Allah'a iftira edenden / hakkı yalanlayandan daha zalim kim var? Cehennemde kâfirler için yer yok mu?\": cehennem \"kâfirler\"e bağlanır"
 },
 {
 "blok": "B162",
@@ -2858,10 +2867,10 @@
 "blok": "B166",
 "nitelik_ayet": "40:35",
 "odul_ayet": "40:35",
-"odul": "gazab_ve_muhur",
+"odul": "makt",
 "derece": "✓",
 "ham": "ayetlerde_kanitsiz_mucadele",
-"not_": "\"büyük bir öfke konusu... zorba, kibirli kalpler üzerine mühür\""
+"not_": "\"Kanıtsız ayetler hakkında mücadele edenlerin bu tutumu Allah ve müminler katında büyük bir maktla (hoşnutsuzlukla) karşılanır\"; mühür ayrı kayıtta \"zorba, kibirli kalp\"e"
 },
 {
 "blok": "B166",
@@ -2904,7 +2913,7 @@
 "nitelik_ayet": "41:40",
 "odul_ayet": "41:40",
 "odul": "nar",
-"derece": "✓",
+"derece": "→",
 "ham": "ayetlerde_ilhad",
 "not_": "\"eğri ile doğruyu birbirine katanlar... ateşin içine atılan mı hayırlıdır\" (soru kalıbı)"
 },
@@ -2912,10 +2921,10 @@
 "blok": "B179",
 "nitelik_ayet": "45:11",
 "odul_ayet": "45:11",
-"odul": "azap_pislik",
+"odul": "azap_elim",
 "derece": "✓",
 "ham": "ayetleri_inkar",
-"not_": "\"korkunç bir pislik azabı\""
+"not_": "\"Rablerinin ayetlerini inkâr edenler için riczden acıklı bir azap vardır\" (azâbun min riczin elîm)"
 },
 {
 "blok": "B180",
@@ -2939,19 +2948,10 @@
 "blok": "B188",
 "nitelik_ayet": "51:39",
 "odul_ayet": "51:40",
-"odul": "gark",
+"odul": "suya_atilma",
 "derece": "✓",
 "ham": "yuz_cevirme_ve_resule_iftira",
 "not_": "Firavun yüz çevirdi, \"bir büyücü yahut mecnun\" dedi; \"yakalayıp suyun ortasına fırlattık\""
-},
-{
-"blok": "B189",
-"nitelik_ayet": "52:14",
-"odul_ayet": "52:13",
-"odul": "nar",
-"derece": "✓",
-"ham": "ayetleri_yalanlama",
-"not_": "\"Vay hallerine o gün yalanlayanların\"; \"cehenneme kakılırlar\""
 },
 {
 "blok": "B193",
@@ -2959,7 +2959,7 @@
 "odul_ayet": "54:18",
 "odul": "azap",
 "derece": "✓",
-"ham": "ayetleri_yalanlama",
+"ham": "yalanlama",
 "not_": "Âd: \"yalanlamıştı... nasıl oldu azabım ve uyarılarım!\""
 },
 {
@@ -2986,8 +2986,8 @@
 "odul_ayet": "56:52",
 "odul": "zakkum",
 "derece": "✓",
-"ham": "ayetleri_yalanlama",
-"not_": "\"sapık yalanlayıcılar... zakkumdan yiyecekler, kaynar su\""
+"ham": "yalanlama",
+"not_": "\"Sonra siz ey sapık yalanlayıcılar (ed-dâllûne'l-mukezzibûn), zakkumdan yiyeceksiniz\"; yalanlananın ne olduğu 56:47-48'deki diriliş itirazından anlaşılır"
 },
 {
 "blok": "B201",
@@ -3021,7 +3021,7 @@
 "nitelik_ayet": "62:5",
 "odul_ayet": "62:5",
 "odul": "hidayet_edilmeme",
-"derece": "✓",
+"derece": "→",
 "ham": "ayetleri_yalanlama_tevrati_tasimama",
 "not_": "\"Allah, zulme sapmış bir topluluğu doğruya ve güzele ulaştırmaz\""
 },
@@ -3029,7 +3029,7 @@
 "blok": "B207",
 "nitelik_ayet": "64:6",
 "odul_ayet": "64:5",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "ham": "resulleri_insan_diye_reddetme",
 "not_": "\"Bir insan mı bize kılavuzluk edecek?! deyip küfre saptılar ve yüz çevirdiler\" (64:6 gerekçe)"
@@ -3190,7 +3190,7 @@
 "blok": "B051",
 "nitelik_ayet": "9:79",
 "odul_ayet": "9:79",
-"odul": "hizy",
+"odul": "maskaraya_cevirme",
 "derece": "✓",
 "ham": "mumine_laf_atma_alay",
 "not_": "\"Allah onları maskaraya çevirecektir\""
@@ -3254,7 +3254,7 @@
 "nitelik_ayet": "36:30",
 "odul_ayet": "36:31",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "ham": "resullerle_alay",
 "not_": "\"her resulle alay ederlerdi... nice nesilleri helâk ettik\""
 },
@@ -3289,10 +3289,10 @@
 "blok": "B179",
 "nitelik_ayet": "45:9",
 "odul_ayet": "45:9",
-"odul": "azap_horlayici",
+"odul": "azap_muhin",
 "derece": "✓",
 "ham": "ayetlerle_alay",
-"not_": "\"horlayıp yere batıran bir azap\""
+"not_": "\"İşte onlar için alçaltıcı bir azap (azâbun muhîn) vardır\""
 },
 {
 "blok": "B181",
@@ -3387,7 +3387,7 @@
 "blok": "B045",
 "nitelik_ayet": "7:165",
 "odul_ayet": "7:165",
-"odul": "azap_elim",
+"odul": "azap",
 "derece": "✓",
 "ham": "ogutleri_unutma",
 "not_": "Sebt ahalisi: öğüdü unutanlar, kötülükten alıkoyanlar kurtulurken zulme sapanlar acı azapla yakalandı"
@@ -3406,7 +3406,7 @@
 "nitelik_ayet": "9:3",
 "odul_ayet": "9:3",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "tevella_yuz_cevirme",
 "not_": "\"küfre saplananlara acıklı bir azabı muştula\""
 },
@@ -3450,7 +3450,7 @@
 "blok": "B084",
 "nitelik_ayet": "18:57",
 "odul_ayet": "18:57",
-"odul": "muhurlenme",
+"odul": "kalp_ortusu",
 "derece": "✓",
 "ham": "ayetlerden_yuz_cevirme",
 "not_": "ayetleri hatırlatılınca yüz çevirenin kalbine kabuk, kulağına ağırlık konur"
@@ -3532,9 +3532,9 @@
 "nitelik_ayet": "25:18",
 "odul_ayet": "25:18",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "ham": "zikri_unutma",
-"not_": "\"zikri unuttular ve helâke giden bir topluluk oldular\""
+"not_": "\"Zikri unuttular ve helâke gitmiş (bûr) bir topluluk idiler\": helâk bir nitelik olarak anılır"
 },
 {
 "blok": "B136",
@@ -3550,7 +3550,7 @@
 "nitelik_ayet": "32:22",
 "odul_ayet": "32:22",
 "odul": "intikam",
-"derece": "✓",
+"derece": "→",
 "ham": "ayetlerden_yuz_cevirme",
 "not_": "\"Suçlulardan mutlaka intikam alacağız\""
 },
@@ -3612,7 +3612,7 @@
 "blok": "B188",
 "nitelik_ayet": "51:39",
 "odul_ayet": "51:40",
-"odul": "gark",
+"odul": "suya_atilma",
 "derece": "✓",
 "ham": "yuz_cevirme_ve_resule_iftira",
 "not_": "Firavun yüz çevirdi, \"bir büyücü yahut mecnun\" dedi; \"yakalayıp suyun ortasına fırlattık\""
@@ -3729,9 +3729,9 @@
 "nitelik_ayet": "4:55",
 "odul_ayet": "4:55",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "allah_yolundan_alikoyma",
-"not_": "\"onlardan kimi ona inandı, kimi alıkoydu. Böylesine çılgın alevli cehennem yeter\""
+"not_": "\"Onlardan kimi ona iman etti, kimi ondan yüz çevirdi / alıkoydu (sadde anhu); alevli cehennem yeter\": fiil iki türlü okunur"
 },
 {
 "blok": "B027",
@@ -3801,16 +3801,16 @@
 "nitelik_ayet": "9:34",
 "odul_ayet": "9:34",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "allah_yolundan_alikoyma",
-"not_": ""
+"not_": "9:34'te azap müjdesi (\"onlara acıklı azabı müjdele\") altın ve gümüşü biriktirenlere döner; alıkoyma ile bağ bağlamsal"
 },
 {
 "blok": "B051",
 "nitelik_ayet": "9:107",
 "odul_ayet": "9:109",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "zarar_mescidi",
 "not_": "zarar vermek, küfür, müminleri bölmek için mescit yapanlar: yarın kenarına kurulan bina \"onunla birlikte cehenneme yuvarlanır\""
 },
@@ -3854,10 +3854,10 @@
 "blok": "B094",
 "nitelik_ayet": "20:79",
 "odul_ayet": "20:78",
-"odul": "helak",
-"derece": "✓",
+"odul": "denizin_ortmesi",
+"derece": "→",
 "ham": "saptirma",
-"not_": "Firavun toplumunu saptırdı; denizden kuşatıp kuşatan onları kuşattı (kıssa)"
+"not_": "\"Firavun toplumunu saptırdı, doğruya iletmedi\" (20:79); 20:78 \"denizden onları örten örttü\""
 },
 {
 "blok": "B095",
@@ -3891,9 +3891,9 @@
 "nitelik_ayet": "22:25",
 "odul_ayet": "22:25",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "allah_yolundan_alikoyma",
-"not_": "küfre sapanlar, Allah yolundan ve Mescid-i Haram'dan alıkoyar; orada zulümle sapmak isteyene acıklı azap"
+"not_": "acıklı azap ayette \"orada zulümle sapma (ilhâd) isteyen\"e bağlanır; alıkoyma ile bağ bağlamsal"
 },
 {
 "blok": "B136",
@@ -4052,7 +4052,7 @@
 "nitelik_ayet": "14:13",
 "odul_ayet": "14:13",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "ham": "resulu_yurttan_cikarma_tehdidi",
 "not_": "küfre sapanlar resullerini yurttan çıkarmakla tehdit etti: \"zalimleri muhakkak helâk edeceğiz\""
 },
@@ -4124,7 +4124,7 @@
 "nitelik_ayet": "58:5",
 "odul_ayet": "58:5",
 "odul": "azap_muhin",
-"derece": "✓",
+"derece": "→",
 "ham": "allaha_ve_resulune_karsi_gelme",
 "not_": "\"küfre sapanlar için rezil edici bir azap\""
 },
@@ -4257,10 +4257,10 @@
 "blok": "B040",
 "nitelik_ayet": "7:12",
 "odul_ayet": "7:13",
-"odul": "hizy",
+"odul": "asagilik",
 "derece": "✓",
 "ham": "kibir",
-"not_": "İblis'in secde etmeyip \"ben ondan hayırlıyım\" demesi: \"in oradan, orada büyüklenmek haddine mi; sen alçaklardansın\""
+"not_": "İblis'in secde etmeyip \"ben ondan hayırlıyım\" demesi: \"in oradan... sen küçüklerdensin (mine's-sâğırîn)\" (insan dışı taraf)"
 },
 {
 "blok": "B041",
@@ -4365,7 +4365,7 @@
 "blok": "B129",
 "nitelik_ayet": "28:39",
 "odul_ayet": "28:40",
-"odul": "gark",
+"odul": "suya_atilma",
 "derece": "✓",
 "ham": "kibir",
 "not_": "\"haksız yere büyüklük tasladılar... yakalayıp suya fırlattık\""
@@ -4400,11 +4400,11 @@
 {
 "blok": "B132",
 "nitelik_ayet": "29:39",
-"odul_ayet": "29:39",
-"odul": "helak",
+"odul_ayet": "29:40",
+"odul": "yakalama",
 "derece": "✓",
 "ham": "kibir",
-"not_": "Karun, Firavun, Hâmân: yeryüzünde büyüklük"
+"not_": "Karun, Firavun, Hâmân: yeryüzünde büyüklük tasladılar (29:39); 29:40 \"her birini günahıyla yakaladık\""
 },
 {
 "blok": "B136",
@@ -4473,10 +4473,10 @@
 "blok": "B166",
 "nitelik_ayet": "40:35",
 "odul_ayet": "40:35",
-"odul": "gazab_ve_muhur",
+"odul": "makt",
 "derece": "✓",
 "ham": "ayetlerde_kanitsiz_mucadele",
-"not_": "\"büyük bir öfke konusu... zorba, kibirli kalpler üzerine mühür\""
+"not_": "\"Kanıtsız ayetler hakkında mücadele edenlerin bu tutumu Allah ve müminler katında büyük bir maktla (hoşnutsuzlukla) karşılanır\"; mühür ayrı kayıtta \"zorba, kibirli kalp\"e"
 },
 {
 "blok": "B166",
@@ -4565,8 +4565,8 @@
 "odul_ayet": "54:45",
 "odul": "bozguna_ugratilma",
 "derece": "→",
-"ham": "yenilmezlik_iddiasi",
-"not_": "\"Biz yenilmez topluluğuz mu diyorlar? Bozguna uğratılacak\""
+"ham": "galip_topluluk_iddiasi",
+"not_": "\"Biz birbirine yardım eden galip bir topluluğuz (cemîun muntasır) mı diyorlar? O topluluk bozguna uğratılacak\""
 },
 {
 "blok": "B222",
@@ -4652,7 +4652,7 @@
 "blok": "B056",
 "nitelik_ayet": "10:91",
 "odul_ayet": "10:90",
-"odul": "helak",
+"odul": "gark",
 "derece": "✓",
 "ham": "isyan_ve_fesad",
 "not_": "Firavun ve ordusu azgınlık ve düşmanlıkla izledi, boğuldu"
@@ -4680,7 +4680,7 @@
 "nitelik_ayet": "19:69",
 "odul_ayet": "19:70",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "rahmana_karsi_isyan",
 "not_": "her gruptan Rahman'a karşı en şiddetli kafa tutanlar ayrılır; \"oraya girmeye en layık olanları biliriz\""
 },
@@ -4789,8 +4789,8 @@
 "odul_ayet": "54:31",
 "odul": "tek_ses",
 "derece": "✓",
-"ham": "deve_boğazlama",
-"not_": "Semûd deveyi boğazladı; \"bir tek ses gönderdik\""
+"ham": "deveyi_kesme",
+"not_": "Semûd arkadaşlarını çağırdı, o da deveyi kesti (fe-akar); \"bir tek sayha gönderdik\""
 },
 {
 "blok": "B208",
@@ -4958,9 +4958,9 @@
 "nitelik_ayet": "39:49",
 "odul_ayet": "39:51",
 "odul": "kotuluklerin_yakalamasi",
-"derece": "✓",
+"derece": "→",
 "ham": "nimeti_ilme_baglama",
-"not_": "\"kazandıkları kendilerine yarar sağlamadı; kötülükleri yakalarına yapıştı\""
+"not_": "39:50 \"bunu onlardan öncekiler de söylemişti\"; 39:51 \"kazandıklarının kötülükleri onları yakaladı\" o öncekilere döner"
 },
 {
 "blok": "B164",
@@ -5056,7 +5056,7 @@
 "nitelik_ayet": "14:22",
 "odul_ayet": "14:22",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "seytana_uyma",
 "not_": "şeytanın sözü ahirette: \"sizi davet ettim siz bana uydunuz… zalimler için acıklı azap\""
 },
@@ -5074,9 +5074,9 @@
 "nitelik_ayet": "16:63",
 "odul_ayet": "16:63",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "seytana_uyma",
-"not_": "şeytan amellerini süsledi; \"o bugün de onların dostudur… acıklı azap\""
+"not_": "\"Şeytan onlara işlerini süslü gösterdi; bugün de onların velisidir; onlara acıklı azap var\": uyma fiili ayette açık değil"
 },
 {
 "blok": "B081",
@@ -5108,11 +5108,11 @@
 {
 "blok": "B132",
 "nitelik_ayet": "29:38",
-"odul_ayet": "29:38",
+"odul_ayet": "29:40",
 "odul": "helak",
 "derece": "→",
 "ham": "seytanin_susledigi_amel",
-"not_": "Âd ve Semûd: amelleri süslendi; \"böyle yaptık\" (helak)"
+"not_": "Âd ve Semûd: şeytan amellerini süsledi (29:38); 29:40 \"her birini günahıyla yakaladık\""
 },
 {
 "blok": "B145",
@@ -5139,7 +5139,7 @@
 "odul": "yildiz_atisi",
 "derece": "✓",
 "ham": "seytan_konseyi_dinleme_cabasi",
-"not_": "insan dışı taraf (şeytanlar); kovulma ve yıldız atışı 37:9-10"
+"not_": "insan dışı taraf (şeytanlar); \"kapıp kaçanı delici bir şihab takip eder\" (37:9-10)"
 },
 {
 "blok": "B161",
@@ -5183,7 +5183,7 @@
 "id": "dunya_sevgisi",
 "grup": "Tutum ve kalp",
 "etiket": "Dünyayı ahirete tercih etmek, servetle şımarmak, israf",
-"ayet_sayisi": 25,
+"ayet_sayisi": 24,
 "kayitlar": [
 {
 "blok": "B005",
@@ -5200,8 +5200,8 @@
 "odul_ayet": "8:68",
 "odul": "azap_azim",
 "derece": "✓",
-"ham": "esirden_fidye_alma",
-"not_": "\"Allah'tan bir yazı önden gelmemiş olsaydı aldığınız fidyeden ötürü size büyük azap dokunurdu\" (azap uygulanmadı)"
+"ham": "esir_ve_dunyalik_isteme",
+"not_": "\"Hiçbir peygambere yeryüzünde ağır basmadan esir edinmek yakışmaz; siz dünyalık istiyorsunuz\" (8:67); \"aldığınız şeyden ötürü size büyük azap dokunurdu\" (8:68; azap uygulanmadı)"
 },
 {
 "blok": "B051",
@@ -5307,9 +5307,9 @@
 "nitelik_ayet": "23:64",
 "odul_ayet": "23:64",
 "odul": "azap_genel",
-"derece": "✓",
-"ham": "israf",
-"not_": "servet ve refahla şımarmışlar azapla yakalanır (mütref)"
+"derece": "→",
+"ham": "servet_ve_refah_mutref",
+"not_": "\"Onların refah içindekilerini (mütrefîhim) azapla yakaladığımızda feryat ederler\"; israf adı ayette geçmez"
 },
 {
 "blok": "B130",
@@ -5317,8 +5317,8 @@
 "odul_ayet": "28:58",
 "odul": "helak",
 "derece": "✓",
-"ham": "israf_gosteris",
-"not_": "\"yaşayışı şımarıklık ve gösterişe yol açmış nice kenti helâk ettik\""
+"ham": "gecimde_simarma",
+"not_": "\"Geçiminde şımarmış (batırat maîşetehâ) nice kenti helâk ettik\""
 },
 {
 "blok": "B166",
@@ -5351,7 +5351,7 @@
 "blok": "B198",
 "nitelik_ayet": "56:45",
 "odul_ayet": "56:42",
-"odul": "nar",
+"odul": "semum_hamim",
 "derece": "✓",
 "ham": "servet_ve_refahla_simarma",
 "not_": "\"şomluk yâranı bundan önce servet ve refahla şımaranlardı\"; ateş ve kaynar su"
@@ -5364,15 +5364,6 @@
 "derece": "→",
 "ham": "dunya_hayatina_dalma",
 "not_": "dünya hayatı oyun-eğlence-övünme; \"âhirette şiddetli bir azap var\""
-},
-{
-"blok": "B203",
-"nitelik_ayet": "58:17",
-"odul_ayet": "58:17",
-"odul": "nar",
-"derece": "✓",
-"ham": "mal_ve_evlada_guvenme_ateş",
-"not_": "\"Ateş halkıdır onlar. Sürekli kalacaklardır orada\""
 },
 {
 "blok": "ZY",
@@ -5412,12 +5403,12 @@
 },
 {
 "blok": "B247",
-"nitelik_ayet": "102:2",
+"nitelik_ayet": "102:1",
 "odul_ayet": "102:6",
 "odul": "cehennem_gorme",
 "derece": "✓",
 "ham": "cogalma_yarisi",
-"not_": "\"Çoğalma yarışı (tekâsür)... o cehennemi mutlaka göreceksiniz\""
+"not_": "\"Çoğalma yarışı (et-tekâsür) sizi oyaladı\" (102:1); \"o cehennemi mutlaka göreceksiniz\" (102:6)"
 },
 {
 "blok": "B248",
@@ -5486,9 +5477,9 @@
 "nitelik_ayet": "31:21",
 "odul_ayet": "31:21",
 "odul": "nar",
-"derece": "✓",
+"derece": "→",
 "ham": "atalara_koru_koruna_uyma",
-"not_": "\"şeytan onları alevli ateşin azabına çağırmış olsa da mı?\" (soru kalıbı)"
+"not_": "\"Atalarımızı üzerinde bulduğumuza uyarız\" derler; \"şeytan onları alevli ateşin azabına çağırıyor olsa da mı?\": ateş şeytanın çağrısının hedefidir"
 },
 {
 "blok": "B142",
@@ -5557,9 +5548,9 @@
 "nitelik_ayet": "3:128",
 "odul_ayet": "3:128",
 "odul": "azap_genel",
-"derece": "✓",
+"derece": "→",
 "ham": "zulum",
-"not_": "\"zalim oldukları için onlara azap eder\""
+"not_": "\"Allah ya onların tövbesini kabul eder ya da onlara azap eder; çünkü onlar zalimdir\": iki seçenekten biri"
 },
 {
 "blok": "B027",
@@ -5604,7 +5595,7 @@
 "odul": "helak",
 "derece": "✓",
 "ham": "zulum",
-"not_": "azap gelince \"gerçekten zalimdik\" demeleri (yurtlar yere batırıldı)"
+"not_": "azap gelince \"gerçekten zalimdik\" demeleri; 7:4 \"nice kenti helâk ettik\""
 },
 {
 "blok": "B045",
@@ -5637,7 +5628,7 @@
 "blok": "B059",
 "nitelik_ayet": "11:37",
 "odul_ayet": "11:37",
-"odul": "helak",
+"odul": "gark",
 "derece": "✓",
 "ham": "zulum",
 "not_": "\"zulmedenler mutlaka boğulacaklar\" (Nûh kavmi)"
@@ -5685,7 +5676,7 @@
 "odul": "azap_hafifletilmez",
 "derece": "✓",
 "ham": "zulum",
-"not_": "zulme sapanlar azapla yüzleşince azapları hafifletilmez, yüzlerine bakılmaz"
+"not_": "zulme sapanlar azabı görünce azapları hafifletilmez, onlara mühlet de verilmez (lâ hum yunzarûn)"
 },
 {
 "blok": "B083",
@@ -5709,7 +5700,7 @@
 "blok": "B085",
 "nitelik_ayet": "18:87",
 "odul_ayet": "18:87",
-"odul": "azap_katli",
+"odul": "iki_asamali_azap",
 "derece": "✓",
 "ham": "zulum",
 "not_": "Zülkarneyn: \"zulmedene azap edeceğiz; sonra Rabbine döndürülür, O da onu görülmedik azaba çeker\" (anlatıdaki kişinin sözü)"
@@ -5883,7 +5874,7 @@
 "odul": "sefaatsizlik",
 "derece": "✓",
 "ham": "zulum",
-"not_": "\"Zalimlerin ne bir dostu ne şefaatçısı\""
+"not_": "\"Zalimlerin ne yakın dostu ne de sözü dinlenecek (yutâ') bir şefaatçisi vardır\""
 },
 {
 "blok": "B166",
@@ -5917,9 +5908,9 @@
 "nitelik_ayet": "42:44",
 "odul_ayet": "42:44",
 "odul": "yardimsizlik",
-"derece": "✓",
+"derece": "→",
 "ham": "zulum",
-"not_": "\"Allah'ın saptırdığına O'ndan başka dost yoktur\""
+"not_": "\"Allah'ın saptırdığına O'ndan başka veli yoktur\" (ilk cümle); zalimler ikinci cümlede azabı görünce dönüş yolu ararlar"
 },
 {
 "blok": "B171",
@@ -5943,7 +5934,7 @@
 "blok": "B175",
 "nitelik_ayet": "43:65",
 "odul_ayet": "43:65",
-"odul": "azap_buyuk",
+"odul": "azap_elim",
 "derece": "✓",
 "ham": "zulum",
 "not_": "\"Korkunç bir günün azabından vay haline o zulmedenlerin\""
@@ -5961,7 +5952,7 @@
 "blok": "B189",
 "nitelik_ayet": "52:47",
 "odul_ayet": "52:47",
-"odul": "azap_dunyevi",
+"odul": "baska_azap",
 "derece": "✓",
 "ham": "zulum",
 "not_": "\"Zulmedenler için bundan başka bir azap da vardır\""
@@ -6098,13 +6089,13 @@
 "odul": "azap_siddetli",
 "derece": "→",
 "ham": "fitne",
-"not_": "\"yalnız zulmedenlere değil, hepsine çatacak fitneden korkun; Allah'ın ikabı şiddetlidir\" uyarı cümlesi"
+"not_": "\"Yalnız içinizdeki zalimlere dokunmakla kalmayacak (lâ tusîbenne... hâssaten) bir fitneden sakının; Allah'ın ikabı şiddetlidir\" uyarı cümlesi"
 },
 {
 "blok": "B056",
 "nitelik_ayet": "10:91",
 "odul_ayet": "10:90",
-"odul": "helak",
+"odul": "gark",
 "derece": "✓",
 "ham": "isyan_ve_fesad",
 "not_": "Firavun ve ordusu azgınlık ve düşmanlıkla izledi, boğuldu"
@@ -6170,7 +6161,7 @@
 "odul": "helak",
 "derece": "✓",
 "ham": "fesat",
-"not_": "dokuz çete bozgun çıkarır; baskın tuzağı; \"onları da toplumlarını da yere geçirdik\""
+"not_": "dokuz kişilik çete bozgunculuk yapar; baskın tuzağı; \"onları da toplumlarını da tümüyle yok ettik\" (dammernâhum)"
 },
 {
 "blok": "B132",
@@ -6312,8 +6303,8 @@
 "odul_ayet": "24:11",
 "odul": "azap_azim",
 "derece": "✓",
-"ham": "ifk_iftira",
-"not_": "\"büyük bir azap vardır\""
+"ham": "ifkin_buyugunu_ustlenme",
+"not_": "\"İfki getirenlerden her birine kazandığı günah vardır; içlerinden onun büyüğünü üstlenene büyük bir azap vardır\""
 },
 {
 "blok": "B110",
@@ -6364,7 +6355,7 @@
 "blok": "B179",
 "nitelik_ayet": "45:7",
 "odul_ayet": "45:7",
-"odul": "azap_vay",
+"odul": "vay",
 "derece": "✓",
 "ham": "iftira_gunah",
 "not_": "\"Yazıklar ve azaplar olsun günaha batmış her yalancı iftiracıya\""
@@ -6408,10 +6399,10 @@
 "blok": "B030",
 "nitelik_ayet": "5:80",
 "odul_ayet": "5:80",
-"odul": "gazab",
+"odul": "sahat",
 "derece": "✓",
 "ham": "kafirleri_dost_edinme",
-"not_": "küfre sapanlarla dostluk kuranlar: Allah gazap etti"
+"not_": "küfre sapanlarla dostluk kuranlar: \"Allah'ın onlara öfkelenmesi (en sehita'llâhu aleyhim)\""
 },
 {
 "blok": "B030",
@@ -6427,7 +6418,7 @@
 "nitelik_ayet": "9:3",
 "odul_ayet": "9:3",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "tevella_yuz_cevirme",
 "not_": "\"küfre saplananlara acıklı bir azabı muştula\""
 },
@@ -6569,7 +6560,7 @@
 "blok": "B116",
 "nitelik_ayet": "25:68",
 "odul_ayet": "25:69",
-"odul": "azap_katlama",
+"odul": "azap_katli",
 "derece": "✓",
 "ham": "haksiz_oldurme",
 "not_": ""
@@ -6578,19 +6569,19 @@
 "blok": "B155",
 "nitelik_ayet": "37:97",
 "odul_ayet": "37:98",
-"odul": "hizy",
+"odul": "asagilik",
 "derece": "✓",
 "ham": "peygambere_tuzak_kurma",
-"not_": "İbrahim'i ateşe atmak istediler: \"onları sefiller, reziller haline getirdik\""
+"not_": "İbrahim'i ateşe atmak istediler: \"Ona tuzak kurmak istediler; biz de onları en alçaklar (el-esfelîn) yaptık\""
 },
 {
 "blok": "B236",
 "nitelik_ayet": "85:7",
 "odul_ayet": "85:4",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "ham": "muminlere_iskence",
-"not_": "hendekçi grup: \"gebertildi\"; müminlere yaptıklarını seyrediyorlardı"
+"not_": "\"Hendek sahipleri kahrolsun / öldürüldü\" (kutile): beddua ya da haber olarak okunur; müminlere yaptıklarını seyrediyorlardı"
 },
 {
 "blok": "B236",
@@ -6640,7 +6631,7 @@
 "blok": "B116",
 "nitelik_ayet": "25:68",
 "odul_ayet": "25:69",
-"odul": "azap_katlama",
+"odul": "azap_katli",
 "derece": "✓",
 "ham": "zina",
 "not_": ""
@@ -6650,18 +6641,18 @@
 "nitelik_ayet": "29:28",
 "odul_ayet": "29:34",
 "odul": "gokten_felaket",
-"derece": "✓",
+"derece": "→",
 "ham": "fahsa_lut",
-"not_": "\"yaptıkları fenalıklardan ötürü gökten bir felaket\""
+"not_": "29:34 gökten felaket \"fıska sapmaları yüzünden\" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan"
 },
 {
 "blok": "B132",
 "nitelik_ayet": "29:29",
 "odul_ayet": "29:34",
 "odul": "gokten_felaket",
-"derece": "✓",
+"derece": "→",
 "ham": "erkeklere_gitme",
-"not_": ""
+"not_": "29:34 gökten felaket \"fıska sapmaları yüzünden\" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan"
 },
 {
 "blok": "B140",
@@ -6757,9 +6748,9 @@
 "nitelik_ayet": "4:161",
 "odul_ayet": "4:161",
 "odul": "azap_elim",
-"derece": "✓",
+"derece": "→",
 "ham": "riba",
-"not_": "ribâ almaları ve haksız yolla mal yemeleri (Yahudiler)"
+"not_": "ribâ almaları ve haksız yolla mal yemeleri; azap \"onlardan kâfir olanlar\"a (li'l-kâfirîne minhum) hazırlanmıştır"
 },
 {
 "blok": "B029",
@@ -6776,8 +6767,8 @@
 "odul_ayet": "9:34",
 "odul": "azap_elim",
 "derece": "✓",
-"ham": "kenz_ve_haksiz_mal",
-"not_": "haksız mal yeme, Allah yolundan alıkoyma, altın-gümüşü depolayıp Allah yolunda harcamama"
+"ham": "kenz_harcamama",
+"not_": "\"Altını ve gümüşü biriktirip Allah yolunda harcamayanlara acıklı azabı müjdele\""
 },
 {
 "blok": "B051",
@@ -6785,7 +6776,7 @@
 "odul_ayet": "9:35",
 "odul": "nar",
 "derece": "✓",
-"ham": "kenz_ve_haksiz_mal",
+"ham": "kenz_harcamama",
 "not_": "cehennem ateşinde alın, böğür ve sırtların dağlanması: \"biriktirmiş olduklarınızı tadın\""
 },
 {
@@ -6811,7 +6802,7 @@
 "nitelik_ayet": "11:84",
 "odul_ayet": "11:93",
 "odul": "azap_muhin",
-"derece": "✓",
+"derece": "→",
 "ham": "olcude_hile",
 "not_": "\"rezil edici azabın kime geleceğini bileceksiniz\""
 },
@@ -6946,7 +6937,7 @@
 "odul": "azap_gokten",
 "derece": "✓",
 "ham": "sozu_degistirme",
-"not_": "zulme sapanlar sözü değiştirdi: gökten pislik (rics) azabı \"çünkü zulmediyorlardı\" (kıssa)"
+"not_": "zulme sapanlar sözü değiştirdi: gökten bir azap (ricz) \"zulmettikleri için\" (kıssa)"
 }
 ]
 },
@@ -7113,8 +7104,8 @@
 "odul_ayet": "4:97",
 "odul": "cehennem",
 "derece": "✓",
-"ham": "hicret_etmeme_zulme_razi",
-"not_": "melekler: \"Allah'ın yeryüzü geniş değil miydi?\" \"işte varacakları yer cehennemdir\""
+"ham": "hicret_etmeyip_nefse_zulmetme",
+"not_": "melekler, kendilerine zulmederken canlarını aldıklarına: \"Allah'ın yeryüzü geniş değil miydi, hicret etseydiniz?\" \"Varacakları yer cehennemdir\""
 },
 {
 "blok": "B046",
@@ -7157,7 +7148,7 @@
 "nitelik_ayet": "9:49",
 "odul_ayet": "9:49",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "seferden_izin_isteme_fitne",
 "not_": "\"fitneden kurtulmak için izin isteyenler fitnenin içine düşmüştür; cehennem nankörleri kuşatacaktır\""
 },
@@ -7166,9 +7157,9 @@
 "nitelik_ayet": "9:81",
 "odul_ayet": "9:81",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "ham": "seferden_geri_kalma",
-"not_": "cihattan tiksinip oturduklarına sevinenler: \"cehennem hararet bakımından daha zorludur\""
+"not_": "\"Cehennem ateşi daha sıcaktır\": karşılaştırmalı uyarı"
 },
 {
 "blok": "B051",
@@ -7177,7 +7168,7 @@
 "odul": "muhurlenme",
 "derece": "✓",
 "ham": "seferden_geri_kalma",
-"not_": "geride kalan kadınlarla kalmayı yeğlediler: kalplerine mühür basıldı"
+"not_": "geride kalanlarla (el-havâlif) olmaya razı oldular: kalplerine mühür basıldı"
 },
 {
 "blok": "B051",
@@ -7202,18 +7193,9 @@
 {
 "id": "ibadet_ihmal",
 "grup": "İbadet",
-"etiket": "Namazı terk etmek, namazda gaflet, riya, kıyıdan ibadet",
-"ayet_sayisi": 7,
+"etiket": "Namazı terk etmek, namazda gaflet, riya, kıyıdan ibadet; ibadetten ve secdeden kaçınmak",
+"ayet_sayisi": 6,
 "kayitlar": [
-{
-"blok": "B071",
-"nitelik_ayet": "15:31",
-"odul_ayet": "15:35",
-"odul": "lanet",
-"derece": "→",
-"ham": "secde_etmeme_kibir",
-"not_": "İblis'in secdeye karşı çıkması: \"din gününe kadar üzerinde lanet var\""
-},
 {
 "blok": "B101",
 "nitelik_ayet": "22:11",
@@ -7274,7 +7256,7 @@
 "id": "genel_adlandirma",
 "grup": "Davranışı adlandırılmayanlar",
 "etiket": "Genel adlandırma: günah, suç, kötülük, fısk, sapıklık, hata",
-"ayet_sayisi": 37,
+"ayet_sayisi": 36,
 "kayitlar": [
 {
 "blok": "B005",
@@ -7343,7 +7325,7 @@
 "blok": "B045",
 "nitelik_ayet": "7:165",
 "odul_ayet": "7:165",
-"odul": "azap_elim",
+"odul": "azap",
 "derece": "✓",
 "ham": "fisk",
 "not_": "\"yoldan çıkmalarından ötürü\""
@@ -7398,7 +7380,7 @@
 "nitelik_ayet": "17:17",
 "odul_ayet": "17:17",
 "odul": "helak",
-"derece": "✓",
+"derece": "→",
 "ham": "gunah",
 "not_": "\"Nûh'tan sonra nice kuşakları helak ettik; günahlarını görmeye Rabbin yeter\""
 },
@@ -7418,7 +7400,7 @@
 "odul": "cehennem",
 "derece": "✓",
 "ham": "suc_isleme",
-"not_": "\"suçluları susuz ve yaya olarak cehenneme sevk ederiz\""
+"not_": "\"Suçluları cehenneme susuz (vird) olarak süreriz\""
 },
 {
 "blok": "B094",
@@ -7436,7 +7418,7 @@
 "odul": "nar",
 "derece": "✓",
 "ham": "kotuluk_getirme",
-"not_": "\"Kötülük getirenlerin yüzleri ateşte sürtülür\""
+"not_": "\"Kötülük getirenler yüzüstü ateşe atılır (kubbet vucûhuhum)\""
 },
 {
 "blok": "ZY",
@@ -7637,22 +7619,13 @@
 "not_": "\"kazanmakta oldukları kalplerinin üstünde pas oluşturmuştur... Rablerine karşı perdelenmişlerdir\""
 },
 {
-"blok": "B238",
-"nitelik_ayet": "88:3",
-"odul_ayet": "88:4",
-"odul": "nar",
-"derece": "?",
-"ham": "boşa_calisma",
-"not_": "88:2-4 yüzler: zilletle eğilmiş, çalışıp boşa yorulmuş, ateşe dalarlar; davranış adlandırılmaz"
-},
-{
 "blok": "B244",
 "nitelik_ayet": "92:15",
 "odul_ayet": "92:15",
 "odul": "nar",
 "derece": "✓",
-"ham": "siddete_dusku_bedbaht",
-"not_": "\"Şiddete çok düşkün bedbahttan başkası girmez ona\""
+"ham": "en_bedbaht",
+"not_": "\"Ona ancak en bedbaht olan (el-eşqâ) girer\""
 }
 ]
 },
@@ -7660,7 +7633,7 @@
 "id": "sonuc_tanimi",
 "grup": "Davranışı adlandırılmayanlar",
 "etiket": "Davranış söylenmeden sonuçla tanımlananlar: tartıları hafif gelenler, adıyla anılanlar",
-"ayet_sayisi": 3,
+"ayet_sayisi": 4,
 "kayitlar": [
 {
 "blok": "B109",
@@ -7670,6 +7643,15 @@
 "derece": "✓",
 "ham": "mizan_hafif",
 "not_": "\"tartıları hafif gelenler... sürekli cehennemde kalanlar\""
+},
+{
+"blok": "B238",
+"nitelik_ayet": "88:3",
+"odul_ayet": "88:4",
+"odul": "nar",
+"derece": "?",
+"ham": "calisip_yorulan_yuzler",
+"not_": "88:2-4 o gün yüzler: zilletle eğilmiş, çalışıp yorulmuş (âmiletun nâsıbe), kızgın ateşe girer; davranış adlandırılmaz"
 },
 {
 "blok": "B246",
@@ -7725,10 +7707,6 @@
 "2:10": {
 "ar": "فِى قُلُوبِهِم مَّرَضٌ فَزَادَهُمُ ٱللَّهُ مَرَضًا ۖ وَلَهُمْ عَذَابٌ أَلِيمٌۢ بِمَا كَانُوا۟ يَكْذِبُونَ",
 "tr": "Kalplerinde bir hastalık vardır da Allah onları hastalık yönünden daha ileri götürmüştür. Ve onlar için, yalancılık etmiş olmaları yüzünden acıklı bir azap öngörülmüştür."
-},
-"2:23": {
-"ar": "وَإِن كُنتُمْ فِى رَيْبٍ مِّمَّا نَزَّلْنَا عَلَىٰ عَبْدِنَا فَأْتُوا۟ بِسُورَةٍ مِّن مِّثْلِهِۦ وَٱدْعُوا۟ شُهَدَآءَكُم مِّن دُونِ ٱللَّهِ إِن كُنتُمْ صَـٰدِقِينَ",
-"tr": "Eğer kulumuza indirdiğimizden kuşku içindeyseniz, hadi onun benzerinden bir sure getirin! Allah dışındaki destekçilerinizi / tanıklarınızı da çağırın. Eğer doğru sözlü kişilerseniz..."
 },
 "2:24": {
 "ar": "فَإِن لَّمْ تَفْعَلُوا۟ وَلَن تَفْعَلُوا۟ فَٱتَّقُوا۟ ٱلنَّارَ ٱلَّتِى وَقُودُهَا ٱلنَّاسُ وَٱلْحِجَارَةُ ۖ أُعِدَّتْ لِلْكَـٰفِرِينَ",
@@ -9370,10 +9348,6 @@
 "ar": "وَقَوْمَ نُوحٍ لَّمَّا كَذَّبُوا۟ ٱلرُّسُلَ أَغْرَقْنَـٰهُمْ وَجَعَلْنَـٰهُمْ لِلنَّاسِ ءَايَةً ۖ وَأَعْتَدْنَا لِلظَّـٰلِمِينَ عَذَابًا أَلِيمًا",
 "tr": "Ve Nûh kavmi... Resulleri yalanladıklarında hepsini boğup, insanlara bir ibret yaptık. Zalimler için acıklı bir azap hazırladık."
 },
-"25:40": {
-"ar": "وَلَقَدْ أَتَوْا۟ عَلَى ٱلْقَرْيَةِ ٱلَّتِىٓ أُمْطِرَتْ مَطَرَ ٱلسَّوْءِ ۚ أَفَلَمْ يَكُونُوا۟ يَرَوْنَهَا ۚ بَلْ كَانُوا۟ لَا يَرْجُونَ نُشُورًا",
-"tr": "Yemin olsun, onlar o kötülük yağmuruna tutulan kente vardılar. Peki onu görmüyorlar mıydı? Hayır, onlar dirilip hesap vermeyi ummuyorlardı."
-},
 "25:42": {
 "ar": "إِن كَادَ لَيُضِلُّنَا عَنْ ءَالِهَتِنَا لَوْلَآ أَن صَبَرْنَا عَلَيْهَا ۚ وَسَوْفَ يَعْلَمُونَ حِينَ يَرَوْنَ ٱلْعَذَابَ مَنْ أَضَلُّ سَبِيلًا",
 "tr": "\"Eğer biz kendilerine bağlılıkta sabırlı olmasaydık, bu bizi ilahlarımızdan saptıracaktı.\" Azabı gördüklerinde, yolca kimin daha sapık olduğunu bilecekler."
@@ -10934,9 +10908,9 @@
 "ar": "فَأُمُّهُۥ هَاوِيَةٌ",
 "tr": "Anası, Hâviye'dir."
 },
-"102:2": {
-"ar": "حَتَّىٰ زُرْتُمُ ٱلْمَقَابِرَ",
-"tr": "Öyle ki, ziyaret edip saydınız kabirleri."
+"102:1": {
+"ar": "أَلْهَىٰكُمُ ٱلتَّكَاثُرُ",
+"tr": "Aldatıp oyaladı o çokluk yarışı sizleri,"
 },
 "102:6": {
 "ar": "لَتَرَوُنَّ ٱلْجَحِيمَ",
@@ -10988,12 +10962,12 @@
 }
 },
 "istatistik": {
-"kayit": 785,
-"ayet": 819,
+"kayit": 784,
+"ayet": 817,
 "derece": {
-"✓": 722,
-"→": 58,
-"?": 5
+"✓": 678,
+"→": 102,
+"?": 4
 }
 }
 }

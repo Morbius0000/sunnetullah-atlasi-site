@@ -2,7 +2,7 @@ K3a	infak	2:3	2:3	-	✓	"Kendilerine rızk olarak verdiklerimizden başkalarına
 K3a	zekat	2:43	2:43	-	✓	"Namazı kılın, zekâtı verin"	emir
 K3a	zekat	2:83	2:83	-	✓	"İsrailoğullarından söz: namazı kılın, zekâtı verin"	emir
 K3a	zekat	2:110	2:110	-	✓	"Namazı kılın, zekâtı verin; önden gönderdiğiniz her hayrı Allah katında bulacaksınız"	emir
-K3a	zekat	2:110	2:110	karsilik	✓	"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz" (namaz ve zekât emrinin hemen ardından)	sonuc
+K3a	zekat	2:110	2:110	karsilik	→	"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz" (namaz ve zekât emrinin hemen ardından)	sonuc
 K3a	infak	2:177	2:177	-	✓	Erdem (el-birr; mealde "zafer ve mutluluğa ermek"): malı, ona duyduğu sevgiye rağmen vermek	tanim
 K3a	zekat	2:177	2:177	-	✓	Erdem (el-birr; mealde "zafer ve mutluluğa ermek"): namazı kılmak, zekâtı vermek	tanim
 K3a	infak	2:195	2:195	sevgi	→	"Allah yolunda harcayın... güzel davranın; Allah güzel davrananları (el-muhsinîn) sever": sevgi muhsinlere bağlanır, infak→sevgi bağı ihsan üzerinden kurulur	emir
@@ -25,10 +25,10 @@ K3a	zekat	2:277	2:277	ecir	✓	"İman edip salih işler yapan, namazı kılan, z
 K3a	sadaka	2:280	2:280	hayir	✓	"Borcunu sadaka olarak ona bağışlamanız sizin için daha hayırlıdır"	sonuc
 K3a	infak	3:17	3:17	-	✓	"Sabredenler, doğru olanlar... nimet ve imkânlardan başkalarını yararlandıranlar"	tanim
 K3a	infak	3:92	3:92	-	✓	"Sevdiğiniz şeylerden infak etmedikçe hayırda erginliğe asla ulaşamazsınız"	tanim
-K3a	infak	3:117	3:117	amel_bosa	✓	"Küfre sapanların bu dünyada harcadıkları, ekini mahveden kavurucu soğuk rüzgâr gibidir"	sonuc
-K3a	infak	3:134	3:134	sevgi	✓	"Bollukta ve darlıkta infak edenler; Allah güzel davrananları sever"	tanim
-K3b	cimrilik	3:180	3:180	azap	✓	"Allah'ın lütfundan verdiği şeyde cimrilik edenler: cimrilik ettikleri şey kıyamet günü boyunlarına dolanacak"	sonuc
-K3b	cimrilik	4:37	4:37	azap_hizy	→	Cimriliğe sapanlar, insanlara cimriliği emredenler ve Allah'ın lütfunu saklayanlar; azap ayette "kâfirler için hazırlandı" diye bildirilir, cimrilerle özdeşleştirme bağlamdandır	sonuc
+K3a	infak	3:117	3:117	amel_bosa	→	Benzetme: "Küfre sapanların bu dünyada harcadıkları, kendine zulmeden bir topluluğun ekinini vurup yok eden kavurucu soğuk rüzgâra benzer"	sonuc
+K3a	infak	3:134	3:134	sevgi	→	"Bollukta ve darlıkta infak edenler... Allah güzel davrananları (el-muhsinîn) sever": sevgi muhsinlere bağlanır	tanim
+K3b	cimrilik	3:180	3:180	boyuna_dolanma	✓	"Allah'ın lütfundan verdiği şeyde cimrilik edenler: cimrilik ettikleri şey kıyamet günü boyunlarına dolanacaktır"	sonuc
+K3b	cimrilik	4:37	4:37	azap_muhin	→	Cimriliğe sapanlar, insanlara cimriliği emredenler ve Allah'ın lütfunu saklayanlar; azap ayette "kâfirler için hazırlandı" diye bildirilir, cimrilerle özdeşleştirme bağlamdandır	sonuc
 K3b	infak	4:38	4:38	-	✓	"Allah'a ve ahirete inanmayıp halka gösteriş için mallarını dağıtanlar"	tanim
 K3b	infak	4:39	4:39	-	✓	"Allah'a ve ahirete inanıp Allah'ın verdiği rızıktan dağıtsalardı"	tanim
 K3b	zekat	4:77	4:77	-	✓	"Kendilerine 'namazı kılın, zekâtı verin' denilen kimseler"	tanim

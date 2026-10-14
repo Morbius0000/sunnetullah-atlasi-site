@@ -37,7 +37,7 @@ K7b	temiz_ve_helal_yeme	5:88	5:88	-	✓	"Allah'ın size helal ve temiz olarak ve
 K7b	sarap_ve_kumar	5:90	5:90	-	✓	"Uyuşturucu/şarap, kumar, dikili taşlar, fal okları şeytan işi birer pisliktir; bunlardan uzak durun ki kurtuluşa eresiniz"	yasak
 K7b	sarap_ve_kumar	5:90	5:90	felah	✓	"Bunlardan uzak durun ki kurtuluşa eresiniz"	sonuc
 K7b	sarap_ve_kumar	5:91	5:91	-	✓	Şeytan şarap ve kumarla "aranıza düşmanlık ve nefret yerleştirip sizi Allah'ı anmaktan, namazdan geri çevirmek ister"	tanim
-K7c	av_ve_ihram	5:94	5:94	azap_korkunc	✓	Av ile deneme: "Bundan sonra azıp sınırı çiğneyen için korkunç bir azap olacaktır"	sonuc
+K7c	av_ve_ihram	5:94	5:94	azap_elim	✓	Av ile deneme: "Bundan sonra azıp sınırı çiğneyen için korkunç bir azap olacaktır"	sonuc
 K7c	av_ve_ihram	5:95	5:95	-	✓	"İhramda olduğunuz zaman av öldürmeyin"	yasak
 K7c	av_ve_ihram	5:95	5:95	denk_ceza	✓	Kasten öldürenin cezası: öldürdüğüne denk kurbanlık, yahut yoksullara yedirme, yahut buna denk oruç; "yaptığının vebalini tatsın"	sonuc
 K7c	av_ve_ihram	5:96	5:96	-	✓	"Deniz avı yapmak ve onu yemek size helal kılındı. Fakat ihramlı olduğunuz sürece karada avlanmak size haram edilmiştir"	yasak

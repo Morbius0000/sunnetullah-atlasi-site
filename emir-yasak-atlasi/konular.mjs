@@ -31,7 +31,7 @@ export const odulAdi = {
   kurtulus: 'Kurtuluş', akibet: 'Güzel son (âkıbet)', 'rıza': 'Rıza', selam: 'Selam', tuba: 'Tûbâ', likaullah: 'Rabbe kavuşma',
   sukranla_karsilanma: 'Çabanın şükranla karşılanması', seytandan_korunma: 'Şeytandan korunma', hayat_tayyibe_ecir: 'Güzel hayat ve ecir',
   kendi_lehine: 'Kendi lehine', yukselme: 'Yükselme', yerine_konma: 'Yerine konma', diledikleri: 'Dilediği her şey',
-  allah_katindaki: 'Allah katındaki (daha hayırlı)', goz_aydinligi: 'Gizlenmiş göz aydınlığı', dua_kabulu: 'Duanın kabulü',
+  allah_katindaki: 'Allah katındaki (daha hayırlı)', goz_aydinligi: 'Gizlenmiş göz aydınlığı', dua_kabulu: 'Duaya icabet',
   esitsizlik: 'Kötülerle bir tutulmama', velayet: 'Allah\'ın dostluğu', yardim: 'Yardım', yardim_sebat: 'Yardım ve sebat',
   hidayet_artisi: 'Hidayetin artması', hidayet_artisi_takva: 'Hidayet artışı ve takva', kifayet: 'Allah\'ın yetmesi',
   cikis_rizik: 'Çıkış yolu ve rızık', kolaylik: 'Kolaylık', seyyiat_ortme_ecir: 'Kötülüklerin örtülmesi ve büyük ecir',
@@ -46,5 +46,6 @@ export const odulAdi = {
   furkan_ortme: 'Furkan ve kötülüklerin örtülmesi', karsitlik: 'Karşıtıyla bir olmamak',
   hayat: 'Hayat', '-': '—', azap: 'Azap', vaat: 'Vaat', gunah_yok: 'Günah yok', hasene: 'Güzellik (hasene)',
   sorumluluk_yok: 'Aleyhine yol (sorumluluk) yok', allah_beraberligi: 'Allah\'ın beraberliği', saglam_kulp: 'En sağlam kulpa tutunma',
-  allahin_ahde_vefasi: 'Allah\'ın da ahdine vefası', kolaylik: 'Güçlükten sonra kolaylık', yol_serbest: 'Yolunun serbest bırakılması', din_kardesligi: 'Dinde kardeşlik',
+  allahin_ahde_vefasi: 'Allah\'ın da ahdine vefası', yol_serbest: 'Yolunun serbest bırakılması', din_kardesligi: 'Dinde kardeşlik',
+  gurfe: 'Gurfe (yüksek köşk)', genislik: 'Allah\'ın genişlik vermesi',
 };

@@ -15,8 +15,8 @@ B005	iman	2:82	2:82	cennet	✓
 B005	salih_amel	2:82	2:82	cennet	✓
 B006	iman	2:103	2:103	sevap	✓	şart cümlesi: iman edip sakınsalardı
 B006	takva	2:103	2:103	sevap	✓
-B006	namaz	2:110	2:110	karsilik	✓	önden gönderilen hayır Allah katında bulunur
-B006	zekat	2:110	2:110	karsilik	✓
+B006	namaz	2:110	2:110	karsilik	→	"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz": genel hayır cümlesi, namaz ve zekât emrinin hemen ardında
+B006	zekat	2:110	2:110	karsilik	→	"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz": genel hayır cümlesi, namaz ve zekât emrinin hemen ardında
 B006	teslimiyet	2:112	2:112	ecir	✓	eslema vechehû lillâh
 B006	ihsan	2:112	2:112	ecir	✓	ve huve muhsin
 B006	RED:grup_aidiyeti	2:111	2:112	cennet	✓	"Yahudi/Hristiyan olmayan giremez" iddiası 'bela' ile reddedilir
@@ -49,12 +49,12 @@ B012	iman	2:277	2:277	ecir	✓
 B012	salih_amel	2:277	2:277	ecir	✓
 B012	namaz	2:277	2:277	ecir	✓
 B012	zekat	2:277	2:277	ecir	✓
-B012	borcluya_mehil_bagislama	2:280	2:280	hayir	✓	"daha hayırlıdır"
+B012	borcu_bagislamak	2:280	2:280	hayir	✓	"Borçlu darlıktaysa genişliğe kadar mühlet; sadaka olarak bağışlamanız sizin için daha hayırlıdır": "hayırlı" bağışlamaya bağlanır
 B013	takva	3:15	3:15	cennet	✓	cennet + rıdvan
 B013	iman_ve_magfiret_dilemek	3:16	3:15	cennet	✓	3:16-17 'ellezîne' sıfatları 3:15'teki müttakileri niteler
 B013	sabir	3:17	3:15	cennet	✓
 B013	sidk	3:17	3:15	cennet	✓	es-sâdikîn
-B013	kunut	3:17	3:15	cennet	✓	el-kânitîn
+B013	kunut	3:17	3:15	cennet	✓	el-kânitîn (gönülden boyun eğenler); 3:15 "müttakiler için cennetler"
 B013	infak	3:17	3:15	cennet	✓
 B013	seherde_istigfar	3:17	3:15	cennet	✓
 B015	iman	3:57	3:57	ecir	✓
@@ -78,7 +78,7 @@ B018	sukur	3:145	3:145	karsilik	✓
 B018	sebat_ve_istigfar	3:146	3:148	ahiret_sevabi	✓	3:146-147 nitelikleri; ihsan sevgisi 3:148
 B019	fisebilillah_olum	3:157	3:157	magfiret	✓
 B019	allah_rizasina_uymak	3:162	3:162	karsitlik	✓	gazaba uğrayanla bir değil; 3:163 dereceler
-B019	allah_yolunda_olum	3:169	3:170	rizik	✓	Rableri katında rızıklandırılırlar
+B019	allah_yolunda_oldurulme	3:169	3:169	rizik	✓	"Allah yolunda öldürülenleri (kutilû) ölü sanma; Rableri katında rızıklandırılırlar"
 B019	yaraya_ragmen_cagriya_uymak	3:172	3:172	ecir	✓
 B019	ihsan	3:172	3:172	ecir	✓
 B019	takva	3:172	3:172	ecir	✓
@@ -86,7 +86,7 @@ B019	tevekkul	3:173	3:174	fazl	✓	hasbunallah; nimet ve fazl ile döndüler
 B019	iman	3:179	3:179	ecir	✓
 B019	takva	3:179	3:179	ecir	✓
 B019	ateşten_uzaklastirilip_cennete	3:185	3:185	fevz	?	nitelik yok; kurtuluşun tanımı
-B020	zikir_ve_tefekkur	3:191	3:195	cennet	✓	3:191-194 duası; 3:195 icabet
+B020	zikir_ve_tefekkur	3:191	3:195	dua_kabulu	✓	3:191-194 zikir, tefekkür ve dua; 3:195 "Rableri onlara icabet etti: hiçbir amelinizi zayi etmem". Cennet 3:195'te hicret edip savaşanlara bağlanır
 B020	hicret	3:195	3:195	cennet	✓	seyyiat örtülür + cennet
 B020	yurdundan_cikarilmak	3:195	3:195	cennet	✓
 B020	allah_yolunda_eziyet	3:195	3:195	cennet	✓
@@ -162,7 +162,7 @@ B039	ihsan	6:84	6:84	karsilik	✓	nebiler bağlamı: muhsinleri böyle ödüllen
 B040	hasat_hakkini_vermek	6:141	6:141	-	→	emir; ödül adı yok (infak ve israf: Konu 3 ve 6)
 B040	kitaba_uymak_takva	6:155	6:155	rahmet	✓	le'allekum turhamûn
 B040	hasene	6:160	6:160	kat_kat	✓	on katı; kötülüğe misli kadar (konu 10)
-B040	RED:son_anda_iman	6:158	6:158	-	✓	ayetler gelince iman fayda vermez (konu 10)
+B040	RED:son_anda_iman	6:158	6:158	-	✓	"Rabbinin ayetlerinden bazısı geldiği gün, önceden iman etmemiş kişiye imanı fayda vermez" (konu 10)
 B041	mizan_agir_basmasi	7:8	7:8	felah	✓	ameller tartılır (konu 10)
 B042	takva	7:26	7:26	hayir	✓	takva elbisesi hayırlı
 B043	takva	7:35	7:35	korku_yok	✓
@@ -172,8 +172,8 @@ B043	iman	7:42	7:42	cennet	✓	güç yetirilen kadar yükümlülük
 B043	salih_amel	7:42	7:42	cennet	✓
 B043	amel	7:43	7:43	cennet	✓	bimâ kuntum ta'melûn: amellere karşılık mirasçı kılınma
 B043	ihsan	7:56	7:56	rahmet	✓	rahmet muhsinlere yakındır
-B043	korku_ve_umitle_dua	7:56	7:56	rahmet	✓
-B043	bozgunculuk_yapmamak	7:56	7:56	rahmet	✓
+B043	korku_ve_umitle_dua	7:56	7:56	rahmet	→	rahmet ayette "güzel davrananlar"a (el-muhsinîn) yakındır; bu davranışla bağ bağlamsal
+B043	bozgunculuk_yapmamak	7:56	7:56	rahmet	→	rahmet ayette "güzel davrananlar"a (el-muhsinîn) yakındır; bu davranışla bağ bağlamsal
 B044	allahin_nimetlerini_anmak	7:69	7:69	felah	✓	le'allekum (Hûd kıssası)
 B046	sabir	7:137	7:137	vaat	✓	bimâ saberû; dünyevî mirasçılık (kıssa)
 B047	tevbe_iman	7:153	7:153	magfiret	✓	kötülükten sonra tevbe ve iman
@@ -203,7 +203,7 @@ B056	mescit_imari_iman_namaz_zekat	9:18	9:18	hidayet	✓	'asâ': umulur
 B056	iman	9:20	9:21	cennet	✓	derece yüce; fâizûn; rahmet, rıdvan, cennet
 B056	hicret	9:20	9:21	cennet	✓
 B056	mal_ve_canla_cihad	9:20	9:21	cennet	✓
-B056	allahi_her_seyden_cok_sevmek	9:24	9:24	-	✓	tersi tehdit: aile/mal Allah'tan sevimliyse bekleyin
+B056	allahi_her_seyden_cok_sevmek	9:24	9:24	-	→	ayet olumsuzu söyler: "aile, mal, ticaret ve meskenler size Allah'tan, resulünden ve cihaddan daha sevimliyse bekleyin"; olumlu nitelik bundan çıkarılır
 B057	RED:altin_gumus_biriktirip_infak_etmemek	9:34	9:34	azap	✓	konu 9
 B059	marufu_emir_munkerden_nehiy	9:71	9:72	cennet	✓	9:71 mü'min erkek ve kadınların nitelikleri; 9:72 vaat
 B059	namaz	9:71	9:72	cennet	✓
@@ -220,7 +220,7 @@ B061	mal_ve_canla_cihad	9:111	9:111	cennet	✓	Allah canları ve malları cennet
 B061	tevbe	9:112	9:112	mujde	✓	9:112 sıfatları 9:111 mü'minlerini niteler (et-tâibûn...)
 B061	ibadet	9:112	9:112	mujde	✓
 B061	hamd	9:112	9:112	mujde	✓
-B061	siyahat	9:112	9:112	mujde	✓	es-sâihûn (YN: seyahatte oruç tutanlar; anlamı tartışmalı)
+B061	siyahat	9:112	9:112	mujde	?	es-sâihûn: kelime "dolaşanlar/yolculuk edenler" ya da "oruç tutanlar" diye okunur; YN meali yorumludur. Anlamı lafızdan kesinleşmez
 B061	ruku_secde	9:112	9:112	mujde	✓
 B061	marufu_emir_munkerden_nehiy	9:112	9:112	mujde	✓
 B061	hududullahi_korumak	9:112	9:112	mujde	✓
@@ -234,7 +234,7 @@ B062	salih_amel	10:9	10:9	cennet	✓
 B063	ihsan	10:26	10:26	cennet	✓	hüsnâ ve ziyade
 B064	iman	10:63	10:62	korku_yok	✓	evliyâullah tanımı: iman + takva; 10:64 iki dünyada müjde
 B064	takva	10:63	10:62	korku_yok	✓
-B065	tevekkul	10:84	10:86	dunyevi_kurtulus	→	kıssa (Musa kavmi)
+B065	tevekkul	10:84	10:86	dunyevi_kurtulus	→	Mûsâ: "Allah'a iman ettiyseniz O'na tevekkül edin"; 10:86 "bizi kâfirler topluluğundan kurtar" bir duadır, kurtarılış 10:90'da anlatılır
 B066	sabir	11:11	11:11	magfiret_ecir	✓
 B066	salih_amel	11:11	11:11	magfiret_ecir	✓
 B066	iman	11:23	11:23	cennet	✓
@@ -249,7 +249,7 @@ B069	saadet	11:108	11:108	cennet	?	"suidû": nitelik belirtilmez; mutluluğa erd
 B069	istikamet	11:112	11:112	-	→	emir; sonuç 11:115
 B069	namaz	11:114	11:114	gunah_silme	✓	hasenat seyyiatı giderir
 B069	sabir	11:115	11:115	ecir	✓	muhsinlerin ecri zayi olmaz
-B069	islah_ehli_olmak	11:117	11:117	helaktan_korunma	✓	halkı muslih olan kentler helak edilmez
+B069	islah_ehli_olmak	11:117	11:117	helaktan_korunma	✓	"Rabbin, halkı ıslah edici iken kentleri zulümle (bi-zulmin) helâk edecek değildir"
 B071	ihsan	12:56	12:56	ecir	✓	Yusuf kıssasında genel hüküm
 B071	iman	12:57	12:57	ahiret_ecri	✓
 B071	takva	12:57	12:57	ahiret_ecri	✓
@@ -257,16 +257,16 @@ B074	takva	12:90	12:90	ecir	✓	men yettaki ve yasbir
 B074	sabir	12:90	12:90	ecir	✓
 B075	takva	12:109	12:109	ahiret_hayirli	✓
 B077	rabbin_cagrisina_uymak	13:18	13:18	husna	✓
-B077	ahde_vefa	13:20	13:22	cennet	✓	13:19-22 ulul-elbab nitelikleri; 13:22 ukbe'd-dâr; 13:23 Adn
-B077	misaki_bozmamak	13:20	13:22	cennet	✓
-B077	allahin_birlestirilmesini_emrettigini_ulastirmak	13:21	13:22	cennet	✓	sıla
-B077	rabden_korkmak_hesaptan_urpermek	13:21	13:22	cennet	✓
-B077	allah_rizasi_icin_sabir	13:22	13:22	cennet	✓
-B077	namaz	13:22	13:22	cennet	✓
-B077	gizli_acik_infak	13:22	13:22	cennet	✓
-B077	kotulugu_iyilikle_savmak	13:22	13:22	cennet	✓
+B077	ahde_vefa	13:20	13:23	cennet	✓	13:19-22 ulu'l-elbâb nitelikleri; 13:22 "yurdun güzel sonu (ukbe'd-dâr) onlarındır", 13:23 "Adn cennetleri"
+B077	misaki_bozmamak	13:20	13:23	cennet	✓
+B077	allahin_birlestirilmesini_emrettigini_ulastirmak	13:21	13:23	cennet	✓	sıla
+B077	rabden_korkmak_hesaptan_urpermek	13:21	13:23	cennet	✓
+B077	allah_rizasi_icin_sabir	13:22	13:23	cennet	✓
+B077	namaz	13:22	13:23	cennet	✓
+B077	gizli_acik_infak	13:22	13:23	cennet	✓
+B077	kotulugu_iyilikle_savmak	13:22	13:23	cennet	✓
 B077	salih_akrabalar	13:23	13:23	cennet	✓	salih olan ataları, eşleri, zürriyetleri de girer
-B077	iman_ve_zikirle_itminan	13:28	13:29	tuba	✓
+B077	iman_ve_zikirle_itminan	13:28	13:29	tuba	→	13:29 "tûbâ" yeni bir ilgi cümlesiyle "iman edip salih amel işleyenler"e bağlanır; zikirle itminan (13:28) bağı bağlamsal
 B077	iman	13:29	13:29	tuba	✓
 B077	salih_amel	13:29	13:29	tuba	✓
 B077	takva	13:35	13:35	cennet	✓
@@ -302,8 +302,8 @@ B095	iman	18:88	18:88	husna	✓	Zülkarneyn'in sözü
 B095	salih_amel	18:88	18:88	husna	✓
 B097	iman	18:107	18:107	cennet	✓	Firdevs
 B097	salih_amel	18:107	18:107	cennet	✓
-B097	salih_amel	18:110	18:110	likaullah	✓	Rabbine kavuşmayı uman salih amel yapsın
-B097	ibadette_sirk_kosmamak	18:110	18:110	likaullah	✓
+B097	salih_amel	18:110	18:110	-	→	"Rabbine kavuşmayı uman salih amel işlesin, ibadette ortak koşmasın": kavuşma umulan şeydir, ödül olarak vaat edilmez
+B097	ibadette_sirk_kosmamak	18:110	18:110	-	→	"Rabbine kavuşmayı uman salih amel işlesin, ibadette ortak koşmasın": kavuşma umulan şeydir, ödül olarak vaat edilmez
 B099	takva_ve_anne_babaya_iyilik	19:13	19:15	selam	→	Yahya; zorba-isyankâr değil
 B100	tevbe	19:60	19:60	cennet	✓	namazı yitiren nesilden istisna
 B100	iman	19:60	19:60	cennet	✓
@@ -333,7 +333,7 @@ B114	allah_anilinca_urpermek	22:35	22:34	mujde	✓
 B114	sabir	22:35	22:34	mujde	✓
 B114	namaz	22:35	22:34	mujde	✓
 B114	infak	22:35	22:34	mujde	✓
-B114	takva	22:37	22:37	mujde	✓	Allah'a ulaşan takvadır; muhsinlere müjde
+B114	takva	22:37	22:37	mujde	→	Allah'a ulaşan takvadır; müjde ayette "güzel davrananlar"a (el-muhsinîn) verilir
 B114	ihsan	22:37	22:37	mujde	✓
 B114	allaha_yardim	22:40	22:40	yardim	✓	Allah kendisine yardım edene yardım eder
 B115	iman	22:50	22:50	magfiret	✓	rızk-ı kerîm
@@ -351,28 +351,28 @@ B117	emanet_ve_ahde_riayet	23:8	23:11	cennet	✓
 B117	namazlari_korumak	23:9	23:11	cennet	✓
 B119	mizan_agir_basmasi	23:102	23:102	felah	✓	soy bağı fayda vermez (23:101)
 B120	tevbe	24:31	24:31	felah	✓	le'allekum
-B120	harama_bakmamak_iffet	24:30	24:30	arinma	✓	ezkâ lehum
+B120	bakislari_kisma_iffet	24:30	24:30	arinma	✓	"Bakışlarından kıssınlar (yeğuddû min ebsârihim), ırzlarını korusunlar; bu onlar için daha temizdir" (ezkâ lehum)
 B120	affetmek_hosgormek	24:22	24:22	magfiret	✓	"Allah'ın sizi affetmesini istemez misiniz"
 B120	temizlik_iffet	24:26	24:26	magfiret	→	tayyibler; mağfiret ve rızk-ı kerîm; "tayyib" iffet olarak okunmuştur (ifk bağlamı)
 B121	isittik_itaat_ettik	24:51	24:51	felah	✓
 B121	itaat_allah_resul	24:52	24:52	fevz	✓
 B121	allaha_saygi_ve_takva	24:52	24:52	fevz	✓
 B122	takva	25:15	25:15	cennet	✓	cennetü'l-huld
-B124	tevazu_ile_yurumek	25:63	25:75	cennet	✓	Furkan 63-74 'ibâdurrahmân'; ulaike 25:75 gurfe
-B124	cahillere_selam	25:63	25:75	cennet	✓
-B124	gece_secde_kiyam	25:64	25:75	cennet	✓
-B124	cehennemden_siginma_duasi	25:65	25:75	cennet	✓
-B124	infakta_itidal	25:67	25:75	cennet	✓	ne israf ne cimrilik
-B124	sirk_kosmamak	25:68	25:75	cennet	✓
-B124	haksiz_yere_cana_kiymamak	25:68	25:75	cennet	✓
-B124	zina_etmemek	25:68	25:75	cennet	✓
+B124	tevazu_ile_yurumek	25:63	25:75	gurfe	✓	Furkan 63-74 'ibâdurrahmân'; ulaike 25:75 gurfe
+B124	cahillere_selam	25:63	25:75	gurfe	✓
+B124	gece_secde_kiyam	25:64	25:75	gurfe	✓
+B124	cehennemden_siginma_duasi	25:65	25:75	gurfe	✓
+B124	infakta_itidal	25:67	25:75	gurfe	✓	ne israf ne cimrilik
+B124	sirk_kosmamak	25:68	25:75	gurfe	✓
+B124	haksiz_yere_cana_kiymamak	25:68	25:75	gurfe	✓
+B124	zina_etmemek	25:68	25:75	gurfe	✓
 B124	tevbe_iman_salih_amel	25:70	25:70	seyyiatin_hasenata_donmesi	✓
-B124	yalana_sahitlik_etmemek	25:72	25:75	cennet	✓	lâ yeşhedûne'z-zûr
-B124	bos_soze_vakarla_gecmek	25:72	25:75	cennet	✓
-B124	ayetlere_kor_sagir_kapanmamak	25:73	25:75	cennet	✓
-B124	aile_icin_dua_takvaya_onderlik	25:74	25:75	cennet	✓
-B124	sabir	25:75	25:75	cennet	✓	bimâ saberû
-B127	kalb_selim	26:89	26:89	kurtulus	✓	mal ve oğullar fayda vermez
+B124	yalana_sahitlik_etmemek	25:72	25:75	gurfe	✓	lâ yeşhedûne'z-zûr
+B124	bos_soze_vakarla_gecmek	25:72	25:75	gurfe	✓
+B124	ayetlere_kor_sagir_kapanmamak	25:73	25:75	gurfe	✓
+B124	aile_icin_dua_takvaya_onderlik	25:74	25:75	gurfe	✓
+B124	sabir	25:75	25:75	gurfe	✓	bimâ saberû
+B127	kalb_selim	26:89	26:89	kurtulus	→	"Malın ve oğulların fayda vermediği gün, Allah'a selim bir kalple gelen müstesna": ayet istisnayı bildirir, "kurtuluş" adını vermez
 B127	takva	26:90	26:90	cennet	✓	cennet müttakilere yaklaştırılır
 B133	namaz	27:3	27:2	mujde	✓	27:3 mü'minlerin sıfatı
 B133	zekat	27:3	27:2	mujde	✓
@@ -427,7 +427,7 @@ B147	sadaka	33:35	33:35	magfiret_ecir	✓
 B147	oruc	33:35	33:35	magfiret_ecir	✓
 B147	iffet	33:35	33:35	magfiret_ecir	✓
 B147	zikir	33:35	33:35	magfiret_ecir	✓	Allah'ı çok anmak
-B148	zikir_tesbih	33:41	33:44	ecir	✓	33:41-43 ardından ecr-i kerîm (mü'minler)
+B148	zikir_tesbih	33:41	33:44	ecir	→	33:41-43 zikir emri; 33:44 "onlar için onurlu bir ecir hazırladı" müminlere (33:43) döner
 B148	iman	33:47	33:47	fazl	✓
 B149	iman	34:4	34:4	magfiret	✓	rızk-ı kerîm
 B149	salih_amel	34:4	34:4	magfiret	✓
@@ -437,7 +437,7 @@ B150	RED:mal_evlat	34:37	34:37	-	✓	mal ve evlat Allah'a yaklaştırmaz
 B150	infak	34:39	34:39	yerine_konma	✓
 B152	iman	35:7	35:7	magfiret_ecir	✓
 B152	salih_amel	35:7	35:7	magfiret_ecir	✓
-B152	guzel_soz_salih_amel	35:10	35:10	yukselme	✓	el-kelimü't-tayyib; amel-i salih yükseltir
+B152	guzel_soz_salih_amel	35:10	35:10	yukselme	→	"Güzel söz O'na yükselir; salih ameli O yükseltir" ya da "salih amel onu (sözü) yükseltir": zamir iki türlü okunur
 B153	allahtan_haşyet_ilim	35:28	35:28	-	→	âlimler Allah'tan haşyet eder
 B153	kitabi_okumak	35:29	35:30	ecir	✓	batmayacak ticaret
 B153	namaz	35:29	35:30	ecir	✓
@@ -457,11 +457,11 @@ B164	sabir	39:10	39:10	hesapsiz_ecir	✓
 B164	taguttan_kacinmak	39:17	39:17	mujde	✓
 B164	inabe	39:17	39:17	mujde	✓
 B164	sozu_dinleyip_en_guzeline_uymak	39:18	39:17	mujde	✓
-B164	takva	39:20	39:20	cennet	✓	üst üste gurfeler
+B164	takva	39:20	39:20	gurfe	✓	üst üste gurfeler
 B165	dogruyu_getirmek_ve_tasdik	39:33	39:34	diledikleri	✓	muhsinlerin karşılığı; kötülükleri örtülür (39:35)
-B166	rahmetten_umit_kesmemek	39:53	39:53	magfiret	✓	Allah bütün günahları bağışlar (tevbe bağlamı 39:54)
-B166	inabe_ve_teslim	39:54	39:53	magfiret	✓
-B166	indirilenin_en_guzeline_uymak	39:55	39:53	magfiret	✓
+B166	rahmetten_umit_kesmemek	39:53	39:53	magfiret	→	"Allah'ın rahmetinden ümit kesmeyin; Allah bütün günahları bağışlar": mağfiret emrin gerekçesidir, ümit kesmemenin şartlı ödülü olarak kurulmaz
+B166	inabe_ve_teslim	39:54	39:53	magfiret	→	39:53 genel mağfiret bildirimi ("Allah bütün günahları bağışlar"); 39:54-55 emirleri ona bağlanmış bir şart-sonuç değildir
+B166	indirilenin_en_guzeline_uymak	39:55	39:53	magfiret	→	39:53 genel mağfiret bildirimi ("Allah bütün günahları bağışlar"); 39:54-55 emirleri ona bağlanmış bir şart-sonuç değildir
 B167	takva	39:73	39:73	cennet	✓	bölük bölük cennete sevk; "tertemizsiniz"
 B167	amel	39:74	39:74	cennet	✓	ni'me ecru'l-âmilîn
 B168	tevbe	40:7	40:8	cennet	✓	meleklerin duası: tevbe edip yola uyanlar
@@ -491,7 +491,7 @@ B176	zulme_karsi_dayanisma	42:39	42:36	allah_katindaki	✓
 B176	affetmek_islah	42:40	42:40	ecir	✓	ecri Allah'a aittir
 B176	sabir_ve_bagislama	42:43	42:43	ovgu	✓	azm-i umûr
 B178	takva	43:35	43:35	ahiret	✓	ahiret Rabbin katında müttakiler için
-B179	takva	43:67	43:68	korku_yok	✓	43:67-73
+B179	takva	43:67	43:68	korku_yok	→	43:67 "dostlar o gün düşmandır, müttakiler hariç"; 43:68 "ey kullarım, size korku yoktur" hitabı 43:69'da "ayetlerimize iman edip teslim olanlar" diye tanımlanır
 B179	ayetlere_iman	43:69	43:70	cennet	✓
 B179	islam	43:69	43:70	cennet	✓
 B179	amel	43:72	43:72	cennet	✓	bimâ kuntum ta'melûn
@@ -504,7 +504,7 @@ B186	rabbimiz_allah_deyip_istikamet	46:13	46:14	cennet	✓	bimâ kânû ya'melû
 B186	anne_babaya_iyilik	46:15	46:16	cennet	✓	en güzel amelleri kabul, kötülükleri görmezden gelme
 B186	sukur_salih_amel_inabe_teslim	46:15	46:16	cennet	✓	kırk yaş duası
 B186	amel	46:19	46:19	derece	✓	herkesin amelinden dereceleri
-B187	iman_salih_amel_ve_kurana_iman	47:2	47:6	cennet	✓	47:2 seyyiatı örtme
+B187	iman_salih_amel_ve_kurana_iman	47:2	47:2	gunah_ortme	✓	"Kötülüklerini örttü, hallerini düzeltti" (keffera anhum seyyiâtihim ve asleha bâlehum); 47:6 cenneti 47:4'te anılan "Allah yolunda öldürülenler"e döner
 B187	allah_yolunda_olum	47:4	47:6	cennet	✓	ameller zayi olmaz; tanıtılmış cennet
 B187	allaha_yardim	47:7	47:7	yardim_sebat	✓
 B187	iman	47:12	47:12	cennet	✓
@@ -533,9 +533,9 @@ B193	gece_az_uyumak	51:17	51:15	cennet	✓
 B193	seherde_istigfar	51:18	51:15	cennet	✓
 B193	malda_isteyen_ve_mahruma_hak	51:19	51:15	cennet	✓
 B194	takva	52:17	52:17	cennet	✓
-B194	amel	52:19	52:19	cennet	✓	bimâ kuntum ta'melûn
+B194	amel	52:19	52:17	cennet	✓	"Yaptıklarınıza karşılık afiyetle yiyin, için" (bimâ kuntum ta'melûn, 52:19); 52:17 "müttakiler cennetlerdedir"
 B194	zurriyetin_imanda_uymasi	52:21	52:21	kavusma	✓	zürriyetleri kendilerine katılır; herkes kazancına rehin
-B194	ailede_allahtan_endise	52:26	52:27	azaptan_korunma	✓
+B194	ailede_endiseli_olmak	52:26	52:27	azaptan_korunma	✓	"Önceden ailemiz içindeyken endişeli (müşfikîn) idik; Allah bize lütfetti, bizi samûm azabından korudu"
 B194	dua	52:28	52:27	azaptan_korunma	✓
 B197	takva	54:54	54:54	cennet	✓	sıdk makamı
 B198	rabbin_makamindan_korkmak	55:46	55:46	cennet	✓	iki cennet
@@ -555,19 +555,19 @@ B202	iman_allah_resullere	57:21	57:21	cennet	✓	genişliği yer-gök; yarışı
 B202	iman_ihsan_ruhbanlik_RED	57:27	57:27	ecir	✓	iman edenlerine ecir; uydurulan ruhbanlık yazılmadı
 B202	takva	57:28	57:28	rahmet_iki_pay	✓	nur ve mağfiret
 B202	resule_iman	57:28	57:28	rahmet_iki_pay	✓
-B203	meclislerde_yer_acmak	58:11	58:11	derece	✓
+B203	meclislerde_yer_acmak	58:11	58:11	genislik	✓	"Meclislerde yer açın denince açın; Allah da size genişlik versin" (yefsehi'llâhu lekum); derece iman ve ilim sahiplerine
 B203	iman_ve_ilim	58:11	58:11	derece	✓
 B203	allah_dusmanlariyla_dostluk_kurmamak	58:22	58:22	cennet	✓	baba, oğul, kardeş, aşiret olsa bile; hizbullah felah
 B203	iman_allah_ahiret	58:22	58:22	cennet	✓
 B204	hicret_ve_nusret	59:8	59:8	ovgu	✓	sâdıkûn
-B204	muhacirleri_sevmek_isar	59:9	59:9	felah	✓
+B204	muhacirleri_sevmek_isar	59:9	59:9	felah	→	felah ayette "nefsinin cimriliğinden (şuhh) korunanlar"a bağlanır; muhacirleri sevmek ve îsar aynı topluluğun nitelikleri
 B204	nefsin_cimriliginden_korunmak	59:9	59:9	felah	✓
 B204	onceki_muminlere_dua_kinsizlik	59:10	59:10	-	→	sonradan gelenlerin duası
 B205	yarina_ne_gonderdigine_bakmak	59:18	59:20	fevz	→	emir; cennet ehli fâizûn
 B206	adalet_ve_iyilik	60:8	60:8	sevgi	✓	Allah adaletlileri sever (konu 11)
 B207	iman_allah_resul	61:11	61:12	cennet	✓	azaptan kurtaran ticaret
 B207	mal_ve_canla_cihad	61:11	61:12	cennet	✓
-B208	cuma_zikre_kosmak_ve_zikir	62:10	62:10	felah	✓	le'allekum
+B208	cuma_sonrasi_allahi_cok_anmak	62:10	62:10	felah	✓	"Namaz kılınınca yeryüzüne dağılın, Allah'ın lütfundan arayın, Allah'ı çok anın ki felah bulasınız" (le'allekum)
 B210	iman_allah	64:9	64:9	cennet	✓	seyyiat örtülür
 B210	salih_amel	64:9	64:9	cennet	✓
 B210	affetmek_hosgormek	64:14	64:14	magfiret	✓
@@ -599,8 +599,8 @@ B219	sahitligi_dosdogru_yapmak	70:33	70:35	cennet	✓
 B219	namazlari_korumak	70:34	70:35	cennet	✓
 B219	RED:kuruntu	70:38	70:38	cennet	✓	inkârcılardan her biri nimet cennetine girmeyi mi umuyor; hayır
 B220	istigfar	71:10	71:12	dunyevi_bereket	✓	Nuh: yağmur, mal, oğul, bahçe
-B222	kuran_okumak_namaz_zekat_karz_hasen	73:20	73:20	ecir	✓	önden gönderilen hayır Allah katında daha büyük ecir
-B222	istigfar	73:20	73:20	magfiret	✓
+B222	kuran_okumak_namaz_zekat_karz_hasen	73:20	73:20	ecir	→	"Önden gönderdiğiniz her hayrı Allah katında daha hayırlı ve ecirce daha büyük bulursunuz": genel hayır cümlesi, emirlerin ardında
+B222	istigfar	73:20	73:20	magfiret	→	"Allah'tan bağışlanma dileyin; Allah Gafûr'dur, Rahîm'dir": mağfiret sıfattan çıkarılır, verildiği yazılı değil
 B223	ashab_yemin	74:39	74:40	cennet	→	74:43-46 karşıtı: namaz, yoksulu doyurma, boş söz, din gününü yalanlama
 B224	nezre_vefa	76:7	76:12	cennet	✓	ebrar 76:5-10; bimâ saberû
 B224	kotu_gunden_korkmak	76:7	76:12	cennet	✓
@@ -611,7 +611,7 @@ B227	rabbin_makamindan_korkmak	79:40	79:41	cennet	✓
 B227	nefsi_hevadan_alikoymak	79:40	79:41	cennet	✓
 B229	iman	84:25	84:25	ecir	✓
 B229	salih_amel	84:25	84:25	ecir	✓
-B229	kitabi_sagdan_verilmek	84:7	84:9	kolay_hesap	?	nitelik belirtilmez
+B229	kitabi_sagdan_verilmek	84:7	84:8	kolay_hesap	?	"Kitabı sağından verilen, kolay bir hesapla hesaba çekilir" (84:8); nitelik belirtilmez
 B230	iman	85:11	85:11	cennet	✓	fevz-i kebîr
 B230	salih_amel	85:11	85:11	cennet	✓
 B231	tezkiye	87:14	87:14	felah	✓

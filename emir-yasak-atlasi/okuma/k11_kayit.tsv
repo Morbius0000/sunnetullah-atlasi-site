@@ -25,7 +25,7 @@ K11b	sevmez	7:55	7:55	sevilmeme	✓	"Rabbinize boyun bükerek, gizlice yakarın;
 K11b	sevmez	8:58	8:58	sevilmeme	✓	"Antlaşma bozma kuşkusunda karşılık bildirin; Allah hainlik edenleri sevmez"	sonuc
 K11b	sever	9:4	9:4	sevgi	✓	"Antlaşmaya tam uyun; Allah sakınanları sever"	emir
 K11b	sever	9:7	9:7	sevgi	✓	"Onlar size doğru davrandıkça siz de doğru davranın; Allah sakınanları sever"	emir
-K11c	insan_sever	9:24	9:24	-	✓	"Aile, mal, ticaret ve konutlar Allah'tan, resulünden ve Allah yolunda cihattan daha sevimliyse Allah emrini getirinceye kadar bekleyin; Allah yoldan ayrılmış topluluğu kılavuzlamaz"	sonuc
+K11c	insan_sever	9:24	9:24	tehdit	✓	"Aile, mal, ticaret ve konutlar Allah'tan, resulünden ve Allah yolunda cihattan daha sevimliyse Allah emrini getirinceye kadar bekleyin; Allah yoldan ayrılmış topluluğu kılavuzlamaz"	sonuc
 K11c	sever	9:108	9:108	sevgi	✓	"Takva üzerine kurulu mescitte temizlenmek isteyen erler vardır; Allah temizlenenleri sever"	sonuc
 K11c	vedud	11:90	11:90	rahmet	→	"Rabbinizden af dileyip O'na yönelin; Rabbim Rahîm ve Vedûd'dur"	emir
 K11c	sevmez	16:23	16:23	sevilmeme	✓	"Allah büyüklük taslayanları sevmiyor"	sonuc
@@ -43,8 +43,8 @@ K11d	sevmez	42:40	42:40	sevilmeme	✓	"Kötülüğün cezası tıpkısı bir kö
 K11d	insan_sever	9:23	9:23	-	✓	"Babalarınız ve kardeşleriniz imana karşı inkârı seviyorlarsa onları dost edinmeyin"	yasak
 K11d	insan_sever	3:14	3:14	-	✓	"Kadınlara, oğullara, altın-gümüş yığınlara tutkunlukların sevgisi insanlar için süslenmiştir; geçici hayatın nimetidir"	tanim
 K11d	insan_sever	3:92	3:92	-	✓	"Sevdiğiniz şeylerden infak etmedikçe hayırda erginliğe ulaşamazsınız"	emir
-K11d	insan_sever	3:188	3:188	azap_korkunc	✓	"Ettikleriyle zevklenip yapmadıklarıyla övülmeyi sevenleri azaptan kurtulmuş sanma; korkunç azap vardır"	sonuc
-K11d	insan_sever	24:19	24:19	azap_korkunc	✓	"Müminler arasında edepsizliğin yayılmasını arzu edenlere dünyada da âhirette de korkunç azap"	sonuc
+K11d	insan_sever	3:188	3:188	azap_elim	✓	"Ettikleriyle zevklenip yapmadıklarıyla övülmeyi sevenleri azaptan kurtulmuş sanma; korkunç azap vardır"	sonuc
+K11d	insan_sever	24:19	24:19	azap_elim	✓	"Müminler arasında edepsizliğin yayılmasını arzu edenlere dünyada da âhirette de korkunç azap"	sonuc
 K11d	vedud	49:7	49:7	-	✓	"Allah imanı size sevdirmiş ve gönüllerinizde süslemiştir"	tanim
 K11d	sever	49:9	49:9	sevgi	✓	"İki mümin zümre çarpışırsa barışı kurun; adaletle düzeltin, adil olun; Allah adil davrananları sever"	emir
 K11d	sevmez	57:23	57:23	sevilmeme	✓	"Elinizden çıkana üzülmeyin, verilenle şımarmayın; Allah kendini beğenip övünenlerin hiçbirini sevmez"	sonuc

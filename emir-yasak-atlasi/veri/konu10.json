@@ -32,8 +32,8 @@
 "blok": "K10x",
 "nitelik_ayet": "3:128",
 "odul_ayet": "3:128",
-"odul": "magfiret",
-"derece": "✓",
+"odul": "kabul",
+"derece": "→",
 "tur": "tanim",
 "ham": "tevbe_kabul",
 "not_": "\"Allah ya tövbelerini kabul ederek onları bağışlar yahut zalim oldukları için azap eder\""
@@ -172,11 +172,11 @@
 "blok": "K10g",
 "nitelik_ayet": "33:24",
 "odul_ayet": "33:24",
-"odul": "magfiret",
-"derece": "✓",
+"odul": "kabul",
+"derece": "→",
 "tur": "tanim",
 "ham": "tevbe_kabul",
-"not_": "\"Doğru sözlülere karşılığını verecek; ikiyüzlülere dilerse azap edecek, belki tövbe nasip edecek\""
+"not_": "\"Doğruları doğruluklarıyla ödüllendirsin, ikiyüzlülere de dilerse azap etsin ya da tövbelerini kabul etsin\" (in şâe: koşullu)"
 },
 {
 "blok": "K10g",
@@ -320,7 +320,7 @@
 "blok": "K10c",
 "nitelik_ayet": "5:39",
 "odul_ayet": "5:39",
-"odul": "magfiret",
+"odul": "kabul",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_sart",
@@ -410,11 +410,11 @@
 "blok": "K10d",
 "nitelik_ayet": "11:3",
 "odul_ayet": "11:3",
-"odul": "derece",
+"odul": "fazl",
 "derece": "✓",
 "tur": "emir",
 "ham": "tevbe_sart",
-"not_": "\"Rabbinizden af dileyin, sonra tövbe ile O'na yönelin; her farklı derece sahibine hak ettiği ödülü versin\""
+"not_": "\"Rabbinizden bağışlanma dileyin, sonra O'na tövbe edin; sizi belirli bir süreye kadar güzel bir geçimle yaşatır ve her lütuf sahibine lütfunu (fadlahû) verir\""
 },
 {
 "blok": "K10e",
@@ -480,7 +480,7 @@
 "blok": "K10f",
 "nitelik_ayet": "25:70",
 "odul_ayet": "25:70",
-"odul": "magfiret",
+"odul": "seyyiatin_hasenata_donmesi",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_sart",
@@ -538,7 +538,7 @@
 "blok": "K10b",
 "nitelik_ayet": "4:18",
 "odul_ayet": "4:18",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "tevbe_olmaz",
@@ -576,7 +576,7 @@
 "blok": "K10b",
 "nitelik_ayet": "4:48",
 "odul_ayet": "4:48",
-"odul": "yok",
+"odul": "magfiret_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "bagislanmaz",
@@ -586,7 +586,7 @@
 "blok": "K10b",
 "nitelik_ayet": "4:116",
 "odul_ayet": "4:116",
-"odul": "yok",
+"odul": "magfiret_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "bagislanmaz",
@@ -596,7 +596,7 @@
 "blok": "K10d",
 "nitelik_ayet": "9:80",
 "odul_ayet": "9:80",
-"odul": "yok",
+"odul": "magfiret_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "bagislanmaz",
@@ -606,7 +606,7 @@
 "blok": "K10h",
 "nitelik_ayet": "47:34",
 "odul_ayet": "47:34",
-"odul": "yok",
+"odul": "magfiret_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "bagislanmaz",
@@ -616,7 +616,7 @@
 "blok": "K10h",
 "nitelik_ayet": "63:6",
 "odul_ayet": "63:6",
-"odul": "yok",
+"odul": "magfiret_yok",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "bagislanmaz",
@@ -1186,21 +1186,21 @@
 "blok": "K10d",
 "nitelik_ayet": "9:20",
 "odul_ayet": "9:20",
-"odul": "felah",
+"odul": "fevz",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "derece",
-"not_": "\"İman edip hicret eden, mallarıyla canlarıyla didinenler derece bakımından daha yücedir; kurtuluşa erenler bunlardır\""
+"not_": "\"İman edip hicret eden, Allah yolunda malıyla canıyla çabalayanlar Allah katında derece bakımından daha büyüktür; kurtuluşa erenler (el-fâizûn) onlardır\""
 },
 {
 "blok": "K10d",
 "nitelik_ayet": "11:3",
 "odul_ayet": "11:3",
-"odul": "derece",
+"odul": "fazl",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "derece",
-"not_": "\"Her farklı derece sahibine hak ettiği ödülü verir\""
+"not_": "\"Rabbinizden bağışlanma dileyin, sonra O'na tövbe edin; sizi belirli bir süreye kadar güzel bir geçimle yaşatır ve her lütuf sahibine lütfunu (fadlahû) verir\""
 },
 {
 "blok": "K10e",
@@ -1612,7 +1612,7 @@
 "odul_ayet": "39:65",
 "odul": "amel_bosa",
 "derece": "✓",
-"tur": "yasak",
+"tur": "sonuc",
 "ham": "amel_bosa",
 "not_": "\"Şirke saparsan amelin boşa çıkar, hüsrana düşersin\""
 },
@@ -2309,14 +2309,14 @@
 "kayit": 156,
 "ayet": 161,
 "derece": {
-"✓": 153,
-"→": 3,
+"✓": 151,
+"→": 5,
 "?": 0
 },
 "tur": {
 "emir": 8,
-"yasak": 1,
-"sonuc": 75,
+"yasak": 0,
+"sonuc": 76,
 "tanim": 72
 }
 }

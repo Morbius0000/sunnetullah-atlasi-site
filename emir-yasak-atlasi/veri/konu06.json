@@ -123,7 +123,7 @@
 "nitelik_ayet": "10:17",
 "odul_ayet": "10:17",
 "odul": "basarisizlik",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "allaha_iftira",
 "not_": "\"Yalan düzerek Allah'a iftira eden ... suçlular iflah etmezler\""
@@ -223,7 +223,7 @@
 "nitelik_ayet": "29:68",
 "odul_ayet": "29:68",
 "odul": "cehennem",
-"derece": "✓",
+"derece": "→",
 "tur": "sonuc",
 "ham": "allaha_iftira",
 "not_": "\"Yalan düzüp Allah'a iftira eden ... Cehennemde değil midir kâfirlerin barınağı?\""
@@ -728,7 +728,7 @@
 "derece": "✓",
 "tur": "sonuc",
 "ham": "alay_ve_laf_atma",
-"not_": "\"Ayetlerimizden bir şeyin bilgisine ulaşınca alaya aldı onu. İşte onlar içindir horlayıp yere batıran bir azap\""
+"not_": "\"Ayetlerimizden bir şey öğrenince onu alaya alır; işte onlar için alçaltıcı bir azap (azâbun muhîn) vardır\""
 },
 {
 "blok": "K6e",
@@ -880,7 +880,7 @@
 "blok": "K6a",
 "nitelik_ayet": "4:172",
 "odul_ayet": "4:173",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kulluktan_cekinip_kibir",
@@ -940,7 +940,7 @@
 "blok": "K6d",
 "nitelik_ayet": "31:7",
 "odul_ayet": "31:7",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "kibirle_yuz_cevirme",
@@ -1008,7 +1008,7 @@
 "blok": "K6a",
 "nitelik_ayet": "3:188",
 "odul_ayet": "3:188",
-"odul": "azap_korkunc",
+"odul": "azap_elim",
 "derece": "✓",
 "tur": "sonuc",
 "ham": "yapmadigiyla_ovunme",
@@ -1961,8 +1961,8 @@
 "kayit": 138,
 "ayet": 123,
 "derece": {
-"✓": 132,
-"→": 7,
+"✓": 130,
+"→": 9,
 "?": 0
 },
 "tur": {

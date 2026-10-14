@@ -5,7 +5,7 @@ B001	yalan	2:10	2:10	azap_elim	✓	"bimâ kânû yekzibûn"
 B001	ahdi_bozma	2:27	2:27	husran	✓	ahdi bozma, birleştirilmesi emredileni kesme, fesat; "işte hüsrana uğrayanlar"
 B001	sila_kesme	2:27	2:27	husran	✓
 B001	fesad	2:27	2:27	husran	✓
-B001	kufur	2:23	2:24	nar	✓	"küfre sapanlar için hazırlanmıştır"
+B001	kufur	2:24	2:24	nar	✓	2:24 "Yapamazsanız -ki yapamayacaksınız- yakıtı insanlar ve taşlar olan ateşten sakının; kâfirler için hazırlanmıştır"
 B002	ayetleri_yalanlama	2:39	2:39	nar	✓	"ateşin dostu, orada sürekli kalacak"
 B002	kufur	2:39	2:39	nar	✓
 B004	ayetleri_inkar	2:61	2:61	gazab	✓	zillet ve miskinlik damgası + Allah'tan gazap (dünyada, kıssa)
@@ -28,7 +28,7 @@ B006	kufur	2:126	2:126	nar	✓	küfredenlere az nimet, sonra ateş azabına iti�
 B007	vahyi_gizleme	2:159	2:159	lanet	✓	beyyinat ve hüdâyı gizleyenlere Allah ve lanet edenler lanet eder
 B007	kufur	2:161	2:161	lanet	✓	küfür halinde ölenlere Allah'ın, meleklerin, insanların laneti
 B007	kufur	2:161	2:162	azap_hafifletilmez	✓
-B007	sirk	2:165	2:165	azap_siddetli	✓	Allah'a eş koşma (endâd); zalimler azabı görünce
+B007	sirk	2:165	2:165	azap_siddetli	→	Allah'a eş koşma (endâd); zalimler azabı görünce
 B007	sirk	2:165	2:167	nar	✓	"ateşten çıkamazlar"
 B007	vahyi_satma	2:174	2:174	nar	✓	"karınlarında ateşten başka bir şey yemezler"
 B007	vahyi_gizleme	2:174	2:174	azap_elim	✓	Kıyamet günü konuşulmaz, arındırılmaz, korkunç azap
@@ -68,7 +68,7 @@ B018	peygamber_oldurme	3:112	3:112	gazab	✓
 B018	isyan_tecavuz	3:112	3:112	gazab	✓
 B018	kufur	3:116	3:116	nar	✓	mal-evlat fayda vermez; "ateşin dostları, sürekli kalırlar"
 B018	kufur	3:116	3:117	amel_bosa	→	3:117 küfredenlerin harcamasını ekini mahveden rüzgâra benzetir (bağ bağlamdan)
-B018	zulum	3:128	3:128	azap_genel	✓	"zalim oldukları için onlara azap eder"
+B018	zulum	3:128	3:128	azap_genel	→	"Allah ya onların tövbesini kabul eder ya da onlara azap eder; çünkü onlar zalimdir": iki seçenekten biri
 B018	kufur	3:131	3:131	nar	✓	"kâfirler için hazırlanmış ateşten korkun"
 B019	kafirlere_boyun_egme	3:149	3:149	husran	✓	küfre sapanlara boyun eğmek
 B019	sirk	3:151	3:151	nar	✓	delil indirilmemiş şeyleri ortak koşma: korku salınır, barınak ateş
@@ -81,7 +81,7 @@ B021	cimrilik	3:180	3:180	boyuna_dolanma	✓	cimrilik ettikleri kıyamette boyun
 B021	allaha_fakir_deme	3:181	3:181	azap_yakici	✓	"Allah yoksul, biz zenginiz" demek + haksız yere peygamber öldürme; "tadın yakıp pişiren azabı"
 B021	peygamber_oldurme	3:181	3:181	azap_yakici	✓
 B021	yapmadigiyla_ovunme	3:188	3:188	azap_elim	✓	yaptıklarıyla sevinip yapmadıklarıyla övülmeyi sevenler
-B021	kufur	3:196	3:197	cehennem	✓	küfürde dolaşma bir nimetlenmedir; varış yeri cehennem
+B021	kufur	3:196	3:197	cehennem	✓	"İnkâr edenlerin ülkelerde dolaşıp durması seni aldatmasın; az bir geçimlik, sonra varacakları yer cehennemdir"
 B022	yetim_mali_yeme	4:10	4:10	nar	✓	zulümle yetim malı yiyenler karınlarına ateş yer; sa'îre girecekler
 B022	isyan_hudut_asma	4:14	4:14	nar	✓	Allah'a ve elçisine isyan, sınırlarını aşma → ateşe sokulma, sürekli kalma
 B022	isyan_hudut_asma	4:14	4:14	azap_muhin	✓
@@ -95,13 +95,13 @@ B023	kelimeleri_kaydirma	4:46	4:46	lanet	✓	Yahudilerden kelimeleri yerlerinden
 B023	indirilene_inanmama	4:47	4:47	lanet	✓	koşullu uyarı: inanmazlarsa yüzlerin silinmesi ya da Cumartesi ashabı gibi lanet
 B023	sirk	4:48	4:48	magfiret_yok	✓	"Allah kendisine şirk koşulmasını affetmez"
 B023	tagut_inanma	4:51	4:52	lanet	✓	puta ve tağuta inanıp küfredenleri doğru yolda sayma; "işte bunlardır Allah'ın lanetlediği"
-B023	allah_yolundan_alikoyma	4:55	4:55	cehennem	✓	"onlardan kimi ona inandı, kimi alıkoydu. Böylesine çılgın alevli cehennem yeter"
+B023	allah_yolundan_alikoyma	4:55	4:55	cehennem	→	"Onlardan kimi ona iman etti, kimi ondan yüz çevirdi / alıkoydu (sadde anhu); alevli cehennem yeter": fiil iki türlü okunur
 B023	ayetleri_inkar	4:56	4:56	nar	✓	"ayetlerimizi inkâr edenleri ateşe yaslayacağız"; derileri değiştirilerek azap tattırılır
 B024	adam_oldurme_mumin	4:93	4:93	cehennem	✓	mümini kasten öldürmek: cehennemde sürekli kalmak
 B024	adam_oldurme_mumin	4:93	4:93	gazab	✓
 B024	adam_oldurme_mumin	4:93	4:93	lanet	✓
 B024	adam_oldurme_mumin	4:93	4:93	azap_azim	✓
-B024	hicret_etmeme_zulme_razi	4:97	4:97	cehennem	✓	melekler: "Allah'ın yeryüzü geniş değil miydi?" "işte varacakları yer cehennemdir"
+B024	hicret_etmeyip_nefse_zulmetme	4:97	4:97	cehennem	✓	melekler, kendilerine zulmederken canlarını aldıklarına: "Allah'ın yeryüzü geniş değil miydi, hicret etseydiniz?" "Varacakları yer cehennemdir"
 B024	kufur	4:102	4:102	azap_muhin	✓	"Allah kâfirler için rezil edici azap hazırlamıştır"
 B025	resule_karsi_cikma	4:115	4:115	cehennem	✓	hidayet belli olduktan sonra elçiden kopup müminlerin yolu dışını izlemek
 B025	seytani_veli_edinme	4:119	4:119	husran	✓	"Allah'ı bırakıp şeytanı dost edinen açık hüsranda"
@@ -114,8 +114,8 @@ B026	ayetle_alay_meclisinde_oturma	4:140	4:140	cehennem	✓	"ayetlerin inkâr ed
 B026	munafiklik	4:145	4:145	cehennem	✓	"münafıklar ateşin en alt tabakasındadır"
 B026	sukretmeme_inanmama	4:147	4:147	azap_genel	→	"şükredip inanırsanız Allah azabınızla ne yapacak?"; olumsuz yan çıkarım
 B026	resuller_arasi_ayrim	4:150	4:151	azap_muhin	✓	"bir kısmına inanırız, bir kısmını inkâr ederiz" diyenler: gerçek kâfirler
-B027	riba	4:161	4:161	azap_elim	✓	ribâ almaları ve haksız yolla mal yemeleri (Yahudiler)
-B027	batil_yolla_mal_yeme	4:161	4:161	azap_elim	✓
+B027	riba	4:161	4:161	azap_elim	→	ribâ almaları ve haksız yolla mal yemeleri; azap "onlardan kâfir olanlar"a (li'l-kâfirîne minhum) hazırlanmıştır
+B027	batil_yolla_mal_yeme	4:161	4:161	azap_elim	→
 B027	zulum	4:160	4:160	tayyibat_haram	✓	Yahudilere helal olan temiz şeylerin haram kılınması "zulümleri ve Allah yolundan alıkoymaları yüzünden"
 B027	allah_yolundan_alikoyma	4:160	4:160	tayyibat_haram	✓
 B027	kufur	4:168	4:168	magfiret_yok	✓	küfür ve zulüm: affedilmez, yola iletilmez
@@ -126,7 +126,7 @@ B028	kufur	5:5	5:5	amel_bosa	✓	"imanı tanımayıp nankörlük edenin ameli bo
 B028	kufur	5:5	5:5	husran	✓	"âhirette de hüsrana uğrayanlardandır"
 B028	ayetleri_yalanlama	5:10	5:10	cehennem	✓	küfür ve ayetleri yalanlama: "cehennemin dostları"
 B028	ahdi_bozma	5:13	5:13	lanet	✓	"verdikleri mîsakı bozdukları için onları lanetledik, kalplerini kaskatı yaptık"
-B028	soy_iddiasi	5:18	5:18	azap_genel	✓	"biz Allah'ın oğulları ve sevgilileriyiz" diyenlere: "niçin günahlarınız yüzünden size azap ediyor?"
+B028	soy_iddiasi	5:18	5:18	azap_genel	→	"Biz Allah'ın oğulları ve sevgilileriyiz" diyenlere: "Öyleyse niçin günahlarınız yüzünden size azap ediyor?": azap günahlara bağlanır, iddia bununla çürütülür
 B029	adam_oldurme	5:29	5:29	nar	→	Âdem'in oğlunun sözü: kardeşini öldürmeye yeltenenin "ateş halkından olması, zalimlerin cezası" (anlatıdaki kişinin sözü)
 B029	savas_ve_fesad	5:33	5:33	had_dunya	✓	Allah ve elçisiyle savaşıp yeryüzünde bozgunculuk yapanın cezası (öldürme, asma, çaprazlama kesme, sürgün)
 B029	savas_ve_fesad	5:33	5:33	hizy	✓	"dünyada rezillik"
@@ -145,7 +145,7 @@ B030	sirk	5:72	5:72	nar	✓
 B030	teslis	5:73	5:73	azap_elim	✓	"Allah üçün üçüncüsüdür" diyenlerin küfre sapanlarına acı azap
 B030	haddi_asma_zulum	5:78	5:78	lanet	✓	İsrailoğullarının küfre sapanları, İsa ve Dâvud'un diliyle lanetlendi: "isyan ettikleri ve sınır aştıkları için"
 B030	munkeri_engellememe	5:79	5:78	lanet	→	"işledikleri kötülükten birbirlerini sakındırmıyorlardı": 5:78'deki lanetin gerekçesine bağlı
-B030	kafirleri_dost_edinme	5:80	5:80	gazab	✓	küfre sapanlarla dostluk kuranlar: Allah gazap etti
+B030	kafirleri_dost_edinme	5:80	5:80	sahat	✓	küfre sapanlarla dostluk kuranlar: "Allah'ın onlara öfkelenmesi (en sehita'llâhu aleyhim)"
 B030	kafirleri_dost_edinme	5:80	5:80	azap_surekli	✓	"azap içinde de sürekli kalacaklar"
 B030	ayetleri_yalanlama	5:86	5:86	cehennem	✓	küfür ve ayetleri yalanlama: cehennemin dostları
 B030	avlanma_hududu_asma	5:94	5:94	azap_elim	✓	imtihan olarak gelen avda sınırı çiğneyen
@@ -170,16 +170,16 @@ B038	gunah	6:120	6:120	cezalandirilma	✓	"günah kazananlar yapıp ettiklerinin
 B038	tuzak_kurma	6:124	6:124	azap_siddetli	✓	suçluların (mücrim) hile kurmaları yüzünden Allah katında küçüklük ve şiddetli azap
 B038	insanlari_sapitma_ve_yararlanma	6:128	6:128	nar	→	cin ve insan dostlarına "barınağınız ateş"; sebep açıkça sayılmaz, sözleri "kimimiz kimimizden yararlandı"
 B039	ayetleri_yalanlama	6:157	6:157	azap_siddetli	✓	ayetlerden yüz çevirenler "azabın en kötüsüyle" cezalandırılır
-B040	zulum	7:5	7:4	helak	✓	azap gelince "gerçekten zalimdik" demeleri (yurtlar yere batırıldı)
+B040	zulum	7:5	7:4	helak	✓	azap gelince "gerçekten zalimdik" demeleri; 7:4 "nice kenti helâk ettik"
 B040	ayetlere_zulum	7:9	7:9	husran	✓	mizanı hafif kalanlar: "ayetlerimize zulmettikleri için benliklerini hüsrana itmiş olacaklar"
-B040	kibir	7:12	7:13	hizy	✓	İblis'in secde etmeyip "ben ondan hayırlıyım" demesi: "in oradan, orada büyüklenmek haddine mi; sen alçaklardansın"
+B040	kibir	7:12	7:13	asagilik	✓	İblis'in secde etmeyip "ben ondan hayırlıyım" demesi: "in oradan... sen küçüklerdensin (mine's-sâğırîn)" (insan dışı taraf)
 B040	seytana_uyma	7:18	7:18	cehennem	✓	"onlardan sana uyan olursa cehennemi hepinizden dolduracağım"
 B041	ayetleri_yalanlama	7:36	7:36	nar	✓	ayetleri yalanlayıp burun kıvıranlar: "ateşin dostları, sürekli kalırlar"
 B041	kibir	7:36	7:36	nar	✓
 B041	ayetleri_yalanlama	7:40	7:40	cennete_giremez	✓	"gök kapıları açılmaz, deve iğne deliğinden geçmedikçe cennete giremezler"
 B041	kibir	7:40	7:40	cennete_giremez	✓
 B041	ayetleri_yalanlama	7:40	7:41	cehennem	✓	"onlar için cehennemden döşek ve üstlerinde örtüler vardır; zalimleri böyle cezalandırırız"
-B041	allaha_iftira	7:37	7:38	nar	✓	7:37 canlarını alan elçiler; 7:38 "girin ateşe" aynı topluluğa mı yönelik, bağ bağlamdan
+B041	allaha_iftira	7:37	7:38	nar	✓	7:37 canlarını almaya gelen elçiler; 7:38 "girin ateşe" (qâle'dhulû) aynı konuşmanın devamıdır
 B041	saptirma	7:38	7:38	azap_katli	✓	"Rabbimiz bizi bunlar saptırdı, azabı bir kat fazla ver" – Allah: "her biri için kat var" (konuşan: ahretteki izleyiciler)
 B041	allah_yolundan_alikoyma	7:45	7:44	lanet	✓	"Allah'ın laneti zalimlerin üzerine olsun", 7:45 zalimleri tarif eder
 B041	ahireti_inkar	7:45	7:44	lanet	✓
@@ -197,21 +197,21 @@ B045	kibir	7:146	7:146	ayetlerden_uzak_tutma	✓	"haksız yere büyüklük tasla
 B045	ayetleri_yalanlama	7:147	7:147	amel_bosa	✓	ayetleri ve ahirete kavuşmayı yalan sayanların yaptıkları boşa gitmiştir
 B045	sirk	7:148	7:152	gazab	✓	buzağıyı ilah edinenlere Rablerinden öfke ve dünya hayatında zillet; "iftiracıları böyle cezalandırırız"
 B045	sirk	7:148	7:152	zillet	✓
-B045	sozu_degistirme	7:162	7:162	azap_gokten	✓	zulme sapanlar sözü değiştirdi: gökten pislik (rics) azabı "çünkü zulmediyorlardı" (kıssa)
+B045	sozu_degistirme	7:162	7:162	azap_gokten	✓	zulme sapanlar sözü değiştirdi: gökten bir azap (ricz) "zulmettikleri için" (kıssa)
 B045	zulum	7:162	7:162	azap_gokten	✓
-B045	ogutleri_unutma	7:165	7:165	azap_elim	✓	Sebt ahalisi: öğüdü unutanlar, kötülükten alıkoyanlar kurtulurken zulme sapanlar acı azapla yakalandı
-B045	fisk	7:165	7:165	azap_elim	✓	"yoldan çıkmalarından ötürü"
+B045	ogutleri_unutma	7:165	7:165	azap	✓	Sebt ahalisi: öğüdü unutanlar, kötülükten alıkoyanlar kurtulurken zulme sapanlar acı azapla yakalandı
+B045	fisk	7:165	7:165	azap	✓	"yoldan çıkmalarından ötürü"
 B045	yasaklari_asma	7:166	7:166	donusturme	✓	"yasaklandıkları şeylerden ötürü... aşağılık maymunlar olun"
 B045	yasaklari_asma	7:166	7:167	azap_dunya	→	7:167 "kıyamete kadar azabın en kötüsünü yapacakları üzerlerine göndereceği" ilan edildi; bağ: 7:166'ya sıralı
 B045	kalp_goz_kulak_kullanmama	7:179	7:179	cehennem	✓	"cinlerden ve insanlardan birçoğunu cehennem için yarattık: kalpleri var anlamazlar, gözleri var görmezler"
 B045	gaflet	7:179	7:179	cehennem	✓	"gafillerin ta kendileridir"
 B045	esmada_sapma	7:180	7:180	cezalandirilma	✓	"O'nun isimlerinde ters tutum izleyenler yaptıklarının cezasını çekecekler"
-B045	ayetleri_yalanlama	7:182	7:182	istidrac	✓	"hiç bilemeyecekleri yerden ağır ağır çöküşe götüreceğiz"
+B045	ayetleri_yalanlama	7:182	7:182	istidrac	✓	"Ayetlerimizi yalanlayanları bilmedikleri yerden derece derece (helâke) yaklaştıracağız" (senestedricuhum)
 B046	allaha_resule_karsi_cikma	8:13	8:13	azap_siddetli	✓	"Allah'a ve resulüne kafa tutan"
 B046	kufur	8:14	8:14	nar	✓	"küfre sapanlar için ateş azabı da var"
 B046	savastan_kacma	8:16	8:16	gazab	✓	savaşta (taktik dışında) arka dönmek
 B046	savastan_kacma	8:16	8:16	cehennem	✓
-B047	fitne	8:25	8:25	azap_siddetli	→	"yalnız zulmedenlere değil, hepsine çatacak fitneden korkun; Allah'ın ikabı şiddetlidir" uyarı cümlesi
+B047	fitne	8:25	8:25	azap_siddetli	→	"Yalnız içinizdeki zalimlere dokunmakla kalmayacak (lâ tusîbenne... hâssaten) bir fitneden sakının; Allah'ın ikabı şiddetlidir" uyarı cümlesi
 B047	mescid_engelleme	8:34	8:34	azap_genel	✓	"Mescid-i Haram'dan geri çevirip dururken Allah onlara neden azap etmesin?"
 B047	kufur	8:35	8:35	azap_genel	✓	"inkâr etmekte olduğunuz için tadın azabı"
 B047	allah_yolundan_alikoyma	8:36	8:36	hasret	✓	malı Allah yolundan alıkoymak için harcamak: "hasret olacak, sonra mağlup edilecekler"
@@ -221,20 +221,20 @@ B047	kufur	8:36	8:37	husran	✓	"hüsrana uğrayanların kendileridir"
 B047	kufur	8:50	8:50	azap_yakici	✓	melekler yüzlerine ve arkalarına vurur: "yangın azabını tadın"
 B047	ayetleri_inkar	8:52	8:52	yakalama	✓	Firavun hanedanı gibi: ayetleri inkâr, günahları yüzünden yakalandılar
 B047	ayetleri_yalanlama	8:54	8:54	helak	✓	"günahları yüzünden mahvettik; Firavun hanedanını boğmuştuk. Hepsi zulme sapanlardı"
-B048	esirden_fidye_alma	8:67	8:68	azap_azim	✓	"Allah'tan bir yazı önden gelmemiş olsaydı aldığınız fidyeden ötürü size büyük azap dokunurdu" (azap uygulanmadı)
+B048	esir_ve_dunyalik_isteme	8:67	8:68	azap_azim	✓	"Hiçbir peygambere yeryüzünde ağır basmadan esir edinmek yakışmaz; siz dünyalık istiyorsunuz" (8:67); "aldığınız şeyden ötürü size büyük azap dokunurdu" (8:68; azap uygulanmadı)
 B049	kufur	9:2	9:2	hizy	✓	"Allah küfre batanları rezil eder"
-B049	tevella_yuz_cevirme	9:3	9:3	azap_elim	✓	"küfre saplananlara acıklı bir azabı muştula"
+B049	tevella_yuz_cevirme	9:3	9:3	azap_elim	→	"küfre saplananlara acıklı bir azabı muştula"
 B050	ahdi_bozma	9:12	9:14	azap_dunya	✓	yeminlerini bozan, dine saldıran, resulü çıkarmaya çalışan, ilk saldıran: "Allah sizin elinizle onlara azap etsin"
 B050	ahdi_bozma	9:12	9:14	hizy	✓
 B050	sirk	9:17	9:17	amel_bosa	✓	müşrikler kendi küfürlerine tanıkken mescitleri onaramaz; "amelleri boşa çıkmış"
 B050	sirk	9:17	9:17	nar	✓	"ateşte sürekli kalacaklardır"
 B051	kufur	9:26	9:26	azap_genel	✓	Huneyn'de küfre sapanlara azap: "kâfirlerin cezası işte budur" (dünyada)
-B051	kenz_ve_haksiz_mal	9:34	9:34	azap_elim	✓	haksız mal yeme, Allah yolundan alıkoyma, altın-gümüşü depolayıp Allah yolunda harcamama
-B051	allah_yolundan_alikoyma	9:34	9:34	azap_elim	✓
-B051	kenz_ve_haksiz_mal	9:34	9:35	nar	✓	cehennem ateşinde alın, böğür ve sırtların dağlanması: "biriktirmiş olduklarınızı tadın"
+B051	kenz_harcamama	9:34	9:34	azap_elim	✓	"Altını ve gümüşü biriktirip Allah yolunda harcamayanlara acıklı azabı müjdele"
+B051	allah_yolundan_alikoyma	9:34	9:34	azap_elim	→	9:34'te azap müjdesi ("onlara acıklı azabı müjdele") altın ve gümüşü biriktirenlere döner; alıkoyma ile bağ bağlamsal
+B051	kenz_harcamama	9:34	9:35	nar	✓	cehennem ateşinde alın, böğür ve sırtların dağlanması: "biriktirmiş olduklarınızı tadın"
 B051	seferden_geri_kalma	9:38	9:39	azap_elim	✓	"seferber olmazsanız korkunç azapla azap eder ve yerinize başka topluluk getirir"
 B051	seferden_geri_kalma	9:42	9:42	helak	✓	yalan yemin edip seferden kalanlar "kendilerini mahvediyorlar"
-B051	seferden_izin_isteme_fitne	9:49	9:49	cehennem	✓	"fitneden kurtulmak için izin isteyenler fitnenin içine düşmüştür; cehennem nankörleri kuşatacaktır"
+B051	seferden_izin_isteme_fitne	9:49	9:49	cehennem	→	"fitneden kurtulmak için izin isteyenler fitnenin içine düşmüştür; cehennem nankörleri kuşatacaktır"
 B051	kufur	9:54	9:55	azap_dunya	✓	Allah'a ve resulüne nankörlük (9:54), mal ve evlat yüzünden dünyada azap etmek ve canların küfürle çıkması (9:55)
 B051	peygambere_eza	9:61	9:61	azap_elim	✓	Allah'ın resulüne eza edenler
 B051	allaha_resule_karsi_cikma	9:63	9:63	cehennem	✓	"Allah'a ve resulüne kafa tutana içinde sürekli kalacağı cehennem ateşi vardır"
@@ -252,16 +252,16 @@ B051	munafiklik	9:73	9:73	cehennem	✓
 B051	imandan_sonra_kufur	9:74	9:74	azap_elim	✓	küfür sözü, İslâm'a girdikten sonra küfür; tövbe etmezlerse dünyada ve âhirette acıklı azap
 B051	sadaka_sozunu_tutmama	9:76	9:77	nifak_yerlestirme	✓	Allah'a söz verip lütfa cimrilik etmeleri, sözden dönmeleri, yalan: "kalplerine ikiyüzlülük yerleştirdi"
 B051	mumine_laf_atma_alay	9:79	9:79	azap_elim	✓	cömert müminlere laf atanlar, güç yetmeyenleri alay konusu edenler
-B051	mumine_laf_atma_alay	9:79	9:79	hizy	✓	"Allah onları maskaraya çevirecektir"
+B051	mumine_laf_atma_alay	9:79	9:79	maskaraya_cevirme	✓	"Allah onları maskaraya çevirecektir"
 B051	kufur	9:80	9:80	magfiret_yok	✓	"Allah'ı da resulünü de inkâr ettiler: yetmiş kez af dilesen de affetmeyecek"
-B051	seferden_geri_kalma	9:81	9:81	cehennem	✓	cihattan tiksinip oturduklarına sevinenler: "cehennem hararet bakımından daha zorludur"
+B051	seferden_geri_kalma	9:81	9:81	cehennem	→	"Cehennem ateşi daha sıcaktır": karşılaştırmalı uyarı
 B051	kufur	9:84	9:85	azap_dunya	✓	Allah'a ve resulüne nankörlük; malları evlatları yüzünden dünyada azap, canlar küfürle çıkar
-B051	seferden_geri_kalma	9:86	9:87	muhurlenme	✓	geride kalan kadınlarla kalmayı yeğlediler: kalplerine mühür basıldı
+B051	seferden_geri_kalma	9:86	9:87	muhurlenme	✓	geride kalanlarla (el-havâlif) olmaya razı oldular: kalplerine mühür basıldı
 B051	seferden_geri_kalma	9:93	9:93	muhurlenme	✓
 B051	allaha_resule_yalan	9:90	9:90	azap_elim	✓	Allah'a ve resulüne yalan söyleyenler oturdu; onların küfre sapanlarına korkunç azap
 B051	munafiklik	9:95	9:95	cehennem	→	yeminle özür dileyenler: "kazandıklarının karşılığı olarak cehennem"
-B051	munafiklik	9:101	9:101	azap_katli	✓	"iki kez azap edeceğiz, sonra çok büyük azaba itilecekler"
-B051	zarar_mescidi	9:107	9:109	cehennem	✓	zarar vermek, küfür, müminleri bölmek için mescit yapanlar: yarın kenarına kurulan bina "onunla birlikte cehenneme yuvarlanır"
+B051	munafiklik	9:101	9:101	iki_kez_azap	✓	"iki kez azap edeceğiz, sonra çok büyük azaba itilecekler"
+B051	zarar_mescidi	9:107	9:109	cehennem	→	zarar vermek, küfür, müminleri bölmek için mescit yapanlar: yarın kenarına kurulan bina "onunla birlikte cehenneme yuvarlanır"
 B051	sirk	9:113	9:113	cehennem	✓	müşrikler "cehennem halkı oldukları belli olduktan sonra"; af dilemek yasak
 B052	kufur	10:4	10:4	azap_elim	✓	küfre dalanlar: kaynar su ve acıklı azap, "nankörlük edip gerçeği örtmeleri yüzünden"
 B052	likaullahi_umamama	10:7	10:8	nar	✓	Allah'a kavuşmayı ummayanlar, iğreti hayatla tatmin olanlar, ayetlerden gaflete dalanlar: "kazandıkları yüzünden varış yerleri ateş"
@@ -269,15 +269,15 @@ B052	dunya_hayatiyla_yetinme	10:7	10:8	nar	✓
 B052	ayetlerden_gaflet	10:7	10:8	nar	✓
 B052	zulum	10:13	10:13	helak	✓	önceki kuşaklar zulmettikleri ve resullerine inanmadıkları için helak edildi; "günaha batanları böyle cezalandırırız"
 B052	rabbe_isyan	10:15	10:15	azap_azim	✓	"Rabbime isyan edersem büyük günün azabından korkarım"
-B052	allaha_iftira	10:17	10:17	felah_yok	✓	Allah'a iftira veya ayetleri yalanlama: "suçlular iflah etmez"
-B052	ayetleri_yalanlama	10:17	10:17	felah_yok	✓
+B052	allaha_iftira	10:17	10:17	felah_yok	→	Allah'a iftira veya ayetleri yalanlama: "suçlular iflah etmez"
+B052	ayetleri_yalanlama	10:17	10:17	felah_yok	→
 B053	kotuluk_yapma	10:27	10:27	cezalandirilma	✓	"kötülük kazananlara kötülüğün miktarınca karşılık"
 B053	kotuluk_yapma	10:27	10:27	nar	✓	zillet kaplar, "ateşin dostları, sürekli kalıcıdırlar"
 B054	zulum	10:52	10:52	azap_surekli	✓	zulmedenlere "sonsuz azabı tadın; kazandıklarınız dışında cezalandırılmayacaksınız"
 B055	allaha_iftira	10:69	10:70	azap_siddetli	✓	Allah'a yalan düzenler iflah etmez; dünyada biraz nimet, sonra "inkâr ettiklerinden ötürü şiddetli azap"
-B055	ayetleri_yalanlama	10:73	10:73	helak	✓	Nûh'u yalanlayanlar batırılıp boğuldu
+B055	ayetleri_yalanlama	10:73	10:73	gark	✓	Nûh'u yalanlayanlar batırılıp boğuldu
 B056	olum_aninda_iman	10:90	10:91	tovbe_kabul_edilmez	→	Firavun boğulurken "iman ettim" dedi; "Şimdi mi? Oysa daha önce isyan etmiş, bozgunculardan olmuştun" (â'l-âne): geç imanın kabul edilmediği bu sorudan çıkarılır
-B056	isyan_ve_fesad	10:91	10:90	helak	✓	Firavun ve ordusu azgınlık ve düşmanlıkla izledi, boğuldu
+B056	isyan_ve_fesad	10:91	10:90	gark	✓	Firavun ve ordusu azgınlık ve düşmanlıkla izledi, boğuldu
 B057	ayetleri_yalanlama	10:95	10:95	husran	✓	koşullu uyarı: "ayetlerimizi yalanlayanlardan olma, yoksa hüsrana düşenlerden olursun"
 B058	yuz_cevirme	11:3	11:3	azap_azim	✓	"yüz çevirirseniz sizi büyük bir günün azabıyla korkuturum" (uyarı)
 B058	azabi_alay_etme	11:8	11:8	azap_genel	✓	azap geldiğinde alay ettikleri şey onları sarar
@@ -290,7 +290,7 @@ B058	ahireti_inkar	11:19	11:18	lanet	✓
 B058	allaha_iftira	11:18	11:20	azap_katli	✓	"onlara azap kat kat verilecektir"
 B058	allaha_iftira	11:18	11:22	husran	✓	"âhirette hüsranın en beterine uğrayanlar"
 B058	sirk	11:26	11:26	azap_elim	✓	Nûh: "Allah'tan başkasına kulluk etmeyin, korkunç gün azabından korkuyorum"
-B059	zulum	11:37	11:37	helak	✓	"zulmedenler mutlaka boğulacaklar" (Nûh kavmi)
+B059	zulum	11:37	11:37	gark	✓	"zulmedenler mutlaka boğulacaklar" (Nûh kavmi)
 B059	alay	11:38	11:39	hizy	✓	Nûh'la alay edenlere: "rezil eden azabın kime geleceğini, sürekli azabın kimin başına ineceğini bileceksiniz"
 B060	ayetleri_inkar	11:59	11:60	lanet	✓	Âd: ayetlere kafa tuttular, resullere isyan ettiler, zorbaya uydular; "dünyada ve kıyamet gününde lanet takıldı"
 B060	resule_isyan	11:59	11:60	lanet	✓
@@ -300,7 +300,7 @@ B060	deveyi_kesme	11:65	11:67	helak	✓	deveyi kestiler; zulme sapanları korkun
 B060	zulum	11:67	11:67	helak	✓
 B061	kotuluk_yapma	11:78	11:82	helak	✓	Lût kavmi "daha önce de kötülükler yapmışlardı"; oranın üstü altına getirildi, taş yağdırıldı (ayet fiilin türünü adlandırmaz)
 B061	olcude_hile	11:84	11:84	azap_kusatan	✓	"eksik ölçüp yanlış tartmayın… sarıp kuşatan günün azabından korkuyorum" (Medyen, uyarı)
-B061	olcude_hile	11:84	11:93	azap_muhin	✓	"rezil edici azabın kime geleceğini bileceksiniz"
+B061	olcude_hile	11:84	11:93	azap_muhin	→	"rezil edici azabın kime geleceğini bileceksiniz"
 B061	zulum	11:94	11:94	helak	✓	Medyen: zulmedenleri sayha yakaladı
 B062	zorbaya_uyma	11:97	11:98	nar	✓	Firavun'un emrine uyanlar: "kıyamet günü kavmine önderlik eder, onları ateşe götürür"
 B062	zorbaya_uyma	11:97	11:99	lanet	✓	"peşlerine lanet takıldı: hem burada hem kıyamet gününde"
@@ -313,17 +313,17 @@ B067	sila_kesme	13:25	13:25	lanet	✓
 B067	fesad	13:25	13:25	lanet	✓
 B067	kufur	13:31	13:31	bela_dunya	✓	küfre sapanlara kendi yaptıklarının sonucu belalar inmeye devam eder
 B067	alay	13:32	13:32	yakalama	✓	resullerle alay edenlere süre verildi, sonra "hepsini yakaladım"
-B067	sirk	13:33	13:34	azap_dunya	✓	ortak koşanlar ve tuzak kuranlar: "dünya hayatında bir azap var, âhiret azabı çok daha şiddetli"
+B067	sirk	13:33	13:34	azap_dunya	→	13:34 "onlar için dünya hayatında bir azap var": "onlar" 13:33'te "tuzakları süslü gösterilen kâfirler" diye yeniden adlandırılır
 B067	kufur	13:35	13:35	nar	✓	"kâfirlerin son yurdu ateş"
 B068	kufur	14:2	14:2	azap_siddetli	✓	küfre batmışlar için hüsran, şiddetli azap
 B068	dunyayi_ahirete_tercih	14:3	14:2	azap_siddetli	✓	14:3 aynı kâfirleri tarif eder: iğreti hayatı ahirete tercih, Allah yolundan alıkoyma
 B068	allah_yolundan_alikoyma	14:3	14:2	azap_siddetli	✓
 B068	nankorluk	14:7	14:7	azap_siddetli	✓	"nankörlük ederseniz azabım çok çok şiddetlidir"
-B068	resulu_yurttan_cikarma_tehdidi	14:13	14:13	helak	✓	küfre sapanlar resullerini yurttan çıkarmakla tehdit etti: "zalimleri muhakkak helâk edeceğiz"
+B068	resulu_yurttan_cikarma_tehdidi	14:13	14:13	helak	→	küfre sapanlar resullerini yurttan çıkarmakla tehdit etti: "zalimleri muhakkak helâk edeceğiz"
 B068	zorbalik	14:15	14:16	cehennem	✓	her inatçı zorba perişan oldu; "ardından cehennem"; irinli su
 B068	zorbalik	14:15	14:17	azap_genel	✓	boğazdan geçmeyen içecek, ölüm gelip ölmeme
 B068	kufur	14:18	14:18	amel_bosa	✓	Rablerine nankörlük edenlerin amelleri fırtınanın savurduğu küle benzer
-B068	seytana_uyma	14:22	14:22	azap_elim	✓	şeytanın sözü ahirette: "sizi davet ettim siz bana uydunuz… zalimler için acıklı azap"
+B068	seytana_uyma	14:22	14:22	azap_elim	→	şeytanın sözü ahirette: "sizi davet ettim siz bana uydunuz… zalimler için acıklı azap"
 B068	nimeti_degistirme	14:28	14:29	cehennem	✓	Allah'ın nimetini nankörlükle değiştirip toplumlarını helak yurduna kondurdular: "yaslanacakları cehennem"
 B068	sirk	14:30	14:30	nar	✓	Allah'a eşler uydurdular (saptırmak için): "sonunda varacağınız yer ateştir"
 B069	suc_isleme	14:49	14:50	nar	✓	suçlular zincirlenir, gömlekleri katran, yüzlerini ateş bürür
@@ -335,10 +335,10 @@ B073	kufur	16:27	16:27	hizy	✓	kıyamette Allah onları rezil edecek; "rezillik
 B073	kibir	16:29	16:29	cehennem	✓	"cehennem kapılarından girin, sürekli kalacaksınız; kibre sapanların barınağı"
 B073	zulum	16:28	16:29	cehennem	✓	öz benliklerine zulmedenlerin canı alınırken "biz kötülük yapmıyorduk" demeleri; hemen sonrasında cehennem kapıları
 B074	kotuluk_icin_tuzak	16:45	16:45	helak	→	"kötülükleri yapmak için tuzak kuranlar Allah'ın kendilerini yere geçirmeyeceğinden emin mi?" (soru kalıbıyla uyarı)
-B075	allaha_iftira	16:56	16:56	cezalandirilma	✓	"iftira edip durduğunuz şeylerden kesinlikle hesaba çekileceksiniz"
+B075	allaha_iftira	16:56	16:56	hesaba_cekilme	✓	"iftira edip durduğunuz şeylerden kesinlikle hesaba çekileceksiniz"
 B075	allaha_hosa_gitmeyen_isnat	16:62	16:62	nar	✓	kendilerinin bile çirkin bulacağı şeyleri Allah'a isnat, yalan: "onlar için ateş vardır; ona en önden gideceklerdir"
-B075	seytana_uyma	16:63	16:63	azap_elim	✓	şeytan amellerini süsledi; "o bugün de onların dostudur… acıklı azap"
-B076	zulum	16:85	16:85	azap_hafifletilmez	✓	zulme sapanlar azapla yüzleşince azapları hafifletilmez, yüzlerine bakılmaz
+B075	seytana_uyma	16:63	16:63	azap_elim	→	"Şeytan onlara işlerini süslü gösterdi; bugün de onların velisidir; onlara acıklı azap var": uyma fiili ayette açık değil
+B076	zulum	16:85	16:85	azap_hafifletilmez	✓	zulme sapanlar azabı görünce azapları hafifletilmez, onlara mühlet de verilmez (lâ hum yunzarûn)
 B076	kufur	16:88	16:88	azap_katli	✓	inkâr + Allah yolundan alıkoyma: "azaplarına azap katmışızdır"
 B076	allah_yolundan_alikoyma	16:88	16:88	azap_katli	✓
 B076	fesad	16:88	16:88	azap_katli	✓	"bozgunculuk edip durmalarından ötürü"
@@ -356,35 +356,35 @@ B079	kibir	17:4	17:5	bela_dunya	✓
 B079	kufur	17:8	17:8	cehennem	✓	"cehennemi küfre batanlar için çepeçevre kuşatan zindan yaptık"
 B079	ahireti_inkar	17:10	17:10	azap_elim	✓	"âhirete inanmayanlara korkunç azap hazırladık"
 B079	servette_sismanlik_fisk	17:16	17:16	helak	✓	nimetle şımaran elebaşları orada fısk işler, ülke aleyhine hüküm hak olur, altı üstüne gelir
-B079	gunah	17:17	17:17	helak	✓	"Nûh'tan sonra nice kuşakları helak ettik; günahlarını görmeye Rabbin yeter"
+B079	gunah	17:17	17:17	helak	→	"Nûh'tan sonra nice kuşakları helak ettik; günahlarını görmeye Rabbin yeter"
 B079	dunyayi_isteme	17:18	17:18	cehennem	✓	peşini (dünyayı) isteyene dünyada verilir; sonra cehennem, kınanmış ve kovulmuş
 B080	sirk	17:39	17:39	cehennem	✓	"Allah'ın yanına başka tanrı koyma ki kınanmış ve kovulmuş halde cehenneme atılmayasın"
 B081	seytana_uyma	17:63	17:63	cehennem	✓	İblis'e uyan: "cezanız cehennem"
 B082	ayetleri_inkar	17:98	17:97	cehennem	✓	17:98 "cezaları budur çünkü ayetlerimizi inkâr ettiler ve dirilişi inkâr ettiler"; 17:97 kör-sağır haşir, cehennem
 B082	ahireti_inkar	17:98	17:97	cehennem	✓
-B083	kufur	18:29	18:29	nar	✓	"dileyen inkâr etsin": zalimler için çepeçevre kuşatan ateş, yüz pişiren su
+B083	kufur	18:29	18:29	nar	→	"Dileyen iman etsin, dileyen inkâr etsin; biz zalimler için ateş hazırladık": ateş ayette "zalimler"e bağlanır
 B083	zulum	18:29	18:29	nar	✓
 B084	sirk	18:52	18:53	nar	→	ortaklara çağrı cevapsız kalır; suçlular ateşi görür ve kaçacak yer bulamaz; bağ bitişik ayetlerden
-B084	ayetlerden_yuz_cevirme	18:57	18:57	muhurlenme	✓	ayetleri hatırlatılınca yüz çevirenin kalbine kabuk, kulağına ağırlık konur
+B084	ayetlerden_yuz_cevirme	18:57	18:57	kalp_ortusu	✓	ayetleri hatırlatılınca yüz çevirenin kalbine kabuk, kulağına ağırlık konur
 B084	zulum	18:59	18:59	helak	✓	"zulme saptıklarında kentleri helâk ettik"
-B085	zulum	18:87	18:87	azap_katli	✓	Zülkarneyn: "zulmedene azap edeceğiz; sonra Rabbine döndürülür, O da onu görülmedik azaba çeker" (anlatıdaki kişinin sözü)
+B085	zulum	18:87	18:87	iki_asamali_azap	✓	Zülkarneyn: "zulmedene azap edeceğiz; sonra Rabbine döndürülür, O da onu görülmedik azaba çeker" (anlatıdaki kişinin sözü)
 B086	zikre_kulak_vermeme	18:101	18:100	cehennem	✓	"gözleri zikrim karşısında perde içinde, dinlemeye dayanamayanlara cehennem sunulur"
 B086	kufur	18:102	18:102	cehennem	✓	Allah'ı bırakıp kullarını veli edinmek: "cehennemi konuk evi olarak hazırladık"
 B086	ayetleri_ve_likaullahi_inkar	18:105	18:105	amel_bosa	✓	Rablerinin ayetlerini ve O'na ulaşmayı inkâr edenin amelleri boşa
 B086	ayetleri_ve_likaullahi_inkar	18:105	18:106	cehennem	✓	"cezaları cehennemdir; ayetlerimi ve resullerimi eğlence aracı yaptılar"
 B086	ayetleri_ve_resulleri_eglence	18:106	18:106	cehennem	✓
 B088	seytana_kulluk	19:44	19:45	azap_genel	✓	İbrahim: "şeytana kulluk etme… Rahman'dan bir azap dokunmasından korkuyorum" (anlatıdaki kişinin sözü)
-B089	rahmana_karsi_isyan	19:69	19:70	cehennem	✓	her gruptan Rahman'a karşı en şiddetli kafa tutanlar ayrılır; "oraya girmeye en layık olanları biliriz"
+B089	rahmana_karsi_isyan	19:69	19:70	cehennem	→	her gruptan Rahman'a karşı en şiddetli kafa tutanlar ayrılır; "oraya girmeye en layık olanları biliriz"
 B089	zulum	19:72	19:72	cehennem	✓	zalimler cehennemde diz üstü çökmüş bırakılır
 B089	sapiklik	19:75	19:75	azap_genel	✓	"sapıklıkta olana Rahman iyice süre versin… azabı veya kıyameti gördüklerinde"
 B089	ayetleri_inkar	19:77	19:79	azap_uzatma	✓	ayetleri inkâr edip "bana mal evlat verilecek" diyen: "söylediğini yazacağız, azabı uzattıkça uzatacağız"
 B089	kufur	19:83	19:83	seytan_musallat	✓	"şeytanları inkârcıların üzerine salmışız"
-B089	suc_isleme	19:86	19:86	cehennem	✓	"suçluları susuz ve yaya olarak cehenneme sevk ederiz"
+B089	suc_isleme	19:86	19:86	cehennem	✓	"Suçluları cehenneme susuz (vird) olarak süreriz"
 B092	ayetleri_yalanlama	20:48	20:48	azap_genel	✓	Mûsa ve Hârun'a vahyolunan: "azap yalanlayıp yüz çevirenlerin üzerinedir"
 B092	ayetlerden_yuz_cevirme	20:48	20:48	azap_genel	✓
 B093	allaha_iftira	20:61	20:61	helak	✓	"yalan düzerek Allah'a iftira etmeyin; yoksa bir azapla kökünüzü kurutur; iftira eden perişan olmuştur"
 B094	suc_isleme	20:74	20:74	cehennem	✓	Rabbinin huzuruna suçlu olarak gelene cehennem: ne ölür ne yaşar
-B094	saptirma	20:79	20:78	helak	✓	Firavun toplumunu saptırdı; denizden kuşatıp kuşatan onları kuşattı (kıssa)
+B094	saptirma	20:79	20:78	denizin_ortmesi	→	"Firavun toplumunu saptırdı, doğruya iletmedi" (20:79); 20:78 "denizden onları örten örttü"
 B094	azginlik	20:81	20:81	gazab	✓	rızkın temizlerinden yiyin, azgınlık etmeyin: "öfkem üzerinize çöker, öfkem kimin üstüne inerse o uçuruma gider"
 B095	saptirma_buzagi	20:96	20:97	dislanma	→	Sâmirî: "hayatın boyunca 'bana dokunmayın' diyeceksin" ve hesap zamanı
 B095	zikirden_yuz_cevirme	20:100	20:100	gunah_yuklenme	✓	"kim ondan yüz çevirirse kıyamet günü bir günah (vizr) yüklenecek"
@@ -404,7 +404,7 @@ B101	allah_yolundan_saptirma	22:9	22:9	hizy	✓	"dünyada yüz karası"
 B101	allah_yolundan_saptirma	22:9	22:9	azap_yakici	✓	"kıyamet günü kasıp kavuran yangının azabını tattıracağız"
 B101	kiyidan_ibadet	22:11	22:11	husran	✓	imtihan geldiğinde yüzüstü dönen: "dünyada da âhirette de kayıp, apaçık hüsran"
 B102	kufur	22:19	22:19	nar	✓	küfre sapanlar için ateşten giysiler, tepelerinden kaynar su
-B102	allah_yolundan_alikoyma	22:25	22:25	azap_elim	✓	küfre sapanlar, Allah yolundan ve Mescid-i Haram'dan alıkoyar; orada zulümle sapmak isteyene acıklı azap
+B102	allah_yolundan_alikoyma	22:25	22:25	azap_elim	→	acıklı azap ayette "orada zulümle sapma (ilhâd) isteyen"e bağlanır; alıkoyma ile bağ bağlamsal
 B102	zulum	22:25	22:25	azap_elim	✓
 B103	resulleri_yalanlama	22:44	22:44	yakalama	✓	Nûh, Âd, Semûd, İbrahim, Lût kavmi, Medyen, Mûsa yalanlandı: "inkârcılara biraz süre verdim, hepsini yakaladım"
 B103	zulum	22:45	22:45	helak	✓	"zalim olduğu için helâk ettiğimiz nice kent"
@@ -417,7 +417,7 @@ B104	ayetleri_okuyanlara_saldirma	22:72	22:72	nar	✓	ayet okuyanlara saldıraca
 B105	zulum	23:27	23:27	helak	✓	"Zulmetmiş olanlar... kesinlikle boğulacaklardır" (Nûh kavmi)
 B106	resulleri_yalanlama	23:44	23:44	helak	→	"Onları birbiri ardınca (helâke) uğrattık, birer efsane kıldık (ehâdîs); uzak olsun inanmayan topluluk!" helâk fiili ayette açık değil
 B106	resulleri_yalanlama	23:48	23:48	helak	✓	Firavun ve kodamanları: "yalanladılar, helâk edilenler arasına katıldılar"
-B107	israf	23:64	23:64	azap_genel	✓	servet ve refahla şımarmışlar azapla yakalanır (mütref)
+B107	servet_ve_refah_mutref	23:64	23:64	azap_genel	→	"Onların refah içindekilerini (mütrefîhim) azapla yakaladığımızda feryat ederler"; israf adı ayette geçmez
 B107	ayetlerden_yuz_cevirme	23:66	23:65	yardimsizlik	→	23:65 "kimseden yardım göremezsiniz"; 23:66-67 yüz çevirme ve büyüklük, aynı konuşmada
 B107	kibir	23:67	23:65	yardimsizlik	→
 B108	ahirete_inanmama	23:74	23:77	azap_siddetli	→	23:74 ahirete inanmayanlar; 23:75-77 aynı zamirle (hum) devam: "azapla yakaladık... şiddetli azap kapısı açılınca ümitsizliğe düşerler" — bağlamsal zamir bağı
@@ -425,7 +425,7 @@ B109	mizan_hafif	23:103	23:103	cehennem	✓	"tartıları hafif gelenler... süre
 B109	ayetleri_yalanlama	23:105	23:104	nar	✓	"ayetlerim size okunmadı mı, yalanlıyordunuz" (23:104 ateş yüzlerini yalar)
 B110	zina	24:2	24:2	celde_100	✓	dünyevî had; yüz vuruş
 B110	iffetli_kadina_iftira	24:4	24:4	celde_80	✓	seksen vuruş, tanıklığın ebediyen reddi, "sapmışların ta kendileri" (fasık)
-B110	ifk_iftira	24:11	24:11	azap_azim	✓	"büyük bir azap vardır"
+B110	ifkin_buyugunu_ustlenme	24:11	24:11	azap_azim	✓	"İfki getirenlerden her birine kazandığı günah vardır; içlerinden onun büyüğünü üstlenene büyük bir azap vardır"
 B110	ifk_yayma	24:14	24:14	azap_azim	→	"lütuf olmasaydı büyük azap dokunurdu"; karşı olgusal ifade
 B110	edepsizligin_yayilmasini_arzulama	24:19	24:19	azap_elim	✓	"dünyada da âhirette de korkunç bir azap" (YN)
 B110	iffetli_mumine_iftira	24:23	24:23	lanet	✓	"dünyada da âhirette lanete çarptırılmışlardır; büyük azap"
@@ -433,17 +433,16 @@ B110	iffetli_mumine_iftira	24:23	24:23	azap_azim	✓
 B112	kufur	24:57	24:57	nar	✓	"Varacakları yer ateştir"
 B112	resulun_emrine_aykiri_davranma	24:63	24:63	fitne_veya_azap	✓	"bir fitnenin ya da acıklı bir azabın yakalarına yapışmasından çekinsinler"
 B113	kiyameti_yalanlama	25:11	25:11	nar	✓	"alevli bir ateş hazırlamışızdır"
-B113	zikri_unutma	25:18	25:18	helak	✓	"zikri unuttular ve helâke giden bir topluluk oldular"
+B113	zikri_unutma	25:18	25:18	helak	→	"Zikri unuttular ve helâke gitmiş (bûr) bir topluluk idiler": helâk bir nitelik olarak anılır
 B113	zulum	25:19	25:19	azap_buyuk	✓	"zulmedenlerinize zorlu bir azap tattıracağız"
 B113	kibir	25:21	25:22	mujde_yok	→	Allah'a kavuşmayı ummayanlar büyüklük kuruntusu; 25:22 "günahkârlara hiçbir müjde yok"
 B114	kufur	25:32	25:34	cehennem	→	25:32 inkârcılar; 25:34 yüzü üstü cehenneme sevkedilenler, bağ bağlamdan
 B114	ayetleri_yalanlama	25:36	25:36	helak	✓	"ayetlerimizi yalanlayan topluluk... yerle bir ettik"
 B114	resulleri_yalanlama	25:37	25:37	gark	✓	Nûh kavmi boğuldu; "zalimler için acıklı azap hazırladık"
-B114	ahireti_ummama	25:40	25:40	helak	?	"kötülük yağmuruna tutulan kente vardılar"; ahireti ummadıkları söylenir, kent olayı ayrı cümlede
 B114	sirk_ilah_edinme	25:42	25:42	azap	✓	"Azabı gördüklerinde kimin daha sapık olduğunu bilecekler"
-B116	sirk	25:68	25:69	azap_katlama	✓	"Allah'la birlikte başka ilaha yakarmazlar... Bunları yapan cezaya çarpılır; azap katlanır"
-B116	haksiz_oldurme	25:68	25:69	azap_katlama	✓
-B116	zina	25:68	25:69	azap_katlama	✓
+B116	sirk	25:68	25:69	azap_katli	✓	"Allah'la birlikte başka ilaha yakarmazlar... Bunları yapan cezaya çarpılır; azap katlanır"
+B116	haksiz_oldurme	25:68	25:69	azap_katli	✓
+B116	zina	25:68	25:69	azap_katli	✓
 B116	sirk	25:68	25:69	ebedi_kalis	✓	"hor ve ezik halde sürekli kalır"
 B117	azginlik	26:91	26:94	cehennem	✓	cehennem azgınların karşısına getirilir; tıkılırlar
 B117	sirk	26:92	26:94	cehennem	✓	"O ibadet ettikleriniz nerede?"
@@ -458,49 +457,49 @@ B122	ilke_uyarisiz_helak_yok	26:208	26:208	helak	✓	"Uyarıcıları olmayan hi�
 B123	ahirete_inanmama	27:4	27:5	azap_siddetli	✓	"azabın korkuncu öngörülen... âhirette hüsrana uğrayacaklar"
 B123	ahirete_inanmama	27:4	27:5	husran	✓
 B124	zulum_ve_bobürlenme	27:14	27:14	belirsiz	?	"o bozguncuların sonu" ayette nitelenmez, sonuç adlandırılmaz
-B125	fesat	27:48	27:51	helak	✓	dokuz çete bozgun çıkarır; baskın tuzağı; "onları da toplumlarını da yere geçirdik"
+B125	fesat	27:48	27:51	helak	✓	dokuz kişilik çete bozgunculuk yapar; baskın tuzağı; "onları da toplumlarını da tümüyle yok ettik" (dammernâhum)
 B125	zulum	27:52	27:52	helak	✓	"işledikleri zulümler yüzünden çöküp ıpıssız kalmış evleri"
-B126	kotuluk_getirme	27:90	27:90	nar	✓	"Kötülük getirenlerin yüzleri ateşte sürtülür"
-B129	kibir	28:39	28:40	gark	✓	"haksız yere büyüklük tasladılar... yakalayıp suya fırlattık"
-B129	ilahlik_iddiasi	28:38	28:40	gark	→	Firavun'un sözü 28:38; sonuç 28:40
+B126	kotuluk_getirme	27:90	27:90	nar	✓	"Kötülük getirenler yüzüstü ateşe atılır (kubbet vucûhuhum)"
+B129	kibir	28:39	28:40	suya_atilma	✓	"haksız yere büyüklük tasladılar... yakalayıp suya fırlattık"
+B129	ilahlik_iddiasi	28:38	28:40	suya_atilma	→	Firavun'un sözü 28:38; sonuç 28:40
 B129	kibir	28:39	28:41	yardimsizlik	→	"ateşe çağıran önderler yaptık; kıyamet günü yardım göremeyecekler"
 B129	kibir	28:39	28:42	lanet	→	"dünyada arkalarına lanet taktık; kıyamette çirkinleştirilenler"
 B130	sirk	28:62	28:64	azap	✓	"ortak koştuklarınızı çağırın... cevap veremezler; azabı görmüşlerdir"
-B130	israf_gosteris	28:58	28:58	helak	✓	"yaşayışı şımarıklık ve gösterişe yol açmış nice kenti helâk ettik"
+B130	gecimde_simarma	28:58	28:58	helak	✓	"Geçiminde şımarmış (batırat maîşetehâ) nice kenti helâk ettik"
 B130	zulum	28:59	28:59	helak	✓	"halkları zulme sapmadıkları sürece helâk etmeyiz" (ilke)
 B131	kibir_azginlik	28:76	28:81	helak	✓	Karun: şımarıklık/azgınlık; "ilim sayesinde" sözü 28:78; "yere geçirdik"
 B132	ayetleri_ve_ahireti_inkar	29:23	29:23	azap_elim	✓	"rahmetimden ümidi kesmişlerdir; acıklı azap"
 B132	sirk_put_edinme	29:25	29:25	cehennem	✓	"Hepinizin varacağı yer cehennemdir"
 B132	sirk_put_edinme	29:25	29:25	lanet	✓	"bazınız bazınıza lanet edecek"
 B132	zulum	29:31	29:31	helak	✓	"ora halkı zalim oldular"
-B132	fahsa_lut	29:28	29:34	gokten_felaket	✓	"yaptıkları fenalıklardan ötürü gökten bir felaket"
-B132	erkeklere_gitme	29:29	29:34	gokten_felaket	✓
+B132	fahsa_lut	29:28	29:34	gokten_felaket	→	29:34 gökten felaket "fıska sapmaları yüzünden" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan
+B132	erkeklere_gitme	29:29	29:34	gokten_felaket	→	29:34 gökten felaket "fıska sapmaları yüzünden" (bimâ kânû yefsuqûn) bildirilir; bu davranışla bağ kıssadan
 B132	yol_kesme	29:29	29:34	gokten_felaket	→
 B132	resulleri_yalanlama	29:37	29:37	sarsinti	✓	Şuayb: "hemen yalanladılar; korkunç sarsıntı yakaladı"
-B132	seytanin_susledigi_amel	29:38	29:38	helak	→	Âd ve Semûd: amelleri süslendi; "böyle yaptık" (helak)
-B132	kibir	29:39	29:39	helak	✓	Karun, Firavun, Hâmân: yeryüzünde büyüklük
+B132	seytanin_susledigi_amel	29:38	29:40	helak	→	Âd ve Semûd: şeytan amellerini süsledi (29:38); 29:40 "her birini günahıyla yakaladık"
+B132	kibir	29:39	29:40	yakalama	✓	Karun, Firavun, Hâmân: yeryüzünde büyüklük tasladılar (29:39); 29:40 "her birini günahıyla yakaladık"
 B132	gunah	29:40	29:40	yakalama	✓	"Her birini kendi günahı ile yakaladık": taş, ses, batırma, boğma
 B132	nefse_zulum	29:40	29:40	yakalama	✓	"kendi benliklerine zulmediyorlardı"
 B132	veli_edinme	29:41	29:41	korumasizlik	?	örümcek evi benzetmesi; ceza adlandırılmaz
 B133	batila_iman_inkar	29:52	29:52	husran	✓	"bâtıla iman edip Allah'ı inkâr edenler hüsrana uğramışlar"
 B133	kufur	29:54	29:55	azap_kusatma	✓	"cehennem küfre sapanları çepeçevre kuşatmış"; "azap tepelerinden, ayaklarının altından sarar"
 B134	sirk_nankorluk	29:65	29:66	tehdit	✓	gemide Allah'a içtenlikle yakarıp kurtulunca ortak koşma; "Yakında bilecekler"
-B134	allaha_iftira	29:68	29:68	cehennem	✓	"Cehennemde değil midir kâfirlerin barınağı?"
-B134	hakki_yalanlama	29:68	29:68	cehennem	✓
+B134	allaha_iftira	29:68	29:68	cehennem	→	"Allah'a iftira edenden / hakkı yalanlayandan daha zalim kim var? Cehennemde kâfirler için yer yok mu?": cehennem "kâfirler"e bağlanır
+B134	hakki_yalanlama	29:68	29:68	cehennem	→	"Allah'a iftira edenden / hakkı yalanlayandan daha zalim kim var? Cehennemde kâfirler için yer yok mu?": cehennem "kâfirler"e bağlanır
 B135	sirk	30:13	30:13	sefaatsizlik	✓	"Ortak tuttukları arasından şefaatçılar çıkmayacaktır"
 B135	ayetleri_ve_ahireti_yalanlama	30:16	30:16	azap_hazir	✓	"azabın içinde hazır bulundurulurlar"
 B136	allah_yolundan_saptirma_alay	31:6	31:6	azap_muhin	✓	hadis/laf eğlencesi satın alıp alay etmek; "rezil edici azap"
 B136	ayetlerden_kibirle_yuz_cevirme	31:7	31:7	azap_elim	✓	"korkunç bir azapla muştula"
-B137	atalara_koru_koruna_uyma	31:21	31:21	nar	✓	"şeytan onları alevli ateşin azabına çağırmış olsa da mı?" (soru kalıbı)
+B137	atalara_koru_koruna_uyma	31:21	31:21	nar	→	"Atalarımızı üzerinde bulduğumuza uyarız" derler; "şeytan onları alevli ateşin azabına çağırıyor olsa da mı?": ateş şeytanın çağrısının hedefidir
 B137	kufur	31:23	31:24	azap_siddetli	✓	"hepsini şiddetli bir azaba süreceğiz"
 B138	ahireti_unutma	32:14	32:14	azap_sonsuz	✓	"bu gününüzü unutmuş olmanın karşılığını tadın... sonsuzluk azabı"
 B138	rabbe_kavusmayi_inkar	32:10	32:14	azap_sonsuz	→	32:10 huzura varmayı inkâr; 32:14 karşılık
 B138	fisk	32:20	32:20	nar	✓	"Sapmış olanların varacakları yer ateştir"
-B138	ayetleri_yalanlama	32:20	32:20	nar	✓	"Yalanlayıp durduğunuz ateş azabı"
+B138	atesi_yalanlama	32:20	32:20	nar	✓	fâsıklara: "yalanlayıp durduğunuz ateşin azabını tadın"; yalanlanan ateştir
 B138	fisk	32:20	32:21	dunyevi_kucuk_azap	✓	"büyük azaptan ayrı olarak küçük azaptan da tattıracağız; belki dönerler"
-B138	ayetlerden_yuz_cevirme	32:22	32:22	intikam	✓	"Suçlulardan mutlaka intikam alacağız"
+B138	ayetlerden_yuz_cevirme	32:22	32:22	intikam	→	"Suçlulardan mutlaka intikam alacağız"
 B138	kufur	32:29	32:29	iman_gec_fayda_yok	✓	"Fetih günü küfre sapanlara imanları yarar sağlamayacak"
-B139	kufur	33:8	33:8	azap_korkunc	✓	"Küfre batmışlara korkunç bir azap hazırlamıştır"
+B139	kufur	33:8	33:8	azap_elim	✓	"Küfre batmışlara korkunç bir azap hazırlamıştır"
 B140	ikiyuzluluk	33:24	33:24	azap_dilerse	✓	"İkiyüzlülere de dilerse azap edecek; belki tövbe nasip edecek"
 B140	kufur	33:25	33:25	basarisizlik	✓	"Küfre sapanları öfkeleriyle yüz geri etti; hiçbir hayra ulaşamadılar"
 B140	acik_edepsizlik_peygamber_hanimlari	33:30	33:30	azap_iki_kat	✓	"kendisi için azap iki katına çıkarılır" (özel hitap: Peygamber'in eşleri)
@@ -514,32 +513,32 @@ B142	kufur	33:64	33:65	ebedi_kalis	✓	"Sonsuza dek kalacaklardır... ne dost ne
 B142	buyuklere_itaat_ile_sapma	33:67	33:66	nar	→	itiraf: "efendilerimize itaat ettik de bizi saptırdılar"; yüzleri ateşte evrilip çevrilir
 B142	ikiyuzluluk	33:73	33:73	azap	✓	"ikiyüzlü erkek/kadınlara azap etmesi"
 B142	sirk	33:73	33:73	azap	✓	"şirke sapmış erkek/kadınlara azap etmesi"
-B143	ayetleri_hukumsuz_kilma_cabasi	34:5	34:5	azap_elim	✓	"pislikten, inletici bir azap"
-B143	ahirete_inanmama	34:8	34:8	azap_ve_sapiklik	✓	"dönüşü olmayan bir sapıklık ve bir azap içindedirler"
+B143	ayetleri_hukumsuz_kilma_cabasi	34:5	34:5	azap_elim	✓	"Onlar için riczden acıklı bir azap vardır" (azâbun min riczin elîm)
+B143	ahirete_inanmama	34:8	34:8	azap_ve_sapiklik	✓	"Ahirete inanmayanlar azabın ve uzak bir sapıklığın (ed-dalâli'l-baîd) içindedirler"
 B143	buyruktan_yan_cizme_cin	34:12	34:12	nar	✓	cinlerden buyruğa karşı gelen: alevli ateş azabı (insan dışı taraf)
 B143	yuz_cevirme_nankorluk	34:16	34:17	ceza_sel	✓	Sebe': "Nankörlük ettikleri için onları cezalandırdık" (Arim seli)
 B144	duzenbazlik_ve_sirke_cagirma	34:33	34:33	bukagi	✓	"inkârcıların boyunlarına bukağıları vurmuşuzdur"
-B144	ayetleri_hukumsuz_birakma_cabasi	34:38	34:38	azap_hazir	✓	"azabın içinde hazır bulundurulacaklar"
+B144	ayetleri_hukumsuz_birakma_cabasi	34:38	34:38	azap_hazir	✓	"Ayetlerimizi etkisiz bırakmaya çalışanlar azabın içinde hazır bulundurulurlar" (muhdarûn)
 B144	zulum	34:42	34:42	nar	✓	"Zulme sapanlara: yalanlayıp durduğunuz ateş azabını tadın"
-B144	resulleri_yalanlama	34:45	34:45	azap	✓	"Resullerimi yalanladılar. Benim azabım nasıl oldu!?"
+B144	resulleri_yalanlama	34:45	34:45	nekir	✓	"Resullerimi yalanladılar; benim karşı koyuşum (nekîr) nasıl oldu!"
 B145	seytana_uyma	35:6	35:6	cehennem	→	"hizbini cehennem yâranından olmaları için çağırır"; çağrı anlatılır, sonuç kesin değil
 B145	kufur	35:7	35:7	azap_siddetli	✓	"Küfre sapanlar için şiddetli bir azap"
 B145	kotuluk_tuzagi	35:10	35:10	azap_siddetli	✓	"kötülükleri tuzak yapanlar için şiddetli azap; tuzakları tarumar olur"
 B146	kufur	35:36	35:36	nar	✓	"İnkâr edenlere cehennem ateşi var; ölmezler, azapları hafifletilmez"
 B146	kufur	35:36	35:36	azap_hafiflemez	✓
 B146	zulum	35:37	35:37	yardimsizlik	✓	"Zalimler için hiçbir yardımcı yok artık"
-B146	kufur	35:39	35:39	gazab_husran	✓	"Kâfirlerin küfrü öfkeden başka bir şey artırmaz... hüsran ve yıkım"
-B148	resullerle_alay	36:30	36:31	helak	✓	"her resulle alay ederlerdi... nice nesilleri helâk ettik"
+B146	kufur	35:39	35:39	makt_husran	✓	"Kâfirlerin küfrü Rableri katında yalnız maktlarını (şiddetli hoşnutsuzluk) ve hüsranlarını artırır"
+B148	resullerle_alay	36:30	36:31	helak	→	"her resulle alay ederlerdi... nice nesilleri helâk ettik"
 B149	seytana_kulluk	36:60	36:63	cehennem	✓	"Şeytana kulluk etmeyin... Alın size tehdit edildiğiniz cehennem"
 B149	kufur	36:64	36:64	nar	✓	"İnkâr edip durmanız yüzünden dalın oraya"
-B151	seytan_konseyi_dinleme_cabasi	37:10	37:10	yildiz_atisi	✓	insan dışı taraf (şeytanlar); kovulma ve yıldız atışı 37:9-10
+B151	seytan_konseyi_dinleme_cabasi	37:10	37:10	yildiz_atisi	✓	insan dışı taraf (şeytanlar); "kapıp kaçanı delici bir şihab takip eder" (37:9-10)
 B152	zulum	37:22	37:23	cehennem	✓	"Toplayın o zulmedenleri... Sürün onları cehennemin yoluna"
 B152	allahtan_baska_tapinma	37:23	37:23	cehennem	✓
 B153	tevhide_karsi_kibir	37:35	37:38	azap_elim	✓	"La ilahe illallah dendiğinde kibirleniyorlardı... acıklı azabı tadacaksınız"
 B154	zulum	37:63	37:66	zakkum	✓	zakkum "zalimler için fitne"; yiyecekler, kaynar su, dönüş cehenneme
 B154	atalara_koru_koruna_uyma	37:70	37:68	cehennem	✓	"çünkü babalarını sapmış bulmalarına rağmen eserleri ardınca koşturuyorlar"
-B155	peygambere_tuzak_kurma	37:97	37:98	hizy	✓	İbrahim'i ateşe atmak istediler: "onları sefiller, reziller haline getirdik"
-B157	zikirden_suphe	38:8	38:8	azap_henuz_tatmama	→	"benim azabımı henüz tatmadılar"; ceza gelecek zaman, ayetin kendisi sebebi bağlamaz
+B155	peygambere_tuzak_kurma	37:97	37:98	asagilik	✓	İbrahim'i ateşe atmak istediler: "Ona tuzak kurmak istediler; biz de onları en alçaklar (el-esfelîn) yaptık"
+B157	zikirden_suphe	38:8	38:8	azap_henuz_tatmama	→	"Onlar zikrimden kuşkudadır; hayır, henüz azabımı tatmadılar" (lemmâ yezûkû)
 B157	resulleri_yalanlama	38:14	38:14	azap_hak_oldu	✓	"resulleri yalanlamaktan başka bir şey yapmadılar. Sonunda azabım hak oldu"
 B158	hevaya_uyma_allah_yolundan_sapma	38:26	38:26	azap_siddetli	✓	"hesap gününü unutmuş olmaları yüzünden şiddetli bir azap"
 B158	kufur_bos_yaratilis_sanisi	38:27	38:27	nar	✓	"Vay hallerine o inkârcıların, ateş yüzünden!"
@@ -549,14 +548,14 @@ B161	kibir_inkar_iblis	38:74	38:78	lanet	✓	İblis: kibir ve inkâr (38:74); "D
 B161	seytana_uyma	38:85	38:85	cehennem	✓	"cehennemi seninle ve sana uyanlarla dolduracağım"
 B162	sirk_nankorluk	39:8	39:8	nar	✓	nimet gelince ortak koşma: "sen ateş halkındansın"
 B162	isyan	39:13	39:13	azap_buyuk	✓	"Rabbime isyan edersem büyük bir günün azabından korkarım" (peygambere hitap)
-B162	allaha_kulluktan_baska_kulluk	39:15	39:15	husran	✓	"hem kendilerini hem ailelerini hüsrana atanlar"
+B162	allaha_kulluktan_baska_kulluk	39:15	39:15	husran	→	"hem kendilerini hem ailelerini hüsrana atanlar"
 B162	allaha_kulluktan_baska_kulluk	39:15	39:16	nar	→	39:16 "üstlerinde ateşten gölgeler"
 B162	zikre_karsi_kalp_katiligi	39:22	39:22	sapiklik_vay	✓	"kalpleri katılaşmış olanlara yazıklar olsun... açık sapıklık içindekiler"
 B162	zulum	39:24	39:24	azap_kotu	✓	"kazanmış olduğunuzu tadın... o kötü azaptan yüzünü kim koruyabilir?"
-B162	resulleri_yalanlama	39:25	39:26	rezillik_ve_azap	✓	"dünyada rezilliği tattırdı; ahiretin azabı daha büyük"
-B162	allaha_yalan_duzme_hakki_yalanlama	39:32	39:32	cehennem	✓	"Cehennemde kâfirler için bir barınak yok mu?"
+B162	yalanlama	39:25	39:26	rezillik_ve_azap	✓	"Onlardan öncekiler de yalanladı; azap onlara farkında olmadıkları yerden geldi" (39:25); "dünyada rezilliği tattırdı" (39:26)
+B162	allaha_yalan_duzme_hakki_yalanlama	39:32	39:32	cehennem	→	"Allah'a iftira edenden / hakkı yalanlayandan daha zalim kim var? Cehennemde kâfirler için yer yok mu?": cehennem "kâfirler"e bağlanır
 B162	zulum	39:47	39:47	azap_kotu	✓	zulmedenler fidye vermek isterdi
-B162	nimeti_ilme_baglama	39:49	39:51	kotuluklerin_yakalamasi	✓	"kazandıkları kendilerine yarar sağlamadı; kötülükleri yakalarına yapıştı"
+B162	nimeti_ilme_baglama	39:49	39:51	kotuluklerin_yakalamasi	→	39:50 "bunu onlardan öncekiler de söylemişti"; 39:51 "kazandıklarının kötülükleri onları yakaladı" o öncekilere döner
 B162	ayetleri_yalanlama_ve_kibir	39:59	39:58	ikinci_firsat_yok	✓	"Hayır! Ayetlerim sana geldi, yalanladın, büyüklük tasladın ve kâfirlerden oldun"
 B162	allaha_yalan_isnat	39:60	39:60	yuz_kararmasi	✓	"yüzleri simsiyah halde görürsün"
 B162	kibir	39:60	39:60	cehennem	✓	"Kibirliler için cehennemde bir barınak mı yok!"
@@ -566,12 +565,12 @@ B163	kibir	39:72	39:72	cehennem	✓	"Büyüklük taslayanların barınağı ne d
 B163	kibir	39:72	39:72	ebedi_kalis	✓	"Orada sürekli kalacaksınız"
 B164	resulleri_yalanlama_ve_batilla_mucadele	40:5	40:5	yakalama	✓	"hakkı işlemez kılmak için yanlışı esas alarak mücadele ettiler; nihayet onları yakaladım"
 B164	nankorluk	40:6	40:6	nar	✓	"nankörlüğe sapanlar hakkındaki 'onlar ateş yâranıdır' sözü"
-B164	imana_cagriya_inkar	40:10	40:10	gazab	✓	"Allah'ın öfkesi... imana çağrılıyordunuz da inkâr ediyordunuz"
-B165	zulum	40:18	40:18	sefaatsizlik	✓	"Zalimlerin ne bir dostu ne şefaatçısı"
+B164	imana_cagriya_inkar	40:10	40:10	makt	✓	"Allah'ın maktı (şiddetli hoşnutsuzluğu), sizin kendinize olan maktınızdan daha büyüktür; imana çağrılıyordunuz da inkâr ediyordunuz"
+B165	zulum	40:18	40:18	sefaatsizlik	✓	"Zalimlerin ne yakın dostu ne de sözü dinlenecek (yutâ') bir şefaatçisi vardır"
 B165	gunah	40:21	40:21	yakalama	✓	"Allah onları günahları yüzünden yakaladı"
 B165	resulleri_inkar	40:22	40:22	yakalama	✓	"Resulleri açık mesajlarla geldi de inkâr ederlerdi... Allah hepsini yakaladı"
 B166	suphecilik_sinir_tanimama	40:34	40:34	saptirilma	✓	"sınır tanımaz kuşkucuları Allah işte böyle saptırır"
-B166	ayetlerde_kanitsiz_mucadele	40:35	40:35	gazab_ve_muhur	✓	"büyük bir öfke konusu... zorba, kibirli kalpler üzerine mühür"
+B166	ayetlerde_kanitsiz_mucadele	40:35	40:35	makt	✓	"Kanıtsız ayetler hakkında mücadele edenlerin bu tutumu Allah ve müminler katında büyük bir maktla (hoşnutsuzlukla) karşılanır"; mühür ayrı kayıtta "zorba, kibirli kalp"e
 B166	zorbalik_kibir	40:35	40:35	muhur	✓
 B166	israf_asiri_gitme	40:43	40:43	nar	✓	"Aşırılığa sapanlar ateş halkının ta kendileridir"
 B166	resule_inanmama_firavun	40:37	40:45	azap_kusatma	→	Firavun: Mûsa'yı yalancı sanma, kötü işin süslenmesi; sonuç 40:45-46
@@ -586,15 +585,15 @@ B168	koruklugu_hidayete_tercih	41:17	41:17	yildirim	✓	Semûd: "körlüğü hid
 B168	allah_hakkinda_kotu_zan	41:22	41:23	husran	✓	"Rabbiniz hakkında beslediğiniz bu zannınız sizi mahvetti, hüsrana uğrayanlardan oldunuz"
 B168	kurani_dinlememe_yaygara	41:26	41:27	azap_siddetli	✓	"inkârcılara şiddetli azabı tattıracağız; yaptıklarının en kötüsüyle cezalandıracağız"
 B168	ayetlere_karsi_cikma	41:28	41:28	ebedi_kalis	✓	"Ayetlerimize karşı çıkmalarından ötürü sürekli kalış yeri vardır"
-B168	ayetlerde_ilhad	41:40	41:40	nar	✓	"eğri ile doğruyu birbirine katanlar... ateşin içine atılan mı hayırlıdır" (soru kalıbı)
+B168	ayetlerde_ilhad	41:40	41:40	nar	→	"eğri ile doğruyu birbirine katanlar... ateşin içine atılan mı hayırlıdır" (soru kalıbı)
 B168	nankorluk_ve_ahireti_inkar	41:50	41:50	azap_cetin	✓	"nankörlük edenlere çetin azabı tattıracağız"
 B169	zulum	42:8	42:8	yardimsizlik	✓	"Zalimler için ne dost ne yardımcı"
 B170	allah_hakkinda_tartisma	42:16	42:16	gazab_ve_azap	✓	"üzerlerine öfke, kendilerine şiddetli bir azap"
 B170	dunya_ekini_isteme	42:20	42:20	ahirette_nasip_yok	✓	"böylesi için âhirette bir nasip yoktur"
-B170	dinde_izinsiz_yasalastirma	42:21	42:21	azap_elim	✓	"dinden Allah'ın izin vermediğini yasalaştıran ortaklar... zalimler için acıklı azap"
+B170	dinde_izinsiz_yasalastirma	42:21	42:21	azap_elim	→	"dinden Allah'ın izin vermediğini yasalaştıran ortaklar... zalimler için acıklı azap"
 B170	kufur	42:26	42:26	azap_siddetli	✓	"İnkârcılara da şiddetli bir azap var"
 B171	insanlara_zulum_ve_haksiz_tasma	42:42	42:42	azap_elim	✓	"acıklı bir azap vardır"
-B171	zulum	42:44	42:44	yardimsizlik	✓	"Allah'ın saptırdığına O'ndan başka dost yoktur"
+B171	zulum	42:44	42:44	yardimsizlik	→	"Allah'ın saptırdığına O'ndan başka veli yoktur" (ilk cümle); zalimler ikinci cümlede azabı görünce dönüş yolu ararlar
 B171	zulum	42:45	42:45	azap_surekli	✓	"zalimler, sürüp gidecek bir azabın içindedir"
 B172	peygamberle_alay	43:7	43:8	helak	→	alay edenler; "gücü onlardan üstün olanları da helâk etmişizdir"
 B173	zikirden_yuz_cevirme	43:36	43:36	seytan_musallat	✓	"ona bir şeytanı musallat ederiz de o ona can yoldaşı olur"
@@ -602,7 +601,7 @@ B173	zulum	43:39	43:39	azapta_ortaklik	✓	"Çünkü zulme sapmışsınız. Azap
 B174	ayetlerle_alay	43:47	43:48	azap_yakalama	✓	"ayetlerimize gülüyorlardı... belki dönerler diye onları azapla da yakalamışızdır"
 B174	firavuna_itaat_fisk	43:54	43:55	gark	✓	"yoldan sapmış bir toplum... bizi öfkelendirince öç aldık; hepsini suya gömdük"
 B174	azap_kalkinca_sozden_donme	43:50	43:55	gark	→	43:50 azap kalkınca yan çizdiler; sonuç 43:55
-B175	zulum	43:65	43:65	azap_buyuk	✓	"Korkunç bir günün azabından vay haline o zulmedenlerin"
+B175	zulum	43:65	43:65	azap_elim	✓	"Korkunç bir günün azabından vay haline o zulmedenlerin"
 B176	suc_isleme	43:74	43:74	ebedi_kalis	✓	"Suçlular cehennem azabının içinde sürekli kalacaklardır"
 B176	suc_isleme	43:74	43:75	azap_hafiflemez	✓	"Azapları hafifletilmeyecektir"
 B176	zulum	43:76	43:74	ebedi_kalis	✓	"Azapları hafifletilmeyecektir... Biz onlara zulmetmedik; onlar zalimlerin ta kendileriydi" (43:74 sürekli kalış, 43:76 gerekçe)
@@ -611,11 +610,11 @@ B177	eski_haline_donme	44:15	44:16	intikam	✓	"azabı biraz kaldırırız; eski
 B178	suc_isleme	44:37	44:37	helak	✓	Tübba' halkı: "Onları helâk ettik; çünkü onlar suç işlemiş insanlardı"
 B178	suc_isleme	44:44	44:43	zakkum	✓	zakkum "suçluların yemeği"; kaynar su
 B178	kuskuya_dusme	44:50	44:48	azap_kaynar_su	→	"kuşkulanıp durduğunuz şey budur"
-B179	iftira_gunah	45:7	45:7	azap_vay	✓	"Yazıklar ve azaplar olsun günaha batmış her yalancı iftiracıya"
+B179	iftira_gunah	45:7	45:7	vay	✓	"Yazıklar ve azaplar olsun günaha batmış her yalancı iftiracıya"
 B179	ayetleri_dinleyip_kibirle_inat	45:8	45:8	azap_elim	✓	"böbürlenmiş olarak inadında devam eder... acıklı azapla muştula"
-B179	ayetlerle_alay	45:9	45:9	azap_horlayici	✓	"horlayıp yere batıran bir azap"
+B179	ayetlerle_alay	45:9	45:9	azap_muhin	✓	"İşte onlar için alçaltıcı bir azap (azâbun muhîn) vardır"
 B179	allahtan_baska_veli_edinme	45:10	45:10	cehennem	✓	"Arkalarından cehennem! ... çok büyük bir azap"
-B179	ayetleri_inkar	45:11	45:11	azap_pislik	✓	"korkunç bir pislik azabı"
+B179	ayetleri_inkar	45:11	45:11	azap_elim	✓	"Rablerinin ayetlerini inkâr edenler için riczden acıklı bir azap vardır" (azâbun min riczin elîm)
 B180	hevasini_ilah_edinme	45:23	45:23	muhur_ve_saptirma	✓	"Allah onu bir ilim üzerine saptırmış, kulağı ve kalbi üzerine mühür basmış, gözüne perde çekmiştir"
 B180	gercekleri_hukumsuz_kilma	45:27	45:27	husran	✓	"gerçekleri hükümsüz kılanlar hüsrana uğrayacaklar"
 B181	buyukluk_ve_suc	45:31	45:34	unutulma_ve_nar	✓	"Unutuyoruz sizi bugün... Sığınağınız ateştir; hiçbir yardımcınız olmayacak"
@@ -636,7 +635,7 @@ B183	heva_ardina_dusme	47:16	47:16	muhur	✓	"Allah'ın kalplerine mühür bast�
 B183	fesat_ve_akrabalik_bagini_kesme	47:22	47:23	lanet_sagirlik	✓	"Allah'ın kendilerine lanet edip kulaklarını sağır, gözlerini kör ettiği kimseler"
 B183	hidayet_belli_olduktan_sonra_donme	47:25	47:25	seytan_susleme	✓	"şeytan fit vermiş, sonu gelmez arzuların ardına takmıştır"
 B184	allah_hakkinda_kotu_zan	48:6	48:6	gazab_lanet_cehennem	✓	"Allah onlara öfkelenmiş, lanetlemiş ve kendilerine cehennem hazırlamıştır"
-B184	cirkin_sani	48:12	48:12	mahvolma	✓	"çirkin bir sanıya saplandınız ve mahvolmuş bir topluluk haline geldiniz"
+B184	cirkin_sani	48:12	48:12	mahvolma	✓	"Kötü bir sanı beslediniz ve helâke gitmiş (bûr) bir topluluk idiniz"
 B184	allaha_ve_resulune_iman_etmeme	48:13	48:13	nar_alevli	✓	"inkârcılar için alevli bir ateş hazırladık"
 B184	ahdi_bozma	48:10	48:10	kendi_aleyhine	✓	"Kim ahdi bozarsa ancak kendi aleyhine bozar" (fe-innemâ yenküsü alâ nefsihî); sonuç bozanın kendisine döner, ayrı bir ceza adı verilmez
 B184	yuz_cevirme_savastan	48:16	48:16	azap_elim	✓	"yüz çevirirseniz, Allah sizi acıklı bir azapla cezalandırır"
@@ -649,21 +648,21 @@ B186	suphecilik	50:25	50:26	cehenneme_atilma	✓
 B186	sirk	50:26	50:26	cehenneme_atilma	✓	"Allah'ın yanına başka bir ilah koydu. Artık atın onu"
 B187	duzenbaz_yalancilik	51:10	51:13	nar	✓	"Kahrolsun o düzenbaz yalancılar... O gün ateş üzerinde deneme ve elemeye tâbi tutulacaklardır"
 B188	sinir_tanimama	51:34	51:34	tas_yagmuru	✓	"Rabbin katında sınır tanımazlar için işaretlenmiş taşlar" (Lût kavmi bağlamı)
-B188	yuz_cevirme_ve_resule_iftira	51:39	51:40	gark	✓	Firavun yüz çevirdi, "bir büyücü yahut mecnun" dedi; "yakalayıp suyun ortasına fırlattık"
-B189	ayetleri_yalanlama	52:14	52:13	nar	✓	"Vay hallerine o gün yalanlayanların"; "cehenneme kakılırlar"
-B189	zulum	52:47	52:47	azap_dunyevi	✓	"Zulmedenler için bundan başka bir azap da vardır"
+B188	yuz_cevirme_ve_resule_iftira	51:39	51:40	suya_atilma	✓	Firavun yüz çevirdi, "bir büyücü yahut mecnun" dedi; "yakalayıp suyun ortasına fırlattık"
+B189	atesi_yalanlama	52:14	52:13	nar	✓	"İşte yalanlayıp durduğunuz ateş budur"; 52:13 "cehenneme itilirler"
+B189	zulum	52:47	52:47	baska_azap	✓	"Zulmedenler için bundan başka bir azap da vardır"
 B192	zulum_ve_azginlik	53:52	53:52	helak	✓	Nûh kavmi: "zulmettiler, azdılar"
-B193	ayetleri_yalanlama	54:18	54:18	azap	✓	Âd: "yalanlamıştı... nasıl oldu azabım ve uyarılarım!"
-B194	deve_boğazlama	54:29	54:31	tek_ses	✓	Semûd deveyi boğazladı; "bir tek ses gönderdik"
+B193	yalanlama	54:18	54:18	azap	✓	Âd: "yalanlamıştı... nasıl oldu azabım ve uyarılarım!"
+B194	deveyi_kesme	54:29	54:31	tek_ses	✓	Semûd arkadaşlarını çağırdı, o da deveyi kesti (fe-akar); "bir tek sayha gönderdik"
 B194	uyarilari_yalanlama	54:33	54:34	tas_ruzgari	✓	Lût kavmi: çakıl taşı fırlatan rüzgâr
 B194	misafirlere_tecavuz_istegi	54:37	54:37	goz_kor_etme	✓	Lût'un misafirlerinden nefislerini tatmin istediler; "gözlerini kör etmiştik"
 B194	ayetleri_yalanlama	54:42	54:42	yakalama	✓	Firavun hanedanı: "ayetlerimizin tümünü yalanladılar... yakaladık"
 B195	suc_isleme	54:47	54:48	nar	✓	"suçlular şaşkınlık ve çılgınlık içindedir... yüzleri üstüne ateşe sürüklenirler"
-B195	yenilmezlik_iddiasi	54:44	54:45	bozguna_ugratilma	→	"Biz yenilmez topluluğuz mu diyorlar? Bozguna uğratılacak"
+B195	galip_topluluk_iddiasi	54:44	54:45	bozguna_ugratilma	→	"Biz birbirine yardım eden galip bir topluluğuz (cemîun muntasır) mı diyorlar? O topluluk bozguna uğratılacak"
 B197	suc_isleme	55:43	55:43	nar	✓	"günahkârların yalanlayıp durdukları cehennem"
 B197	suc_isleme	55:43	55:44	kaynar_su	✓	"onunla kaynar su arasında dolaşırlar"
-B198	servet_ve_refahla_simarma	56:45	56:42	nar	✓	"şomluk yâranı bundan önce servet ve refahla şımaranlardı"; ateş ve kaynar su
-B199	ayetleri_yalanlama	56:51	56:52	zakkum	✓	"sapık yalanlayıcılar... zakkumdan yiyecekler, kaynar su"
+B198	servet_ve_refahla_simarma	56:45	56:42	semum_hamim	✓	"şomluk yâranı bundan önce servet ve refahla şımaranlardı"; ateş ve kaynar su
+B199	yalanlama	56:51	56:52	zakkum	✓	"Sonra siz ey sapık yalanlayıcılar (ed-dâllûne'l-mukezzibûn), zakkumdan yiyeceksiniz"; yalanlananın ne olduğu 56:47-48'deki diriliş itirazından anlaşılır
 B201	yalanlama_sapiklik	56:92	56:93	kaynar_su	✓	"yalanlayan sapıklardansa kaynar sudan bir ziyafet"
 B201	yalanlama_sapiklik	56:92	56:94	nar	✓	"cehenneme salıverilme var ona"
 B202	ikiyuzluluk	57:13	57:13	sur_ve_azap	✓	ikiyüzlüler ile müminler arasına sur çekilir, "dış tarafı azap"
@@ -671,25 +670,25 @@ B202	suphe_ve_kuruntu	57:14	57:15	nar	→	şüphe, hayal ve kuruntu aldattı; "V
 B202	kufur	57:15	57:15	nar	✓	"Varacağınız yer ateştir. Odur sizin mevlânız"
 B202	kufur_ve_ayetleri_yalanlama	57:19	57:19	nar	✓	"cehennemin dostu olacaklardır"
 B202	dunya_hayatina_dalma	57:20	57:20	azap_siddetli	→	dünya hayatı oyun-eğlence-övünme; "âhirette şiddetli bir azap var"
-B203	kufur	58:4	58:4	azap_korkunc	✓	"Küfre sapanlara korkunç bir azap vardır" (zıhar kefareti bağlamı)
+B203	kufur	58:4	58:4	azap_elim	✓	"Küfre sapanlara korkunç bir azap vardır" (zıhar kefareti bağlamı)
 B203	allaha_ve_resulune_karsi_gelme	58:5	58:5	carpilip_tepelenme	✓	"kendilerinden öncekilerin çarpılıp tepelendikleri gibi çarpılıp tepeleneceklerdir"
-B203	allaha_ve_resulune_karsi_gelme	58:5	58:5	azap_muhin	✓	"küfre sapanlar için rezil edici bir azap"
+B203	allaha_ve_resulune_karsi_gelme	58:5	58:5	azap_muhin	→	"küfre sapanlar için rezil edici bir azap"
 B203	gunah_dusmanlik_resule_isyan_fisildasmasi	58:8	58:8	cehennem	✓	yasaklandıktan sonra dönüp fısıldaşanlar: "Cehennem yeter onlara. Girecekler oraya"
 B203	gazap_edilen_kavmi_dost_edinme	58:14	58:15	azap_siddetli	✓	"Allah onlar için şiddetli bir azap hazırlamıştır"
 B203	yalana_yemin	58:14	58:15	azap_siddetli	✓	"bilip durdukları halde yalana yemin ediyorlar"
 B203	yemini_kalkan_edinip_allah_yolundan_alikoyma	58:16	58:16	azap_muhin	✓	"küçük düşürücü bir azap"
-B203	mal_ve_evlada_guvenme_ateş	58:17	58:17	nar	✓	"Ateş halkıdır onlar. Sürekli kalacaklardır orada"
+B203	mal_ve_evladin_fayda_vermemesi	58:17	58:17	nar	→	"Malları da çocukları da Allah'a karşı onlara bir yarar sağlamaz; ateş halkıdır onlar": özne 58:14-16'daki topluluk; "güvenme" ayette söylenmez
 B203	seytanin_hizbi_zikri_unutma	58:19	58:19	husran	✓	"Şeytanın hizbi hüsrana uğrayanların ta kendileridir"
 B203	allaha_ve_resulune_kafa_tutma	58:20	58:20	asagilik	✓	"en aşağılık kişiler arasındadırlar"
 B204	allaha_ve_resulune_kafa_tutma	59:4	59:3	surgun_ve_nar	✓	Ehlikitap'tan küfre sapanlar: sürgün (dünya), âhirette ateş azabı
 B204	allaha_ve_resulune_kafa_tutma	59:4	59:4	azap_cetin	✓	"Kim Allah'a kafa tutarsa Allah'ın azabı çok çetindir"
-B204	nifak	59:11	59:15	azap_elim	→	ikiyüzlülerin dostlarına verdiği yalan vaat (59:11-12); "acı bir azap var onlara" (59:15), "onlara" aynı pasajdaki bu topluluğa gönderme yapar
+B204	nifak	59:11	59:15	azap_elim	→	ikiyüzlülerin dostlarına verdiği yalan vaat (59:11-12); 59:15 "acı azap" onlardan önce vebali tadanlara benzetilerek bildirilir, bağ benzetmeyle kurulur
 B204	seytanin_kufur_cagrisina_uyma	59:16	59:17	nar	✓	"ikisinin de sonu, içinde sürekli kalacakları ateşe girmek oldu. Zalimlerin cezası"
 B204	allahi_unutma	59:19	59:19	benligini_unutturma	✓	"Allah'ı unuttular da Allah da onlara öz benliklerini unutturdu. Yoldan çıkmışlar"
 B205	savasan_dusmanlarla_dost_olma	60:9	60:9	zalim_sayilma	✓	"Böyleleriyle dost olanlar, zalimlerin ta kendileridir" (ceza değil, nitelendirme)
 B206	allaha_iftira_ve_zulum	61:7	61:7	hidayet_edilmeme	✓	"Allah, zulme bulaşmış topluluğu doğruya iletmez"
 B207	kufur	64:5	64:5	vebal_ve_azap	✓	"yapıp ettiklerinin vebalini tattılar. Korkunç bir azap vardır"
-B207	resulleri_insan_diye_reddetme	64:6	64:5	azap_korkunc	✓	"Bir insan mı bize kılavuzluk edecek?! deyip küfre saptılar ve yüz çevirdiler" (64:6 gerekçe)
+B207	resulleri_insan_diye_reddetme	64:6	64:5	azap_elim	✓	"Bir insan mı bize kılavuzluk edecek?! deyip küfre saptılar ve yüz çevirdiler" (64:6 gerekçe)
 B207	kufur_ve_ayetleri_yalanlama	64:10	64:10	nar	✓	"ateşin dostlarıdır; içinde sürekli kalacaklar"
 B208	azginlik_ve_emirden_cikma	65:8	65:8	zorlu_hesap_ve_azap	✓	"çok zorlu bir hesaba çektik ve görülmemiş bir azapla azap ettik"
 B208	azginlik_ve_emirden_cikma	65:8	65:9	husran	✓	"işlerinin sonu hüsran oldu"
@@ -708,7 +707,7 @@ B216	kufur	70:2	70:1	azap	✓	"geleceği kuşkusuz azap küfre sapanlar içindir
 B217	sirt_cevirme	70:17	70:15	nar	✓	"alevlenen ateş... çağırır sırtını dönüp uzaklaşanı"
 B217	mal_yigma	70:18	70:15	nar	✓	"toplayıp kasada yığanı"
 B219	hata_gunah	71:25	71:25	gark_ve_nar	✓	"Hataları yüzündendir ki boğuldular, ateşe atıldılar. Allah dışında yardımcı bulamadılar"
-B219	put_edinme	71:23	71:25	gark_ve_nar	✓	Nûh kavmi: "ilahlarınızı bırakmayın" (71:23); sonuç 71:25
+B219	put_edinme	71:23	71:25	gark_ve_nar	→	Nûh kavmi: "ilahlarınızı bırakmayın" (71:23); 71:25 boğulma ve ateşin sebebi "hataları" (mimmâ hatîâtihim) diye bildirilir
 B219	buyuk_hile	71:22	71:25	gark_ve_nar	→	"Çok büyük tuzaklar kurdular"
 B220	haksizliga_sapma	72:15	72:15	cehennem_odunu	✓	"Haksızlığa sapanlar cehenneme odun olmuşlardır" (cin sözü)
 B220	zikirden_yuz_cevirme	72:17	72:17	yukselen_azap	✓	"Rabbi onu gittikçe yükselen bir azaba sokar"
@@ -743,9 +742,9 @@ B235	ayetleri_yalanlama	84:22	84:24	azap_elim	✓	"küfre sapanlar yalanlıyorla
 B235	kurani_dinleyip_secde_etmeme	84:21	84:24	azap_elim	→	"Karşılarında Kur'an okunduğu zaman secde etmiyorlar"
 B236	muminlere_iskence	85:10	85:10	cehennem_azabi	✓	"işkence edip tövbe etmemiş olanlar için cehennem azabı vardır"
 B236	muminlere_iskence	85:10	85:10	yangin_azabi	✓	"Onlar için yangın azabı da vardır"
-B236	muminlere_iskence	85:7	85:4	helak	✓	hendekçi grup: "gebertildi"; müminlere yaptıklarını seyrediyorlardı
+B236	muminlere_iskence	85:7	85:4	helak	→	"Hendek sahipleri kahrolsun / öldürüldü" (kutile): beddua ya da haber olarak okunur; müminlere yaptıklarını seyrediyorlardı
 B237	ogutten_kacinma_bedbaht	87:11	87:12	nar_buyuk	✓	"İçi kararmış bedbaht ise ondan kaçınacaktır. En büyük ateşe girer o"
-B238	boşa_calisma	88:3	88:4	nar	?	88:2-4 yüzler: zilletle eğilmiş, çalışıp boşa yorulmuş, ateşe dalarlar; davranış adlandırılmaz
+B238	calisip_yorulan_yuzler	88:3	88:4	nar	?	88:2-4 o gün yüzler: zilletle eğilmiş, çalışıp yorulmuş (âmiletun nâsıbe), kızgın ateşe girer; davranış adlandırılmaz
 B239	tersine_gitme_nankorluk	88:23	88:24	azap_en_buyuk	✓	"Tersine giden, nankörlük eden... Allah en büyük azapla azap edecektir"
 B240	azginlik_ve_zulum	89:11	89:13	azap_kamcisi	✓	"ülkelerde azıp zulmetmişlerdi... Rabbin üzerlerine azap kamçısını yağdırdı"
 B240	bozgunu_cogaltma	89:12	89:13	azap_kamcisi	✓	"oralarda bozgunu çoğaltmışlardı"
@@ -753,11 +752,11 @@ B241	mirasi_yeme_mali_asiri_sevme	89:19	89:23	cehennem	→	"Mirası yiyorsunuz..
 B243	ayetleri_tanimama	90:19	90:20	nar	✓	"Ayetlerimizi tanımayanlar şomluk yâranıdır. Kilitlenecek bir ateş gelecektir"
 B244	yalanlama	92:16	92:14	nar	✓	"Yalanlamış, sırtını dönmüştü o... köpürerek yanan ateş"
 B244	sirt_cevirme	92:16	92:14	nar	✓
-B244	siddete_dusku_bedbaht	92:15	92:15	nar	✓	"Şiddete çok düşkün bedbahttan başkası girmez ona"
+B244	en_bedbaht	92:15	92:15	nar	✓	"Ona ancak en bedbaht olan (el-eşqâ) girer"
 B245	kufur_ehlikitap	98:6	98:6	nar_ebedi	✓	"Ehlikitap'ın küfre sapanlarıyla müşrikler, sürekli kalıcılar olarak cehennem ateşindedirler"
 B245	sirk	98:6	98:6	nar_ebedi	✓
 B246	mizan_hafif	101:8	101:9	haviye	✓	"Tartıları hafif çekeninse, anası Hâviye'dir... kızışmış bir ateş"
-B247	cogalma_yarisi	102:2	102:6	cehennem_gorme	✓	"Çoğalma yarışı (tekâsür)... o cehennemi mutlaka göreceksiniz"
+B247	cogalma_yarisi	102:1	102:6	cehennem_gorme	✓	"Çoğalma yarışı (et-tekâsür) sizi oyaladı" (102:1); "o cehennemi mutlaka göreceksiniz" (102:6)
 B248	arkadan_cekistirme	104:1	104:4	hutame	✓	"Yazıklar olsun arkadan çekiştirenlerin... fırlatılıp atılacaktır Hutame'ye"
 B248	alay_kas_goz	104:1	104:4	hutame	✓
 B248	mal_biriktirme	104:2	104:4	hutame	✓	"mal biriktirdi, onu saydı da saydı, sanır ki malı sonsuzlaştıracaktır"
@@ -768,7 +767,7 @@ B249	riya	107:6	107:4	vay	✓
 B249	maunu_engelleme	107:7	107:4	vay	✓	"el-Mâ'ûn'u engellerler" (mealde kamu hakkı/yardım/zekât/iyilik); 107:4 "vay haline o namaz kılanların ki..." 107:5-7 ile nitelenir
 B250	ebu_leheb_davranisi_belirtilmemis	111:1	111:3	nar	?	"Elleri kurusun... alevli ateşe yaslanacaktır"; ayetlerde davranışı adlandırılmaz, kişi adıyla anılır
 ZY	ikiyuzlu_yemin	5:53	5:53	amel_boşa_husran	→	münafıkların "tüm güçleriyle sizinle olduğuna yemin" etmeleri; "amelleri boşa çıkmış, hüsrana uğramışlar"
-ZY	iman_etmeme_kitabi_bilerek	6:20	6:20	husran	✓	"kitabı oğullarını tanır gibi tanıyıp iman etmeyenler öz benliklerini hüsrana uğratanlardır"
+ZY	iman_etmeme_kitabi_bilerek	6:20	6:20	husran	→	"Kitap verdiklerimiz onu oğullarını tanır gibi tanırlar; kendilerini hüsrana uğratanlar, işte onlar iman etmezler": hüsran öznedir, iman etmeme yüklem
 ZY	ilimsiz_evlat_katli	6:140	6:140	husran	✓	"öz evlatlarını beyinsizce katledenler... gerçekten hüsrana uğramışlardır; sapıtmışlardır"
 ZY	allaha_iftira_ile_rizki_haramlastirma	6:140	6:140	husran	✓	"Allah'ın verdiği rızıkları Allah'a iftira ederek haramlaştıranlar"
 ZY	azginlik_israil	6:146	6:146	haram_kilma	✓	"Bunu onlara azgınlıkları yüzünden bir ceza olarak yaptık" (Yahudilere haram kılınanlar; dünyevî ceza)
@@ -779,7 +778,7 @@ ZY	ibrahime_tuzak	21:70	21:70	husranin_en_beteri	✓	"Ona tuzak kurmak istediler
 ZY	sirk	39:65	39:65	amel_boşa_husran	✓	"Eğer şirke saparsan amelin boşa çıkar ve hüsrana düşenlerden olursun" (Peygamber'e ve öncekilere hitap)
 ZY	sert_azabi_gorunce_iman	40:85	40:85	iman_yarar_saglamaz_husran	✓	"şiddetimizi gördüklerinde ettikleri iman yarar sağlamadı... inkârcılar hüsrana uğradılar"
 ZY	alay_ve_lakap	49:11	49:11	zalim_sayilma	✓	"Kim ki tövbe etmez, işte böyleleri zalimlerdir" (ceza adlandırılmaz; nitelendirme)
-ZY	ayetleri_yalanlama_tevrati_tasimama	62:5	62:5	hidayet_edilmeme	✓	"Allah, zulme sapmış bir topluluğu doğruya ve güzele ulaştırmaz"
+ZY	ayetleri_yalanlama_tevrati_tasimama	62:5	62:5	hidayet_edilmeme	→	"Allah, zulme sapmış bir topluluğu doğruya ve güzele ulaştırmaz"
 ZY	mal_ve_evladin_zikirden_alikoymasi	63:9	63:9	husran	✓	"Böyle bir şey yapanlar hüsrana uğramışların ta kendileridir"
 ZY	kotuluk_getirme	28:84	28:84	denk_ceza	✓	"kötülükleri yapanlar yapmış olduklarından fazlasıyla cezalandırılmayacaklardır" (Topic 10 ilkesi)
 ZY	kotuluk_sergileme	53:31	53:31	cezalandirma	✓	"Allah'ın kötülük sergileyenleri cezalandırması"

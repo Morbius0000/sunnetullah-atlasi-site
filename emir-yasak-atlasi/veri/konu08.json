@@ -7,7 +7,7 @@
 "grup": "İnanç",
 "etiket": "İman (Allah'a, ahirete, meleklere, kitaplara, elçilere)",
 "ayet_sayisi": 108,
-"cennet_sayisi": 40,
+"cennet_sayisi": 39,
 "kayitlar": [
 {
 "blok": "B001",
@@ -410,9 +410,9 @@
 "nitelik_ayet": "13:28",
 "odul_ayet": "13:29",
 "odul": "tuba",
-"derece": "✓",
+"derece": "→",
 "ham": "iman_ve_zikirle_itminan",
-"not_": ""
+"not_": "13:29 \"tûbâ\" yeni bir ilgi cümlesiyle \"iman edip salih amel işleyenler\"e bağlanır; zikirle itminan (13:28) bağı bağlamsal"
 },
 {
 "blok": "B077",
@@ -768,11 +768,11 @@
 {
 "blok": "B187",
 "nitelik_ayet": "47:2",
-"odul_ayet": "47:6",
-"odul": "cennet",
+"odul_ayet": "47:2",
+"odul": "gunah_ortme",
 "derece": "✓",
 "ham": "iman_salih_amel_ve_kurana_iman",
-"not_": "47:2 seyyiatı örtme"
+"not_": "\"Kötülüklerini örttü, hallerini düzeltti\" (keffera anhum seyyiâtihim ve asleha bâlehum); 47:6 cenneti 47:4'te anılan \"Allah yolunda öldürülenler\"e döner"
 },
 {
 "blok": "B187",
@@ -1051,7 +1051,7 @@
 "grup": "İnanç",
 "etiket": "Şirk koşmamak, tâğuttan kaçınmak, dini Allah'a özgülemek",
 "ayet_sayisi": 9,
-"cennet_sayisi": 2,
+"cennet_sayisi": 1,
 "kayitlar": [
 {
 "blok": "B029",
@@ -1084,10 +1084,10 @@
 "blok": "B097",
 "nitelik_ayet": "18:110",
 "odul_ayet": "18:110",
-"odul": "likaullah",
-"derece": "✓",
+"odul": "-",
+"derece": "→",
 "ham": "ibadette_sirk_kosmamak",
-"not_": ""
+"not_": "\"Rabbine kavuşmayı uman salih amel işlesin, ibadette ortak koşmasın\": kavuşma umulan şeydir, ödül olarak vaat edilmez"
 },
 {
 "blok": "EK05",
@@ -1102,7 +1102,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:68",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "sirk_kosmamak",
 "not_": ""
@@ -1202,9 +1202,9 @@
 "nitelik_ayet": "39:54",
 "odul_ayet": "39:53",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "ham": "inabe_ve_teslim",
-"not_": ""
+"not_": "39:53 genel mağfiret bildirimi (\"Allah bütün günahları bağışlar\"); 39:54-55 emirleri ona bağlanmış bir şart-sonuç değildir"
 },
 {
 "blok": "B171",
@@ -1267,7 +1267,7 @@
 "grup": "Kalp",
 "etiket": "Takva (korunup sakınmak)",
 "ayet_sayisi": 62,
-"cennet_sayisi": 20,
+"cennet_sayisi": 19,
 "kayitlar": [
 {
 "blok": "B001",
@@ -1607,9 +1607,9 @@
 "nitelik_ayet": "22:37",
 "odul_ayet": "22:37",
 "odul": "mujde",
-"derece": "✓",
+"derece": "→",
 "ham": "takva",
-"not_": "Allah'a ulaşan takvadır; muhsinlere müjde"
+"not_": "Allah'a ulaşan takvadır; müjde ayette \"güzel davrananlar\"a (el-muhsinîn) verilir"
 },
 {
 "blok": "B121",
@@ -1660,7 +1660,7 @@
 "blok": "B164",
 "nitelik_ayet": "39:20",
 "odul_ayet": "39:20",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "takva",
 "not_": "üst üste gurfeler"
@@ -1688,9 +1688,9 @@
 "nitelik_ayet": "43:67",
 "odul_ayet": "43:68",
 "odul": "korku_yok",
-"derece": "✓",
+"derece": "→",
 "ham": "takva",
-"not_": "43:67-73"
+"not_": "43:67 \"dostlar o gün düşmandır, müttakiler hariç\"; 43:68 \"ey kullarım, size korku yoktur\" hitabı 43:69'da \"ayetlerimize iman edip teslim olanlar\" diye tanımlanır"
 },
 {
 "blok": "B182",
@@ -1857,7 +1857,7 @@
 {
 "blok": "B077",
 "nitelik_ayet": "13:21",
-"odul_ayet": "13:22",
+"odul_ayet": "13:23",
 "odul": "cennet",
 "derece": "✓",
 "ham": "rabden_korkmak_hesaptan_urpermek",
@@ -1941,8 +1941,8 @@
 "odul_ayet": "52:27",
 "odul": "azaptan_korunma",
 "derece": "✓",
-"ham": "ailede_allahtan_endise",
-"not_": ""
+"ham": "ailede_endiseli_olmak",
+"not_": "\"Önceden ailemiz içindeyken endişeli (müşfikîn) idik; Allah bize lütfetti, bizi samûm azabından korudu\""
 },
 {
 "blok": "B198",
@@ -2048,9 +2048,9 @@
 "nitelik_ayet": "26:89",
 "odul_ayet": "26:89",
 "odul": "kurtulus",
-"derece": "✓",
+"derece": "→",
 "ham": "kalb_selim",
-"not_": "mal ve oğullar fayda vermez"
+"not_": "\"Malın ve oğulların fayda vermediği gün, Allah'a selim bir kalple gelen müstesna\": ayet istisnayı bildirir, \"kurtuluş\" adını vermez"
 },
 {
 "blok": "B147",
@@ -2212,7 +2212,7 @@
 "odul": "dunyevi_kurtulus",
 "derece": "→",
 "ham": "tevekkul",
-"not_": "kıssa (Musa kavmi)"
+"not_": "Mûsâ: \"Allah'a iman ettiyseniz O'na tevekkül edin\"; 10:86 \"bizi kâfirler topluluğundan kurtar\" bir duadır, kurtarılış 10:90'da anlatılır"
 },
 {
 "blok": "B084",
@@ -2266,7 +2266,7 @@
 "grup": "Kalp",
 "etiket": "Sabır ve sebat",
 "ayet_sayisi": 29,
-"cennet_sayisi": 7,
+"cennet_sayisi": 6,
 "kayitlar": [
 {
 "blok": "B007",
@@ -2397,7 +2397,7 @@
 {
 "blok": "B077",
 "nitelik_ayet": "13:22",
-"odul_ayet": "13:22",
+"odul_ayet": "13:23",
 "odul": "cennet",
 "derece": "✓",
 "ham": "allah_rizasi_icin_sabir",
@@ -2443,7 +2443,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:75",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "sabir",
 "not_": "bimâ saberû"
@@ -2606,9 +2606,9 @@
 "nitelik_ayet": "7:56",
 "odul_ayet": "7:56",
 "odul": "rahmet",
-"derece": "✓",
+"derece": "→",
 "ham": "korku_ve_umitle_dua",
-"not_": ""
+"not_": "rahmet ayette \"güzel davrananlar\"a (el-muhsinîn) yakındır; bu davranışla bağ bağlamsal"
 },
 {
 "blok": "B082",
@@ -2633,9 +2633,9 @@
 "nitelik_ayet": "39:53",
 "odul_ayet": "39:53",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "ham": "rahmetten_umit_kesmemek",
-"not_": "Allah bütün günahları bağışlar (tevbe bağlamı 39:54)"
+"not_": "\"Allah'ın rahmetinden ümit kesmeyin; Allah bütün günahları bağışlar\": mağfiret emrin gerekçesidir, ümit kesmemenin şartlı ödülü olarak kurulmaz"
 }
 ]
 },
@@ -2644,7 +2644,7 @@
 "grup": "Amel",
 "etiket": "Salih amel (iyi, düzeltici iş)",
 "ayet_sayisi": 76,
-"cennet_sayisi": 34,
+"cennet_sayisi": 33,
 "kayitlar": [
 {
 "blok": "B002",
@@ -2902,10 +2902,10 @@
 "blok": "B097",
 "nitelik_ayet": "18:110",
 "odul_ayet": "18:110",
-"odul": "likaullah",
-"derece": "✓",
+"odul": "-",
+"derece": "→",
 "ham": "salih_amel",
-"not_": "Rabbine kavuşmayı uman salih amel yapsın"
+"not_": "\"Rabbine kavuşmayı uman salih amel işlesin, ibadette ortak koşmasın\": kavuşma umulan şeydir, ödül olarak vaat edilmez"
 },
 {
 "blok": "B100",
@@ -3083,9 +3083,9 @@
 "nitelik_ayet": "35:10",
 "odul_ayet": "35:10",
 "odul": "yukselme",
-"derece": "✓",
+"derece": "→",
 "ham": "guzel_soz_salih_amel",
-"not_": "el-kelimü't-tayyib; amel-i salih yükseltir"
+"not_": "\"Güzel söz O'na yükselir; salih ameli O yükseltir\" ya da \"salih amel onu (sözü) yükseltir\": zamir iki türlü okunur"
 },
 {
 "blok": "B158",
@@ -3207,11 +3207,11 @@
 {
 "blok": "B187",
 "nitelik_ayet": "47:2",
-"odul_ayet": "47:6",
-"odul": "cennet",
+"odul_ayet": "47:2",
+"odul": "gunah_ortme",
 "derece": "✓",
 "ham": "iman_salih_amel_ve_kurana_iman",
-"not_": "47:2 seyyiatı örtme"
+"not_": "\"Kötülüklerini örttü, hallerini düzeltti\" (keffera anhum seyyiâtihim ve asleha bâlehum); 47:6 cenneti 47:4'te anılan \"Allah yolunda öldürülenler\"e döner"
 },
 {
 "blok": "B187",
@@ -3234,11 +3234,11 @@
 {
 "blok": "B194",
 "nitelik_ayet": "52:19",
-"odul_ayet": "52:19",
+"odul_ayet": "52:17",
 "odul": "cennet",
 "derece": "✓",
 "ham": "amel",
-"not_": "bimâ kuntum ta'melûn"
+"not_": "\"Yaptıklarınıza karşılık afiyetle yiyin, için\" (bimâ kuntum ta'melûn, 52:19); 52:17 \"müttakiler cennetlerdedir\""
 },
 {
 "blok": "B210",
@@ -3333,11 +3333,65 @@
 ]
 },
 {
+"id": "hasene",
+"grup": "Amel",
+"etiket": "İyilik (hasene) getirmek, hayırlarda öne geçmek",
+"ayet_sayisi": 5,
+"cennet_sayisi": 1,
+"kayitlar": [
+{
+"blok": "B023",
+"nitelik_ayet": "4:40",
+"odul_ayet": "4:40",
+"odul": "kat_kat",
+"derece": "✓",
+"ham": "hasene",
+"not_": "zerre ağırlığı; iyilik katlanır (konu 10)"
+},
+{
+"blok": "B040",
+"nitelik_ayet": "6:160",
+"odul_ayet": "6:160",
+"odul": "kat_kat",
+"derece": "✓",
+"ham": "hasene",
+"not_": "on katı; kötülüğe misli kadar (konu 10)"
+},
+{
+"blok": "B139",
+"nitelik_ayet": "28:84",
+"odul_ayet": "28:84",
+"odul": "daha_hayirlisi",
+"derece": "✓",
+"ham": "hasene",
+"not_": ""
+},
+{
+"blok": "B153",
+"nitelik_ayet": "35:32",
+"odul_ayet": "35:33",
+"odul": "cennet",
+"derece": "✓",
+"ham": "hayirlarda_yarismak",
+"not_": "3 sınıf: zalim, muktesıd, sâbık; 35:33 Adn (kimlere döndüğü tartışmalı)"
+},
+{
+"blok": "B175",
+"nitelik_ayet": "42:23",
+"odul_ayet": "42:23",
+"odul": "artirma",
+"derece": "✓",
+"ham": "hasene",
+"not_": "iyiliğe güzellik eklenir"
+}
+]
+},
+{
 "id": "namaz",
 "grup": "İbadet",
 "etiket": "Namaz (kılmak, korumak, gece ibadeti, rükû-secde)",
-"ayet_sayisi": 34,
-"cennet_sayisi": 9,
+"ayet_sayisi": 32,
+"cennet_sayisi": 7,
 "kayitlar": [
 {
 "blok": "B001",
@@ -3353,9 +3407,9 @@
 "nitelik_ayet": "2:110",
 "odul_ayet": "2:110",
 "odul": "karsilik",
-"derece": "✓",
+"derece": "→",
 "ham": "namaz",
-"not_": "önden gönderilen hayır Allah katında bulunur"
+"not_": "\"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz\": genel hayır cümlesi, namaz ve zekât emrinin hemen ardında"
 },
 {
 "blok": "B008",
@@ -3374,15 +3428,6 @@
 "derece": "✓",
 "ham": "namaz",
 "not_": ""
-},
-{
-"blok": "B013",
-"nitelik_ayet": "3:17",
-"odul_ayet": "3:15",
-"odul": "cennet",
-"derece": "✓",
-"ham": "kunut",
-"not_": "el-kânitîn"
 },
 {
 "blok": "B029",
@@ -3459,7 +3504,7 @@
 {
 "blok": "B077",
 "nitelik_ayet": "13:22",
-"odul_ayet": "13:22",
+"odul_ayet": "13:23",
 "odul": "cennet",
 "derece": "✓",
 "ham": "namaz",
@@ -3505,7 +3550,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:64",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "gece_secde_kiyam",
 "not_": ""
@@ -3544,15 +3589,6 @@
 "odul": "goz_aydinligi",
 "derece": "✓",
 "ham": "gece_ibadeti",
-"not_": ""
-},
-{
-"blok": "B147",
-"nitelik_ayet": "33:35",
-"odul_ayet": "33:35",
-"odul": "magfiret_ecir",
-"derece": "✓",
-"ham": "kunut",
 "not_": ""
 },
 {
@@ -3623,9 +3659,9 @@
 "nitelik_ayet": "73:20",
 "odul_ayet": "73:20",
 "odul": "ecir",
-"derece": "✓",
+"derece": "→",
 "ham": "kuran_okumak_namaz_zekat_karz_hasen",
-"not_": "önden gönderilen hayır Allah katında daha büyük ecir"
+"not_": "\"Önden gönderdiğiniz her hayrı Allah katında daha hayırlı ve ecirce daha büyük bulursunuz\": genel hayır cümlesi, emirlerin ardında"
 },
 {
 "blok": "B231",
@@ -3652,7 +3688,7 @@
 "grup": "İbadet",
 "etiket": "Allah'ı anmak (zikir, tesbih, hamd)",
 "ayet_sayisi": 8,
-"cennet_sayisi": 2,
+"cennet_sayisi": 1,
 "kayitlar": [
 {
 "blok": "B018",
@@ -3667,10 +3703,10 @@
 "blok": "B020",
 "nitelik_ayet": "3:191",
 "odul_ayet": "3:195",
-"odul": "cennet",
+"odul": "dua_kabulu",
 "derece": "✓",
 "ham": "zikir_ve_tefekkur",
-"not_": "3:191-194 duası; 3:195 icabet"
+"not_": "3:191-194 zikir, tefekkür ve dua; 3:195 \"Rableri onlara icabet etti: hiçbir amelinizi zayi etmem\". Cennet 3:195'te hicret edip savaşanlara bağlanır"
 },
 {
 "blok": "B044",
@@ -3713,9 +3749,9 @@
 "nitelik_ayet": "33:41",
 "odul_ayet": "33:44",
 "odul": "ecir",
-"derece": "✓",
+"derece": "→",
 "ham": "zikir_tesbih",
-"not_": "33:41-43 ardından ecr-i kerîm (mü'minler)"
+"not_": "33:41-43 zikir emri; 33:44 \"onlar için onurlu bir ecir hazırladı\" müminlere (33:43) döner"
 },
 {
 "blok": "B208",
@@ -3723,8 +3759,8 @@
 "odul_ayet": "62:10",
 "odul": "felah",
 "derece": "✓",
-"ham": "cuma_zikre_kosmak_ve_zikir",
-"not_": "le'allekum"
+"ham": "cuma_sonrasi_allahi_cok_anmak",
+"not_": "\"Namaz kılınınca yeryüzüne dağılın, Allah'ın lütfundan arayın, Allah'ı çok anın ki felah bulasınız\" (le'allekum)"
 }
 ]
 },
@@ -3733,7 +3769,7 @@
 "grup": "İbadet",
 "etiket": "Dua ve istiğfar (seher vakti dahil)",
 "ayet_sayisi": 14,
-"cennet_sayisi": 6,
+"cennet_sayisi": 4,
 "kayitlar": [
 {
 "blok": "B013",
@@ -3793,7 +3829,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:65",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "cehennemden_siginma_duasi",
 "not_": ""
@@ -3802,7 +3838,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:74",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "aile_icin_dua_takvaya_onderlik",
 "not_": ""
@@ -3857,9 +3893,9 @@
 "nitelik_ayet": "73:20",
 "odul_ayet": "73:20",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "ham": "istigfar",
-"not_": ""
+"not_": "\"Allah'tan bağışlanma dileyin; Allah Gafûr'dur, Rahîm'dir\": mağfiret sıfattan çıkarılır, verildiği yazılı değil"
 }
 ]
 },
@@ -4030,7 +4066,7 @@
 "grup": "İbadet",
 "etiket": "Vahyi dinlemek, okumak, ona sarılmak ve uymak",
 "ayet_sayisi": 23,
-"cennet_sayisi": 1,
+"cennet_sayisi": 0,
 "kayitlar": [
 {
 "blok": "B001",
@@ -4128,8 +4164,8 @@
 "odul_ayet": "9:112",
 "odul": "mujde",
 "derece": "✓",
-"ham": "siyahat",
-"not_": "es-sâihûn (YN: seyahatte oruç tutanlar; anlamı tartışmalı)"
+"ham": "hududullahi_korumak",
+"not_": ""
 },
 {
 "blok": "B077",
@@ -4171,7 +4207,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:73",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "ayetlere_kor_sagir_kapanmamak",
 "not_": ""
@@ -4208,9 +4244,9 @@
 "nitelik_ayet": "39:55",
 "odul_ayet": "39:53",
 "odul": "magfiret",
-"derece": "✓",
+"derece": "→",
 "ham": "indirilenin_en_guzeline_uymak",
-"not_": ""
+"not_": "39:53 genel mağfiret bildirimi (\"Allah bütün günahları bağışlar\"); 39:54-55 emirleri ona bağlanmış bir şart-sonuç değildir"
 },
 {
 "blok": "B176",
@@ -4235,19 +4271,28 @@
 "nitelik_ayet": "73:20",
 "odul_ayet": "73:20",
 "odul": "ecir",
-"derece": "✓",
+"derece": "→",
 "ham": "kuran_okumak_namaz_zekat_karz_hasen",
-"not_": "önden gönderilen hayır Allah katında daha büyük ecir"
+"not_": "\"Önden gönderdiğiniz her hayrı Allah katında daha hayırlı ve ecirce daha büyük bulursunuz\": genel hayır cümlesi, emirlerin ardında"
 }
 ]
 },
 {
 "id": "itaat",
 "grup": "İbadet",
-"etiket": "Allah'a ve elçiye itaat",
-"ayet_sayisi": 18,
-"cennet_sayisi": 6,
+"etiket": "Allah'a ve elçiye itaat, gönülden boyun eğiş (kunut)",
+"ayet_sayisi": 20,
+"cennet_sayisi": 7,
 "kayitlar": [
+{
+"blok": "B013",
+"nitelik_ayet": "3:17",
+"odul_ayet": "3:15",
+"odul": "cennet",
+"derece": "✓",
+"ham": "kunut",
+"not_": "el-kânitîn (gönülden boyun eğenler); 3:15 \"müttakiler için cennetler\""
+},
 {
 "blok": "B018",
 "nitelik_ayet": "3:132",
@@ -4357,6 +4402,15 @@
 "not_": "Peygamber eşleri"
 },
 {
+"blok": "B147",
+"nitelik_ayet": "33:35",
+"odul_ayet": "33:35",
+"odul": "magfiret_ecir",
+"derece": "✓",
+"ham": "kunut",
+"not_": ""
+},
+{
 "blok": "B154",
 "nitelik_ayet": "36:25",
 "odul_ayet": "36:26",
@@ -4413,10 +4467,28 @@
 ]
 },
 {
+"id": "seyahat",
+"grup": "İbadet",
+"etiket": "Dolaşma / yolculuk (es-sâihûn; anlamı tartışmalı)",
+"ayet_sayisi": 1,
+"cennet_sayisi": 0,
+"kayitlar": [
+{
+"blok": "B061",
+"nitelik_ayet": "9:112",
+"odul_ayet": "9:112",
+"odul": "mujde",
+"derece": "?",
+"ham": "siyahat",
+"not_": "es-sâihûn: kelime \"dolaşanlar/yolculuk edenler\" ya da \"oruç tutanlar\" diye okunur; YN meali yorumludur. Anlamı lafızdan kesinleşmez"
+}
+]
+},
+{
 "id": "infak",
 "grup": "Mal",
 "etiket": "İnfak, sadaka, karz-ı hasen",
-"ayet_sayisi": 30,
+"ayet_sayisi": 31,
 "cennet_sayisi": 4,
 "kayitlar": [
 {
@@ -4528,6 +4600,15 @@
 "not_": ""
 },
 {
+"blok": "B040",
+"nitelik_ayet": "6:141",
+"odul_ayet": "6:141",
+"odul": "-",
+"derece": "→",
+"ham": "hasat_hakkini_vermek",
+"not_": "emir; ödül adı yok (infak ve israf: Konu 3 ve 6)"
+},
+{
 "blok": "B051",
 "nitelik_ayet": "8:3",
 "odul_ayet": "8:4",
@@ -4548,7 +4629,7 @@
 {
 "blok": "B077",
 "nitelik_ayet": "13:22",
-"odul_ayet": "13:22",
+"odul_ayet": "13:23",
 "odul": "cennet",
 "derece": "✓",
 "ham": "gizli_acik_infak",
@@ -4676,9 +4757,9 @@
 "nitelik_ayet": "73:20",
 "odul_ayet": "73:20",
 "odul": "ecir",
-"derece": "✓",
+"derece": "→",
 "ham": "kuran_okumak_namaz_zekat_karz_hasen",
-"not_": "önden gönderilen hayır Allah katında daha büyük ecir"
+"not_": "\"Önden gönderdiğiniz her hayrı Allah katında daha hayırlı ve ecirce daha büyük bulursunuz\": genel hayır cümlesi, emirlerin ardında"
 },
 {
 "blok": "EK02",
@@ -4703,9 +4784,9 @@
 "nitelik_ayet": "2:110",
 "odul_ayet": "2:110",
 "odul": "karsilik",
-"derece": "✓",
+"derece": "→",
 "ham": "zekat",
-"not_": ""
+"not_": "\"Kendiniz için önden gönderdiğiniz her hayrı Allah katında bulursunuz\": genel hayır cümlesi, namaz ve zekât emrinin hemen ardında"
 },
 {
 "blok": "B008",
@@ -4811,9 +4892,9 @@
 "nitelik_ayet": "73:20",
 "odul_ayet": "73:20",
 "odul": "ecir",
-"derece": "✓",
+"derece": "→",
 "ham": "kuran_okumak_namaz_zekat_karz_hasen",
-"not_": "önden gönderilen hayır Allah katında daha büyük ecir"
+"not_": "\"Önden gönderdiğiniz her hayrı Allah katında daha hayırlı ve ecirce daha büyük bulursunuz\": genel hayır cümlesi, emirlerin ardında"
 },
 {
 "blok": "B236",
@@ -4830,7 +4911,7 @@
 "id": "ihtiyac_sahibine_vermek",
 "grup": "Mal",
 "etiket": "Yakına, yetime, yoksula, esire, yolcuya vermek; köle azadı",
-"ayet_sayisi": 9,
+"ayet_sayisi": 8,
 "cennet_sayisi": 3,
 "kayitlar": [
 {
@@ -4848,17 +4929,8 @@
 "odul_ayet": "2:280",
 "odul": "hayir",
 "derece": "✓",
-"ham": "borcluya_mehil_bagislama",
-"not_": "\"daha hayırlıdır\""
-},
-{
-"blok": "B040",
-"nitelik_ayet": "6:141",
-"odul_ayet": "6:141",
-"odul": "-",
-"derece": "→",
-"ham": "hasat_hakkini_vermek",
-"not_": "emir; ödül adı yok (infak ve israf: Konu 3 ve 6)"
+"ham": "borcu_bagislamak",
+"not_": "\"Borçlu darlıktaysa genişliğe kadar mühlet; sadaka olarak bağışlamanız sizin için daha hayırlıdır\": \"hayırlı\" bağışlamaya bağlanır"
 },
 {
 "blok": "B143",
@@ -4921,7 +4993,7 @@
 "grup": "Mal",
 "etiket": "Başa kakmadan, Allah rızası için, ölçülü vermek; cimrilikten korunmak",
 "ayet_sayisi": 10,
-"cennet_sayisi": 2,
+"cennet_sayisi": 1,
 "kayitlar": [
 {
 "blok": "B012",
@@ -4963,7 +5035,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:67",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "infakta_itidal",
 "not_": "ne israf ne cimrilik"
@@ -4974,7 +5046,7 @@
 "odul_ayet": "59:9",
 "odul": "felah",
 "derece": "✓",
-"ham": "muhacirleri_sevmek_isar",
+"ham": "nefsin_cimriliginden_korunmak",
 "not_": ""
 },
 {
@@ -5043,11 +5115,11 @@
 {
 "blok": "B077",
 "nitelik_ayet": "13:20",
-"odul_ayet": "13:22",
+"odul_ayet": "13:23",
 "odul": "cennet",
 "derece": "✓",
 "ham": "ahde_vefa",
-"not_": "13:19-22 ulul-elbab nitelikleri; 13:22 ukbe'd-dâr; 13:23 Adn"
+"not_": "13:19-22 ulu'l-elbâb nitelikleri; 13:22 \"yurdun güzel sonu (ukbe'd-dâr) onlarındır\", 13:23 \"Adn cennetleri\""
 },
 {
 "blok": "B117",
@@ -5092,7 +5164,7 @@
 "grup": "Ahlak",
 "etiket": "Doğruluk, dosdoğru şahitlik, yalana şahit olmamak",
 "ayet_sayisi": 6,
-"cennet_sayisi": 4,
+"cennet_sayisi": 3,
 "kayitlar": [
 {
 "blok": "B013",
@@ -5116,7 +5188,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:72",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "yalana_sahitlik_etmemek",
 "not_": "lâ yeşhedûne'z-zûr"
@@ -5153,9 +5225,9 @@
 {
 "id": "iffet",
 "grup": "Ahlak",
-"etiket": "İffet (ırzı korumak, zina etmemek, harama bakmamak)",
+"etiket": "İffet (ırzı korumak, zina etmemek, bakışları kısmak)",
 "ayet_sayisi": 7,
-"cennet_sayisi": 3,
+"cennet_sayisi": 2,
 "kayitlar": [
 {
 "blok": "B117",
@@ -5181,14 +5253,14 @@
 "odul_ayet": "24:30",
 "odul": "arinma",
 "derece": "✓",
-"ham": "harama_bakmamak_iffet",
-"not_": "ezkâ lehum"
+"ham": "bakislari_kisma_iffet",
+"not_": "\"Bakışlarından kıssınlar (yeğuddû min ebsârihim), ırzlarını korusunlar; bu onlar için daha temizdir\" (ezkâ lehum)"
 },
 {
 "blok": "B124",
 "nitelik_ayet": "25:68",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "zina_etmemek",
 "not_": ""
@@ -5227,7 +5299,7 @@
 "grup": "Ahlak",
 "etiket": "Affetmek, öfkeyi yutmak, kötülüğü iyilikle savmak",
 "ayet_sayisi": 9,
-"cennet_sayisi": 3,
+"cennet_sayisi": 2,
 "kayitlar": [
 {
 "blok": "B012",
@@ -5250,7 +5322,7 @@
 {
 "blok": "B077",
 "nitelik_ayet": "13:22",
-"odul_ayet": "13:22",
+"odul_ayet": "13:23",
 "odul": "cennet",
 "derece": "✓",
 "ham": "kotulugu_iyilikle_savmak",
@@ -5269,7 +5341,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:63",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "cahillere_selam",
 "not_": ""
@@ -5317,13 +5389,13 @@
 "grup": "Ahlak",
 "etiket": "Tevazu, büyüklenmemek",
 "ayet_sayisi": 3,
-"cennet_sayisi": 1,
+"cennet_sayisi": 0,
 "kayitlar": [
 {
 "blok": "B124",
 "nitelik_ayet": "25:63",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "tevazu_ile_yurumek",
 "not_": "Furkan 63-74 'ibâdurrahmân'; ulaike 25:75 gurfe"
@@ -5353,7 +5425,7 @@
 "grup": "Ahlak",
 "etiket": "Boş sözden (lağv) yüz çevirmek",
 "ayet_sayisi": 3,
-"cennet_sayisi": 2,
+"cennet_sayisi": 1,
 "kayitlar": [
 {
 "blok": "B117",
@@ -5368,7 +5440,7 @@
 "blok": "B124",
 "nitelik_ayet": "25:72",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "bos_soze_vakarla_gecmek",
 "not_": ""
@@ -5621,9 +5693,9 @@
 "nitelik_ayet": "7:56",
 "odul_ayet": "7:56",
 "odul": "rahmet",
-"derece": "✓",
+"derece": "→",
 "ham": "bozgunculuk_yapmamak",
-"not_": ""
+"not_": "rahmet ayette \"güzel davrananlar\"a (el-muhsinîn) yakındır; bu davranışla bağ bağlamsal"
 },
 {
 "blok": "B069",
@@ -5632,7 +5704,7 @@
 "odul": "helaktan_korunma",
 "derece": "✓",
 "ham": "islah_ehli_olmak",
-"not_": "halkı muslih olan kentler helak edilmez"
+"not_": "\"Rabbin, halkı ıslah edici iken kentleri zulümle (bi-zulmin) helâk edecek değildir\""
 },
 {
 "blok": "B139",
@@ -5658,7 +5730,7 @@
 "id": "marufu_emir",
 "grup": "Toplum",
 "etiket": "İyiliği emretmek, kötülükten sakındırmak, hakkı ve sabrı tavsiye",
-"ayet_sayisi": 9,
+"ayet_sayisi": 8,
 "cennet_sayisi": 1,
 "kayitlar": [
 {
@@ -5669,15 +5741,6 @@
 "derece": "✓",
 "ham": "hayra_cagri_marufu_emir_munkerden_nehiy",
 "not_": ""
-},
-{
-"blok": "B026",
-"nitelik_ayet": "4:85",
-"odul_ayet": "4:85",
-"odul": "pay",
-"derece": "✓",
-"ham": "iyilige_aracilik",
-"not_": "şefâat-i hasene"
 },
 {
 "blok": "B028",
@@ -5754,7 +5817,7 @@
 {
 "blok": "B077",
 "nitelik_ayet": "13:21",
-"odul_ayet": "13:22",
+"odul_ayet": "13:23",
 "odul": "cennet",
 "derece": "✓",
 "ham": "allahin_birlestirilmesini_emrettigini_ulastirmak",
@@ -5785,13 +5848,13 @@
 "grup": "Toplum",
 "etiket": "Adalet ve haksız yere cana kıymamak",
 "ayet_sayisi": 2,
-"cennet_sayisi": 1,
+"cennet_sayisi": 0,
 "kayitlar": [
 {
 "blok": "B124",
 "nitelik_ayet": "25:68",
 "odul_ayet": "25:75",
-"odul": "cennet",
+"odul": "gurfe",
 "derece": "✓",
 "ham": "haksiz_yere_cana_kiymamak",
 "not_": ""
@@ -5810,10 +5873,19 @@
 {
 "id": "sura_dayanisma",
 "grup": "Toplum",
-"etiket": "Şûra, zulme karşı dayanışma, meclislerde yer açmak",
-"ayet_sayisi": 3,
+"etiket": "Şûra, zulme karşı dayanışma, meclislerde yer açmak, iyiliğe aracılık (şefâat-i hasene)",
+"ayet_sayisi": 4,
 "cennet_sayisi": 0,
 "kayitlar": [
+{
+"blok": "B026",
+"nitelik_ayet": "4:85",
+"odul_ayet": "4:85",
+"odul": "pay",
+"derece": "✓",
+"ham": "iyilige_aracilik",
+"not_": "şefâat-i hasene"
+},
 {
 "blok": "B176",
 "nitelik_ayet": "42:38",
@@ -5836,10 +5908,10 @@
 "blok": "B203",
 "nitelik_ayet": "58:11",
 "odul_ayet": "58:11",
-"odul": "derece",
+"odul": "genislik",
 "derece": "✓",
 "ham": "meclislerde_yer_acmak",
-"not_": ""
+"not_": "\"Meclislerde yer açın denince açın; Allah da size genişlik versin\" (yefsehi'llâhu lekum); derece iman ve ilim sahiplerine"
 }
 ]
 },
@@ -6132,11 +6204,11 @@
 {
 "blok": "B019",
 "nitelik_ayet": "3:169",
-"odul_ayet": "3:170",
+"odul_ayet": "3:169",
 "odul": "rizik",
 "derece": "✓",
-"ham": "allah_yolunda_olum",
-"not_": "Rableri katında rızıklandırılırlar"
+"ham": "allah_yolunda_oldurulme",
+"not_": "\"Allah yolunda öldürülenleri (kutilû) ölü sanma; Rableri katında rızıklandırılırlar\""
 },
 {
 "blok": "B115",
@@ -6170,9 +6242,9 @@
 "nitelik_ayet": "9:24",
 "odul_ayet": "9:24",
 "odul": "-",
-"derece": "✓",
+"derece": "→",
 "ham": "allahi_her_seyden_cok_sevmek",
-"not_": "tersi tehdit: aile/mal Allah'tan sevimliyse bekleyin"
+"not_": "ayet olumsuzu söyler: \"aile, mal, ticaret ve meskenler size Allah'tan, resulünden ve cihaddan daha sevimliyse bekleyin\"; olumlu nitelik bundan çıkarılır"
 },
 {
 "blok": "B203",
@@ -6188,9 +6260,9 @@
 "nitelik_ayet": "59:9",
 "odul_ayet": "59:9",
 "odul": "felah",
-"derece": "✓",
+"derece": "→",
 "ham": "muhacirleri_sevmek_isar",
-"not_": ""
+"not_": "felah ayette \"nefsinin cimriliğinden (şuhh) korunanlar\"a bağlanır; muhacirleri sevmek ve îsar aynı topluluğun nitelikleri"
 }
 ]
 },
@@ -6378,8 +6450,8 @@
 "id": "sonuc_tanimi",
 "grup": "Sonuç tanımları",
 "etiket": "Nitelik değil, kurtulanların adı (mizanı ağır basan, kitabı sağdan verilen vb.)",
-"ayet_sayisi": 16,
-"cennet_sayisi": 6,
+"ayet_sayisi": 11,
+"cennet_sayisi": 5,
 "kayitlar": [
 {
 "blok": "B019",
@@ -6389,24 +6461,6 @@
 "derece": "?",
 "ham": "ateşten_uzaklastirilip_cennete",
 "not_": "nitelik yok; kurtuluşun tanımı"
-},
-{
-"blok": "B023",
-"nitelik_ayet": "4:40",
-"odul_ayet": "4:40",
-"odul": "kat_kat",
-"derece": "✓",
-"ham": "hasene",
-"not_": "zerre ağırlığı; iyilik katlanır (konu 10)"
-},
-{
-"blok": "B040",
-"nitelik_ayet": "6:160",
-"odul_ayet": "6:160",
-"odul": "kat_kat",
-"derece": "✓",
-"ham": "hasene",
-"not_": "on katı; kötülüğe misli kadar (konu 10)"
 },
 {
 "blok": "B041",
@@ -6454,33 +6508,6 @@
 "not_": "soy bağı fayda vermez (23:101)"
 },
 {
-"blok": "B139",
-"nitelik_ayet": "28:84",
-"odul_ayet": "28:84",
-"odul": "daha_hayirlisi",
-"derece": "✓",
-"ham": "hasene",
-"not_": ""
-},
-{
-"blok": "B153",
-"nitelik_ayet": "35:32",
-"odul_ayet": "35:33",
-"odul": "cennet",
-"derece": "✓",
-"ham": "hayirlarda_yarismak",
-"not_": "3 sınıf: zalim, muktesıd, sâbık; 35:33 Adn (kimlere döndüğü tartışmalı)"
-},
-{
-"blok": "B175",
-"nitelik_ayet": "42:23",
-"odul_ayet": "42:23",
-"odul": "artirma",
-"derece": "✓",
-"ham": "hasene",
-"not_": "iyiliğe güzellik eklenir"
-},
-{
 "blok": "B200",
 "nitelik_ayet": "56:10",
 "odul_ayet": "56:12",
@@ -6510,11 +6537,11 @@
 {
 "blok": "B229",
 "nitelik_ayet": "84:7",
-"odul_ayet": "84:9",
+"odul_ayet": "84:8",
 "odul": "kolay_hesap",
 "derece": "?",
 "ham": "kitabi_sagdan_verilmek",
-"not_": "nitelik belirtilmez"
+"not_": "\"Kitabı sağından verilen, kolay bir hesapla hesaba çekilir\" (84:8); nitelik belirtilmez"
 },
 {
 "blok": "EK03",
@@ -6577,7 +6604,7 @@
 "odul": "-",
 "derece": "✓",
 "ham": "RED:son_anda_iman",
-"not_": "ayetler gelince iman fayda vermez (konu 10)"
+"not_": "\"Rabbinin ayetlerinden bazısı geldiği gün, önceden iman etmemiş kişiye imanı fayda vermez\" (konu 10)"
 },
 {
 "blok": "B043",
@@ -6834,10 +6861,6 @@
 "3:169": {
 "ar": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتًۢا ۚ بَلْ أَحْيَآءٌ عِندَ رَبِّهِمْ يُرْزَقُونَ",
 "tr": "Allah yolunda öldürülmüş olanları ölüler sanma sakın. Hayır! Onlar diridirler. Rablerinin katında rızıklandırılıyorlar."
-},
-"3:170": {
-"ar": "فَرِحِينَ بِمَآ ءَاتَىٰهُمُ ٱللَّهُ مِن فَضْلِهِۦ وَيَسْتَبْشِرُونَ بِٱلَّذِينَ لَمْ يَلْحَقُوا۟ بِهِم مِّنْ خَلْفِهِمْ أَلَّا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
-"tr": "Allah'ın, lütfundan kendilerine verdiğiyle sevinçlidirler. Ve arkada kalıp kendilerine katılmamış olanlara şunu müjdeliyorlar: Onlar için korku yoktur; tasalanmayacaklardır onlar."
 },
 "3:172": {
 "ar": "ٱلَّذِينَ ٱسْتَجَابُوا۟ لِلَّهِ وَٱلرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ ٱلْقَرْحُ ۚ لِلَّذِينَ أَحْسَنُوا۟ مِنْهُمْ وَٱتَّقَوْا۟ أَجْرٌ عَظِيمٌ",
@@ -8503,9 +8526,9 @@
 "ar": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ",
 "tr": "O zaman kitabı sağdan verilen,"
 },
-"84:9": {
-"ar": "وَيَنقَلِبُ إِلَىٰٓ أَهْلِهِۦ مَسْرُورًا",
-"tr": "Ve sevinçli olarak ailesine dönecektir."
+"84:8": {
+"ar": "فَسَوْفَ يُحَاسَبُ حِسَابًا يَسِيرًا",
+"tr": "Kolay bir hesapla hesaba çekilecek,"
 },
 "84:25": {
 "ar": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍۭ",
@@ -8618,11 +8641,11 @@
 },
 "istatistik": {
 "kayit": 643,
-"ayet": 499,
+"ayet": 498,
 "derece": {
-"✓": 601,
-"→": 37,
-"?": 5
+"✓": 581,
+"→": 56,
+"?": 6
 }
 }
 }
