@@ -1,0 +1,37 @@
+GÖREV: Kur'an'ın Arapça metnine dayalı bir veri tablosunu SATIR SATIR denetle. Her satırı tek tek okuyacaksın; örnekleme, özetleme, "benzerleri de aynıdır" demek YASAK.
+
+ELİNDEKİ DOSYA: Ekteki parti CSV'si. Her satır bir "kayıt"tır: bir DAVRANIŞ ayeti (davranis_ayet / davranis_arapca) ile ona bağlanan KARŞILIK ayeti (karsilik_ayet / karsilik_arapca), karşılık kodu ve adı (karsilik_kodu / karsilik_adi), bağ derecesi (derece), kayıt türü (tur) ve kısa not (kayit_notu). Meal sütunları yalnız okuma kolaylığıdır; hakem ARAPÇA LAFIZDIR.
+
+KAYNAK KURALI (bağlayıcı): Yalnızca Kur'an'ın Arapça lafzı ve bağlamı esas alınır. Hadis, rivayet, israiliyat, "tefsirde şöyle bilinir", mezhep görüşü, sebeb-i nüzul KULLANILMAZ. Bir bulgunu ayetin kendi lafzından/yakın bağlamından gösteremiyorsan yazma.
+
+ATLASIN KURALLARI (bunlara göre denetle):
+1) derece ✓ = karşılık, davranışın sahibine ayetin kendi lafzıyla (zamir, "işte onlar", aynı fiil öznesi) bağlanıyor. derece → = çıkarım: karşılık başka bir gruba/sıfata bağlı (kâfirler, zalimler, muhsinler, muttakîler vb.) ve davranışla bağı bağlamla kuruluyor, ya da benzetme/alıntılanan söz yoluyla geliyor. derece ? = davranış ayette adlandırılmamış, yalnızca bağlam. "?" bir hata işareti DEĞİL, "davranış adlandırılmamış" demektir; bunu hata diye bildirme.
+2) karsilik_kodu / karsilik_adi, karşılık ayetindeki KELİMENİN kendisine uymalı (ör. "elîm" azap ≠ "azîm" azap; "gurfe" ≠ "cennet"; "makt" ≠ "gazap"). Ayet bir şeyi adıyla söylemiyorsa ad ayete eklenmemeli.
+3) Karşılık ayeti, kodlanan karşılığı gerçekten içermeli. İçermiyorsa doğru ayeti göster. Ayette açıkça yazılı bir karşılık kayıttan atlanmışsa bunu "eksik karşılık" olarak bildir.
+4) tur: emir = Allah'ın doğrudan emri; yasak = doğrudan yasak; sonuc = bir davranışın sonucunu bildiren haber; tanim = bir kişi/grubun niteliğini tarif eden ya da aktarılan (bildirilen) emir/söz. Aynı cümle iki kayıtta farklı türle kodlanmışsa bildir.
+5) kayit_notu ayette olmayan ayrıntı içermemeli (meal yorumu, eklenmiş sebep, sayı, mekân vb.).
+6) Aynı ayet/ifade başka kayıtlarda farklı kodlanmışsa (tutarsızlık), bu partide gördüklerini bildir.
+
+SORUN TÜRÜ HARFLERİ:
+a = Başlık/davranış uyuşmazlığı (davranış ayeti, kayıt başlığındaki davranışı söylemiyor)
+b = Davranış–karşılık bağı/derece (zamir yok, karşılık başka gruba bağlı, ✓/→/? yanlış)
+c = Karşılık kodu/adı lafza uymuyor, karşılık ayeti yanlış ya da ayette yazılı karşılık eksik
+d = Not/meal: nota ayette olmayan ayrıntı girmiş ya da not Arapçayla çelişiyor
+e = Derece ayrıca: ✓ olması gerekirken → (veya tersi) — b'den ayrı saymak istersen
+f = Tür (emir/yasak/sonuc/tanim) yanlış
+g = Kayıtlar arası tutarsızlık
+h = Diğer (açıkla)
+
+ÇIKTI 1 — "okuma_partiX.csv" (HER SATIR İÇİN BİR SATIR; satır sayısı girdiyle birebir aynı olmalı):
+kolonlar: id, satir_sha256, kontrol_notu, bulgu_var (evet/hayir), sorun_turu (a–h, birden fazlaysa virgülle), ayetin_gercek_lafzi (bulgu varsa: ilgili Arapça ifade + kısa Türkçe), onerilen_duzeltme, guven (yuksek/orta/dusuk)
+- satir_sha256: girdideki satir_sha256 değerini AYNEN geri yaz (Python ile okuyup yaz; elle yazma). Bu, satırı gerçekten okuduğunun kanıtıdır.
+- kontrol_notu: o satırda neye baktığını 1 cümleyle yaz (ör. "Arapça davranış ve karşılık okundu; zamir bağı X"). Boş bırakma, tüm satırlara aynı kalıp cümle yapıştırma.
+- bulgu_var=hayir ise sorun_turu/onerilen_duzeltme boş kalabilir.
+ÇIKTI 2 — "bulgular_partiX.csv": yalnızca bulgu_var=evet olanlar. Kolonlar: id, konu_no, ayet (davranis_ayet), kaydin_iddiasi (kayıttaki kod/derece/tür/not özeti), ayetin_gercek_lafzi (Arapça + kısa Türkçe), sorun_turu, onerilen_duzeltme, guven.
+ÇIKTI 3 — "kapsam_partiX.txt": girdi satır sayısı, okunan satır sayısı, bulgu sayısı, (varsa) okunamayan satırların id'leri. Sayılar tutmuyorsa açıkça yaz.
+
+DİSİPLİN:
+- Satır sayısı 100'den fazla olduğu için işi 40–60 satırlık dilimlerle yap; her dilimi bitirmeden sonrakine geçme; sonda birleştir. Yarıda bırakırsan hangi id'de kaldığını söyle, devamını bir sonraki mesajda iste.
+- Kendi belleğinden ayet yazma; Arapça ifadeyi dosyadaki davranis_arapca / karsilik_arapca sütunundan al. Dosyada metin yoksa "metin yok" yaz, uydurma.
+- Emin değilsen bulgu_var=hayir yazıp kontrol_notu'na şüpheni düş ve guven=dusuk ver; zorla bulgu üretme. Atlasın amacı bulgu sayısı değil doğruluktur.
+- Üç çıktı dosyasını indirilebilir olarak ver.
