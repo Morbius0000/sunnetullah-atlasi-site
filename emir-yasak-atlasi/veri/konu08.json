@@ -6,7 +6,7 @@
 "id": "iman",
 "grup": "İnanç",
 "etiket": "İman (Allah'a, ahirete, meleklere, kitaplara, elçilere)",
-"ayet_sayisi": 108,
+"ayet_sayisi": 124,
 "cennet_sayisi": 39,
 "kayitlar": [
 {
@@ -46,6 +46,15 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "2:97",
+"odul_ayet": "2:97",
+"odul": "mujde",
+"derece": "✓",
+"ham": "iman",
+"not_": "Kur'an \"müminler için hidayet ve müjde (büşrâ)\""
+},
+{
 "blok": "B006",
 "nitelik_ayet": "2:103",
 "odul_ayet": "2:103",
@@ -71,6 +80,15 @@
 "derece": "✓",
 "ham": "iman",
 "not_": "rahmet umarlar"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "2:256",
+"odul_ayet": "2:256",
+"odul": "saglam_kulp",
+"derece": "✓",
+"ham": "iman_allah",
+"not_": ""
 },
 {
 "blok": "B012",
@@ -107,6 +125,15 @@
 "derece": "→",
 "ham": "yuz_agarmasi_imanda_kalmak",
 "not_": "3:106 karşıtlığı: imandan sonra küfre düşmeyenler"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "3:171",
+"odul_ayet": "3:171",
+"odul": "ecir",
+"derece": "→",
+"ham": "iman",
+"not_": "\"Allah müminlerin ecrini zayi etmez\"; 3:169-171 Allah yolunda öldürülenler hakkında"
 },
 {
 "blok": "B019",
@@ -262,6 +289,15 @@
 "not_": "Allah muhsinleri sever"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "6:48",
+"odul_ayet": "6:48",
+"odul": "korku_yok",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"Kim iman eder ve düzeltirse (âmene ve aslaha) onlara korku yoktur, üzülmezler de\""
+},
+{
 "blok": "B043",
 "nitelik_ayet": "7:42",
 "odul_ayet": "7:42",
@@ -269,6 +305,15 @@
 "derece": "✓",
 "ham": "iman",
 "not_": "güç yetirilen kadar yükümlülük"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "7:96",
+"odul_ayet": "7:96",
+"odul": "dunyevi_bereket",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"Kentlerin halkı iman edip sakınsalardı (âmenû ve'ttekav) onlara gökten ve yerden bereketler açardık\""
 },
 {
 "blok": "B047",
@@ -296,6 +341,15 @@
 "derece": "✓",
 "ham": "resule_iman_destek_nura_uymak",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "8:70",
+"odul_ayet": "8:70",
+"odul": "hayir",
+"derece": "✓",
+"ham": "kalpte_hayir",
+"not_": "esirlere: \"Allah kalplerinizde bir hayır bilirse sizden alınandan daha hayırlısını verir ve sizi bağışlar\""
 },
 {
 "blok": "B054",
@@ -370,6 +424,33 @@
 "not_": "evliyâullah tanımı: iman + takva; 10:64 iki dünyada müjde"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "10:63",
+"odul_ayet": "10:64",
+"odul": "mujde",
+"derece": "✓",
+"ham": "iman",
+"not_": "10:62-63 Allah'ın velileri (iman + takva): \"dünya hayatında da ahirette de müjde onlarındır; büyük kurtuluş budur\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "10:98",
+"odul_ayet": "10:98",
+"odul": "dunyevi_kurtulus",
+"derece": "✓",
+"ham": "iman",
+"not_": "Yûnus kavmi: \"İman edince onlardan dünya hayatındaki rezillik azabını (azâbe'l-hizy) kaldırdık ve bir süreye kadar yararlandırdık\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "10:103",
+"odul_ayet": "10:103",
+"odul": "kurtulus",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"Sonra elçilerimizi ve iman edenleri kurtarırız; müminleri kurtarmak üzerimize bir haktır\""
+},
+{
 "blok": "B066",
 "nitelik_ayet": "11:23",
 "odul_ayet": "11:23",
@@ -386,6 +467,15 @@
 "derece": "✓",
 "ham": "iman_peygamberle",
 "not_": "kıssa (Hûd); 11:66 Salih paraleli"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "11:66",
+"odul_ayet": "11:66",
+"odul": "dunyevi_kurtulus",
+"derece": "✓",
+"ham": "iman_peygamberle",
+"not_": "kıssa (Sâlih): \"Sâlih'i ve onunla birlikte iman edenleri katımızdan bir rahmetle kurtardık, o günün rezilliğinden de\""
 },
 {
 "blok": "B068",
@@ -449,6 +539,15 @@
 "derece": "✓",
 "ham": "iman_ve_tevekkul",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "16:102",
+"odul_ayet": "16:102",
+"odul": "yardim_sebat",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"İman edenleri sağlamlaştırmak (li-yusebbite'llezîne âmenû) için; teslim olanlara hidayet ve müjde olarak\""
 },
 {
 "blok": "B087",
@@ -595,6 +694,15 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "27:53",
+"odul_ayet": "27:53",
+"odul": "dunyevi_kurtulus",
+"derece": "✓",
+"ham": "iman",
+"not_": "kıssa (Sâlih): \"İman edip sakınanları kurtardık\""
+},
+{
 "blok": "B138",
 "nitelik_ayet": "28:52",
 "odul_ayet": "28:54",
@@ -613,6 +721,15 @@
 "not_": "Allah'ın sevabı daha hayırlı; ancak sabredenler kavuşur"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "29:7",
+"odul_ayet": "29:7",
+"odul": "gunah_ortme",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"İman edip salih amel işleyenlerin kötülüklerini örteceğiz ve onları yaptıklarının en güzeliyle ödüllendireceğiz\""
+},
+{
 "blok": "B141",
 "nitelik_ayet": "29:58",
 "odul_ayet": "29:58",
@@ -622,6 +739,15 @@
 "not_": "29:59 sabır ve tevekkül sıfatı"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "30:15",
+"odul_ayet": "30:15",
+"odul": "ravda",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"İman edip salih amel işleyenler bir bahçede (ravda) sevindirilirler (yuhberûn)\""
+},
+{
 "blok": "B143",
 "nitelik_ayet": "30:45",
 "odul_ayet": "30:45",
@@ -629,6 +755,15 @@
 "derece": "✓",
 "ham": "iman",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "30:47",
+"odul_ayet": "30:47",
+"odul": "yardim",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"Müminlere yardım etmek üzerimize bir haktır\""
 },
 {
 "blok": "B144",
@@ -694,6 +829,15 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "36:25",
+"odul_ayet": "36:27",
+"odul": "magfiret",
+"derece": "✓",
+"ham": "iman",
+"not_": "\"Rabbinize iman ettim\" (36:25); \"Rabbimin beni bağışladığını ve ikram edilenlerden kıldığını\" (36:27)"
+},
+{
 "blok": "B169",
 "nitelik_ayet": "40:40",
 "odul_ayet": "40:40",
@@ -710,6 +854,15 @@
 "derece": "✓",
 "ham": "iman",
 "not_": "ecr-i gayr-i memnûn"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "41:18",
+"odul_ayet": "41:18",
+"odul": "dunyevi_kurtulus",
+"derece": "✓",
+"ham": "iman",
+"not_": "kıssa (Semûd): \"İman edip sakınanları kurtardık\""
 },
 {
 "blok": "B175",
@@ -892,6 +1045,15 @@
 "not_": "azaptan kurtaran ticaret"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "61:11",
+"odul_ayet": "61:10",
+"odul": "azaptan_korunma",
+"derece": "✓",
+"ham": "iman_allah_resul",
+"not_": "\"Sizi acıklı bir azaptan kurtaracak bir ticaret (tucâratin tuncîkum min azâbin elîm)\": Allah'a ve elçisine iman, mal ve canla cihad"
+},
+{
 "blok": "B210",
 "nitelik_ayet": "64:9",
 "odul_ayet": "64:9",
@@ -1050,9 +1212,18 @@
 "id": "tevhid",
 "grup": "İnanç",
 "etiket": "Şirk koşmamak, tâğuttan kaçınmak, dini Allah'a özgülemek",
-"ayet_sayisi": 9,
+"ayet_sayisi": 10,
 "cennet_sayisi": 1,
 "kayitlar": [
+{
+"blok": "EK05",
+"nitelik_ayet": "2:256",
+"odul_ayet": "2:256",
+"odul": "saglam_kulp",
+"derece": "✓",
+"ham": "taguttan_kacinmak",
+"not_": "\"Kim tâğûtu inkâr edip Allah'a iman ederse, kopması olmayan en sağlam kulpa yapışmıştır\" (31:22 paraleli)"
+},
 {
 "blok": "B029",
 "nitelik_ayet": "4:146",
@@ -1117,6 +1288,15 @@
 "not_": "ibâdallâhi'l-muhlasîn"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "37:40",
+"odul_ayet": "37:41",
+"odul": "rizik",
+"derece": "✓",
+"ham": "ihlas",
+"not_": "ibâdallâhi'l-muhlasîn: \"Onlar için bilinen bir rızık vardır\" (B157 devamı)"
+},
+{
 "blok": "B164",
 "nitelik_ayet": "39:17",
 "odul_ayet": "39:17",
@@ -1140,7 +1320,7 @@
 "id": "teslimiyet",
 "grup": "İnanç",
 "etiket": "Allah'a teslim olmak, \"Rabbimiz Allah\" deyip dosdoğru durmak",
-"ayet_sayisi": 13,
+"ayet_sayisi": 15,
 "cennet_sayisi": 4,
 "kayitlar": [
 {
@@ -1187,6 +1367,24 @@
 "derece": "→",
 "ham": "istikamet",
 "not_": "emir; sonuç 11:115"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "16:89",
+"odul_ayet": "16:89",
+"odul": "rahmet",
+"derece": "✓",
+"ham": "islam",
+"not_": "Kitap \"teslim olanlar için (li'l-müslimîn) hidayet, rahmet ve müjde\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "16:102",
+"odul_ayet": "16:102",
+"odul": "mujde",
+"derece": "✓",
+"ham": "islam",
+"not_": ""
 },
 {
 "blok": "B147",
@@ -1266,7 +1464,7 @@
 "id": "takva",
 "grup": "Kalp",
 "etiket": "Takva (korunup sakınmak)",
-"ayet_sayisi": 62,
+"ayet_sayisi": 70,
 "cennet_sayisi": 19,
 "kayitlar": [
 {
@@ -1459,6 +1657,15 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "7:96",
+"odul_ayet": "7:96",
+"odul": "dunyevi_bereket",
+"derece": "✓",
+"ham": "takva",
+"not_": ""
+},
+{
 "blok": "B047",
 "nitelik_ayet": "7:156",
 "odul_ayet": "7:156",
@@ -1499,6 +1706,15 @@
 "nitelik_ayet": "10:63",
 "odul_ayet": "10:62",
 "odul": "korku_yok",
+"derece": "✓",
+"ham": "takva",
+"not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "10:63",
+"odul_ayet": "10:64",
+"odul": "mujde",
 "derece": "✓",
 "ham": "takva",
 "not_": ""
@@ -1594,6 +1810,15 @@
 "not_": "cehennemden kurtarılma"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "20:132",
+"odul_ayet": "20:132",
+"odul": "akibet",
+"derece": "→",
+"ham": "takva",
+"not_": "\"Sonuç takvanındır (ve'l-âkıbetu li't-takvâ)\""
+},
+{
 "blok": "B114",
 "nitelik_ayet": "22:30",
 "odul_ayet": "22:30",
@@ -1639,6 +1864,15 @@
 "not_": "cennet müttakilere yaklaştırılır"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "27:53",
+"odul_ayet": "27:53",
+"odul": "dunyevi_kurtulus",
+"derece": "✓",
+"ham": "takva",
+"not_": ""
+},
+{
 "blok": "B139",
 "nitelik_ayet": "28:83",
 "odul_ayet": "28:83",
@@ -1646,6 +1880,15 @@
 "derece": "✓",
 "ham": "takva",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "36:45",
+"odul_ayet": "36:45",
+"odul": "rahmet",
+"derece": "✓",
+"ham": "takva",
+"not_": "\"Önünüzdekinden ve ardınızdakinden sakının, umulur ki merhamet görürsünüz (la'allakum turhamûn)\" denince yüz çevirirler"
 },
 {
 "blok": "B161",
@@ -1666,6 +1909,15 @@
 "not_": "üst üste gurfeler"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "39:61",
+"odul_ayet": "39:61",
+"odul": "kurtulus",
+"derece": "✓",
+"ham": "takva",
+"not_": "\"Allah sakınanları başarılarıyla (bi-mefâzetihim) kurtarır; onlara kötülük dokunmaz, üzülmezler de\""
+},
+{
 "blok": "B167",
 "nitelik_ayet": "39:73",
 "odul_ayet": "39:73",
@@ -1673,6 +1925,15 @@
 "derece": "✓",
 "ham": "takva",
 "not_": "bölük bölük cennete sevk; \"tertemizsiniz\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "41:18",
+"odul_ayet": "41:18",
+"odul": "dunyevi_kurtulus",
+"derece": "✓",
+"ham": "takva",
+"not_": ""
 },
 {
 "blok": "B178",
@@ -1702,6 +1963,24 @@
 "not_": "44:57 fazl ve fevz"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "44:51",
+"odul_ayet": "44:56",
+"odul": "azaptan_korunma",
+"derece": "✓",
+"ham": "takva",
+"not_": "\"Onları cehennem azabından korudu (ve vekâhum azâbe'l-cahîm)\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "44:51",
+"odul_ayet": "44:57",
+"odul": "fevz",
+"derece": "✓",
+"ham": "takva",
+"not_": "\"Rabbinden bir lütuf olarak; büyük kurtuluş budur (zâlike huve'l-fevzu'l-azîm)\""
+},
+{
 "blok": "B183",
 "nitelik_ayet": "45:19",
 "odul_ayet": "45:19",
@@ -1724,6 +2003,15 @@
 "nitelik_ayet": "47:36",
 "odul_ayet": "47:36",
 "odul": "ecir",
+"derece": "✓",
+"ham": "takva",
+"not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "49:10",
+"odul_ayet": "49:10",
+"odul": "rahmet",
 "derece": "✓",
 "ham": "takva",
 "not_": ""
@@ -1754,6 +2042,15 @@
 "derece": "✓",
 "ham": "takva",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "52:17",
+"odul_ayet": "52:18",
+"odul": "azaptan_korunma",
+"derece": "✓",
+"ham": "takva",
+"not_": "\"Rableri onları cehennem azabından korudu (ve vekâhum rabbuhum azâbe'l-cahîm)\""
 },
 {
 "blok": "B197",
@@ -1817,6 +2114,24 @@
 "derece": "✓",
 "ham": "takva",
 "not_": "müslümanlar suçlular gibi değil (68:35)"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "78:31",
+"odul_ayet": "78:31",
+"odul": "fevz",
+"derece": "✓",
+"ham": "takva",
+"not_": "\"Sakınanlar için bir kurtuluş/başarı yeri (mefâz) vardır\"; 78:32-35 bahçeler, üzüm bağları"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "78:31",
+"odul_ayet": "78:36",
+"odul": "karsilik",
+"derece": "✓",
+"ham": "takva",
+"not_": "\"Rabbinden bir karşılık, hesaplı bir bağış (cezâen min rabbike atâen hisâbâ)\""
 },
 {
 "blok": "EK02",
@@ -2004,7 +2319,7 @@
 "id": "husu_inabe",
 "grup": "Kalp",
 "etiket": "Huşû, ihbat, Allah'a yönelmek (inabe), selim kalp",
-"ayet_sayisi": 13,
+"ayet_sayisi": 15,
 "cennet_sayisi": 6,
 "kayitlar": [
 {
@@ -2060,6 +2375,24 @@
 "derece": "✓",
 "ham": "husu",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "38:24",
+"odul_ayet": "38:25",
+"odul": "magfiret",
+"derece": "✓",
+"ham": "inabe",
+"not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "38:34",
+"odul_ayet": "38:40",
+"odul": "zulfa",
+"derece": "✓",
+"ham": "inabe",
+"not_": "Süleyman \"yöneldi (enâbe)\" (38:34); \"katımızda onun için yakınlık ve güzel bir dönüş var\" (38:40)"
 },
 {
 "blok": "B161",
@@ -2404,6 +2737,15 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "13:22",
+"odul_ayet": "13:24",
+"odul": "selam",
+"derece": "✓",
+"ham": "sabir",
+"not_": "melekler: \"Sabretmenize karşılık size selam (bimâ sabertum); yurdun sonu ne güzel\" (B077 devamı)"
+},
+{
 "blok": "B084",
 "nitelik_ayet": "16:42",
 "odul_ayet": "16:41",
@@ -2535,7 +2877,7 @@
 "id": "sukur",
 "grup": "Kalp",
 "etiket": "Şükür",
-"ayet_sayisi": 6,
+"ayet_sayisi": 9,
 "cennet_sayisi": 1,
 "kayitlar": [
 {
@@ -2584,6 +2926,24 @@
 "not_": "Süleyman duası"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "27:40",
+"odul_ayet": "27:40",
+"odul": "kendi_lehine",
+"derece": "✓",
+"ham": "sukur",
+"not_": "Süleyman: \"Kim şükrederse kendi lehine şükreder\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "31:12",
+"odul_ayet": "31:12",
+"odul": "kendi_lehine",
+"derece": "✓",
+"ham": "sukur",
+"not_": "\"Kim şükrederse kendi lehine şükreder\""
+},
+{
 "blok": "B186",
 "nitelik_ayet": "46:15",
 "odul_ayet": "46:16",
@@ -2591,6 +2951,15 @@
 "derece": "✓",
 "ham": "sukur_salih_amel_inabe_teslim",
 "not_": "kırk yaş duası"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "54:35",
+"odul_ayet": "54:34",
+"odul": "kurtulus",
+"derece": "✓",
+"ham": "sukur",
+"not_": "Lût ailesi: \"Seher vakti onları kurtardık; katımızdan bir nimet olarak. Şükredeni böyle ödüllendiririz (kezâlike neczî men şeker)\" (54:35)"
 }
 ]
 },
@@ -2643,7 +3012,7 @@
 "id": "salih_amel",
 "grup": "Amel",
 "etiket": "Salih amel (iyi, düzeltici iş)",
-"ayet_sayisi": 76,
+"ayet_sayisi": 80,
 "cennet_sayisi": 33,
 "kayitlar": [
 {
@@ -3007,10 +3376,28 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "29:7",
+"odul_ayet": "29:7",
+"odul": "gunah_ortme",
+"derece": "✓",
+"ham": "salih_amel",
+"not_": ""
+},
+{
 "blok": "B141",
 "nitelik_ayet": "29:58",
 "odul_ayet": "29:58",
 "odul": "cennet",
+"derece": "✓",
+"ham": "salih_amel",
+"not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "30:15",
+"odul_ayet": "30:15",
+"odul": "ravda",
 "derece": "✓",
 "ham": "salih_amel",
 "not_": ""
@@ -3275,6 +3662,33 @@
 "derece": "✓",
 "ham": "ebrar_cabasi",
 "not_": "sa'yukum meşkûrâ"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "82:13",
+"odul_ayet": "82:13",
+"odul": "naim",
+"derece": "✓",
+"ham": "ebrar_olmak",
+"not_": "\"İyiler (el-ebrâr) nimet (na'îm) içindedir\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "83:18",
+"odul_ayet": "83:18",
+"odul": "illiyyin",
+"derece": "✓",
+"ham": "ebrar_olmak",
+"not_": "\"İyilerin kitabı illiyyîn içindedir\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "83:18",
+"odul_ayet": "83:22",
+"odul": "naim",
+"derece": "✓",
+"ham": "ebrar_olmak",
+"not_": "\"İyiler nimet içindedir; yüzlerinde nimetin parıltısını tanırsın\" (83:22-24); 83:25-28 mühürlü içki, tesnîm"
 },
 {
 "blok": "B229",
@@ -3768,7 +4182,7 @@
 "id": "dua_istigfar",
 "grup": "İbadet",
 "etiket": "Dua ve istiğfar (seher vakti dahil)",
-"ayet_sayisi": 14,
+"ayet_sayisi": 19,
 "cennet_sayisi": 4,
 "kayitlar": [
 {
@@ -3808,6 +4222,15 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "8:33",
+"odul_ayet": "8:33",
+"odul": "azaptan_korunma",
+"derece": "✓",
+"ham": "istigfar",
+"not_": "\"Onlar bağışlanma dilerken (hum yestağfirûn) Allah onlara azap edecek değildir\""
+},
+{
 "blok": "B067",
 "nitelik_ayet": "11:52",
 "odul_ayet": "11:52",
@@ -3826,6 +4249,15 @@
 "not_": "Şuayb'ın daveti"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "21:76",
+"odul_ayet": "21:76",
+"odul": "dua_kabulu",
+"derece": "✓",
+"ham": "dua",
+"not_": "Nûh \"daha önce yakarmıştı; ona karşılık verdik (fe'stecebnâ leh), onu ve ailesini büyük sıkıntıdan kurtardık\""
+},
+{
 "blok": "B124",
 "nitelik_ayet": "25:65",
 "odul_ayet": "25:75",
@@ -3842,6 +4274,33 @@
 "derece": "✓",
 "ham": "aile_icin_dua_takvaya_onderlik",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "27:46",
+"odul_ayet": "27:46",
+"odul": "rahmet",
+"derece": "✓",
+"ham": "istigfar",
+"not_": "Sâlih: \"Allah'tan bağışlanma dilemeli değil miydiniz, umulur ki merhamet görürsünüz (la'allakum turhamûn)\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "28:16",
+"odul_ayet": "28:16",
+"odul": "magfiret",
+"derece": "✓",
+"ham": "istigfar",
+"not_": "Mûsâ: \"Rabbim, kendime zulmettim, beni bağışla\"; \"O da onu bağışladı (fe-ğafera leh)\""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "38:24",
+"odul_ayet": "38:25",
+"odul": "magfiret",
+"derece": "✓",
+"ham": "istigfar",
+"not_": "Dâvûd \"Rabbinden bağışlanma diledi, eğilerek yere kapandı ve yöneldi\" (38:24); \"biz de onu bağışladık; katımızda ona yakınlık ve güzel bir dönüş var\" (38:25)"
 },
 {
 "blok": "B171",
@@ -3903,7 +4362,7 @@
 "id": "tevbe",
 "grup": "İbadet",
 "etiket": "Tevbe ve günahta ısrar etmemek",
-"ayet_sayisi": 15,
+"ayet_sayisi": 17,
 "cennet_sayisi": 4,
 "kayitlar": [
 {
@@ -3941,6 +4400,15 @@
 "derece": "✓",
 "ham": "tevbe_iman",
 "not_": "kötülükten sonra tevbe ve iman"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "8:38",
+"odul_ayet": "8:38",
+"odul": "magfiret",
+"derece": "✓",
+"ham": "tevbe_vazgecme",
+"not_": "\"İnkâr edenlere de ki: vazgeçerlerse (in yentehû) geçmişte olanlar bağışlanır\""
 },
 {
 "blok": "B055",
@@ -4024,6 +4492,15 @@
 "not_": ""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "27:11",
+"odul_ayet": "27:11",
+"odul": "magfiret",
+"derece": "✓",
+"ham": "tevbe_islah",
+"not_": "\"Ancak zulmeden, sonra kötülüğün ardından onu güzellikle değiştiren müstesna; ben bağışlayanım, merhamet edenim\""
+},
+{
 "blok": "B168",
 "nitelik_ayet": "40:7",
 "odul_ayet": "40:8",
@@ -4065,7 +4542,7 @@
 "id": "vahye_uymak",
 "grup": "İbadet",
 "etiket": "Vahyi dinlemek, okumak, ona sarılmak ve uymak",
-"ayet_sayisi": 23,
+"ayet_sayisi": 24,
 "cennet_sayisi": 0,
 "kayitlar": [
 {
@@ -4112,6 +4589,15 @@
 "derece": "✓",
 "ham": "vahye_iman",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "5:66",
+"odul_ayet": "5:66",
+"odul": "dunyevi_bereket",
+"derece": "✓",
+"ham": "kitaba_sarilmak",
+"not_": "\"Tevrat'ı, İncil'i ve Rablerinden indirileni ayakta tutsalardı (ekâmû), üstlerinden ve ayaklarının altından yerlerdi\""
 },
 {
 "blok": "B040",
@@ -4281,7 +4767,7 @@
 "id": "itaat",
 "grup": "İbadet",
 "etiket": "Allah'a ve elçiye itaat, gönülden boyun eğiş (kunut)",
-"ayet_sayisi": 20,
+"ayet_sayisi": 21,
 "cennet_sayisi": 7,
 "kayitlar": [
 {
@@ -4382,6 +4868,15 @@
 "derece": "✓",
 "ham": "itaat_allah_resul",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "28:35",
+"odul_ayet": "28:35",
+"odul": "galibiyet",
+"derece": "✓",
+"ham": "itaat",
+"not_": "\"Ayetlerimizle siz ikiniz ve size uyanlar galip gelecek olanlardır (el-ğâlibûn)\""
 },
 {
 "blok": "B147",
@@ -4488,7 +4983,7 @@
 "id": "infak",
 "grup": "Mal",
 "etiket": "İnfak, sadaka, karz-ı hasen",
-"ayet_sayisi": 31,
+"ayet_sayisi": 32,
 "cennet_sayisi": 4,
 "kayitlar": [
 {
@@ -4625,6 +5120,15 @@
 "derece": "✓",
 "ham": "infak",
 "not_": "küçük-büyük infak yazılır"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "12:88",
+"odul_ayet": "12:88",
+"odul": "karsilik",
+"derece": "→",
+"ham": "sadaka",
+"not_": "\"Allah sadaka verenleri ödüllendirir (yeczi'l-mutesaddikîn)\""
 },
 {
 "blok": "B077",
@@ -5091,7 +5595,7 @@
 "id": "ahde_vefa",
 "grup": "Ahlak",
 "etiket": "Ahde, emanete, adağa, bey'ate vefa",
-"ayet_sayisi": 7,
+"ayet_sayisi": 8,
 "cennet_sayisi": 4,
 "kayitlar": [
 {
@@ -5138,6 +5642,15 @@
 "derece": "✓",
 "ham": "bey_ate_vefa",
 "not_": "Allah'a verdiği ahde vefa"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "48:18",
+"odul_ayet": "48:18",
+"odul": "rıza",
+"derece": "✓",
+"ham": "bey_ate_vefa",
+"not_": "\"Ağacın altında sana biat ederlerken Allah müminlerden razı oldu; kalplerindekini bildi, üzerlerine sekîneti indirdi ve onlara yakın bir fetih verdi\""
 },
 {
 "blok": "B219",
@@ -5210,6 +5723,15 @@
 "derece": "✓",
 "ham": "dogruyu_getirmek_ve_tasdik",
 "not_": "muhsinlerin karşılığı; kötülükleri örtülür (39:35)"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "39:33",
+"odul_ayet": "39:35",
+"odul": "gunah_ortme",
+"derece": "✓",
+"ham": "dogruyu_getirmek_ve_tasdik",
+"not_": "\"Doğruyu getiren ve onu doğrulayan\" (39:33); \"Allah yaptıklarının en kötüsünü örtsün, ecirlerini yaptıklarının en güzeliyle versin diye\" (39:35)"
 },
 {
 "blok": "B219",
@@ -5649,7 +6171,7 @@
 "id": "islah",
 "grup": "Ahlak",
 "etiket": "Islah, bozgunculuk yapmamak",
-"ayet_sayisi": 8,
+"ayet_sayisi": 11,
 "cennet_sayisi": 0,
 "kayitlar": [
 {
@@ -5666,6 +6188,15 @@
 "nitelik_ayet": "4:146",
 "odul_ayet": "4:146",
 "odul": "ecir",
+"derece": "✓",
+"ham": "islah",
+"not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "6:48",
+"odul_ayet": "6:48",
+"odul": "korku_yok",
 "derece": "✓",
 "ham": "islah",
 "not_": ""
@@ -5707,6 +6238,15 @@
 "not_": "\"Rabbin, halkı ıslah edici iken kentleri zulümle (bi-zulmin) helâk edecek değildir\""
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "27:11",
+"odul_ayet": "27:11",
+"odul": "magfiret",
+"derece": "✓",
+"ham": "tevbe_islah",
+"not_": "\"Ancak zulmeden, sonra kötülüğün ardından onu güzellikle değiştiren müstesna; ben bağışlayanım, merhamet edenim\""
+},
+{
 "blok": "B139",
 "nitelik_ayet": "28:83",
 "odul_ayet": "28:83",
@@ -5723,6 +6263,15 @@
 "derece": "✓",
 "ham": "affetmek_islah",
 "not_": "ecri Allah'a aittir"
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "49:10",
+"odul_ayet": "49:10",
+"odul": "rahmet",
+"derece": "✓",
+"ham": "islah",
+"not_": "\"Kardeşlerinizin arasını düzeltin, Allah'tan sakının, umulur ki merhamet görürsünüz (la'allakum turhamûn)\""
 }
 ]
 },
@@ -5730,7 +6279,7 @@
 "id": "marufu_emir",
 "grup": "Toplum",
 "etiket": "İyiliği emretmek, kötülükten sakındırmak, hakkı ve sabrı tavsiye",
-"ayet_sayisi": 8,
+"ayet_sayisi": 9,
 "cennet_sayisi": 1,
 "kayitlar": [
 {
@@ -5768,6 +6317,15 @@
 "derece": "✓",
 "ham": "marufu_emir_munkerden_nehiy",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "11:116",
+"odul_ayet": "11:116",
+"odul": "dunyevi_kurtulus",
+"derece": "✓",
+"ham": "marufu_emir_munkerden_nehiy",
+"not_": "\"Sizden önceki kuşaklardan yeryüzünde bozgunculuğu önleyen (yenhevne ani'l-fesâd) erdem sahipleri... aralarından kurtardığımız pek azı müstesna\""
 },
 {
 "blok": "B172",
@@ -6182,6 +6740,15 @@
 "derece": "✓",
 "ham": "mal_ve_canla_cihad",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "61:11",
+"odul_ayet": "61:10",
+"odul": "azaptan_korunma",
+"derece": "✓",
+"ham": "mal_ve_canla_cihad",
+"not_": ""
 }
 ]
 },
@@ -6270,7 +6837,7 @@
 "id": "ahireti_istemek",
 "grup": "Yönelim",
 "etiket": "Ahireti ve Allah'ın rızasını istemek",
-"ayet_sayisi": 6,
+"ayet_sayisi": 7,
 "cennet_sayisi": 0,
 "kayitlar": [
 {
@@ -6281,6 +6848,15 @@
 "derece": "✓",
 "ham": "ahiret_sevabini_istemek",
 "not_": ""
+},
+{
+"blok": "EK05",
+"nitelik_ayet": "4:134",
+"odul_ayet": "4:134",
+"odul": "ahiret_sevabi",
+"derece": "→",
+"ham": "ahireti_istemek",
+"not_": "\"Kim dünya sevabını isterse, dünya ve ahiret sevabı Allah katındadır\""
 },
 {
 "blok": "B088",
@@ -6517,6 +7093,15 @@
 "not_": "öne geçenler; mukarrabûn"
 },
 {
+"blok": "EK05",
+"nitelik_ayet": "56:10",
+"odul_ayet": "56:24",
+"odul": "karsilik",
+"derece": "✓",
+"ham": "sabikun",
+"not_": "\"Yaptıklarına karşılık olarak (cezâen bimâ kânû ya'melûn)\" (B200 devamı)"
+},
+{
 "blok": "B201",
 "nitelik_ayet": "56:88",
 "odul_ayet": "56:89",
@@ -6682,6 +7267,10 @@
 "ar": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ أَصْحَـٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَـٰلِدُونَ",
 "tr": "İman edip hayra ve barışa yönelik işler yapanlar ise cennetin dostudurlar. Onlar da orada sürekli kalacaklardır."
 },
+"2:97": {
+"ar": "قُلْ مَن كَانَ عَدُوًّا لِّجِبْرِيلَ فَإِنَّهُۥ نَزَّلَهُۥ عَلَىٰ قَلْبِكَ بِإِذْنِ ٱللَّهِ مُصَدِّقًا لِّمَا بَيْنَ يَدَيْهِ وَهُدًى وَبُشْرَىٰ لِلْمُؤْمِنِينَ",
+"tr": "De ki: \"Kim Cebrail'e - ki o, Allah'ın izniyle Kur'an'ı kendinden öncekini doğrulayıcı, insanlara yol gösterici ve müjde olarak senin kalbine indirmiştir - düşman kesilirse,"
+},
 "2:103": {
 "ar": "وَلَوْ أَنَّهُمْ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَمَثُوبَةٌ مِّنْ عِندِ ٱللَّهِ خَيْرٌ ۖ لَّوْ كَانُوا۟ يَعْلَمُونَ",
 "tr": "Eğer onlar iman edip sakınsalardı, Allah katından bir sevap elbette daha kıymetli olurdu. Keşke bilebilselerdi."
@@ -6737,6 +7326,10 @@
 "2:245": {
 "ar": "مَّن ذَا ٱلَّذِى يُقْرِضُ ٱللَّهَ قَرْضًا حَسَنًا فَيُضَـٰعِفَهُۥ لَهُۥٓ أَضْعَافًا كَثِيرَةً ۚ وَٱللَّهُ يَقْبِضُ وَيَبْصُۜطُ وَإِلَيْهِ تُرْجَعُونَ",
 "tr": "Kim var Allah'a güzel bir şekilde borç verecek? Ve Allah böyle birinin verdiğini birçok kez katlayarak artıracaktır. Allah, kabz haliyle kısar, bast haliyle açıp genişletir. Ve yalnız O'na döndürülürsünüz."
+},
+"2:256": {
+"ar": "لَآ إِكْرَاهَ فِى ٱلدِّينِ ۖ قَد تَّبَيَّنَ ٱلرُّشْدُ مِنَ ٱلْغَىِّ ۚ فَمَن يَكْفُرْ بِٱلطَّـٰغُوتِ وَيُؤْمِنۢ بِٱللَّهِ فَقَدِ ٱسْتَمْسَكَ بِٱلْعُرْوَةِ ٱلْوُثْقَىٰ لَا ٱنفِصَامَ لَهَا ۗ وَٱللَّهُ سَمِيعٌ عَلِيمٌ",
+"tr": "Dinde baskı - zorlama - tiksindirme yoktur. Doğru ve güzel olan, çirkinlik ve sapıklıktan açık bir biçimde ayrılmıştır. Her kim tâğuta sırt dönüp Allah'a inanırsa hiç kuşkusuz sapasağlam bir kulpa yapışmış olur. Kopup parçalanması yoktur o kulpun. Allah, hakkıyla işiten, en iyi biçimde bilendir."
 },
 "2:261": {
 "ar": "مَّثَلُ ٱلَّذِينَ يُنفِقُونَ أَمْوَٰلَهُمْ فِى سَبِيلِ ٱللَّهِ كَمَثَلِ حَبَّةٍ أَنۢبَتَتْ سَبْعَ سَنَابِلَ فِى كُلِّ سُنۢبُلَةٍ مِّا۟ئَةُ حَبَّةٍ ۗ وَٱللَّهُ يُضَـٰعِفُ لِمَن يَشَآءُ ۗ وَٱللَّهُ وَٰسِعٌ عَلِيمٌ",
@@ -6862,6 +7455,10 @@
 "ar": "وَلَا تَحْسَبَنَّ ٱلَّذِينَ قُتِلُوا۟ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتًۢا ۚ بَلْ أَحْيَآءٌ عِندَ رَبِّهِمْ يُرْزَقُونَ",
 "tr": "Allah yolunda öldürülmüş olanları ölüler sanma sakın. Hayır! Onlar diridirler. Rablerinin katında rızıklandırılıyorlar."
 },
+"3:171": {
+"ar": "يَسْتَبْشِرُونَ بِنِعْمَةٍ مِّنَ ٱللَّهِ وَفَضْلٍ وَأَنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُؤْمِنِينَ",
+"tr": "Allah'tan bir nimeti, bir lütfu ve Allah'ın müminlerin ödülünü vermezlik etmeyeceğini de müjdelerler."
+},
 "3:172": {
 "ar": "ٱلَّذِينَ ٱسْتَجَابُوا۟ لِلَّهِ وَٱلرَّسُولِ مِنۢ بَعْدِ مَآ أَصَابَهُمُ ٱلْقَرْحُ ۚ لِلَّذِينَ أَحْسَنُوا۟ مِنْهُمْ وَٱتَّقَوْا۟ أَجْرٌ عَظِيمٌ",
 "tr": "O müminler ki, kendilerine yara isabet ettikten sonra bile Allah'ın ve resulün çağrısına cevap verdiler. Onlar içinden, güzel işler yapıp takvaya sarılanlara büyük bir ödül vardır."
@@ -6986,6 +7583,10 @@
 "ar": "وَمَنْ أَحْسَنُ دِينًا مِّمَّنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌ وَٱتَّبَعَ مِلَّةَ إِبْرَٰهِيمَ حَنِيفًا ۗ وَٱتَّخَذَ ٱللَّهُ إِبْرَٰهِيمَ خَلِيلًا",
 "tr": "Güzellikler sergileyerek ve özü-sözü doğru bir halde İbrahim'in milletine uyarak yüzünü Allah'a teslim edenden daha güzel dinli kim olabilir! Allah İbrahim'i dost edinmişti."
 },
+"4:134": {
+"ar": "مَّن كَانَ يُرِيدُ ثَوَابَ ٱلدُّنْيَا فَعِندَ ٱللَّهِ ثَوَابُ ٱلدُّنْيَا وَٱلْـَٔاخِرَةِ ۚ وَكَانَ ٱللَّهُ سَمِيعًۢا بَصِيرًا",
+"tr": "Dünya nimeti ve bereketini isteyen bilsin ki, dünya nimeti de âhiret mutluluğu da Allah katındadır. Allah, çok iyi işitir, çok iyi görür."
+},
 "4:146": {
 "ar": "إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَٱعْتَصَمُوا۟ بِٱللَّهِ وَأَخْلَصُوا۟ دِينَهُمْ لِلَّهِ فَأُو۟لَـٰٓئِكَ مَعَ ٱلْمُؤْمِنِينَ ۖ وَسَوْفَ يُؤْتِ ٱللَّهُ ٱلْمُؤْمِنِينَ أَجْرًا عَظِيمًا",
 "tr": "Ancak tövbe edip hallerini düzelterek Allah'a yapışan ve dinlerini samimiyetle Allah'a özgüleyenler müstesnadır. İşte böyleleri, müminlerle beraber olacaktır. Ve Allah, müminlere yakında çok büyük bir ödül verecektir."
@@ -7038,6 +7639,10 @@
 "ar": "وَلَوْ أَنَّ أَهْلَ ٱلْكِتَـٰبِ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَكَفَّرْنَا عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَأَدْخَلْنَـٰهُمْ جَنَّـٰتِ ٱلنَّعِيمِ",
 "tr": "Eğer Ehlikitap, iman edip korunsaydı, onların kötülüklerini mutlaka örter ve kendilerini bol nimetli cennetlere mutlaka sokardık."
 },
+"5:66": {
+"ar": "وَلَوْ أَنَّهُمْ أَقَامُوا۟ ٱلتَّوْرَىٰةَ وَٱلْإِنجِيلَ وَمَآ أُنزِلَ إِلَيْهِم مِّن رَّبِّهِمْ لَأَكَلُوا۟ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِم ۚ مِّنْهُمْ أُمَّةٌ مُّقْتَصِدَةٌ ۖ وَكَثِيرٌ مِّنْهُمْ سَآءَ مَا يَعْمَلُونَ",
+"tr": "Eğer onlar Tevrat'ı, İncil'i ve kendilerine indirilmiş olanı gerektiği şekilde uygulasalardı elbetteki hem üstlerinden hem ayaklarının altından rızıklanacaklardı. İçlerinde orta yolu izleyen bir topluluk var. Ama onların çoğunluğunun yapmakta olduğu ne kadar da kötü!"
+},
 "5:69": {
 "ar": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَٱلَّذِينَ هَادُوا۟ وَٱلصَّـٰبِـُٔونَ وَٱلنَّصَـٰرَىٰ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ وَعَمِلَ صَـٰلِحًا فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
 "tr": "Şu bir gerçek ki, iman edenler, Yahudiler, Sâbiîler ve Hıristiyanlardan Allah'a ve âhiret gününe inanıp hayra ve barışa yönelik iş yapanlar için korku yoktur. Tasalanmayacaklardır onlar."
@@ -7069,6 +7674,10 @@
 "5:119": {
 "ar": "قَالَ ٱللَّهُ هَـٰذَا يَوْمُ يَنفَعُ ٱلصَّـٰدِقِينَ صِدْقُهُمْ ۚ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۚ رَّضِىَ ٱللَّهُ عَنْهُمْ وَرَضُوا۟ عَنْهُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْعَظِيمُ",
 "tr": "Allah buyurdu: \"Özü-sözü doğru olanlara, doğruluklarının yarar sağlayacağı gün budur. Altlarından ırmaklar akan cennetler var onlar için. Sonsuza dek kalacaklardır orada.\" Allah onlardan razı olmuştur, onlar da Allah'tan razı olmuşlardır. İşte budur büyük kurtuluş."
+},
+"6:48": {
+"ar": "وَمَا نُرْسِلُ ٱلْمُرْسَلِينَ إِلَّا مُبَشِّرِينَ وَمُنذِرِينَ ۖ فَمَنْ ءَامَنَ وَأَصْلَحَ فَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ",
+"tr": "Biz o gönderilen elçileri, müjdeciler ve uyarıcılar olmaktan öte bir şey için göndermiyoruz. İman edip hayrı ve barışı yerleştirenlere korku yoktur. Tasalanmayacaklardır onlar."
 },
 "6:54": {
 "ar": "وَإِذَا جَآءَكَ ٱلَّذِينَ يُؤْمِنُونَ بِـَٔايَـٰتِنَا فَقُلْ سَلَـٰمٌ عَلَيْكُمْ ۖ كَتَبَ رَبُّكُمْ عَلَىٰ نَفْسِهِ ٱلرَّحْمَةَ ۖ أَنَّهُۥ مَنْ عَمِلَ مِنكُمْ سُوٓءًۢا بِجَهَـٰلَةٍ ثُمَّ تَابَ مِنۢ بَعْدِهِۦ وَأَصْلَحَ فَأَنَّهُۥ غَفُورٌ رَّحِيمٌ",
@@ -7130,6 +7739,10 @@
 "ar": "أَوَعَجِبْتُمْ أَن جَآءَكُمْ ذِكْرٌ مِّن رَّبِّكُمْ عَلَىٰ رَجُلٍ مِّنكُمْ لِيُنذِرَكُمْ ۚ وَٱذْكُرُوٓا۟ إِذْ جَعَلَكُمْ خُلَفَآءَ مِنۢ بَعْدِ قَوْمِ نُوحٍ وَزَادَكُمْ فِى ٱلْخَلْقِ بَصْۜطَةً ۖ فَٱذْكُرُوٓا۟ ءَالَآءَ ٱللَّهِ لَعَلَّكُمْ تُفْلِحُونَ",
 "tr": "\"Sizi uyarmak için içinizden bir adam aracılığıyla size Rabbinizden bir ihtar gelmesine şaştınız mı? Hatırlayın ki, O sizi Nuh toplumundan sonra halefler yaptı ve yaratılışta size daha fazla bir boy-bos verdi. Allah'ın nimetlerini anın ki kurtulabilesiniz.\""
 },
+"7:96": {
+"ar": "وَلَوْ أَنَّ أَهْلَ ٱلْقُرَىٰٓ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَفَتَحْنَا عَلَيْهِم بَرَكَـٰتٍ مِّنَ ٱلسَّمَآءِ وَٱلْأَرْضِ وَلَـٰكِن كَذَّبُوا۟ فَأَخَذْنَـٰهُم بِمَا كَانُوا۟ يَكْسِبُونَ",
+"tr": "O medeniyetlerin halkı inanıp korunsalardı, elbette ki üzerlerine gökten ve yerden bereketler saçardım. Ama yalanladılar, biz de onları, kazanır olduklarıyla yakalayıverdik."
+},
 "7:137": {
 "ar": "وَأَوْرَثْنَا ٱلْقَوْمَ ٱلَّذِينَ كَانُوا۟ يُسْتَضْعَفُونَ مَشَـٰرِقَ ٱلْأَرْضِ وَمَغَـٰرِبَهَا ٱلَّتِى بَـٰرَكْنَا فِيهَا ۖ وَتَمَّتْ كَلِمَتُ رَبِّكَ ٱلْحُسْنَىٰ عَلَىٰ بَنِىٓ إِسْرَٰٓءِيلَ بِمَا صَبَرُوا۟ ۖ وَدَمَّرْنَا مَا كَانَ يَصْنَعُ فِرْعَوْنُ وَقَوْمُهُۥ وَمَا كَانُوا۟ يَعْرِشُونَ",
 "tr": "Ezilip itilmekte olan topluluğu da içine bereketler doldurduğumuz toprağın doğularına ve batılarına mirasçı kıldık. Rabbinin, İsrailoğullarına verdiği güzel söz, sabretmeleri yüzünden hedefine vardı. Firavun ve toplumunun sanayi olarak meydana getirdiklerini de dikip yükselttikleri sarayları da yere geçirdik."
@@ -7182,9 +7795,21 @@
 "ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِن تَتَّقُوا۟ ٱللَّهَ يَجْعَل لَّكُمْ فُرْقَانًا وَيُكَفِّرْ عَنكُمْ سَيِّـَٔاتِكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ",
 "tr": "Ey iman sahipleri! Eğer Allah'tan korkarsanız, Allah size hakla bâtılı/iyiyle kötüyü ayırma gücü verir, kötülüklerinizi örter. Allah, o büyük lütfun sahibidir."
 },
+"8:33": {
+"ar": "وَمَا كَانَ ٱللَّهُ لِيُعَذِّبَهُمْ وَأَنتَ فِيهِمْ ۚ وَمَا كَانَ ٱللَّهُ مُعَذِّبَهُمْ وَهُمْ يَسْتَغْفِرُونَ",
+"tr": "Oysaki, sen onların içinde iken Allah onlara azap etmeyecekti. Onlar, af dileyip dururken de Allah onlara azap etmezdi."
+},
+"8:38": {
+"ar": "قُل لِّلَّذِينَ كَفَرُوٓا۟ إِن يَنتَهُوا۟ يُغْفَرْ لَهُم مَّا قَدْ سَلَفَ وَإِن يَعُودُوا۟ فَقَدْ مَضَتْ سُنَّتُ ٱلْأَوَّلِينَ",
+"tr": "Küfre sapanlara söyle: \"Eğer son verirlerse eskide kalmış olan, kendileri için affedilir. Eğer yeniden başlarlarsa, daha öncekilere uygulanan yol ve yöntem, eskisi gibi devam etmiş olacaktır.\""
+},
 "8:45": {
 "ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوٓا۟ إِذَا لَقِيتُمْ فِئَةً فَٱثْبُتُوا۟ وَٱذْكُرُوا۟ ٱللَّهَ كَثِيرًا لَّعَلَّكُمْ تُفْلِحُونَ",
 "tr": "Ey inananlar! Bir düşman topluluğu ile karşılaştığınızda sebat edin. Allah'ı çok anın ki zafere ulaşabilesiniz."
+},
+"8:70": {
+"ar": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ قُل لِّمَن فِىٓ أَيْدِيكُم مِّنَ ٱلْأَسْرَىٰٓ إِن يَعْلَمِ ٱللَّهُ فِى قُلُوبِكُمْ خَيْرًا يُؤْتِكُمْ خَيْرًا مِّمَّآ أُخِذَ مِنكُمْ وَيَغْفِرْ لَكُمْ ۗ وَٱللَّهُ غَفُورٌ رَّحِيمٌ",
+"tr": "Ey Peygamber! Elinizde esir olarak bulunanlara de ki: \"Eğer Allah, kalplerinizde bir hayır olduğunu bilirse size, sizden alınandan daha değerlisini verir ve sizi affeder. Allah çok affedici, çok esirgeyicidir.\""
 },
 "8:74": {
 "ar": "وَٱلَّذِينَ ءَامَنُوا۟ وَهَاجَرُوا۟ وَجَـٰهَدُوا۟ فِى سَبِيلِ ٱللَّهِ وَٱلَّذِينَ ءَاوَوا۟ وَّنَصَرُوٓا۟ أُو۟لَـٰٓئِكَ هُمُ ٱلْمُؤْمِنُونَ حَقًّا ۚ لَّهُم مَّغْفِرَةٌ وَرِزْقٌ كَرِيمٌ",
@@ -7286,6 +7911,10 @@
 "ar": "ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
 "tr": "Onlar inanmış, takvaya sarılmışlardır."
 },
+"10:64": {
+"ar": "لَهُمُ ٱلْبُشْرَىٰ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَفِى ٱلْـَٔاخِرَةِ ۚ لَا تَبْدِيلَ لِكَلِمَـٰتِ ٱللَّهِ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+"tr": "Dünya hayatında da âhirette de müjde vardır onlara. Allah'ın kelimelerinde değişme/değiştirme olmaz. İşte budur o büyük kurtuluş."
+},
 "10:84": {
 "ar": "وَقَالَ مُوسَىٰ يَـٰقَوْمِ إِن كُنتُمْ ءَامَنتُم بِٱللَّهِ فَعَلَيْهِ تَوَكَّلُوٓا۟ إِن كُنتُم مُّسْلِمِينَ",
 "tr": "Mûsa dedi ki: \"Ey toplumum! Eğer Allah'a inanmışsanız, müslümanlarsanız/Allah'a teslim olanlarsanız yalnız Allah'a dayanıp güvenin.\""
@@ -7293,6 +7922,14 @@
 "10:86": {
 "ar": "وَنَجِّنَا بِرَحْمَتِكَ مِنَ ٱلْقَوْمِ ٱلْكَـٰفِرِينَ",
 "tr": "\"O küfre sapmış toplumdan rahmetinle bizi kurtar!\""
+},
+"10:98": {
+"ar": "فَلَوْلَا كَانَتْ قَرْيَةٌ ءَامَنَتْ فَنَفَعَهَآ إِيمَـٰنُهَآ إِلَّا قَوْمَ يُونُسَ لَمَّآ ءَامَنُوا۟ كَشَفْنَا عَنْهُمْ عَذَابَ ٱلْخِزْىِ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا وَمَتَّعْنَـٰهُمْ إِلَىٰ حِينٍ",
+"tr": "Bir kent inansa da imanı kendisine yarar sağlasa ya! Yûnus'un kavmi müstesna. Onlar inanınca, dünya hayatında rezillik azabını üstlerinden kaldırmış ve kendilerini belirli bir süreye kadar nimetlendirmiştik."
+},
+"10:103": {
+"ar": "ثُمَّ نُنَجِّى رُسُلَنَا وَٱلَّذِينَ ءَامَنُوا۟ ۚ كَذَٰلِكَ حَقًّا عَلَيْنَا نُنجِ ٱلْمُؤْمِنِينَ",
+"tr": "Sonunda biz, resullerimizi ve iman edenleri kurtarıyoruz. İşte böyledir. Üzerimize bir borç olarak, inananları kurtarırız."
 },
 "11:11": {
 "ar": "إِلَّا ٱلَّذِينَ صَبَرُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ أُو۟لَـٰٓئِكَ لَهُم مَّغْفِرَةٌ وَأَجْرٌ كَبِيرٌ",
@@ -7313,6 +7950,10 @@
 "11:58": {
 "ar": "وَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا هُودًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَنَجَّيْنَـٰهُم مِّنْ عَذَابٍ غَلِيظٍ",
 "tr": "Emrimiz gelince, Hûd'u ve onunla birlikte iman etmiş olanları bizden bir rahmetle kurtardık. Biz onları çok ağır bir azaptan kurtardık."
+},
+"11:66": {
+"ar": "فَلَمَّا جَآءَ أَمْرُنَا نَجَّيْنَا صَـٰلِحًا وَٱلَّذِينَ ءَامَنُوا۟ مَعَهُۥ بِرَحْمَةٍ مِّنَّا وَمِنْ خِزْىِ يَوْمِئِذٍ ۗ إِنَّ رَبَّكَ هُوَ ٱلْقَوِىُّ ٱلْعَزِيزُ",
+"tr": "Emrimiz gelince Sâlih'i ve onunla birlikte iman edenleri bizden bir rahmetle kurtardık. O günün rezilliğinden kurtardık. Senin Rabbin, evet O, Kavî'dir, Azîz'dir."
 },
 "11:90": {
 "ar": "وَٱسْتَغْفِرُوا۟ رَبَّكُمْ ثُمَّ تُوبُوٓا۟ إِلَيْهِ ۚ إِنَّ رَبِّى رَحِيمٌ وَدُودٌ",
@@ -7338,6 +7979,10 @@
 "ar": "وَٱصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
 "tr": "Sabret! Allah, güzel düşünüp güzel davrananların ödülünü yitirmez."
 },
+"11:116": {
+"ar": "فَلَوْلَا كَانَ مِنَ ٱلْقُرُونِ مِن قَبْلِكُمْ أُو۟لُوا۟ بَقِيَّةٍ يَنْهَوْنَ عَنِ ٱلْفَسَادِ فِى ٱلْأَرْضِ إِلَّا قَلِيلًا مِّمَّنْ أَنجَيْنَا مِنْهُمْ ۗ وَٱتَّبَعَ ٱلَّذِينَ ظَلَمُوا۟ مَآ أُتْرِفُوا۟ فِيهِ وَكَانُوا۟ مُجْرِمِينَ",
+"tr": "Sizden önceki kuşakların söz ve eser sahibi olanları, yeryüzünde bozgunculuktan alıkoymalı değiller miydi? Ama içlerinden kurtarmış olduklarımızın az bir kısmı dışında hiçbiri bunu yapmadı. Zulme sapanlar ise içine gömüldükleri servet şımarıklığının ardına düşüp suçlular haline geldiler."
+},
 "11:117": {
 "ar": "وَمَا كَانَ رَبُّكَ لِيُهْلِكَ ٱلْقُرَىٰ بِظُلْمٍ وَأَهْلُهَا مُصْلِحُونَ",
 "tr": "Halkı iyilik ve barış sevenler olsaydı, Rabbin o kentleri/medeniyetleri zulümle helâk edecek değildi ya!"
@@ -7349,6 +7994,10 @@
 "12:57": {
 "ar": "وَلَأَجْرُ ٱلْـَٔاخِرَةِ خَيْرٌ لِّلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
 "tr": "İman edip takvaya sarılanlar için âhiretteki ödül elbette daha değerlidir."
+},
+"12:88": {
+"ar": "فَلَمَّا دَخَلُوا۟ عَلَيْهِ قَالُوا۟ يَـٰٓأَيُّهَا ٱلْعَزِيزُ مَسَّنَا وَأَهْلَنَا ٱلضُّرُّ وَجِئْنَا بِبِضَـٰعَةٍ مُّزْجَىٰةٍ فَأَوْفِ لَنَا ٱلْكَيْلَ وَتَصَدَّقْ عَلَيْنَآ ۖ إِنَّ ٱللَّهَ يَجْزِى ٱلْمُتَصَدِّقِينَ",
+"tr": "Tekrar Yûsuf'un yanına girdiklerinde şöyle dediler: \"Ey Vezir! Bize de ailemize de zorluk dokundu. Önemsiz bir sermaye ile geldik. Sen bize tam ölçü zahire ver, bize sadaka vermiş ol. Allah, karşılıksız verenleri ödüllendirir.\""
 },
 "12:90": {
 "ar": "قَالُوٓا۟ أَءِنَّكَ لَأَنتَ يُوسُفُ ۖ قَالَ أَنَا۠ يُوسُفُ وَهَـٰذَآ أَخِى ۖ قَدْ مَنَّ ٱللَّهُ عَلَيْنَآ ۖ إِنَّهُۥ مَن يَتَّقِ وَيَصْبِرْ فَإِنَّ ٱللَّهَ لَا يُضِيعُ أَجْرَ ٱلْمُحْسِنِينَ",
@@ -7377,6 +8026,10 @@
 "13:23": {
 "ar": "جَنَّـٰتُ عَدْنٍ يَدْخُلُونَهَا وَمَن صَلَحَ مِنْ ءَابَآئِهِمْ وَأَزْوَٰجِهِمْ وَذُرِّيَّـٰتِهِمْ ۖ وَٱلْمَلَـٰٓئِكَةُ يَدْخُلُونَ عَلَيْهِم مِّن كُلِّ بَابٍ",
 "tr": "Adn cennetleri bunlar içindir. Atalarından, eşlerinden, zürriyetlerinden hayra ve barışa hizmet etmiş olanlarla birlikte girerler oraya. Meleklerse her kapıdan yanlarına sokulurlar."
+},
+"13:24": {
+"ar": "سَلَـٰمٌ عَلَيْكُم بِمَا صَبَرْتُمْ ۚ فَنِعْمَ عُقْبَى ٱلدَّارِ",
+"tr": "\"Selam size, sabrettiğiniz için! Ne güzeldir şu sonsuzluk yurdu!\" derler."
 },
 "13:28": {
 "ar": "ٱلَّذِينَ ءَامَنُوا۟ وَتَطْمَئِنُّ قُلُوبُهُم بِذِكْرِ ٱللَّهِ ۗ أَلَا بِذِكْرِ ٱللَّهِ تَطْمَئِنُّ ٱلْقُلُوبُ",
@@ -7430,6 +8083,10 @@
 "ar": "ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
 "tr": "O Allah yolunda hicret edenler, sabrederler ve yalnız Rablerine tevekkül ederler."
 },
+"16:89": {
+"ar": "وَيَوْمَ نَبْعَثُ فِى كُلِّ أُمَّةٍ شَهِيدًا عَلَيْهِم مِّنْ أَنفُسِهِمْ ۖ وَجِئْنَا بِكَ شَهِيدًا عَلَىٰ هَـٰٓؤُلَآءِ ۚ وَنَزَّلْنَا عَلَيْكَ ٱلْكِتَـٰبَ تِبْيَـٰنًا لِّكُلِّ شَىْءٍ وَهُدًى وَرَحْمَةً وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+"tr": "Gün olur, her ümmet için kendi aleyhlerine kendi içlerinden bir tanık çıkarırız. Seni de şu insanlar hakkında tanık olarak getireceğiz. Sana bu Kitap'ı indirdik ki herşey için ayrıntılı bir açıklayıcı, bir kılavuz, bir rahmet, Müslümanlara da bir müjde olsun."
+},
 "16:96": {
 "ar": "مَا عِندَكُمْ يَنفَدُ ۖ وَمَا عِندَ ٱللَّهِ بَاقٍ ۗ وَلَنَجْزِيَنَّ ٱلَّذِينَ صَبَرُوٓا۟ أَجْرَهُم بِأَحْسَنِ مَا كَانُوا۟ يَعْمَلُونَ",
 "tr": "Sizin yanınızdaki tükenir ama Allah'ın yanındaki sonsuza dek kalıcıdır. Sabredenlere ödüllerini biz, işleyip ürettiklerinin en güzeliyle mutlaka vereceğiz."
@@ -7441,6 +8098,10 @@
 "16:99": {
 "ar": "إِنَّهُۥ لَيْسَ لَهُۥ سُلْطَـٰنٌ عَلَى ٱلَّذِينَ ءَامَنُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
 "tr": "Şu bir gerçek ki şeytanın elinde, iman edip yalnız Rablerine dayananlar aleyhine hiçbir sulta/hiçbir kanıt yoktur."
+},
+"16:102": {
+"ar": "قُلْ نَزَّلَهُۥ رُوحُ ٱلْقُدُسِ مِن رَّبِّكَ بِٱلْحَقِّ لِيُثَبِّتَ ٱلَّذِينَ ءَامَنُوا۟ وَهُدًى وَبُشْرَىٰ لِلْمُسْلِمِينَ",
+"tr": "De ki: \"İman edenleri güçlendirip kökleştirmek için ve Müslümanlara bir müjde ve kılavuz olarak, Ruhulkudüs onu, senin Rabbinden indirdi."
 },
 "17:7": {
 "ar": "إِنْ أَحْسَنتُمْ أَحْسَنتُمْ لِأَنفُسِكُمْ ۖ وَإِنْ أَسَأْتُمْ فَلَهَا ۚ فَإِذَا جَآءَ وَعْدُ ٱلْـَٔاخِرَةِ لِيَسُـۥٓـُٔوا۟ وُجُوهَكُمْ وَلِيَدْخُلُوا۟ ٱلْمَسْجِدَ كَمَا دَخَلُوهُ أَوَّلَ مَرَّةٍ وَلِيُتَبِّرُوا۟ مَا عَلَوْا۟ تَتْبِيرًا",
@@ -7534,9 +8195,17 @@
 "ar": "قَالَ ٱهْبِطَا مِنْهَا جَمِيعًۢا ۖ بَعْضُكُمْ لِبَعْضٍ عَدُوٌّ ۖ فَإِمَّا يَأْتِيَنَّكُم مِّنِّى هُدًى فَمَنِ ٱتَّبَعَ هُدَاىَ فَلَا يَضِلُّ وَلَا يَشْقَىٰ",
 "tr": "Allah dedi: \"İkiniz birlikte inin oradan! Birbirinize düşmansınız. Benden size bir hidayet geldiğinde, benim o hidayetime uyan artık ne sapar ne de bedbaht olur.\""
 },
+"20:132": {
+"ar": "وَأْمُرْ أَهْلَكَ بِٱلصَّلَوٰةِ وَٱصْطَبِرْ عَلَيْهَا ۖ لَا نَسْـَٔلُكَ رِزْقًا ۖ نَّحْنُ نَرْزُقُكَ ۗ وَٱلْعَـٰقِبَةُ لِلتَّقْوَىٰ",
+"tr": "Ailene namazı emret, kendin de ona sabırla devam et! Biz senden rızık istemiyoruz. Seni biz rızıklandırıyoruz. Sonuç takvanındır!"
+},
 "21:75": {
 "ar": "وَأَدْخَلْنَـٰهُ فِى رَحْمَتِنَآ ۖ إِنَّهُۥ مِنَ ٱلصَّـٰلِحِينَ",
 "tr": "Onu rahmetimizin içine soktuk. O, hak ve barış için çalışanlardandı."
+},
+"21:76": {
+"ar": "وَنُوحًا إِذْ نَادَىٰ مِن قَبْلُ فَٱسْتَجَبْنَا لَهُۥ فَنَجَّيْنَـٰهُ وَأَهْلَهُۥ مِنَ ٱلْكَرْبِ ٱلْعَظِيمِ",
+"tr": "Nûh'a gelince, o da daha önce bize yakarmıştı. Yakarışına cevap verdik de onu ve ailesini, o büyük sıkıntıdan kurtardık."
 },
 "21:85": {
 "ar": "وَإِسْمَـٰعِيلَ وَإِدْرِيسَ وَذَا ٱلْكِفْلِ ۖ كُلٌّ مِّنَ ٱلصَّـٰبِرِينَ",
@@ -7746,9 +8415,33 @@
 "ar": "ٱلَّذِينَ يُقِيمُونَ ٱلصَّلَوٰةَ وَيُؤْتُونَ ٱلزَّكَوٰةَ وَهُم بِٱلْـَٔاخِرَةِ هُمْ يُوقِنُونَ",
 "tr": "O müminler ki, namazı kılar, zekâtı verirler. Ve âhirete tam bir biçimde inananlar da onlardır."
 },
+"27:11": {
+"ar": "إِلَّا مَن ظَلَمَ ثُمَّ بَدَّلَ حُسْنًۢا بَعْدَ سُوٓءٍ فَإِنِّى غَفُورٌ رَّحِيمٌ",
+"tr": "\"Zulme bulaşan müstesna. O da bunu kötülüğün arkasından güzelliğe çevirirse hiç kuşkusuz ben Gafûr'um, Rahîm'im.\""
+},
 "27:19": {
 "ar": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِىٓ أَنْ أَشْكُرَ نِعْمَتَكَ ٱلَّتِىٓ أَنْعَمْتَ عَلَىَّ وَعَلَىٰ وَٰلِدَىَّ وَأَنْ أَعْمَلَ صَـٰلِحًا تَرْضَىٰهُ وَأَدْخِلْنِى بِرَحْمَتِكَ فِى عِبَادِكَ ٱلصَّـٰلِحِينَ",
 "tr": "Bunun üzerine Süleyman, karıncanın sözüne güldü ve dedi: \"Rabbim, bana ve ebeveynime lütfettiğin nimetine şükretmeme, hoşnut olacağın hayırlı ve barışçıl bir iş yapmama imkân ver. Ve rahmetinle beni iyilik ve barışı seven kullarının arasına sok.\""
+},
+"27:40": {
+"ar": "قَالَ ٱلَّذِى عِندَهُۥ عِلْمٌ مِّنَ ٱلْكِتَـٰبِ أَنَا۠ ءَاتِيكَ بِهِۦ قَبْلَ أَن يَرْتَدَّ إِلَيْكَ طَرْفُكَ ۚ فَلَمَّا رَءَاهُ مُسْتَقِرًّا عِندَهُۥ قَالَ هَـٰذَا مِن فَضْلِ رَبِّى لِيَبْلُوَنِىٓ ءَأَشْكُرُ أَمْ أَكْفُرُ ۖ وَمَن شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ رَبِّى غَنِىٌّ كَرِيمٌ",
+"tr": "Kendinde Kitap'tan bir ilim olan kişi de şöyle dedi: \"Ben onu sana, gözünü açıp yumuncaya kadar getiririm.\" Derken Süleyman, tahtı, yanında kurulmuş görünce şöyle konuştu: \"Rabbimin lütfundandır bu. Şükür mü edeceğim, nankörlük mü diye beni denemek istiyor. Esasında, şükreden, kendisi lehine şükretmiş olur. Kim de nankörlük ederse bilsin ki, Rabbim Ganî'dir, cömerttir.\""
+},
+"27:46": {
+"ar": "قَالَ يَـٰقَوْمِ لِمَ تَسْتَعْجِلُونَ بِٱلسَّيِّئَةِ قَبْلَ ٱلْحَسَنَةِ ۖ لَوْلَا تَسْتَغْفِرُونَ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ",
+"tr": "Sâlih dedi: \"Ey toplumum! İyilikten önce kötülüğü istemede aceleniz niye? Merhamet görebilmeniz için Allah'tan af dileseniz olmaz mı?\""
+},
+"27:53": {
+"ar": "وَأَنجَيْنَا ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
+"tr": "Biz inananları, korunup sakınanları kurtardık."
+},
+"28:16": {
+"ar": "قَالَ رَبِّ إِنِّى ظَلَمْتُ نَفْسِى فَٱغْفِرْ لِى فَغَفَرَ لَهُۥٓ ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
+"tr": "\"Rabbim, öz benliğime zulmettim, beni affet\" diye yakardı da Allah onu affetti. Gafûr O'dur, Rahîm O'dur."
+},
+"28:35": {
+"ar": "قَالَ سَنَشُدُّ عَضُدَكَ بِأَخِيكَ وَنَجْعَلُ لَكُمَا سُلْطَـٰنًا فَلَا يَصِلُونَ إِلَيْكُمَا ۚ بِـَٔايَـٰتِنَآ أَنتُمَا وَمَنِ ٱتَّبَعَكُمَا ٱلْغَـٰلِبُونَ",
+"tr": "Allah buyurdu: \"Pazunu kardeşinle kuvvetlendireceğiz; size öyle bir güç/kanıt vereceğiz ki size ulaşamayacaklar. Ayetlerimize yemin olsun ki, siz ve size uyanlar, galip gelenler olacaksınız.\""
 },
 "28:52": {
 "ar": "ٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ مِن قَبْلِهِۦ هُم بِهِۦ يُؤْمِنُونَ",
@@ -7778,6 +8471,10 @@
 "ar": "مَن جَآءَ بِٱلْحَسَنَةِ فَلَهُۥ خَيْرٌ مِّنْهَا ۖ وَمَن جَآءَ بِٱلسَّيِّئَةِ فَلَا يُجْزَى ٱلَّذِينَ عَمِلُوا۟ ٱلسَّيِّـَٔاتِ إِلَّا مَا كَانُوا۟ يَعْمَلُونَ",
 "tr": "İyilik/güzellik getirene ondan daha hayırlısı var. Kötülük getirenlere gelince, kötülükleri yapanlar yapmış olduklarından fazlasıyla cezalandırılmayacaklardır."
 },
+"29:7": {
+"ar": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
+"tr": "İman edip hayra ve barışa yönelik hareketler sergileyenlere gelince, biz onların çirkinliklerini elbette ki örteceğiz. Ve biz onları, yapmakta oldukları işlerin en güzeliyle elbette ödüllendireceğiz."
+},
 "29:27": {
 "ar": "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ وَجَعَلْنَا فِى ذُرِّيَّتِهِ ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ وَءَاتَيْنَـٰهُ أَجْرَهُۥ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْـَٔاخِرَةِ لَمِنَ ٱلصَّـٰلِحِينَ",
 "tr": "Biz, İbrahim'e İshak'ı ve Yakub'u armağan ettik. Onun soyu içine peygamberliği ve Kitap'ı yerleştirdik ve onun ödülünü dünyada verdik. Âhirette de o, elbetteki iyilik ve barış sevenler arasında olacaktır."
@@ -7789,6 +8486,10 @@
 "29:59": {
 "ar": "ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
 "tr": "Onlar ki sabrettiler ve yalnız Rablerine dayanıp güvenmektedirler."
+},
+"30:15": {
+"ar": "فَأَمَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ فَهُمْ فِى رَوْضَةٍ يُحْبَرُونَ",
+"tr": "İman edip hayra ve barışa yönelik işler yapanlara gelince, onlar bir bahçe içinde mutlu kılınırlar."
 },
 "30:38": {
 "ar": "فَـَٔاتِ ذَا ٱلْقُرْبَىٰ حَقَّهُۥ وَٱلْمِسْكِينَ وَٱبْنَ ٱلسَّبِيلِ ۚ ذَٰلِكَ خَيْرٌ لِّلَّذِينَ يُرِيدُونَ وَجْهَ ٱللَّهِ ۖ وَأُو۟لَـٰٓئِكَ هُمُ ٱلْمُفْلِحُونَ",
@@ -7806,6 +8507,10 @@
 "ar": "لِيَجْزِىَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِن فَضْلِهِۦٓ ۚ إِنَّهُۥ لَا يُحِبُّ ٱلْكَـٰفِرِينَ",
 "tr": "Çünkü Allah, iman edip hayra ve barışa yönelik işler yapanları, öz lütfundan ödüllendirecektir. O, nankörlükleri sevmez."
 },
+"30:47": {
+"ar": "وَلَقَدْ أَرْسَلْنَا مِن قَبْلِكَ رُسُلًا إِلَىٰ قَوْمِهِمْ فَجَآءُوهُم بِٱلْبَيِّنَـٰتِ فَٱنتَقَمْنَا مِنَ ٱلَّذِينَ أَجْرَمُوا۟ ۖ وَكَانَ حَقًّا عَلَيْنَا نَصْرُ ٱلْمُؤْمِنِينَ",
+"tr": "Yemin olsun biz, senden önce de resulleri toplumlarına gönderdik, onlara açık kanıtlar getirdiler. Nihayet, günah işleyenlerden öç aldık. İnananlara yardım etmek bizim üzerimizde bir haktı."
+},
 "31:3": {
 "ar": "هُدًى وَرَحْمَةً لِّلْمُحْسِنِينَ",
 "tr": "İyilik ve güzellik sergileyenlere bir rahmet ve bir kılavuz olarak;"
@@ -7821,6 +8526,10 @@
 "31:8": {
 "ar": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتُ ٱلنَّعِيمِ",
 "tr": "İman edip hayra ve barışa yönelik fiiller sergileyenlere gelince, onlar için nimetlerle dolu cennetler vardır."
+},
+"31:12": {
+"ar": "وَلَقَدْ ءَاتَيْنَا لُقْمَـٰنَ ٱلْحِكْمَةَ أَنِ ٱشْكُرْ لِلَّهِ ۚ وَمَن يَشْكُرْ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِۦ ۖ وَمَن كَفَرَ فَإِنَّ ٱللَّهَ غَنِىٌّ حَمِيدٌ",
+"tr": "Yemin olsun, biz Lukman'a şu yolda hikmet verdik: \"Allah'a şükret.\" Şükreden kendisi lehine şükreder. Nankörlük edense şunu bilmeli: Allah Ganî'dir, Hamîd'dir."
 },
 "32:15": {
 "ar": "إِنَّمَا يُؤْمِنُ بِـَٔايَـٰتِنَا ٱلَّذِينَ إِذَا ذُكِّرُوا۟ بِهَا خَرُّوا۟ سُجَّدًا وَسَبَّحُوا۟ بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ ۩",
@@ -7914,9 +8623,21 @@
 "ar": "قِيلَ ٱدْخُلِ ٱلْجَنَّةَ ۖ قَالَ يَـٰلَيْتَ قَوْمِى يَعْلَمُونَ",
 "tr": "\"Gir cennete!\" denildi. Dedi: \"Kavmim bir bilebilseydi?"
 },
+"36:27": {
+"ar": "بِمَا غَفَرَ لِى رَبِّى وَجَعَلَنِى مِنَ ٱلْمُكْرَمِينَ",
+"tr": "Ki Rabbim beni affetti; beni, ikram edilenlerden kıldı.\""
+},
+"36:45": {
+"ar": "وَإِذَا قِيلَ لَهُمُ ٱتَّقُوا۟ مَا بَيْنَ أَيْدِيكُمْ وَمَا خَلْفَكُمْ لَعَلَّكُمْ تُرْحَمُونَ",
+"tr": "Onlara, \"Önünüzdekinden ve arkanızdakinden sakının ki, size merhamet edilebilsin!\" denildiğinde, hiç aldırmazlar."
+},
 "37:40": {
 "ar": "إِلَّا عِبَادَ ٱللَّهِ ٱلْمُخْلَصِينَ",
 "tr": "Allah'ın içtenliğe erdirilmiş temiz kulları başkadır."
+},
+"37:41": {
+"ar": "أُو۟لَـٰٓئِكَ لَهُمْ رِزْقٌ مَّعْلُومٌ",
+"tr": "Onlar için belirlenmiş bir rızık vardır."
 },
 "37:43": {
 "ar": "فِى جَنَّـٰتِ ٱلنَّعِيمِ",
@@ -7929,6 +8650,22 @@
 "37:61": {
 "ar": "لِمِثْلِ هَـٰذَا فَلْيَعْمَلِ ٱلْعَـٰمِلُونَ",
 "tr": "Çalışanlar, böylesi için çalışsınlar."
+},
+"38:24": {
+"ar": "قَالَ لَقَدْ ظَلَمَكَ بِسُؤَالِ نَعْجَتِكَ إِلَىٰ نِعَاجِهِۦ ۖ وَإِنَّ كَثِيرًا مِّنَ ٱلْخُلَطَآءِ لَيَبْغِى بَعْضُهُمْ عَلَىٰ بَعْضٍ إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَقَلِيلٌ مَّا هُمْ ۗ وَظَنَّ دَاوُۥدُ أَنَّمَا فَتَنَّـٰهُ فَٱسْتَغْفَرَ رَبَّهُۥ وَخَرَّ رَاكِعًا وَأَنَابَ ۩",
+"tr": "Davûd dedi ki: \"Vallahi, senin bir tek koyununu kendi koyunlarına katmak istemekle sana zulmetmiş. Zaten ortaklardan birçoğu birbiri aleyhine haksızlık ve zulme sapar. İman edip hakka ve barışa yönelik işler yapanlar böyle değildir. Ama onlar da pek azdır.\" Davûd, kendisini imtihan ettiğimizi düşündü; hemen Rabbinden af diledi; rükû ederek yerlere eğildi ve Allah'a yöneldi."
+},
+"38:25": {
+"ar": "فَغَفَرْنَا لَهُۥ ذَٰلِكَ ۖ وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
+"tr": "Biz de ondan o günahı affettik. Katımızdan onun için bir yakınlık ve güzel bir gelecek var."
+},
+"38:34": {
+"ar": "وَلَقَدْ فَتَنَّا سُلَيْمَـٰنَ وَأَلْقَيْنَا عَلَىٰ كُرْسِيِّهِۦ جَسَدًا ثُمَّ أَنَابَ",
+"tr": "Yemin olsun ki biz, Süleyman'ı imtihan ettik, tahtının üstüne bir ceset bıraktık da o, tövbe ile Allah'a yöneldi."
+},
+"38:40": {
+"ar": "وَإِنَّ لَهُۥ عِندَنَا لَزُلْفَىٰ وَحُسْنَ مَـَٔابٍ",
+"tr": "Ve gerçekten, katımızda onun bir yakınlığı ve güzel bir geleceği vardı."
 },
 "38:43": {
 "ar": "وَوَهَبْنَا لَهُۥٓ أَهْلَهُۥ وَمِثْلَهُم مَّعَهُمْ رَحْمَةً مِّنَّا وَذِكْرَىٰ لِأُو۟لِى ٱلْأَلْبَـٰبِ",
@@ -7974,6 +8711,10 @@
 "ar": "لَهُم مَّا يَشَآءُونَ عِندَ رَبِّهِمْ ۚ ذَٰلِكَ جَزَآءُ ٱلْمُحْسِنِينَ",
 "tr": "Rableri katında onlar için diledikleri herşey vardır. İşte güzel düşünüp güzel davrananların ödülü budur."
 },
+"39:35": {
+"ar": "لِيُكَفِّرَ ٱللَّهُ عَنْهُمْ أَسْوَأَ ٱلَّذِى عَمِلُوا۟ وَيَجْزِيَهُمْ أَجْرَهُم بِأَحْسَنِ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
+"tr": "Böylece, Allah onların yaptıklarının en kötülerini örtecek, ödüllerini, yaptıklarının en güzeliyle verecek."
+},
 "39:53": {
 "ar": "قُلْ يَـٰعِبَادِىَ ٱلَّذِينَ أَسْرَفُوا۟ عَلَىٰٓ أَنفُسِهِمْ لَا تَقْنَطُوا۟ مِن رَّحْمَةِ ٱللَّهِ ۚ إِنَّ ٱللَّهَ يَغْفِرُ ٱلذُّنُوبَ جَمِيعًا ۚ إِنَّهُۥ هُوَ ٱلْغَفُورُ ٱلرَّحِيمُ",
 "tr": "De ki: \"Ey öz benlikleri aleyhine sınırı aşan/aşırı giden kullarım! Allah'ın rahmetinden ümit kesmeyin! Allah, günahları tümden affeder. Çünkü O, mutlak Gafur, mutlak Rahim'dir.\""
@@ -7985,6 +8726,10 @@
 "39:55": {
 "ar": "وَٱتَّبِعُوٓا۟ أَحْسَنَ مَآ أُنزِلَ إِلَيْكُم مِّن رَّبِّكُم مِّن قَبْلِ أَن يَأْتِيَكُمُ ٱلْعَذَابُ بَغْتَةً وَأَنتُمْ لَا تَشْعُرُونَ",
 "tr": "Farkında olmadığınız bir sırada, azap ansızın karşınıza çıkmadan önce size Rabbinizden indirilenin en güzeline uyun!"
+},
+"39:61": {
+"ar": "وَيُنَجِّى ٱللَّهُ ٱلَّذِينَ ٱتَّقَوْا۟ بِمَفَازَتِهِمْ لَا يَمَسُّهُمُ ٱلسُّوٓءُ وَلَا هُمْ يَحْزَنُونَ",
+"tr": "Korunup sakınanları Allah, kendi başarıları yüzünden kurtarır. Ne kötülük dokunur onlara ne de kederlenirler."
 },
 "39:73": {
 "ar": "وَسِيقَ ٱلَّذِينَ ٱتَّقَوْا۟ رَبَّهُمْ إِلَى ٱلْجَنَّةِ زُمَرًا ۖ حَتَّىٰٓ إِذَا جَآءُوهَا وَفُتِحَتْ أَبْوَٰبُهَا وَقَالَ لَهُمْ خَزَنَتُهَا سَلَـٰمٌ عَلَيْكُمْ طِبْتُمْ فَٱدْخُلُوهَا خَـٰلِدِينَ",
@@ -8013,6 +8758,10 @@
 "41:8": {
 "ar": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
 "tr": "İman edip hayra ve barışa yönelik işler yapanlara gelince, onlar için minnet altına sokmayan bir ödül vardır."
+},
+"41:18": {
+"ar": "وَنَجَّيْنَا ٱلَّذِينَ ءَامَنُوا۟ وَكَانُوا۟ يَتَّقُونَ",
+"tr": "İnananları kurtardık, onlar korunuyorlardı."
 },
 "41:30": {
 "ar": "إِنَّ ٱلَّذِينَ قَالُوا۟ رَبُّنَا ٱللَّهُ ثُمَّ ٱسْتَقَـٰمُوا۟ تَتَنَزَّلُ عَلَيْهِمُ ٱلْمَلَـٰٓئِكَةُ أَلَّا تَخَافُوا۟ وَلَا تَحْزَنُوا۟ وَأَبْشِرُوا۟ بِٱلْجَنَّةِ ٱلَّتِى كُنتُمْ تُوعَدُونَ",
@@ -8098,6 +8847,14 @@
 "ar": "فِى جَنَّـٰتٍ وَعُيُونٍ",
 "tr": "Bahçelerde, pınar başlarında."
 },
+"44:56": {
+"ar": "لَا يَذُوقُونَ فِيهَا ٱلْمَوْتَ إِلَّا ٱلْمَوْتَةَ ٱلْأُولَىٰ ۖ وَوَقَىٰهُمْ عَذَابَ ٱلْجَحِيمِ",
+"tr": "Orada, ilk ölüm dışında ölüm tatmazlar. Allah onları cehennem azabından korumuştur."
+},
+"44:57": {
+"ar": "فَضْلًا مِّن رَّبِّكَ ۚ ذَٰلِكَ هُوَ ٱلْفَوْزُ ٱلْعَظِيمُ",
+"tr": "Rabbinden bir lütuf olarak böyledir. İşte budur o büyük başarı."
+},
 "45:19": {
 "ar": "إِنَّهُمْ لَن يُغْنُوا۟ عَنكَ مِنَ ٱللَّهِ شَيْـًٔا ۚ وَإِنَّ ٱلظَّـٰلِمِينَ بَعْضُهُمْ أَوْلِيَآءُ بَعْضٍ ۖ وَٱللَّهُ وَلِىُّ ٱلْمُتَّقِينَ",
 "tr": "Kuşkun olmasın ki onlar, Allah karşısında sana hiçbir yarar sağlayamazlar/Allah'tan gelecek hiçbir şeyi senden uzaklaştıramazlar. Zalimler birbirlerinin dostlarıdır; Allah ise takvaya sarılanların Velî'sidir."
@@ -8182,6 +8939,10 @@
 "ar": "لَّيْسَ عَلَى ٱلْأَعْمَىٰ حَرَجٌ وَلَا عَلَى ٱلْأَعْرَجِ حَرَجٌ وَلَا عَلَى ٱلْمَرِيضِ حَرَجٌ ۗ وَمَن يُطِعِ ٱللَّهَ وَرَسُولَهُۥ يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۖ وَمَن يَتَوَلَّ يُعَذِّبْهُ عَذَابًا أَلِيمًا",
 "tr": "Köre zorlama yoktur, topala zorlama yoktur, hastaya da zorlama yoktur. Kim Allah'a ve resulüne itaat ederse, Allah onu altından ırmaklar akan cennetlere koyar. Kim de yüz çevirirse, Allah onu acıklı bir azapla cezalandırır."
 },
+"48:18": {
+"ar": "لَّقَدْ رَضِىَ ٱللَّهُ عَنِ ٱلْمُؤْمِنِينَ إِذْ يُبَايِعُونَكَ تَحْتَ ٱلشَّجَرَةِ فَعَلِمَ مَا فِى قُلُوبِهِمْ فَأَنزَلَ ٱلسَّكِينَةَ عَلَيْهِمْ وَأَثَـٰبَهُمْ فَتْحًا قَرِيبًا",
+"tr": "Yemin olsun, Allah müminlerden, o ağacın altında sana bey'at ettikleri sırada hoşnut olmuştur. Onların gönüllerindekini bilmiş, üzerlerine huzur ve sükûn indirmiş ve kendilerine yakın bir fetih nasip etmiştir."
+},
 "48:29": {
 "ar": "مُّحَمَّدٌ رَّسُولُ ٱللَّهِ ۚ وَٱلَّذِينَ مَعَهُۥٓ أَشِدَّآءُ عَلَى ٱلْكُفَّارِ رُحَمَآءُ بَيْنَهُمْ ۖ تَرَىٰهُمْ رُكَّعًا سُجَّدًا يَبْتَغُونَ فَضْلًا مِّنَ ٱللَّهِ وَرِضْوَٰنًا ۖ سِيمَاهُمْ فِى وُجُوهِهِم مِّنْ أَثَرِ ٱلسُّجُودِ ۚ ذَٰلِكَ مَثَلُهُمْ فِى ٱلتَّوْرَىٰةِ ۚ وَمَثَلُهُمْ فِى ٱلْإِنجِيلِ كَزَرْعٍ أَخْرَجَ شَطْـَٔهُۥ فَـَٔازَرَهُۥ فَٱسْتَغْلَظَ فَٱسْتَوَىٰ عَلَىٰ سُوقِهِۦ يُعْجِبُ ٱلزُّرَّاعَ لِيَغِيظَ بِهِمُ ٱلْكُفَّارَ ۗ وَعَدَ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنْهُم مَّغْفِرَةً وَأَجْرًا عَظِيمًۢا",
 "tr": "Muhammed, Allah'ın resulüdür. Onunla beraber olanlar, inkârcılara karşı çok çetin, kendi aralarında çok merhametlidirler. Sen onları rükû eder, secdeye kapanır halde görürsün. Allah'tan bir lütuf ve hoşnutluk ister dururlar. Görünüşlerine gelince, yüzlerinde secde eseri/izi vardır. Bu onların Tevrat'taki nitelikleri. İncil'deki nitelikleri de şöyle: Tıpkı bir ekin ki filizini çıkarmış, o filizi kuvvetlendirmiş. Filiz kalınlaştı, gövdesi üzerine dikildi. Ziraatçıları da imrendirir/hayran bırakır bu ekin. Allah böyle yapar ki, onlar sayesinde, inkâr edenleri öfkelendirsin. Allah onlardan iman edip hayra ve barışa yönelik işlen yapanlara bir bağışlanma ve büyük bir ödül vaat etmiştir."
@@ -8189,6 +8950,10 @@
 "49:3": {
 "ar": "إِنَّ ٱلَّذِينَ يَغُضُّونَ أَصْوَٰتَهُمْ عِندَ رَسُولِ ٱللَّهِ أُو۟لَـٰٓئِكَ ٱلَّذِينَ ٱمْتَحَنَ ٱللَّهُ قُلُوبَهُمْ لِلتَّقْوَىٰ ۚ لَهُم مَّغْفِرَةٌ وَأَجْرٌ عَظِيمٌ",
 "tr": "Allah resulünün huzurunda seslerini alçaltanlar var ya, onlar Allah'ın, gönüllerini takva için imtihan ettiği kişilerdir. Bir bağışlanma vardır onlar için, bir büyük ödül vardır."
+},
+"49:10": {
+"ar": "إِنَّمَا ٱلْمُؤْمِنُونَ إِخْوَةٌ فَأَصْلِحُوا۟ بَيْنَ أَخَوَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُرْحَمُونَ",
+"tr": "Şu bir gerçek ki, müminler sadece kardeştirler. O halde kardeşleriniz arasında barışı sağlayın ve Allah'tan sakının ki, size merhamet edilebilsin."
 },
 "50:31": {
 "ar": "وَأُزْلِفَتِ ٱلْجَنَّةُ لِلْمُتَّقِينَ غَيْرَ بَعِيدٍ",
@@ -8230,6 +8995,10 @@
 "ar": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَنَعِيمٍ",
 "tr": "Korunup sakınanlar; cennetler, nimetler içindedir."
 },
+"52:18": {
+"ar": "فَـٰكِهِينَ بِمَآ ءَاتَىٰهُمْ رَبُّهُمْ وَوَقَىٰهُمْ رَبُّهُمْ عَذَابَ ٱلْجَحِيمِ",
+"tr": "Rablerinin kendilerine verdikleriyle keyif çatarlar. Rableri onları cehennem azabından korumuştur."
+},
 "52:19": {
 "ar": "كُلُوا۟ وَٱشْرَبُوا۟ هَنِيٓـًٔۢا بِمَا كُنتُمْ تَعْمَلُونَ",
 "tr": "\"Yapıp ettiklerinizin karşılığı olarak afiyetle yiyin, için!"
@@ -8249,6 +9018,14 @@
 "52:28": {
 "ar": "إِنَّا كُنَّا مِن قَبْلُ نَدْعُوهُ ۖ إِنَّهُۥ هُوَ ٱلْبَرُّ ٱلرَّحِيمُ",
 "tr": "\"Biz önceden O'na yakarıyorduk. Çünkü O'dur Berr, cömertçe iyilik eden; O'dur rahmeti sınırsız olan.\""
+},
+"54:34": {
+"ar": "إِنَّآ أَرْسَلْنَا عَلَيْهِمْ حَاصِبًا إِلَّآ ءَالَ لُوطٍ ۖ نَّجَّيْنَـٰهُم بِسَحَرٍ",
+"tr": "Biz de üzerlerine çakıl taşları fırlatan bir rüzgâr gönderdik. Sadece Lût'un ailesini, seher vakti kurtarmıştık,"
+},
+"54:35": {
+"ar": "نِّعْمَةً مِّنْ عِندِنَا ۚ كَذَٰلِكَ نَجْزِى مَن شَكَرَ",
+"tr": "Katımızdan bir nimet olarak. Şükredeni işte böyle ödüllendiririz biz."
 },
 "54:54": {
 "ar": "إِنَّ ٱلْمُتَّقِينَ فِى جَنَّـٰتٍ وَنَهَرٍ",
@@ -8273,6 +9050,10 @@
 "56:12": {
 "ar": "فِى جَنَّـٰتِ ٱلنَّعِيمِ",
 "tr": "Nimetlerle dolu bahçelerdedirler."
+},
+"56:24": {
+"ar": "جَزَآءًۢ بِمَا كَانُوا۟ يَعْمَلُونَ",
+"tr": "Yaptıklarına karşılık olarak."
 },
 "56:88": {
 "ar": "فَأَمَّآ إِن كَانَ مِنَ ٱلْمُقَرَّبِينَ",
@@ -8353,6 +9134,10 @@
 "60:8": {
 "ar": "لَّا يَنْهَىٰكُمُ ٱللَّهُ عَنِ ٱلَّذِينَ لَمْ يُقَـٰتِلُوكُمْ فِى ٱلدِّينِ وَلَمْ يُخْرِجُوكُم مِّن دِيَـٰرِكُمْ أَن تَبَرُّوهُمْ وَتُقْسِطُوٓا۟ إِلَيْهِمْ ۚ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُقْسِطِينَ",
 "tr": "Allah sizi, din hakkında sizinle savaşmayan ve sizi yurtlarınızdan çıkarmayan kimselere iyilik etmekten, onlara adaletli davranmaktan men etmez. Allah, adaleti ayakta tutanları sever."
+},
+"61:10": {
+"ar": "يَـٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ هَلْ أَدُلُّكُمْ عَلَىٰ تِجَـٰرَةٍ تُنجِيكُم مِّنْ عَذَابٍ أَلِيمٍ",
+"tr": "Ey iman sahipleri! Dikkatlerinizi, sizi korkunç bir azaptan kurtaracak bir ticarete çekeyim mi:"
 },
 "61:11": {
 "ar": "تُؤْمِنُونَ بِٱللَّهِ وَرَسُولِهِۦ وَتُجَـٰهِدُونَ فِى سَبِيلِ ٱللَّهِ بِأَمْوَٰلِكُمْ وَأَنفُسِكُمْ ۚ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
@@ -8514,6 +9299,14 @@
 "ar": "إِنَّ هَـٰذَا كَانَ لَكُمْ جَزَآءً وَكَانَ سَعْيُكُم مَّشْكُورًا",
 "tr": "İşte bu size bir ödüldür. Ve sizin gayretiniz şükranla karşılanmıştır."
 },
+"78:31": {
+"ar": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
+"tr": "Takva sahipleri için bir kurtuluş ve bir zafer vardır."
+},
+"78:36": {
+"ar": "جَزَآءً مِّن رَّبِّكَ عَطَآءً حِسَابًا",
+"tr": "Rabbinden bir ödül, tam kıvamında bir bağış."
+},
 "79:40": {
 "ar": "وَأَمَّا مَنْ خَافَ مَقَامَ رَبِّهِۦ وَنَهَى ٱلنَّفْسَ عَنِ ٱلْهَوَىٰ",
 "tr": "Rabbinin yüceliğinden korkup nefsini boş heveslerden yasaklamış olan içinse,"
@@ -8521,6 +9314,18 @@
 "79:41": {
 "ar": "فَإِنَّ ٱلْجَنَّةَ هِىَ ٱلْمَأْوَىٰ",
 "tr": "Cennet, barınağın ta kendisidir."
+},
+"82:13": {
+"ar": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+"tr": "Şu da kuşkusuz: İyiler tam bir nimet içindedir,"
+},
+"83:18": {
+"ar": "كَلَّآ إِنَّ كِتَـٰبَ ٱلْأَبْرَارِ لَفِى عِلِّيِّينَ",
+"tr": "Hayır, sandıkları gibi değil! İyilik sergileyenlerin kitabı İlliyyûn'da, en yüce burçlardadır."
+},
+"83:22": {
+"ar": "إِنَّ ٱلْأَبْرَارَ لَفِى نَعِيمٍ",
+"tr": "İyilik sergileyenler büyük bir nimetin tam içindedir."
 },
 "84:7": {
 "ar": "فَأَمَّا مَنْ أُوتِىَ كِتَـٰبَهُۥ بِيَمِينِهِۦ",
@@ -8640,11 +9445,11 @@
 }
 },
 "istatistik": {
-"kayit": 648,
-"ayet": 498,
+"kayit": 723,
+"ayet": 553,
 "derece": {
-"✓": 587,
-"→": 55,
+"✓": 658,
+"→": 59,
 "?": 6
 }
 }

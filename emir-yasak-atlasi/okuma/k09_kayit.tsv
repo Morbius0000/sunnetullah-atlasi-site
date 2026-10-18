@@ -793,3 +793,97 @@ ZY	kotuluk_getirme	28:84	28:84	denk_ceza	✓	"kötülükleri yapanlar yapmış o
 ZY	kotuluk_sergileme	53:31	53:31	cezalandirma	✓	"Allah'ın kötülük sergileyenleri cezalandırması"
 
 B233	olcude_eksiltme	83:3	83:7	siccin	→	83:7 "Hayır! Fâcirlerin kitabı Siccîn'dedir" — mutaffifîn ile fâcirler aynı pasajda; özdeşlik açıkça söylenmez
+EK05	vahyi_elle_yazip_allaha_isnat	2:79	2:79	vay	✓	"Kitabı elleriyle yazıp sonra az bir bedel için 'bu Allah katındandır' diyenlere vay (veyl); ellerinin yazdığından ve kazandıklarından ötürü vay onlara"
+EK05	kitabi_inkar	2:121	2:121	husran	✓	"Onu (kitabı) kim inkâr ederse, işte onlar hüsrana uğrayanlardır (ulâike humu'l-hâsirûn)"
+EK05	emre_ragmen_geri_donme	5:21	5:21	husran	✓	Mûsâ: "Kutsal topraklara girin, arkanıza dönmeyin, yoksa hüsrana uğrayanlar olarak dönersiniz (fe-tenkalibû hâsirîn)"
+EK05	iman_etmeme_nefsini_husrana	6:12	6:12	husran	→	"Kendilerini hüsrana uğratanlar (hasirû enfusehum), işte onlar iman etmezler": hüsran
+EK05	zulum	6:135	6:135	felah_yok	→	"Zalimler kurtuluşa ermez (lâ yuflihu'z-zâlimûn)"
+EK05	yalanlama	7:96	7:96	yakalama	✓	"Ama yalanladılar; biz de kazandıkları yüzünden onları yakaladık (fe-ehaznâhum)"
+EK05	sihir	10:77	10:77	felah_yok	→	Mûsâ: "Sihirbazlar kurtuluşa ermez (lâ yuflihu's-sâhirûn)"
+EK05	bedbaht_olanlar	11:106	11:106	nar	?	"şekû": davranış belirtilmez; bedbaht olanlar ateştedir (11:108 suidû paraleli)
+EK05	zulum	12:23	12:23	felah_yok	→	Yûsuf: "Zalimler kurtuluşa ermez (lâ yuflihu'z-zâlimûn)"
+EK05	zulum	14:44	14:44	azap	→	"Azabın geleceği gün zulmedenler 'Rabbimiz bizi az bir süre ertele' der"
+EK05	resulu_yurttan_cikarma_istegi_firavun	17:103	17:103	gark	✓	Firavun "onları yerden sürüp çıkarmak istedi; biz de onu ve beraberindekilerin hepsini suda boğduk"
+EK05	kufur	19:37	19:37	vay	✓	"Gruplar aralarında ayrılığa düştü; inkâr edenlere büyük bir günün tanıklığından ötürü vay (veyl)"
+EK05	ahireti_inkar	19:66	19:68	cehennem	✓	19:66 "Ölünce mi diriltileceğim?" diyen insan; 19:68 "onları şeytanlarla birlikte haşredip cehennemin çevresinde diz üstü hazır bulunduracağız"
+EK05	sihir	20:69	20:69	felah_yok	→	"Sihirbaz nereden gelirse gelsin kurtuluşa ermez (lâ yuflihu's-sâhir)"
+EK05	kufur	21:39	21:39	nar	✓	"İnkâr edenler, ateşi yüzlerinden ve sırtlarından savamayacakları zamanı bir bilselerdi"
+EK05	sirk	23:117	23:117	hesaba_cekilme	✓	"Kim Allah ile birlikte, hakkında hiçbir kanıtı olmayan başka bir ilaha yakarırsa, onun hesabı Rabbinin katındadır"
+EK05	sirk	23:117	23:117	felah_yok	→	"Kâfirler kurtuluşa ermez (lâ yuflihu'l-kâfirûn)"
+EK05	yalan	24:7	24:7	lanet	✓	lian yemininin beşincisi: "yalancılardansa Allah'ın laneti onun üzerine olsun" (kendi aleyhine şartlı)
+EK05	yalan	24:9	24:9	gazab	✓	lian: kadının beşinci tanıklığı "o doğru söyleyenlerdense Allah'ın gazabı kendi üzerine olsun" (kendi aleyhine şartlı)
+EK05	resule_isyan_firavun	26:60	26:66	gark	→	Firavun ve ordusu Mûsâ'nın kavmini izledi (26:60); "sonra ötekileri suda boğduk" (26:66); sebep edatı yok, sıra bağı
+EK05	resulleri_yalanlama	26:105	26:120	gark	→	"Nûh kavmi elçileri yalanladı" (26:105); Nûh: "kavmim beni yalanladı" (26:117); "sonra geride kalanları boğduk" (26:120)
+EK05	zorbalik	26:130	26:135	azap_buyuk_gun	→	Hûd: "Yakaladığınızda zorbalar gibi yakalıyorsunuz" (26:130); "Sizin için büyük bir günün azabından korkuyorum" (26:135)
+EK05	resulleri_yalanlama	26:160	26:172	helak	→	"Lût kavmi elçileri yalanladı" (26:160); "sonra ötekileri yerle bir ettik (dammarnâ)" (26:172)
+EK05	erkeklere_gitme	26:165	26:172	helak	→	"Âlemler içinden erkeklere mi gidiyorsunuz" (26:165); "ötekileri yerle bir ettik" (26:172)
+EK05	zulum	28:37	28:37	felah_yok	→	Mûsâ: "Zalimler kurtuluşa ermez (lâ yuflihu'z-zâlimûn)"
+EK05	kufur	28:82	28:82	felah_yok	→	Kârûn'un yerinde olmayı dileyenler: "Demek ki kâfirler kurtuluşa ermez"
+EK05	zulum	29:14	29:14	tufan	✓	Nûh kavmi: "Onlar zalimken (ve hum zâlimûn) tufan onları yakaladı"
+EK05	suc_isleme	37:34	37:33	azapta_ortaklik	→	"O gün azapta ortaktırlar; biz suçlulara (el-mücrimîn) böyle yaparız"
+EK05	resule_inanmama_firavun	40:37	40:46	nar	→	"Ateş: sabah akşam ona sunulurlar; kıyamet günü 'Firavun ailesini azabın en şiddetlisine sokun'" (B166 devamı)
+EK05	resule_inanmama_firavun	40:37	40:46	azap_siddetli	→	"eşedde'l-azâb" (azabın en şiddetlisi)
+EK05	batil_ehli	40:78	40:78	husran	→	"Allah'ın emri gelince hak ile hükmedilir ve orada batıla uyanlar (el-mubtilûn) hüsrana uğrar"
+EK05	kufur	51:60	51:60	vay	✓	"İnkâr edenlere, kendilerine vaat edilen günlerinden ötürü vay (veyl)"
+EK05	yalanlama	52:11	52:11	vay	✓	"O gün vay yalanlayanlara (li'l-mukezzibîn)"
+EK05	bos_lakirdiya_dalma	52:12	52:11	vay	✓	"Onlar ki boş işlere dalıp oynarlar (fî havdin yel'abûn)"
+EK05	yalanlama	54:9	54:16	azap	✓	Nûh kavmi "yalanladı; kulumuzu yalanladılar, 'deli' dediler" (54:9); "nasıl oldu azabım ve uyarılarım" (54:16)
+EK05	uyarilari_yalanlama	54:23	54:31	tek_ses	✓	"Semûd uyarıları yalanladı" (54:23); "üzerlerine tek bir sayha gönderdik" (54:31)
+EK05	misafirlere_tecavuz_istegi	54:37	54:38	azap_surekli	✓	"Sabah erkenden yerleşik bir azap (azâbun mustekirr) onları bastı"; 54:39 "tadın azabımı ve uyarılarımı"
+EK05	uyarilari_yalanlama	54:33	54:38	azap_surekli	✓	Lût kavmi (54:33); "azâbun mustekirr" (54:38)
+EK05	mirasi_yeme_mali_asiri_sevme	89:19	89:25	azap_essiz	→	"O gün O'nun azap edişi gibi kimse azap edemez, bağlayışı gibi kimse bağlayamaz" (B241 devamı)
+EK05	kufur	2:93	2:93	icl_sevgisi	✓	"'İşittik ve karşı geldik' dediler; küfürleri yüzünden buzağı (sevgisi) kalplerine içirildi (uşribû fî kulûbihimu'l-icle bi-kufrihim)"
+EK05	sihir	2:102	2:102	ahirette_nasip_yok	✓	"Onu (sihri) satın alanın ahirette bir payı (halâk) olmadığını biliyorlardı"
+EK05	kufur	2:191	2:191	oldurulme	→	"Sizinle savaşırlarsa onları öldürün; kâfirlerin cezası böyledir (kezâlike cezâu'l-kâfirîn)"
+EK05	zulum	4:153	4:153	yildirim	✓	"Bize Allah'ı açıkça göster' dediler; zulümleri yüzünden yıldırım (es-sâika) onları yakaladı (bi-zulmihim)"
+EK05	ayetlere_inanmama	7:132	7:133	tufan	✓	"Ne ayet getirirsen getir sana inanacak değiliz" (7:132); "biz de üzerlerine tufan, çekirge, haşere, kurbağa ve kan gönderdik" (7:133); "büyüklendiler, suçlu bir topluluktu"
+EK05	deveyi_kesme	7:77	7:78	sarsinti	✓	Semûd "deveyi kestiler, Rablerinin emrine baş kaldırdılar" (7:77); "sarsıntı (er-racfe) onları yakaladı" (7:78)
+EK05	azginlik	7:77	7:78	sarsinti	✓	"Rablerinin emrinden baş kaldırdılar ('atev an emri rabbihim)"
+EK05	kufur	7:90	7:91	sarsinti	✓	Şuayb kavminin inkâr eden ileri gelenleri: "Şuayb'a uyarsanız hüsrana uğrarsınız" (7:90); "sarsıntı onları yakaladı" (7:91)
+EK05	allah_yolundan_alikoyma	7:86	7:91	sarsinti	→	Şuayb: "İnananları Allah yolundan alıkoymak için her yolda oturmayın" (7:86); aynı kıssa 7:91
+EK05	seferden_geri_kalma	9:81	9:82	aglama	✓	"Kazandıklarına karşılık (cezâen bimâ kânû yeksibûn) az gülsünler, çok ağlasınlar"
+EK05	hirsizlik	12:75	12:75	cezalandirma	→	Yûsuf'un kardeşleri: "Cezası, (kayıp) yükünde bulunan kişinin kendisidir; zalimleri biz böyle cezalandırırız"
+EK05	suc_isleme	15:58	15:73	tek_ses	→	Melekler: "Suçlu bir topluluğa (kavmin mucrimîn) gönderildik" (15:58); "doğarken sayha onları yakaladı" (15:73)
+EK05	misafirlere_tecavuz_istegi	15:67	15:73	tek_ses	✓	15:67-72 şehir halkı misafirler için sevinerek geldi; "sayha onları yakaladı" (15:73)
+EK05	misafirlere_tecavuz_istegi	15:67	15:74	helak	✓	"Oranın üstünü altına getirdik, üzerlerine pişmiş çamurdan taşlar yağdırdık"
+EK05	zulum	15:78	15:79	intikam	✓	"Eyke halkı da zalimdi (le-zâlimîn)" (15:78); "biz de onlardan intikam aldık" (15:79)
+EK05	resulleri_yalanlama	15:80	15:83	tek_ses	✓	"Hicr halkı elçileri yalanladı" (15:80); "sabaha girerken sayha onları yakaladı" (15:83); 15:84 kazandıkları fayda vermedi
+EK05	ayetlerden_yuz_cevirme	15:81	15:83	tek_ses	✓	"Onlara ayetlerimizi verdik, ama onlardan yüz çeviriyorlardı"
+EK05	likaullahi_yalanlama	23:33	23:41	tek_ses	→	"İnkâr eden, ahirete kavuşmayı yalanlayan ileri gelenler" (23:33); "sayha onları hak ile yakaladı, onları sel süprüntüsüne çevirdik; uzak olsun zalim topluluk" (23:41)
+EK05	suc_isleme	30:47	30:47	intikam	✓	"Suç işleyenlerden intikam aldık (fe'ntekamnâ mine'llezîne ecramû)"
+EK05	sirk	39:3	39:3	hidayet_edilmeme	→	"O'nun dışında veliler edinenler: 'Bizi Allah'a yaklaştırsınlar diye tapıyoruz'... Allah yalancı ve nankör olanı doğru yola iletmez"
+EK05	atalara_koru_koruna_uyma	43:23	43:25	intikam	✓	"Biz atalarımızı bir din üzerinde bulduk, onların izinden gidiyoruz" (43:23); "onlardan intikam aldık; yalanlayanların sonu nice oldu bak" (43:25)
+EK05	kufur	43:24	43:25	intikam	✓	"Biz sizinle gönderilen şeyi inkâr ediyoruz (innâ bimâ ursiltum bihî kâfirûn)"
+EK05	zikirden_yuz_cevirme	43:36	43:41	intikam	→	"Seni alıp götürsek de biz onlardan intikam alacağız (fe-innâ minhum muntekimûn)" (B173 devamı)
+EK05	azginlik	51:44	51:44	yildirim	✓	Semûd "Rablerinin emrine baş kaldırdılar ('atev); bakıp dururlarken yıldırım (es-sâika) onları yakaladı"
+EK05	kafirleri_dost_edinme	3:28	3:28	allahtan_kopma	✓	"Müminler, müminleri bırakıp kâfirleri veli edinmesin; kim bunu yaparsa Allah ile hiçbir bağı kalmaz (fe-leyse mine'llâhi fî şey')"
+EK05	iman_etmeme	6:125	6:125	rics	→	"Allah iman etmeyenlerin üzerine pisliği (er-rics) böyle kılar"
+EK05	akletmeme	10:100	10:100	rics	→	"Allah, aklını kullanmayanların (lâ ya'kılûn) üzerine pisliği (er-rics) kılar"
+EK05	zulum	20:111	20:111	basarisizlik	✓	"Zulüm yüklenen kesinlikle hüsrana/umutsuzluğa düşmüştür (ve kad hâbe men hamele zulmâ)"
+EK05	resulleri_yalanlama	26:160	26:173	yagmur	→	Lût kavmi: "Üzerlerine bir yağmur yağdırdık; uyarılanların yağmuru ne kötüdür"
+EK05	erkeklere_gitme	27:55	27:58	yagmur	✓	"Şehvetle kadınları bırakıp erkeklere mi gidiyorsunuz" (27:55); "üzerlerine bir yağmur yağdırdık; uyarılanların yağmuru ne kötüdür" (27:58)
+EK05	azabi_acele_isteme	37:176	37:177	kotu_sabah	✓	"Azabımızı mı acele istiyorlar? O, alanlarına indiğinde uyarılanların sabahı ne kötüdür"
+EK05	azginlik	38:55	38:57	kaynar_su_ve_atik_su	✓	"İşte kaynar su ve irin (hamîm ve ğassâk); tatsınlar onu" (B160 devamı)
+EK05	yapmadigini_soyleme	61:2	61:3	makt	✓	"Yapmayacağınız şeyi niçin söylüyorsunuz?" (61:2); "Yapmayacağınızı söylemeniz Allah katında büyük bir öfke (makt) sebebidir" (61:3)
+EK05	namazi_terk	75:31	75:34	evla	✓	"Ne doğruladı ne namaz kıldı (75:31); ama yalanladı ve yüz çevirdi (75:32)... Yazıklar olsun sana, evet yazıklar olsun (evlâ leke fe-evlâ)" (75:34-35)
+EK05	yalanlama	75:32	75:34	evla	✓	
+EK05	yuz_cevirme	75:32	75:34	evla	✓	
+EK05	azginlik	96:6	96:15	nasiye	✓	"İnsan, kendini müstağni gördüğü için azar (le-yatğâ)" (96:6-7); "vazgeçmezse onu perçeminden (bi'n-nâsiye) yakalayıp sürükleriz" (96:15); 96:18 zebanileri çağıracağız
+EK05	namazdan_alikoyma	96:9	96:15	nasiye	✓	"Namaz kılan bir kulu engelleyeni gördün mü?" (96:9-10)
+EK05	yalanlama	96:13	96:15	nasiye	✓	"Yalanlayıp yüz çevirdiyse" (96:13)
+EK05	nefsi_kirletme	91:10	91:10	basarisizlik	✓	"Onu (nefsini) örtüp kirleten (dessâhâ) kesinlikle hüsrana/umutsuzluğa düşmüştür (kad hâbe)" (91:9 paraleli)
+EK05	zulum	2:270	2:270	yardimsizlik	→	"Zalimlerin hiç yardımcıları yoktur (mâ li'z-zâlimîne min ensâr)"
+EK05	kafirleri_dost_edinme	5:51	5:51	onlardan_sayilma	✓	"Yahudileri ve Hıristiyanları veli edinmeyin... Sizden kim onları veli edinirse o onlardandır (fe-innehû minhum)"
+EK05	kafirleri_dost_edinme	5:51	5:51	hidayet_edilmeme	→	"Allah zalim topluluğu doğru yola iletmez"
+EK05	kufur	5:67	5:67	hidayet_edilmeme	→	"Allah kâfir topluluğu doğru yola iletmez"
+EK05	nesi_haram_aylari_kaydirma	9:37	9:37	hidayet_edilmeme	→	"Nesî küfürde bir artıştır... kötü işleri kendilerine süslendi; Allah kâfir topluluğu doğru yola iletmez"
+EK05	sihir	10:81	10:81	amel_bosa	✓	Mûsâ: "Getirdiğiniz sihirdir; Allah onu boşa çıkaracak (se-yubtiluh)"
+EK05	fesat	10:81	10:81	basarisizlik	→	"Allah bozguncuların işini düzeltmez/başarılı kılmaz (lâ yuslihu amele'l-mufsidîn)"
+EK05	hiyanet	12:52	12:52	basarisizlik	→	"Allah hainlerin tuzağını hedefe ulaştırmaz (lâ yehdî keyde'l-hâ'inîn)"
+EK05	allahtan_baska_tapinma	22:71	22:71	yardimsizlik	→	"Allah'ın hakkında hiçbir kanıt indirmediği şeylere tapıyorlar... Zalimlerin hiç yardımcısı yoktur"
+EK05	heva_ardina_dusme	28:50	28:50	hidayet_edilmeme	→	"Allah'tan bir yol gösterici olmaksızın hevasına uyandan daha sapık kim? Allah zalim topluluğu doğru yola iletmez"
+EK05	nefse_zulum	34:19	34:19	dagitilma	✓	Sebe': "Kendilerine zulmettiler; biz de onları efsaneler (ehâdîs) kıldık ve darmadağın ettik (mezzaknâhum kulle mumezzak)"
+EK05	israf	40:28	40:28	hidayet_edilmeme	→	Firavun ailesinden mümin: "Allah aşırı giden yalancıyı (musrifun kezzâb) doğru yola iletmez"
+EK05	yalan	40:28	40:28	hidayet_edilmeme	→	
+EK05	kitabi_inkar	46:10	46:10	hidayet_edilmeme	→	"O Allah katındansa ve siz onu inkâr ettiyseniz... ve siz büyüklendiyseniz? Allah zalim topluluğu doğru yola iletmez"
+EK05	kibir	46:10	46:10	hidayet_edilmeme	→	

@@ -66,7 +66,6 @@ const L = [
   ['zillet', 'Zillet', 'azap'], ['zillet_azabi', 'Zillet azabı', 'azap'], ['zincir_ve_nar', 'Zincir ve ateş', 'nar'],
   ['zorlu_hesap_ve_azap', 'Zorlu hesap ve azap', 'dunya'],
   // Konu 5
-  ['celde_100', 'Yüz celde', 'dunya'],
   ['el_kesme', 'Elin kesilmesi', 'dunya'], ['kisas', 'Kısas', 'dunya'],
   ['gulul_yuk', 'Aşırdığını kıyamette yüklenip getirme', 'azap'], ['buyuk_vebal', 'Büyük vebal', 'husran'],
   // Konu 4
@@ -98,7 +97,12 @@ const L = [
   ['sahitlik_reddi', 'Tanıklığın ebediyen reddi', 'dunya'], ['artmama', 'Allah katında artmama', 'husran'],
   ['kovulma', "Ateşte kovulma, konuşturulmama (ihse'û)", 'nar'], ['yere_batirilma', 'Yere batırılma (hasf)', 'dunya'],
   ['tih', 'Kırk yıl yurdun haram kılınması, şaşkın dolaşma (tîh)', 'dunya'], ['sinanma', 'Sınanma (ibtilâ)', 'dunya'],
-  ['kalp_egriltme', 'Kalplerin eğriltilmesi (izâğa)', 'ruhsal'], ['suhk', 'Uzak olsunlar (suhkan)', 'gazab'], ['cahim', 'Cahîm (ateş)', 'nar'],
+  ['kalp_egriltme', 'Kalplerin eğriltilmesi (izâğa)', 'ruhsal'], ['suhk', 'Uzak olsunlar (suhkan)', 'gazab'], ['cahim', 'Cahîm (ateş)', 'nar'], ['tufan', 'Tufan (tûfân)', 'dunya'],
+  ['icl_sevgisi', 'Buzağı (sevgisinin) kalplere içirilmesi', 'ruhsal'], ['oldurulme', 'Öldürülme (savaşta)', 'dunya'],
+  ['aglama', 'Az gülüp çok ağlama', 'husran'], ['allahtan_kopma', 'Allah ile hiçbir bağı kalmama', 'gazab'],
+  ['rics', 'Üzerlerine pislik (rics) kılınması', 'ruhsal'], ['kotu_sabah', 'Uyarılanların kötü sabahı', 'dunya'],
+  ['evla', 'Yazıklar olsun (evlâ leke fe-evlâ)', 'husran'], ['nasiye', 'Perçeminden yakalanıp sürüklenme (nâsiye)', 'azap'],
+  ['onlardan_sayilma', 'Veli edinilenlerden sayılma (fe-innehû minhum)', 'ruhsal'], ['dagitilma', 'Darmadağın edilip efsane kılınma', 'dunya'],
 ];
 export const cezaAdi = Object.fromEntries(L.map(([k, a]) => [k, a]));
 export const cezaTur = Object.fromEntries(L.map(([k, , t]) => [k, t]));

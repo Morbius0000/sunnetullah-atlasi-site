@@ -112,6 +112,7 @@ KURAL = [
 ]
 # Bazı birleşik kayıtlar birden fazla niteliğe bölünür (ilk kanonik + ekler)
 BOL = {
+    'kalpte_hayir': ['iman'], 'ebrar_olmak': ['salih_amel'],
     'tevbe_iman': ['tevbe', 'iman'], 'tevbe_iman_salih_amel': ['tevbe', 'iman', 'salih_amel'],
     'iman_takva_ihsan': ['iman', 'takva', 'ihsan'], 'kitaba_uymak_takva': ['vahye_uymak', 'takva'],
     'mescit_imari_iman_namaz_zekat': ['iman', 'namaz', 'zekat'], 'kuran_okumak_namaz_zekat_karz_hasen': ['vahye_uymak', 'namaz', 'zekat', 'infak'],

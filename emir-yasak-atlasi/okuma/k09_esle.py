@@ -19,6 +19,7 @@ DAVRANIS = [
     ('allaha_iftira', 'İnanç', 'Allah\'a iftira etmek, yalan isnat etmek; helal-haram uydurmak'),
     ('allah_hakkinda_yanlis', 'İnanç', 'Allah hakkında kötü zan beslemek, yanlış söz söylemek, O\'nun tuzağından emin olmak'),
     ('suphe', 'İnanç', 'Şüphe ve kuşku içinde kalmak'),
+    ('sihir', 'İnanç', 'Sihir (büyü) yapmak ya da öğrenip satın almak'),
     ('ayetleri_yalanlama', 'Vahiy ve resuller', 'Ayetleri, kitabı ve resulleri yalanlamak, ayetlere karşı çıkmak'),
     ('alay', 'Vahiy ve resuller', 'Ayetlerle, resullerle ve müminlerle alay etmek'),
     ('yuz_cevirme', 'Vahiy ve resuller', 'Zikirden, ayetlerden ve uyarıdan yüz çevirmek; gaflet, unutmak'),
@@ -50,6 +51,9 @@ DAVRANIS = [
 DNAME = {k for k, _, _ in DAVRANIS}
 
 BOL = {
+    'emre_ragmen_geri_donme': ['resule_isyan'], 'bedbaht_olanlar': ['sonuc_tanimi'], 'batil_ehli': ['genel_adlandirma'],
+    'azabi_acele_isteme': ['alay'], 'yapmadigini_soyleme': ['iftira_yalan'], 'namazdan_alikoyma': ['allah_yolundan_alikoyma', 'ibadet_ihmal'],
+    'nefsi_kirletme': ['genel_adlandirma'], 'nesi_haram_aylari_kaydirma': ['allaha_iftira'], 'akletmeme': ['yuz_cevirme'],
     'siddete_dusku_bedbaht': ['genel_adlandirma'], 'en_bedbaht': ['genel_adlandirma'], 'calisip_yorulan_yuzler': ['sonuc_tanimi'],
     'atesi_yalanlama': ['ahiret_inkar'], 'galip_topluluk_iddiasi': ['kibir'], 'esir_ve_dunyalik_isteme': ['dunya_sevgisi'],
     'gecimde_simarma': ['dunya_sevgisi'], 'mal_ve_evladin_fayda_vermemesi': ['nifak'], 'hicret_etmeyip_nefse_zulmetme': ['savastan_kacma'],
@@ -100,6 +104,7 @@ BOL = {
 }
 
 KURAL = [
+    (r'^sihir', 'sihir'),
     (r'^(nifak|munafik|ikiyuzlu|ikiyuzluluk)', 'nifak'),
     (r'^(ahirete_|ahireti_|ahirette_|likaullah|kiyameti|din_gununu|red_sayili|rabbi_inkar_diriligi|rabbe_kavusmayi|allaha_kavusmayi|kuskuyla_oynayip)', 'ahiret_inkar'),
     (r'^(allaha_iftira|allaha_yalan|allaha_resule_yalan)', 'allaha_iftira'),

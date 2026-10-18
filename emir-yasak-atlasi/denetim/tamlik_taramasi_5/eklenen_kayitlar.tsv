@@ -1,0 +1,170 @@
+konu	blok	ham	nitelik_ayet	odul_ayet	odul	derece	not
+9	EK	vahyi_elle_yazip_allaha_isnat	2:79	2:79	vay	✓	"Kitabı elleriyle yazıp sonra az bir bedel için 'bu Allah katındandır' diyenlere vay (veyl); ellerinin yazdığından ve kazandıklarından ötürü vay onlara"
+9	EK	kitabi_inkar	2:121	2:121	husran	✓	"Onu (kitabı) kim inkâr ederse, işte onlar hüsrana uğrayanlardır (ulâike humu'l-hâsirûn)"
+8	EK	iman	3:171	3:171	ecir	→	"Allah müminlerin ecrini zayi etmez"; 3:169-171 Allah yolunda öldürülenler hakkında
+9	EK	emre_ragmen_geri_donme	5:21	5:21	husran	✓	Mûsâ: "Kutsal topraklara girin, arkanıza dönmeyin, yoksa hüsrana uğrayanlar olarak dönersiniz (fe-tenkalibû hâsirîn)"
+9	EK	iman_etmeme_nefsini_husrana	6:12	6:12	husran	→	"Kendilerini hüsrana uğratanlar (hasirû enfusehum), işte onlar iman etmezler": hüsran
+8	EK	iman	6:48	6:48	korku_yok	✓	"Kim iman eder ve düzeltirse (âmene ve aslaha) onlara korku yoktur, üzülmezler de"
+8	EK	islah	6:48	6:48	korku_yok	✓
+9	EK	zulum	6:135	6:135	felah_yok	→	"Zalimler kurtuluşa ermez (lâ yuflihu'z-zâlimûn)"
+8	EK	iman	7:96	7:96	dunyevi_bereket	✓	"Kentlerin halkı iman edip sakınsalardı (âmenû ve'ttekav) onlara gökten ve yerden bereketler açardık"
+8	EK	takva	7:96	7:96	dunyevi_bereket	✓
+9	EK	yalanlama	7:96	7:96	yakalama	✓	"Ama yalanladılar; biz de kazandıkları yüzünden onları yakaladık (fe-ehaznâhum)"
+8	EK	istigfar	8:33	8:33	azaptan_korunma	✓	"Onlar bağışlanma dilerken (hum yestağfirûn) Allah onlara azap edecek değildir"
+8	EK	tevbe_vazgecme	8:38	8:38	magfiret	✓	"İnkâr edenlere de ki: vazgeçerlerse (in yentehû) geçmişte olanlar bağışlanır"
+8	EK	kalpte_hayir	8:70	8:70	hayir	✓	esirlere: "Allah kalplerinizde bir hayır bilirse sizden alınandan daha hayırlısını verir ve sizi bağışlar"
+8	EK	kalpte_hayir	8:70	8:70	magfiret	✓
+8	EK	iman	10:63	10:64	mujde	✓	10:62-63 Allah'ın velileri (iman + takva): "dünya hayatında da ahirette de müjde onlarındır; büyük kurtuluş budur"
+8	EK	takva	10:63	10:64	mujde	✓
+8	EK	iman	10:63	10:64	fevz	✓
+8	EK	takva	10:63	10:64	fevz	✓
+9	EK	sihir	10:77	10:77	felah_yok	→	Mûsâ: "Sihirbazlar kurtuluşa ermez (lâ yuflihu's-sâhirûn)"
+8	EK	iman	10:98	10:98	dunyevi_kurtulus	✓	Yûnus kavmi: "İman edince onlardan dünya hayatındaki rezillik azabını (azâbe'l-hizy) kaldırdık ve bir süreye kadar yararlandırdık"
+8	EK	iman	2:97	2:97	mujde	✓	Kur'an "müminler için hidayet ve müjde (büşrâ)"
+8	EK	iman_peygamberle	11:66	11:66	dunyevi_kurtulus	✓	kıssa (Sâlih): "Sâlih'i ve onunla birlikte iman edenleri katımızdan bir rahmetle kurtardık, o günün rezilliğinden de"
+9	EK	bedbaht_olanlar	11:106	11:106	nar	?	"şekû": davranış belirtilmez; bedbaht olanlar ateştedir (11:108 suidû paraleli)
+9	EK	zulum	12:23	12:23	felah_yok	→	Yûsuf: "Zalimler kurtuluşa ermez (lâ yuflihu'z-zâlimûn)"
+9	EK	zulum	14:44	14:44	azap	→	"Azabın geleceği gün zulmedenler 'Rabbimiz bizi az bir süre ertele' der"
+8	EK	islam	16:89	16:89	rahmet	✓	Kitap "teslim olanlar için (li'l-müslimîn) hidayet, rahmet ve müjde"
+8	EK	islam	16:89	16:89	mujde	✓
+8	EK	iman	16:102	16:102	yardim_sebat	✓	"İman edenleri sağlamlaştırmak (li-yusebbite'llezîne âmenû) için; teslim olanlara hidayet ve müjde olarak"
+8	EK	islam	16:102	16:102	mujde	✓
+9	EK	resulu_yurttan_cikarma_istegi_firavun	17:103	17:103	gark	✓	Firavun "onları yerden sürüp çıkarmak istedi; biz de onu ve beraberindekilerin hepsini suda boğduk"
+9	EK	kufur	19:37	19:37	vay	✓	"Gruplar aralarında ayrılığa düştü; inkâr edenlere büyük bir günün tanıklığından ötürü vay (veyl)"
+9	EK	ahireti_inkar	19:66	19:68	cehennem	✓	19:66 "Ölünce mi diriltileceğim?" diyen insan; 19:68 "onları şeytanlarla birlikte haşredip cehennemin çevresinde diz üstü hazır bulunduracağız"
+9	EK	sihir	20:69	20:69	felah_yok	→	"Sihirbaz nereden gelirse gelsin kurtuluşa ermez (lâ yuflihu's-sâhir)"
+9	EK	kufur	21:39	21:39	nar	✓	"İnkâr edenler, ateşi yüzlerinden ve sırtlarından savamayacakları zamanı bir bilselerdi"
+9	EK	sirk	23:117	23:117	hesaba_cekilme	✓	"Kim Allah ile birlikte, hakkında hiçbir kanıtı olmayan başka bir ilaha yakarırsa, onun hesabı Rabbinin katındadır"
+9	EK	sirk	23:117	23:117	felah_yok	→	"Kâfirler kurtuluşa ermez (lâ yuflihu'l-kâfirûn)"
+9	EK	yalan	24:7	24:7	lanet	✓	lian yemininin beşincisi: "yalancılardansa Allah'ın laneti onun üzerine olsun" (kendi aleyhine şartlı)
+9	EK	yalan	24:9	24:9	gazab	✓	lian: kadının beşinci tanıklığı "o doğru söyleyenlerdense Allah'ın gazabı kendi üzerine olsun" (kendi aleyhine şartlı)
+9	EK	resule_isyan_firavun	26:60	26:66	gark	→	Firavun ve ordusu Mûsâ'nın kavmini izledi (26:60); "sonra ötekileri suda boğduk" (26:66); sebep edatı yok, sıra bağı
+9	EK	resulleri_yalanlama	26:105	26:120	gark	→	"Nûh kavmi elçileri yalanladı" (26:105); Nûh: "kavmim beni yalanladı" (26:117); "sonra geride kalanları boğduk" (26:120)
+9	EK	zorbalik	26:130	26:135	azap_buyuk_gun	→	Hûd: "Yakaladığınızda zorbalar gibi yakalıyorsunuz" (26:130); "Sizin için büyük bir günün azabından korkuyorum" (26:135)
+9	EK	resulleri_yalanlama	26:160	26:172	helak	→	"Lût kavmi elçileri yalanladı" (26:160); "sonra ötekileri yerle bir ettik (dammarnâ)" (26:172)
+9	EK	erkeklere_gitme	26:165	26:172	helak	→	"Âlemler içinden erkeklere mi gidiyorsunuz" (26:165); "ötekileri yerle bir ettik" (26:172)
+8	EK	istigfar	27:46	27:46	rahmet	✓	Sâlih: "Allah'tan bağışlanma dilemeli değil miydiniz, umulur ki merhamet görürsünüz (la'allakum turhamûn)"
+8	EK	istigfar	28:16	28:16	magfiret	✓	Mûsâ: "Rabbim, kendime zulmettim, beni bağışla"; "O da onu bağışladı (fe-ğafera leh)"
+9	EK	zulum	28:37	28:37	felah_yok	→	Mûsâ: "Zalimler kurtuluşa ermez (lâ yuflihu'z-zâlimûn)"
+9	EK	kufur	28:82	28:82	felah_yok	→	Kârûn'un yerinde olmayı dileyenler: "Demek ki kâfirler kurtuluşa ermez"
+9	EK	zulum	29:14	29:14	tufan	✓	Nûh kavmi: "Onlar zalimken (ve hum zâlimûn) tufan onları yakaladı"
+8	EK	iman	36:25	36:27	magfiret	✓	"Rabbinize iman ettim" (36:25); "Rabbimin beni bağışladığını ve ikram edilenlerden kıldığını" (36:27)
+8	EK	takva	36:45	36:45	rahmet	✓	"Önünüzdekinden ve ardınızdakinden sakının, umulur ki merhamet görürsünüz (la'allakum turhamûn)" denince yüz çevirirler
+9	EK	suc_isleme	37:34	37:33	azapta_ortaklik	→	"O gün azapta ortaktırlar; biz suçlulara (el-mücrimîn) böyle yaparız"
+8	EK	istigfar	38:24	38:25	magfiret	✓	Dâvûd "Rabbinden bağışlanma diledi, eğilerek yere kapandı ve yöneldi" (38:24); "biz de onu bağışladık; katımızda ona yakınlık ve güzel bir dönüş var" (38:25)
+8	EK	inabe	38:24	38:25	magfiret	✓
+8	EK	dogruyu_getirmek_ve_tasdik	39:33	39:35	gunah_ortme	✓	"Doğruyu getiren ve onu doğrulayan" (39:33); "Allah yaptıklarının en kötüsünü örtsün, ecirlerini yaptıklarının en güzeliyle versin diye" (39:35)
+8	EK	dogruyu_getirmek_ve_tasdik	39:33	39:35	ecir	✓
+9	EK	resule_inanmama_firavun	40:37	40:46	nar	→	"Ateş: sabah akşam ona sunulurlar; kıyamet günü 'Firavun ailesini azabın en şiddetlisine sokun'" (B166 devamı)
+9	EK	resule_inanmama_firavun	40:37	40:46	azap_siddetli	→	"eşedde'l-azâb" (azabın en şiddetlisi)
+9	EK	batil_ehli	40:78	40:78	husran	→	"Allah'ın emri gelince hak ile hükmedilir ve orada batıla uyanlar (el-mubtilûn) hüsrana uğrar"
+8	EK	takva	44:51	44:56	azaptan_korunma	✓	"Onları cehennem azabından korudu (ve vekâhum azâbe'l-cahîm)"
+8	EK	takva	44:51	44:57	fevz	✓	"Rabbinden bir lütuf olarak; büyük kurtuluş budur (zâlike huve'l-fevzu'l-azîm)"
+8	EK	islah	49:10	49:10	rahmet	✓	"Kardeşlerinizin arasını düzeltin, Allah'tan sakının, umulur ki merhamet görürsünüz (la'allakum turhamûn)"
+8	EK	takva	49:10	49:10	rahmet	✓
+9	EK	kufur	51:60	51:60	vay	✓	"İnkâr edenlere, kendilerine vaat edilen günlerinden ötürü vay (veyl)"
+9	EK	yalanlama	52:11	52:11	vay	✓	"O gün vay yalanlayanlara (li'l-mukezzibîn)"
+9	EK	bos_lakirdiya_dalma	52:12	52:11	vay	✓	"Onlar ki boş işlere dalıp oynarlar (fî havdin yel'abûn)"
+8	EK	takva	52:17	52:18	azaptan_korunma	✓	"Rableri onları cehennem azabından korudu (ve vekâhum rabbuhum azâbe'l-cahîm)"
+9	EK	yalanlama	54:9	54:16	azap	✓	Nûh kavmi "yalanladı; kulumuzu yalanladılar, 'deli' dediler" (54:9); "nasıl oldu azabım ve uyarılarım" (54:16)
+9	EK	uyarilari_yalanlama	54:23	54:31	tek_ses	✓	"Semûd uyarıları yalanladı" (54:23); "üzerlerine tek bir sayha gönderdik" (54:31)
+9	EK	misafirlere_tecavuz_istegi	54:37	54:38	azap_surekli	✓	"Sabah erkenden yerleşik bir azap (azâbun mustekirr) onları bastı"; 54:39 "tadın azabımı ve uyarılarımı"
+9	EK	uyarilari_yalanlama	54:33	54:38	azap_surekli	✓	Lût kavmi (54:33); "azâbun mustekirr" (54:38)
+8	EK	iman_allah_resul	61:11	61:10	azaptan_korunma	✓	"Sizi acıklı bir azaptan kurtaracak bir ticaret (tucâratin tuncîkum min azâbin elîm)": Allah'a ve elçisine iman, mal ve canla cihad
+8	EK	mal_ve_canla_cihad	61:11	61:10	azaptan_korunma	✓
+9	EK	mirasi_yeme_mali_asiri_sevme	89:19	89:25	azap_essiz	→	"O gün O'nun azap edişi gibi kimse azap edemez, bağlayışı gibi kimse bağlayamaz" (B241 devamı)
+9	EK	kufur	2:93	2:93	icl_sevgisi	✓	"'İşittik ve karşı geldik' dediler; küfürleri yüzünden buzağı (sevgisi) kalplerine içirildi (uşribû fî kulûbihimu'l-icle bi-kufrihim)"
+9	EK	sihir	2:102	2:102	ahirette_nasip_yok	✓	"Onu (sihri) satın alanın ahirette bir payı (halâk) olmadığını biliyorlardı"
+9	EK	kufur	2:191	2:191	oldurulme	→	"Sizinle savaşırlarsa onları öldürün; kâfirlerin cezası böyledir (kezâlike cezâu'l-kâfirîn)"
+8	EK	taguttan_kacinmak	2:256	2:256	saglam_kulp	✓	"Kim tâğûtu inkâr edip Allah'a iman ederse, kopması olmayan en sağlam kulpa yapışmıştır" (31:22 paraleli)
+8	EK	iman_allah	2:256	2:256	saglam_kulp	✓
+9	EK	zulum	4:153	4:153	yildirim	✓	"Bize Allah'ı açıkça göster' dediler; zulümleri yüzünden yıldırım (es-sâika) onları yakaladı (bi-zulmihim)"
+9	EK	ayetlere_inanmama	7:132	7:133	tufan	✓	"Ne ayet getirirsen getir sana inanacak değiliz" (7:132); "biz de üzerlerine tufan, çekirge, haşere, kurbağa ve kan gönderdik" (7:133); "büyüklendiler, suçlu bir topluluktu"
+9	EK	deveyi_kesme	7:77	7:78	sarsinti	✓	Semûd "deveyi kestiler, Rablerinin emrine baş kaldırdılar" (7:77); "sarsıntı (er-racfe) onları yakaladı" (7:78)
+9	EK	azginlik	7:77	7:78	sarsinti	✓	"Rablerinin emrinden baş kaldırdılar ('atev an emri rabbihim)"
+9	EK	kufur	7:90	7:91	sarsinti	✓	Şuayb kavminin inkâr eden ileri gelenleri: "Şuayb'a uyarsanız hüsrana uğrarsınız" (7:90); "sarsıntı onları yakaladı" (7:91)
+9	EK	allah_yolundan_alikoyma	7:86	7:91	sarsinti	→	Şuayb: "İnananları Allah yolundan alıkoymak için her yolda oturmayın" (7:86); aynı kıssa 7:91
+9	EK	seferden_geri_kalma	9:81	9:82	aglama	✓	"Kazandıklarına karşılık (cezâen bimâ kânû yeksibûn) az gülsünler, çok ağlasınlar"
+8	EK	iman	10:103	10:103	kurtulus	✓	"Sonra elçilerimizi ve iman edenleri kurtarırız; müminleri kurtarmak üzerimize bir haktır"
+8	EK	marufu_emir_munkerden_nehiy	11:116	11:116	dunyevi_kurtulus	✓	"Sizden önceki kuşaklardan yeryüzünde bozgunculuğu önleyen (yenhevne ani'l-fesâd) erdem sahipleri... aralarından kurtardığımız pek azı müstesna"
+9	EK	hirsizlik	12:75	12:75	cezalandirma	→	Yûsuf'un kardeşleri: "Cezası, (kayıp) yükünde bulunan kişinin kendisidir; zalimleri biz böyle cezalandırırız"
+8	EK	sadaka	12:88	12:88	karsilik	→	"Allah sadaka verenleri ödüllendirir (yeczi'l-mutesaddikîn)"
+9	EK	suc_isleme	15:58	15:73	tek_ses	→	Melekler: "Suçlu bir topluluğa (kavmin mucrimîn) gönderildik" (15:58); "doğarken sayha onları yakaladı" (15:73)
+9	EK	misafirlere_tecavuz_istegi	15:67	15:73	tek_ses	✓	15:67-72 şehir halkı misafirler için sevinerek geldi; "sayha onları yakaladı" (15:73)
+9	EK	misafirlere_tecavuz_istegi	15:67	15:74	helak	✓	"Oranın üstünü altına getirdik, üzerlerine pişmiş çamurdan taşlar yağdırdık"
+9	EK	zulum	15:78	15:79	intikam	✓	"Eyke halkı da zalimdi (le-zâlimîn)" (15:78); "biz de onlardan intikam aldık" (15:79)
+9	EK	resulleri_yalanlama	15:80	15:83	tek_ses	✓	"Hicr halkı elçileri yalanladı" (15:80); "sabaha girerken sayha onları yakaladı" (15:83); 15:84 kazandıkları fayda vermedi
+9	EK	ayetlerden_yuz_cevirme	15:81	15:83	tek_ses	✓	"Onlara ayetlerimizi verdik, ama onlardan yüz çeviriyorlardı"
+8	EK	takva	20:132	20:132	akibet	→	"Sonuç takvanındır (ve'l-âkıbetu li't-takvâ)"
+8	EK	dua	21:76	21:76	dua_kabulu	✓	Nûh "daha önce yakarmıştı; ona karşılık verdik (fe'stecebnâ leh), onu ve ailesini büyük sıkıntıdan kurtardık"
+9	EK	likaullahi_yalanlama	23:33	23:41	tek_ses	→	"İnkâr eden, ahirete kavuşmayı yalanlayan ileri gelenler" (23:33); "sayha onları hak ile yakaladı, onları sel süprüntüsüne çevirdik; uzak olsun zalim topluluk" (23:41)
+8	EK	sukur	27:40	27:40	kendi_lehine	✓	Süleyman: "Kim şükrederse kendi lehine şükreder"
+8	EK	iman	27:53	27:53	dunyevi_kurtulus	✓	kıssa (Sâlih): "İman edip sakınanları kurtardık"
+8	EK	takva	27:53	27:53	dunyevi_kurtulus	✓
+8	EK	iman	29:7	29:7	gunah_ortme	✓	"İman edip salih amel işleyenlerin kötülüklerini örteceğiz ve onları yaptıklarının en güzeliyle ödüllendireceğiz"
+8	EK	salih_amel	29:7	29:7	gunah_ortme	✓
+8	EK	iman	29:7	29:7	karsilik	✓
+8	EK	salih_amel	29:7	29:7	karsilik	✓
+9	EK	suc_isleme	30:47	30:47	intikam	✓	"Suç işleyenlerden intikam aldık (fe'ntekamnâ mine'llezîne ecramû)"
+8	EK	iman	30:47	30:47	yardim	✓	"Müminlere yardım etmek üzerimize bir haktır"
+8	EK	sukur	31:12	31:12	kendi_lehine	✓	"Kim şükrederse kendi lehine şükreder"
+8	EK	ihlas	37:40	37:41	rizik	✓	ibâdallâhi'l-muhlasîn: "Onlar için bilinen bir rızık vardır" (B157 devamı)
+9	EK	sirk	39:3	39:3	hidayet_edilmeme	→	"O'nun dışında veliler edinenler: 'Bizi Allah'a yaklaştırsınlar diye tapıyoruz'... Allah yalancı ve nankör olanı doğru yola iletmez"
+8	EK	takva	39:61	39:61	kurtulus	✓	"Allah sakınanları başarılarıyla (bi-mefâzetihim) kurtarır; onlara kötülük dokunmaz, üzülmezler de"
+8	EK	takva	39:61	39:61	korku_yok	✓
+8	EK	iman	41:18	41:18	dunyevi_kurtulus	✓	kıssa (Semûd): "İman edip sakınanları kurtardık"
+8	EK	takva	41:18	41:18	dunyevi_kurtulus	✓
+9	EK	atalara_koru_koruna_uyma	43:23	43:25	intikam	✓	"Biz atalarımızı bir din üzerinde bulduk, onların izinden gidiyoruz" (43:23); "onlardan intikam aldık; yalanlayanların sonu nice oldu bak" (43:25)
+9	EK	kufur	43:24	43:25	intikam	✓	"Biz sizinle gönderilen şeyi inkâr ediyoruz (innâ bimâ ursiltum bihî kâfirûn)"
+9	EK	zikirden_yuz_cevirme	43:36	43:41	intikam	→	"Seni alıp götürsek de biz onlardan intikam alacağız (fe-innâ minhum muntekimûn)" (B173 devamı)
+8	EK	bey_ate_vefa	48:18	48:18	rıza	✓	"Ağacın altında sana biat ederlerken Allah müminlerden razı oldu; kalplerindekini bildi, üzerlerine sekîneti indirdi ve onlara yakın bir fetih verdi"
+8	EK	bey_ate_vefa	48:18	48:18	sekine	✓
+8	EK	bey_ate_vefa	48:18	48:18	fetih	✓
+9	EK	azginlik	51:44	51:44	yildirim	✓	Semûd "Rablerinin emrine baş kaldırdılar ('atev); bakıp dururlarken yıldırım (es-sâika) onları yakaladı"
+8	EK	sukur	54:35	54:34	kurtulus	✓	Lût ailesi: "Seher vakti onları kurtardık; katımızdan bir nimet olarak. Şükredeni böyle ödüllendiririz (kezâlike neczî men şeker)" (54:35)
+8	EK	sabikun	56:10	56:24	karsilik	✓	"Yaptıklarına karşılık olarak (cezâen bimâ kânû ya'melûn)" (B200 devamı)
+8	EK	takva	78:31	78:31	fevz	✓	"Sakınanlar için bir kurtuluş/başarı yeri (mefâz) vardır"; 78:32-35 bahçeler, üzüm bağları
+8	EK	takva	78:31	78:36	karsilik	✓	"Rabbinden bir karşılık, hesaplı bir bağış (cezâen min rabbike atâen hisâbâ)"
+9	EK	kafirleri_dost_edinme	3:28	3:28	allahtan_kopma	✓	"Müminler, müminleri bırakıp kâfirleri veli edinmesin; kim bunu yaparsa Allah ile hiçbir bağı kalmaz (fe-leyse mine'llâhi fî şey')"
+8	EK	ahireti_istemek	4:134	4:134	ahiret_sevabi	→	"Kim dünya sevabını isterse, dünya ve ahiret sevabı Allah katındadır"
+8	EK	kitaba_sarilmak	5:66	5:66	dunyevi_bereket	✓	"Tevrat'ı, İncil'i ve Rablerinden indirileni ayakta tutsalardı (ekâmû), üstlerinden ve ayaklarının altından yerlerdi"
+9	EK	iman_etmeme	6:125	6:125	rics	→	"Allah iman etmeyenlerin üzerine pisliği (er-rics) böyle kılar"
+9	EK	akletmeme	10:100	10:100	rics	→	"Allah, aklını kullanmayanların (lâ ya'kılûn) üzerine pisliği (er-rics) kılar"
+8	EK	sabir	13:22	13:24	selam	✓	melekler: "Sabretmenize karşılık size selam (bimâ sabertum); yurdun sonu ne güzel" (B077 devamı)
+9	EK	zulum	20:111	20:111	basarisizlik	✓	"Zulüm yüklenen kesinlikle hüsrana/umutsuzluğa düşmüştür (ve kad hâbe men hamele zulmâ)"
+9	EK	resulleri_yalanlama	26:160	26:173	yagmur	→	Lût kavmi: "Üzerlerine bir yağmur yağdırdık; uyarılanların yağmuru ne kötüdür"
+9	EK	erkeklere_gitme	27:55	27:58	yagmur	✓	"Şehvetle kadınları bırakıp erkeklere mi gidiyorsunuz" (27:55); "üzerlerine bir yağmur yağdırdık; uyarılanların yağmuru ne kötüdür" (27:58)
+8	EK	tevbe_islah	27:11	27:11	magfiret	✓	"Ancak zulmeden, sonra kötülüğün ardından onu güzellikle değiştiren müstesna; ben bağışlayanım, merhamet edenim"
+8	EK	itaat	28:35	28:35	galibiyet	✓	"Ayetlerimizle siz ikiniz ve size uyanlar galip gelecek olanlardır (el-ğâlibûn)"
+9	EK	azabi_acele_isteme	37:176	37:177	kotu_sabah	✓	"Azabımızı mı acele istiyorlar? O, alanlarına indiğinde uyarılanların sabahı ne kötüdür"
+8	EK	istigfar	38:24	38:25	zulfa	✓	Dâvûd: "katımızda onun için yakınlık (zulfâ) ve güzel bir dönüş (husnu meâb) var"
+8	EK	inabe	38:34	38:40	zulfa	✓	Süleyman "yöneldi (enâbe)" (38:34); "katımızda onun için yakınlık ve güzel bir dönüş var" (38:40)
+9	EK	azginlik	38:55	38:57	kaynar_su_ve_atik_su	✓	"İşte kaynar su ve irin (hamîm ve ğassâk); tatsınlar onu" (B160 devamı)
+9	EK	yapmadigini_soyleme	61:2	61:3	makt	✓	"Yapmayacağınız şeyi niçin söylüyorsunuz?" (61:2); "Yapmayacağınızı söylemeniz Allah katında büyük bir öfke (makt) sebebidir" (61:3)
+9	EK	namazi_terk	75:31	75:34	evla	✓	"Ne doğruladı ne namaz kıldı (75:31); ama yalanladı ve yüz çevirdi (75:32)... Yazıklar olsun sana, evet yazıklar olsun (evlâ leke fe-evlâ)" (75:34-35)
+9	EK	yalanlama	75:32	75:34	evla	✓
+9	EK	yuz_cevirme	75:32	75:34	evla	✓
+8	EK	ebrar_olmak	82:13	82:13	naim	✓	"İyiler (el-ebrâr) nimet (na'îm) içindedir"
+8	EK	ebrar_olmak	83:18	83:18	illiyyin	✓	"İyilerin kitabı illiyyîn içindedir"
+8	EK	ebrar_olmak	83:18	83:22	naim	✓	"İyiler nimet içindedir; yüzlerinde nimetin parıltısını tanırsın" (83:22-24); 83:25-28 mühürlü içki, tesnîm
+9	EK	azginlik	96:6	96:15	nasiye	✓	"İnsan, kendini müstağni gördüğü için azar (le-yatğâ)" (96:6-7); "vazgeçmezse onu perçeminden (bi'n-nâsiye) yakalayıp sürükleriz" (96:15); 96:18 zebanileri çağıracağız
+9	EK	namazdan_alikoyma	96:9	96:15	nasiye	✓	"Namaz kılan bir kulu engelleyeni gördün mü?" (96:9-10)
+9	EK	yalanlama	96:13	96:15	nasiye	✓	"Yalanlayıp yüz çevirdiyse" (96:13)
+9	EK	nefsi_kirletme	91:10	91:10	basarisizlik	✓	"Onu (nefsini) örtüp kirleten (dessâhâ) kesinlikle hüsrana/umutsuzluğa düşmüştür (kad hâbe)" (91:9 paraleli)
+9	EK	zulum	2:270	2:270	yardimsizlik	→	"Zalimlerin hiç yardımcıları yoktur (mâ li'z-zâlimîne min ensâr)"
+9	EK	kafirleri_dost_edinme	5:51	5:51	onlardan_sayilma	✓	"Yahudileri ve Hıristiyanları veli edinmeyin... Sizden kim onları veli edinirse o onlardandır (fe-innehû minhum)"
+9	EK	kafirleri_dost_edinme	5:51	5:51	hidayet_edilmeme	→	"Allah zalim topluluğu doğru yola iletmez"
+9	EK	kufur	5:67	5:67	hidayet_edilmeme	→	"Allah kâfir topluluğu doğru yola iletmez"
+9	EK	nesi_haram_aylari_kaydirma	9:37	9:37	hidayet_edilmeme	→	"Nesî küfürde bir artıştır... kötü işleri kendilerine süslendi; Allah kâfir topluluğu doğru yola iletmez"
+9	EK	sihir	10:81	10:81	amel_bosa	✓	Mûsâ: "Getirdiğiniz sihirdir; Allah onu boşa çıkaracak (se-yubtiluh)"
+9	EK	fesat	10:81	10:81	basarisizlik	→	"Allah bozguncuların işini düzeltmez/başarılı kılmaz (lâ yuslihu amele'l-mufsidîn)"
+9	EK	hiyanet	12:52	12:52	basarisizlik	→	"Allah hainlerin tuzağını hedefe ulaştırmaz (lâ yehdî keyde'l-hâ'inîn)"
+9	EK	allahtan_baska_tapinma	22:71	22:71	yardimsizlik	→	"Allah'ın hakkında hiçbir kanıt indirmediği şeylere tapıyorlar... Zalimlerin hiç yardımcısı yoktur"
+9	EK	heva_ardina_dusme	28:50	28:50	hidayet_edilmeme	→	"Allah'tan bir yol gösterici olmaksızın hevasına uyandan daha sapık kim? Allah zalim topluluğu doğru yola iletmez"
+8	EK	iman	30:15	30:15	ravda	✓	"İman edip salih amel işleyenler bir bahçede (ravda) sevindirilirler (yuhberûn)"
+8	EK	salih_amel	30:15	30:15	ravda	✓
+9	EK	nefse_zulum	34:19	34:19	dagitilma	✓	Sebe': "Kendilerine zulmettiler; biz de onları efsaneler (ehâdîs) kıldık ve darmadağın ettik (mezzaknâhum kulle mumezzak)"
+9	EK	israf	40:28	40:28	hidayet_edilmeme	→	Firavun ailesinden mümin: "Allah aşırı giden yalancıyı (musrifun kezzâb) doğru yola iletmez"
+9	EK	yalan	40:28	40:28	hidayet_edilmeme	→
+9	EK	kitabi_inkar	46:10	46:10	hidayet_edilmeme	→	"O Allah katındansa ve siz onu inkâr ettiyseniz... ve siz büyüklendiyseniz? Allah zalim topluluğu doğru yola iletmez"
+9	EK	kibir	46:10	46:10	hidayet_edilmeme	→

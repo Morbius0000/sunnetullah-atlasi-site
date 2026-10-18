@@ -647,3 +647,78 @@ EK05	ayetlere_iman	23:58	23:61	hayirda_yarisma	✓
 EK05	sirk_kosmamak	23:59	23:61	hayirda_yarisma	✓
 EK05	ürpererek_vermek	23:60	23:61	hayirda_yarisma	✓
 EK06	ebrar_cabasi	76:22	76:22	ecir_sukran	✓	sa'yukum meşkûrâ
+EK05	iman	3:171	3:171	ecir	→	"Allah müminlerin ecrini zayi etmez"; 3:169-171 Allah yolunda öldürülenler hakkında
+EK05	iman	6:48	6:48	korku_yok	✓	"Kim iman eder ve düzeltirse (âmene ve aslaha) onlara korku yoktur, üzülmezler de"
+EK05	islah	6:48	6:48	korku_yok	✓	
+EK05	iman	7:96	7:96	dunyevi_bereket	✓	"Kentlerin halkı iman edip sakınsalardı (âmenû ve'ttekav) onlara gökten ve yerden bereketler açardık"
+EK05	takva	7:96	7:96	dunyevi_bereket	✓	
+EK05	istigfar	8:33	8:33	azaptan_korunma	✓	"Onlar bağışlanma dilerken (hum yestağfirûn) Allah onlara azap edecek değildir"
+EK05	tevbe_vazgecme	8:38	8:38	magfiret	✓	"İnkâr edenlere de ki: vazgeçerlerse (in yentehû) geçmişte olanlar bağışlanır"
+EK05	kalpte_hayir	8:70	8:70	hayir	✓	esirlere: "Allah kalplerinizde bir hayır bilirse sizden alınandan daha hayırlısını verir ve sizi bağışlar"
+EK05	kalpte_hayir	8:70	8:70	magfiret	✓	
+EK05	iman	10:63	10:64	mujde	✓	10:62-63 Allah'ın velileri (iman + takva): "dünya hayatında da ahirette de müjde onlarındır; büyük kurtuluş budur"
+EK05	takva	10:63	10:64	mujde	✓	
+EK05	iman	10:63	10:64	fevz	✓	
+EK05	takva	10:63	10:64	fevz	✓	
+EK05	iman	10:98	10:98	dunyevi_kurtulus	✓	Yûnus kavmi: "İman edince onlardan dünya hayatındaki rezillik azabını (azâbe'l-hizy) kaldırdık ve bir süreye kadar yararlandırdık"
+EK05	iman	2:97	2:97	mujde	✓	Kur'an "müminler için hidayet ve müjde (büşrâ)"
+EK05	iman_peygamberle	11:66	11:66	dunyevi_kurtulus	✓	kıssa (Sâlih): "Sâlih'i ve onunla birlikte iman edenleri katımızdan bir rahmetle kurtardık, o günün rezilliğinden de"
+EK05	islam	16:89	16:89	rahmet	✓	Kitap "teslim olanlar için (li'l-müslimîn) hidayet, rahmet ve müjde"
+EK05	islam	16:89	16:89	mujde	✓	
+EK05	iman	16:102	16:102	yardim_sebat	✓	"İman edenleri sağlamlaştırmak (li-yusebbite'llezîne âmenû) için; teslim olanlara hidayet ve müjde olarak"
+EK05	islam	16:102	16:102	mujde	✓	
+EK05	istigfar	27:46	27:46	rahmet	✓	Sâlih: "Allah'tan bağışlanma dilemeli değil miydiniz, umulur ki merhamet görürsünüz (la'allakum turhamûn)"
+EK05	istigfar	28:16	28:16	magfiret	✓	Mûsâ: "Rabbim, kendime zulmettim, beni bağışla"; "O da onu bağışladı (fe-ğafera leh)"
+EK05	iman	36:25	36:27	magfiret	✓	"Rabbinize iman ettim" (36:25); "Rabbimin beni bağışladığını ve ikram edilenlerden kıldığını" (36:27)
+EK05	takva	36:45	36:45	rahmet	✓	"Önünüzdekinden ve ardınızdakinden sakının, umulur ki merhamet görürsünüz (la'allakum turhamûn)" denince yüz çevirirler
+EK05	istigfar	38:24	38:25	magfiret	✓	Dâvûd "Rabbinden bağışlanma diledi, eğilerek yere kapandı ve yöneldi" (38:24); "biz de onu bağışladık; katımızda ona yakınlık ve güzel bir dönüş var" (38:25)
+EK05	inabe	38:24	38:25	magfiret	✓	
+EK05	dogruyu_getirmek_ve_tasdik	39:33	39:35	gunah_ortme	✓	"Doğruyu getiren ve onu doğrulayan" (39:33); "Allah yaptıklarının en kötüsünü örtsün, ecirlerini yaptıklarının en güzeliyle versin diye" (39:35)
+EK05	dogruyu_getirmek_ve_tasdik	39:33	39:35	ecir	✓	
+EK05	takva	44:51	44:56	azaptan_korunma	✓	"Onları cehennem azabından korudu (ve vekâhum azâbe'l-cahîm)"
+EK05	takva	44:51	44:57	fevz	✓	"Rabbinden bir lütuf olarak; büyük kurtuluş budur (zâlike huve'l-fevzu'l-azîm)"
+EK05	islah	49:10	49:10	rahmet	✓	"Kardeşlerinizin arasını düzeltin, Allah'tan sakının, umulur ki merhamet görürsünüz (la'allakum turhamûn)"
+EK05	takva	49:10	49:10	rahmet	✓	
+EK05	takva	52:17	52:18	azaptan_korunma	✓	"Rableri onları cehennem azabından korudu (ve vekâhum rabbuhum azâbe'l-cahîm)"
+EK05	iman_allah_resul	61:11	61:10	azaptan_korunma	✓	"Sizi acıklı bir azaptan kurtaracak bir ticaret (tucâratin tuncîkum min azâbin elîm)": Allah'a ve elçisine iman, mal ve canla cihad
+EK05	mal_ve_canla_cihad	61:11	61:10	azaptan_korunma	✓	
+EK05	taguttan_kacinmak	2:256	2:256	saglam_kulp	✓	"Kim tâğûtu inkâr edip Allah'a iman ederse, kopması olmayan en sağlam kulpa yapışmıştır" (31:22 paraleli)
+EK05	iman_allah	2:256	2:256	saglam_kulp	✓	
+EK05	iman	10:103	10:103	kurtulus	✓	"Sonra elçilerimizi ve iman edenleri kurtarırız; müminleri kurtarmak üzerimize bir haktır"
+EK05	marufu_emir_munkerden_nehiy	11:116	11:116	dunyevi_kurtulus	✓	"Sizden önceki kuşaklardan yeryüzünde bozgunculuğu önleyen (yenhevne ani'l-fesâd) erdem sahipleri... aralarından kurtardığımız pek azı müstesna"
+EK05	sadaka	12:88	12:88	karsilik	→	"Allah sadaka verenleri ödüllendirir (yeczi'l-mutesaddikîn)"
+EK05	takva	20:132	20:132	akibet	→	"Sonuç takvanındır (ve'l-âkıbetu li't-takvâ)"
+EK05	dua	21:76	21:76	dua_kabulu	✓	Nûh "daha önce yakarmıştı; ona karşılık verdik (fe'stecebnâ leh), onu ve ailesini büyük sıkıntıdan kurtardık"
+EK05	sukur	27:40	27:40	kendi_lehine	✓	Süleyman: "Kim şükrederse kendi lehine şükreder"
+EK05	iman	27:53	27:53	dunyevi_kurtulus	✓	kıssa (Sâlih): "İman edip sakınanları kurtardık"
+EK05	takva	27:53	27:53	dunyevi_kurtulus	✓	
+EK05	iman	29:7	29:7	gunah_ortme	✓	"İman edip salih amel işleyenlerin kötülüklerini örteceğiz ve onları yaptıklarının en güzeliyle ödüllendireceğiz"
+EK05	salih_amel	29:7	29:7	gunah_ortme	✓	
+EK05	iman	29:7	29:7	karsilik	✓	
+EK05	salih_amel	29:7	29:7	karsilik	✓	
+EK05	iman	30:47	30:47	yardim	✓	"Müminlere yardım etmek üzerimize bir haktır"
+EK05	sukur	31:12	31:12	kendi_lehine	✓	"Kim şükrederse kendi lehine şükreder"
+EK05	ihlas	37:40	37:41	rizik	✓	ibâdallâhi'l-muhlasîn: "Onlar için bilinen bir rızık vardır" (B157 devamı)
+EK05	takva	39:61	39:61	kurtulus	✓	"Allah sakınanları başarılarıyla (bi-mefâzetihim) kurtarır; onlara kötülük dokunmaz, üzülmezler de"
+EK05	takva	39:61	39:61	korku_yok	✓	
+EK05	iman	41:18	41:18	dunyevi_kurtulus	✓	kıssa (Semûd): "İman edip sakınanları kurtardık"
+EK05	takva	41:18	41:18	dunyevi_kurtulus	✓	
+EK05	bey_ate_vefa	48:18	48:18	rıza	✓	"Ağacın altında sana biat ederlerken Allah müminlerden razı oldu; kalplerindekini bildi, üzerlerine sekîneti indirdi ve onlara yakın bir fetih verdi"
+EK05	bey_ate_vefa	48:18	48:18	sekine	✓	
+EK05	bey_ate_vefa	48:18	48:18	fetih	✓	
+EK05	sukur	54:35	54:34	kurtulus	✓	Lût ailesi: "Seher vakti onları kurtardık; katımızdan bir nimet olarak. Şükredeni böyle ödüllendiririz (kezâlike neczî men şeker)" (54:35)
+EK05	sabikun	56:10	56:24	karsilik	✓	"Yaptıklarına karşılık olarak (cezâen bimâ kânû ya'melûn)" (B200 devamı)
+EK05	takva	78:31	78:31	fevz	✓	"Sakınanlar için bir kurtuluş/başarı yeri (mefâz) vardır"; 78:32-35 bahçeler, üzüm bağları
+EK05	takva	78:31	78:36	karsilik	✓	"Rabbinden bir karşılık, hesaplı bir bağış (cezâen min rabbike atâen hisâbâ)"
+EK05	ahireti_istemek	4:134	4:134	ahiret_sevabi	→	"Kim dünya sevabını isterse, dünya ve ahiret sevabı Allah katındadır"
+EK05	kitaba_sarilmak	5:66	5:66	dunyevi_bereket	✓	"Tevrat'ı, İncil'i ve Rablerinden indirileni ayakta tutsalardı (ekâmû), üstlerinden ve ayaklarının altından yerlerdi"
+EK05	sabir	13:22	13:24	selam	✓	melekler: "Sabretmenize karşılık size selam (bimâ sabertum); yurdun sonu ne güzel" (B077 devamı)
+EK05	tevbe_islah	27:11	27:11	magfiret	✓	"Ancak zulmeden, sonra kötülüğün ardından onu güzellikle değiştiren müstesna; ben bağışlayanım, merhamet edenim"
+EK05	itaat	28:35	28:35	galibiyet	✓	"Ayetlerimizle siz ikiniz ve size uyanlar galip gelecek olanlardır (el-ğâlibûn)"
+EK05	istigfar	38:24	38:25	zulfa	✓	Dâvûd: "katımızda onun için yakınlık (zulfâ) ve güzel bir dönüş (husnu meâb) var"
+EK05	inabe	38:34	38:40	zulfa	✓	Süleyman "yöneldi (enâbe)" (38:34); "katımızda onun için yakınlık ve güzel bir dönüş var" (38:40)
+EK05	ebrar_olmak	82:13	82:13	naim	✓	"İyiler (el-ebrâr) nimet (na'îm) içindedir"
+EK05	ebrar_olmak	83:18	83:18	illiyyin	✓	"İyilerin kitabı illiyyîn içindedir"
+EK05	ebrar_olmak	83:18	83:22	naim	✓	"İyiler nimet içindedir; yüzlerinde nimetin parıltısını tanırsın" (83:22-24); 83:25-28 mühürlü içki, tesnîm
+EK05	iman	30:15	30:15	ravda	✓	"İman edip salih amel işleyenler bir bahçede (ravda) sevindirilirler (yuhberûn)"
+EK05	salih_amel	30:15	30:15	ravda	✓	
